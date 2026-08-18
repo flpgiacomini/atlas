@@ -34,7 +34,12 @@
     "source_processed": 24,
     "source_added": 24,
     "source_updated": 0,
-    "source_errors": 0
+    "source_errors": 0,
+    "statement_rows": 131,
+    "statement_processed": 0,
+    "statement_added": 0,
+    "statement_updated": 0,
+    "statement_errors": 0
   },
   "critical_semantic_loss": null,
   "evidence": [
@@ -47,10 +52,15 @@
     "Record type Atlas Source criado com Atlas Source ID e Title, ambos obrigatórios.",
     "sources_for_heurist.csv analisado como CSV com 24 linhas e caracteres UTF-8 preservados.",
     "Matching de fontes executado por Atlas Source ID: zero registros existentes e 24 novos.",
-    "Importação de fontes concluída: 24 processados, 24 adicionados, zero atualizados e zero erros."
+    "Importação de fontes concluída: 24 processados, 24 adicionados, zero atualizados e zero erros.",
+    "Record type Atlas Statement criado como 0000-114 com pointers Subject e Object Entity para Atlas Entity e Sources repetível para Atlas Source.",
+    "Vocabulários controlados criados para Predicate, Object Type e Resolution Status.",
+    "Projeção reproduzível statements_for_heurist_import.csv gerada com 131 linhas, objetos entity separados de literais e fontes múltiplas delimitadas por pipe.",
+    "Importador analisou as 131 linhas, mas a seleção de Atlas Statement não materializou a árvore de dependências; OK permaneceu desabilitado."
   ],
   "limitations": [
     "Gate ainda não pontuado: Statement, relações, visualizações e round-trip permanecem pendentes.",
-    "A prova inicial importou somente Atlas UUID e Canonical name; os campos semanticos adicionais ainda precisam ser configurados."
+    "A prova inicial de Entity importou somente Atlas UUID e Canonical name; os campos semânticos adicionais ainda precisam ser configurados.",
+    "A importação de Statement está bloqueada na árvore de dependências do Heurist; nenhum pointer foi rebaixado para texto e nenhum registro Statement foi criado."
   ]
 }
