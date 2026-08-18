@@ -8,14 +8,14 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 
 class AtlasContracts(unittest.TestCase):
-    def test_pending_heurist_gate_is_not_approved(self):
+    def test_unfinished_heurist_gate_is_not_approved(self):
         result = subprocess.run(
             [sys.executable, str(ROOT / "scripts" / "validate_heurist_report.py")],
             capture_output=True,
             text=True,
         )
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn('"status": "pending_credentials"', result.stdout)
+        self.assertIn('"status": "in_progress"', result.stdout)
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
         expected = {"entity":339,"statement":446,"source":125,"claim":572,"evidence":572,"predicate":54}

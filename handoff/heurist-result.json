@@ -1,11 +1,17 @@
 {
-  "status": "pending_credentials",
-  "instance_url": null,
-  "heurist_version": null,
-  "executed_at": null,
-  "executor": null,
-  "duration_minutes": null,
-  "pilots": [],
+  "status": "in_progress",
+  "instance_url": "https://heurist.huma-num.fr/heurist/?db=felip_atlas_a97",
+  "heurist_version": "7.2.1",
+  "executed_at": "2026-08-18",
+  "executor": "Codex with Felipe Giacomini",
+  "duration_minutes": 45,
+  "pilots": [
+    "gurgel",
+    "p917",
+    "ring",
+    "modelt",
+    "p911"
+  ],
   "checks": {
     "entity": false,
     "temporal_relation": false,
@@ -19,6 +25,14 @@
     "round_trip": false
   },
   "critical_semantic_loss": null,
-  "evidence": [],
-  "limitations": ["Aguardando credenciais temporárias fornecidas por canal seguro."]
+  "evidence": [
+    "Conta proprietária criada e autenticada na instância Huma-Num.",
+    "Base felip_atlas_a97 criada no Heurist 7.2.1.",
+    "Record type Atlas Entity criado com Atlas UUID e Canonical name.",
+    "CSV entities_for_heurist.csv selecionado para importação; upload não concluído após interrupção do controlador de navegador."
+  ],
+  "limitations": [
+    "Gate ainda não pontuado: importação, relações, visualizações e round-trip permanecem pendentes.",
+    "A conexão automatizada com o navegador foi interrompida durante o seletor de arquivo."
+  ]
 }
