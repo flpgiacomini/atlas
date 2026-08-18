@@ -4,6 +4,8 @@ Baseline: 18 de agosto de 2026
 Autoridade canônica: `current/atlas-web/data/atlas.sqlite`  
 Horizonte: 141 anos, de 1886 a 2026 inclusive
 
+Catálogo temático complementar: `handoff/ATLAS_CATALOGO_PRIORITARIO_EXPANSAO.md`
+
 ## Objetivo
 
 Transformar o Atlas atual em uma história global, contínua e baseada em evidências da
@@ -11,6 +13,44 @@ mobilidade automotiva. Cada ano terá ao menos uma âncora histórica pesquisáv
 expansão não será uma simples cronologia de lançamentos: deverá conectar pessoas,
 organizações, veículos, tecnologias, componentes, fábricas, lugares, competição,
 regulação, segurança, trabalho, energia e impactos sociais.
+
+## Hierarquia de escopo
+
+### Nível A — entidade central
+
+Recebe página completa, mídia, statements, relações e evidências:
+
+- automóveis de passageiros historicamente relevantes;
+- automóveis de competição, entries e chassis quando necessários;
+- fabricantes, marcas, pessoas, fábricas e lugares diretamente ligados a esses automóveis;
+- tecnologias de propulsão, segurança, estrutura, fabricação, aerodinâmica, eletrônica,
+  energia e software;
+- competições, equipes, circuitos e regulamentos esportivos necessários à narrativa.
+
+### Nível B — citação contextual
+
+É mencionado em narrativa, qualifier ou nota de fonte, sem criação automática de página:
+
+- caminhões e veículos comerciais;
+- ônibus e transporte coletivo;
+- motocicletas;
+- fornecedores e fabricantes de componentes;
+- legislação geral, política industrial e normas não esportivas.
+
+Um item Nível B somente será promovido a entidade central quando for indispensável para
+consultas ou relações de pelo menos dois casos Nível A.
+
+## Três trilhas anuais
+
+Cada ano será pesquisado em três trilhas paralelas:
+
+1. **Automóvel de passageiros:** produto, geração, design, mercado ou empresa.
+2. **Competição:** prova, veículo, equipe, piloto, circuito ou homologação.
+3. **Tecnologia:** propulsão, segurança, materiais, produção, emissões ou eletrônica.
+
+Nem todo ano produzirá uma entidade nova nas três trilhas. Quando não houver marco
+defensável, será registrada continuidade, difusão ou ausência documentada. Os itens Nível B
+servirão apenas para contextualizar as três trilhas.
 
 Na baseline atual, 60 anos possuem pelo menos um Event datado e 81 ainda não possuem
 âncora temporal. “Reforçar” significa aproveitar entidades já presentes; “abrir” significa
@@ -21,13 +61,15 @@ criar um pacote novo somente após pesquisa e reconciliação.
 Cada ano somente será encerrado quando possuir:
 
 1. pelo menos um `Event` com data e precisão explícitas;
-2. entre quatro e oito entidades conectadas, reutilizando as existentes quando possível;
-3. no mínimo três statements relevantes, todos com claim/evidence;
-4. uma fonte institucional ou primária e uma fonte independente quando houver conflito;
-5. contexto geográfico e industrial, não apenas ficha técnica;
-6. ao menos uma imagem licenciada para cada entidade nova;
-7. descrição editorial em pt-BR e alternativa textual acessível;
-8. validação SQLite, auditoria editorial, build e revisão da página gerada.
+2. uma ficha de pesquisa para cada uma das três trilhas anuais;
+3. entre seis e quinze entidades Nível A conectadas;
+4. citações Nível B separadas das entidades centrais;
+5. no mínimo seis statements relevantes, todos com claim/evidence;
+6. uma fonte institucional ou primária e outra independente quando houver conflito;
+7. contexto geográfico e industrial, não apenas ficha técnica;
+8. imagem licenciada para cada entidade nova;
+9. descrição editorial em pt-BR e alternativa textual acessível;
+10. validação SQLite, auditoria editorial, build e revisão da página gerada.
 
 Anos sem um único “grande lançamento” poderão ser ancorados em produção, legislação,
 infraestrutura, crise, trabalho, comércio, segurança ou difusão tecnológica. Não serão
