@@ -1,28 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import "leaflet/dist/leaflet.css";
 ---
-<BaseLayout title="Mapa">
-  <Fragment slot="head"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /></Fragment>
-  <div class="container">
-    <div class="hero-kicker">Geografia</div><h1>Mapa</h1>
-    <p class="lead">A versão de produção só publica geometrias reconciliadas. Pontos provisórios aparecem na fila de curadoria abaixo, mas não são exibidos como verdade cartográfica.</p>
-    <div id="map-release-status" class="card"></div>
-    <div id="atlas-map" class="viz"></div>
-    <h2>Fila geográfica</h2><div id="geo-queue" class="relation-list"></div>
-  </div>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    Promise.all([
-      fetch("/data/geography.registry.json").then(r=>r.json()),
-    ]).then(([rows])=>{
-      const ready=rows.filter((x:any)=>x.release_ready && Number.isFinite(x.lat) && Number.isFinite(x.lon));
-      document.querySelector("#map-release-status").textContent =
-        `${ready.length} geometrias release-ready · ${rows.length-ready.length} pendentes de reconciliação`;
-      const q=document.querySelector("#geo-queue");
-      q.innerHTML=rows.map((x:any)=>`<article class="record"><div class="pred">${x.geometry_status}</div><a href="/e/${x.entity_id}/">${x.entity_name}</a><span class="status">${x.official_address}</span></article>`).join("");
-      const map=L.map("atlas-map").setView([20,10],2);
-      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap contributors"}).addTo(map);
-      ready.forEach((p:any)=>L.marker([p.lat,p.lon]).addTo(map).bindPopup(`<a href="/e/${p.entity_id}/">${p.entity_name}</a>`));
-    });
-  </script>
-</BaseLayout>
+<BaseLayout title="Mapa"><div class="container page-intro"><div class="hero-kicker">Geografia</div><h1>Lugares com proveniência.</h1><p class="lead">O mapa publica apenas geometrias reconciliadas. Endereço institucional e coordenada cartográfica permanecem registros distintos.</p><div id="map-release-status" class="card" aria-live="polite">Carregando geometrias…</div><div id="atlas-map" class="viz" role="application" aria-label="Mapa dos lugares publicados"></div><h2>Registro geográfico</h2><div id="geo-queue" class="relation-list"></div></div><script>
+  import L from "leaflet";
+  const base=document.documentElement.dataset.base??"/"; const status=document.querySelector("#map-release-status")!; const queue=document.querySelector("#geo-queue")!;
+  fetch(`${base}data/geography.registry.json`).then(response=>{if(!response.ok)throw new Error("Falha ao carregar geografia");return response.json();}).then((rows:any[])=>{const ready=rows.filter(row=>row.release_ready&&Number.isFinite(row.lat)&&Number.isFinite(row.lon));status.textContent=`${ready.length} geometrias revisadas · ${rows.length-ready.length} pendentes`; queue.replaceChildren(...rows.map(row=>{const article=document.createElement("article");article.className="record";const state=document.createElement("div");state.className="pred";state.textContent=row.geometry_status;const link=document.createElement("a");link.href=`${base}e/${row.entity_id}/`;link.textContent=row.entity_name;const address=document.createElement("span");address.className="status";address.textContent=row.official_address;article.append(state,link,address);return article;}));const map=L.map("atlas-map").setView([20,10],2);L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);ready.forEach(point=>{const marker=L.circleMarker([point.lat,point.lon],{radius:8,color:"#f2eadb",weight:2,fillColor:"#c95037",fillOpacity:1}).addTo(map);const link=document.createElement("a");link.href=`${base}e/${point.entity_id}/`;link.textContent=point.entity_name;marker.bindPopup(link);});}).catch(error=>{status.textContent=`Mapa indisponível: ${error.message}`;});
+</script></BaseLayout>

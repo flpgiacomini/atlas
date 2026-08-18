@@ -1,22 +1,6 @@
 ---
+import { label } from "../lib/labels";
 const { outgoing = [] } = Astro.props;
-const facts = outgoing.filter((x:any)=>x.object_type!=="entity");
+const facts = outgoing.filter((item:any) => item.object_type !== "entity");
 ---
-<section>
-  <h2>Fatos</h2>
-  <div class="relation-list">
-    {facts.map((r:any)=>(
-      <article class="record">
-        <div class="pred">{r.predicate}</div>
-        <div>{String(r.value ?? "")}</div>
-        <span class:list={["status",r.resolution_status==="disputed"&&"disputed"]}>{r.resolution_status}</span>
-        {r.sources?.length > 0 && (
-          <details>
-            <summary>Evidência · {r.sources.length} fonte(s)</summary>
-            {r.sources.map((s:any)=><p><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a><small>{s.publisher} · {s.stance}/{s.support_strength}</small></p>)}
-          </details>
-        )}
-      </article>
-    ))}
-  </div>
-</section>
+<section><div class="section-heading compact"><div><div class="hero-kicker">Registro</div><h2>Fatos</h2></div></div><div class="relation-list">{facts.length ? facts.map((record:any) => <article class="record"><div class="pred">{label(record.predicate)}</div><div class="record-value">{String(record.value ?? "")}</div><span class:list={["status",record.resolution_status === "disputed" && "disputed"]}>{label(record.resolution_status)}</span>{record.sources?.length > 0 && <details><summary>Evidência · {record.sources.length} fonte(s)</summary>{record.sources.map((source:any) => <p><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><small>{source.publisher} · {label(source.stance)} / {label(source.support_strength)}</small></p>)}</details>}</article>) : <p class="empty-state">Nenhum fato escalar publicado para esta entidade.</p>}</div></section>

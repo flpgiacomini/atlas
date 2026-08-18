@@ -1,30 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="Comparar">
-  <div class="container">
-    <div class="hero-kicker">Exploração</div><h1>Comparar</h1>
-    <p class="lead">Até quatro entidades fixadas nas páginas do Atlas. A comparação mostra fatos e metadados comuns sem criar um modelo paralelo.</p>
-    <div id="compare-empty" class="card">Nenhuma entidade selecionada.</div>
-    <div id="compare-grid" class="home-grid"></div>
-  </div>
-  <script>
-    const KEY="atlas-compare";
-    const selected=JSON.parse(localStorage.getItem(KEY)||"[]");
-    const empty=document.querySelector("#compare-empty");
-    const grid=document.querySelector("#compare-grid");
-    if(selected.length){
-      empty?.classList.add("hidden");
-      fetch("/data/compare-index.json").then(r=>r.json()).then(rows=>{
-        const wanted=new Set(selected.map((x:any)=>x.id));
-        const data=rows.filter((x:any)=>wanted.has(x.id));
-        grid.innerHTML=data.map((e:any)=>`
-          <article class="compare-card">
-            <div class="type-pill">${e.type}</div><h2><a href="/e/${e.id}/">${e.name}</a></h2>
-            ${Object.entries(e.metadata||{}).slice(0,8).map(([k,v])=>`<div class="compare-row"><span>${k}</span><div>${JSON.stringify(v).replace(/^"|"$/g,"")}</div></div>`).join("")}
-            ${e.facts.slice(0,12).map((f:any)=>`<div class="compare-row"><span>${f.predicate}</span><div>${f.value ?? ""}</div></div>`).join("")}
-          </article>`).join("");
-      });
-    }
-  </script>
-</BaseLayout>
+<BaseLayout title="Comparar"><div class="container page-intro"><div class="hero-kicker">Exploração</div><h1>Compare contextos, não apenas números.</h1><p class="lead">Até quatro entidades fixadas. Fatos e metadados continuam derivados do modelo canônico.</p><div id="compare-empty" class="card">Nenhuma entidade selecionada.</div><div id="compare-grid" class="home-grid"></div></div><script>
+  const KEY="atlas-compare";const base=document.documentElement.dataset.base??"/";const selected=JSON.parse(localStorage.getItem(KEY)||"[]");const empty=document.querySelector("#compare-empty")!;const grid=document.querySelector("#compare-grid")!;
+  if(selected.length){empty.classList.add("hidden");fetch(`${base}data/compare-index.json`).then(response=>response.json()).then(rows=>{const wanted=new Set(selected.map((item:any)=>item.id));const data=rows.filter((item:any)=>wanted.has(item.id));grid.replaceChildren(...data.map((entity:any)=>{const article=document.createElement("article");article.className="compare-card";const type=document.createElement("div");type.className="type-pill";type.textContent=entity.type.replaceAll("_"," ");const heading=document.createElement("h2");const link=document.createElement("a");link.href=`${base}e/${entity.id}/`;link.textContent=entity.name;heading.append(link);article.append(type,heading);for(const [key,value] of Object.entries(entity.metadata||{}).slice(0,8)){const row=document.createElement("div");row.className="compare-row";const term=document.createElement("span");term.textContent=key.replaceAll("_"," ");const content=document.createElement("div");content.textContent=JSON.stringify(value).replace(/^"|"$/g,"");row.append(term,content);article.append(row);}for(const fact of entity.facts.slice(0,12)){const row=document.createElement("div");row.className="compare-row";const term=document.createElement("span");term.textContent=fact.predicate.replaceAll("_"," ");const content=document.createElement("div");content.textContent=String(fact.value??"");row.append(term,content);article.append(row);}const remove=document.createElement("button");remove.className="text-btn";remove.textContent="Remover da comparação";remove.addEventListener("click",()=>{localStorage.setItem(KEY,JSON.stringify(selected.filter((item:any)=>item.id!==entity.id)));location.reload();});article.append(remove);return article;}));});}
+</script></BaseLayout>

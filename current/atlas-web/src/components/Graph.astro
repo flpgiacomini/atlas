@@ -1,34 +1,15 @@
 ---
+import { safeJsonForHtml } from "../lib/labels";
 interface Props { graph: any; }
 const { graph } = Astro.props;
 ---
-<section class="viz-section">
-  <h2>Rede em dois saltos</h2>
-  <div id="entity-graph" class="viz"></div>
-  <script type="application/json" id="entity-graph-data" set:html={JSON.stringify(graph)}></script>
-</section>
-<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.34.1/dist/cytoscape.min.js"></script>
+<section class="viz-section"><div class="section-heading compact"><div><div class="hero-kicker">Conexões</div><h2>Rede em dois saltos</h2></div></div><div id="entity-graph" class="viz" role="img" aria-label="Grafo das entidades relacionadas"></div><details class="viz-fallback"><summary>Ver relações em formato textual</summary><ul>{graph.edges.map((edge:any) => <li>{graph.nodes.find((node:any)=>node.id===edge.s)?.name} — {edge.p} → {graph.nodes.find((node:any)=>node.id===edge.o)?.name}</li>)}</ul></details><script type="application/json" id="entity-graph-data" set:html={safeJsonForHtml(graph)}></script></section>
 <script>
+  import cytoscape from "cytoscape";
   const raw = document.querySelector("#entity-graph-data")?.textContent;
-  if (raw && window.cytoscape) {
-    const d = JSON.parse(raw);
-    const cy = window.cytoscape({
-      container: document.querySelector("#entity-graph"),
-      elements: [
-        ...d.nodes.map((n:any) => ({data:{id:n.id,label:n.name,type:n.type}})),
-        ...d.edges.map((e:any) => ({data:{id:e.id,source:e.s,target:e.o,label:e.p}}))
-      ],
-      style: [
-        {selector:"node",style:{"background-color":"#29313a","label":"data(label)","color":"#dfe5eb","font-size":"9px","text-wrap":"wrap","text-max-width":"105px","text-valign":"bottom","text-margin-y":"7px","width":"32px","height":"32px"}},
-        {selector:`node[id = "${d.root}"]`,style:{"background-color":"#d7ff68","width":"46px","height":"46px"}},
-        {selector:"node[type = 'event']",style:{"shape":"diamond","background-color":"#42566b"}},
-        {selector:"edge",style:{"width":1,"line-color":"#39424c","target-arrow-color":"#596572","target-arrow-shape":"triangle","curve-style":"bezier","label":"data(label)","font-size":"7px","color":"#74808c"}}
-      ],
-      layout:{name:"cose",animate:false,fit:true,padding:30,nodeRepulsion:8000,idealEdgeLength:90}
-    });
-    cy.on("tap","node",(evt:any) => {
-      const id=evt.target.id();
-      if(id!==d.root) location.href=`/e/${id}/`;
-    });
+  if (raw) {
+    const data = JSON.parse(raw); const base = document.documentElement.dataset.base ?? "/";
+    const cy = cytoscape({container:document.querySelector<HTMLElement>("#entity-graph"),elements:[...data.nodes.map((node:any)=>({data:{id:node.id,label:node.name,type:node.type}})),...data.edges.map((edge:any)=>({data:{id:edge.id,source:edge.s,target:edge.o,label:edge.p}}))],style:[{selector:"node",style:{"background-color":"#26383b","label":"data(label)","color":"#f2eadb","font-size":10,"text-wrap":"wrap","text-max-width":110,"text-valign":"bottom","text-margin-y":8,"width":34,"height":34}},{selector:`node[id = "${data.root}"]`,style:{"background-color":"#c95037","width":48,"height":48}},{selector:"node[type = 'event']",style:{"shape":"diamond","background-color":"#4b6970"}},{selector:"edge",style:{"width":1,"line-color":"#8f9b96","target-arrow-color":"#8f9b96","target-arrow-shape":"triangle","curve-style":"bezier","label":"data(label)","font-size":7,"color":"#5f6864"}}] as any,layout:{name:"cose",animate:false,fit:true,padding:30,nodeRepulsion:8000,idealEdgeLength:90}});
+    cy.on("tap","node",(event:any)=>{ const id=event.target.id(); if(id!==data.root) location.href=`${base}e/${id}/`; });
   }
 </script>

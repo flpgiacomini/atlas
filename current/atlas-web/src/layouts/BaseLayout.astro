@@ -1,27 +1,40 @@
 ---
 import "../styles/global.css";
+import { baseUrl, withBase } from "../lib/urls";
 interface Props { title: string; description?: string; }
-const { title, description = "Atlas Global da Indústria Automotiva" } = Astro.props;
+const { title, description = "Atlas global da história da indústria automotiva" } = Astro.props;
+const relativePath = Astro.url.pathname.startsWith(baseUrl) ? Astro.url.pathname.slice(baseUrl.length) : Astro.url.pathname;
+const canonical = new URL(withBase(relativePath), Astro.site);
 ---
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-base={baseUrl}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#171b1c" />
+    <link rel="icon" href={withBase("favicon.svg")} type="image/svg+xml" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={`${title} · ATLAS`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
     <title>{title} · ATLAS</title>
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
     <slot name="head" />
   </head>
   <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
     <header class="topbar">
-      <a class="brand" href="/"><span class="brand-mark">A</span><strong>ATLAS</strong></a><nav class="main-nav"><a href="/timeline/">Timeline</a><a href="/graph/">Grafo</a><a href="/map/">Mapa</a><a href="/compare/">Comparar</a></nav>
+      <a class="brand" href={withBase()} aria-label="ATLAS, início"><span class="brand-mark">A</span><strong>ATLAS</strong></a>
+      <nav class="main-nav" aria-label="Principal"><a href={withBase("timeline/")}>Tempo</a><a href={withBase("graph/")}>Rede</a><a href={withBase("map/")}>Mapa</a><a href={withBase("compare/")}>Comparar</a></nav>
       <div class="search">
-        <input id="atlas-search" placeholder="Buscar no Atlas…" autocomplete="off" />
-        <div id="atlas-search-results" class="search-results hidden"></div>
+        <label class="sr-only" for="atlas-search">Buscar no Atlas</label>
+        <input id="atlas-search" type="search" role="combobox" placeholder="Buscar no Atlas…" autocomplete="off" aria-controls="atlas-search-results" aria-expanded="false" aria-autocomplete="list" />
+        <div id="atlas-search-results" class="search-results hidden" role="listbox"></div>
       </div>
     </header>
-    <main><slot /></main>
+    <main id="conteudo"><slot /></main>
+    <footer class="site-footer"><span>Atlas · história automotiva em rede</span><a href="https://github.com/flpgiacomini/atlas">Código e documentação</a></footer>
     <script>
       const input = document.querySelector<HTMLInputElement>("#atlas-search");
       const box = document.querySelector<HTMLDivElement>("#atlas-search-results");
@@ -29,17 +42,24 @@ const { title, description = "Atlas Global da Indústria Automotiva" } = Astro.p
       if (input && box) {
         input.addEventListener("input", async () => {
           const q = input.value.trim();
-          if (q.length < 2) { box.classList.add("hidden"); box.innerHTML = ""; return; }
-          pagefind ??= await import("/pagefind/pagefind.js");
+          if (q.length < 2) { box.classList.add("hidden"); box.replaceChildren(); input.setAttribute("aria-expanded", "false"); return; }
+          const base = document.documentElement.dataset.base ?? "/";
+          const loadModule = new Function("url", "return import(url)");
+          pagefind ??= await loadModule(`${base}pagefind/pagefind.js`);
           const search = await pagefind.search(q);
           const items = await Promise.all(search.results.slice(0, 20).map((r:any) => r.data()));
-          box.innerHTML = items.map((x:any) =>
-            `<a href="${x.url}"><span>${x.meta.title}</span><small>${x.meta.type ?? ""}</small></a>`
-          ).join("") || "<div class='empty-search'>Sem resultados</div>";
-          box.classList.remove("hidden");
+          box.replaceChildren();
+          for (const item of items) {
+            const link = document.createElement("a"); link.href = item.url; link.setAttribute("role", "option");
+            const name = document.createElement("span"); name.textContent = item.meta.title;
+            const type = document.createElement("small"); type.textContent = item.meta.type ?? "";
+            link.append(name, type); box.append(link);
+          }
+          if (!items.length) { const empty=document.createElement("div"); empty.className="empty-search"; empty.textContent="Sem resultados"; box.append(empty); }
+          box.classList.remove("hidden"); input.setAttribute("aria-expanded", "true");
         });
-        document.addEventListener("click", (e) => {
-          if (!(e.target as Element).closest(".search")) box.classList.add("hidden");
+        document.addEventListener("click", (event) => {
+          if (!(event.target as Element).closest(".search")) { box.classList.add("hidden"); input.setAttribute("aria-expanded", "false"); }
         });
       }
     </script>

@@ -6,26 +6,27 @@ import CompareButton from "../../components/CompareButton.astro";
 import Graph from "../../components/Graph.astro";
 import Timeline from "../../components/Timeline.astro";
 import pages from "../../data/generated/entity-pages.json";
-
-export function getStaticPaths() {
-  return pages.map((page:any) => ({ params: { id: page.id }, props: { page } }));
-}
+import { label } from "../../lib/labels";
+import { withBase } from "../../lib/urls";
+export function getStaticPaths() { return pages.map((page:any) => ({ params: { id: page.id }, props: { page } })); }
 const { page } = Astro.props;
+const relationCount = page.outgoing.filter((item:any)=>item.object_type === "entity").length + page.incoming.length;
+const factCount = page.outgoing.filter((item:any)=>item.object_type !== "entity").length;
 ---
-<BaseLayout title={page.name} description={page.description ?? "Atlas entity"}>
-  <article class="container" data-pagefind-body>
-    <meta data-pagefind-meta={`type:${page.type}`} />
-    <meta data-pagefind-filter={`type:${page.type}`} />
-    <div class="entity-header">
-      <div><div class="type-pill">{page.type}</div><h1>{page.name}</h1><p class="muted">{page.description}</p><CompareButton id={page.id} name={page.name} type={page.type} /></div>
+<BaseLayout title={page.name} description={page.description ?? `${label(page.type)} no Atlas da história automotiva`}>
+  <article data-pagefind-body>
+    <meta data-pagefind-meta={`type:${label(page.type)}`} /><meta data-pagefind-filter={`type:${label(page.type)}`} />
+    <header class="entity-hero">
+      <img src={withBase(page.media.file)} alt={page.media.alt} width="1536" height="1024" />
+      <div class="entity-hero-shade"></div>
+      <div class="entity-hero-copy"><div class="type-pill">{label(page.type)}</div><h1>{page.name}</h1>{page.description && <p>{page.description}</p>}<div class="entity-actions"><CompareButton id={page.id} name={page.name} type={page.type} /><a class="secondary-btn" href={withBase(`graph/?from=${encodeURIComponent(page.name)}`)}>Ver na rede</a></div></div>
+    </header>
+    <div class="container entity-body">
+      <aside class="entity-summary"><div><strong>{relationCount}</strong><span>relações</span></div><div><strong>{factCount}</strong><span>fatos</span></div><div><strong>{page.events.length}</strong><span>eventos</span></div></aside>
+      <div class="content-grid"><div><div class="section-heading compact"><div><div class="hero-kicker">Contexto</div><h2>Relações</h2></div></div><SemanticRelations outgoing={page.outgoing} incoming={page.incoming} /></div><Facts outgoing={page.outgoing} /></div>
+      <Timeline events={page.events} /><Graph graph={page.graph} />
+      <section class="card metadata-grid"><div class="meta-item"><small>Identificador Atlas</small><div>{page.id}</div></div><div class="meta-item"><small>Tipo canônico</small><div>{label(page.type)}</div></div>{Object.entries(page.metadata ?? {}).slice(0,10).map(([key,value]) => <div class="meta-item"><small>{label(key)}</small><div>{JSON.stringify(value).replace(/^"|"$/g,"")}</div></div>)}</section>
+      <figure class="media-credit"><figcaption>{page.media.credit} <a href={page.media.license_url}>{page.media.license}</a> · Representação interpretativa, não evidência histórica.</figcaption></figure>
     </div>
-    <section class="card metadata-grid">
-      <div class="meta-item"><small>Atlas ID</small><div>{page.id}</div></div>
-      <div class="meta-item"><small>Tipo</small><div>{page.type}</div></div>
-      {Object.entries(page.metadata ?? {}).slice(0,10).map(([k,v]) => <div class="meta-item"><small>{k.replaceAll("_"," ")}</small><div>{JSON.stringify(v).replace(/^"|"$/g,"")}</div></div>)}
-    </section>
-    <div class="content-grid"><div><h2>Relações</h2><SemanticRelations outgoing={page.outgoing} incoming={page.incoming} /></div><Facts outgoing={page.outgoing} /></div>
-    <Timeline events={page.events} />
-    <Graph graph={page.graph} />
   </article>
 </BaseLayout>

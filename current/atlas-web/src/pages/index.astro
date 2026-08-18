@@ -2,21 +2,26 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import pages from "../data/generated/entity-pages.json";
 import stats from "../data/generated/stats.json";
-const featuredNames = [
-  "Benz Patent Motor Car","Citroën Traction Avant","Volkswagen Beetle / Type 1","Classic Mini",
-  "Lamborghini Miura","Volkswagen Golf — First Generation","Porsche 917","Gurgel BR-800",
-  "Toyota Prius — First Generation","Tesla Roadster — First Generation","BYD F3DM"
+import { label } from "../lib/labels";
+import { withBase } from "../lib/urls";
+const featuredNames = ["Benz Patent Motor Car","Citroën Traction Avant","Volkswagen Beetle / Type 1","Classic Mini","Lamborghini Miura","Volkswagen Golf — First Generation","Porsche 917","Gurgel BR-800","Toyota Prius — First Generation","Tesla Roadster — First Generation","BYD F3DM"];
+const featured = featuredNames.map(name => pages.find((page:any) => page.name === name)).filter(Boolean);
+const eras = [
+  { year: "1885", title: "A invenção se torna indústria", text: "Dos primeiros veículos à produção em escala, acompanhando pessoas, oficinas e ideias." },
+  { year: "1948", title: "Reconstrução e mobilidade global", text: "Veículos, fábricas e tecnologias cruzam fronteiras e reorganizam mercados." },
+  { year: "1970", title: "Performance, segurança e cultura", text: "Motorsport, engenharia e regulação passam a contar uma história comum." },
+  { year: "2008", title: "A transição energética", text: "Baterias, híbridos e novas organizações redesenham a genealogia automotiva." },
 ];
-const featured = featuredNames.map(name => pages.find((p:any) => p.name === name)).filter(Boolean);
 ---
 <BaseLayout title="Início">
-  <div class="container" data-pagefind-ignore>
-    <div class="hero-kicker">1885 → presente</div>
-    <h1>Uma rede histórica da indústria automotiva.</h1>
-    <p class="lead">Veículos no centro; pessoas, empresas, tecnologias, competições, lugares e evidências conectados ao redor.</p>
-    <div class="stats">{stats.entities} entidades · {stats.statements} statements · {stats.sources} fontes</div>
-    <div class="home-grid">
-      {featured.map((p:any) => <a class="home-card" href={`/e/${p.id}/`}><strong>{p.name}</strong><small>{p.type}</small></a>)}
-    </div>
+  <section class="hero" data-pagefind-ignore>
+    <img src={withBase("media/editorial/vehicles.webp")} alt="Ilustração interpretativa da evolução dos automóveis, das origens à eletrificação" width="1536" height="1024" fetchpriority="high" />
+    <div class="hero-shade"></div>
+    <div class="hero-copy"><div class="hero-kicker">1885 → presente</div><h1>A história do automóvel não é uma linha. É uma rede.</h1><p>Veículos no centro. Pessoas, empresas, tecnologias, competições, lugares e evidências conectados ao redor.</p><a class="primary-btn" href={withBase("timeline/")}>Explorar pelo tempo</a></div>
+  </section>
+  <div class="container">
+    <section class="stats" aria-label="Dimensões do acervo"><strong>{stats.entities}</strong><span>entidades</span><strong>{stats.statements}</strong><span>fatos e relações</span><strong>{stats.sources}</strong><span>fontes</span></section>
+    <section class="editorial-section"><div class="section-heading"><div><div class="hero-kicker">Percursos</div><h2>Entre por um veículo. Saia em outro século.</h2></div><p>As relações preservam genealogia, contexto e proveniência sem esconder conflitos históricos.</p></div><div class="home-grid">{featured.map((page:any) => <a class="home-card" href={withBase(`e/${page.id}/`)}><img src={withBase(page.media.thumbnail)} alt="" width="480" height="320" loading="lazy" /><span class="type-pill">{label(page.type)}</span><strong>{page.name}</strong></a>)}</div></section>
+    <section class="editorial-section"><div class="hero-kicker">Quatro movimentos</div><h2>Uma indústria vista através do tempo</h2><div class="era-grid">{eras.map(era => <article><time>{era.year}</time><h3>{era.title}</h3><p>{era.text}</p></article>)}</div></section>
   </div>
 </BaseLayout>

@@ -1,33 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import timeline from "../data/generated/timeline.json";
+import { safeJsonForHtml } from "../lib/labels";
 ---
-<BaseLayout title="Timeline global">
-  <div class="container">
-    <div class="hero-kicker">Tempo</div><h1>Timeline global</h1>
-    <p class="lead">Eventos derivados de <code>occurred_on</code>, sem uma base de timeline separada.</p>
-    <section class="card timeline-controls">
-      <label>De <input id="year-from" type="number" value="1885" /></label>
-      <label>Até <input id="year-to" type="number" value="2026" /></label>
-      <label>Filtrar <input id="timeline-query" placeholder="evento, marca, tecnologia…" /></label>
-    </section>
-    <div id="timeline-count" class="muted"></div>
-    <div id="timeline-list" class="timeline-list"></div>
-  </div>
-  <script type="application/json" id="timeline-data" set:html={JSON.stringify(timeline)}></script>
-  <script>
-    const rows=JSON.parse(document.querySelector("#timeline-data")?.textContent||"[]");
-    const from=document.querySelector("#year-from"),to=document.querySelector("#year-to"),q=document.querySelector("#timeline-query");
-    const list=document.querySelector("#timeline-list"),count=document.querySelector("#timeline-count");
-    const render=()=>{
-      const a=Number(from.value||1885),b=Number(to.value||2026),needle=q.value.trim().toLowerCase();
-      const out=rows.filter((x:any)=>{
-        const y=Number(String(x.date).slice(0,4));
-        return y>=a&&y<=b&&(!needle||x.name.toLowerCase().includes(needle));
-      });
-      count.textContent=`${out.length} eventos`;
-      list.innerHTML=out.map((e:any)=>`<a href="/e/${e.id}/"><time>${e.date}</time><span>${e.name}</span></a>`).join("");
-    };
-    [from,to,q].forEach((x:any)=>x.addEventListener("input",render));render();
-  </script>
-</BaseLayout>
+<BaseLayout title="Tempo"><div class="container page-intro"><div class="hero-kicker">Tempo</div><h1>Uma cronologia derivada das evidências.</h1><p class="lead">Eventos publicados a partir de <code>occurred_on</code>, sem criar uma base histórica paralela.</p><section class="card timeline-controls"><label>De <input id="year-from" type="number" value="1885" /></label><label>Até <input id="year-to" type="number" value="2026" /></label><label>Filtrar <input id="timeline-query" type="search" placeholder="evento, marca, tecnologia…" /></label></section><div id="timeline-count" class="muted" aria-live="polite"></div><div id="timeline-list" class="timeline-list"></div></div><script type="application/json" id="timeline-data" set:html={safeJsonForHtml(timeline)}></script><script>
+  const rows=JSON.parse(document.querySelector("#timeline-data")?.textContent||"[]"); const from=document.querySelector<HTMLInputElement>("#year-from")!; const to=document.querySelector<HTMLInputElement>("#year-to")!; const query=document.querySelector<HTMLInputElement>("#timeline-query")!; const list=document.querySelector("#timeline-list")!; const count=document.querySelector("#timeline-count")!; const base=document.documentElement.dataset.base??"/";
+  const render=()=>{ const first=Number(from.value||1885),last=Number(to.value||2026),needle=query.value.trim().toLocaleLowerCase("pt-BR"); const output=rows.filter((row:any)=>{const year=Number(String(row.date).slice(0,4));return year>=Math.min(first,last)&&year<=Math.max(first,last)&&(!needle||row.name.toLocaleLowerCase("pt-BR").includes(needle));}); count.textContent=`${output.length} eventos`; list.replaceChildren(...output.map((event:any)=>{const link=document.createElement("a");link.href=`${base}e/${event.id}/`;const time=document.createElement("time");time.textContent=event.date;const name=document.createElement("span");name.textContent=event.name;link.append(time,name);return link;})); };
+  [from,to,query].forEach(element=>element.addEventListener("input",render)); render();
+</script></BaseLayout>
