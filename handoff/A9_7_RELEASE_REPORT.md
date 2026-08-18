@@ -10,7 +10,9 @@ Estado: **APROVADO — A9.7 Product Complete; candidato v1.0.0**
 - Banco canônico: `current/atlas-web/data/atlas.sqlite`
 - SHA-256 do banco: `62392B653DEC0C1BA490EBCD4FD13E7BB2CDE0E5B8CDB21FAFE79F01C5AFA33D`
 - Baseline Git: `34b41d7c9ca47badfb5b875af7aff3f611b1f786`
-- Candidato implantado: `a1cdbd14e8254d74f86925f0eca96c50e4a1b490`
+- Commit funcional final: `af41c07f5da75f0239f0085c550b18e464bf6420`
+- Tag: `v1.0.0`
+- GitHub Release: <https://github.com/flpgiacomini/atlas/releases/tag/v1.0.0>
 - URL pública: <https://flpgiacomini.github.io/atlas/>
 - Ambiente local de validação: Node 26.7.0, npm 11.19.0 e Python 3.14.7
 - Ambiente CI contratado: Node 22 e Python 3.13
@@ -43,6 +45,7 @@ Estado: **APROVADO — A9.7 Product Complete; candidato v1.0.0**
 | GitHub Pages | aprovado, workflow nº 5 |
 | Smoke test público | home, Pagefind, sitemap e Entity Page com HTTP 200 |
 | Heurist hands-on | 9/10, 86 Entity + 24 Source + 131 Statement, 0 erros |
+| Auditoria npm | 0 vulnerabilidades |
 
 O erro final do Lighthouse foi restrito à remoção de seu diretório temporário no Windows e ocorreu depois da emissão válida do relatório.
 
@@ -54,7 +57,7 @@ Foram inspecionados os percursos Porsche 917, Porsche 911, Benz Patent Motor Car
 
 O hands-on foi aprovado em 18/08/2026 com 9/10 e sem perda semântica crítica. A base `felip_atlas_a97` importou 86 entidades, 24 fontes e 131 statements, todos processados sem erro. Relações temporais, conflito 901→911, Entry do 917, genealogia, evidence, filtros, rede e round-trip foram confirmados. O mapa interno não pontuou porque a projeção piloto não incluiu geometrias; o mapa público permanece aprovado com 4/4 geometrias controladas.
 
-Não restam pendências impeditivas. O commit e a tag definitivos serão registrados após a última validação e publicação.
+Não restam pendências impeditivas. A tag anotada `v1.0.0` e a GitHub Release foram publicadas após CI, Pages e smoke test verdes.
 
 ## Limitações conhecidas
 
