@@ -5,12 +5,13 @@
     "address_status": "verified_official",
     "official_address": "9 Frans Du Toit Street, Rosslyn, South Africa",
     "address_source": "https://www.bmwgroup-werke.com/rosslyn/en.html",
-    "geometry_status": "provisional",
-    "lat": -25.632,
-    "lon": 28.099,
-    "geometry_precision": "facility-approximation",
-    "geometry_source": "A6/A7 prototype snapshot; replace after external geometry reconciliation",
-    "release_ready": false
+    "geometry_status": "verified",
+    "lat": -25.6297276,
+    "lon": 28.0883691,
+    "geometry_precision": "facility-entrance",
+    "geometry_source": "https://felt.com/map/Manufacturing-Plant-Tours-Exponential-Industry-H9B86yBY6QyWcfoHrd25jcB",
+    "reviewed_on": "2026-08-18",
+    "release_ready": true
   },
   {
     "entity_id": "01a010d9-28c3-7d42-8ff9-f555d77e38e9",
@@ -18,12 +19,13 @@
     "address_status": "verified_official",
     "official_address": "Berliner Ring 2, 38440 Wolfsburg, Germany",
     "address_source": "https://www.volkswagen-group.com/en/site-notice-15695",
-    "geometry_status": "provisional",
-    "lat": 52.435,
-    "lon": 10.787,
-    "geometry_precision": "facility-approximation",
-    "geometry_source": "A6/A7 prototype snapshot; replace after external geometry reconciliation",
-    "release_ready": false
+    "geometry_status": "verified",
+    "lat": 52.43886,
+    "lon": 10.76553,
+    "geometry_precision": "facility-centroid",
+    "geometry_source": "https://www.openstreetmap.org/way/459317446",
+    "reviewed_on": "2026-08-18",
+    "release_ready": true
   },
   {
     "entity_id": "01a010d9-28c4-79e9-91e5-ba861046074c",
@@ -31,24 +33,26 @@
     "address_status": "verified_official_location",
     "official_address": "Lode Lane, Solihull, United Kingdom",
     "address_source": "https://media.landrover.com/en-gb/news/2013/01/first-customer-handover-land-rovers-new-visitor-centre",
-    "geometry_status": "provisional",
-    "lat": 52.414,
-    "lon": -1.777,
-    "geometry_precision": "facility-approximation",
-    "geometry_source": "A6/A7 prototype snapshot; replace after external geometry reconciliation",
-    "release_ready": false
+    "geometry_status": "verified",
+    "lat": 52.43616,
+    "lon": -1.76972,
+    "geometry_precision": "facility-centroid",
+    "geometry_source": "https://www.openstreetmap.org/way/16382863",
+    "reviewed_on": "2026-08-18",
+    "release_ready": true
   },
   {
     "entity_id": "01a01028-5456-7f2b-ab99-663eb015e56f",
     "entity_name": "Bugatti Atelier Molsheim",
-    "address_status": "business_index_verified_not_primary",
-    "official_address": "1 Rue Saint-Jean, 67120 Dorlisheim, France",
-    "address_source": "business index result retained for reconciliation; primary Bugatti address source still required",
-    "geometry_status": "provisional",
-    "lat": 48.5426,
-    "lon": 7.4928,
-    "geometry_precision": "city/facility-approximation",
-    "geometry_source": "A6/A7 prototype snapshot; replace after external geometry reconciliation",
-    "release_ready": false
+    "address_status": "verified_official_location",
+    "official_address": "Atelier Bugatti, Molsheim-Dorlisheim, France",
+    "address_source": "https://newsroom.bugatti.com/api/en/press-releases/pdf/bugatti-anniversary-tour-road-trip-between-the-past-and-present",
+    "geometry_status": "verified",
+    "lat": 48.52554,
+    "lon": 7.50051,
+    "geometry_precision": "facility-centroid",
+    "geometry_source": "https://www.openstreetmap.org/way/65701584",
+    "reviewed_on": "2026-08-18",
+    "release_ready": true
   }
 ]
