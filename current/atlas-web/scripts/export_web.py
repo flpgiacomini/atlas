@@ -150,6 +150,7 @@ for e in entities:
   "edges":edges
 },ensure_ascii=False,separators=(",",":")),encoding="utf-8")
 (PUBLIC/"timeline.json").write_text(json.dumps(timeline_global,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
+(GEN/"timeline.json").write_text(json.dumps(timeline_global,ensure_ascii=False,separators=(",",":")),encoding="utf-8")
 
 compare_index=[]
 for page in pages:
