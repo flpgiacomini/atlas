@@ -32,14 +32,18 @@ def main() -> int:
                COALESCE(s.evidenced_count, 0) AS evidenced_count
         FROM entity e
         LEFT JOIN (
-          SELECT st.subject_entity_id,
-                 COUNT(DISTINCT st.id) AS statement_count,
-                 COUNT(DISTINCT CASE WHEN ce.evidence_id IS NOT NULL THEN st.id END) AS evidenced_count
-          FROM statement st
-          LEFT JOIN claim c ON c.statement_id = st.id
+          SELECT linked.entity_id,
+                 COUNT(DISTINCT linked.statement_id) AS statement_count,
+                 COUNT(DISTINCT CASE WHEN ce.evidence_id IS NOT NULL THEN linked.statement_id END) AS evidenced_count
+          FROM (
+            SELECT id AS statement_id, subject_entity_id AS entity_id FROM statement
+            UNION ALL
+            SELECT id AS statement_id, object_entity_id AS entity_id FROM statement WHERE object_entity_id IS NOT NULL
+          ) linked
+          LEFT JOIN claim c ON c.statement_id = linked.statement_id
           LEFT JOIN claim_evidence ce ON ce.claim_id = c.id
-          GROUP BY st.subject_entity_id
-        ) s ON s.subject_entity_id = e.id
+          GROUP BY linked.entity_id
+        ) s ON s.entity_id = e.id
         ORDER BY e.entity_type, e.canonical_name, e.id
         """
     ).fetchall()
@@ -50,14 +54,14 @@ def main() -> int:
         metadata = json.loads(entity["metadata_json"] or "{}")
         description_words = word_count(entity["description"])
         description_ok = description_words >= global_rules["minimum_description_words"]
-        statements_required = type_rules["minimum_subject_statements"]
+        statements_required = type_rules["minimum_connected_statements"]
         statements_ok = entity["statement_count"] >= statements_required
         evidence_ok = entity["statement_count"] > 0 and entity["evidenced_count"] == entity["statement_count"]
         missing_metadata = [key for key in type_rules["required_metadata"] if metadata.get(key) in (None, "", [])]
         metadata_ok = not missing_metadata
         score = (
             weights["description"] * int(description_ok)
-            + weights["subject_statements"] * min(entity["statement_count"] / statements_required, 1)
+            + weights["connected_statements"] * min(entity["statement_count"] / statements_required, 1)
             + weights["evidence"] * int(evidence_ok)
             + weights["type_metadata"] * int(metadata_ok)
         )
@@ -74,9 +78,9 @@ def main() -> int:
         if not description_ok:
             gaps.append(f"description<{global_rules['minimum_description_words']}_words")
         if not statements_ok:
-            gaps.append(f"subject_statements<{statements_required}")
+            gaps.append(f"connected_statements<{statements_required}")
         if not evidence_ok:
-            gaps.append("subject_statements_without_full_evidence")
+            gaps.append("connected_statements_without_full_evidence")
         gaps.extend(f"metadata:{key}" for key in missing_metadata)
         priority = "P0" if status == "stub" else "P1" if status == "partial" else "P2" if status == "substantial" else "P3"
         rows.append(
@@ -88,7 +92,7 @@ def main() -> int:
                 "entity_type": entity["entity_type"],
                 "canonical_name": entity["canonical_name"],
                 "description_words": description_words,
-                "subject_statements": entity["statement_count"],
+                "connected_statements": entity["statement_count"],
                 "required_statements": statements_required,
                 "evidenced_statements": entity["evidenced_count"],
                 "gaps": "|".join(gaps),

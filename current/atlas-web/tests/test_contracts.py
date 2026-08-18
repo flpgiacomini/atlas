@@ -47,5 +47,14 @@ class AtlasContracts(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         summary = json.loads(result.stdout)
         self.assertEqual(summary["entities"], 339)
+        self.assertEqual(summary["statuses"].get("stub", 0), 0)
+
+    def test_every_entity_has_editorial_narrative_and_batch(self):
+        db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
+        rows = db.execute("SELECT description, metadata_json FROM entity").fetchall()
+        db.close()
+        self.assertEqual(len(rows), 339)
+        self.assertTrue(all(len((description or "").split()) >= 30 for description, _ in rows))
+        self.assertTrue(all(json.loads(metadata).get("editorial_batch") for _, metadata in rows))
 
 if __name__ == "__main__": unittest.main()

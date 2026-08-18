@@ -7,27 +7,27 @@
     "require_statement_evidence": true,
     "weights": {
       "description": 30,
-      "subject_statements": 35,
+      "connected_statements": 35,
       "evidence": 25,
       "type_metadata": 10
     }
   },
   "types": {
-    "vehicle": {"minimum_subject_statements": 4, "required_metadata": ["vehicle_level", "vehicle_kind"]},
-    "vehicle_instance": {"minimum_subject_statements": 4, "required_metadata": ["instance_status"]},
-    "organization": {"minimum_subject_statements": 3, "required_metadata": ["organization_type"]},
-    "brand": {"minimum_subject_statements": 3, "required_metadata": ["brand_status"]},
-    "person": {"minimum_subject_statements": 3, "required_metadata": ["roles"]},
-    "technology": {"minimum_subject_statements": 3, "required_metadata": ["technology_category"]},
-    "component": {"minimum_subject_statements": 3, "required_metadata": ["component_type"]},
-    "facility": {"minimum_subject_statements": 3, "required_metadata": ["facility_type"]},
-    "place": {"minimum_subject_statements": 2, "required_metadata": ["place_type"]},
-    "competition": {"minimum_subject_statements": 3, "required_metadata": ["competition_type"]},
-    "team": {"minimum_subject_statements": 3, "required_metadata": []},
-    "circuit": {"minimum_subject_statements": 3, "required_metadata": ["circuit_status"]},
-    "circuit_layout": {"minimum_subject_statements": 3, "required_metadata": ["length_km"]},
-    "event": {"minimum_subject_statements": 3, "required_metadata": ["event_type", "realization_status"]},
-    "entry": {"minimum_subject_statements": 6, "required_metadata": ["entry_type"]}
+    "vehicle": {"minimum_connected_statements": 4, "required_metadata": ["vehicle_level", "vehicle_kind"]},
+    "vehicle_instance": {"minimum_connected_statements": 4, "required_metadata": ["instance_status"]},
+    "organization": {"minimum_connected_statements": 3, "required_metadata": ["organization_type"]},
+    "brand": {"minimum_connected_statements": 3, "required_metadata": ["brand_status"]},
+    "person": {"minimum_connected_statements": 3, "required_metadata": ["roles"]},
+    "technology": {"minimum_connected_statements": 3, "required_metadata": ["technology_category"]},
+    "component": {"minimum_connected_statements": 3, "required_metadata": ["component_type"]},
+    "facility": {"minimum_connected_statements": 3, "required_metadata": ["facility_type"]},
+    "place": {"minimum_connected_statements": 2, "required_metadata": ["place_type"]},
+    "competition": {"minimum_connected_statements": 3, "required_metadata": ["competition_type"]},
+    "team": {"minimum_connected_statements": 3, "required_metadata": []},
+    "circuit": {"minimum_connected_statements": 3, "required_metadata": ["circuit_status"]},
+    "circuit_layout": {"minimum_connected_statements": 3, "required_metadata": ["length_km"]},
+    "event": {"minimum_connected_statements": 3, "required_metadata": ["event_type", "realization_status"]},
+    "entry": {"minimum_connected_statements": 6, "required_metadata": ["entry_type"]}
   },
   "thresholds": {
     "complete": 100,
