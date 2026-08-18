@@ -1,0 +1,21 @@
+---
+import { withBase } from "../lib/urls";
+const { vehicles = [] } = Astro.props;
+const eventMap = new Map<string, any>();
+for (const vehicle of vehicles) {
+  for (const event of vehicle.events ?? []) {
+    const current = eventMap.get(event.id) ?? { ...event, vehicles: [] };
+    if (!current.vehicles.some((item:any) => item.id === vehicle.id)) current.vehicles.push({ id: vehicle.id, name: vehicle.name });
+    eventMap.set(event.id, current);
+  }
+}
+const events = [...eventMap.values()].sort((a:any,b:any) => String(a.date).localeCompare(String(b.date)));
+---
+<section class="brand-history">
+  <div class="section-heading"><div><div class="hero-kicker">História da marca</div><h2>Modelos e marcos no tempo</h2></div><p>Uma leitura derivada das relações entre marca, veículos e eventos documentados no SQLite.</p></div>
+  {vehicles.length ? <>
+    <div class="brand-model-grid">{vehicles.map((vehicle:any) => <a href={withBase(`e/${vehicle.id}/`)}><span>Automóvel</span><strong>{vehicle.name}</strong><small>{vehicle.events?.length ?? 0} marcos relacionados</small></a>)}</div>
+    <div class="section-heading compact brand-events-heading"><div><div class="hero-kicker">Cronologia</div><h2>Marcos documentados</h2></div></div>
+    {events.length ? <ol class="brand-event-list">{events.map((event:any) => <li><time>{event.date}</time><div><a href={withBase(`e/${event.id}/`)}>{event.name}</a><p>{event.vehicles.map((vehicle:any) => vehicle.name).join(" · ")}</p></div></li>)}</ol> : <p class="empty-state">Os modelos estão relacionados à marca, mas ainda não possuem eventos datados suficientes para uma cronologia.</p>}
+  </> : <p class="empty-state">Esta marca ainda não possui automóveis reconciliados pela relação canônica de comercialização.</p>}
+</section>

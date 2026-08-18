@@ -57,4 +57,15 @@ class AtlasContracts(unittest.TestCase):
         self.assertTrue(all(len((description or "").split()) >= 30 for description, _ in rows))
         self.assertTrue(all(json.loads(metadata).get("editorial_batch") for _, metadata in rows))
 
+    def test_brand_history_projection_has_vehicle_coverage(self):
+        pages = json.loads((ROOT / "src" / "data" / "generated" / "entity-pages.json").read_text(encoding="utf-8"))
+        brands = [page for page in pages if page["type"] == "brand"]
+        self.assertEqual(len(brands), 18)
+        for brand in brands:
+            vehicles = [page for page in pages if page["type"] == "vehicle" and any(
+                relation["predicate"] == "marketed_under" and relation["object_entity_id"] == brand["id"]
+                for relation in page["outgoing"]
+            )]
+            self.assertGreater(len(vehicles), 0, brand["name"])
+
 if __name__ == "__main__": unittest.main()

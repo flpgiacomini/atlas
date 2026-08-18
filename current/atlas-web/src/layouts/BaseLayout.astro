@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "../styles/brands.css";
 import { baseUrl, withBase } from "../lib/urls";
 interface Props { title: string; description?: string; }
 const { title, description = "Atlas global da história da indústria automotiva" } = Astro.props;
@@ -26,7 +27,7 @@ const canonical = new URL(withBase(relativePath), Astro.site);
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
     <header class="topbar">
       <a class="brand" href={withBase()} aria-label="ATLAS, início"><span class="brand-mark">A</span><strong>ATLAS</strong></a>
-      <nav class="main-nav" aria-label="Principal"><a href={withBase("timeline/")}>Tempo</a><a href={withBase("graph/")}>Rede</a><a href={withBase("map/")}>Mapa</a><a href={withBase("compare/")}>Comparar</a></nav>
+      <nav class="main-nav" aria-label="Principal"><a href={withBase("brands/")}>Marcas</a><a href={withBase("timeline/")}>Tempo</a><a href={withBase("graph/")}>Rede</a><a href={withBase("map/")}>Mapa</a><a href={withBase("compare/")}>Comparar</a></nav>
       <div class="search">
         <label class="sr-only" for="atlas-search">Buscar no Atlas</label>
         <input id="atlas-search" type="search" role="combobox" placeholder="Buscar no Atlas…" autocomplete="off" aria-controls="atlas-search-results" aria-expanded="false" aria-autocomplete="list" />
