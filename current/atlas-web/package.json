@@ -5,18 +5,29 @@
   "type": "module",
   "scripts": {
     "export:data": "python scripts/export_web.py",
+    "media:optimize": "node scripts/optimize_media.mjs",
+    "validate:data": "python ../canonical-model/scripts/validate_atlas_db.py data/atlas.sqlite && python scripts/validate_media.py && python scripts/validate_geography.py",
     "dev": "npm run export:data && astro dev",
     "build:astro": "astro build",
     "index:search": "pagefind --site dist",
-    "build": "npm run export:data && astro build && pagefind --site dist",
+    "build": "npm run validate:data && npm run export:data && astro build && pagefind --site dist",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "test": "python -m unittest discover -s tests -v",
+    "verify": "npm run check && npm test && npm run build && python scripts/validate_dist.py"
   },
   "dependencies": {
-    "astro": "7.2.2"
+    "astro": "7.2.2",
+    "cytoscape": "3.34.1",
+    "leaflet": "1.9.4",
+    "vis-data": "8.0.3",
+    "vis-timeline": "8.5.2"
   },
   "devDependencies": {
+    "@astrojs/check": "0.9.6",
+    "@types/leaflet": "1.9.21",
     "pagefind": "1.5.2",
+    "sharp": "0.34.3",
     "typescript": "^5.9.0"
   }
 }

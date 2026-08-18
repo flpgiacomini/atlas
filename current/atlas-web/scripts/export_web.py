@@ -43,8 +43,11 @@ def literal(r):
     if t=="boolean":return bool(r["object_boolean"])
     return r["object_text"]
 
-entities=[dict(r) for r in db.execute("SELECT * FROM entity ORDER BY canonical_name")]
+entities=[dict(r) for r in db.execute("SELECT * FROM entity ORDER BY canonical_name,id")]
 by_id={e["id"]:e for e in entities}
+media_path=ROOT/"data"/"media.manifest.json"
+media_items=json.loads(media_path.read_text(encoding="utf-8"))["items"] if media_path.exists() else []
+media_by_entity={item["entity_id"]:item for item in media_items}
 
 sources_by_statement=defaultdict(list)
 for r in db.execute("""
@@ -55,7 +58,7 @@ FROM claim c
 JOIN claim_evidence ce ON ce.claim_id=c.id
 JOIN evidence e ON e.id=ce.evidence_id
 JOIN source src ON src.id=e.source_id
-ORDER BY src.publisher,src.title
+ORDER BY src.publisher,src.title,src.id,c.id,e.id
 """):
     x=dict(r);x["locator"]=parse(x.pop("locator_json"),{})
     sources_by_statement[x.pop("statement_id")].append(x)
@@ -69,7 +72,7 @@ FROM statement s
 JOIN predicate p ON p.id=s.predicate_id
 JOIN entity se ON se.id=s.subject_entity_id
 LEFT JOIN entity oe ON oe.id=s.object_entity_id
-ORDER BY p.name
+ORDER BY p.name,s.id
 """):
     x=dict(r)
     x["qualifiers"]=parse(x.pop("qualifiers_json"),{})
@@ -96,7 +99,7 @@ def graph_for(eid,depth=2,limit=90):
                 if e2:nodes[nid]={"id":nid,"name":e2["canonical_name"],"type":e2["entity_type"]}
                 if nid not in seen and len(nodes)<limit:
                     seen[nid]=d+1;q.append(nid)
-    return {"root":eid,"nodes":list(nodes.values()),"edges":list(eds.values())}
+    return {"root":eid,"nodes":sorted(nodes.values(),key=lambda x:x["id"]),"edges":sorted(eds.values(),key=lambda x:x["id"])}
 
 timeline_global=[]
 event_date={}
@@ -118,13 +121,14 @@ for e in entities:
     for s in incoming[eid]:
         if by_id.get(s["subject_entity_id"],{}).get("entity_type")=="event" and s["predicate"]=="involved":
             related_event_ids.add(s["subject_entity_id"])
-    events=[event_date[x] for x in related_event_ids if x in event_date]
+    events=[event_date[x] for x in sorted(related_event_ids) if x in event_date]
     events.sort(key=lambda x:x["date"])
     pages.append({
       "id":eid,
       "type":e["entity_type"],
       "name":e["canonical_name"],
       "description":e["description"],
+      "media":media_by_entity.get(eid),
       "metadata":parse(e["metadata_json"],{}),
       "names":[dict(r) for r in db.execute("SELECT value,name_type,language,valid_from,valid_until FROM entity_name WHERE entity_id=? ORDER BY name_type,value",(eid,))],
       "external_ids":[dict(r) for r in db.execute("SELECT scheme,value,url FROM external_identifier WHERE entity_id=? ORDER BY scheme,value",(eid,))],
@@ -164,10 +168,6 @@ for page in pages:
 geo_registry=ROOT/"data"/"geography.registry.json"
 if geo_registry.exists():
     shutil.copy2(geo_registry,PUBLIC/"geography.registry.json")
-
-prototype=ROOT/"data"/"map-points.prototype.json"
-if prototype.exists():
-    shutil.copy2(prototype,PUBLIC/"map-points.prototype.json")
 
 print(json.dumps({"pages":len(pages),"edges":len(edges),"timeline":len(timeline_global)},ensure_ascii=False))
 db.close()

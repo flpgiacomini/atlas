@@ -1,0 +1,35 @@
+name: Atlas CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    env:
+      ASTRO_TELEMETRY_DISABLED: "1"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: current/atlas-web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: current/atlas-web/package-lock.json
+      - run: npm ci
+      - run: python ../canonical-model/scripts/validate_atlas_db.py data/atlas.sqlite
+      - run: npm run verify
+      - run: python scripts/validate_links.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-dist
+          path: current/atlas-web/dist
+          if-no-files-found: error

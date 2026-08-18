@@ -1,0 +1,5 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../lib/urls";
+---
+<BaseLayout title="Página não encontrada"><div class="container page-intro"><div class="hero-kicker">Erro 404</div><h1>Este caminho não está no mapa.</h1><p class="lead">A entidade pode ter mudado de endereço ou ainda não fazer parte desta versão do Atlas.</p><a class="primary-btn" href={withBase()}>Voltar ao início</a></div></BaseLayout>

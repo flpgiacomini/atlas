@@ -8,6 +8,7 @@
 **/.DS_Store
 output/
 .tmp*/
+.playwright-cli/
 *.log
 .env
 .env.*
