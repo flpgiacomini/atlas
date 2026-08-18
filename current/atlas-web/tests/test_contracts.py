@@ -38,4 +38,14 @@ class AtlasContracts(unittest.TestCase):
     def test_no_prototype_map(self):
         self.assertFalse((ROOT / "data" / "map-points.prototype.json").exists())
 
+    def test_editorial_audit_covers_every_entity(self):
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "audit_editorial_completeness.py")],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
+        summary = json.loads(result.stdout)
+        self.assertEqual(summary["entities"], 339)
+
 if __name__ == "__main__": unittest.main()
