@@ -7,7 +7,7 @@ import { withBase } from "../lib/urls";
 const featuredNames = ["Benz Patent Motor Car","Citroën Traction Avant","Volkswagen Beetle / Type 1","Classic Mini","Lamborghini Miura","Volkswagen Golf — First Generation","Porsche 917","Gurgel BR-800","Toyota Prius — First Generation","Tesla Roadster — First Generation","BYD F3DM"];
 const featured = featuredNames.map(name => pages.find((page:any) => page.name === name)).filter(Boolean);
 const eras = [
-  { year: "1885", title: "A invenção se torna indústria", text: "Dos primeiros veículos à produção em escala, acompanhando pessoas, oficinas e ideias." },
+  { year: "1769", title: "Antes do automóvel moderno", text: "Do vapor à combustão interna, experiências, patentes e controvérsias preparam uma nova forma de mobilidade." },
   { year: "1948", title: "Reconstrução e mobilidade global", text: "Veículos, fábricas e tecnologias cruzam fronteiras e reorganizam mercados." },
   { year: "1970", title: "Performance, segurança e cultura", text: "Motorsport, engenharia e regulação passam a contar uma história comum." },
   { year: "2008", title: "A transição energética", text: "Baterias, híbridos e novas organizações redesenham a genealogia automotiva." },
@@ -17,7 +17,7 @@ const eras = [
   <section class="hero" data-pagefind-ignore>
     <img src={withBase("media/editorial/vehicles.webp")} alt="Ilustração interpretativa da evolução dos automóveis, das origens à eletrificação" width="1536" height="1024" fetchpriority="high" />
     <div class="hero-shade"></div>
-    <div class="hero-copy"><div class="hero-kicker">1885 → presente</div><h1>A história do automóvel não é uma linha. É uma rede.</h1><p>Veículos no centro. Pessoas, empresas, tecnologias, competições, lugares e evidências conectados ao redor.</p><a class="primary-btn" href={withBase("timeline/")}>Explorar pelo tempo</a></div>
+    <div class="hero-copy"><div class="hero-kicker">1769 → presente</div><h1>A história do automóvel não é uma linha. É uma rede.</h1><p>Do vapor aos automóveis contemporâneos, veículos, pessoas, empresas, tecnologias, competições, lugares e evidências aparecem conectados.</p><a class="primary-btn" href={withBase("timeline/")}>Explorar pelo tempo</a></div>
   </section>
   <div class="container">
     <section class="stats" aria-label="Dimensões do acervo"><strong>{stats.entities}</strong><span>entidades</span><strong>{stats.statements}</strong><span>fatos e relações</span><strong>{stats.sources}</strong><span>fontes</span></section>

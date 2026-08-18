@@ -17,16 +17,16 @@
 
 Os ZIPs em `historical-artifacts/` são somente rastreabilidade.
 
-## Snapshot aprovado
+## Snapshot canônico após os lotes F01–F03
 
-- 339 entidades e 339 Entity Pages
-- 446 statements
-- 125 sources
-- 572 claims/evidences
-- 54 predicates controlados
-- 339/339 entidades com mídia local e licenciada
+- 364 entidades e 364 Entity Pages
+- 556 statements
+- 147 sources
+- 682 claims e 683 evidences
+- 56 predicates controlados
+- 364/364 entidades com mídia local e licenciada
 - 4/4 geometrias revisadas e release-ready
-- SQLite SHA-256: `62392b653dec0c1ba490ebcd4fd13e7bb2cde0e5b8cdb21fafe79f01c5afa33d`
+- SQLite SHA-256: atualizado no manifesto de release após cada expansão validada
 
 ## Gates
 

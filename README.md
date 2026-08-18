@@ -45,12 +45,12 @@ current/atlas-web/data/atlas.sqlite
 ```
 
 Snapshot atual:
-- 339 Entities
-- 446 Statements
-- 125 Sources
-- 572 Claims
-- 572 Evidences
-- 54 Predicates
+- 364 Entities
+- 556 Statements
+- 147 Sources
+- 682 Claims
+- 683 Evidences
+- 56 Predicates
 
 Fase:
-**A9 — Product v1.0 em andamento.**
+**A9.7 aprovado; expansão editorial v1.x em andamento.**

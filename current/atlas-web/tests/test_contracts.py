@@ -22,14 +22,14 @@ class AtlasContracts(unittest.TestCase):
         self.assertFalse(report["critical_semantic_loss"])
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":339,"statement":492,"source":140,"claim":618,"evidence":619,"predicate":56}
+        expected = {"entity":364,"statement":556,"source":147,"claim":682,"evidence":683,"predicate":56}
         actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
         db.close(); self.assertEqual(actual, expected)
 
     def test_every_entity_has_media(self):
         manifest = json.loads((ROOT / "data" / "media.manifest.json").read_text(encoding="utf-8"))
         ids = [item["entity_id"] for item in manifest["items"]]
-        self.assertEqual(len(ids), 339); self.assertEqual(len(set(ids)), 339)
+        self.assertEqual(len(ids), 364); self.assertEqual(len(set(ids)), 364)
 
     def test_geography_is_release_ready(self):
         rows = json.loads((ROOT / "data" / "geography.registry.json").read_text(encoding="utf-8"))
@@ -46,14 +46,14 @@ class AtlasContracts(unittest.TestCase):
         )
         self.assertEqual(result.returncode, 0, result.stderr)
         summary = json.loads(result.stdout)
-        self.assertEqual(summary["entities"], 339)
+        self.assertEqual(summary["entities"], 364)
         self.assertEqual(summary["statuses"].get("stub", 0), 0)
 
     def test_every_entity_has_editorial_narrative_and_batch(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
         rows = db.execute("SELECT description, metadata_json FROM entity").fetchall()
         db.close()
-        self.assertEqual(len(rows), 339)
+        self.assertEqual(len(rows), 364)
         self.assertTrue(all(len((description or "").split()) >= 30 for description, _ in rows))
         self.assertTrue(all(json.loads(metadata).get("editorial_batch") for _, metadata in rows))
 

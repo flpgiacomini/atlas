@@ -6,9 +6,9 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 
 ## Resultado
 
-- Entidades auditadas: **339**
-- Completas: **99**
-- Substanciais: **239**
+- Entidades auditadas: **364**
+- Completas: **126**
+- Substanciais: **237**
 - Parciais: **1**
 - Stubs: **0**
 - Prioridade P0: **0**
@@ -26,14 +26,14 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 | competition | 4 | 0 | 76.7 |
 | component | 7 | 1 | 85.0 |
 | entry | 4 | 4 | 100.0 |
-| event | 103 | 32 | 91.9 |
+| event | 105 | 34 | 92.1 |
 | facility | 10 | 2 | 83.7 |
 | organization | 30 | 11 | 88.0 |
-| person | 35 | 16 | 88.7 |
+| person | 46 | 29 | 91.9 |
 | place | 4 | 1 | 86.9 |
 | team | 3 | 0 | 76.7 |
-| technology | 24 | 2 | 80.6 |
-| vehicle | 82 | 25 | 90.6 |
+| technology | 28 | 6 | 83.4 |
+| vehicle | 90 | 33 | 91.4 |
 | vehicle_instance | 5 | 0 | 87.7 |
 
 ## Definição operacional
