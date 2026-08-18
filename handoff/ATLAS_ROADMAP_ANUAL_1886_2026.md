@@ -8,6 +8,8 @@ Catálogo temático complementar: `handoff/ATLAS_CATALOGO_PRIORITARIO_EXPANSAO.m
 
 Registro narrativo anual: `handoff/ATLAS_REGISTRO_NARRATIVO_ANUAL_1886_2026.md`
 
+Fundamentos anteriores à série anual: `handoff/ATLAS_FUNDAMENTOS_1769_1885.md`
+
 ## Objetivo
 
 Transformar o Atlas atual em uma história global, contínua e baseada em evidências da

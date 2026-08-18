@@ -3,6 +3,9 @@
 Complemento do roadmap anual 1886–2026. Os nomes abaixo são candidatos a pesquisa e
 reconciliação, não fatos aprovados para importação.
 
+Os antecedentes selecionados de 1769–1885 estão definidos em
+`handoff/ATLAS_FUNDAMENTOS_1769_1885.md`.
+
 ## Regras
 
 - **Nível A:** página completa para automóveis de passageiros, competição, tecnologias e
