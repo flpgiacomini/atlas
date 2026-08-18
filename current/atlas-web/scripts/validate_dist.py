@@ -20,9 +20,13 @@ for rel in [
     "graph/index.html",
     "map/index.html",
     "compare/index.html",
+    "404.html",
+    "robots.txt",
+    "sitemap.xml",
     "pagefind/pagefind.js",
     "data/graph-index.json",
     "data/compare-index.json",
+    "data/geography.registry.json",
 ]:
     if not (DIST/rel).exists(): errors.append(f"missing dist artifact: {rel}")
 

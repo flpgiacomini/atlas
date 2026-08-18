@@ -1,6 +1,21 @@
-# ATLAS — Master Workspace
+# ATLAS — história automotiva em rede
 
-Este é o pacote único para continuar o desenvolvimento do Atlas.
+Este é o workspace mestre do Atlas: um atlas global, histórico e explorável da
+indústria automobilística, centrado nos veículos e sustentado por relações,
+eventos, fontes e evidências.
+
+Site: <https://flpgiacomini.github.io/atlas/>
+
+## Desenvolvimento
+
+O produto vigente está em `current/atlas-web/`. Para validar localmente:
+
+```powershell
+cd current/atlas-web
+npm ci
+npm run verify
+python scripts/validate_links.py
+```
 
 ## Comece por aqui
 
