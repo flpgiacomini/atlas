@@ -30,6 +30,20 @@
     "status": "active"
   },
   {
+    "id": "01a01100-0001-7000-8000-000000000001",
+    "name": "born_on",
+    "description": "Documented date of birth",
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "date"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
     "id": "01a01016-ea4b-7380-b8c8-1c491da096a0",
     "name": "collaborated_with",
     "description": "Documented collaboration",
@@ -88,6 +102,20 @@
       "organization"
     ],
     "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01100-0001-7000-8000-000000000002",
+    "name": "died_on",
+    "description": "Documented date of death",
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "date"
+    ],
+    "temporal_policy": "none",
     "symmetric": false,
     "status": "active"
   },

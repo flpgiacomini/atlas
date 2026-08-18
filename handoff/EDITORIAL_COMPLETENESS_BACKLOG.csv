@@ -187,11 +187,11 @@ P0,stub,10.0,01a01028-5456-7a95-8022-9945a7e5315f,organization,Volkswagen Group,
 P0,stub,10.0,01a010f1-7e89-7648-bf89-51792b04ab9e,organization,Volvo Cars,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a010d9-28c6-73a0-ae55-f5e91aea4fe6,person,Alec Issigonis,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a0102a-57e7-7ba3-b726-4bd89283a10f,person,Armand Peugeot,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a01028-5441-7e94-9604-f48e8c9254e7,person,Carl Benz,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P3,complete,100,01a01028-5441-7e94-9604-f48e8c9254e7,person,Carl Benz,35,4,3,4,
 P0,stub,10.0,01a0102a-57e9-773d-8a60-1b66f245b8ae,person,Charles Rolls,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01030-3313-7c92-8420-09288e3b4769,person,Claudio Fogolin,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a0102f-074e-73a3-b195-049f57ee5d71,person,Emil Jellinek,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a01016-ea4d-7d5e-bd1b-907f0ec733c1,person,Ferdinand Alexander Porsche,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P3,complete,100.0,01a01016-ea4d-7d5e-bd1b-907f0ec733c1,person,Ferdinand Alexander Porsche,37,3,3,3,
 P0,stub,10.0,01a01016-ea4d-7397-8a59-8d3799b2d3ff,person,Ferdinand Piëch,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01031-ec56-72e1-87fe-d60d070d71f0,person,Ferenc Szisz,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a0102a-57e8-7b53-b434-2f603c11af78,person,Fernand Renault,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
@@ -202,7 +202,7 @@ P0,stub,10.0,01a01028-5445-7b60-a3e7-0e42b146e448,person,Giorgetto Giugiaro,0,0,
 P0,stub,10.0,01a0102a-57e5-7955-a9a2-653c1376cea8,person,Gottlieb Daimler,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01016-ea4e-7290-91db-c64d4bd07c58,person,Hans Herrmann,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01016-ea4e-7957-8e03-34c482a35294,person,Hans Mezger,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a0102a-57eb-71e8-9acf-f52ed60ec5d4,person,Henry Ford,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P3,complete,100,01a0102a-57eb-71e8-9acf-f52ed60ec5d4,person,Henry Ford,36,4,3,4,
 P0,stub,10.0,01a0102a-57e9-738a-9585-6df3a0b26b99,person,Henry Royce,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01016-ea4e-7d0d-b9a8-bc64b11f5aac,person,Jo Siffert,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01016-ea4c-73c1-87d0-37223d1c1ffb,person,João Augusto Conrado do Amaral Gurgel,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
@@ -213,9 +213,9 @@ P0,stub,10.0,01a0102a-57e8-7360-acde-fe04b5a915bd,person,Louis Renault,0,0,3,0,d
 P0,stub,10.0,01a0102a-57e7-75f4-a727-9a9a92b50bd2,person,Léon Serpollet,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a0102a-57e8-78ff-aef0-7ec2156f5eec,person,Marcel Renault,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a010d9-28c7-7eed-a50f-a22ba35f0ff2,person,Marcello Gandini,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a010f1-7e89-7c31-a280-a3fdfe3e04d1,person,Nils Bohlin,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P2,substantial,88.3,01a010f1-7e89-7c31-a280-a3fdfe3e04d1,person,Nils Bohlin,36,2,3,2,subject_statements<3
 P0,stub,10.0,01a0102a-57eb-7f81-be5a-18878a709544,person,Ransom E. Olds,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a01016-ea4e-78db-95d0-5ebf2fcdfaf8,person,Richard Attwood,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P3,complete,100.0,01a01016-ea4e-78db-95d0-5ebf2fcdfaf8,person,Richard Attwood,41,3,3,3,
 P0,stub,10.0,01a01028-5456-78cb-a178-89ff7fee02ed,person,Romano Artioli,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01030-3312-7bd6-bfa0-e1d71a49c740,person,Vincenzo Lancia,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a0102a-57e6-70e3-9eb5-863593183390,person,Wilhelm Maybach,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
