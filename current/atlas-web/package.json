@@ -7,6 +7,8 @@
     "export:data": "python scripts/export_web.py",
     "media:optimize": "node scripts/optimize_media.mjs",
     "validate:data": "python ../canonical-model/scripts/validate_atlas_db.py data/atlas.sqlite && python scripts/validate_media.py && python scripts/validate_geography.py",
+    "validate:heurist": "python scripts/validate_heurist_report.py",
+    "release:manifest": "python scripts/generate_release_manifest.py",
     "dev": "npm run export:data && astro dev",
     "build:astro": "astro build",
     "index:search": "pagefind --site dist",

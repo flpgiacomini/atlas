@@ -1,0 +1,24 @@
+{
+  "status": "pending_credentials",
+  "instance_url": null,
+  "heurist_version": null,
+  "executed_at": null,
+  "executor": null,
+  "duration_minutes": null,
+  "pilots": [],
+  "checks": {
+    "entity": false,
+    "temporal_relation": false,
+    "conflict_901_911": false,
+    "source_evidence": false,
+    "entry_917": false,
+    "genealogy": false,
+    "filters": false,
+    "map": false,
+    "network": false,
+    "round_trip": false
+  },
+  "critical_semantic_loss": null,
+  "evidence": [],
+  "limitations": ["Aguardando credenciais temporárias fornecidas por canal seguro."]
+}
