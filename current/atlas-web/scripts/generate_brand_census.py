@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Generate the auditable M01-M12 global brand candidate census."""
+from __future__ import annotations
+import csv, json, sqlite3
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]; DB=ROOT/'data'/'atlas.sqlite'; OUT=ROOT/'data'/'brand.candidates.csv'; SUMMARY=ROOT/'src'/'data'/'generated'/'brand-census.json'; REPORT=ROOT.parents[1]/'handoff'/'ATLAS_CENSO_MARCAS_STATUS.md'
+WAVES={
+'M01':('Pioneiras globais','Benz|Daimler|Mercedes-Benz|Panhard & Levassor|De Dion-Bouton|Darracq|Mors|Clément-Bayard|Rochet-Schneider|Napier|Wolseley|Austin|Humber|Vauxhall|Ford|Lincoln|Buick|Cadillac|Oldsmobile|Packard|Peerless|Pierce-Arrow|Studebaker|REO|Maxwell|Rambler|Locomobile|FIAT|Lancia|Itala|Isotta Fraschini|Alfa Romeo|Hispano-Suiza|Laurin & Klement|ŠKODA|Tatra|Opel|Renault|Peugeot|Citroën|Rolls-Royce'),
+'M02':('Europa 1919-1945','Morris|MG|Riley|Standard|Triumph|Rover|Singer|Hillman|Talbot|Sunbeam|Alvis|Lagonda|Bentley|Aston Martin|SS Cars|Jaguar|Delage|Delahaye|Voisin|Hotchkiss|Salmson|Amilcar|Mathis|Rosengart|Simca|Panhard|Bugatti|BMW|Audi|Volkswagen|DKW|Horch|Wanderer|Adler|Maybach|Borgward|Hanomag|NSU|Steyr|Austro-Daimler|Praga|Aero|Jawa|Auto Union|Chenard-Walcker|Lorraine-Dietrich|Corre La Licorne|Ballot|Donnet|UNIC'),
+'M03':('Américas','Chevrolet|Pontiac|Oakland|LaSalle|Saturn|Hummer|Mercury|Edsel|Continental|Chrysler|Plymouth|DeSoto|Dodge|Imperial|Eagle|Hudson|Nash|AMC|Kaiser|Frazer|Willys|Jeep|Tucker|Cord|Auburn|Duesenberg|Graham|Avanti|Tesla|Rivian|Lucid|Fisker|Karma|Saleen|Shelby|Vector|DeLorean|McLaughlin|Acadian|Bricklin|Mastretta|VUHL|Crosley|Franklin|Marmon|Stutz|Hupmobile|Moon|Durant|Star|Ruxton|Checker|Geo|Panoz|Mosler|SSC North America|Czinger|Faraday Future|Canoo|Lordstown|Aptera'),
+'M04':('Itália esportiva e artesanal','Ferrari|Maserati|Lamborghini|Abarth|Autobianchi|Innocenti|Iso|Bizzarrini|De Tomaso|Pagani|Dallara|Cisitalia|OSCA|Siata|Moretti|ASA|Cizeta|Qvale|DR Automobiles|OM|Nardi|Stanguellini|Bandini|Ermini|Intermeccanica|ATS|Serenissima|Monteverdi|Giannini|Fornasari|Mazzanti|Pininfarina|Bertone'),
+'M05':('Reino Unido','Lotus|McLaren|TVR|Bristol|Jensen|Reliant|Morgan|Caterham|Marcos|Noble|Ariel|Ginetta|AC|Austin-Healey|Healey|Mini|Land Rover|Range Rover|Vanden Plas|Princess|Daimler (British marque)|Lanchester|Armstrong Siddeley|Gordon-Keeble|Gilbern|Bond|Berkeley|Turner|Peerless GT|Warwick|Panther|Invicta|Allard|Frazer Nash|BAC|Radical|Ultima|LEVC|Ineos|Arrival'),
+'M06':('Japão','Toyota|Toyopet|Lexus|Daihatsu|Nissan|Datsun|Infiniti|Prince|Honda|Acura|Mazda|Mitsubishi|Subaru|Suzuki|Isuzu|Scion|Eunos|Autozam|Mitsuoka|Tommykaira|Aspark|Ohta|Tama|Hino|Suminoe|Cony|Aichi Machine Industry|Dome|Buddy|Takeoka|Autech'),
+'M07':('Coreia China Taiwan','Hyundai|Genesis|Kia|Daewoo|SsangYong|KGM|Samsung Motors|Renault Korea|Asia Motors|Proto Motors|Hongqi|SAIC|Roewe|MG|Nanjing|Geely|Lynk & Co|Zeekr|Chery|Exeed|Jetour|Great Wall|Haval|Ora|Wey|BYD|Denza|Yangwang|Fangchengbao|Nio|Onvo|Firefly|XPeng|Li Auto|Leapmotor|Xiaomi Auto|GAC|Aion|Dongfeng|Voyah|Changan|Avatr|JAC|BAIC|Arcfox|FAW|Bestune|Wuling|Baojun|Seres|Aito|Luxgen|Yulon|Brilliance|Neta|Aiways|Skywell|IM Motors|Deepal|Qoros|Zotye|Lifan|Hafei|Haima|Soueast|Maxus|Omoda|Jaecoo'),
+'M08':('Índia Sudeste Asiático Oriente Médio','Hindustan|Premier|Tata|Mahindra|Maruti Suzuki|Force Motors|Standard India|Sipani|Reva|DC Avanti|VinFast|Proton|Perodua|Bufori|Thai Rung|Iran Khodro|Saipa|Pars Khodro|W Motors|Bajaj|Ather|Ola Electric|Pravaig|Mean Metal Motors|Vayve Mobility|Eicher|San Storm|Chinkara|Esemka|Timor|Pindad|MVM|Bahman|Paykan'),
+'M09':('Europa Central e Oriental','Zastava|Yugo|Dacia|Oltcit|FSO|Syrena|Wartburg|Trabant|Sachsenring|Lada|Moskvitch|GAZ|ZIL|ZAZ|LuAZ|Melkus|Rimac|IZh|SMZ|Marussia|Aurus|Sollers|Doninvest|TagAZ|Aleko|Velorex|Avia|Barkas|Rába|Tushek|KTM X-Bow'),
+'M10':('Escandinávia Benelux Ibéria','Volvo|Saab|Polestar|Koenigsegg|NEVS|Donkervoort|DAF|Spyker|Minerva|Imperia|FN|SEAT|Cupra|Pegaso|Santana|Tramontana|Spania GTA|UMM|Portaro|Adamastor|Think|Buddy Electric|Caresto|Lightyear|Carver|Burton|Vencer|Edran|Gillet|Apal|Hurtan|Comarth|Aspid|Biscúter|Authi|Sado'),
+'M11':('América Latina','Gurgel|Puma|Miura|Santa Matilde|FNM|Troller|Lobini|Brasinca|Vemag|Agrale|JPX|CBT|Engesa|Envemo|Hofstetter|Adamo|Farus|Lafer|Dacon|Obvio!|Tac Motors|Chamonix|IKA|Siam Di Tella|Pur Sang|Anasagasti|Grumett|Effa|Indio|Bognor|Justicialista|Rastrojero|Zanella|Autoar|Crespi|Bucci|ASA Argentina'),
+'M12':('Oceania e África','Holden|HSV|FPV|Bolwell|Elfin|Brabham Automotive|Leyland Australia|Rootes Australia|Trekka|Hulme|Perana|GSM|Birkin|Optimal Energy|Mobius|Kiira|Innoson|Kantanka|Laraki|Wallyscar|Purvis|Giocattolo|Joss|Devaux|Nota|Lightburn|Zeta|Hartnett|Southern Cross|Finch|Skelta|Tomcar|ACE EV|Almac|Saker|Anziel|Africar|Bailey|Harper Sports Cars|Uri|IVEMA|Menara|Dezzi'),
+}
+def main():
+ db=sqlite3.connect(DB); published={r[0].casefold():r[1] for r in db.execute("select canonical_name,id from entity where entity_type='brand'")}; rows=[];seen=set()
+ for wave,(region,names) in WAVES.items():
+  for canonical in names.split('|'):
+   key=canonical.casefold()
+   if key in seen: continue
+   seen.add(key); rows.append({'candidate_name':canonical,'wave':wave,'region_cluster':region,'scope_level':'A','decision':'published' if key in published else 'needs_research','entity_id':published.get(key,''),'notes':'Já existe no SQLite canônico.' if key in published else 'Reconciliar identidade, períodos, organizações, veículo e fontes.'})
+ db.close()
+ with OUT.open('w',encoding='utf-8-sig',newline='') as f: w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+ by_wave={w:sum(r['wave']==w for r in rows) for w in WAVES}; done=sum(r['decision']=='published' for r in rows)
+ SUMMARY.parent.mkdir(parents=True,exist_ok=True); SUMMARY.write_text(json.dumps({'candidates':len(rows),'published':done,'needs_research':len(rows)-done,'waves':by_wave,'items':[{'name':r['candidate_name'],'wave':r['wave'],'region':r['region_cluster'],'decision':r['decision']} for r in rows]},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ REPORT.write_text('# Atlas — status do censo global de marcas\n\nData: 18/08/2026  \nRegistry: `current/atlas-web/data/brand.candidates.csv`\n\n## Resultado\n\n'+f'- Candidatos únicos: **{len(rows)}**\n- Já publicados: **{done}**\n- A pesquisar: **{len(rows)-done}**\n- Ondas cobertas: **12/12**\n\n## Por onda\n\n| Onda | Candidatos |\n|---|---:|\n'+'\n'.join(f'| {w} | {n} |' for w,n in by_wave.items())+'\n\nO registry é uma fila editorial, não uma fonte histórica. `needs_research` não gera Entity Page até cumprir o contrato de evidência.\n',encoding='utf-8')
+ print(json.dumps({'candidates':len(rows),'published':done,'needs_research':len(rows)-done,'waves':by_wave},ensure_ascii=False))
+if __name__=='__main__': main()
