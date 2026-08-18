@@ -4,7 +4,7 @@
   "heurist_version": "7.2.1",
   "executed_at": "2026-08-18",
   "executor": "Codex with Felipe Giacomini",
-  "duration_minutes": 45,
+  "duration_minutes": 60,
   "pilots": [
     "gurgel",
     "p917",
@@ -13,7 +13,7 @@
     "p911"
   ],
   "checks": {
-    "entity": false,
+    "entity": true,
     "temporal_relation": false,
     "conflict_901_911": false,
     "source_evidence": false,
@@ -24,15 +24,24 @@
     "network": false,
     "round_trip": false
   },
+  "import_counts": {
+    "entity_rows": 86,
+    "entity_processed": 86,
+    "entity_added": 86,
+    "entity_updated": 0,
+    "entity_errors": 0
+  },
   "critical_semantic_loss": null,
   "evidence": [
     "Conta proprietária criada e autenticada na instância Huma-Num.",
     "Base felip_atlas_a97 criada no Heurist 7.2.1.",
     "Record type Atlas Entity criado com Atlas UUID e Canonical name.",
-    "CSV entities_for_heurist.csv selecionado para importação; upload não concluído após interrupção do controlador de navegador."
+    "entities_for_heurist.csv analisado como CSV com 86 linhas e caracteres UTF-8 preservados.",
+    "Matching executado por Atlas UUID: zero registros existentes e 86 novos.",
+    "Importação concluída: 86 processados, 86 adicionados, zero atualizados e zero erros."
   ],
   "limitations": [
-    "Gate ainda não pontuado: importação, relações, visualizações e round-trip permanecem pendentes.",
-    "A conexão automatizada com o navegador foi interrompida durante o seletor de arquivo."
+    "Gate ainda não pontuado: Source, Statement, relações, visualizações e round-trip permanecem pendentes.",
+    "A prova inicial importou somente Atlas UUID e Canonical name; os campos semanticos adicionais ainda precisam ser configurados."
   ]
 }
