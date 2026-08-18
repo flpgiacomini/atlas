@@ -1,7 +1,7 @@
 # Relatório A9.7 — candidato a release
 
 Data da revisão: 2026-08-18  
-Estado: **aprovado localmente; bloqueado para v1.0.0 pelo gate Heurist e pela confirmação do deploy**
+Estado: **código, CI e deploy aprovados; bloqueado para v1.0.0 somente pelo gate Heurist**
 
 ## Identificação
 
@@ -10,7 +10,8 @@ Estado: **aprovado localmente; bloqueado para v1.0.0 pelo gate Heurist e pela co
 - Banco canônico: `current/atlas-web/data/atlas.sqlite`
 - SHA-256 do banco: `62392B653DEC0C1BA490EBCD4FD13E7BB2CDE0E5B8CDB21FAFE79F01C5AFA33D`
 - Baseline Git: `34b41d7c9ca47badfb5b875af7aff3f611b1f786`
-- Candidato publicado: `23eb631` em `origin/main`
+- Candidato implantado: `a1cdbd14e8254d74f86925f0eca96c50e4a1b490`
+- URL pública: <https://flpgiacomini.github.io/atlas/>
 - Ambiente local de validação: Node 26.7.0, npm 11.19.0 e Python 3.14.7
 - Ambiente CI contratado: Node 22 e Python 3.13
 
@@ -38,7 +39,9 @@ Estado: **aprovado localmente; bloqueado para v1.0.0 pelo gate Heurist e pela co
 | Chrome/Edge | percursos obrigatórios aprovados |
 | Firefox | smoke test aprovado |
 | WebKit | smoke test aprovado |
-| GitHub Actions CI | aprovado, execução nº 2 |
+| GitHub Actions CI | aprovado, execução nº 4 |
+| GitHub Pages | aprovado, workflow nº 5 |
+| Smoke test público | home, Pagefind, sitemap e Entity Page com HTTP 200 |
 
 O erro final do Lighthouse foi restrito à remoção de seu diretório temporário no Windows e ocorreu depois da emissão válida do relatório.
 
@@ -49,9 +52,9 @@ Foram inspecionados os percursos Porsche 917, Porsche 911, Benz Patent Motor Car
 ## Pendências impeditivas
 
 1. **Heurist hands-on:** aguardando credenciais temporárias fornecidas por canal seguro. O protocolo está em `HEURIST_HANDS_ON_PROTOCOL.md`. Resultado inferior a 8/10 ou perda semântica crítica mantém o release bloqueado.
-2. **GitHub Pages:** build, validadores e auditoria de links passaram no workflow nº 2. A ativação foi recusada pela API com `422: Your current plan does not support GitHub Pages for this repository`, pois o repositório está privado no plano atual. É necessária decisão do proprietário entre tornar o repositório público ou alterar o plano GitHub; depois disso, o workflow e o smoke test público devem ser repetidos.
+O repositório foi tornado público mediante autorização explícita do proprietário, o Pages foi configurado com GitHub Actions e o smoke test público foi aprovado.
 
-Nenhuma tag `v1.0.0` nem GitHub Release deve ser criada antes de ambos os itens serem aprovados. O commit publicado e o resultado do deploy serão acrescentados a este relatório na promoção do candidato.
+Nenhuma tag `v1.0.0` nem GitHub Release deve ser criada antes da aprovação do Heurist. O commit definitivo será acrescentado a este relatório na promoção do candidato.
 
 ## Limitações conhecidas
 
