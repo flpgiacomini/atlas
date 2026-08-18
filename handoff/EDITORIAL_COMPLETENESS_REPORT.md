@@ -7,12 +7,12 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 ## Resultado
 
 - Entidades auditadas: **339**
-- Completas: **7**
-- Substanciais: **11**
-- Parciais: **165**
-- Stubs: **156**
-- Prioridade P0: **156**
-- Prioridade P1: **165**
+- Completas: **96**
+- Substanciais: **231**
+- Parciais: **12**
+- Stubs: **0**
+- Prioridade P0: **0**
+- Prioridade P1: **12**
 
 Este resultado substitui qualquer interpretação anterior de que cobertura de rota ou de mídia equivalia a completude editorial.
 
@@ -20,21 +20,21 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 
 | Tipo | Entidades | Completas | Nota média |
 |---|---:|---:|---:|
-| brand | 18 | 0 | 11.5 |
-| circuit | 4 | 0 | 5.0 |
-| circuit_layout | 6 | 0 | 50.6 |
-| competition | 4 | 0 | 5.0 |
-| component | 7 | 0 | 32.6 |
-| entry | 4 | 0 | 70.0 |
-| event | 103 | 0 | 61.7 |
-| facility | 10 | 0 | 18.5 |
-| organization | 30 | 0 | 16.4 |
-| person | 35 | 5 | 43.8 |
-| place | 4 | 0 | 20.6 |
-| team | 3 | 0 | 10.0 |
-| technology | 24 | 0 | 12.0 |
-| vehicle | 82 | 2 | 50.1 |
-| vehicle_instance | 5 | 0 | 45.5 |
+| brand | 18 | 1 | 80.6 |
+| circuit | 4 | 1 | 82.5 |
+| circuit_layout | 6 | 2 | 88.3 |
+| competition | 4 | 0 | 76.7 |
+| component | 7 | 1 | 85.0 |
+| entry | 4 | 4 | 100.0 |
+| event | 103 | 31 | 91.8 |
+| facility | 10 | 2 | 83.7 |
+| organization | 30 | 10 | 87.6 |
+| person | 35 | 16 | 88.7 |
+| place | 4 | 1 | 86.9 |
+| team | 3 | 0 | 76.7 |
+| technology | 24 | 2 | 80.6 |
+| vehicle | 82 | 25 | 89.5 |
+| vehicle_instance | 5 | 0 | 86.0 |
 
 ## Definição operacional
 

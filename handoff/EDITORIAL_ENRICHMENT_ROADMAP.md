@@ -45,25 +45,25 @@ Uma entidade só sai do lote quando:
 |---|---|---:|---|---|
 | E01 | Carl Benz, Henry Ford, Richard Attwood, Nils Bohlin e Ferdinand Alexander Porsche | 5 | concluído | Biografias, datas vitais, vínculos profissionais e evidências institucionais |
 | E02 | Benz Patent Motor Car, Ford Model T, Porsche 911, Porsche 917 e Volvo PV544 | 5 | concluído | Narrativas dos percursos centrais; quatro entidades promovidas |
-| E03 | Pessoas, faixa alfabética `Alec Issigonis`–`Georges Bouton` | 10 | pendente | Pioneiros, projetistas e fundadores |
-| E04 | Pessoas, faixa `Gioacchino Colombo`–`Kiichiro Toyoda` | 10 | pendente | Engenharia, indústria e design |
-| E05 | Pessoas, faixa `Kurt Ahrens Jr.`–`Wilhelm Werner` | 10 | pendente | Competição, segurança e liderança técnica |
-| E06 | Todas as marcas ainda pendentes | 18 | pendente | Origem, identidade, proprietários e continuidade histórica |
-| E07 | Organizações, faixa `Benz & Cie.`–`Hyundai Motor Company` | 15 | pendente | Fundação, localização, liderança e sucessões |
-| E08 | Organizações, faixa `Lancia & C.`–`Volvo Cars` | 15 | pendente | Estrutura corporativa, produção e transições |
-| E09 | Veículos, faixa `Audi quattro`–`Ford Mustang` | 20 | pendente | Contexto histórico, fabricação, tecnologia e genealogia |
-| E10 | Veículos, faixa `Ford Quadricycle`–`Panhard-Levassor Type M2E` | 20 | pendente | Pioneirismo, escala industrial e arquiteturas iniciais |
-| E11 | Veículos, faixa `Peugeot Type 1`–`Renault Espace — First Generation` | 20 | pendente | Reconstrução, desempenho, utilidade e novos segmentos |
-| E12 | Veículos, faixa `Renault Type A`–`ŠKODA 1000 MB` | 18 | pendente | Produção global, segurança e propulsões alternativas |
-| E13 | Todas as tecnologias ainda pendentes | 24 | pendente | Definição, autoria, aplicação, popularização e impacto |
-| E14 | Todos os componentes ainda pendentes | 7 | pendente | Função técnica, desenvolvimento e veículos relacionados |
-| E15 | Eventos, faixa `1903 Cadillac Runabout production`–`End of BR-800 production` | 26 | pendente | Cronologia documentada e participantes |
-| E16 | Eventos, faixa `End of Ford Model T production`–`Hyundai Pony market introduction` | 26 | pendente | Industrialização, produção e expansão internacional |
-| E17 | Eventos, faixa `Introduction of turbocharger in Porsche 911`–`Presentation of first Porsche 911 Targa` | 26 | pendente | Tecnologia, lançamentos, regulação e competição |
-| E18 | Eventos, faixa `Presentation of Porsche 911 Type 992`–`ŠKODA 1000 MB production start` | 25 | pendente | Marcos recentes, segurança e transições tecnológicas |
-| E19 | Todas as instalações e lugares pendentes | 14 | pendente | Função industrial, localização, período e precisão geográfica |
-| E20 | Circuitos, layouts, competições e equipes pendentes | 17 | pendente | Infraestrutura esportiva, governança, traçados e relações temporais |
-| E21 | Entries e VehicleInstances pendentes | 9 | pendente | Chassi, configuração, equipe, pilotos, evento, número e resultado |
+| E03 | Pessoas, faixa alfabética `Alec Issigonis`–`Georges Bouton` | 10 | executado | Pioneiros, projetistas e fundadores |
+| E04 | Pessoas, faixa `Gioacchino Colombo`–`Kiichiro Toyoda` | 10 | executado | Engenharia, indústria e design |
+| E05 | Pessoas, faixa `Kurt Ahrens Jr.`–`Wilhelm Werner` | 10 | executado | Competição, segurança e liderança técnica |
+| E06 | Todas as marcas ainda pendentes | 18 | executado | Origem, identidade, proprietários e continuidade histórica |
+| E07 | Organizações, faixa `Benz & Cie.`–`Hyundai Motor Company` | 15 | executado | Fundação, localização, liderança e sucessões |
+| E08 | Organizações, faixa `Lancia & C.`–`Volvo Cars` | 15 | executado | Estrutura corporativa, produção e transições |
+| E09 | Veículos, faixa `Audi quattro`–`Ford Mustang` | 20 | executado com limitações | Contexto histórico, fabricação, tecnologia e genealogia |
+| E10 | Veículos, faixa `Ford Quadricycle`–`Panhard-Levassor Type M2E` | 20 | executado com limitações | Pioneirismo, escala industrial e arquiteturas iniciais |
+| E11 | Veículos, faixa `Peugeot Type 1`–`Renault Espace — First Generation` | 20 | executado com limitações | Reconstrução, desempenho, utilidade e novos segmentos |
+| E12 | Veículos, faixa `Renault Type A`–`ŠKODA 1000 MB` | 18 | executado com limitações | Produção global, segurança e propulsões alternativas |
+| E13 | Todas as tecnologias ainda pendentes | 24 | executado | Definição, autoria, aplicação, popularização e impacto |
+| E14 | Todos os componentes ainda pendentes | 7 | executado | Função técnica, desenvolvimento e veículos relacionados |
+| E15 | Eventos, faixa `1903 Cadillac Runabout production`–`End of BR-800 production` | 26 | executado | Cronologia documentada e participantes |
+| E16 | Eventos, faixa `End of Ford Model T production`–`Hyundai Pony market introduction` | 26 | executado | Industrialização, produção e expansão internacional |
+| E17 | Eventos, faixa `Introduction of turbocharger in Porsche 911`–`Presentation of first Porsche 911 Targa` | 26 | executado | Tecnologia, lançamentos, regulação e competição |
+| E18 | Eventos, faixa `Presentation of Porsche 911 Type 992`–`ŠKODA 1000 MB production start` | 25 | executado | Marcos recentes, segurança e transições tecnológicas |
+| E19 | Todas as instalações e lugares pendentes | 14 | executado | Função industrial, localização, período e precisão geográfica |
+| E20 | Circuitos, layouts, competições e equipes pendentes | 17 | executado | Infraestrutura esportiva, governança, traçados e relações temporais |
+| E21 | Entries e VehicleInstances pendentes | 9 | executado com limitações | Chassi, configuração, equipe, pilotos, evento, número e resultado |
 
 ## Contabilidade de cobertura pendente
 
