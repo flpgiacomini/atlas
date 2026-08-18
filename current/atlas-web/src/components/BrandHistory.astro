@@ -1,6 +1,7 @@
 ---
 import { withBase } from "../lib/urls";
-const { vehicles = [] } = Astro.props;
+import { label } from "../lib/labels";
+const { brand, vehicles = [] } = Astro.props;
 const eventMap = new Map<string, any>();
 for (const vehicle of vehicles) {
   for (const event of vehicle.events ?? []) {
@@ -10,9 +11,13 @@ for (const vehicle of vehicles) {
   }
 }
 const events = [...eventMap.values()].sort((a:any,b:any) => String(a.date).localeCompare(String(b.date)));
+const lifecyclePredicates = new Set(["owned_by", "successor_of", "subsidiary_of", "founded_in", "revival_of"]);
+const lifecycle = [...(brand?.outgoing ?? []).filter((item:any) => lifecyclePredicates.has(item.predicate)), ...(brand?.incoming ?? []).filter((item:any) => lifecyclePredicates.has(item.predicate))];
 ---
 <section class="brand-history">
   <div class="section-heading"><div><div class="hero-kicker">História da marca</div><h2>Modelos e marcos no tempo</h2></div><p>Uma leitura derivada das relações entre marca, veículos e eventos documentados no SQLite.</p></div>
+  <div class="brand-lifecycle"><div><span>Estado histórico</span><strong>{brand?.metadata?.brand_status ?? "em pesquisa"}</strong></div><div><span>Relações societárias e genealógicas</span><strong>{lifecycle.length}</strong></div><div><span>Modelos reconciliados</span><strong>{vehicles.length}</strong></div></div>
+  {lifecycle.length ? <ul class="brand-lineage-list">{lifecycle.map((item:any) => <li><span>{label(item.predicate)}</span><strong>{item.subject_entity_id === brand.id ? item.object_name : item.subject_name}</strong>{(item.valid_from || item.valid_until) && <small>{item.valid_from ?? "…"} — {item.valid_until ?? "presente"}</small>}</li>)}</ul> : <p class="empty-state">A genealogia societária desta marca ainda aguarda reconciliação documental.</p>}
   {vehicles.length ? <>
     <div class="brand-model-grid">{vehicles.map((vehicle:any) => <a href={withBase(`e/${vehicle.id}/`)}><span>Automóvel</span><strong>{vehicle.name}</strong><small>{vehicle.events?.length ?? 0} marcos relacionados</small></a>)}</div>
     <div class="section-heading compact brand-events-heading"><div><div class="hero-kicker">Cronologia</div><h2>Marcos documentados</h2></div></div>

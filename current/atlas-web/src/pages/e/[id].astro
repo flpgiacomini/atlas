@@ -26,7 +26,7 @@ const brandVehicles = page.type === "brand" ? pages.filter((candidate:any) => ca
     <div class="container entity-body">
       <aside class="entity-summary"><div><strong>{relationCount}</strong><span>relações</span></div><div><strong>{factCount}</strong><span>fatos</span></div><div><strong>{page.events.length}</strong><span>eventos</span></div></aside>
       <div class="content-grid"><div><div class="section-heading compact"><div><div class="hero-kicker">Contexto</div><h2>Relações</h2></div></div><SemanticRelations outgoing={page.outgoing} incoming={page.incoming} /></div><Facts outgoing={page.outgoing} /></div>
-      {page.type === "brand" && <BrandHistory vehicles={brandVehicles} />}
+      {page.type === "brand" && <BrandHistory brand={page} vehicles={brandVehicles} />}
       <Timeline events={page.events} /><Graph graph={page.graph} />
       <section class="card metadata-grid"><div class="meta-item"><small>Identificador Atlas</small><div>{page.id}</div></div><div class="meta-item"><small>Tipo canônico</small><div>{label(page.type)}</div></div>{Object.entries(page.metadata ?? {}).slice(0,10).map(([key,value]) => <div class="meta-item"><small>{label(key)}</small><div>{JSON.stringify(value).replace(/^"|"$/g,"")}</div></div>)}</section>
       <figure class="media-credit"><figcaption>{page.media.credit} <a href={page.media.license_url}>{page.media.license}</a> · Representação interpretativa, não evidência histórica.</figcaption></figure>

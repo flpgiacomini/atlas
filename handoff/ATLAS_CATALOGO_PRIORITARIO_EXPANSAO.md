@@ -6,6 +6,9 @@ reconciliação, não fatos aprovados para importação.
 Os antecedentes selecionados de 1769–1885 estão definidos em
 `handoff/ATLAS_FUNDAMENTOS_1769_1885.md`.
 
+O censo de marcas ativas, extintas, fundidas e renomeadas está definido em
+`handoff/ATLAS_UNIVERSO_GLOBAL_DE_MARCAS.md`.
+
 ## Regras
 
 - **Nível A:** página completa para automóveis de passageiros, competição, tecnologias e
