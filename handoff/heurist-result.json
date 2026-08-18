@@ -29,7 +29,12 @@
     "entity_processed": 86,
     "entity_added": 86,
     "entity_updated": 0,
-    "entity_errors": 0
+    "entity_errors": 0,
+    "source_rows": 24,
+    "source_processed": 24,
+    "source_added": 24,
+    "source_updated": 0,
+    "source_errors": 0
   },
   "critical_semantic_loss": null,
   "evidence": [
@@ -38,10 +43,14 @@
     "Record type Atlas Entity criado com Atlas UUID e Canonical name.",
     "entities_for_heurist.csv analisado como CSV com 86 linhas e caracteres UTF-8 preservados.",
     "Matching executado por Atlas UUID: zero registros existentes e 86 novos.",
-    "Importação concluída: 86 processados, 86 adicionados, zero atualizados e zero erros."
+    "Importação concluída: 86 processados, 86 adicionados, zero atualizados e zero erros.",
+    "Record type Atlas Source criado com Atlas Source ID e Title, ambos obrigatórios.",
+    "sources_for_heurist.csv analisado como CSV com 24 linhas e caracteres UTF-8 preservados.",
+    "Matching de fontes executado por Atlas Source ID: zero registros existentes e 24 novos.",
+    "Importação de fontes concluída: 24 processados, 24 adicionados, zero atualizados e zero erros."
   ],
   "limitations": [
-    "Gate ainda não pontuado: Source, Statement, relações, visualizações e round-trip permanecem pendentes.",
+    "Gate ainda não pontuado: Statement, relações, visualizações e round-trip permanecem pendentes.",
     "A prova inicial importou somente Atlas UUID e Canonical name; os campos semanticos adicionais ainda precisam ser configurados."
   ]
 }
