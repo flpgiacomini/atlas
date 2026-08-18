@@ -6,6 +6,8 @@ Horizonte: 141 anos, de 1886 a 2026 inclusive
 
 Catálogo temático complementar: `handoff/ATLAS_CATALOGO_PRIORITARIO_EXPANSAO.md`
 
+Registro narrativo anual: `handoff/ATLAS_REGISTRO_NARRATIVO_ANUAL_1886_2026.md`
+
 ## Objetivo
 
 Transformar o Atlas atual em uma história global, contínua e baseada em evidências da
