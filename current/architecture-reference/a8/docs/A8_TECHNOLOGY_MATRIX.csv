@@ -1,0 +1,17 @@
+﻿Layer,Decision,Status,Rationale
+Canonical knowledge,SQLite v1,ADOPT,"Tool-independent, tested from A2–A7"
+Research sources,Zotero,ADOPT,Bibliographic/source library
+Reconciliation,OpenRefine,ADOPT,Batch cleanup and external IDs
+Research workspace,Heurist,PROVISIONAL,Replaceable authoring UI; manual hands-on gate remains
+Static site generator,Astro,ADOPT FOR A9,Static routes + components + TypeScript without full SPA
+Search,Pagefind,ADOPT FOR A9,"Static post-build search, no service"
+Graph,Cytoscape.js,KEEP,Current model projects cleanly to graph
+Timeline,vis-timeline,KEEP,Derived Events/temporal Statements
+Map,Leaflet,KEEP v1,Enough for points/simple layers
+Advanced map,MapLibre + PMTiles,DEFER,Only when vector/historical layers justify it
+Data browser,Datasette,LOCAL OPTIONAL,Admin/debug/exploration only
+Browser SQLite,SQLite WASM / Datasette Lite,DEFER,"Power-user/offline option, not normal UI"
+Production API,None,DO NOT BUILD,No v1 requirement
+Graph database,None,DO NOT BUILD,No measured need
+Static hosting,Cloudflare Pages,PRIMARY,No runtime functions required
+Static hosting fallback,GitHub Pages / generic static host,SUPPORTED,Avoid provider lock-in

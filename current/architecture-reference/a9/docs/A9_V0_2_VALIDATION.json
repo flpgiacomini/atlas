@@ -1,0 +1,80 @@
+{
+  "phase": "A9",
+  "version": "0.2",
+  "passed_structural_validation": true,
+  "errors": [],
+  "canonical_counts": {
+    "entity": 339,
+    "statement": 446,
+    "source": 125,
+    "claim": 572,
+    "evidence": 572,
+    "predicate": 54
+  },
+  "export_result": {
+    "pages": 339,
+    "edges": 332,
+    "timeline": 103
+  },
+  "research_to_publication_proof": {
+    "subject": "Volvo PV544 / Nils Bohlin / three-point safety belt",
+    "passed": true,
+    "statements": [
+      {
+        "subject": "First delivery of a Volvo PV544 with standard-fit three-point safety belt",
+        "predicate": "introduced_feature",
+        "object_value": "Modern three-point safety belt"
+      },
+      {
+        "subject": "First delivery of a Volvo PV544 with standard-fit three-point safety belt",
+        "predicate": "involved",
+        "object_value": "Volvo PV544"
+      },
+      {
+        "subject": "First delivery of a Volvo PV544 with standard-fit three-point safety belt",
+        "predicate": "occurred_on",
+        "object_value": "1959-08-13"
+      },
+      {
+        "subject": "Modern three-point safety belt",
+        "predicate": "developed_by",
+        "object_value": "Nils Bohlin"
+      },
+      {
+        "subject": "Modern three-point safety belt",
+        "predicate": "introduced_by",
+        "object_value": "Volvo Cars"
+      },
+      {
+        "subject": "Volvo PV544",
+        "predicate": "manufactured_by",
+        "object_value": "Volvo Cars"
+      },
+      {
+        "subject": "Volvo PV544",
+        "predicate": "uses_technology",
+        "object_value": "Modern three-point safety belt"
+      }
+    ]
+  },
+  "geography": {
+    "registry_records": 4,
+    "release_ready_geometries": 0,
+    "status": "PARTIAL — address layer separated and verified for selected facilities; geometry reconciliation remains"
+  },
+  "ux": {
+    "semantic_relationship_groups": true,
+    "evidence_on_records": true,
+    "compare_selection": true,
+    "compare_page": true,
+    "map_curation_queue": true,
+    "pagefind_type_filter_metadata": true
+  },
+  "deployment": {
+    "static_only": true,
+    "cloudflare_pages_compatible": true,
+    "provider_specific_runtime_required": false
+  },
+  "astro_build_executed": false,
+  "astro_build_blocker": "Node packages are declared but not installed in this execution environment."
+}

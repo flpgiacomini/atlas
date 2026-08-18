@@ -1,0 +1,19 @@
+{
+  "a9_workstreams": {
+    "A9.1_web_foundation": "DONE",
+    "A9.2_geography": "PARTIAL",
+    "A9.3_product_ux": "IMPLEMENTED_IN_SCAFFOLD_NEEDS_BUILD_AND_VISUAL_GATE",
+    "A9.4_exploration": "IMPLEMENTED_IN_SCAFFOLD_NEEDS_BUILD_AND_VISUAL_GATE",
+    "A9.5_research_publication": "PASS_DIRECT_CANONICAL_PROOF",
+    "A9.6_deployment": "CI_AND_STATIC_CONTRACT_PREPARED",
+    "A9.7_product_complete": "PENDING"
+  },
+  "remaining_hard_gates": [
+    "Run npm install and commit package-lock.json",
+    "Run npm run build successfully",
+    "Pass scripts/validate_dist.py",
+    "Reconcile release-ready geography",
+    "Run normal-browser visual/usability acceptance",
+    "Validate hands-on research workspace workflow"
+  ]
+}

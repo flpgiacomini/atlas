@@ -1,0 +1,39 @@
+---
+const { outgoing = [], incoming = [] } = Astro.props;
+const labels:any = {
+  genealogy:"Genealogia",industry:"Indústria",people:"Pessoas",technology:"Tecnologia",
+  geography:"Geografia",motorsport:"Motorsport",events:"Eventos",other:"Outras relações"
+};
+const order = ["genealogy","industry","people","technology","motorsport","geography","events","other"];
+const groups:any = {};
+for (const s of outgoing.filter((x:any)=>x.object_type==="entity")) {
+  (groups[s.group] ??= []).push({...s,direction:"out"});
+}
+for (const s of incoming) {
+  (groups[s.group] ??= []).push({...s,direction:"in"});
+}
+---
+<div class="semantic-groups">
+  {order.filter(g => groups[g]?.length).map(g => (
+    <section class="semantic-group">
+      <h3>{labels[g]}</h3>
+      <div class="relation-list">
+        {groups[g].map((r:any) => (
+          <article class="record">
+            <div class="pred">{r.direction==="out"?"→":"←"} {r.predicate}</div>
+            <a href={r.direction==="out" ? `/e/${r.object_entity_id}/` : `/e/${r.subject_entity_id}/`}>
+              {r.direction==="out" ? r.object_name : r.subject_name}
+            </a>
+            <span class:list={["status",r.resolution_status==="disputed"&&"disputed"]}>{r.confidence}</span>
+            {r.sources?.length > 0 && (
+              <details>
+                <summary>Evidência · {r.sources.length} fonte(s)</summary>
+                {r.sources.map((s:any)=><p><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a><small>{s.publisher} · {s.stance}/{s.support_strength}</small></p>)}
+              </details>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</div>

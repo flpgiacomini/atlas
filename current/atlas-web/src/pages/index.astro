@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import pages from "../data/generated/entity-pages.json";
+import stats from "../data/generated/stats.json";
+const featuredNames = [
+  "Benz Patent Motor Car","Citroën Traction Avant","Volkswagen Beetle / Type 1","Classic Mini",
+  "Lamborghini Miura","Volkswagen Golf — First Generation","Porsche 917","Gurgel BR-800",
+  "Toyota Prius — First Generation","Tesla Roadster — First Generation","BYD F3DM"
+];
+const featured = featuredNames.map(name => pages.find((p:any) => p.name === name)).filter(Boolean);
+---
+<BaseLayout title="Início">
+  <div class="container" data-pagefind-ignore>
+    <div class="hero-kicker">1885 → presente</div>
+    <h1>Uma rede histórica da indústria automotiva.</h1>
+    <p class="lead">Veículos no centro; pessoas, empresas, tecnologias, competições, lugares e evidências conectados ao redor.</p>
+    <div class="stats">{stats.entities} entidades · {stats.statements} statements · {stats.sources} fontes</div>
+    <div class="home-grid">
+      {featured.map((p:any) => <a class="home-card" href={`/e/${p.id}/`}><strong>{p.name}</strong><small>{p.type}</small></a>)}
+    </div>
+  </div>
+</BaseLayout>

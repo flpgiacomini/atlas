@@ -1,0 +1,818 @@
+[
+  {
+    "id": "01a01016-ea4b-7903-be28-603281a3dbf5",
+    "name": "affected",
+    "description": "Documented historically significant effect",
+    "subject_types": [
+      "event",
+      "regulation"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7c8a-a73a-44b38066529a",
+    "name": "based_on",
+    "description": "Direct technical/structural basis",
+    "subject_types": [
+      "vehicle",
+      "component"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7380-b8c8-1c491da096a0",
+    "name": "collaborated_with",
+    "description": "Documented collaboration",
+    "subject_types": [
+      "person",
+      "organization"
+    ],
+    "object_types": [
+      "person",
+      "organization"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": true,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7a18-b4cb-e810128c72f2",
+    "name": "configured_as",
+    "description": "Vehicle instance configured as a variant/configuration",
+    "subject_types": [
+      "vehicle_instance"
+    ],
+    "object_types": [
+      "vehicle"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-768d-a7b3-bc7635ef0573",
+    "name": "derived_from",
+    "description": "Developed or derived from another entity",
+    "subject_types": [
+      "vehicle",
+      "component",
+      "technology"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-79af-aa4a-a9ed796b66c7",
+    "name": "designed_by",
+    "description": "Design authorship/responsibility",
+    "subject_types": [
+      "vehicle",
+      "component"
+    ],
+    "object_types": [
+      "person",
+      "organization"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-77bd-81a8-52b2d45be79c",
+    "name": "developed_by",
+    "description": "Development responsibility",
+    "subject_types": [
+      "technology",
+      "component"
+    ],
+    "object_types": [
+      "person",
+      "organization"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7c10-8f63-f754e2a0c67b",
+    "name": "driven_by",
+    "description": "Driver for motorsport entry",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7088-a21c-4e8392f5e37f",
+    "name": "engineered_by",
+    "description": "Engineering responsibility",
+    "subject_types": [
+      "vehicle",
+      "component",
+      "technology"
+    ],
+    "object_types": [
+      "person",
+      "organization"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-751a-a972-95032d3fc6a3",
+    "name": "entered_by",
+    "description": "Team/entrant responsible for entry",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "team",
+      "organization"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-74d3-8bfe-78adcef03284",
+    "name": "entered_instance",
+    "description": "Physical vehicle/chassis represented by entry",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "vehicle_instance"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7474-b5e4-4c0bd661e4d5",
+    "name": "entered_vehicle",
+    "description": "Vehicle represented by motorsport entry",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "vehicle"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7e43-8b44-2d8079654a15",
+    "name": "entry_for_event",
+    "description": "Entry belongs to motorsport event",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "event"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-79c6-b8fd-27f370b1884f",
+    "name": "entry_status",
+    "description": "Entry result/status",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "string"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7337-b45b-f10843ef18d9",
+    "name": "founded_by",
+    "description": "Founder relationship",
+    "subject_types": [
+      "organization",
+      "brand"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-74fe-86e6-abbd1ecdc0b7",
+    "name": "founded_in",
+    "description": "Place of founding",
+    "subject_types": [
+      "organization",
+      "brand"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-75e1-a5fa-d3ac6e0169b9",
+    "name": "governed_by",
+    "description": "Governed by regulation",
+    "subject_types": [
+      "competition",
+      "season",
+      "event"
+    ],
+    "object_types": [
+      "regulation"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-734f-b297-fc09a6e21a49",
+    "name": "held_at",
+    "description": "Event held at circuit/place",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "circuit",
+      "place"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-79a8-a04d-28d6242792b6",
+    "name": "inspired_by",
+    "description": "Documented influence without direct technical derivation",
+    "subject_types": [
+      "vehicle",
+      "technology",
+      "component"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7daf-b98e-737d2c47453a",
+    "name": "instance_of",
+    "description": "Physical/contextual instance of another entity",
+    "subject_types": [
+      "vehicle_instance",
+      "event"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7f37-a550-13949ce87be9",
+    "name": "introduced_by",
+    "description": "Important introduction/application",
+    "subject_types": [
+      "technology",
+      "component"
+    ],
+    "object_types": [
+      "vehicle",
+      "organization",
+      "person"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7294-8d48-3e6b5b8cdac7",
+    "name": "introduced_feature",
+    "description": "Event introduced technology/vehicle feature",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "technology",
+      "vehicle"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-72a1-bca9-83ab4675734d",
+    "name": "invented_by",
+    "description": "Historical invention relationship",
+    "subject_types": [
+      "technology",
+      "component"
+    ],
+    "object_types": [
+      "person"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7878-9149-024fc6b79081",
+    "name": "involved",
+    "description": "Generic event participant",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-72ae-aecc-1c41af0760b5",
+    "name": "layout_of",
+    "description": "Circuit layout belongs to circuit",
+    "subject_types": [
+      "circuit_layout"
+    ],
+    "object_types": [
+      "circuit"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-794f-94e1-fe0f35d711c4",
+    "name": "led",
+    "description": "Leadership relationship",
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "organization",
+      "team"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-74a4-a4a6-d83e036cf714",
+    "name": "located_in",
+    "description": "Geographical containment/location",
+    "subject_types": [
+      "facility",
+      "circuit",
+      "organization",
+      "place",
+      "event"
+    ],
+    "object_types": [
+      "place"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-708c-a51d-cd5b18977547",
+    "name": "manufactured_by",
+    "description": "Organization responsible for manufacture",
+    "subject_types": [
+      "vehicle",
+      "component"
+    ],
+    "object_types": [
+      "organization"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7bfc-af29-ca4752d62718",
+    "name": "manufactured_using",
+    "description": "Uses manufacturing technology/process",
+    "subject_types": [
+      "vehicle",
+      "component"
+    ],
+    "object_types": [
+      "technology"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-780f-9a2e-e02471548da5",
+    "name": "marketed_under",
+    "description": "Brand under which a vehicle is marketed",
+    "subject_types": [
+      "vehicle"
+    ],
+    "object_types": [
+      "brand"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-752d-92aa-bc3d0f464404",
+    "name": "occurred_during",
+    "description": "Interval of event occurrence",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "date"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7b80-bd7b-e12719b0f7ff",
+    "name": "occurred_on",
+    "description": "Point/date of event occurrence",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "date"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7bae-a070-b4b1ac107b3f",
+    "name": "operated_by",
+    "description": "Operator relationship",
+    "subject_types": [
+      "facility",
+      "circuit",
+      "team"
+    ],
+    "object_types": [
+      "organization"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-74e9-bc76-d9cb4aaa1eba",
+    "name": "overall_position",
+    "description": "Overall finishing position",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "number"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7f38-a4cb-6d13d1ee02f1",
+    "name": "owned_by",
+    "description": "Ownership/control relationship",
+    "subject_types": [
+      "brand",
+      "organization",
+      "facility"
+    ],
+    "object_types": [
+      "organization"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7552-8132-cd1d2671513c",
+    "name": "part_of",
+    "description": "Structural membership in a broader entity",
+    "subject_types": [
+      "vehicle",
+      "season",
+      "event"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7156-8450-18cbd0493e14",
+    "name": "part_of_season",
+    "description": "Event belongs to competition season",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "season"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-71bd-adad-e6fa5a849419",
+    "name": "popularized_by",
+    "description": "Documented widespread popularization",
+    "subject_types": [
+      "technology"
+    ],
+    "object_types": [
+      "vehicle",
+      "organization",
+      "person"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7460-8672-e98b8f21ffdb",
+    "name": "produced_at",
+    "description": "Facility at which a vehicle/component was produced",
+    "subject_types": [
+      "vehicle",
+      "component"
+    ],
+    "object_types": [
+      "facility"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7a24-aacb-d3fab4bf9b4f",
+    "name": "prohibited",
+    "description": "Regulation prohibited technology/component",
+    "subject_types": [
+      "regulation"
+    ],
+    "object_types": [
+      "technology",
+      "component"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7695-88ea-4846e1138069",
+    "name": "required",
+    "description": "Regulation required technology/component",
+    "subject_types": [
+      "regulation"
+    ],
+    "object_types": [
+      "technology",
+      "component"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7b1d-8121-21d3f29cff95",
+    "name": "restricted",
+    "description": "Regulation restricted technology/component",
+    "subject_types": [
+      "regulation"
+    ],
+    "object_types": [
+      "technology",
+      "component"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-79fb-b2f3-761c38264b75",
+    "name": "resulted_in",
+    "description": "Event resulted in entity/event",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7f52-ad96-74bfb822a59f",
+    "name": "revival_of",
+    "description": "Intentional revival of historical identity",
+    "subject_types": [
+      "vehicle",
+      "brand",
+      "organization"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-70a4-9a66-7f67a1472cee",
+    "name": "season_of",
+    "description": "Season belongs to competition",
+    "subject_types": [
+      "season"
+    ],
+    "object_types": [
+      "competition"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-70f7-9dab-d78a08d1c41e",
+    "name": "shares_platform_with",
+    "description": "Documented platform sharing",
+    "subject_types": [
+      "vehicle"
+    ],
+    "object_types": [
+      "vehicle"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": true,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7e8a-933d-4ab4da065a5a",
+    "name": "start_number",
+    "description": "Competition number used by entry",
+    "subject_types": [
+      "entry"
+    ],
+    "object_types": [
+      "string"
+    ],
+    "temporal_policy": "none",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7975-9b26-1c7791267aeb",
+    "name": "subsidiary_of",
+    "description": "Corporate subsidiary relationship",
+    "subject_types": [
+      "organization"
+    ],
+    "object_types": [
+      "organization"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-70da-a430-5ad479eb5476",
+    "name": "successor_of",
+    "description": "Genealogical/historical successor",
+    "subject_types": [
+      "vehicle",
+      "circuit_layout",
+      "organization",
+      "brand"
+    ],
+    "object_types": [
+      "entity"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7bd8-859d-da0df59a86ff",
+    "name": "used_layout",
+    "description": "Event used circuit layout",
+    "subject_types": [
+      "event"
+    ],
+    "object_types": [
+      "circuit_layout"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4f-7186-a15e-431dfefae07b",
+    "name": "used_technology",
+    "description": "Migrated pilot predicate; review required.",
+    "subject_types": [
+      "entity"
+    ],
+    "object_types": [
+      "entity",
+      "string",
+      "date",
+      "number",
+      "quantity",
+      "boolean"
+    ],
+    "temporal_policy": "optional",
+    "symmetric": false,
+    "status": "provisional"
+  },
+  {
+    "id": "01a01016-ea4b-7c5d-9c35-04f9076d8e8a",
+    "name": "uses_component",
+    "description": "Uses a concrete component",
+    "subject_types": [
+      "vehicle",
+      "component"
+    ],
+    "object_types": [
+      "component"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7a96-ae31-348bcb353dd9",
+    "name": "uses_technology",
+    "description": "Uses a technology/concept",
+    "subject_types": [
+      "vehicle",
+      "component",
+      "facility"
+    ],
+    "object_types": [
+      "technology"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  },
+  {
+    "id": "01a01016-ea4b-7806-83da-778763f95590",
+    "name": "worked_at",
+    "description": "Employment/work relationship",
+    "subject_types": [
+      "person"
+    ],
+    "object_types": [
+      "organization",
+      "team"
+    ],
+    "temporal_policy": "recommended",
+    "symmetric": false,
+    "status": "active"
+  }
+]

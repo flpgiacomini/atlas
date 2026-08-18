@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Grafo">
+  <div class="container">
+    <div class="hero-kicker">Exploração</div>
+    <h1>Grafo global</h1>
+    <p class="lead">Encontre um caminho entre duas entidades usando somente as relações publicadas pelo build.</p>
+
+    <section class="card graph-controls">
+      <label>Origem <input id="from-name" list="atlas-nodes" placeholder="Ex.: Porsche 917" /></label>
+      <label>Destino <input id="to-name" list="atlas-nodes" placeholder="Ex.: Richard Attwood" /></label>
+      <button id="find-path" class="secondary-btn">Encontrar caminho</button>
+      <datalist id="atlas-nodes"></datalist>
+    </section>
+
+    <div id="path-result" class="path-result"></div>
+    <div id="global-graph" class="viz"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.34.1/dist/cytoscape.min.js"></script>
+  <script>
+    const graph = await fetch("/data/graph-index.json").then(r=>r.json());
+    const byName = new Map(graph.nodes.map((n:any)=>[n.name.toLowerCase(),n]));
+    const byId = new Map(graph.nodes.map((n:any)=>[n.id,n]));
+    const adj = new Map();
+    for(const n of graph.nodes) adj.set(n.id,[]);
+    for(const e of graph.edges){
+      adj.get(e.s)?.push({...e,next:e.o});
+      adj.get(e.o)?.push({...e,next:e.s});
+    }
+    const list=document.querySelector("#atlas-nodes");
+    list.innerHTML=graph.nodes.map((n:any)=>`<option value="${n.name.replaceAll('"','&quot;')}"></option>`).join("");
+
+    function resolve(name:string){ return byName.get(name.trim().toLowerCase()); }
+    function bfs(a:string,b:string,maxDepth=7){
+      const q=[[a,0]], parents=new Map([[a,null]]);
+      while(q.length){
+        const [cur,d]=q.shift();
+        if(cur===b)break;
+        if(d>=maxDepth)continue;
+        for(const e of adj.get(cur)||[]){
+          if(parents.has(e.next))continue;
+          parents.set(e.next,{prev:cur,edge:e}); q.push([e.next,d+1]);
+        }
+      }
+      if(!parents.has(b))return null;
+      const nodes=[],edges=[];let cur=b;
+      while(cur){nodes.push(cur);const p=parents.get(cur);if(p){edges.push(p.edge);cur=p.prev}else cur=null}
+      return {nodes:nodes.reverse(),edges:edges.reverse()};
+    }
+    let cy=null;
+    function render(path:any){
+      const box=document.querySelector("#path-result");
+      if(!path){box.innerHTML="<p class='muted'>Nenhum caminho encontrado em até 7 saltos.</p>";return;}
+      box.innerHTML=`<div class="path-strip">${path.nodes.map((id:string)=>`<a href="/e/${id}/">${byId.get(id)?.name}</a>`).join("<b>→</b>")}</div>`;
+      const nodeIds=new Set(path.nodes);
+      const nearEdges=graph.edges.filter((e:any)=>nodeIds.has(e.s)||nodeIds.has(e.o)).slice(0,100);
+      const ids=new Set([...path.nodes,...nearEdges.flatMap((e:any)=>[e.s,e.o])]);
+      const elements=[
+        ...[...ids].map((id:any)=>({data:{id,label:byId.get(id)?.name,type:byId.get(id)?.type,onPath:nodeIds.has(id)}})),
+        ...nearEdges.map((e:any)=>({data:{id:e.id,source:e.s,target:e.o,label:e.p,onPath:path.edges.some((x:any)=>x.id===e.id)}}))
+      ];
+      cy?.destroy();
+      cy=window.cytoscape({
+        container:document.querySelector("#global-graph"),elements,
+        style:[
+          {selector:"node",style:{"background-color":"#29313a","label":"data(label)","color":"#dfe5eb","font-size":"9px","text-wrap":"wrap","text-max-width":"105px","text-valign":"bottom","text-margin-y":"7px","width":"32px","height":"32px"}},
+          {selector:"node[onPath]",style:{"background-color":"#d7ff68","width":"44px","height":"44px"}},
+          {selector:"edge",style:{"width":1,"line-color":"#39424c","target-arrow-shape":"triangle","target-arrow-color":"#596572","curve-style":"bezier","label":"data(label)","font-size":"7px","color":"#74808c"}},
+          {selector:"edge[onPath]",style:{"width":3,"line-color":"#d7ff68","target-arrow-color":"#d7ff68"}}
+        ],
+        layout:{name:"cose",animate:false,fit:true,padding:35,nodeRepulsion:9000,idealEdgeLength:95}
+      });
+      cy.on("tap","node",(evt:any)=>location.href=`/e/${evt.target.id()}/`);
+    }
+    document.querySelector("#find-path")?.addEventListener("click",()=>{
+      const a=resolve((document.querySelector("#from-name") as HTMLInputElement).value);
+      const b=resolve((document.querySelector("#to-name") as HTMLInputElement).value);
+      if(!a||!b){document.querySelector("#path-result").innerHTML="<p class='muted'>Selecione duas entidades existentes.</p>";return;}
+      render(bfs(a.id,b.id));
+    });
+  </script>
+</BaseLayout>

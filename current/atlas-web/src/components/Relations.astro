@@ -1,0 +1,48 @@
+---
+interface Source { title:string; publisher?:string; url?:string; stance?:string; support_strength?:string; }
+interface Statement {
+  id:string; predicate:string; object_type:string; object_entity_id?:string; object_name?:string;
+  subject_entity_id:string; subject_name?:string; value?:unknown; confidence:string; resolution_status:string;
+  sources:Source[];
+}
+interface Props { outgoing: Statement[]; incoming: Statement[]; }
+const { outgoing, incoming } = Astro.props;
+const relations = outgoing.filter(x => x.object_type === "entity");
+const facts = outgoing.filter(x => x.object_type !== "entity");
+---
+<section class="content-grid">
+  <div>
+    <h2>Relações</h2>
+    <div class="relation-list">
+      {relations.map((r) => (
+        <article class="record">
+          <div class="pred">→ {r.predicate}</div>
+          <a href={`/e/${r.object_entity_id}/`}>{r.object_name}</a>
+          <span class:list={["status", r.resolution_status === "disputed" && "disputed"]}>{r.confidence}</span>
+          {r.sources.length > 0 && <details><summary>{r.sources.length} fonte(s)</summary>{r.sources.map(s => <p><a href={s.url} target="_blank">{s.title}</a><small>{s.publisher} · {s.stance}/{s.support_strength}</small></p>)}</details>}
+        </article>
+      ))}
+      {incoming.map((r) => (
+        <article class="record">
+          <div class="pred">← {r.predicate}</div>
+          <a href={`/e/${r.subject_entity_id}/`}>{r.subject_name}</a>
+          <span class="status">{r.confidence}</span>
+          {r.sources.length > 0 && <details><summary>{r.sources.length} fonte(s)</summary>{r.sources.map(s => <p><a href={s.url} target="_blank">{s.title}</a><small>{s.publisher}</small></p>)}</details>}
+        </article>
+      ))}
+    </div>
+  </div>
+  <div>
+    <h2>Fatos</h2>
+    <div class="relation-list">
+      {facts.map((r) => (
+        <article class="record">
+          <div class="pred">{r.predicate}</div>
+          <div>{String(r.value ?? "")}</div>
+          <span class:list={["status", r.resolution_status === "disputed" && "disputed"]}>{r.resolution_status}</span>
+          {r.sources.length > 0 && <details><summary>{r.sources.length} fonte(s)</summary>{r.sources.map(s => <p><a href={s.url} target="_blank">{s.title}</a><small>{s.publisher}</small></p>)}</details>}
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

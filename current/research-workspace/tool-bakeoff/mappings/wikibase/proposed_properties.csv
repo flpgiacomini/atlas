@@ -1,0 +1,21 @@
+﻿provisional_id,label,datatype,role
+P_ATLAS_ID,Atlas ID,external-id/string,Stable Atlas identifier
+P_ENTITY_TYPE,Atlas entity type,item/string,"Vehicle, Person, Organization, Event, Entry, etc."
+P_PART_OF,part of,item,Atlas predicate
+P_SUCCESSOR_OF,successor of,item,Atlas predicate
+P_DERIVED_FROM,derived from,item,Atlas predicate
+P_DESIGNED_BY,designed by,item,Atlas predicate
+P_ENGINEERED_BY,engineered by,item,Atlas predicate
+P_MANUFACTURED_BY,manufactured by,item,Atlas predicate
+P_USES_COMPONENT,uses component,item,Atlas predicate
+P_USES_TECHNOLOGY,uses technology,item,Atlas predicate
+P_OCCURRED_ON,occurred on,time,Event date
+P_INVOLVED,involved,item,Event participant
+P_VALID_FROM,valid from,time,Qualifier
+P_VALID_UNTIL,valid until,time,Qualifier
+P_CONFIDENCE,Atlas confidence,item/string,Qualifier
+P_RESOLUTION,Atlas resolution status,item/string,Qualifier
+P_ATLAS_STATEMENT_ID,Atlas statement ID,external-id/string,Qualifier for round-trip
+P_STATED_IN,stated in,item,Reference: Source item
+P_REFERENCE_URL,reference URL,url,Reference
+P_LOCATOR,evidence locator,string,Reference page/section/fragment

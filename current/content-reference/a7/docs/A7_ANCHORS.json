@@ -1,0 +1,146 @@
+[
+  {
+    "id": "01a010d9-28c2-7267-a8d7-a33f486f0be7",
+    "type": "vehicle",
+    "name": "Citroën Traction Avant",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c3-79a7-b864-a634aeb7f8d6",
+    "type": "vehicle",
+    "name": "Volkswagen Beetle / Type 1",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c4-7947-bc7e-9a43358ea4dd",
+    "type": "vehicle",
+    "name": "Ferrari 125 S",
+    "metadata": {
+      "vehicle_level": "standalone",
+      "vehicle_kind": "race_car"
+    }
+  },
+  {
+    "id": "01a010d9-28c4-7374-b925-54a7bfff62c8",
+    "type": "vehicle",
+    "name": "Land Rover Series I",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c5-7418-9ce7-bccab4df9cea",
+    "type": "vehicle",
+    "name": "Toyota Jeep BJ / Land Cruiser BJ",
+    "metadata": {
+      "vehicle_level": "generation",
+      "vehicle_kind": "production",
+      "original_context": "developed for Japan's National Police Reserve"
+    }
+  },
+  {
+    "id": "01a010d9-28c6-75ed-94ae-4f2acbcfb018",
+    "type": "vehicle",
+    "name": "Classic Mini",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c6-79eb-9cc1-0f8d258b61d4",
+    "type": "vehicle",
+    "name": "Ford Mustang",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c6-72db-9da6-6b38a676cf71",
+    "type": "vehicle",
+    "name": "Lamborghini Miura",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c7-745f-a0e1-27cf05392aeb",
+    "type": "vehicle",
+    "name": "Mazda Cosmo Sport / 110S",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c8-750f-adf3-f48d344020e5",
+    "type": "vehicle",
+    "name": "Volkswagen Golf — First Generation",
+    "metadata": {
+      "vehicle_level": "generation",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c8-762a-9025-da1a0c171c24",
+    "type": "vehicle",
+    "name": "Renault Espace — First Generation",
+    "metadata": {
+      "vehicle_level": "generation",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c9-74c5-9eff-79795673f004",
+    "type": "vehicle",
+    "name": "McLaren F1",
+    "metadata": {
+      "vehicle_level": "family",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28c9-72dd-ab9d-8d2433e4c51c",
+    "type": "vehicle",
+    "name": "Tesla Roadster — First Generation",
+    "metadata": {
+      "vehicle_level": "generation",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28ca-7fef-a797-10374d330ad8",
+    "type": "vehicle",
+    "name": "BYD F3DM",
+    "metadata": {
+      "vehicle_level": "standalone",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28ca-7a47-87fb-3f3849187439",
+    "type": "vehicle",
+    "name": "Toyota Mirai — First Generation",
+    "metadata": {
+      "vehicle_level": "generation",
+      "vehicle_kind": "production"
+    }
+  },
+  {
+    "id": "01a010d9-28cb-7d4c-96c5-b09c069b748e",
+    "type": "facility",
+    "name": "BMW Group Plant Rosslyn",
+    "metadata": {
+      "facility_type": "factory"
+    }
+  }
+]

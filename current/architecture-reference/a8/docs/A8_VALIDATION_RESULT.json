@@ -1,0 +1,14 @@
+{
+  "phase": "A8",
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "entity_pages": 334,
+    "search_index_entities": 334,
+    "global_graph_nodes": 334,
+    "global_graph_edges": 326,
+    "timeline_events": 102,
+    "map_points": 14,
+    "backend_runtime_required": false
+  }
+}

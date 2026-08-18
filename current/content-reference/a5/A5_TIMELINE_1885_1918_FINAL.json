@@ -1,0 +1,187 @@
+[
+  {
+    "event": "Carl Benz patent application for gas-engine motor car",
+    "date": "1886-01-29",
+    "precision": "day"
+  },
+  {
+    "event": "Daimler Motorized Carriage completed",
+    "date": "1886-08-28",
+    "precision": "day"
+  },
+  {
+    "event": "Peugeot Type 1 shown at Paris World Fair",
+    "date": "1889",
+    "precision": "year"
+  },
+  {
+    "event": "Benz Velo enters sales range",
+    "date": "1894-04",
+    "precision": "month"
+  },
+  {
+    "event": "Paris–Rouen reliability trial 1894",
+    "date": "1894-07-22",
+    "precision": "day"
+  },
+  {
+    "event": "De Dion-Bouton single-cylinder engine developed",
+    "date": "1895",
+    "precision": "year"
+  },
+  {
+    "event": "First drive of Ford Quadricycle",
+    "date": "1896-06-04",
+    "precision": "day"
+  },
+  {
+    "event": "First Daimler motorized truck delivered to London",
+    "date": "1896-10-01",
+    "precision": "day"
+  },
+  {
+    "event": "Renault Frères founded",
+    "date": "1898",
+    "precision": "year"
+  },
+  {
+    "event": "Louis Renault drives Type A up rue Lepic",
+    "date": "1898-12-24",
+    "precision": "day"
+  },
+  {
+    "event": "FIAT founded in Turin",
+    "date": "1899-07-11",
+    "precision": "day"
+  },
+  {
+    "event": "First Mercedes 35 hp supplied to Emil Jellinek",
+    "date": "1900-12-22",
+    "precision": "day"
+  },
+  {
+    "event": "Oldsmobile Curved Dash enters large-scale American production",
+    "date": "1901",
+    "precision": "year"
+  },
+  {
+    "event": "Oldsmobile Curved Dash introduction",
+    "date": "1901",
+    "precision": "year"
+  },
+  {
+    "event": "Nice Race Week 1901 — Mercedes 35 hp breakthrough",
+    "date": "1901-03-25",
+    "precision": "day"
+  },
+  {
+    "event": "1903 Cadillac Runabout production",
+    "date": "1903",
+    "precision": "year"
+  },
+  {
+    "event": "Ford Model A production introduction",
+    "date": "1903",
+    "precision": "year"
+  },
+  {
+    "event": "Charles Rolls and Henry Royce first meeting",
+    "date": "1904-05-04",
+    "precision": "day"
+  },
+  {
+    "event": "1904 Vanderbilt Cup",
+    "date": "1904-10-08",
+    "precision": "day"
+  },
+  {
+    "event": "Ford Model N reaches U.S. bestseller status",
+    "date": "1906",
+    "precision": "year"
+  },
+  {
+    "event": "Rolls-Royce 40/50 H.P. launched",
+    "date": "1906",
+    "precision": "year"
+  },
+  {
+    "event": "1906 Grand Prix de l'A.C.F.",
+    "date": "1906-06-26",
+    "precision": "day"
+  },
+  {
+    "event": "Lancia founded in Turin",
+    "date": "1906-11-27",
+    "precision": "day"
+  },
+  {
+    "event": "1907 Scottish Reliability Trial — Silver Ghost",
+    "date": "1907",
+    "precision": "year"
+  },
+  {
+    "event": "Chassis 60551 presented as 'The Silver Ghost'",
+    "date": "1907",
+    "precision": "year"
+  },
+  {
+    "event": "Cadillac receives 1908 Dewar Trophy for interchangeable parts",
+    "date": "1908",
+    "precision": "year"
+  },
+  {
+    "event": "Lancia 12 HP first production model",
+    "date": "1908",
+    "precision": "year"
+  },
+  {
+    "event": "First Model T customer delivery",
+    "date": "1908-10-01",
+    "precision": "day"
+  },
+  {
+    "event": "Ford Model T first customer delivery",
+    "date": "1908-10-01",
+    "precision": "day"
+  },
+  {
+    "event": "Model T production moved to Highland Park",
+    "date": "1910",
+    "precision": "year"
+  },
+  {
+    "event": "Ford moving assembly line adopted at Highland Park",
+    "date": "1913",
+    "precision": "year"
+  },
+  {
+    "event": "Moving assembly line first operated for automobiles at Highland Park",
+    "date": "1913-10",
+    "precision": "month"
+  },
+  {
+    "event": "Renault 'Taxis de la Marne' wartime mobilization",
+    "date": "1914",
+    "precision": "year"
+  },
+  {
+    "event": "World War I constrains Mercedes 28/95 hp production",
+    "date": "1914",
+    "precision": "year"
+  },
+  {
+    "event": "Prussian War Ministry commissions Benz & Cie. aeroengines",
+    "date": "1914-06",
+    "precision": "month"
+  },
+  {
+    "event": "Mercedes DF 100 aeroengine enters large-scale production",
+    "date": "1914-08",
+    "precision": "month"
+  },
+  {
+    "event": "DMG DC commercial vehicle range altered for wartime production",
+    "date": "1915",
+    "precision": "year"
+  }
+]

@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import timeline from "../data/generated/timeline.json";
+---
+<BaseLayout title="Timeline global">
+  <div class="container">
+    <div class="hero-kicker">Tempo</div><h1>Timeline global</h1>
+    <p class="lead">Eventos derivados de <code>occurred_on</code>, sem uma base de timeline separada.</p>
+    <section class="card timeline-controls">
+      <label>De <input id="year-from" type="number" value="1885" /></label>
+      <label>Até <input id="year-to" type="number" value="2026" /></label>
+      <label>Filtrar <input id="timeline-query" placeholder="evento, marca, tecnologia…" /></label>
+    </section>
+    <div id="timeline-count" class="muted"></div>
+    <div id="timeline-list" class="timeline-list"></div>
+  </div>
+  <script type="application/json" id="timeline-data" set:html={JSON.stringify(timeline)}></script>
+  <script>
+    const rows=JSON.parse(document.querySelector("#timeline-data")?.textContent||"[]");
+    const from=document.querySelector("#year-from"),to=document.querySelector("#year-to"),q=document.querySelector("#timeline-query");
+    const list=document.querySelector("#timeline-list"),count=document.querySelector("#timeline-count");
+    const render=()=>{
+      const a=Number(from.value||1885),b=Number(to.value||2026),needle=q.value.trim().toLowerCase();
+      const out=rows.filter((x:any)=>{
+        const y=Number(String(x.date).slice(0,4));
+        return y>=a&&y<=b&&(!needle||x.name.toLowerCase().includes(needle));
+      });
+      count.textContent=`${out.length} eventos`;
+      list.innerHTML=out.map((e:any)=>`<a href="/e/${e.id}/"><time>${e.date}</time><span>${e.name}</span></a>`).join("");
+    };
+    [from,to,q].forEach((x:any)=>x.addEventListener("input",render));render();
+  </script>
+</BaseLayout>

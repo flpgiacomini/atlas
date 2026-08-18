@@ -1,0 +1,34 @@
+﻿Record Type,Field,Field Type,Required,Notes
+Entity,Atlas ID,Text,Yes,Unique canonical UUIDv7; never edited
+Entity,Entity Type,Enum,Yes,"vehicle, person, organization, event, entry, etc."
+Entity,Canonical Name,Text,Yes,Primary display label
+Entity,Slug,Text,No,Mutable human-readable slug
+Entity,Description,Long Text,No,Short contextual description
+Entity,Metadata JSON,Long Text,No,Pilot bridge only; normalize fields later when stable
+Entity,Names JSON,Long Text,No,Pilot bridge only
+Entity,External IDs JSON,Long Text,No,Pilot bridge only
+Statement,Atlas Statement ID,Text,Yes,UUIDv7
+Statement,Subject,Record Pointer → Entity,Yes,Statement subject
+Statement,Predicate,Enum,Yes,Controlled Predicate Registry
+Statement,Object Type,Enum,Yes,entity/string/date/number/quantity/boolean
+Statement,Object Entity,Record Pointer → Entity,Conditional,Required when Object Type=entity
+Statement,Literal Value,Text/Number/Date,Conditional,For non-entity values
+Statement,Object Precision,Enum,No,day/month/year/decade/approximate/unknown
+Statement,Valid From,Date/Text,No,Relation validity
+Statement,Valid From Precision,Enum,No,Temporal precision
+Statement,Valid Until,Date/Text,No,Relation validity
+Statement,Valid Until Precision,Enum,No,Temporal precision
+Statement,Qualifiers JSON,Long Text,No,Pilot bridge; promote recurring qualifiers later
+Statement,Confidence,Enum,Yes,high/medium/low/disputed/unknown
+Statement,Resolution Status,Enum,Yes,accepted/disputed/unresolved/needs_reconciliation/rejected
+Statement,Sources,Repeated Pointer → Source,Yes,Source records supporting the statement
+Source,Atlas Source ID,Text,Yes,UUIDv7
+Source,Title,Text,Yes,Source title
+Source,Source Type,Enum,Yes,manufacturer/museum/archive/government/book/etc.
+Source,Author,Text,No,
+Source,Publisher,Text,No,
+Source,Published At,Date/Text,No,Do not invent precision
+Source,URL,URL,No,
+Source,Source Tier,Enum,No,"A/B/C/D/E, independent from confidence"
+Source,Zotero Key,Text,No,Link to Zotero library item
+Source,Notes,Long Text,No,Limits/context

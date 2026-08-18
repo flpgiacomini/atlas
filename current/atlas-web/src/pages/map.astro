@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Mapa">
+  <Fragment slot="head"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /></Fragment>
+  <div class="container">
+    <div class="hero-kicker">Geografia</div><h1>Mapa</h1>
+    <p class="lead">A versão de produção só publica geometrias reconciliadas. Pontos provisórios aparecem na fila de curadoria abaixo, mas não são exibidos como verdade cartográfica.</p>
+    <div id="map-release-status" class="card"></div>
+    <div id="atlas-map" class="viz"></div>
+    <h2>Fila geográfica</h2><div id="geo-queue" class="relation-list"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    Promise.all([
+      fetch("/data/geography.registry.json").then(r=>r.json()),
+    ]).then(([rows])=>{
+      const ready=rows.filter((x:any)=>x.release_ready && Number.isFinite(x.lat) && Number.isFinite(x.lon));
+      document.querySelector("#map-release-status").textContent =
+        `${ready.length} geometrias release-ready · ${rows.length-ready.length} pendentes de reconciliação`;
+      const q=document.querySelector("#geo-queue");
+      q.innerHTML=rows.map((x:any)=>`<article class="record"><div class="pred">${x.geometry_status}</div><a href="/e/${x.entity_id}/">${x.entity_name}</a><span class="status">${x.official_address}</span></article>`).join("");
+      const map=L.map("atlas-map").setView([20,10],2);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap contributors"}).addTo(map);
+      ready.forEach((p:any)=>L.marker([p.lat,p.lon]).addTo(map).bindPopup(`<a href="/e/${p.entity_id}/">${p.entity_name}</a>`));
+    });
+  </script>
+</BaseLayout>

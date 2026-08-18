@@ -1,0 +1,19 @@
+---
+const { id, name, type } = Astro.props;
+---
+<button class="secondary-btn compare-pin" data-id={id} data-name={name} data-type={type}>+ comparar</button>
+<script>
+  const KEY="atlas-compare";
+  document.querySelectorAll<HTMLButtonElement>(".compare-pin").forEach(btn=>{
+    const read=()=>JSON.parse(localStorage.getItem(KEY)||"[]");
+    const refresh=()=>{ const found=read().some((x:any)=>x.id===btn.dataset.id); btn.textContent=found?"✓ comparando":"+ comparar"; };
+    refresh();
+    btn.addEventListener("click",()=>{
+      let rows=read();
+      const id=btn.dataset.id!;
+      if(rows.some((x:any)=>x.id===id)) rows=rows.filter((x:any)=>x.id!==id);
+      else if(rows.length<4) rows.push({id,name:btn.dataset.name,type:btn.dataset.type});
+      localStorage.setItem(KEY,JSON.stringify(rows)); refresh();
+    });
+  });
+</script>

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas Statement v1.0",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "predicate",
+    "object",
+    "confidence",
+    "resolution_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "subject": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "predicate": {
+      "type": "string"
+    },
+    "object": {
+      "type": "object"
+    },
+    "validity": {
+      "type": "object"
+    },
+    "qualifiers": {
+      "type": "object"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "disputed",
+        "unknown"
+      ]
+    },
+    "resolution_status": {
+      "enum": [
+        "accepted",
+        "disputed",
+        "unresolved",
+        "needs_reconciliation",
+        "rejected"
+      ]
+    }
+  }
+}

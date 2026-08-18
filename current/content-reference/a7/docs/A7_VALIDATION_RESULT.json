@@ -1,0 +1,48 @@
+{
+  "phase": "A7 Content MVP",
+  "version": "0.1",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "added": {
+    "entities_added": 67,
+    "statements_added": 79,
+    "sources_added": 24,
+    "claims_added": 93,
+    "evidence_added": 93
+  },
+  "canonical_totals": {
+    "entity": 334,
+    "statement": 439,
+    "source": 123,
+    "claim": 563,
+    "evidence": 563,
+    "predicate": 54
+  },
+  "a7_anchor_count": 16,
+  "era_event_coverage": {
+    "Origins": 37,
+    "Interwar/WWII": 5,
+    "Postwar reconstruction": 7,
+    "Mass-market/technology diversification": 22,
+    "Late 20th century": 18,
+    "Electrification/current era": 12
+  },
+  "region_coverage": {
+    "Europe": true,
+    "North America": true,
+    "South America": true,
+    "East Asia": true,
+    "South Asia": true,
+    "Oceania": true,
+    "Africa": true
+  },
+  "new_root_entity_types_required": 0,
+  "new_predicates_required": 0,
+  "smoke_test": "PASS",
+  "smoke_test_highlights": {
+    "a7_anchor_presence": 12,
+    "tesla_roadster_timeline": 2,
+    "map_points": 14
+  }
+}

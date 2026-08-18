@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas Entity v1.0",
+  "type": "object",
+  "required": [
+    "id",
+    "entity_type",
+    "canonical_name"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "entity_type": {
+      "enum": [
+        "vehicle",
+        "vehicle_instance",
+        "organization",
+        "brand",
+        "person",
+        "technology",
+        "component",
+        "facility",
+        "place",
+        "competition",
+        "season",
+        "team",
+        "circuit",
+        "circuit_layout",
+        "regulation",
+        "event",
+        "entry"
+      ]
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

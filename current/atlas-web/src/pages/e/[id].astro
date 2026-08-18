@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SemanticRelations from "../../components/SemanticRelations.astro";
+import Facts from "../../components/Facts.astro";
+import CompareButton from "../../components/CompareButton.astro";
+import Graph from "../../components/Graph.astro";
+import Timeline from "../../components/Timeline.astro";
+import pages from "../../data/generated/entity-pages.json";
+
+export function getStaticPaths() {
+  return pages.map((page:any) => ({ params: { id: page.id }, props: { page } }));
+}
+const { page } = Astro.props;
+---
+<BaseLayout title={page.name} description={page.description ?? "Atlas entity"}>
+  <article class="container" data-pagefind-body>
+    <meta data-pagefind-meta={`type:${page.type}`} />
+    <meta data-pagefind-filter={`type:${page.type}`} />
+    <div class="entity-header">
+      <div><div class="type-pill">{page.type}</div><h1>{page.name}</h1><p class="muted">{page.description}</p><CompareButton id={page.id} name={page.name} type={page.type} /></div>
+    </div>
+    <section class="card metadata-grid">
+      <div class="meta-item"><small>Atlas ID</small><div>{page.id}</div></div>
+      <div class="meta-item"><small>Tipo</small><div>{page.type}</div></div>
+      {Object.entries(page.metadata ?? {}).slice(0,10).map(([k,v]) => <div class="meta-item"><small>{k.replaceAll("_"," ")}</small><div>{JSON.stringify(v).replace(/^"|"$/g,"")}</div></div>)}
+    </section>
+    <div class="content-grid"><div><h2>Relações</h2><SemanticRelations outgoing={page.outgoing} incoming={page.incoming} /></div><Facts outgoing={page.outgoing} /></div>
+    <Timeline events={page.events} />
+    <Graph graph={page.graph} />
+  </article>
+</BaseLayout>

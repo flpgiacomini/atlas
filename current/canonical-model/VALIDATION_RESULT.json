@@ -1,0 +1,54 @@
+{
+  "model_version": "1.0",
+  "passed": true,
+  "errors": [],
+  "warning_count": 0,
+  "warnings": [],
+  "counts": {
+    "entity": 86,
+    "entity_name": 14,
+    "external_identifier": 2,
+    "predicate": 54,
+    "statement": 131,
+    "source": 24,
+    "claim": 203,
+    "evidence": 203,
+    "claim_evidence": 203,
+    "legacy_identifier": 648
+  },
+  "acceptance_checks": {
+    "911_rename_conflict": [
+      {
+        "object_date": "1964-10-22",
+        "confidence": "disputed",
+        "resolution_status": "disputed"
+      },
+      {
+        "object_date": "1964-11-22",
+        "confidence": "disputed",
+        "resolution_status": "disputed"
+      }
+    ],
+    "917_drivers": [
+      "Hans Herrmann",
+      "Richard Attwood"
+    ],
+    "gurgel_end_events": [
+      {
+        "canonical_name": "Gurgel concordata request",
+        "object_date": "1993",
+        "resolution_status": "accepted"
+      },
+      {
+        "canonical_name": "Gurgel bankruptcy",
+        "object_date": "1994-05",
+        "resolution_status": "accepted"
+      },
+      {
+        "canonical_name": "Gurgel operations closure reported by Rio Claro",
+        "object_date": "1996",
+        "resolution_status": "needs_reconciliation"
+      }
+    ]
+  }
+}

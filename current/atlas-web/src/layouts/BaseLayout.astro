@@ -1,0 +1,47 @@
+---
+import "../styles/global.css";
+interface Props { title: string; description?: string; }
+const { title, description = "Atlas Global da Indústria Automotiva" } = Astro.props;
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title} · ATLAS</title>
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/"><span class="brand-mark">A</span><strong>ATLAS</strong></a><nav class="main-nav"><a href="/timeline/">Timeline</a><a href="/graph/">Grafo</a><a href="/map/">Mapa</a><a href="/compare/">Comparar</a></nav>
+      <div class="search">
+        <input id="atlas-search" placeholder="Buscar no Atlas…" autocomplete="off" />
+        <div id="atlas-search-results" class="search-results hidden"></div>
+      </div>
+    </header>
+    <main><slot /></main>
+    <script>
+      const input = document.querySelector<HTMLInputElement>("#atlas-search");
+      const box = document.querySelector<HTMLDivElement>("#atlas-search-results");
+      let pagefind: any = null;
+      if (input && box) {
+        input.addEventListener("input", async () => {
+          const q = input.value.trim();
+          if (q.length < 2) { box.classList.add("hidden"); box.innerHTML = ""; return; }
+          pagefind ??= await import("/pagefind/pagefind.js");
+          const search = await pagefind.search(q);
+          const items = await Promise.all(search.results.slice(0, 20).map((r:any) => r.data()));
+          box.innerHTML = items.map((x:any) =>
+            `<a href="${x.url}"><span>${x.meta.title}</span><small>${x.meta.type ?? ""}</small></a>`
+          ).join("") || "<div class='empty-search'>Sem resultados</div>";
+          box.classList.remove("hidden");
+        });
+        document.addEventListener("click", (e) => {
+          if (!(e.target as Element).closest(".search")) box.classList.add("hidden");
+        });
+      }
+    </script>
+  </body>
+</html>

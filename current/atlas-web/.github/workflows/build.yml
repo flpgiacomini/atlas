@@ -1,0 +1,38 @@
+name: Atlas Web Build
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: atlas-web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: atlas-web/package.json
+      - name: Install web dependencies
+        run: npm install
+      - name: Build static site
+        run: npm run build
+      - name: Validate dist
+        run: python scripts/validate_dist.py
+      - name: Upload static artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-dist
+          path: atlas-web/dist
+          if-no-files-found: error

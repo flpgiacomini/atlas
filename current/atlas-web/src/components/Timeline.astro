@@ -1,0 +1,25 @@
+---
+interface Props { events: any[]; }
+const { events } = Astro.props;
+---
+<section class="viz-section">
+  <h2>Timeline relacionada</h2>
+  {events.length ? <div id="entity-timeline" class="viz"></div> : <p class="muted">Nenhum evento datado diretamente relacionado.</p>}
+  <script type="application/json" id="entity-timeline-data" set:html={JSON.stringify(events)}></script>
+</section>
+<link rel="stylesheet" href="https://unpkg.com/vis-timeline@8.5.2/styles/vis-timeline-graph2d.min.css" />
+<script src="https://unpkg.com/vis-timeline@8.5.2/standalone/umd/vis-timeline-graph2d.min.js"></script>
+<script>
+  const raw=document.querySelector("#entity-timeline-data")?.textContent;
+  const el=document.querySelector("#entity-timeline");
+  if(raw && el && window.vis){
+    const rows=JSON.parse(raw);
+    const items=new window.vis.DataSet(rows.map((r:any,i:number)=>{
+      let start=r.date;
+      if(/^\d{4}$/.test(start)) start += "-01-01";
+      else if(/^\d{4}-\d{2}$/.test(start)) start += "-01";
+      return {id:i,content:r.name,start,title:`${r.date} · ${r.name}`};
+    }));
+    new window.vis.Timeline(el,items,{stack:true,orientation:"top"});
+  }
+</script>

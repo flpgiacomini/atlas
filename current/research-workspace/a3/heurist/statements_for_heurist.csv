@@ -1,0 +1,132 @@
+﻿statement_id,subject_atlas_id,predicate,object_type,object_value,object_precision,valid_from,valid_from_precision,valid_until,valid_until_precision,qualifiers_json,confidence,resolution_status,source_ids
+gurgel:stm_br_001,gurgel:veh_br800,manufactured_by,entity,gurgel:org_gurgel,,,,,,,high,accepted,"gurgel:src_br_rio,gurgel:src_br_qr"
+gurgel:stm_br_002,gurgel:veh_br800,marketed_under,entity,gurgel:brd_gurgel,,,,,,,high,accepted,"gurgel:src_br_rio,gurgel:src_br_qr"
+gurgel:stm_br_003,gurgel:org_gurgel,founded_by,entity,gurgel:per_gurgel,,,,,,,high,accepted,gurgel:src_br_rio
+gurgel:stm_br_004,gurgel:org_gurgel,located_in,entity,gurgel:plc_rioclaro,,,,,,,high,accepted,gurgel:src_br_rio
+gurgel:stm_br_005,gurgel:plc_rioclaro,located_in,entity,gurgel:plc_brazil,,,,,,,high,accepted,gurgel:src_br_rio
+gurgel:stm_br_006,gurgel:veh_br800,uses_component,entity,gurgel:cmp_enertron,,,,,,,high,accepted,"gurgel:src_br_qr_engine,gurgel:src_br_qr_super"
+gurgel:stm_br_007,gurgel:veh_supermini,successor_of,entity,gurgel:veh_br800,,,,,,,high,accepted,gurgel:src_br_qr_super
+gurgel:stm_br_008,gurgel:evt_br_start,occurred_on,date,1988,year,,,,,,high,accepted,gurgel:src_br_rio
+gurgel:stm_br_009,gurgel:evt_br_end,occurred_on,date,1991,year,,,,,,high,accepted,"gurgel:src_br_rio,gurgel:src_br_qr_super"
+gurgel:stm_br_010,gurgel:evt_gurgel_concordata,occurred_on,date,1993,year,,,,,,high,accepted,gurgel:src_br_qr
+gurgel:stm_br_011,gurgel:evt_gurgel_bankruptcy,occurred_on,date,1994-05,month,,,,,,high,accepted,gurgel:src_br_qr
+gurgel:stm_br_012,gurgel:evt_gurgel_close,occurred_on,date,1996,year,,,,,,medium,needs_reconciliation,gurgel:src_br_rio
+gurgel:stm_br_013,gurgel:evt_br_start,involved,entity,gurgel:veh_br800,,,,,,,high,accepted,gurgel:src_br_rio
+gurgel:stm_br_014,gurgel:evt_br_end,involved,entity,gurgel:veh_br800,,,,,,,high,accepted,gurgel:src_br_rio
+gurgel:stm_br_015,gurgel:evt_gurgel_concordata,involved,entity,gurgel:org_gurgel,,,,,,,high,accepted,gurgel:src_br_qr
+gurgel:stm_br_016,gurgel:evt_gurgel_bankruptcy,involved,entity,gurgel:org_gurgel,,,,,,,high,accepted,gurgel:src_br_qr
+gurgel:stm_br_017,gurgel:evt_gurgel_close,involved,entity,gurgel:org_gurgel,,,,,,,high,accepted,gurgel:src_br_rio
+modelt:stm_mt_001,modelt:veh_modelt,manufactured_by,entity,modelt:org_ford,,,,,,,high,accepted,modelt:src_mt_model
+modelt:stm_mt_002,modelt:veh_modelt,produced_at,entity,modelt:fac_piquette,,,,1910,year,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_003,modelt:veh_modelt,produced_at,entity,modelt:fac_highland,,1910,year,,,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_004,modelt:fac_highland,used_technology,entity,modelt:tec_moving_line,,1913-10,month,,,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_005,modelt:veh_modelt,used_technology,entity,modelt:tec_vanadium,,,,,,,high,accepted,modelt:src_mt_model
+modelt:stm_mt_006,modelt:evt_first_delivery,occurred_on,date,1908-10-01,day,,,,,,high,accepted,modelt:src_mt_model
+modelt:stm_mt_007,modelt:evt_highland_move,occurred_on,date,1910,year,,,,,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_008,modelt:evt_moving_line,occurred_on,date,1913-10,month,,,,,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_009,modelt:evt_modelt_end,occurred_on,date,1927-05,month,,,,,,high,accepted,modelt:src_mt_model
+modelt:stm_mt_010,modelt:evt_first_delivery,involved,entity,modelt:veh_modelt,,,,,,,high,accepted,modelt:src_mt_model
+modelt:stm_mt_011,modelt:evt_highland_move,involved,entity,modelt:fac_highland,,,,,,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_012,modelt:evt_moving_line,involved,entity,modelt:fac_highland,,,,,,,high,accepted,modelt:src_mt_highland
+modelt:stm_mt_013,modelt:evt_modelt_end,involved,entity,modelt:veh_modelt,,,,,,,high,accepted,modelt:src_mt_model
+p911:stm_000100,p911:veh_000101,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000101,p911:veh_000102,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000102,p911:veh_000103,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000103,p911:veh_000104,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000104,p911:veh_000105,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000105,p911:veh_000106,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000106,p911:veh_000107,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000107,p911:veh_000108,part_of,entity,p911:veh_000100,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000108,p911:veh_000102,successor_of,entity,p911:veh_000101,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000109,p911:veh_000103,successor_of,entity,p911:veh_000102,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000110,p911:veh_000104,successor_of,entity,p911:veh_000103,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000111,p911:veh_000105,successor_of,entity,p911:veh_000104,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000112,p911:veh_000106,successor_of,entity,p911:veh_000105,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000113,p911:veh_000107,successor_of,entity,p911:veh_000106,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000114,p911:veh_000108,successor_of,entity,p911:veh_000107,,,,,,,high,accepted,"p911:src_000100,p911:src_000103"
+p911:stm_000115,p911:veh_000100,successor_of,entity,p911:veh_000110,,,,,,,high,accepted,"p911:src_000101,p911:src_000102"
+p911:stm_000116,p911:veh_000100,derived_from,entity,p911:veh_000109,,,,,,,medium,accepted,"p911:src_000101,p911:src_000102"
+p911:stm_000117,p911:veh_000100,designed_by,entity,p911:per_000100,,,,,,,high,accepted,"p911:src_000101,p911:src_000102"
+p911:stm_000118,p911:veh_000100,engineered_by,entity,p911:per_000101,,,,,,"{""role"": ""engine_development_oversight""}",medium,accepted,p911:src_000101
+p911:stm_000119,p911:veh_000111,part_of,entity,p911:veh_000101,,,,,,,high,accepted,p911:src_000104
+p911:stm_000120,p911:veh_000111,uses_technology,entity,p911:tec_000102,,,,,,,high,accepted,p911:src_000104
+p911:stm_000121,p911:veh_000112,part_of,entity,p911:veh_000102,,,,,,,high,accepted,p911:src_000100
+p911:stm_000122,p911:veh_000112,uses_technology,entity,p917:tec_000001,,,,,,,high,accepted,p911:src_000100
+p911:stm_000123,p911:veh_000105,uses_technology,entity,p911:tec_000101,,,,,,,high,accepted,"p911:src_000100,p911:src_000105"
+p911:stm_000124,p911:evt_000100,occurred_on,date,1963-09-12,,,,,,,high,accepted,"p911:src_000101,p911:src_000102"
+p911:stm_000125,p911:evt_000100,involved,entity,p911:veh_000101,,,,,,"{""role"": ""presented_vehicle""}",high,accepted,"p911:src_000101,p911:src_000102"
+p911:stm_000126,p911:evt_000101,occurred_on,date,1964-09-14,,,,,,,high,accepted,p911:src_000102
+p911:stm_000127,p911:evt_000101,involved,entity,p911:veh_000101,,,,,,"{""role"": ""production_vehicle""}",high,accepted,p911:src_000102
+p911:stm_000128,p911:evt_000102,occurred_on,date,1964-10-22,,,,,,,disputed,disputed,p911:src_000102
+p911:stm_000129,p911:evt_000102,occurred_on,date,1964-11-22,,,,,,,disputed,disputed,p911:src_000101
+p911:stm_000130,p911:evt_000102,involved,entity,p911:veh_000101,,,,,,"{""role"": ""renamed_vehicle""}",high,accepted,"p911:src_000101,p911:src_000102"
+p911:stm_000131,p911:evt_000103,occurred_on,date,1965-09,,,,,,,high,accepted,p911:src_000104
+p911:stm_000132,p911:evt_000103,involved,entity,p911:veh_000111,,,,,,"{""role"": ""presented_variant""}",high,accepted,p911:src_000104
+p911:stm_000133,p911:evt_000103,introduced_feature,entity,p911:tec_000102,,,,,,,high,accepted,p911:src_000104
+p911:stm_000134,p911:evt_000104,occurred_on,date,1974,,,,,,,high,accepted,p911:src_000100
+p911:stm_000135,p911:evt_000104,involved,entity,p911:veh_000112,,,,,,"{""role"": ""turbo_variant""}",high,accepted,p911:src_000100
+p911:stm_000136,p911:evt_000104,introduced_feature,entity,p917:tec_000001,,,,,,,high,accepted,p911:src_000100
+p911:stm_000137,p911:evt_000105,occurred_on,date,1997,,,,,,,high,accepted,"p911:src_000100,p911:src_000105"
+p911:stm_000138,p911:evt_000105,involved,entity,p911:veh_000105,,,,,,"{""role"": ""presented_generation""}",high,accepted,"p911:src_000100,p911:src_000105"
+p911:stm_000139,p911:evt_000105,introduced_feature,entity,p911:tec_000101,,,,,,,high,accepted,"p911:src_000100,p911:src_000105"
+p911:stm_000140,p911:evt_000106,occurred_on,date,2018-11,,,,,,,high,accepted,"p911:src_000100,p911:src_000105"
+p911:stm_000141,p911:evt_000106,involved,entity,p911:veh_000108,,,,,,"{""role"": ""presented_generation""}",high,accepted,"p911:src_000100,p911:src_000105"
+p917:stm_000001,p917:veh_000020,manufactured_by,entity,p917:org_000001,,,,,,,high,accepted,p917:src_000002
+p917:stm_000002,p917:veh_000021,part_of,entity,p917:veh_000020,,,,,,,high,accepted,p917:src_000003
+p917:stm_000003,p917:veh_000022,part_of,entity,p917:veh_000020,,,,,,,high,accepted,p917:src_000003
+p917:stm_000004,p917:veh_000023,part_of,entity,p917:veh_000020,,,,,,,high,accepted,p917:src_000003
+p917:stm_000005,p917:veh_000024,part_of,entity,p917:veh_000020,,,,,,,high,accepted,p917:src_000003
+p917:stm_000006,p917:veh_000020,engineered_by,entity,p917:per_000001,,,,,,,high,accepted,"p917:src_000002,p917:src_000008"
+p917:stm_000007,p917:veh_000020,uses_component,entity,p917:cmp_000001,,,,,,,high,accepted,"p917:src_000002,p917:src_000007"
+p917:stm_000008,p917:cmp_000001,designed_by,entity,p917:per_000001,,,,,,,high,accepted,p917:src_000002
+p917:stm_000009,p917:veh_000023,uses_technology,entity,p917:tec_000001,,,,,,,high,accepted,p917:src_000003
+p917:stm_000010,p917:veh_000024,uses_technology,entity,p917:tec_000001,,,,,,,high,accepted,"p917:src_000003,p917:src_000007"
+p917:stm_000011,p917:vin_000001,instance_of,entity,p917:veh_000020,,,,,,,high,accepted,p917:src_000001
+p917:stm_000012,p917:vin_000002,instance_of,entity,p917:veh_000020,,,,,,,high,accepted,"p917:src_000004,p917:src_000006"
+p917:stm_000013,p917:vin_000002,configured_as,entity,p917:veh_000021,,,,,,"{""context_event"": ""p917:evt_000005""}",high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000014,p917:evt_000001,occurred_on,date,1969-03-10,,,,,,,high,accepted,p917:src_000001
+p917:stm_000015,p917:evt_000001,involved,entity,p917:vin_000001,,,,,,"{""role"": ""completed_vehicle""}",high,accepted,p917:src_000001
+p917:stm_000016,p917:evt_000002,occurred_on,date,1969-03-12,,,,,,,high,accepted,p917:src_000001
+p917:stm_000017,p917:evt_000002,involved,entity,p917:vin_000001,,,,,,"{""role"": ""presented_vehicle""}",high,accepted,p917:src_000001
+p917:stm_000018,p917:evt_000002,involved,entity,p917:veh_000020,,,,,,"{""role"": ""vehicle_program""}",high,accepted,p917:src_000001
+p917:stm_000019,p917:evt_000003,occurred_on,date,1969-04-21,,,,,,,high,accepted,"p917:src_000001,p917:src_000002"
+p917:stm_000020,p917:evt_000003,involved,entity,p917:veh_000020,,,,,,"{""role"": ""homologated_vehicle""}",high,accepted,"p917:src_000001,p917:src_000002"
+p917:stm_000021,p917:evt_000003,involved,entity,p917:org_000001,,,,,,"{""role"": ""manufacturer""}",high,accepted,"p917:src_000001,p917:src_000002"
+p917:stm_000022,p917:evt_000004,instance_of,entity,p917:com_000002,,,,,,,high,accepted,"p917:src_000003,p917:src_000006"
+p917:stm_000023,p917:evt_000004,occurred_on,date,1969-08-10,,,,,,,high,accepted,p917:src_000006
+p917:stm_000024,p917:evt_000004,held_at,entity,p917:cir_000002,,,,,,,medium,accepted,p917:src_000006
+p917:stm_000025,p917:ent_000001,entry_for_event,entity,p917:evt_000004,,,,,,,high,accepted,p917:src_000006
+p917:stm_000026,p917:ent_000001,entered_vehicle,entity,p917:veh_000020,,,,,,,high,accepted,"p917:src_000003,p917:src_000006"
+p917:stm_000027,p917:ent_000001,entered_by,entity,p917:team_000002,,,,,,,high,accepted,p917:src_000006
+p917:stm_000028,p917:ent_000001,driven_by,entity,p917:per_000004,,,,,,,high,accepted,"p917:src_000003,p917:src_000006"
+p917:stm_000029,p917:ent_000001,driven_by,entity,p917:per_000005,,,,,,,high,accepted,"p917:src_000003,p917:src_000006"
+p917:stm_000030,p917:ent_000001,overall_position,number,1.0,,,,,,,high,accepted,"p917:src_000003,p917:src_000006"
+p917:stm_000031,p917:ent_000001,entry_status,string,classified,,,,,,,high,accepted,p917:src_000006
+p917:stm_000032,p917:evt_000005,instance_of,entity,p917:com_000001,,,,,,,high,accepted,"p917:src_000004,p917:src_000005"
+p917:stm_000033,p917:evt_000005,occurred_on,date,1970-06-14,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000034,p917:evt_000005,held_at,entity,p917:cir_000001,,,,,,,high,accepted,p917:src_000005
+p917:stm_000035,p917:ent_000002,entry_for_event,entity,p917:evt_000005,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000036,p917:ent_000002,entered_vehicle,entity,p917:veh_000021,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000037,p917:ent_000002,entered_instance,entity,p917:vin_000002,,,,,,,high,accepted,p917:src_000006
+p917:stm_000038,p917:ent_000002,entered_by,entity,p917:team_000001,,,,,,,high,accepted,"p917:src_000004,p917:src_000005"
+p917:stm_000039,p917:ent_000002,driven_by,entity,p917:per_000002,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000040,p917:ent_000002,driven_by,entity,p917:per_000003,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000041,p917:ent_000002,start_number,string,23,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000042,p917:ent_000002,overall_position,number,1.0,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+p917:stm_000043,p917:ent_000002,entry_status,string,classified,,,,,,,high,accepted,"p917:src_000004,p917:src_000005,p917:src_000006"
+ring:stm_nr_001,ring:lay_total1927,layout_of,entity,ring:cir_ring,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_002,ring:lay_nord1927,layout_of,entity,ring:cir_ring,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_003,ring:lay_sud1927,layout_of,entity,ring:cir_ring,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_004,ring:lay_nord_current,layout_of,entity,ring:cir_ring,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_005,ring:lay_gp1984,layout_of,entity,ring:cir_ring,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_006,ring:lay_gp2002,layout_of,entity,ring:cir_ring,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_007,ring:lay_nord_current,successor_of,entity,ring:lay_nord1927,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_008,ring:lay_gp2002,successor_of,entity,ring:lay_gp1984,,,,,,,high,accepted,ring:src_nr_gp40
+ring:stm_nr_009,ring:evt_ring_open,occurred_on,date,1927-06-18,,,,,,"{""note"": ""Opening weekend began with motorcycle race; first car race followed on 19 June.""}",high,accepted,"ring:src_nr_history,ring:src_nr_nord"
+ring:stm_nr_010,ring:evt_rebuild1981,occurred_on,date,1981-11-30,,,,,,,high,accepted,ring:src_nr_history
+ring:stm_nr_011,ring:evt_gp_open1984,occurred_on,date,1984-05-12,,,,,,,high,accepted,"ring:src_nr_history,ring:src_nr_gp40"
+ring:stm_nr_012,ring:evt_gp_extend2002,occurred_on,date,2002,,,,,,,high,accepted,ring:src_nr_gp40
+ring:stm_nr_013,ring:evt_ring_open,involved,entity,ring:cir_ring,,,,,,,high,accepted,ring:src_nr_history
+ring:stm_nr_014,ring:evt_rebuild1981,involved,entity,ring:cir_ring,,,,,,,high,accepted,ring:src_nr_history
+ring:stm_nr_015,ring:evt_gp_open1984,involved,entity,ring:lay_gp1984,,,,,,,high,accepted,ring:src_nr_gp40
+ring:stm_nr_016,ring:evt_gp_extend2002,involved,entity,ring:lay_gp2002,,,,,,,high,accepted,ring:src_nr_gp40

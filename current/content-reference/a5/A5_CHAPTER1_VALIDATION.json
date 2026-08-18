@@ -1,0 +1,166 @@
+{
+  "version": "A5 Chapter I v0.4",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "added": {
+    "sources_added": 10,
+    "entities_added": 24,
+    "statements_added": 40,
+    "claims_added": 51,
+    "evidence_added": 51
+  },
+  "counts": {
+    "entity": 267,
+    "statement": 360,
+    "source": 99,
+    "claim": 470,
+    "evidence": 470,
+    "predicate": 54
+  },
+  "coverage": {
+    "vehicle": 65,
+    "vehicle_instance": 4,
+    "organization": 22,
+    "brand": 12,
+    "person": 31,
+    "technology": 15,
+    "component": 6,
+    "facility": 7,
+    "place": 3,
+    "competition": 4,
+    "team": 3,
+    "circuit": 4,
+    "event": 81,
+    "entry": 4
+  },
+  "timeline_events_1885_1918": 37,
+  "new_root_entity_types_required": 0,
+  "new_predicates_required": 0,
+  "chapter_exit_gate": {
+    "invention_to_product": "pass",
+    "product_to_company": "pass",
+    "company_to_technology": "pass",
+    "motorsport_entries": "pass",
+    "industrial_scale": "pass",
+    "wartime_transition": "pass",
+    "provenance": "pass",
+    "model_integrity": "pass"
+  },
+  "acceptance_checks": {
+    "motorsport_1906": [
+      {
+        "subject": "1906 Grand Prix de l'A.C.F.",
+        "predicate": "held_at",
+        "object_value": "Circuit de la Sarthe — A.C.F. 1906 triangular road circuit"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F.",
+        "predicate": "instance_of",
+        "object_value": "Grand Prix de l'Automobile Club de France"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F.",
+        "predicate": "occurred_on",
+        "object_value": "1906-06-26"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "driven_by",
+        "object_value": "Ferenc Szisz"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "entered_by",
+        "object_value": "Renault — 1906 Grand Prix works entry"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "entered_vehicle",
+        "object_value": "Renault Type AK Grand Prix"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "entry_for_event",
+        "object_value": "1906 Grand Prix de l'A.C.F."
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "entry_status",
+        "object_value": "classified"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "overall_position",
+        "object_value": "1.0"
+      },
+      {
+        "subject": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+        "predicate": "start_number",
+        "object_value": "3 A"
+      }
+    ],
+    "wartime_shift": [
+      {
+        "subject": "Mercedes DF 100 aeroengine enters large-scale production",
+        "predicate": "involved",
+        "object_value": "Daimler-Motoren-Gesellschaft"
+      },
+      {
+        "subject": "Mercedes DF 100 aeroengine enters large-scale production",
+        "predicate": "involved",
+        "object_value": "Mercedes DF 100 aeroengine"
+      },
+      {
+        "subject": "Mercedes DF 100 aeroengine enters large-scale production",
+        "predicate": "occurred_on",
+        "object_value": "1914-08"
+      },
+      {
+        "subject": "Prussian War Ministry commissions Benz & Cie. aeroengines",
+        "predicate": "involved",
+        "object_value": "Benz & Cie."
+      },
+      {
+        "subject": "Prussian War Ministry commissions Benz & Cie. aeroengines",
+        "predicate": "involved",
+        "object_value": "Benz Bz II aeroengine"
+      },
+      {
+        "subject": "Prussian War Ministry commissions Benz & Cie. aeroengines",
+        "predicate": "involved",
+        "object_value": "Benz Bz III aeroengine"
+      },
+      {
+        "subject": "Prussian War Ministry commissions Benz & Cie. aeroengines",
+        "predicate": "occurred_on",
+        "object_value": "1914-06"
+      },
+      {
+        "subject": "Renault 'Taxis de la Marne' wartime mobilization",
+        "predicate": "involved",
+        "object_value": "Renault Type AG1 taxi"
+      },
+      {
+        "subject": "Renault 'Taxis de la Marne' wartime mobilization",
+        "predicate": "involved",
+        "object_value": "Renault Frères"
+      },
+      {
+        "subject": "Renault 'Taxis de la Marne' wartime mobilization",
+        "predicate": "occurred_on",
+        "object_value": "1914"
+      },
+      {
+        "subject": "World War I constrains Mercedes 28/95 hp production",
+        "predicate": "involved",
+        "object_value": "Mercedes 28/95 hp"
+      },
+      {
+        "subject": "World War I constrains Mercedes 28/95 hp production",
+        "predicate": "occurred_on",
+        "object_value": "1914"
+      }
+    ]
+  }
+}

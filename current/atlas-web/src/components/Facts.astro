@@ -1,0 +1,22 @@
+---
+const { outgoing = [] } = Astro.props;
+const facts = outgoing.filter((x:any)=>x.object_type!=="entity");
+---
+<section>
+  <h2>Fatos</h2>
+  <div class="relation-list">
+    {facts.map((r:any)=>(
+      <article class="record">
+        <div class="pred">{r.predicate}</div>
+        <div>{String(r.value ?? "")}</div>
+        <span class:list={["status",r.resolution_status==="disputed"&&"disputed"]}>{r.resolution_status}</span>
+        {r.sources?.length > 0 && (
+          <details>
+            <summary>Evidência · {r.sources.length} fonte(s)</summary>
+            {r.sources.map((s:any)=><p><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a><small>{s.publisher} · {s.stance}/{s.support_strength}</small></p>)}
+          </details>
+        )}
+      </article>
+    ))}
+  </div>
+</section>

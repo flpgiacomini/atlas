@@ -1,0 +1,22 @@
+{
+  "name": "atlas-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:data": "python scripts/export_web.py",
+    "dev": "npm run export:data && astro dev",
+    "build:astro": "astro build",
+    "index:search": "pagefind --site dist",
+    "build": "npm run export:data && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "7.2.2"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2",
+    "typescript": "^5.9.0"
+  }
+}

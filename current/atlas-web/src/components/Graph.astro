@@ -1,0 +1,34 @@
+---
+interface Props { graph: any; }
+const { graph } = Astro.props;
+---
+<section class="viz-section">
+  <h2>Rede em dois saltos</h2>
+  <div id="entity-graph" class="viz"></div>
+  <script type="application/json" id="entity-graph-data" set:html={JSON.stringify(graph)}></script>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape@3.34.1/dist/cytoscape.min.js"></script>
+<script>
+  const raw = document.querySelector("#entity-graph-data")?.textContent;
+  if (raw && window.cytoscape) {
+    const d = JSON.parse(raw);
+    const cy = window.cytoscape({
+      container: document.querySelector("#entity-graph"),
+      elements: [
+        ...d.nodes.map((n:any) => ({data:{id:n.id,label:n.name,type:n.type}})),
+        ...d.edges.map((e:any) => ({data:{id:e.id,source:e.s,target:e.o,label:e.p}}))
+      ],
+      style: [
+        {selector:"node",style:{"background-color":"#29313a","label":"data(label)","color":"#dfe5eb","font-size":"9px","text-wrap":"wrap","text-max-width":"105px","text-valign":"bottom","text-margin-y":"7px","width":"32px","height":"32px"}},
+        {selector:`node[id = "${d.root}"]`,style:{"background-color":"#d7ff68","width":"46px","height":"46px"}},
+        {selector:"node[type = 'event']",style:{"shape":"diamond","background-color":"#42566b"}},
+        {selector:"edge",style:{"width":1,"line-color":"#39424c","target-arrow-color":"#596572","target-arrow-shape":"triangle","curve-style":"bezier","label":"data(label)","font-size":"7px","color":"#74808c"}}
+      ],
+      layout:{name:"cose",animate:false,fit:true,padding:30,nodeRepulsion:8000,idealEdgeLength:90}
+    });
+    cy.on("tap","node",(evt:any) => {
+      const id=evt.target.id();
+      if(id!==d.root) location.href=`/e/${id}/`;
+    });
+  }
+</script>

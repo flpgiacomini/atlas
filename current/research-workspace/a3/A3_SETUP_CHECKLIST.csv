@@ -1,0 +1,11 @@
+﻿Step,Tool,Action,Status
+1,Zotero,Create ATLAS collections and workflow tags,Not started
+2,Heurist,Create database,Manual UI
+3,Heurist,"Create Entity, Statement, Source record types",Manual UI
+4,Heurist,Import Sources CSV,Prepared
+5,Heurist,Import Entities CSV,Prepared
+6,Heurist,Import Statements CSV and resolve pointers,Prepared
+7,Heurist,Create saved searches for disputed/reconciliation records,Manual UI
+8,Heurist,Test network/timeline/map,Manual UI
+9,Export,Export structured data,Manual UI
+10,Atlas,Round-trip into canonical SQLite and validate,Prepared model

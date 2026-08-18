@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Comparar">
+  <div class="container">
+    <div class="hero-kicker">Exploração</div><h1>Comparar</h1>
+    <p class="lead">Até quatro entidades fixadas nas páginas do Atlas. A comparação mostra fatos e metadados comuns sem criar um modelo paralelo.</p>
+    <div id="compare-empty" class="card">Nenhuma entidade selecionada.</div>
+    <div id="compare-grid" class="home-grid"></div>
+  </div>
+  <script>
+    const KEY="atlas-compare";
+    const selected=JSON.parse(localStorage.getItem(KEY)||"[]");
+    const empty=document.querySelector("#compare-empty");
+    const grid=document.querySelector("#compare-grid");
+    if(selected.length){
+      empty?.classList.add("hidden");
+      fetch("/data/compare-index.json").then(r=>r.json()).then(rows=>{
+        const wanted=new Set(selected.map((x:any)=>x.id));
+        const data=rows.filter((x:any)=>wanted.has(x.id));
+        grid.innerHTML=data.map((e:any)=>`
+          <article class="compare-card">
+            <div class="type-pill">${e.type}</div><h2><a href="/e/${e.id}/">${e.name}</a></h2>
+            ${Object.entries(e.metadata||{}).slice(0,8).map(([k,v])=>`<div class="compare-row"><span>${k}</span><div>${JSON.stringify(v).replace(/^"|"$/g,"")}</div></div>`).join("")}
+            ${e.facts.slice(0,12).map((f:any)=>`<div class="compare-row"><span>${f.predicate}</span><div>${f.value ?? ""}</div></div>`).join("")}
+          </article>`).join("");
+      });
+    }
+  </script>
+</BaseLayout>
