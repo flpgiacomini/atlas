@@ -185,18 +185,18 @@ P0,stub,10.0,01a01028-544e-7849-8c8b-e4fcb959f2bb,organization,Toyota Motor Corp
 P0,stub,10.0,01a01028-5459-7036-9053-993a1a29b824,organization,Toyota Motor Corporation — 86/BRZ collaboration,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01028-5456-7a95-8022-9945a7e5315f,organization,Volkswagen Group,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a010f1-7e89-7648-bf89-51792b04ab9e,organization,Volvo Cars,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a010d9-28c6-73a0-ae55-f5e91aea4fe6,person,Alec Issigonis,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a0102a-57e7-7ba3-b726-4bd89283a10f,person,Armand Peugeot,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P2,substantial,88.3,01a010d9-28c6-73a0-ae55-f5e91aea4fe6,person,Alec Issigonis,35,2,3,2,subject_statements<3
+P2,substantial,88.3,01a0102a-57e7-7ba3-b726-4bd89283a10f,person,Armand Peugeot,36,2,3,2,subject_statements<3
 P3,complete,100,01a01028-5441-7e94-9604-f48e8c9254e7,person,Carl Benz,35,4,3,4,
-P0,stub,10.0,01a0102a-57e9-773d-8a60-1b66f245b8ae,person,Charles Rolls,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a01030-3313-7c92-8420-09288e3b4769,person,Claudio Fogolin,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a0102f-074e-73a3-b195-049f57ee5d71,person,Emil Jellinek,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P2,substantial,88.3,01a0102a-57e9-773d-8a60-1b66f245b8ae,person,Charles Rolls,36,2,3,2,subject_statements<3
+P2,substantial,88.3,01a01030-3313-7c92-8420-09288e3b4769,person,Claudio Fogolin,36,2,3,2,subject_statements<3
+P2,substantial,88.3,01a0102f-074e-73a3-b195-049f57ee5d71,person,Emil Jellinek,34,2,3,2,subject_statements<3
 P3,complete,100.0,01a01016-ea4d-7d5e-bd1b-907f0ec733c1,person,Ferdinand Alexander Porsche,37,3,3,3,
-P0,stub,10.0,01a01016-ea4d-7397-8a59-8d3799b2d3ff,person,Ferdinand Piëch,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a01031-ec56-72e1-87fe-d60d070d71f0,person,Ferenc Szisz,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a0102a-57e8-7b53-b434-2f603c11af78,person,Fernand Renault,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a01031-ec55-7a02-b399-8a7daa8bcf94,person,George Heath,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
-P0,stub,10.0,01a0102f-074c-7a67-9c8b-e54c3af74bc9,person,Georges Bouton,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
+P3,complete,100.0,01a01016-ea4d-7397-8a59-8d3799b2d3ff,person,Ferdinand Piëch,35,3,3,3,
+P2,substantial,88.3,01a01031-ec56-72e1-87fe-d60d070d71f0,person,Ferenc Szisz,36,2,3,2,subject_statements<3
+P2,substantial,88.3,01a0102a-57e8-7b53-b434-2f603c11af78,person,Fernand Renault,36,2,3,2,subject_statements<3
+P0,stub,40.0,01a01031-ec55-7a02-b399-8a7daa8bcf94,person,George Heath,37,0,3,0,subject_statements<3|subject_statements_without_full_evidence
+P2,substantial,88.3,01a0102f-074c-7a67-9c8b-e54c3af74bc9,person,Georges Bouton,35,2,3,2,subject_statements<3
 P0,stub,10.0,01a010d9-28c4-75e7-b4de-555e9f8b5b9a,person,Gioacchino Colombo,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a01028-5445-7b60-a3e7-0e42b146e448,person,Giorgetto Giugiaro,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence
 P0,stub,10.0,01a0102a-57e5-7955-a9a2-653c1376cea8,person,Gottlieb Daimler,0,0,3,0,description<30_words|subject_statements<3|subject_statements_without_full_evidence

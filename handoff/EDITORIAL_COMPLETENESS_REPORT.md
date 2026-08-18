@@ -7,11 +7,11 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 ## Resultado
 
 - Entidades auditadas: **339**
-- Completas: **6**
-- Substanciais: **3**
+- Completas: **7**
+- Substanciais: **11**
 - Parciais: **165**
-- Stubs: **165**
-- Prioridade P0: **165**
+- Stubs: **156**
+- Prioridade P0: **156**
 - Prioridade P1: **165**
 
 Este resultado substitui qualquer interpretação anterior de que cobertura de rota ou de mídia equivalia a completude editorial.
@@ -29,7 +29,7 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 | event | 103 | 0 | 61.7 |
 | facility | 10 | 0 | 18.5 |
 | organization | 30 | 0 | 16.4 |
-| person | 35 | 4 | 22.5 |
+| person | 35 | 5 | 43.8 |
 | place | 4 | 0 | 20.6 |
 | team | 3 | 0 | 10.0 |
 | technology | 24 | 0 | 12.0 |
