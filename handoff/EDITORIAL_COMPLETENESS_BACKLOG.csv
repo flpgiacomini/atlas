@@ -12,7 +12,7 @@ P2,substantial,76.7,01a010d9-28c6-75ce-9e74-78e287675339,brand,Lamborghini,45,1,
 P2,substantial,76.7,01a01030-3312-7d84-9a7e-34630d64f2b9,brand,Lancia,46,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c4-7348-b3c2-bb473308aff8,brand,Land Rover,48,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102a-57eb-7517-bd03-02951e02850f,brand,Oldsmobile,46,1,3,1,connected_statements<3
-P2,substantial,88.3,01a0102a-57e7-7f2b-bebc-fd556c26e81f,brand,Peugeot,59,2,3,2,connected_statements<3
+P3,complete,100.0,01a0102a-57e7-7f2b-bebc-fd556c26e81f,brand,Peugeot,59,3,3,3,
 P2,substantial,76.7,01a010d9-28c8-734b-8208-0888551089ec,brand,Renault,48,1,3,1,connected_statements<3
 P2,substantial,88.3,01a0102a-57e9-7402-b40c-17fe692810ec,brand,Rolls-Royce,58,2,3,2,connected_statements<3
 P2,substantial,88.3,01a010d9-28c3-7fc4-9f3a-3e300e1d1b76,brand,Volkswagen,62,2,3,2,connected_statements<3
@@ -98,7 +98,7 @@ P3,complete,100.0,01a01016-ea4d-7114-9e02-1fc5bf40b16e,event,Introduction of tur
 P2,substantial,88.3,01a010d9-28c7-7e06-b5a7-472a278161dc,event,Lamborghini Miura presentation at Geneva Motor Show,53,2,3,2,connected_statements<3
 P2,substantial,88.3,01a01030-3313-763f-beca-e385e745c472,event,Lancia 12 HP first production model,53,2,3,2,connected_statements<3
 P2,substantial,88.3,01a01030-3313-78c7-a747-56d6e7706dec,event,Lancia founded in Turin,51,2,3,2,connected_statements<3
-P2,substantial,88.3,01a010d9-28c4-7d45-b8cf-ff3eff00a4ee,event,Land Rover Series I launch at Amsterdam Motor Show,57,2,3,2,connected_statements<3
+P3,complete,100.0,01a010d9-28c4-7d45-b8cf-ff3eff00a4ee,event,Land Rover Series I launch at Amsterdam Motor Show,57,3,3,3,
 P3,complete,100.0,01a0102f-0747-7a71-9a36-e9d11203f50a,event,Louis Renault drives Type A up rue Lepic,62,3,3,3,
 P2,substantial,88.3,01a010d9-28c7-7795-8744-5df38a9200b5,event,Mazda Cosmo Sport prototype public unveiling,55,2,3,2,connected_statements<3
 P2,substantial,88.3,01a010d9-28c7-7d27-a89c-87e48b5bca29,event,Mazda Cosmo Sport sales begin,54,2,3,2,connected_statements<3
@@ -155,19 +155,19 @@ P2,substantial,76.7,01a01028-5453-7daf-b895-5e395f5a879d,facility,Mladá Bolesla
 P2,substantial,76.7,01a01028-5449-70ed-8c33-269beafc87b0,facility,Tata Motors Pantnagar Plant,48,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01028-5449-7940-8ce8-a3b8e0e47cf1,facility,Tata Motors Sanand Plant,62,2,3,2,connected_statements<3
 P2,substantial,88.3,01a010d9-28c3-7d42-8ff9-f555d77e38e9,facility,Volkswagen Wolfsburg Plant,64,2,3,2,connected_statements<3
-P2,substantial,88.3,01a010d9-28cb-765c-9b30-68028abae18b,organization,BMW Group,63,2,3,2,connected_statements<3
+P3,complete,100.0,01a010d9-28cb-765c-9b30-68028abae18b,organization,BMW Group,63,3,3,3,
 P2,substantial,76.7,01a010d9-28ca-723d-95f4-7d88f672a032,organization,BYD,44,1,3,1,connected_statements<3
 P3,complete,100,01a0102f-074d-7913-a73c-305e1298dd8d,organization,Benz & Cie.,86,4,3,4,
 P2,substantial,76.7,01a010d9-28c6-7d0e-b0fb-fc349473d4fb,organization,British Motor Corporation,46,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102f-074f-7e63-b334-ebaf480207cd,organization,"British Motor Syndicate, Ltd.",52,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102a-57ec-7ec1-aa4a-3b50b15c3e43,organization,Cadillac Motor Car Company,48,1,3,1,connected_statements<3
-P3,complete,100,01a0102f-074f-729a-b698-c08eaeb57ca1,organization,Daimler-Motoren-Gesellschaft,108,5,3,5,
+P3,complete,100,01a0102f-074f-729a-b698-c08eaeb57ca1,organization,Daimler-Motoren-Gesellschaft,108,6,3,6,
 P2,substantial,88.3,01a0102f-074b-7bb8-9b81-46a0f6b6a58c,organization,De Dion-Bouton,61,2,3,2,connected_statements<3
-P3,complete,100,01a01016-ea4e-7218-a646-042102986580,organization,Dr. Ing. h.c. F. Porsche AG,97,7,3,7,
+P3,complete,100,01a01016-ea4e-7218-a646-042102986580,organization,Dr. Ing. h.c. F. Porsche AG,97,9,3,9,
 P2,substantial,88.3,01a0102a-57e9-7441-bb9a-c86641e862e7,organization,Fabbrica Italiana Automobili Torino,61,2,3,2,connected_statements<3
 P2,substantial,88.3,01a01028-5447-7f06-a1d0-479c12a86e2c,organization,First Automobile Works (FAW),60,2,3,2,connected_statements<3
 P3,complete,100,01a01016-ea4d-739b-9d06-20a647780fe2,organization,Ford Motor Company,95,7,3,7,
-P3,complete,100,01a01016-ea4c-76b8-b2a8-c85cdee6e70e,organization,Gurgel Motores S/A,87,6,3,6,
+P3,complete,100,01a01016-ea4c-76b8-b2a8-c85cdee6e70e,organization,Gurgel Motores S/A,87,7,3,7,
 P2,substantial,76.7,01a01028-544c-7e05-b6bb-188cdcea4bad,organization,Honda Motor Co.,46,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01028-5445-76f0-8779-1b2aa753b133,organization,Hyundai Motor Company,53,2,3,2,connected_statements<3
 P3,complete,100,01a01030-3313-7ab6-a2bf-5bfd6daf2faf,organization,Lancia & C.,74,4,3,4,
@@ -175,8 +175,8 @@ P2,substantial,76.7,01a010d9-28c8-7dcd-9a43-ab8b3d433b5e,organization,Matra,47,1
 P2,substantial,76.7,01a010d9-28c7-745e-95c1-3b1a3ed73393,organization,Mazda Motor Corporation,49,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c9-787b-ba1d-036c3f7bded2,organization,McLaren Automotive,45,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01028-544f-7ebd-9fb6-4f53af4e1697,organization,Nissan Motor Co.,49,1,3,1,connected_statements<3
-P3,complete,100.0,01a0102f-074a-733e-8d7d-fb323f015fc4,organization,Panhard & Levassor,79,3,3,3,
-P3,complete,100,01a0102a-57e8-7ff1-a03b-ac7a70aa8c5e,organization,Renault Frères,80,6,3,6,
+P3,complete,100,01a0102f-074a-733e-8d7d-fb323f015fc4,organization,Panhard & Levassor,79,4,3,4,
+P3,complete,100,01a0102a-57e8-7ff1-a03b-ac7a70aa8c5e,organization,Renault Frères,80,7,3,7,
 P2,substantial,88.3,01a01028-5459-7db1-b97a-ae37248e82c9,organization,Subaru Corporation,56,2,3,2,connected_statements<3
 P2,substantial,76.7,01a01028-5449-72d1-948c-ce73403c8ed5,organization,Tata Motors,45,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c9-7c13-b167-dcc3eb8c2f4f,organization,Tesla Motors,48,1,3,1,connected_statements<3
@@ -187,11 +187,11 @@ P2,substantial,88.3,01a01028-5456-7a95-8022-9945a7e5315f,organization,Volkswagen
 P3,complete,100.0,01a010f1-7e89-7648-bf89-51792b04ab9e,organization,Volvo Cars,70,3,3,3,
 P3,complete,100.0,01a010d9-28c6-73a0-ae55-f5e91aea4fe6,person,Alec Issigonis,35,3,3,3,
 P3,complete,100.0,01a0102a-57e7-7ba3-b726-4bd89283a10f,person,Armand Peugeot,36,3,3,3,
-P3,complete,100,01a01028-5441-7e94-9604-f48e8c9254e7,person,Carl Benz,35,6,3,6,
+P3,complete,100,01a01028-5441-7e94-9604-f48e8c9254e7,person,Carl Benz,35,7,3,7,
 P3,complete,100.0,01a0102a-57e9-773d-8a60-1b66f245b8ae,person,Charles Rolls,36,3,3,3,
 P3,complete,100.0,01a01030-3313-7c92-8420-09288e3b4769,person,Claudio Fogolin,36,3,3,3,
 P3,complete,100.0,01a0102f-074e-73a3-b195-049f57ee5d71,person,Emil Jellinek,34,3,3,3,
-P3,complete,100,01a01016-ea4d-7d5e-bd1b-907f0ec733c1,person,Ferdinand Alexander Porsche,37,4,3,4,
+P3,complete,100,01a01016-ea4d-7d5e-bd1b-907f0ec733c1,person,Ferdinand Alexander Porsche,37,5,3,5,
 P3,complete,100,01a01016-ea4d-7397-8a59-8d3799b2d3ff,person,Ferdinand Piëch,35,4,3,4,
 P3,complete,100.0,01a01031-ec56-72e1-87fe-d60d070d71f0,person,Ferenc Szisz,36,3,3,3,
 P3,complete,100.0,01a0102a-57e8-7b53-b434-2f603c11af78,person,Fernand Renault,36,3,3,3,
@@ -252,10 +252,10 @@ P3,complete,100,01a01016-ea4e-76d9-bc16-d2fb752accc6,technology,Turbocharging,90
 P2,substantial,76.7,01a010d9-28c7-7ff6-9baf-6498ee4b32ab,technology,Two-rotor rotary engine propulsion,51,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01016-ea4d-7c35-9756-76cc5f5923c6,technology,Water-cooled flat-six engine architecture,66,2,3,2,connected_statements<3
 P3,complete,100.0,01a01028-5452-7b30-9a49-a2e7cdb66dfc,vehicle,Audi quattro,81,4,4,4,
-P1,partial,73.8,01a010d9-28cb-7ee2-a6bd-a7079773382e,vehicle,BMW 3 Series,44,1,4,1,connected_statements<4
+P2,substantial,82.5,01a010d9-28cb-7ee2-a6bd-a7079773382e,vehicle,BMW 3 Series,44,2,4,2,connected_statements<4
 P2,substantial,91.2,01a010d9-28ca-7fef-a797-10374d330ad8,vehicle,BYD F3DM,65,3,4,3,connected_statements<4
 P2,substantial,91.2,01a01028-5441-7fa0-bb13-31fad66d99f1,vehicle,Benz Patent Motor Car,38,3,4,3,connected_statements<4
-P1,partial,73.8,01a01028-5441-7dba-8fc7-6006eb681a73,vehicle,Benz Patent Motor Car Model 1,47,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01028-5441-7dba-8fc7-6006eb681a73,vehicle,Benz Patent Motor Car Model 1,47,2,4,2,connected_statements<4
 P2,substantial,82.5,01a0102f-074d-7152-b66e-6308e7fe61fb,vehicle,Benz Velo,56,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01028-5456-7347-bcb9-8a40ce99ef02,vehicle,Bugatti EB110,62,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5456-75fc-a071-4aa5efb7f81b,vehicle,Bugatti Veyron 16.4,49,2,4,2,connected_statements<4
@@ -274,7 +274,7 @@ P3,complete,100,01a01016-ea4d-7265-a55b-b35bdeb3909f,vehicle,Ford Model T,42,9,4
 P2,substantial,82.5,01a010d9-28c6-79eb-9cc1-0f8d258b61d4,vehicle,Ford Mustang,60,2,4,2,connected_statements<4
 P2,substantial,82.5,01a0102a-57eb-757c-8088-4ed32c002ced,vehicle,Ford Quadricycle,57,2,4,2,connected_statements<4
 P3,complete,100,01a01016-ea4d-7042-b42b-c2bb234aaefa,vehicle,Gurgel BR-800,80,6,4,6,
-P1,partial,73.8,01a01016-ea4d-7d20-929c-5ce568072960,vehicle,Gurgel Supermini,41,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01016-ea4d-7d20-929c-5ce568072960,vehicle,Gurgel Supermini,41,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01028-5455-759c-a6a7-06375500cf5d,vehicle,Holden 48-215,66,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5455-79eb-bb6a-6af32b686684,vehicle,Holden 48-215 prototype programme,60,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01028-544c-7d5d-a535-4d8e2484786a,vehicle,Honda N360,67,3,4,3,connected_statements<4
@@ -286,16 +286,16 @@ P2,substantial,91.2,01a01030-3313-7bef-8e4d-63573101fdc7,vehicle,Lancia 12 HP,64
 P3,complete,100.0,01a010d9-28c4-7374-b925-54a7bfff62c8,vehicle,Land Rover Series I,84,4,4,4,
 P3,complete,100.0,01a010d9-28c7-745f-a0e1-27cf05392aeb,vehicle,Mazda Cosmo Sport / 110S,84,4,4,4,
 P2,substantial,91.2,01a010d9-28c9-74c5-9eff-79795673f004,vehicle,McLaren F1,69,3,4,3,connected_statements<4
-P1,partial,73.8,01a01031-ec59-7d90-8c59-f5743880a8e0,vehicle,Mercedes 28/95 hp,52,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01031-ec59-7d90-8c59-f5743880a8e0,vehicle,Mercedes 28/95 hp,52,2,4,2,connected_statements<4
 P2,substantial,91.2,01a0102f-074e-745f-bc7b-ac0ea2e96217,vehicle,Mercedes 35 hp,79,3,4,3,connected_statements<4
 P3,complete,100.0,01a01028-544f-762b-99d2-dfb915467c7a,vehicle,Nissan LEAF — First Generation,80,4,4,4,
 P3,complete,100.0,01a0102a-57ec-75f6-9e5f-339e8aeb29d7,vehicle,Oldsmobile Curved Dash,78,4,4,4,
-P1,partial,73.8,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,57,1,4,1,connected_statements<4
-P1,partial,73.8,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,43,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,57,2,4,2,connected_statements<4
+P1,partial,73.8,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,40,1,4,1,connected_statements<4
 P3,complete,100,01a0102a-57e7-7769-9156-f74a67742b6a,vehicle,Peugeot Type 1,86,5,4,5,
 P2,substantial,82.5,01a0102a-57e7-72af-aff7-faa78d8ea08c,vehicle,Peugeot Type 2,55,2,4,2,connected_statements<4
-P1,partial,73.8,01a0102a-57e7-76fd-b8d0-8018ce990f8a,vehicle,Peugeot Type 3,43,1,4,1,connected_statements<4
-P1,partial,73.8,01a01016-ea4d-748e-b4e3-a3da0660676a,vehicle,Porsche 356,45,1,4,1,connected_statements<4
+P2,substantial,82.5,01a0102a-57e7-76fd-b8d0-8018ce990f8a,vehicle,Peugeot Type 3,43,2,4,2,connected_statements<4
+P2,substantial,82.5,01a01016-ea4d-748e-b4e3-a3da0660676a,vehicle,Porsche 356,45,2,4,2,connected_statements<4
 P3,complete,100,01a01016-ea4d-7c5e-960d-4d958efad5e7,vehicle,Porsche 911,39,12,4,12,
 P3,complete,100.0,01a01016-ea4d-7b71-98b3-3f71f2a0da5b,vehicle,Porsche 911 G-Series,79,4,4,4,
 P3,complete,100,01a01016-ea4d-74d7-9fc9-11e5b37d07f1,vehicle,Porsche 911 Original,101,6,4,6,
@@ -309,14 +309,14 @@ P3,complete,100,01a01016-ea4d-75cb-84ea-b42b494fd567,vehicle,Porsche 911 Type 99
 P2,substantial,91.2,01a01016-ea4d-7c4a-b0b1-e7693fee1c95,vehicle,Porsche 911 Type 997,65,3,4,3,connected_statements<4
 P3,complete,100,01a01016-ea4e-7a86-9dc9-72ee0ab1c448,vehicle,Porsche 917,38,12,4,12,
 P2,substantial,91.2,01a01016-ea4e-7f61-a75b-aff9632d7d7a,vehicle,Porsche 917 K,73,3,4,3,connected_statements<4
-P1,partial,73.8,01a01016-ea4e-7dca-85dc-5ad613f80bea,vehicle,Porsche 917 LH,42,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01016-ea4e-7dca-85dc-5ad613f80bea,vehicle,Porsche 917 LH,42,2,4,2,connected_statements<4
 P2,substantial,82.5,01a01016-ea4e-7bee-8617-228ced532a8e,vehicle,Porsche 917/10,48,2,4,2,connected_statements<4
 P2,substantial,82.5,01a01016-ea4e-77a7-8575-557f6ab94b97,vehicle,Porsche 917/30,48,2,4,2,connected_statements<4
-P1,partial,73.8,01a01016-ea4d-7b60-be4e-3a92caa480ea,vehicle,Porsche Type 754 T7,47,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01016-ea4d-7b60-be4e-3a92caa480ea,vehicle,Porsche Type 754 T7,47,2,4,2,connected_statements<4
 P3,complete,100.0,01a010d9-28c8-762a-9025-da1a0c171c24,vehicle,Renault Espace — First Generation,72,4,4,4,
 P2,substantial,91.2,01a0102f-0747-7a09-96ad-67d528294ef0,vehicle,Renault Type A,71,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01031-ec5a-7b84-a0a9-8961713832b6,vehicle,Renault Type AG1 taxi,59,2,4,2,connected_statements<4
-P1,partial,73.8,01a01031-ec56-74ed-85cd-19f117781c2c,vehicle,Renault Type AK Grand Prix,57,1,4,1,connected_statements<4
+P2,substantial,82.5,01a01031-ec56-74ed-85cd-19f117781c2c,vehicle,Renault Type AK Grand Prix,57,2,4,2,connected_statements<4
 P2,substantial,82.5,01a0102a-57ea-763a-bea0-28163288f550,vehicle,Rolls-Royce 10 H.P.,49,2,4,2,connected_statements<4
 P3,complete,100.0,01a01030-3316-7ce0-8ad2-168f6bfb1f42,vehicle,Rolls-Royce 40/50 H.P.,79,4,4,4,
 P2,substantial,82.5,01a0102a-57ea-7e52-9674-4056cba82d9b,vehicle,Royce 10 H.P.,56,2,4,2,connected_statements<4
@@ -334,7 +334,7 @@ P3,complete,100.0,01a010d9-28c8-750f-adf3-f48d344020e5,vehicle,Volkswagen Golf �
 P2,substantial,91.2,01a010f1-7e89-7097-811b-4535048cf1a3,vehicle,Volvo PV544,43,3,4,3,connected_statements<4
 P3,complete,100,01a01028-5453-7900-8694-2766fd617abc,vehicle,ŠKODA 1000 MB,86,5,4,5,
 P2,substantial,82.5,01a01028-5455-70c8-9212-e958618f90e8,vehicle_instance,Holden Prototype No. 1,64,2,4,2,connected_statements<4
-P1,partial,73.8,01a010d9-28c4-79e5-9539-a782d65f01ac,vehicle_instance,Land Rover pre-production HUE 166,49,1,4,1,connected_statements<4
+P2,substantial,82.5,01a010d9-28c4-79e5-9539-a782d65f01ac,vehicle_instance,Land Rover pre-production HUE 166,49,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01016-ea4e-747b-9ba4-e560d648e4ef,vehicle_instance,Porsche 917-001,71,3,4,3,connected_statements<4
 P2,substantial,91.2,01a01016-ea4e-76dd-8b7e-a38a7a9a1e7e,vehicle_instance,Porsche 917-023,73,3,4,3,connected_statements<4
 P2,substantial,91.2,01a01030-3316-7b5e-9acc-d40b8e0d4536,vehicle_instance,Rolls-Royce 40/50 H.P. chassis 60551 'Silver Ghost',82,3,4,3,connected_statements<4
