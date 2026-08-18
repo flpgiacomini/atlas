@@ -1,6 +1,6 @@
 # Gate hands-on Heurist — protocolo A9.7
 
-Estado: **aguardando credenciais temporárias**. Credenciais, tokens, cookies e exports privados nunca devem ser gravados no repositório.
+Estado: **APROVADO em 18/08/2026 — 9/10, sem perda semântica crítica**. Credenciais, tokens, cookies e exports privados nunca são gravados no repositório.
 
 ## Pilotos
 
@@ -36,3 +36,10 @@ Marcar 1 ponto para cada requisito demonstrado:
 Demonstrar e registrar: `Zotero/OpenRefine/Heurist → SQLite → validação → exportação → Astro → Pagefind → página publicada`.
 
 Uma reprovação produz relatório objetivo e mantém o A9.7 aberto; não autoriza substituição silenciosa de ferramenta.
+
+## Resultado executado
+
+- Entity, relações temporais, conflito 901→911, source/evidence, Entry 917, genealogia, filtros, rede e round-trip: aprovados.
+- Mapa interno do Heurist: não pontuado, pois o piloto não importou geometrias; a projeção pública mantém 4/4 geometrias release-ready.
+- Imports: 86 Entity, 24 Source e 131 Statement; 241 registros processados, zero erros.
+- Resultado consolidado: `handoff/heurist-result.json`.

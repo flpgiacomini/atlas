@@ -1,19 +1,15 @@
 {
   "a9_workstreams": {
     "A9.1_web_foundation": "DONE",
-    "A9.2_geography": "PARTIAL",
-    "A9.3_product_ux": "IMPLEMENTED_IN_SCAFFOLD_NEEDS_BUILD_AND_VISUAL_GATE",
-    "A9.4_exploration": "IMPLEMENTED_IN_SCAFFOLD_NEEDS_BUILD_AND_VISUAL_GATE",
-    "A9.5_research_publication": "PASS_DIRECT_CANONICAL_PROOF",
-    "A9.6_deployment": "CI_AND_STATIC_CONTRACT_PREPARED",
-    "A9.7_product_complete": "PENDING"
+    "A9.2_geography": "DONE_4_OF_4_RELEASE_READY",
+    "A9.3_product_ux": "DONE_VISUAL_AND_ACCESSIBILITY_APPROVED",
+    "A9.4_exploration": "DONE_TIMELINE_GRAPH_COMPARE_MAP_SEARCH_APPROVED",
+    "A9.5_research_publication": "DONE_HEURIST_9_OF_10",
+    "A9.6_deployment": "DONE_GITHUB_PAGES",
+    "A9.7_product_complete": "PASS"
   },
-  "remaining_hard_gates": [
-    "Run npm install and commit package-lock.json",
-    "Run npm run build successfully",
-    "Pass scripts/validate_dist.py",
-    "Reconcile release-ready geography",
-    "Run normal-browser visual/usability acceptance",
-    "Validate hands-on research workspace workflow"
-  ]
+  "remaining_hard_gates": [],
+  "release_candidate": "v1.0.0",
+  "public_url": "https://flpgiacomini.github.io/atlas/",
+  "completed_at": "2026-08-18"
 }

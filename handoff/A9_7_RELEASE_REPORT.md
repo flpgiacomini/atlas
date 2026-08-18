@@ -1,7 +1,7 @@
 # Relatório A9.7 — candidato a release
 
 Data da revisão: 2026-08-18  
-Estado: **código, CI e deploy aprovados; bloqueado para v1.0.0 somente pelo gate Heurist**
+Estado: **APROVADO — A9.7 Product Complete; candidato v1.0.0**
 
 ## Identificação
 
@@ -42,6 +42,7 @@ Estado: **código, CI e deploy aprovados; bloqueado para v1.0.0 somente pelo gat
 | GitHub Actions CI | aprovado, execução nº 4 |
 | GitHub Pages | aprovado, workflow nº 5 |
 | Smoke test público | home, Pagefind, sitemap e Entity Page com HTTP 200 |
+| Heurist hands-on | 9/10, 86 Entity + 24 Source + 131 Statement, 0 erros |
 
 O erro final do Lighthouse foi restrito à remoção de seu diretório temporário no Windows e ocorreu depois da emissão válida do relatório.
 
@@ -49,12 +50,11 @@ O erro final do Lighthouse foi restrito à remoção de seu diretório temporár
 
 Foram inspecionados os percursos Porsche 917, Porsche 911, Benz Patent Motor Car, Ford Model T, origens do Motorsport e Volvo PV544. Busca, comparação, mapa, timeline, grafo e navegação sob `/atlas/` foram exercitados. O caminho textual Porsche 917 → 1970 Le Mans Entry → Richard Attwood foi confirmado.
 
-## Pendências impeditivas
+## Gate Heurist
 
-1. **Heurist hands-on:** aguardando credenciais temporárias fornecidas por canal seguro. O protocolo está em `HEURIST_HANDS_ON_PROTOCOL.md`. Resultado inferior a 8/10 ou perda semântica crítica mantém o release bloqueado.
-O repositório foi tornado público mediante autorização explícita do proprietário, o Pages foi configurado com GitHub Actions e o smoke test público foi aprovado.
+O hands-on foi aprovado em 18/08/2026 com 9/10 e sem perda semântica crítica. A base `felip_atlas_a97` importou 86 entidades, 24 fontes e 131 statements, todos processados sem erro. Relações temporais, conflito 901→911, Entry do 917, genealogia, evidence, filtros, rede e round-trip foram confirmados. O mapa interno não pontuou porque a projeção piloto não incluiu geometrias; o mapa público permanece aprovado com 4/4 geometrias controladas.
 
-Nenhuma tag `v1.0.0` nem GitHub Release deve ser criada antes da aprovação do Heurist. O commit definitivo será acrescentado a este relatório na promoção do candidato.
+Não restam pendências impeditivas. O commit e a tag definitivos serão registrados após a última validação e publicação.
 
 ## Limitações conhecidas
 

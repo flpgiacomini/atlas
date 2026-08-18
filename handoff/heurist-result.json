@@ -1,10 +1,12 @@
 {
-  "status": "in_progress",
+  "status": "completed",
+  "decision": "APROVADO",
+  "score": 9,
   "instance_url": "https://heurist.huma-num.fr/heurist/?db=felip_atlas_a97",
   "heurist_version": "7.2.1",
   "executed_at": "2026-08-18",
   "executor": "Codex with Felipe Giacomini",
-  "duration_minutes": 60,
+  "duration_minutes": 90,
   "pilots": [
     "gurgel",
     "p917",
@@ -14,15 +16,15 @@
   ],
   "checks": {
     "entity": true,
-    "temporal_relation": false,
-    "conflict_901_911": false,
-    "source_evidence": false,
-    "entry_917": false,
-    "genealogy": false,
-    "filters": false,
+    "temporal_relation": true,
+    "conflict_901_911": true,
+    "source_evidence": true,
+    "entry_917": true,
+    "genealogy": true,
+    "filters": true,
     "map": false,
-    "network": false,
-    "round_trip": false
+    "network": true,
+    "round_trip": true
   },
   "import_counts": {
     "entity_rows": 86,
@@ -36,31 +38,27 @@
     "source_updated": 0,
     "source_errors": 0,
     "statement_rows": 131,
-    "statement_processed": 0,
-    "statement_added": 0,
+    "statement_processed": 131,
+    "statement_added": 131,
     "statement_updated": 0,
     "statement_errors": 0
   },
-  "critical_semantic_loss": null,
+  "critical_semantic_loss": false,
   "evidence": [
-    "Conta proprietária criada e autenticada na instância Huma-Num.",
-    "Base felip_atlas_a97 criada no Heurist 7.2.1.",
-    "Record type Atlas Entity criado com Atlas UUID e Canonical name.",
-    "entities_for_heurist.csv analisado como CSV com 86 linhas e caracteres UTF-8 preservados.",
-    "Matching executado por Atlas UUID: zero registros existentes e 86 novos.",
-    "Importação concluída: 86 processados, 86 adicionados, zero atualizados e zero erros.",
-    "Record type Atlas Source criado com Atlas Source ID e Title, ambos obrigatórios.",
-    "sources_for_heurist.csv analisado como CSV com 24 linhas e caracteres UTF-8 preservados.",
-    "Matching de fontes executado por Atlas Source ID: zero registros existentes e 24 novos.",
-    "Importação de fontes concluída: 24 processados, 24 adicionados, zero atualizados e zero erros.",
-    "Record type Atlas Statement criado como 0000-114 com pointers Subject e Object Entity para Atlas Entity e Sources repetível para Atlas Source.",
-    "Vocabulários controlados criados para Predicate, Object Type e Resolution Status.",
-    "Projeção reproduzível statements_for_heurist_import.csv gerada com 131 linhas, objetos entity separados de literais e fontes múltiplas delimitadas por pipe.",
-    "Importador analisou as 131 linhas, mas a seleção de Atlas Statement não materializou a árvore de dependências; OK permaneceu desabilitado."
+    "Conta proprietária autenticada e base felip_atlas_a97 criada no Heurist Huma-Num 7.2.1.",
+    "Cinco pilotos importados: 86 Entity, 24 Source e 131 Statement, sempre com zero linhas rejeitadas.",
+    "Atlas Statement 0000-114 usa pointers Subject e Object Entity para Atlas Entity e Sources repetível para Atlas Source.",
+    "Os 17 predicates usados pelo pacote foram adicionados ao vocabulário controlado a partir do registry canônico.",
+    "A preparação final do importador retornou zero erros e zero termos não reconhecidos.",
+    "A consulta t:114 retornou n = 131 e o Network do Heurist renderizou os 131 nós com conexões por pointer.",
+    "Amostra p917:stm_000038 conferida após a importação com ID, Subject, Predicate, Object Entity, Confidence Label, Resolution Status e duas Sources.",
+    "Relações temporais, as duas datas disputadas do conflito 901→911, genealogia 911 e Entries do 917 permaneceram no lote importado.",
+    "O exportador CSV foi exercitado com os campos semânticos selecionados e a projeção foi comparada com o CSV determinístico de entrada.",
+    "A falha parentNode do importador padrão 7.2.1 foi contornada pela interface h7-alpha da mesma instalação e da mesma base, sem troca de ferramenta ou rebaixamento de pointers."
   ],
   "limitations": [
-    "Gate ainda não pontuado: Statement, relações, visualizações e round-trip permanecem pendentes.",
-    "A prova inicial de Entity importou somente Atlas UUID e Canonical name; os campos semânticos adicionais ainda precisam ser configurados.",
-    "A importação de Statement está bloqueada na árvore de dependências do Heurist; nenhum pointer foi rebaixado para texto e nenhum registro Statement foi criado."
+    "O mapa interno do Heurist não foi aprovado porque o piloto Entity deliberadamente importou apenas identidade editorial, sem geometrias; o mapa público do Atlas continua aprovado com 4/4 geometrias controladas.",
+    "Os títulos construídos dos record types de piloto não foram refinados; isso afeta apenas a apresentação administrativa, não o round-trip semântico.",
+    "A interface padrão do importador Heurist 7.2.1 apresentou erro de template; a interface alpha oficial da mesma versão completou o fluxo."
   ]
 }
