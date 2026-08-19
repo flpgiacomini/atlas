@@ -4,6 +4,8 @@ Baseline: 18 de agosto de 2026
 Estado: contrato editorial para expansão contínua  
 Autoridade canônica: `current/atlas-web/data/atlas.sqlite`
 
+Gate de inclusão: `handoff/ATLAS_GATE_RELEVANCIA_HISTORICA.md`
+
 ## Objetivo
 
 Transformar marcas em um dos eixos principais do Atlas. O universo deve incluir identidades
@@ -160,4 +162,3 @@ O censo terá uma versão anual fechada. Uma versão será considerada satisfat�
 - todas as relações de propriedade tiverem intervalo ou qualifier de precisão;
 - cada região tiver revisão por fonte local ou especialista identificável;
 - novas marcas possam ser adicionadas sem alterar o modelo canônico.
-
