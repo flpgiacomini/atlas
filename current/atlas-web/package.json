@@ -13,6 +13,7 @@
     "enrich:m2e": "python scripts/enrich_panhard_m2e.py && python scripts/generate_media_manifest.py",
     "enrich:concepts:v02": "python scripts/enrich_concepts_v02.py && python scripts/generate_media_manifest.py",
     "enrich:concepts:v03": "python scripts/enrich_concepts_v03.py && python scripts/generate_media_manifest.py",
+    "enrich:concepts:v04": "python scripts/enrich_concepts_v04.py && python scripts/generate_media_manifest.py",
     "brands:census": "python scripts/generate_brand_census.py && python scripts/validate_brand_census.py",
     "release:manifest": "python scripts/generate_release_manifest.py",
     "dev": "npm run export:data && astro dev",

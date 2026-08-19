@@ -1,4 +1,5 @@
 from pathlib import Path
+import csv
 import json
 import sqlite3
 import unittest
@@ -22,7 +23,7 @@ class AtlasContracts(unittest.TestCase):
         self.assertFalse(report["critical_semantic_loss"])
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":377,"statement":579,"source":153,"claim":705,"evidence":706,"predicate":56}
+        expected = {"entity":384,"statement":591,"source":154,"claim":717,"evidence":718,"predicate":56}
         actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
         db.close(); self.assertEqual(actual, expected)
 
@@ -90,7 +91,9 @@ class AtlasContracts(unittest.TestCase):
     def test_all_remaining_historical_candidates_are_editorially_validated(self):
         ledger = json.loads((ROOT / "data" / "historical-significance.validation.json").read_text(encoding="utf-8"))
         self.assertEqual(ledger["summary"]["total"], 54)
-        self.assertEqual(ledger["summary"]["remaining_candidates_validated"], 46)
+        with (ROOT / "data" / "historical-significance.candidates.csv").open(encoding="utf-8") as stream:
+            candidates = list(csv.DictReader(stream))
+        self.assertEqual(ledger["summary"]["remaining_candidates_validated"], sum(row["decision"] == "include_candidate" for row in candidates))
         self.assertEqual(ledger["summary"]["failed"], 0)
         remaining = [record for record in ledger["records"] if record["validation_status"] == "validated_for_research"]
         self.assertTrue(all(record["relevance_passed"] for record in remaining))

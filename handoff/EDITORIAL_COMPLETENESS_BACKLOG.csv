@@ -1,4 +1,5 @@
 priority,status,score,entity_id,entity_type,canonical_name,description_words,connected_statements,required_statements,evidenced_statements,gaps
+P3,complete,100.0,4adad7ab-dbca-706a-a9a6-4189d43e3753,brand,Alfa Romeo,37,3,3,3,
 P2,substantial,76.7,01a01028-5452-7d2d-8df1-441ee5876d0f,brand,Audi,45,1,3,1,connected_statements<3
 P3,complete,100,01a01028-5456-74cd-8e02-ff30dece0237,brand,Bugatti,94,5,3,5,
 P2,substantial,76.7,ab6e603d-e65c-7ce3-8501-2be111f36e20,brand,Buick,39,1,3,1,connected_statements<3
@@ -163,6 +164,7 @@ P2,substantial,88.3,01a010d9-28c3-7d42-8ff9-f555d77e38e9,facility,Volkswagen Wol
 P3,complete,100.0,01a010d9-28cb-765c-9b30-68028abae18b,organization,BMW Group,63,3,3,3,
 P2,substantial,76.7,01a010d9-28ca-723d-95f4-7d88f672a032,organization,BYD,44,1,3,1,connected_statements<3
 P3,complete,100,01a0102f-074d-7913-a73c-305e1298dd8d,organization,Benz & Cie.,86,4,3,4,
+P3,complete,100.0,e680234d-087c-716c-a877-a59440652683,organization,Bertone,40,3,3,3,
 P2,substantial,76.7,01a010d9-28c6-7d0e-b0fb-fc349473d4fb,organization,British Motor Corporation,46,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102f-074f-7e63-b334-ebaf480207cd,organization,"British Motor Syndicate, Ltd.",52,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102a-57ec-7ec1-aa4a-3b50b15c3e43,organization,Cadillac Motor Car Company,48,1,3,1,connected_statements<3
@@ -204,6 +206,7 @@ P3,complete,100,01a01016-ea4d-7d5e-bd1b-907f0ec733c1,person,Ferdinand Alexander 
 P3,complete,100,01a01016-ea4d-7397-8a59-8d3799b2d3ff,person,Ferdinand Piëch,35,4,3,4,
 P3,complete,100.0,01a01031-ec56-72e1-87fe-d60d070d71f0,person,Ferenc Szisz,36,3,3,3,
 P3,complete,100.0,01a0102a-57e8-7b53-b434-2f603c11af78,person,Fernand Renault,36,3,3,3,
+P3,complete,100.0,58159c22-107d-7055-b72c-7f46fc443a2b,person,Franco Scaglione,39,3,3,3,
 P3,complete,100.0,a7d0bde5-c064-7e5a-ac83-f7dfd392d255,person,François Isaac de Rivaz,40,3,3,3,
 P2,substantial,76.7,01a01031-ec55-7a02-b399-8a7daa8bcf94,person,George Heath,37,1,3,1,connected_statements<3
 P3,complete,100.0,01a0102f-074c-7a67-9c8b-e54c3af74bc9,person,Georges Bouton,35,3,3,3,
@@ -276,6 +279,10 @@ P2,substantial,76.7,01a010d9-28c8-792d-b8fe-833e1d239900,technology,Transverse f
 P3,complete,100,01a01016-ea4e-76d9-bc16-d2fb752accc6,technology,Turbocharging,90,4,3,4,
 P2,substantial,76.7,01a010d9-28c7-7ff6-9baf-6498ee4b32ab,technology,Two-rotor rotary engine propulsion,51,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01016-ea4d-7c35-9756-76cc5f5923c6,technology,Water-cooled flat-six engine architecture,66,2,3,2,connected_statements<3
+P2,substantial,91.2,4309b524-9bd8-7654-89b3-8738e6203099,vehicle,Alfa Romeo 1900,39,3,4,3,connected_statements<4
+P3,complete,100.0,39b1a09b-3fb6-79a5-914f-f42bda2d7e48,vehicle,Alfa Romeo BAT 5,42,4,4,4,
+P3,complete,100.0,f4e11b3b-409c-7f26-b373-c0de0f49e62d,vehicle,Alfa Romeo BAT 7,46,4,4,4,
+P3,complete,100.0,d2107c43-c15f-7218-8782-0c8c5b11e688,vehicle,Alfa Romeo BAT 9,43,4,4,4,
 P3,complete,100.0,01a01028-5452-7b30-9a49-a2e7cdb66dfc,vehicle,Audi quattro,81,4,4,4,
 P2,substantial,82.5,01a010d9-28cb-7ee2-a6bd-a7079773382e,vehicle,BMW 3 Series,44,2,4,2,connected_statements<4
 P2,substantial,91.2,01a010d9-28ca-7fef-a797-10374d330ad8,vehicle,BYD F3DM,65,3,4,3,connected_statements<4

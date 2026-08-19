@@ -6,8 +6,8 @@ Registry: `current/atlas-web/data/brand.candidates.csv`
 ## Resultado
 
 - Candidatos únicos: **504**
-- Já publicados: **19**
-- A pesquisar: **485**
+- Já publicados: **20**
+- A pesquisar: **484**
 - Ondas cobertas: **12/12**
 
 ## Por onda

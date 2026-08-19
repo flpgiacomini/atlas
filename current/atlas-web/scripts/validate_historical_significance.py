@@ -30,5 +30,6 @@ else:
  csv_names={r['candidate_name'] for r in rows}
  if ledger_names!=csv_names: errors.append('validation ledger candidates differ from CSV')
  if ledger.get('summary',{}).get('failed')!=0: errors.append('validation ledger contains failed candidates')
- if ledger.get('summary',{}).get('remaining_candidates_validated')!=46: errors.append('expected 46 remaining validated candidates')
+ expected_remaining=sum(r['decision']=='include_candidate' for r in rows)
+ if ledger.get('summary',{}).get('remaining_candidates_validated')!=expected_remaining: errors.append(f'expected {expected_remaining} remaining validated candidates')
 result={'passed':not errors,'errors':errors,'candidates':len(rows),'kinds':dict(Counter(r['kind'] for r in rows)),'decisions':dict(Counter(r['decision'] for r in rows))};print(json.dumps(result,ensure_ascii=False,indent=2));sys.exit(0 if not errors else 1)
