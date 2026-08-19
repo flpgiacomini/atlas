@@ -1,5 +1,5 @@
-candidate_name,kind,year,associated_brand,contribution_tracks,decision,rationale
-Buick Y-Job,concept,1938,Buick,DES|IND|SOC,include_candidate,Institucionalizou o conceito como laboratório público e antecipou recursos depois usados em produção.
+candidate_name,kind,year,associated_brand,contribution_tracks,decision,rationale,entity_id
+Buick Y-Job,concept,1938,Buick,DES|IND|SOC,published,Institucionalizou o conceito como laboratório público e antecipou recursos depois usados em produção.,c3ccd397-03ed-78d9-960c-b5ed92b01a05
 General Motors Le Sabre,concept,1951,General Motors,DES|TEC|SOC,include_candidate,Laboratório de design e tecnologia da era aeronáutica e do Motorama.
 General Motors Firebird I,concept,1954,General Motors,TEC|DES|SOC,include_candidate,Programa experimental de turbina e imaginário tecnológico do pós-guerra.
 General Motors Firebird II,concept,1956,General Motors,TEC|DES|SOC,include_candidate,Associou turbina e visão de infraestrutura com condução guiada.

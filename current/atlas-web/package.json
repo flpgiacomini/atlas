@@ -11,6 +11,7 @@
     "audit:editorial": "python scripts/audit_editorial_completeness.py",
     "enrich:foundations": "python scripts/enrich_foundations_f01_f03.py && python scripts/generate_media_manifest.py",
     "enrich:m2e": "python scripts/enrich_panhard_m2e.py && python scripts/generate_media_manifest.py",
+    "enrich:concepts:v02": "python scripts/enrich_concepts_v02.py && python scripts/generate_media_manifest.py",
     "brands:census": "python scripts/generate_brand_census.py && python scripts/validate_brand_census.py",
     "release:manifest": "python scripts/generate_release_manifest.py",
     "dev": "npm run export:data && astro dev",

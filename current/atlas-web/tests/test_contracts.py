@@ -22,7 +22,7 @@ class AtlasContracts(unittest.TestCase):
         self.assertFalse(report["critical_semantic_loss"])
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":366,"statement":559,"source":148,"claim":685,"evidence":686,"predicate":56}
+        expected = {"entity":371,"statement":563,"source":149,"claim":689,"evidence":690,"predicate":56}
         actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
         db.close(); self.assertEqual(actual, expected)
 
@@ -67,7 +67,10 @@ class AtlasContracts(unittest.TestCase):
     def test_brand_history_projection_has_vehicle_coverage(self):
         pages = json.loads((ROOT / "src" / "data" / "generated" / "entity-pages.json").read_text(encoding="utf-8"))
         brands = [page for page in pages if page["type"] == "brand"]
-        self.assertEqual(len(brands), 18)
+        db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
+        brand_count = db.execute("SELECT COUNT(*) FROM entity WHERE entity_type='brand'").fetchone()[0]
+        db.close()
+        self.assertEqual(len(brands), brand_count)
         for brand in brands:
             vehicles = [page for page in pages if page["type"] == "vehicle" and any(
                 relation["predicate"] == "marketed_under" and relation["object_entity_id"] == brand["id"]

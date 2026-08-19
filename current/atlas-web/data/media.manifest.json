@@ -754,6 +754,38 @@
       "historical_evidence": false
     },
     {
+      "entity_id": "ab6e603d-e65c-7ce3-8501-2be111f36e20",
+      "entity_name": "Buick",
+      "file": "media/editorial/people-industry.webp",
+      "thumbnail": "media/editorial/people-industry.webp",
+      "media_type": "image/webp",
+      "creator": "OpenAI image generation, directed and curated for Atlas",
+      "source_url": "https://github.com/flpgiacomini/atlas",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
+      "alt": "Ilustração editorial sobre marcas e indústria automotiva; representação interpretativa associada a Buick.",
+      "verified_on": "2026-08-19",
+      "nature": "original_illustration",
+      "historical_evidence": false
+    },
+    {
+      "entity_id": "c3ccd397-03ed-78d9-960c-b5ed92b01a05",
+      "entity_name": "Buick Y-Job",
+      "file": "media/editorial/vehicles.webp",
+      "thumbnail": "media/editorial/vehicles.webp",
+      "media_type": "image/webp",
+      "creator": "OpenAI image generation, directed and curated for Atlas",
+      "source_url": "https://github.com/flpgiacomini/atlas",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
+      "alt": "Ilustração editorial sobre a evolução dos automóveis; representação interpretativa associada a Buick Y-Job.",
+      "verified_on": "2026-08-19",
+      "nature": "original_illustration",
+      "historical_evidence": false
+    },
+    {
       "entity_id": "01a01030-3319-7f50-a974-c3181fd95e9c",
       "entity_name": "Cadillac",
       "file": "media/editorial/people-industry.webp",
@@ -1442,6 +1474,22 @@
       "historical_evidence": false
     },
     {
+      "entity_id": "3bcc7e4d-7463-72a4-98c9-33d39710f4f7",
+      "entity_name": "Faróis retráteis",
+      "file": "media/editorial/technology.webp",
+      "thumbnail": "media/editorial/technology.webp",
+      "media_type": "image/webp",
+      "creator": "OpenAI image generation, directed and curated for Atlas",
+      "source_url": "https://github.com/flpgiacomini/atlas",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
+      "alt": "Ilustração editorial de tecnologias automotivas; representação interpretativa associada a Faróis retráteis.",
+      "verified_on": "2026-08-19",
+      "nature": "original_illustration",
+      "historical_evidence": false
+    },
+    {
       "entity_id": "01a01016-ea4d-7d5e-bd1b-907f0ec733c1",
       "entity_name": "Ferdinand Alexander Porsche",
       "file": "media/editorial/people-industry.webp",
@@ -1970,6 +2018,22 @@
       "historical_evidence": false
     },
     {
+      "entity_id": "281c05cc-f8b0-7f04-b329-1c9261441f83",
+      "entity_name": "GM Design",
+      "file": "media/editorial/people-industry.webp",
+      "thumbnail": "media/editorial/people-industry.webp",
+      "media_type": "image/webp",
+      "creator": "OpenAI image generation, directed and curated for Atlas",
+      "source_url": "https://github.com/flpgiacomini/atlas",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
+      "alt": "Ilustração editorial sobre organizações automotivas; representação interpretativa associada a GM Design.",
+      "verified_on": "2026-08-19",
+      "nature": "original_illustration",
+      "historical_evidence": false
+    },
+    {
       "entity_id": "01a01016-ea4d-7e54-87cd-e2040c1786e7",
       "entity_name": "Geneva presentation of Porsche 917",
       "file": "media/editorial/motorsport.webp",
@@ -2253,6 +2317,22 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
       "alt": "Ilustração editorial sobre pessoas da indústria automotiva; representação interpretativa associada a Hans Mezger.",
+      "verified_on": "2026-08-19",
+      "nature": "original_illustration",
+      "historical_evidence": false
+    },
+    {
+      "entity_id": "d796c214-e32d-7336-ba3c-701b917b3dfe",
+      "entity_name": "Harley Earl",
+      "file": "media/editorial/people-industry.webp",
+      "thumbnail": "media/editorial/people-industry.webp",
+      "media_type": "image/webp",
+      "creator": "OpenAI image generation, directed and curated for Atlas",
+      "source_url": "https://github.com/flpgiacomini/atlas",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
+      "alt": "Ilustração editorial sobre pessoas da indústria automotiva; representação interpretativa associada a Harley Earl.",
       "verified_on": "2026-08-19",
       "nature": "original_illustration",
       "historical_evidence": false
