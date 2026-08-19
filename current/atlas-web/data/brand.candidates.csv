@@ -14,7 +14,7 @@ Austin,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, período
 Humber,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
 Vauxhall,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
 Ford,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lincoln,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Lincoln,M01,Pioneiras globais,A,published,df74636c-86e5-7fc1-a589-5068a6884195,Já existe no SQLite canônico.
 Buick,M01,Pioneiras globais,A,published,ab6e603d-e65c-7ce3-8501-2be111f36e20,Já existe no SQLite canônico.
 Cadillac,M01,Pioneiras globais,A,published,01a01030-3319-7f50-a974-c3181fd95e9c,Já existe no SQLite canônico.
 Oldsmobile,M01,Pioneiras globais,A,published,01a0102a-57eb-7517-bd03-02951e02850f,Já existe no SQLite canônico.
@@ -90,7 +90,7 @@ Corre La Licorne,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade,
 Ballot,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
 Donnet,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
 UNIC,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Chevrolet,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Chevrolet,M03,Américas,A,published,04964a08-0f19-7d5d-9170-66fc7de2c8f1,Já existe no SQLite canônico.
 Pontiac,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
 Oakland,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
 LaSalle,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."

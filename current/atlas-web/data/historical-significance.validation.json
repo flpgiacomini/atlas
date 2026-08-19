@@ -4,12 +4,12 @@
   "summary": {
     "total": 54,
     "statuses": {
-      "published_validated": 8,
-      "validated_for_research": 43,
+      "published_validated": 11,
       "validated_as_context": 2,
+      "validated_for_research": 40,
       "validated_hold": 1
     },
-    "remaining_candidates_validated": 43,
+    "remaining_candidates_validated": 40,
     "failed": 0
   },
   "records": [
@@ -170,8 +170,8 @@
       "kind": "concept",
       "year": 1955,
       "associated_brand": "Lincoln",
-      "decision": "include_candidate",
-      "validation_status": "validated_for_research",
+      "decision": "published",
+      "validation_status": "published_validated",
       "relevance_passed": true,
       "checks": {
         "identity_present": true,
@@ -181,7 +181,7 @@
         "rationale_substantive": true,
         "not_unresolved_duplicate": true
       },
-      "source_gate": "required_before_publication",
+      "source_gate": "satisfied",
       "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
     },
     {
@@ -208,8 +208,8 @@
       "kind": "concept",
       "year": 1959,
       "associated_brand": "Cadillac",
-      "decision": "include_candidate",
-      "validation_status": "validated_for_research",
+      "decision": "published",
+      "validation_status": "published_validated",
       "relevance_passed": true,
       "checks": {
         "identity_present": true,
@@ -219,7 +219,7 @@
         "rationale_substantive": true,
         "not_unresolved_duplicate": true
       },
-      "source_gate": "required_before_publication",
+      "source_gate": "satisfied",
       "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
     },
     {
@@ -227,8 +227,8 @@
       "kind": "concept",
       "year": 1962,
       "associated_brand": "Chevrolet",
-      "decision": "include_candidate",
-      "validation_status": "validated_for_research",
+      "decision": "published",
+      "validation_status": "published_validated",
       "relevance_passed": true,
       "checks": {
         "identity_present": true,
@@ -238,7 +238,7 @@
         "rationale_substantive": true,
         "not_unresolved_duplicate": true
       },
-      "source_gate": "required_before_publication",
+      "source_gate": "satisfied",
       "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
     },
     {

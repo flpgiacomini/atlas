@@ -3,7 +3,8 @@ P3,complete,100.0,4adad7ab-dbca-706a-a9a6-4189d43e3753,brand,Alfa Romeo,37,3,3,3
 P2,substantial,76.7,01a01028-5452-7d2d-8df1-441ee5876d0f,brand,Audi,45,1,3,1,connected_statements<3
 P3,complete,100,01a01028-5456-74cd-8e02-ff30dece0237,brand,Bugatti,94,5,3,5,
 P2,substantial,76.7,ab6e603d-e65c-7ce3-8501-2be111f36e20,brand,Buick,39,1,3,1,connected_statements<3
-P2,substantial,76.7,01a01030-3319-7f50-a974-c3181fd95e9c,brand,Cadillac,46,1,3,1,connected_statements<3
+P2,substantial,88.3,01a01030-3319-7f50-a974-c3181fd95e9c,brand,Cadillac,46,2,3,2,connected_statements<3
+P2,substantial,76.7,04964a08-0f19-7d5d-9170-66fc7de2c8f1,brand,Chevrolet,39,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c2-7096-b44e-46cb4d0c6ad7,brand,Citroën,46,1,3,1,connected_statements<3
 P2,substantial,88.3,01a0102a-57e9-79e4-82b2-6aa9183b80e1,brand,FIAT,59,2,3,2,connected_statements<3
 P2,substantial,76.7,01a010d9-28c4-766e-a135-aaa1e07de128,brand,Ferrari,46,1,3,1,connected_statements<3
@@ -13,6 +14,7 @@ P2,substantial,76.7,01a01028-5447-779e-8317-57316b628d02,brand,Hongqi,45,1,3,1,c
 P2,substantial,76.7,01a010d9-28c6-75ce-9e74-78e287675339,brand,Lamborghini,45,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01030-3312-7d84-9a7e-34630d64f2b9,brand,Lancia,46,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c4-7348-b3c2-bb473308aff8,brand,Land Rover,48,1,3,1,connected_statements<3
+P2,substantial,76.7,df74636c-86e5-7fc1-a589-5068a6884195,brand,Lincoln,42,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102a-57eb-7517-bd03-02951e02850f,brand,Oldsmobile,46,1,3,1,connected_statements<3
 P3,complete,100.0,01a0102a-57e7-7f2b-bebc-fd556c26e81f,brand,Peugeot,59,3,3,3,
 P2,substantial,76.7,01a010d9-28c8-734b-8208-0888551089ec,brand,Renault,48,1,3,1,connected_statements<3
@@ -175,6 +177,7 @@ P2,substantial,88.3,01a0102a-57e9-7441-bb9a-c86641e862e7,organization,Fabbrica I
 P2,substantial,88.3,01a01028-5447-7f06-a1d0-479c12a86e2c,organization,First Automobile Works (FAW),60,2,3,2,connected_statements<3
 P3,complete,100,01a01016-ea4d-739b-9d06-20a647780fe2,organization,Ford Motor Company,95,7,3,7,
 P3,complete,100,281c05cc-f8b0-7f04-b329-1c9261441f83,organization,GM Design,42,5,3,5,
+P2,substantial,76.7,5d289a39-06be-7d52-8e5b-c5cac2bf71cf,organization,Ghia,34,1,3,1,connected_statements<3
 P3,complete,100,01a01016-ea4c-76b8-b2a8-c85cdee6e70e,organization,Gurgel Motores S/A,87,7,3,7,
 P2,substantial,76.7,01a01028-544c-7e05-b6bb-188cdcea4bad,organization,Honda Motor Co.,46,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01028-5445-76f0-8779-1b2aa753b133,organization,Hyundai Motor Company,53,2,3,2,connected_statements<3
@@ -219,6 +222,7 @@ P3,complete,100.0,d796c214-e32d-7336-ba3c-701b917b3dfe,person,Harley Earl,42,3,3
 P3,complete,100,01a0102a-57eb-71e8-9acf-f52ed60ec5d4,person,Henry Ford,36,5,3,5,
 P3,complete,100.0,01a0102a-57e9-738a-9585-6df3a0b26b99,person,Henry Royce,78,3,3,3,
 P2,substantial,76.7,01a01016-ea4e-7d0d-b9a8-bc64b11f5aac,person,Jo Siffert,50,1,3,1,connected_statements<3
+P2,substantial,76.7,22d997da-2965-7560-abd9-28cbc1e281fe,person,John Najjar,43,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01016-ea4c-73c1-87d0-37223d1c1ffb,person,João Augusto Conrado do Amaral Gurgel,50,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102f-074b-7740-9aa1-ee7c22b775e7,person,Jules-Albert de Dion,50,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01028-5444-7f62-bbcf-a10791b92238,person,Kiichiro Toyoda,46,1,3,1,connected_statements<3
@@ -239,6 +243,7 @@ P3,complete,100.0,e0bb84a8-fe97-7460-893a-87bf4246cd32,person,Siegfried Marcus,3
 P2,substantial,76.7,01a01030-3312-7bd6-bfa0-e1d71a49c740,person,Vincenzo Lancia,46,1,3,1,connected_statements<3
 P3,complete,100.0,01a0102a-57e6-70e3-9eb5-863593183390,person,Wilhelm Maybach,61,3,3,3,
 P2,substantial,76.7,01a0102f-074e-7ca9-9d51-b87fc24362c7,person,Wilhelm Werner,52,1,3,1,connected_statements<3
+P2,substantial,76.7,f4bd6e16-532d-7949-8422-30bdfb14023c,person,William M. Schmid,39,1,3,1,connected_statements<3
 P3,complete,100,33fee9f7-1598-7a67-bdba-9f7d745e3e43,person,Édouard Delamare-Deboutteville,36,4,3,4,
 P3,complete,100.0,a2fdc3fd-4c69-767b-a7d7-93ab18950638,person,Étienne Lenoir,39,3,3,3,
 P2,substantial,82.5,01a01016-ea4c-74f0-8887-33a43af93e29,place,Brazil,44,1,2,1,connected_statements<2
@@ -248,10 +253,14 @@ P2,substantial,82.5,01a01028-5445-7ceb-aede-a61a3f0b1795,place,South Korea,46,1,
 P2,substantial,76.7,01a01016-ea4e-76bc-8e5e-6c2482df21fb,team,Karl Freiherr von Wendt,52,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01016-ea4e-7e94-96bf-9c6446c961a2,team,Porsche Konstruktionen Salzburg,55,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01031-ec56-7744-84ad-c3ec0ae27c75,team,Renault — 1906 Grand Prix works entry,59,1,3,1,connected_statements<3
+P2,substantial,76.7,54900726-23a2-7115-b9ea-360c77597ec4,technology,Alerta automotivo de colisão por radar,39,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01028-5452-7987-a6b5-8af393863053,technology,Audi quattro all-wheel-drive system,48,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01028-544f-7873-a413-ede2b84cb34f,technology,Battery-electric vehicle propulsion,65,2,3,2,connected_statements<3
+P2,substantial,76.7,2bf24243-c16a-7149-b26e-e07e861a9a8a,technology,Canopy automotivo com abertura dianteira,36,1,3,1,connected_statements<3
+P2,substantial,76.7,cfa9e11f-5d22-78c8-9a56-70ecb7fc4c8e,technology,Canopy retrátil automotivo,33,1,3,1,connected_statements<3
 P3,complete,100.0,7ee1a733-dadb-77cc-8e6b-ce7eb1b3936c,technology,Ciclo de dois tempos,35,3,3,3,
 P3,complete,100,392b5d07-805f-7c24-b63a-73d1039a6c6f,technology,Ciclo de quatro tempos,33,4,3,4,
+P2,substantial,76.7,6669983c-8fe7-7425-bc53-8dff2ea6bc55,technology,Desenvolvimento aerodinâmico em túnel de vento,43,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01016-ea4d-773d-9dea-2578019aa364,technology,Extensive use of vanadium steel,50,1,3,1,connected_statements<3
 P2,substantial,76.7,3bcc7e4d-7463-72a4-98c9-33d39710f4f7,technology,Faróis retráteis,39,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c2-7d2f-a479-bd5c57b5931d,technology,Front-wheel drive passenger-car architecture,49,1,3,1,connected_statements<3
@@ -259,14 +268,16 @@ P2,substantial,76.7,01a01028-544c-7456-8810-cee79666e012,technology,Hondamatic a
 P2,substantial,76.7,01a010d9-28cb-7795-9ec4-8c41e9b968eb,technology,Hydrogen fuel-cell electric propulsion,51,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01030-3319-72c0-a8e6-9c052acffa64,technology,Interchangeable automotive parts / standardization,68,2,3,2,connected_statements<3
 P2,substantial,76.7,01a01028-5444-7ade-bc01-ef027c0d3f2c,technology,Just-in-time production experimentation,48,1,3,1,connected_statements<3
-P3,complete,100.0,4a7fabb0-397d-71de-bb54-085db51bc596,technology,Linguagem aeronáutica em concept cars,39,3,3,3,
+P3,complete,100,4a7fabb0-397d-71de-bb54-085db51bc596,technology,Linguagem aeronáutica em concept cars,39,4,3,4,
 P2,substantial,76.7,01a010d9-28c2-711d-883d-3c016ff12075,technology,Mass-produced monocoque passenger-car construction,49,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c7-78fd-904e-26718eb518a5,technology,Mid-engine road-car architecture,47,1,3,1,connected_statements<3
 P3,complete,100,01a010f1-7e89-7e9f-b246-2c7b1bb8fda3,technology,Modern three-point safety belt,83,4,3,4,
+P2,substantial,76.7,46a15bab-babf-7933-bc7b-401e0e82a3a8,technology,Motor boxer refrigerado a ar,32,1,3,1,connected_statements<3
 P3,complete,100,ca11234b-a3d0-7118-91f6-fe8d41ea5a8a,technology,Motor de combustão interna,36,6,3,6,
 P2,substantial,76.7,01a01016-ea4d-7446-b2ab-4135117dd02a,technology,Moving assembly line,49,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102a-57ed-71a8-830b-ba54758fe885,technology,Moving assembly line — Ford Highland Park,57,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c8-7577-b58f-58d91d754e32,technology,One-box multi-purpose vehicle architecture,51,1,3,1,connected_statements<3
+P2,substantial,76.7,ec4c91ab-91df-7967-8040-092ae713d009,technology,Pintura automotiva perolizada,38,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28ca-7885-8844-a96f2565ea43,technology,Plug-in hybrid electric propulsion,48,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01028-5453-77d0-ae4a-31d3a0c24695,technology,Pressure-cast aluminium engine housing process,50,1,3,1,connected_statements<3
 P3,complete,100.0,fd1c43f3-f11f-7ab7-8750-57672337ec40,technology,Propulsão automotiva por turbina a gás,42,3,3,3,
@@ -292,8 +303,10 @@ P2,substantial,82.5,01a0102f-074d-7152-b66e-6308e7fe61fb,vehicle,Benz Velo,56,2,
 P2,substantial,91.2,01a01028-5456-7347-bcb9-8a40ce99ef02,vehicle,Bugatti EB110,62,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5456-75fc-a071-4aa5efb7f81b,vehicle,Bugatti Veyron 16.4,49,2,4,2,connected_statements<4
 P3,complete,100,c3ccd397-03ed-78d9-960c-b5ed92b01a05,vehicle,Buick Y-Job,49,5,4,5,
+P3,complete,100.0,ba59c077-bd08-7bb2-90cc-7e1c383465f7,vehicle,Cadillac Cyclone,50,4,4,4,
 P2,substantial,91.2,01a01030-3319-775b-ac75-eef980d091b6,vehicle,Cadillac Model K,69,3,4,3,connected_statements<4
 P2,substantial,82.5,01a0102a-57ec-76b4-9b5e-c8a4af464dc8,vehicle,Cadillac Runabout (1903),57,2,4,2,connected_statements<4
+P3,complete,100.0,92914026-c495-72d7-bc02-cf726c98c9eb,vehicle,Chevrolet Corvair Monza GT,54,4,4,4,
 P3,complete,100.0,01a010d9-28c2-7267-a8d7-a33f486f0be7,vehicle,Citroën Traction Avant,74,4,4,4,
 P2,substantial,91.2,01a010d9-28c6-75ed-94ae-4f2acbcfb018,vehicle,Classic Mini,64,3,4,3,connected_statements<4
 P2,substantial,82.5,01a0102f-074f-7c84-ab96-be3c346436ac,vehicle,Daimler 4 hp truck (1896),59,2,4,2,connected_statements<4
@@ -323,6 +336,7 @@ P2,substantial,91.2,01a01028-5445-78c3-bf00-45481baaba69,vehicle,Hyundai Pony,64
 P3,complete,100,01a010d9-28c6-72db-9da6-6b38a676cf71,vehicle,Lamborghini Miura,88,5,4,5,
 P2,substantial,91.2,01a01030-3313-7bef-8e4d-63573101fdc7,vehicle,Lancia 12 HP,64,3,4,3,connected_statements<4
 P3,complete,100.0,01a010d9-28c4-7374-b925-54a7bfff62c8,vehicle,Land Rover Series I,84,4,4,4,
+P3,complete,100,20efc162-ac4a-7f15-998e-a44a4d7019a2,vehicle,Lincoln Futura,56,5,4,5,
 P3,complete,100.0,52365406-b98c-703b-a0a3-1b23c6150823,vehicle,London Steam Carriage,39,4,4,4,
 P3,complete,100.0,dc714de0-9370-77b6-b99a-c30dac584f9d,vehicle,L’Obéissante,37,4,4,4,
 P3,complete,100.0,01a010d9-28c7-745f-a0e1-27cf05392aeb,vehicle,Mazda Cosmo Sport / 110S,84,4,4,4,
