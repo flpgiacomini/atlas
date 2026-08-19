@@ -87,4 +87,13 @@ class AtlasContracts(unittest.TestCase):
             )
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
 
+    def test_all_remaining_historical_candidates_are_editorially_validated(self):
+        ledger = json.loads((ROOT / "data" / "historical-significance.validation.json").read_text(encoding="utf-8"))
+        self.assertEqual(ledger["summary"]["total"], 54)
+        self.assertEqual(ledger["summary"]["remaining_candidates_validated"], 46)
+        self.assertEqual(ledger["summary"]["failed"], 0)
+        remaining = [record for record in ledger["records"] if record["validation_status"] == "validated_for_research"]
+        self.assertTrue(all(record["relevance_passed"] for record in remaining))
+        self.assertTrue(all(record["source_gate"] == "required_before_publication" for record in remaining))
+
 if __name__ == "__main__": unittest.main()

@@ -1,0 +1,1043 @@
+{
+  "version": "1.0.0",
+  "validated_at": "2026-08-19",
+  "summary": {
+    "total": 54,
+    "statuses": {
+      "published_validated": 5,
+      "validated_for_research": 46,
+      "validated_as_context": 2,
+      "validated_hold": 1
+    },
+    "remaining_candidates_validated": 46,
+    "failed": 0
+  },
+  "records": [
+    {
+      "candidate_name": "Buick Y-Job",
+      "kind": "concept",
+      "year": 1938,
+      "associated_brand": "Buick",
+      "decision": "published",
+      "validation_status": "published_validated",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "satisfied",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "General Motors Le Sabre",
+      "kind": "concept",
+      "year": 1951,
+      "associated_brand": "General Motors",
+      "decision": "published",
+      "validation_status": "published_validated",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "satisfied",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "General Motors Firebird I",
+      "kind": "concept",
+      "year": 1954,
+      "associated_brand": "General Motors",
+      "decision": "published",
+      "validation_status": "published_validated",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "satisfied",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "General Motors Firebird II",
+      "kind": "concept",
+      "year": 1956,
+      "associated_brand": "General Motors",
+      "decision": "published",
+      "validation_status": "published_validated",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "satisfied",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "General Motors Firebird III",
+      "kind": "concept",
+      "year": 1958,
+      "associated_brand": "General Motors",
+      "decision": "published",
+      "validation_status": "published_validated",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "satisfied",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Alfa Romeo BAT 5",
+      "kind": "concept",
+      "year": 1953,
+      "associated_brand": "Alfa Romeo",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Alfa Romeo BAT 7",
+      "kind": "concept",
+      "year": 1954,
+      "associated_brand": "Alfa Romeo",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Alfa Romeo BAT 9",
+      "kind": "concept",
+      "year": 1955,
+      "associated_brand": "Alfa Romeo",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Lincoln Futura",
+      "kind": "concept",
+      "year": 1955,
+      "associated_brand": "Lincoln",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Ford Nucleon",
+      "kind": "concept",
+      "year": 1958,
+      "associated_brand": "Ford",
+      "decision": "context_only",
+      "validation_status": "validated_as_context",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_if_promoted",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Cadillac Cyclone",
+      "kind": "concept",
+      "year": 1959,
+      "associated_brand": "Cadillac",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Chevrolet Corvair Monza GT",
+      "kind": "concept",
+      "year": 1962,
+      "associated_brand": "Chevrolet",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Chrysler Turbine Car",
+      "kind": "prototype_program",
+      "year": 1963,
+      "associated_brand": "Chrysler",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Lamborghini Marzal",
+      "kind": "concept",
+      "year": 1967,
+      "associated_brand": "Lamborghini",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Alfa Romeo Carabo",
+      "kind": "concept",
+      "year": 1968,
+      "associated_brand": "Alfa Romeo",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Mercedes-Benz C 111",
+      "kind": "prototype_program",
+      "year": 1969,
+      "associated_brand": "Mercedes-Benz",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Holden Hurricane",
+      "kind": "concept",
+      "year": 1969,
+      "associated_brand": "Holden",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Lancia Stratos Zero",
+      "kind": "concept",
+      "year": 1970,
+      "associated_brand": "Lancia",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Maserati Boomerang",
+      "kind": "concept",
+      "year": 1971,
+      "associated_brand": "Maserati",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "BMW Turbo",
+      "kind": "concept",
+      "year": 1972,
+      "associated_brand": "BMW",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Volvo VESC",
+      "kind": "concept",
+      "year": 1972,
+      "associated_brand": "Volvo",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Hyundai Pony Coupe Concept",
+      "kind": "concept",
+      "year": 1974,
+      "associated_brand": "Hyundai",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Italdesign Megagamma",
+      "kind": "concept",
+      "year": 1978,
+      "associated_brand": "Italdesign",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Aston Martin Bulldog",
+      "kind": "one_off",
+      "year": 1979,
+      "associated_brand": "Aston Martin",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Ford Probe III",
+      "kind": "concept",
+      "year": 1981,
+      "associated_brand": "Ford",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Peugeot Quasar",
+      "kind": "concept",
+      "year": 1984,
+      "associated_brand": "Peugeot",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Nissan MID4",
+      "kind": "prototype_program",
+      "year": 1985,
+      "associated_brand": "Nissan",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Peugeot Proxima",
+      "kind": "concept",
+      "year": 1986,
+      "associated_brand": "Peugeot",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Peugeot Oxia",
+      "kind": "concept",
+      "year": 1988,
+      "associated_brand": "Peugeot",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Porsche 989",
+      "kind": "prototype",
+      "year": 1988,
+      "associated_brand": "Porsche",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "GM Impact",
+      "kind": "concept",
+      "year": 1990,
+      "associated_brand": "General Motors",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Audi Avus quattro",
+      "kind": "concept",
+      "year": 1991,
+      "associated_brand": "Audi",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Renault Scénic Concept",
+      "kind": "concept",
+      "year": 1991,
+      "associated_brand": "Renault",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Mercedes-Benz F 100",
+      "kind": "concept",
+      "year": 1991,
+      "associated_brand": "Mercedes-Benz",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "BMW E1",
+      "kind": "prototype",
+      "year": 1991,
+      "associated_brand": "BMW",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Ford GT90",
+      "kind": "concept",
+      "year": 1995,
+      "associated_brand": "Ford",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Chrysler Atlantic",
+      "kind": "concept",
+      "year": 1995,
+      "associated_brand": "Chrysler",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Toyota Prius Concept",
+      "kind": "concept",
+      "year": 1995,
+      "associated_brand": "Toyota",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Audi AL2",
+      "kind": "concept",
+      "year": 1997,
+      "associated_brand": "Audi",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Volkswagen W12",
+      "kind": "prototype_program",
+      "year": 1997,
+      "associated_brand": "Volkswagen",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Volkswagen 1-Litre Car",
+      "kind": "prototype",
+      "year": 2002,
+      "associated_brand": "Volkswagen",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Cadillac Sixteen",
+      "kind": "concept",
+      "year": 2003,
+      "associated_brand": "Cadillac",
+      "decision": "context_only",
+      "validation_status": "validated_as_context",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_if_promoted",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Maybach Exelero",
+      "kind": "one_off",
+      "year": 2005,
+      "associated_brand": "Maybach",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Ferrari P4/5 by Pininfarina",
+      "kind": "one_off",
+      "year": 2006,
+      "associated_brand": "Ferrari",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "BMW GINA Light Visionary Model",
+      "kind": "concept",
+      "year": 2008,
+      "associated_brand": "BMW",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "BMW Vision EfficientDynamics",
+      "kind": "concept",
+      "year": 2009,
+      "associated_brand": "BMW",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Porsche 918 Spyder Concept",
+      "kind": "concept",
+      "year": 2010,
+      "associated_brand": "Porsche",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Porsche Mission E",
+      "kind": "concept",
+      "year": 2015,
+      "associated_brand": "Porsche",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Mercedes-Benz Vision EQXX",
+      "kind": "concept",
+      "year": 2022,
+      "associated_brand": "Mercedes-Benz",
+      "decision": "hold",
+      "validation_status": "validated_hold",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "blocking",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Phantom Corsair",
+      "kind": "one_off",
+      "year": 1938,
+      "associated_brand": "Heinz and Maurice Schwartz",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Schlörwagen",
+      "kind": "prototype",
+      "year": 1939,
+      "associated_brand": "Schlör",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Norman Timbs Special",
+      "kind": "one_off",
+      "year": 1948,
+      "associated_brand": "Norman Timbs",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Golden Sahara II",
+      "kind": "one_off",
+      "year": 1956,
+      "associated_brand": "George Barris",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    },
+    {
+      "candidate_name": "Nardi Bisiluro",
+      "kind": "one_off",
+      "year": 1955,
+      "associated_brand": "Nardi",
+      "decision": "include_candidate",
+      "validation_status": "validated_for_research",
+      "relevance_passed": true,
+      "checks": {
+        "identity_present": true,
+        "year_valid": true,
+        "kind_controlled": true,
+        "tracks_controlled": true,
+        "rationale_substantive": true,
+        "not_unresolved_duplicate": true
+      },
+      "source_gate": "required_before_publication",
+      "validation_policy": "Relevância validada; fonte institucional individual e quatro relações evidenciadas são obrigatórias antes da publicação."
+    }
+  ]
+}
