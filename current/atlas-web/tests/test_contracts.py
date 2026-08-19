@@ -22,7 +22,7 @@ class AtlasContracts(unittest.TestCase):
         self.assertFalse(report["critical_semantic_loss"])
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":371,"statement":563,"source":149,"claim":689,"evidence":690,"predicate":56}
+        expected = {"entity":377,"statement":579,"source":153,"claim":705,"evidence":706,"predicate":56}
         actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
         db.close(); self.assertEqual(actual, expected)
 
