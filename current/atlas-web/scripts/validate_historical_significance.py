@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import csv,json,sys
+import csv,json,sqlite3,sys
 from collections import Counter
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -13,4 +13,13 @@ for line,row in enumerate(rows,2):
  unknown=set(row['contribution_tracks'].split('|'))-tracks
  if unknown: errors.append(f'row {line}: unknown tracks {sorted(unknown)}')
  if len(row['rationale'].split())<6: errors.append(f'row {line}: rationale too short')
+db=sqlite3.connect(ROOT/'data'/'atlas.sqlite')
+entities={row[0]:(row[1],row[2]) for row in db.execute('select id,canonical_name,entity_type from entity')}
+db.close()
+for line,row in enumerate(rows,2):
+ if row['decision']!='published': continue
+ entity=entities.get((row.get('entity_id') or '').strip())
+ if not entity: errors.append(f'row {line}: published entity_id absent from SQLite')
+ elif entity[0]!=row['candidate_name']: errors.append(f"row {line}: name mismatch CSV={row['candidate_name']!r} SQLite={entity[0]!r}")
+ elif entity[1]!='vehicle': errors.append(f'row {line}: published candidate must resolve to vehicle, got {entity[1]}')
 result={'passed':not errors,'errors':errors,'candidates':len(rows),'kinds':dict(Counter(r['kind'] for r in rows)),'decisions':dict(Counter(r['decision'] for r in rows))};print(json.dumps(result,ensure_ascii=False,indent=2));sys.exit(0 if not errors else 1)

@@ -78,4 +78,13 @@ class AtlasContracts(unittest.TestCase):
             )]
             self.assertGreater(len(vehicles), 0, brand["name"])
 
+    def test_published_candidate_registries_resolve_to_sqlite(self):
+        for validator in ("validate_brand_census.py", "validate_historical_significance.py"):
+            result = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / validator)],
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
 if __name__ == "__main__": unittest.main()
