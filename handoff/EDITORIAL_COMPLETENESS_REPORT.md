@@ -6,13 +6,13 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 
 ## Resultado
 
-- Entidades auditadas: **364**
-- Completas: **126**
-- Substanciais: **237**
-- Parciais: **1**
+- Entidades auditadas: **366**
+- Completas: **127**
+- Substanciais: **239**
+- Parciais: **0**
 - Stubs: **0**
 - Prioridade P0: **0**
-- Prioridade P1: **1**
+- Prioridade P1: **0**
 
 Este resultado substitui qualquer interpretação anterior de que cobertura de rota ou de mídia equivalia a completude editorial.
 
@@ -24,7 +24,7 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 | circuit | 4 | 1 | 82.5 |
 | circuit_layout | 6 | 2 | 88.3 |
 | competition | 4 | 0 | 76.7 |
-| component | 7 | 1 | 85.0 |
+| component | 9 | 1 | 83.2 |
 | entry | 4 | 4 | 100.0 |
 | event | 105 | 34 | 92.1 |
 | facility | 10 | 2 | 83.7 |
@@ -33,7 +33,7 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 | place | 4 | 1 | 86.9 |
 | team | 3 | 0 | 76.7 |
 | technology | 28 | 6 | 83.4 |
-| vehicle | 90 | 33 | 91.4 |
+| vehicle | 90 | 34 | 91.7 |
 | vehicle_instance | 5 | 0 | 87.7 |
 
 ## Definição operacional

@@ -38,6 +38,8 @@ P2,substantial,88.3,01a010d9-28c4-716e-bc50-0fb0399bf53b,component,Ferrari 125 S
 P2,substantial,76.7,01a01016-ea4c-730d-b48d-0dc661cb9d75,component,Gurgel Enertron,47,1,3,1,connected_statements<3
 P2,substantial,88.3,01a01031-ec59-7816-bdcd-ed7a27d3e552,component,Mercedes DF 100 aeroengine,59,2,3,2,connected_statements<3
 P2,substantial,88.3,01a01016-ea4d-7173-829c-002efcbf4c38,component,Porsche Type 912 twelve-cylinder engine,59,2,3,2,connected_statements<3
+P2,substantial,76.7,3df74a75-d76d-70ae-a2f0-4aec89ac8daf,component,Refrigeração do Panhard-Levassor Type M2E,38,1,3,1,connected_statements<3
+P2,substantial,76.7,2ba77ee0-f85e-7f2b-ae11-db03b3c3c6da,component,Transmissão do Panhard-Levassor Type M2E,36,1,3,1,connected_statements<3
 P3,complete,100.0,01a01031-ec55-70a4-8dae-dee294f5e1f7,entry,1904 Vanderbilt Cup #7 — George Heath / Panhard,84,6,6,6,
 P3,complete,100,01a01031-ec56-7459-925c-fc864c0e340e,entry,1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault,91,7,6,7,
 P3,complete,100,01a01016-ea4d-763b-928f-bb7bfad13e74,entry,1969 Zeltweg — Porsche 917 — Siffert/Ahrens,81,7,6,7,
@@ -253,7 +255,7 @@ P2,substantial,76.7,01a01028-5444-7ade-bc01-ef027c0d3f2c,technology,Just-in-time
 P2,substantial,76.7,01a010d9-28c2-711d-883d-3c016ff12075,technology,Mass-produced monocoque passenger-car construction,49,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c7-78fd-904e-26718eb518a5,technology,Mid-engine road-car architecture,47,1,3,1,connected_statements<3
 P3,complete,100,01a010f1-7e89-7e9f-b246-2c7b1bb8fda3,technology,Modern three-point safety belt,83,4,3,4,
-P3,complete,100,ca11234b-a3d0-7118-91f6-fe8d41ea5a8a,technology,Motor de combustão interna,36,5,3,5,
+P3,complete,100,ca11234b-a3d0-7118-91f6-fe8d41ea5a8a,technology,Motor de combustão interna,36,6,3,6,
 P2,substantial,76.7,01a01016-ea4d-7446-b2ab-4135117dd02a,technology,Moving assembly line,49,1,3,1,connected_statements<3
 P2,substantial,76.7,01a0102a-57ed-71a8-830b-ba54758fe885,technology,Moving assembly line — Ford Highland Park,57,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c8-7577-b58f-58d91d754e32,technology,One-box multi-purpose vehicle architecture,51,1,3,1,connected_statements<3
@@ -312,7 +314,7 @@ P2,substantial,91.2,01a0102f-074e-745f-bc7b-ac0ea2e96217,vehicle,Mercedes 35 hp,
 P3,complete,100.0,01a01028-544f-762b-99d2-dfb915467c7a,vehicle,Nissan LEAF — First Generation,80,4,4,4,
 P3,complete,100.0,01a0102a-57ec-75f6-9e5f-339e8aeb29d7,vehicle,Oldsmobile Curved Dash,78,4,4,4,
 P2,substantial,82.5,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,57,2,4,2,connected_statements<4
-P1,partial,73.8,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,40,1,4,1,connected_statements<4
+P3,complete,100.0,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,40,4,4,4,
 P3,complete,100,01a0102a-57e7-7769-9156-f74a67742b6a,vehicle,Peugeot Type 1,86,5,4,5,
 P2,substantial,82.5,01a0102a-57e7-72af-aff7-faa78d8ea08c,vehicle,Peugeot Type 2,55,2,4,2,connected_statements<4
 P2,substantial,82.5,01a0102a-57e7-76fd-b8d0-8018ce990f8a,vehicle,Peugeot Type 3,43,2,4,2,connected_statements<4
