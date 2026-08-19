@@ -3,7 +3,7 @@ import { safeJsonForHtml } from "../lib/labels";
 interface Props { graph: any; }
 const { graph } = Astro.props;
 ---
-<section class="viz-section"><div class="section-heading compact"><div><div class="hero-kicker">Conexões</div><h2>Rede em dois saltos</h2></div></div><div id="entity-graph" class="viz" role="img" aria-label="Grafo das entidades relacionadas"></div><details class="viz-fallback"><summary>Ver relações em formato textual</summary><ul>{graph.edges.map((edge:any) => <li>{graph.nodes.find((node:any)=>node.id===edge.s)?.name} — {edge.p} → {graph.nodes.find((node:any)=>node.id===edge.o)?.name}</li>)}</ul></details><script type="application/json" id="entity-graph-data" set:html={safeJsonForHtml(graph)}></script></section>
+<section class="viz-section"><div class="section-heading compact"><div><div class="hero-kicker">Conexões</div><h2>Rede em dois saltos</h2></div></div><div id="entity-graph" class="viz" role="img" aria-label="Grafo das entidades relacionadas"></div><details class="viz-fallback"><summary>Ver relações em formato textual</summary><ul>{graph.edges.map((edge:any) => <li>{graph.nodes.find((node:any)=>node.id===edge.s)?.name} — {edge.p} → {graph.nodes.find((node:any)=>node.id===edge.o)?.name}</li>)}</ul></details><script is:inline type="application/json" id="entity-graph-data" set:html={safeJsonForHtml(graph)}></script></section>
 <script>
   import cytoscape from "cytoscape";
   const raw = document.querySelector("#entity-graph-data")?.textContent;

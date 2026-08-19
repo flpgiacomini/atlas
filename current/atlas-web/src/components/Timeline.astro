@@ -4,7 +4,7 @@ import { safeJsonForHtml } from "../lib/labels";
 interface Props { events: any[]; }
 const { events } = Astro.props;
 ---
-<section class="viz-section"><div class="section-heading compact"><div><div class="hero-kicker">Tempo</div><h2>Timeline relacionada</h2></div></div>{events.length ? <div id="entity-timeline" class="viz" aria-label="Linha do tempo dos eventos relacionados"></div> : <p class="empty-state">Nenhum evento datado diretamente relacionado.</p>}<script type="application/json" id="entity-timeline-data" set:html={safeJsonForHtml(events)}></script></section>
+<section class="viz-section"><div class="section-heading compact"><div><div class="hero-kicker">Tempo</div><h2>Timeline relacionada</h2></div></div>{events.length ? <div id="entity-timeline" class="viz" aria-label="Linha do tempo dos eventos relacionados"></div> : <p class="empty-state">Nenhum evento datado diretamente relacionado.</p>}<script is:inline type="application/json" id="entity-timeline-data" set:html={safeJsonForHtml(events)}></script></section>
 <script>
   import { DataSet } from "vis-data"; import { Timeline } from "vis-timeline";
   const raw=document.querySelector("#entity-timeline-data")?.textContent; const element=document.querySelector<HTMLElement>("#entity-timeline");
