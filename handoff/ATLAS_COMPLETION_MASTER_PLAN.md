@@ -1,9 +1,13 @@
 # Atlas — Plano Mestre de Conclusão Integral
 
-**Versão:** 1.0  
-**Baseline:** 20 de agosto de 2026  
-**Banco canônico:** `current/atlas-web/data/atlas.sqlite`  
-**Produto publicado:** <https://flpgiacomini.github.io/atlas/>  
+**Versão:** 1.0
+
+**Baseline:** 20 de agosto de 2026
+
+**Banco canônico:** `current/atlas-web/data/atlas.sqlite`
+
+**Produto publicado:** <https://flpgiacomini.github.io/atlas/>
+
 **Objetivo:** conduzir o Atlas do estado atual até a conclusão editorial, funcional, visual e operacional dentro do escopo aprovado.
 
 ---
