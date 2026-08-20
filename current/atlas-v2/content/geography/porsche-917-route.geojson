@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:zuffenhausen-le-mans-1969",
+      "properties": {
+        "entity": "atlas:vehicle:porsche-917",
+        "validity": { "from": "1969", "until": "1969", "precision": "year" },
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:porsche-917-archive",
+        "purpose": "editorial-route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.177, 48.835], [7.752, 48.583], [2.352, 48.857], [0.1996, 47.956]]
+      }
+    }
+  ]
+}

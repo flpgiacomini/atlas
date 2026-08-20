@@ -1,0 +1,30 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:vehicle:porsche-917",
+  "type": "Vehicle",
+  "name": "Porsche 917",
+  "aliases": ["917"],
+  "claims": [
+    {
+      "id": "atlas:claim:porsche-917-introduced-1969",
+      "type": "Claim",
+      "subject": "atlas:vehicle:porsche-917",
+      "predicate": "introduced-in",
+      "object": 1969,
+      "sources": ["atlas:source:porsche-917-archive"],
+      "confidence": "single-source",
+      "validity": { "from": "1969", "until": null, "precision": "year" }
+    }
+  ],
+  "sources": [
+    {
+      "id": "atlas:source:porsche-917-archive",
+      "type": "Source",
+      "title": "Porsche 917 — archive overview",
+      "publisher": "Porsche Newsroom",
+      "url": "https://newsroom.porsche.com/",
+      "trust": "institutional",
+      "verifiedAt": "2026-08-20"
+    }
+  ]
+}

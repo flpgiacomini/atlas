@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://flpgiacomini.github.io/atlas/schemas/atlas-v2.schema.json",
+  "title": "Atlas v2 canonical documents",
+  "$defs": {
+    "semanticId": { "type": "string", "pattern": "^atlas:[a-z][a-z0-9-]*:[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "interval": {
+      "type": "object",
+      "required": ["from", "precision"],
+      "properties": {
+        "from": { "type": "string" },
+        "until": { "type": ["string", "null"] },
+        "precision": { "enum": ["day", "month", "year", "circa", "range"] }
+      },
+      "additionalProperties": false
+    },
+    "Source": {
+      "type": "object",
+      "required": ["id", "type", "title", "publisher", "url", "trust"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "Source" },
+        "title": { "type": "string", "minLength": 3 },
+        "publisher": { "type": "string", "minLength": 2 },
+        "url": { "type": "string", "format": "uri" },
+        "trust": { "enum": ["primary", "institutional", "specialist", "context"] },
+        "verifiedAt": { "type": "string", "format": "date" }
+      },
+      "additionalProperties": true
+    },
+    "Claim": {
+      "type": "object",
+      "required": ["id", "type", "subject", "predicate", "object", "sources", "confidence"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "Claim" },
+        "subject": { "$ref": "#/$defs/semanticId" },
+        "predicate": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "object": {},
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/semanticId" } },
+        "confidence": { "enum": ["single-source", "corroborated", "contested"] },
+        "validity": { "$ref": "#/$defs/interval" }
+      },
+      "additionalProperties": true
+    },
+    "Entity": {
+      "type": "object",
+      "required": ["@context", "id", "type", "name", "claims"],
+      "properties": {
+        "@context": { "const": "https://flpgiacomini.github.io/atlas/context/v2.jsonld" },
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "enum": ["Vehicle", "Brand", "Organization", "Person", "Event", "Place", "Facility", "Technology", "Season", "Series"] },
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string" } },
+        "claims": { "type": "array", "items": { "$ref": "#/$defs/Claim" } },
+        "sources": { "type": "array", "items": { "$ref": "#/$defs/Source" } }
+      },
+      "additionalProperties": true
+    },
+    "StoryBeat": {
+      "type": "object",
+      "required": ["id", "year", "title", "claims"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "year": { "type": "integer", "minimum": 1769, "maximum": 2026 },
+        "title": { "type": "string" },
+        "claims": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/semanticId" } },
+        "geometry": { "$ref": "#/$defs/semanticId" }
+      }
+    },
+    "Chapter": {
+      "type": "object",
+      "required": ["id", "year", "title", "beats"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "year": { "type": "integer", "minimum": 1769, "maximum": 2026 },
+        "title": { "type": "string" },
+        "beats": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/StoryBeat" } }
+      }
+    },
+    "Story": {
+      "type": "object",
+      "required": ["id", "type", "chapters"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "Story" },
+        "chapters": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Chapter" } }
+      }
+    },
+    "TechnologyFlow": {
+      "type": "object",
+      "required": ["id", "type", "technology", "stages"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "TechnologyFlow" },
+        "technology": { "$ref": "#/$defs/semanticId" },
+        "stages": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/StoryBeat" } }
+      }
+    },
+    "TemporalGeometry": {
+      "type": "object",
+      "required": ["id", "entity", "validity", "precision", "confidence", "source"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "entity": { "$ref": "#/$defs/semanticId" },
+        "validity": { "$ref": "#/$defs/interval" },
+        "precision": { "enum": ["entrance", "centroid", "site", "route", "boundary", "approximate"] },
+        "confidence": { "enum": ["verified", "probable", "approximate"] },
+        "source": { "$ref": "#/$defs/semanticId" }
+      }
+    }
+  }
+}

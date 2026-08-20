@@ -1,0 +1,110 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #f1eee7;
+  background: #080907;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+button, input { font: inherit; }
+button { color: inherit; }
+
+.atlas-shell { min-height: 100vh; background: #090a08; position: relative; }
+.masthead { height: 110px; display: grid; grid-template-columns: 340px 1fr 140px; align-items: center; gap: 32px; padding: 0 42px; position: absolute; inset: 0 0 auto; z-index: 10; background: rgba(5,6,5,.82); }
+.brand { appearance: none; border: 0; background: transparent; text-align: left; cursor: pointer; padding: 0; }
+.brand-name { display: block; font: 42px/1 Georgia, serif; letter-spacing: .035em; }
+.brand-name i { font: 16px/1 Inter, sans-serif; color: #d02d26; letter-spacing: 0; }
+.brand-subtitle { display: block; margin-top: 8px; font-size: 10px; letter-spacing: .18em; }
+.masthead nav { display: flex; justify-content: center; gap: clamp(18px, 3vw, 44px); }
+.masthead nav button, .discover-trigger { border: 0; background: transparent; color: #c7c4bd; padding: 18px 0; cursor: pointer; position: relative; }
+.masthead nav button::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 7px; height: 2px; background: #d22d26; transition: right .25s ease; }
+.masthead nav button.active { color: #fff; }
+.masthead nav button.active::after { right: 0; }
+.discover-trigger { font-size: 11px; letter-spacing: .17em; justify-self: end; }
+
+.hero { min-height: 770px; position: relative; overflow: hidden; background-image: var(--hero); background-size: cover; background-position: center; transition: background-image .4s ease; }
+.hero::before { content: ""; position: absolute; inset: 110px auto 0 0; width: min(46vw, 660px); background: rgba(8,9,7,.9); }
+.hero-shade { position: absolute; inset: 0; box-shadow: inset 0 -90px 90px #080907; pointer-events: none; }
+.story-copy { position: relative; z-index: 2; width: 560px; padding: 190px 0 72px 48px; }
+.story-year { color: #df342e; font: 25px/1 Georgia, serif; letter-spacing: .11em; margin: 0; }
+.ornament { width: 132px; height: 1px; background: #a68a55; margin: 21px 0; }
+.eyebrow { margin: 0 0 10px; color: #b59a68; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; }
+.story-copy h1 { font: 66px/.99 Georgia, "Times New Roman", serif; font-weight: 400; margin: 0; max-width: 520px; letter-spacing: -.025em; }
+.dek { max-width: 410px; margin: 31px 0; font-size: 17px; line-height: 1.55; color: #e2dfd8; }
+.story-actions { display: flex; align-items: center; gap: 28px; }
+.story-actions button { cursor: pointer; min-height: 64px; letter-spacing: .08em; }
+.primary { border: 0; padding: 0 25px; background: #bd2722; }
+.primary:hover { background: #d3342d; }
+.secondary { border: 0; border-bottom: 1px solid #6f644f; background: transparent; color: #d8d2c6; padding: 0 6px; }
+.map-switch { position: absolute; right: 42px; top: 145px; z-index: 4; display: flex; border: 1px solid rgba(197,181,149,.4); border-radius: 25px; overflow: hidden; background: rgba(4,5,4,.74); }
+.map-switch button { border: 0; background: transparent; color: #aaa69e; padding: 14px 25px; font-size: 11px; letter-spacing: .14em; cursor: pointer; }
+.map-switch button.active { color: #fff; box-shadow: inset 0 -2px #d8322c; }
+.map-trace { position: absolute; left: 300px; top: 120px; width: 430px; height: 430px; object-fit: cover; opacity: .42; mix-blend-mode: screen; }
+.mode-context { position: absolute; z-index: 3; right: 42px; bottom: 78px; width: 360px; padding: 28px; background: rgba(8,9,7,.84); border-top: 1px solid #a98b58; backdrop-filter: blur(9px); }
+.mode-context p { color: #d23630; letter-spacing: .16em; text-transform: uppercase; font-size: 11px; }
+.mode-context h2 { font: 30px/1.1 Georgia, serif; margin: 8px 0 16px; }
+.mode-context span { color: #c8c4bb; line-height: 1.5; }
+
+.timeline-panel { min-height: 254px; padding: 19px 48px 28px; position: relative; background: #090a08; border-top: 1px solid #2b2b27; }
+.century-scale { display: flex; justify-content: space-between; color: #c3beb4; font: 16px Georgia, serif; }
+.timeline-panel input { width: 100%; margin: 18px 0 5px; accent-color: #d6322b; cursor: ew-resize; }
+.timeline-panel output { position: absolute; top: 52px; left: calc(48px + (100% - 96px) * var(--progress) / 100); transform: translateX(-50%); color: #ef3b34; }
+.milestone-row { display: grid; grid-template-columns: repeat(9, 1fr); border-top: 1px solid #33332e; margin-top: 18px; }
+.milestone-row button { min-height: 96px; text-align: left; padding: 17px 10px; border: 0; border-left: 1px solid #2b2b27; background: transparent; color: #837f77; cursor: pointer; }
+.milestone-row button strong, .milestone-row button span { display: block; }
+.milestone-row button strong { font: 17px Georgia, serif; color: #c7c1b6; }
+.milestone-row button span { font-size: 11px; margin-top: 10px; }
+.milestone-row button.active { background: #171713; box-shadow: inset 0 3px #d32f28; color: #eee8dc; }
+
+.modal-backdrop { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: rgba(0,0,0,.76); backdrop-filter: blur(11px); padding: 32px; }
+.chapter-modal, .discover-panel { width: min(950px, 94vw); max-height: 90vh; overflow: auto; padding: 56px 66px; position: relative; background: #f0ebe0; color: #171715; box-shadow: 0 30px 90px rgba(0,0,0,.5); }
+.close { position: absolute; right: 28px; top: 24px; border: 0; border-bottom: 1px solid currentColor; background: transparent; font-size: 10px; letter-spacing: .16em; cursor: pointer; padding: 6px 0; }
+.modal-kicker { color: #a72a25; font-size: 11px; letter-spacing: .18em; }
+.chapter-modal h2, .discover-panel h2 { font: 52px/1.05 Georgia, serif; max-width: 680px; margin: 18px 0; }
+.lead { font: 21px/1.5 Georgia, serif; max-width: 720px; }
+.chapter-tabs { display: flex; gap: 32px; margin-top: 42px; border-bottom: 1px solid #c9c0b1; }
+.chapter-tabs button { border: 0; background: none; padding: 15px 0; font-size: 11px; letter-spacing: .13em; cursor: pointer; }
+.chapter-tabs .active { color: #a92b26; border-bottom: 2px solid #a92b26; }
+.chapter-body { columns: 2; column-gap: 48px; margin-top: 30px; line-height: 1.7; }
+.chapter-body blockquote { margin: 0; font: 24px/1.4 Georgia, serif; color: #5a4a38; }
+.discover-panel { background: #0e0f0d; color: #eee9df; }
+.journey-list { display: grid; grid-template-columns: repeat(2, 1fr); margin-top: 32px; border-top: 1px solid #383832; }
+.journey-list button { display: grid; grid-template-columns: 70px 1fr; gap: 4px 16px; text-align: left; padding: 22px 8px; background: transparent; border: 0; border-bottom: 1px solid #383832; cursor: pointer; }
+.journey-list button:nth-child(odd) { border-right: 1px solid #383832; }
+.journey-list span { grid-row: span 2; color: #cf352e; font: 20px Georgia, serif; }
+.journey-list strong { font: 21px Georgia, serif; }
+.journey-list small { color: #969187; }
+
+@media (max-width: 900px) {
+  .masthead { grid-template-columns: 1fr auto; height: 88px; padding: 0 22px; }
+  .masthead nav { display: none; }
+  .brand-name { font-size: 31px; }
+  .hero { min-height: 690px; background-position: 62% center; }
+  .hero::before { inset: 260px 0 0; width: auto; background: rgba(8,9,7,.88); }
+  .story-copy { width: auto; padding: 285px 22px 38px; }
+  .story-copy h1 { font-size: clamp(42px, 12vw, 64px); }
+  .dek { font-size: 15px; }
+  .story-actions { align-items: stretch; flex-direction: column; gap: 8px; }
+  .story-actions button { min-height: 52px; }
+  .map-switch { top: 100px; right: 18px; }
+  .map-trace, .mode-context { display: none; }
+  .timeline-panel { padding-inline: 18px; overflow: hidden; }
+  .milestone-row { display: flex; overflow-x: auto; }
+  .milestone-row button { min-width: 112px; }
+  .chapter-modal, .discover-panel { padding: 55px 25px 32px; }
+  .chapter-modal h2, .discover-panel h2 { font-size: 40px; }
+  .chapter-body { columns: 1; }
+  .journey-list { grid-template-columns: 1fr; }
+  .journey-list button:nth-child(odd) { border-right: 0; }
+}
