@@ -12,6 +12,10 @@ const labels: Record<string, string> = {
   candidate_year: "ano candidato", associated_brand: "marca associada", contribution_tracks: "eixos de contribuição",
   relevance_score: "pontuação de relevância", promotion_state: "estado de promoção", queued: "na fila editorial",
   priority_editorial: "prioridade editorial",
+  verification_state: "estado de verificação", source_backed: "verificado por fonte",
+  verified_at: "verificado em", verification_batch: "lote de verificação",
+  waiting_media_and_second_source: "aguardando mídia e segunda fonte",
+  marketed_under: "comercializado sob",
 };
 export function label(value: unknown): string {
   const raw = String(value ?? "");

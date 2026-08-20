@@ -37,3 +37,7 @@ Um registro `catalog` somente passa a `editorial` quando possui:
 5. mídia licenciada quando publicada visualmente.
 
 O lote MASS01 usa os registros autorais de curadoria do próprio Atlas e pode, portanto, ser versionado integralmente.
+
+## Verificação progressiva
+
+Lotes `Rxx` enriquecem candidatos prioritários sem alterar automaticamente seu nível editorial. Um registro com `verification_state=source_backed` pode exibir narrativa, relações e a fonte vinculada, mas continua identificado como catálogo até satisfazer todos os critérios de promoção. O primeiro lote é executado por `npm run catalog:enrich:r01` e integra o comando `atlas:sync`.

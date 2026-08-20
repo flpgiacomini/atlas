@@ -23,7 +23,7 @@ class AtlasContracts(unittest.TestCase):
         self.assertFalse(report["critical_semantic_loss"])
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":920,"statement":604,"source":159,"claim":730,"evidence":731,"predicate":56}
+        expected = {"entity":920,"statement":610,"source":165,"claim":736,"evidence":737,"predicate":56}
         actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
         db.close(); self.assertEqual(actual, expected)
 
@@ -87,6 +87,19 @@ class AtlasContracts(unittest.TestCase):
         db.close()
         self.assertEqual(catalog_count, 522)
         self.assertEqual(attributed_count, catalog_count)
+
+    def test_priority_catalog_has_source_backed_records(self):
+        db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
+        records = db.execute("""SELECT e.id,e.description,e.metadata_json,COUNT(DISTINCT src.id)
+            FROM entity e JOIN statement s ON s.subject_entity_id=e.id
+            JOIN claim c ON c.statement_id=s.id JOIN claim_evidence ce ON ce.claim_id=c.id
+            JOIN evidence ev ON ev.id=ce.evidence_id JOIN source src ON src.id=ev.source_id
+            WHERE json_extract(e.metadata_json,'$.verification_batch')='R01' GROUP BY e.id""").fetchall()
+        db.close()
+        self.assertEqual(len(records), 6)
+        self.assertTrue(all(len(description.split()) >= 30 for _, description, _, _ in records))
+        self.assertTrue(all(json.loads(metadata)["editorial_level"] == "catalog" for _, _, metadata, _ in records))
+        self.assertTrue(all(source_count >= 1 for _, _, _, source_count in records))
 
     def test_published_candidate_registries_resolve_to_sqlite(self):
         for validator in ("validate_brand_census.py", "validate_historical_significance.py"):

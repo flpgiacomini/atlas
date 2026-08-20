@@ -7,8 +7,8 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 ## Resultado
 
 - Entidades auditadas: **920**
-- Completas: **145**
-- Substanciais: **253**
+- Completas: **146**
+- Substanciais: **252**
 - Parciais: **0**
 - Stubs: **0**
 - Catalogadas: **522**
@@ -21,7 +21,7 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 
 | Tipo | Entidades | Completas | Nota média |
 |---|---:|---:|---:|
-| brand | 504 | 3 | 3.6 |
+| brand | 504 | 4 | 3.6 |
 | circuit | 4 | 1 | 82.5 |
 | circuit_layout | 6 | 2 | 88.3 |
 | competition | 4 | 0 | 76.7 |

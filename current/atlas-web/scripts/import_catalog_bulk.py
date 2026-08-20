@@ -36,7 +36,8 @@ def insert_entity(db: sqlite3.Connection, name: str, entity_type: str, descripti
     existing = db.execute("SELECT id FROM entity WHERE canonical_name=? COLLATE NOCASE AND entity_type=?", (name, entity_type)).fetchone()
     if existing:
         current = db.execute("SELECT metadata_json FROM entity WHERE id=?", (existing[0],)).fetchone()
-        if json.loads(current[0] or "{}").get("editorial_level") == "catalog":
+        current_metadata = json.loads(current[0] or "{}")
+        if current_metadata.get("editorial_level") == "catalog" and current_metadata.get("verification_state") != "source_backed":
             db.execute("UPDATE entity SET description=?,metadata_json=?,updated_at=? WHERE id=?", (description, json.dumps(metadata, ensure_ascii=False, sort_keys=True), NOW, existing[0]))
         db.execute(
             "INSERT OR IGNORE INTO external_identifier(id,entity_id,scheme,value,url,created_at) VALUES(?,?,?,?,NULL,?)",
