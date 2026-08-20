@@ -1,0 +1,4538 @@
+[
+  {
+    "candidate_name": "Benz",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "992b1a6f-6c76-7307-b2ee-2b15f38d95f8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Daimler",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bc32818f-7bb5-7197-95ae-7d96987c2c9c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mercedes-Benz",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "eb0a0e51-2d35-7599-b005-c1c0e0ebcdff",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Panhard & Levassor",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "01caa476-f14c-705a-a2c1-fc1bb65de34d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "De Dion-Bouton",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fd9318e3-a142-732e-b351-26d544388d65",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Darracq",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c81b913e-b099-70b9-96f6-4788e4783012",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mors",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9e587890-d69b-7455-b6f3-ecca1dd97775",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Clément-Bayard",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cda95ce3-b714-71ce-9604-d99063fc8bde",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rochet-Schneider",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c479a0d9-719a-7309-a134-e686f8f15db0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Napier",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4c084fd0-1235-797b-92a3-1de8b84b18e5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Wolseley",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e70c59c9-e1bb-795d-abfd-f9c573aff0c1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Austin",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7ba9461a-6da8-7346-b030-cd7e97d9f1fa",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Humber",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ee52c393-326f-7077-9128-ffd3ddf5eb9e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Vauxhall",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0c73f8c8-671e-7d27-ae67-965572b5c56b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ford",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fb160519-0c1a-74c0-9561-8d77061975d8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lincoln",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "df74636c-86e5-7fc1-a589-5068a6884195",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Buick",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "ab6e603d-e65c-7ce3-8501-2be111f36e20",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Cadillac",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01030-3319-7f50-a974-c3181fd95e9c",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Oldsmobile",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a0102a-57eb-7517-bd03-02951e02850f",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Packard",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "87d3834b-f7ce-7285-af82-3528b731217e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Peerless",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "973fa4c1-2812-7f01-af49-7f422d133eb5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pierce-Arrow",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "186655b7-5751-77d0-8e50-83ee391b4ac9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Studebaker",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b48953d8-f1e7-767a-95b2-9a37a003c764",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "REO",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d184d514-6e6e-7e45-a2e7-e9c0eec315cd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Maxwell",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "224c7c19-fce8-74d1-9a8a-81c907338801",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rambler",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1fd97734-4c52-7ef3-86eb-449e70ce91b6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Locomobile",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f6c0cc8a-6ecd-7a35-be51-6579e14fece6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "FIAT",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a0102a-57e9-79e4-82b2-6aa9183b80e1",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Lancia",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01030-3312-7d84-9a7e-34630d64f2b9",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Itala",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4cfdd534-ae93-7e46-b8ec-dfcce245d8dd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Isotta Fraschini",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "77742aeb-6444-7926-b3d5-6f4dfa496bb8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Alfa Romeo",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "4adad7ab-dbca-706a-a9a6-4189d43e3753",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Hispano-Suiza",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8bd11bc1-73f1-720c-ab9a-c8c15ed3c432",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Laurin & Klement",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f7341027-45ad-7af8-bfdc-f957857a517e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ŠKODA",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01028-5453-7cda-9d69-1cfa772774a4",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Tatra",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bc46843e-80e6-7cef-87ea-facbb1c4e96d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Opel",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "abb50118-b0ea-75a8-92e7-3c7c992319cb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Renault",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a010d9-28c8-734b-8208-0888551089ec",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Peugeot",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a0102a-57e7-7f2b-bebc-fd556c26e81f",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Citroën",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a010d9-28c2-7096-b44e-46cb4d0c6ad7",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Rolls-Royce",
+    "wave": "M01",
+    "region_cluster": "Pioneiras globais",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a0102a-57e9-7402-b40c-17fe692810ec",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Morris",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ad91fe9b-3718-7aac-ba95-50c45c76a113",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "MG",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8d481a35-05cd-72ce-b094-580ff8e3302d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Riley",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cb74b581-4337-772a-9bbd-cf9bf3ee6de0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Standard",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "98066147-1e2e-74ca-b7fd-df78b41eb750",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Triumph",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a035a344-9177-7d75-919e-fba65df60922",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rover",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "604771a0-1e39-7c8b-b0cc-fc016a944994",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Singer",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d15612ee-c3ae-72dd-8fc3-7e1f59fb3463",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hillman",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6bf9a3c0-742e-7886-a700-6a9b02b712e1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Talbot",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9abd2b9d-b534-7b8d-91bd-a30b5368b900",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Sunbeam",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "306a5b05-cd84-7f11-99f0-25ebdbab84be",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Alvis",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e9f3d5a4-d10e-713a-bf7c-fba1fbd38a76",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lagonda",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e24066a0-3cb3-7d48-9560-4095621f261e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bentley",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ab732c4c-c9be-7b58-9f92-cdbeb201b6cf",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aston Martin",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "546a6134-978a-76c2-9089-9a04fd4e77b7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "SS Cars",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9259a918-61a2-7a60-b592-d4b4d097e13b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Jaguar",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4646bf8b-ad4d-7f6c-b974-e40b60c62d02",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Delage",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4f75022d-739b-72bf-a8f3-e2c93c5f907a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Delahaye",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8c887ebb-33cd-77c0-a4ab-09f03cac8b6b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Voisin",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "509fd791-ea2b-7730-80bd-72d1a2368048",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hotchkiss",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "40188aa0-3557-7f6a-bd17-161f69e6cd49",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Salmson",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a75b31ec-90c0-7801-a9e9-dcd23223f60e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Amilcar",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0879cf3c-b32f-7714-9568-528dd441cdb7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mathis",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "13c8ba7e-d9b8-726b-9cf4-94ef7cededee",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rosengart",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "00c2209a-47dc-7802-98c6-8c71a71d3662",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Simca",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "de3c3626-b58a-707c-bffb-b9bc95a7a5b0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Panhard",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5d46af91-6b22-781c-a073-6094e99adc23",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bugatti",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01028-5456-74cd-8e02-ff30dece0237",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "BMW",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "595117cd-7b25-705e-97ac-aa22a18bc53c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Audi",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01028-5452-7d2d-8df1-441ee5876d0f",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Volkswagen",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a010d9-28c3-7fc4-9f3a-3e300e1d1b76",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "DKW",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a43a244f-7176-7535-9a2c-06025e0daa81",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Horch",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a1d27127-5c28-7135-b5c8-e675435cc7c3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Wanderer",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1d300558-3899-7791-8b17-343fc6e4bf75",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Adler",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "15a34202-09d4-7e1b-ac97-f72605b04b8f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Maybach",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "11e12eda-2f47-7622-af68-60b27044a09a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Borgward",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "01409b9a-d3c4-7375-a0a5-3d8cc4d57b9a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hanomag",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8fe0c70a-c286-769b-8264-b7b1174a862e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "NSU",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0a707596-1329-79f1-acd1-cae3bba60156",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Steyr",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6362bf56-9070-78e3-9906-70de83a29108",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Austro-Daimler",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "62611458-1c6c-7e2b-875e-8a5ec0c0b775",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Praga",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7db80a89-2d91-7fa1-a6c3-ff5aebeac381",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aero",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "311f415e-b5cb-71f9-a033-4787bfea33f9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Jawa",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3d77fe1c-0c08-7368-a6b9-4d68167b0816",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Auto Union",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4fa1fa2b-3a33-76df-840a-5f4e0437f62f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Chenard-Walcker",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "db29f510-3226-7f43-9558-35cd0049211c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lorraine-Dietrich",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5e57105e-1b7c-79da-8d56-520dac4defa4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Corre La Licorne",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "91d1f974-9f5a-7558-a670-292b645b04a9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ballot",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ed8b5282-24ac-7e46-9518-78072f653da4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Donnet",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c88e1fbb-6232-703e-b120-ced13ea3f2af",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "UNIC",
+    "wave": "M02",
+    "region_cluster": "Europa 1919-1945",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f0cd661a-3806-7bf8-8b20-589bc6ac3ddd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Chevrolet",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "04964a08-0f19-7d5d-9170-66fc7de2c8f1",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Pontiac",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "af702364-754d-70d4-95b5-25ac214173c0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Oakland",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b9a7c0a4-aa09-776c-9969-9acce8a863f1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "LaSalle",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "24e21a3e-7559-76e6-a870-5a5a7efc8b3e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Saturn",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "aeadee91-3ac0-7aef-b783-267d7d9af69c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hummer",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "606b373f-977b-7673-883e-e9590243a760",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mercury",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "71228398-a534-7074-b97d-665345b5295f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Edsel",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "32057d6c-fe9c-765e-9cb0-b8764e51dfbc",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Continental",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e0d80250-ac3e-7af6-b64a-8a1655907428",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Chrysler",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4a4d3296-5b86-73c9-af61-e3850ed9579e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Plymouth",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "abccb2ce-0124-7145-8f82-e87909fadc81",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "DeSoto",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6ee19e23-2050-7d28-b4df-76d644055cf7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dodge",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2f616290-0fd0-7808-bb3c-c1c9292da533",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Imperial",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "86561742-51f0-7da9-ae8b-9622e8c9bb49",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Eagle",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4d2ead26-b35f-78f9-9960-6d16e7954945",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hudson",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "aadc76c1-17b1-7d10-95c1-988968a792cd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Nash",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ec72cb45-0ef9-7a25-9df4-d4006e245595",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "AMC",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "588f2614-edf1-7c8e-862a-af900aea1175",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Kaiser",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3fdfbff2-7e5c-7339-b215-4c10b9fe7088",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Frazer",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7bcca833-4184-7c49-a4c1-84990f1ae892",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Willys",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4b6637a6-4e5d-7478-b629-5b55a7ba262b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Jeep",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d493565d-ff9a-7cde-835b-99542fb7a965",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tucker",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2bb2a287-08f3-7e22-8c20-403d3884521e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Cord",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a97bc884-184e-7603-94b0-3b409f4ca258",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Auburn",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e77d8a98-06cb-76e0-b7a4-818b4ff269bf",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Duesenberg",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c39b1de7-5897-74c0-ad64-16113ae6ce5d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Graham",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3e7d6a75-9fd9-70fe-aab1-3ab870efa492",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Avanti",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0e5a19d4-754e-7207-8567-5753ab2534be",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tesla",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "05eb52af-27b8-70e0-8b00-5f5b8801774a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rivian",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1b7bc783-98d8-7fde-ba6d-632e1e2e3ba3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lucid",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ba909757-a4d3-7945-ad2d-2e28bb5b906b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Fisker",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "08d1dc4d-2cfb-7912-afdf-af71e89da124",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Karma",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ee89ff4f-6cfa-7119-9f57-74638a97acf8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Saleen",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e34f4d98-33bc-7f4c-8633-0971e358374b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Shelby",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e0b30932-acf2-7f52-befb-c61cd7259182",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Vector",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "14388b3f-4303-7ad1-9a9b-e3c0d4d8cb9d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "DeLorean",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "99d50fcf-3884-7eb8-85af-43eee8d517b1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "McLaughlin",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "23aaf8d5-cb55-7850-8265-5467643ec388",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Acadian",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "01dd24a4-4e9a-7ec6-bdba-f8f3d163177f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bricklin",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bbf3469b-a97c-7bf0-bc9a-f0792bfbf8fa",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mastretta",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c5941604-d5c2-7e08-bab2-951c381af1cc",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "VUHL",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bc4dda6b-a966-78cc-90a8-1ac2c7d1bfb9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Crosley",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "eeb81324-3491-7ebb-81eb-5d45dce59950",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Franklin",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5cd36ca4-acb0-79b7-8ca4-8518d14646e6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Marmon",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ad6f678c-8833-79cc-b201-c4a9e95c1122",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Stutz",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "22405feb-647b-732f-82be-493445996d0a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hupmobile",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "80de0957-1c57-700f-a830-e208ad9ab3e4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Moon",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bddc5134-2616-7f0a-852c-f95f81ba1908",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Durant",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8afc0e76-97d1-771b-87b6-a3feba2132f5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Star",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ef6d0af2-f97f-7c0a-a1d2-8a38c5474df7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ruxton",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3252f82f-a0c6-7a4c-a84b-4ead11515ad1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Checker",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "81321c60-08ec-73cb-97c8-cffc426b4285",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Geo",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8a3ef0cc-3334-79a4-8950-1cad03bbbd4f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Panoz",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a78a8660-8fb5-7225-98bb-250ef7632bfe",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mosler",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9a97bc18-0270-7994-b671-3eeb918a80eb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "SSC North America",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1e1bafc3-5e2e-7ff2-9d79-a09296fbb89c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Czinger",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "028a329e-24bc-757f-96f7-9359aa0fe9d7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Faraday Future",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e4b3ad04-0386-7805-937f-21d2f190e152",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Canoo",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "14b7410a-23ed-7cbe-be6e-4a43e8c6a8fd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lordstown",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "821b1ab8-28d4-7ac2-92a0-ce4b14fa8613",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aptera",
+    "wave": "M03",
+    "region_cluster": "Américas",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1165cdd4-a423-72d7-a30e-f12638959b09",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ferrari",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a010d9-28c4-766e-a135-aaa1e07de128",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Maserati",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "55952030-c3ee-7407-9cd3-51a580a4492e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lamborghini",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a010d9-28c6-75ce-9e74-78e287675339",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Abarth",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1d291b9a-fa72-7216-8eab-6c4c2200cdfb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Autobianchi",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ce5cae62-0412-7b7c-98f0-431d3fe5f5ca",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Innocenti",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "423d0a7d-53dc-756a-a4a4-8e02dacd157d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Iso",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "32b67207-185e-7f01-93b3-4bb319889633",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bizzarrini",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fc290f3e-d411-753c-9843-a877a2d93a2d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "De Tomaso",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "daf3612d-a486-7034-b8bc-edd390f21d34",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pagani",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fda0f19f-544d-77f7-99b8-8bb3f73fe507",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dallara",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "72891abb-4a20-7156-a0dd-cccba04da483",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Cisitalia",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "eefb410d-ec1c-7493-b14b-d57d417ffd18",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "OSCA",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "abb65a05-2300-741b-a0cb-210c7dd0b7d4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Siata",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9fe026b3-6b6c-75f3-b9d0-e7b045f53daf",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Moretti",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "17f61a60-348f-7951-8103-1c9a128bd033",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ASA",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e05504e5-c761-738a-b9c2-3299f1594917",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Cizeta",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6a9fd106-4dde-77cd-aa97-a63298517851",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Qvale",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5afb3e9f-b7a8-7e79-b7e7-cdb8ac0194f1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "DR Automobiles",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c794a29e-99d2-7998-bfd5-160bcc0cbca8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "OM",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "698ef6d4-39b3-7a67-8483-1e6baa045cf3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Nardi",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b4273c6c-7c82-7d41-8531-0873a161bb97",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Stanguellini",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5cd91f7c-3287-7c9e-ad2d-b60169cbff85",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bandini",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "65042210-404c-7b6c-b17e-67a54b82488c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ermini",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f141a8ea-3836-7189-a345-2adf469375f7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Intermeccanica",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7edcb429-fde6-7aca-b3d7-d55acab3b67a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ATS",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4cb0b60d-0cc7-76e3-97ea-5722f2745466",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Serenissima",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bda45b5b-71fe-73af-8ffe-f13f82125e7b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Monteverdi",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "90f1701d-3d74-768d-870c-f54a7eebea92",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Giannini",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "19e4cc7d-1349-7118-ade6-e3fed804a5ca",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Fornasari",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d00acc98-bb83-79f2-b362-f1273bdb706f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mazzanti",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9b23f73d-adb4-7839-96ab-4fc8eb116502",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pininfarina",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a66dc7cf-b732-7640-9dc4-aaf82c28523a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bertone",
+    "wave": "M04",
+    "region_cluster": "Itália esportiva e artesanal",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "be240501-ae3f-710e-aaa8-c9af896183ff",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lotus",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "81007761-33f5-770e-8be1-07ea48e783a3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "McLaren",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1bdbcf50-2bb7-79c2-92db-e17afad4b49b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "TVR",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "652ca296-63e5-7bc9-b49a-85b50775aa27",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bristol",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "95414431-a227-7c9f-b45b-3d64f8e5dbd9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Jensen",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4ebc4a54-a565-74e2-8710-cfd33b0249ac",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Reliant",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "666d6c1b-5b93-771d-a6f4-59e02e367588",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Morgan",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1030d10f-c641-7de7-b141-d710a5cf37f1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Caterham",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ca5f9b29-3af0-74a3-8fe6-672c0e3f9b5d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Marcos",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d95a861d-5b80-7d65-b2c1-bb986f33ecba",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Noble",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f45d11e3-1e44-7611-a63a-616e83b8b114",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ariel",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1510c3a4-b9a8-7860-8361-ff33465bfebb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ginetta",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "56b39093-f79c-7de1-91ae-fe0c3722addf",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "AC",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6d5e318e-3832-7ae2-abaa-c5866fff8e17",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Austin-Healey",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c8358283-6e88-766e-9ab5-0b6763afc0d2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Healey",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "eb391d9a-a52e-75dc-9b1c-cd9e791d6aa2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mini",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4c51f5e7-f68c-7808-826d-167d64930735",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Land Rover",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a010d9-28c4-7348-b3c2-bb473308aff8",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Range Rover",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b3c2cf0b-5936-7190-8874-639198e10162",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Vanden Plas",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bd1260c9-715e-70ad-81fa-f271b2d566e1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Princess",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b746aafd-1c99-740e-ac1b-840d358053e9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Daimler (British marque)",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "03ad8907-fe54-76da-be71-473097c6be1c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lanchester",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b5b98ae6-87a0-7d3b-99d4-5b290ce9da22",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Armstrong Siddeley",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "45ab78f7-6618-74be-b6ba-653791dfa090",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Gordon-Keeble",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "195686a1-f425-7b1b-abf6-913df9382e24",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Gilbern",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9eaca1df-6a84-7529-bbb2-cfd44d0749e4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bond",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b925657e-81d3-7546-a134-a19bcfb39333",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Berkeley",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2ec1f810-7827-715b-a56f-6d5379f3912d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Turner",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "481ccb57-9766-73b9-a838-053f2452aacb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Peerless GT",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e925a72e-72c4-7ed6-a813-1fc2de305be8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Warwick",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "881d4843-085b-7c17-be61-eb7599fcfa84",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Panther",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "770f9ea4-40ff-73aa-a0e5-0d88918d5bc9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Invicta",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "71bb527c-cf1c-7dca-850e-3db081cac48e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Allard",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d9e7dcf7-803c-75ee-80ed-c3b6d170f2e9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Frazer Nash",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "aec58d08-99cb-7d5c-abe9-bc83d957b82c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "BAC",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "66f6198a-cf5f-73c6-8101-a3102bc80d38",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Radical",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9218f294-f21f-760d-9383-1fee95930abe",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ultima",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fe60c35b-b12a-7e78-b6c9-287809edb2c9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "LEVC",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fff92131-5928-7cf6-9090-c8dfb1b35b2d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ineos",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ffc71753-9b27-7e7f-8cf9-d89dd3a6e0b8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Arrival",
+    "wave": "M05",
+    "region_cluster": "Reino Unido",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e8471690-b9ba-7f7d-8f55-447f71191d0b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Toyota",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c07143ed-efee-7d47-b0b1-c696a6e5a468",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Toyopet",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d2269802-1308-75b1-a8f6-b3eff3152b6d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lexus",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d700c8c2-b71c-7125-b73c-6d892921c8d9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Daihatsu",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ee177876-ac4a-7c60-b4da-5711afe95288",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Nissan",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d0a21da7-5fc5-737d-85f3-ce621f037132",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Datsun",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d19ebe24-ad21-79f2-a953-94c6a0e58cb6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Infiniti",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "40e34b59-a12b-7914-a704-dc41691b611b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Prince",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2a8c9fa8-8d04-7b2b-8906-b4feaff7e1d5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Honda",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d46f96f5-6150-78a6-9e6c-1d9982d239dc",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Acura",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6e4fe7d3-5da3-7561-ae49-6911b4878d26",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mazda",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ef2c5fdd-bbbd-7ca5-8706-25b50e8ad905",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mitsubishi",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "adb6495f-3804-7961-a486-d3140c6c783b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Subaru",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6c93da37-a355-72be-9fea-9c8c7ae87d13",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Suzuki",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e1a0bfef-53ae-7f7f-a1f5-9cb3beba87aa",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Isuzu",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0f172eb4-d628-71cd-945e-8281e7dcfeca",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Scion",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5bfcc921-cab8-77ed-973d-857dc0aa1314",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Eunos",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bdeded2c-ef65-7612-967a-95bb5915e285",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Autozam",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3d138a11-b437-7df5-9233-0be77a5ee5d2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mitsuoka",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9e157947-2bd4-70bc-b779-41f59b2cb8f9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tommykaira",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "42f0aeb0-9815-76a2-8404-4801104737e0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aspark",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c04c5641-b3fb-7b23-9934-a6ce4093b62d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ohta",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "42272c80-3b0c-717d-8e93-7d39e818ca4d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tama",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f6df7fe2-3972-72c7-a28e-4436c5f5b9b5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hino",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8c410e59-18d8-762e-a89f-910ffe82d73a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Suminoe",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6a186f83-5376-7ed6-a81d-03bc59402323",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Cony",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "449dec8c-2c6d-7d78-8e7f-fc0af2fa09fe",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aichi Machine Industry",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f1f17920-3b07-71df-9e55-d200545afee9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dome",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3deea547-4b88-71ce-9529-eeb313819a74",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Buddy",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "82091a18-6aec-7d57-9241-1f68321f9fa4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Takeoka",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9b347ff2-fd81-71e9-8b59-464d6d105994",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Autech",
+    "wave": "M06",
+    "region_cluster": "Japão",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "36208b5a-ed16-7622-b673-3d691deb2795",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hyundai",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c0fc7e39-3ccc-7a68-8122-11be44159607",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Genesis",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "78ec717e-5f29-7159-a76c-2ae02c5f6067",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Kia",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "897472c5-6fb3-7993-ae85-bb6c6035e1c7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Daewoo",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e70a1b13-322e-7455-a7d9-945876cbffc8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "SsangYong",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "227dd5de-7464-7c60-aa66-b04a7fe13c81",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "KGM",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0e77605e-8176-7960-abc5-ae1cc7a57413",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Samsung Motors",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "327ba5c2-283a-7fad-92e1-2549184a00e7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Renault Korea",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ac780554-3adc-749c-a2cd-b3769f096384",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Asia Motors",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "df0e4464-fc69-7528-96b1-ddddc06bec1c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Proto Motors",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2e06f3af-078c-78d9-97a1-92832cdab09c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hongqi",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01028-5447-779e-8317-57316b628d02",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "SAIC",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a8704304-70fc-761a-82ed-1c9308a60acd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Roewe",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e9565139-993e-7f77-a66d-745f56559437",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Nanjing",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e774b9ca-9331-7c36-ae66-8bea53f19d41",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Geely",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d17a6182-45d8-79ba-8921-7f46e99a350b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lynk & Co",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f1237a54-0b5f-71ac-a1bb-8a004ee779f6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Zeekr",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0d752890-f19b-79c5-8ef2-b5532b273a4b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Chery",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e99d00e2-f550-7fa4-bb70-786f87a9954a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Exeed",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5ccb1c63-8b2c-7197-a78c-daf1a4351fdf",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Jetour",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ac42c622-3dd8-70f1-a01b-46ae094acc1d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Great Wall",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "db686f13-fc13-7282-ae27-995a8b499622",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Haval",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "739ee703-760d-7d68-ac15-814f8d042b6a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ora",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8c6bf04e-c9da-7938-8d00-1635b34179af",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Wey",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6194f306-ff2e-7b2d-9bf8-41f7775be531",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "BYD",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4c00601f-1cf8-7187-99b3-5a0cc366e70e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Denza",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "90a7c59e-c142-7aa5-ac6d-0765f294ca54",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Yangwang",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "209f3cdb-19d0-7426-9773-3632377ffbbf",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Fangchengbao",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d3cd822d-fd10-721c-b24c-2b5b963be9ad",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Nio",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "82d25b2d-9629-79ec-93e5-e5a62515a8ee",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Onvo",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "070affde-54e7-7158-b8a9-f4e91ac46582",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Firefly",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "bf829f94-fcb2-73d8-8548-231f3073aeac",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "XPeng",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8afe26d4-de69-7ddd-bc64-4d407bd98034",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Li Auto",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f5a2ac23-168d-7aae-bd68-6392d0d4a92a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Leapmotor",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9ac6b546-d4c4-70db-ab47-e6c77f577a57",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Xiaomi Auto",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "843c3456-ede9-7241-8c4a-0ea06ef10b7a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "GAC",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b87454c3-d71a-7a57-a2c3-fc9e8761c0b0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aion",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c148a737-225f-7e11-913d-01a196cf1e00",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dongfeng",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2230baff-024e-739b-b451-45de6a31dd08",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Voyah",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0d96dd0a-0665-771c-b610-1612e001e1f7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Changan",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2a2fb4b6-e2b3-75f6-a058-1a3dffd3a81f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Avatr",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5db607bb-ca69-7a5e-9334-e26e7473e4fe",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "JAC",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5619e133-7125-73a6-8e84-a57dad55da72",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "BAIC",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e3692289-1361-7cba-9ced-b973d120018f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Arcfox",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d7e33c43-598d-7ba0-9a43-f4be0241d762",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "FAW",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ddc72757-7b16-752d-936d-41f19c49d0c3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bestune",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "67e5d433-b96c-7fa4-9cdc-aa42ad799a79",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Wuling",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8c4587be-b30f-768e-9035-0d0f216149d4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Baojun",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "86520623-11fb-70c5-bbdf-009e76b96fff",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Seres",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c45812b9-d719-7fe1-9294-97682af6a421",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aito",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b16bf2fc-cc2d-77b2-9a6a-592732b71359",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Luxgen",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f249aa01-706a-79fe-95e7-744f840847ad",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Yulon",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "de26ef47-a3ea-7a83-8413-8e669dfdd329",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Brilliance",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1223e264-22d0-7752-b6ce-01fdbaaf330f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Neta",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6bfee86e-d5b9-7d6f-97eb-25e3bfd73ac0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aiways",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "145e4590-c5e2-784f-9650-46b8673e4089",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Skywell",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cea484f3-d2c3-78ec-8146-0d9aa58b246e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "IM Motors",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "68c91c11-8df1-7594-b194-41f804d3f038",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Deepal",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4e64cbff-927b-770b-90e0-f50eb674b62a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Qoros",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "956d737a-3586-7fc4-9aa5-cf2402bf1c6b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Zotye",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "333eb565-ffaa-7eb3-b936-b78516ab8425",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lifan",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "83135716-a6d7-7e14-8720-41dc54651ac8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hafei",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1366e403-4de3-7652-9dc0-139ce8b494a3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Haima",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b37e2eac-2e70-717e-a358-6f51f7739203",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Soueast",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "51e3cca0-c289-722e-bf25-6bc50b3cd445",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Maxus",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b8ae024d-4f32-7b0c-8091-326b2714dd57",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Omoda",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5b19bda4-a243-7671-a6a8-269acf0dae71",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Jaecoo",
+    "wave": "M07",
+    "region_cluster": "Coreia China Taiwan",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c5589bf9-237e-7938-b5e5-b94781bd91e9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hindustan",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "55f8ed3f-8aec-775f-a57d-f5242f46c4b0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Premier",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "730d5835-bb8a-7ae2-95c6-303c27409185",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tata",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4ce8eb27-e506-7cd6-96f5-b0d1fc45f56a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mahindra",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "53e2aa3d-661b-75b7-a543-f7e7fff99b70",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Maruti Suzuki",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7fad4ad7-3360-754d-b55e-42399fb1d3e6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Force Motors",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2c4fd14a-290c-7b1c-826d-0399b5457232",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Standard India",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a94e37b8-7689-78e9-adc8-f48e124f7411",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Sipani",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "51ef9c67-7a3a-73fa-893d-5a33640cd02d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Reva",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a0aee1e0-75f5-78b1-8219-c7bf68cb2f31",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "DC Avanti",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f08ccedb-40a5-7eab-9072-adc80f3f20ca",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "VinFast",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e9192936-23a3-7070-8575-6b8ca0b28fde",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Proton",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a9f49f6a-cf9d-7e98-a2d9-c6372b68c388",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Perodua",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c4a7442f-5f4d-7072-b581-769fb27e1f99",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bufori",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ad344e68-b765-77d2-ba1f-db5a74874ef8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Thai Rung",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ccbb4e7a-fffa-75d6-be32-7606582f5e9d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Iran Khodro",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "42811071-1737-7ba9-8422-a10849754062",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Saipa",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "512bb56f-120d-784d-9b0d-9f08d3fe837e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pars Khodro",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d7019bf8-4782-7431-9d3c-6a915d69bdac",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "W Motors",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "66a07734-0f81-7f54-a34e-e68f977b78db",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bajaj",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1ffc234c-ff14-7f5c-84a9-082c987e9a83",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ather",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a697eb32-1d8f-76a0-a296-afc127e98025",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Ola Electric",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1178bc00-98c9-742d-b6b6-b8f57d53ad2f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pravaig",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "959133ad-8db3-7656-a647-d30048337238",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mean Metal Motors",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "101b9bb6-2638-7f67-923e-7db231aa484a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Vayve Mobility",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cc8d36f2-072d-7f50-b617-dfd475be3b2f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Eicher",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "76fe83f4-87d4-7e56-96ed-08fa4523cbeb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "San Storm",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d934ad20-f1d6-73c9-9ed8-cdb0e6e9ea9c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Chinkara",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7317aea1-0a9c-7bc0-ad55-af252d50e553",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Esemka",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "72317cfc-4cff-7828-bf88-9b6168d9b80c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Timor",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e51a5d28-7233-7980-963f-260870a6e200",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pindad",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d6032db8-bbd0-7f65-bd94-4b645c56bba9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "MVM",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3a6845de-e938-7aec-b64a-23c0cb8b745b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bahman",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cc7bef3a-6372-7b72-9397-7b187c194175",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Paykan",
+    "wave": "M08",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "288ac4ce-ee61-7460-8104-1290be959326",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Zastava",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "44fdaabf-5a75-700b-b76e-8f55b39a8223",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Yugo",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e335376e-b78d-705e-8d6b-a5555b122811",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dacia",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "447a9766-0d4b-7a1d-83ed-ae69be77b838",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Oltcit",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cd5e4b3c-3d33-7fb4-816e-761e3928db07",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "FSO",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6bb3aa7f-6bb9-7888-8640-7658d220b5d6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Syrena",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "caeafe60-9e1a-7dd9-b2af-68da8fa0a1a0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Wartburg",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "14cbd1f9-f7c3-7be6-aa74-7df07304b4ea",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Trabant",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5a406283-119c-76de-b61e-3ff77b98c90e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Sachsenring",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "69ad6dc1-135d-757d-97e4-2bf2654c2d7b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lada",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a110e5dc-a566-70dc-8cba-17629908bdeb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Moskvitch",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2f6449b7-d701-7569-9c53-63f6244f0dfd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "GAZ",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2e7cde30-0f4f-70dd-a93e-aed02d025e88",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ZIL",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a9180aab-3b19-71d0-bac4-46c86011b14e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ZAZ",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d4df7643-63c5-7321-b302-2c54769ecb71",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "LuAZ",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3a138495-ca2e-7e05-89c3-d0bd1e06d8f5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Melkus",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7cff6c9e-df5b-734e-b043-07a3f2d1ac47",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rimac",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ef7a7276-dc14-72c6-993d-5df3d7a4396f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "IZh",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b2ebb808-13b2-779f-bdd6-8ff09c72f7a9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "SMZ",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5aae295b-d6f6-79cb-a4f9-35e1e270126a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Marussia",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "646838e9-9b80-727b-beda-fbbe57072b72",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aurus",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6414a9ad-3980-78c2-9f5c-927fc3d3dc54",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Sollers",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8df80d06-8f66-7c69-b368-6c5dc88e8fe5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Doninvest",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e85641aa-2000-753c-b285-de235446671a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "TagAZ",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "7ccb6ac1-cbf8-7b13-bfe2-cb79d6f80cb9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aleko",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3fd5f098-11e6-7de8-904e-42c5a09945c5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Velorex",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8cf0784c-3335-77b2-b0e6-9dc9ea3be5ee",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Avia",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4c8bf8d4-77a2-7a87-a2b9-2625664e4e09",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Barkas",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ae6eab0c-a17e-76d6-8d8f-8173dae9fc8c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rába",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "745a337a-1cfa-70ba-8962-a40c2161d957",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tushek",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9cbac31f-a1b0-78d9-a987-73012e4c5abd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "KTM X-Bow",
+    "wave": "M09",
+    "region_cluster": "Europa Central e Oriental",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a901e938-785a-768d-8c78-8437ed6619b0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Volvo",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b6256d7a-7231-7226-97b2-0dc0fdc59327",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Saab",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e12d2891-609c-72c9-bd51-0a10bab7e146",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Polestar",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "78f40c70-1687-7701-85aa-215a23aacf87",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Koenigsegg",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "43a7dfb8-bf3e-7453-b225-d3e4c22adb1b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "NEVS",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2be9223a-95de-71a4-bdec-b1e542fd6607",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Donkervoort",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d205a1cd-0539-7ead-80ea-ac1cfb558b29",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "DAF",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d31acfb1-1b0d-71aa-b5c0-0d3c7b4576a5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Spyker",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d22d92f3-41c8-72a2-914e-5cd6d8897f90",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Minerva",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "65b450e5-9f93-7b61-9c1f-140ab319d780",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Imperia",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c73bccc0-2fa1-7643-8ff1-84a943346fb5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "FN",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "38de6636-4d87-7739-9769-40124b5d09a9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "SEAT",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1412b255-52d8-74df-9e4c-d23f43cac98b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Cupra",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d7aac2e7-d986-7003-bafa-958d7b88f9ea",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pegaso",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "36038ca4-0218-72d8-853c-76345635859f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Santana",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "996da123-23c8-79bc-aaa4-a238b8f44cee",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tramontana",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b0ec4931-7984-74b8-b702-d272a0feefc5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Spania GTA",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8eee703b-f4af-7852-b731-bb1769d65619",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "UMM",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "45856902-2544-7d2c-96c7-ef677ced037a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Portaro",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d66bf8e2-9eb0-734c-9bc8-26da620814f3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Adamastor",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d0f8cc33-fb34-7978-84fc-e3d9a42e745e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Think",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "714c105e-e83e-7d41-91bf-b1b2cfbd2204",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Buddy Electric",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "69432b6a-dc21-71ce-9563-0a57780adbce",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Caresto",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a466d4de-e967-70a8-88f9-b36fb1802159",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lightyear",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "13dbd5cf-8c6f-7d0f-9161-e73da74c8686",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Carver",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3c91a71a-c0cb-74df-b4cb-96ce6ba55b0a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Burton",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2228501a-49a9-71ca-ace4-c8a3788fdd35",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Vencer",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3a78c737-e45b-7772-a873-87303cb604f6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Edran",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3428bbd0-1c71-7f0d-84e6-15658abdf390",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Gillet",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d3482580-29a2-7a22-82a6-0010f8aa41f3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Apal",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3de169f8-251d-729f-b431-1e462fb90926",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hurtan",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f1db0c82-b1b5-73da-a83c-509e46702c0a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Comarth",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "d0537ec7-fb5e-7ac6-ac99-7fb30302135c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Aspid",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "93481707-6265-771f-bdbf-a94d2ffb95f2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Biscúter",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6efe17bf-63d0-70e5-8365-cd3566c49951",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Authi",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c103820b-7fe0-7eb8-becf-8c52552a3391",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Sado",
+    "wave": "M10",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b341dece-4f9e-767c-8e3e-6ec8222e4173",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Gurgel",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01016-ea4c-766d-827a-d7a4341a454d",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "Puma",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a4374f7d-c377-7177-9eb7-8af6119503fc",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Miura",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "96cf5f47-2555-77e4-a6a0-6839a49376d6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Santa Matilde",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "26cb46db-2c2e-7176-bd7a-9ee7c704019c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "FNM",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "beefde06-11b5-734f-b6b8-48315ec69ce4",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Troller",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f923119a-8332-7195-b7f4-bb38f0d84945",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lobini",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "08a708ec-5ec6-7a90-8f6e-b67a10aa619a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Brasinca",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c63ba633-f1c3-73b8-ac11-5f439b6eb13f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Vemag",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "61542797-b9b0-73b2-8a78-5e7c38afe22d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Agrale",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c2a04dac-dd58-73af-ada2-de2acc4d33e9",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "JPX",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9f21639b-0569-71dd-9e92-8e9de511e0b2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "CBT",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a2b681a8-3c0b-746d-978b-442d896d9255",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Engesa",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1d867f62-4f8b-7bec-9d20-ea46482fb001",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Envemo",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "de8f277b-9493-7b63-8d47-1a83bb820875",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hofstetter",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ccb47504-1d8e-79b0-8b77-a2c024b94182",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Adamo",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "909634e0-4b6d-760b-9c54-34baa32f6108",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Farus",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a3dcfbf2-05f0-7fd3-a821-6912705ccf8a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lafer",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8f6ec2e8-f8ba-7666-83e7-de5bca286f07",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dacon",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "60a988af-35df-7508-bc64-dbc61e641476",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Obvio!",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0f3dfad5-3d06-7acf-b6ef-0bb9c865a2c1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tac Motors",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "85d7828e-4ec1-7268-a7eb-731109734a78",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Chamonix",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "467eb086-499d-7c61-a8b2-db5f862f000f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "IKA",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e7f68ccd-65a5-78b0-9ba0-7ff9fbefe208",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Siam Di Tella",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "34cbc671-9bc2-7fe2-bda2-c011c85ff7bd",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Pur Sang",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "2a2af513-32aa-79f5-928e-4a1aa769a67a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Anasagasti",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "df3c902e-8931-76fc-ac9a-f76e1b57b3b1",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Grumett",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3fe38a6a-3512-7f5e-a4d8-ab776bab0437",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Effa",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e8121814-9a82-77f1-8b08-5ae07e7510de",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Indio",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "712449f1-e3bf-7afe-ab2f-552643e50f79",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bognor",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a1b7ee76-dcbd-7683-b73b-0f1d63be0ab0",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Justicialista",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "4b91b344-e822-7837-bc46-9954af9c77a3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rastrojero",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "939df878-33a6-7083-be94-16f6973e8232",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Zanella",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6672beac-ed06-7ad5-8882-c4d26518e44a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Autoar",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "30a402f0-027f-7110-b7b4-c3a95b9dfbd3",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Crespi",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "645aed31-df67-76f9-bc2c-d8ebbd644a8b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bucci",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f22587f3-39e8-73ee-a0da-cb37165ce30f",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ASA Argentina",
+    "wave": "M11",
+    "region_cluster": "América Latina",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6ae5b2ad-4c19-71b6-8ca4-46a942f53b00",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Holden",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "published",
+    "entity_id": "01a01028-5455-7a84-b0d2-ee6fb10c31b8",
+    "notes": "Já existe no SQLite canônico."
+  },
+  {
+    "candidate_name": "HSV",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1ed463c3-a7c9-7233-aa35-397d58db9e52",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "FPV",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6744db1d-63f9-7881-bb29-cc67c7ce00f6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bolwell",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "72b3967e-aa3c-77a9-a5a2-dab051f02b89",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Elfin",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a69b5d58-4a1c-763b-8f0b-b6ec62d42b38",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Brabham Automotive",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "3c1ca735-a031-75db-992d-f172bc6b5d23",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Leyland Australia",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8f11aa64-60c6-701a-848d-d1f95ed9523c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Rootes Australia",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ff3c4b26-cc0a-70c0-9161-4abf23357290",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Trekka",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "48a8eb75-a625-7c28-a846-ae49066f2c2b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hulme",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e47cfdf4-4281-762e-808d-b137443fd21d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Perana",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8b1db449-3566-7704-9256-1b81813ada7b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "GSM",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e30e5605-5a43-794d-a536-89ca4c282430",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Birkin",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "e7b822ff-4d62-7b8f-aee3-26a36693a899",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Optimal Energy",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "715ad2f5-cca1-7423-9aa8-98d8b14fd320",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Mobius",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "adac9c92-6ef1-7f4d-95b8-8c2c4fac939c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Kiira",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1c9bc5fd-1a73-7e43-bb5c-3125708a848a",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Innoson",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "c5a461cf-97f7-7f3f-9a78-a7c7e28b7d84",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Kantanka",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ec79712c-7712-792b-accc-5caf25334098",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Laraki",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0586008e-3ca6-7013-aede-44199bb93eaa",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Wallyscar",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "88be998a-c96a-714f-b4e8-4f8e3afd94e2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Purvis",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "926742b5-542e-7aa8-8528-e72dd028a4b8",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Giocattolo",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "84530e40-81e8-7220-8900-49ed9247bcd2",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Joss",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "5af9a0c1-0ade-76a2-a504-6d7a01be8c06",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Devaux",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "82710884-1543-72c9-9294-c819604c1813",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Nota",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6c2131c1-b404-7b78-841e-7c25e357e8e6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Lightburn",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "63aaf628-8388-79b4-8f09-f1e894b4c6b5",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Zeta",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6e105af3-d98b-7090-a17d-c6b334b240ac",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Hartnett",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "09c5f428-f2de-7905-95da-ed8436fedf6c",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Southern Cross",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "8b9f0d23-33ba-72b6-a18b-c991e30aa503",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Finch",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "cb6b6fa9-1587-78b3-824d-88b683998f65",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Skelta",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "fa187b30-f3c5-7832-8100-3cf693db864e",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Tomcar",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "a51650d1-7ee7-7715-bbe1-7414fb7cabef",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "ACE EV",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "48c22476-ce51-78e5-8367-47b4460f5c1b",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Almac",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "15d6c1b3-ef3f-765b-96b9-df562f9cb580",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Saker",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "0649e989-daf9-7a99-a82d-6dba1eec72fb",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Anziel",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "1644f252-3442-7c4f-a2b9-9e5427e7cdcc",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Africar",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "b3254f50-2e17-72a8-901e-5834d8a224a6",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Bailey",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "f99ca332-d439-75a7-a376-530b8001f88d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Harper Sports Cars",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "6eeb68c8-0614-7bef-a2ff-b2fe95ceb2df",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Uri",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9ea0a822-767b-7dc5-a667-9c0f68e2dfaa",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "IVEMA",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "12b282b3-1ac4-77a8-98a7-43de78a1c72d",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Menara",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "9ec8c90a-3cbf-7576-ac6c-5c984fa3a5f7",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  },
+  {
+    "candidate_name": "Dezzi",
+    "wave": "M12",
+    "region_cluster": "Oceania e África",
+    "scope_level": "A",
+    "decision": "cataloged",
+    "entity_id": "ede661ce-cddb-77b4-a13e-6c68c52f1911",
+    "notes": "Registro catalográfico importado no lote MASS01; aprofundamento editorial pendente."
+  }
+]

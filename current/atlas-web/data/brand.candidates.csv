@@ -1,505 +1,505 @@
 ﻿candidate_name,wave,region_cluster,scope_level,decision,entity_id,notes
-Benz,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Daimler,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mercedes-Benz,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Panhard & Levassor,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-De Dion-Bouton,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Darracq,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mors,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Clément-Bayard,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rochet-Schneider,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Napier,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Wolseley,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Austin,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Humber,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Vauxhall,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ford,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Benz,M01,Pioneiras globais,A,cataloged,992b1a6f-6c76-7307-b2ee-2b15f38d95f8,Registro catalográfico; aprofundamento pendente.
+Daimler,M01,Pioneiras globais,A,cataloged,bc32818f-7bb5-7197-95ae-7d96987c2c9c,Registro catalográfico; aprofundamento pendente.
+Mercedes-Benz,M01,Pioneiras globais,A,cataloged,eb0a0e51-2d35-7599-b005-c1c0e0ebcdff,Registro catalográfico; aprofundamento pendente.
+Panhard & Levassor,M01,Pioneiras globais,A,cataloged,01caa476-f14c-705a-a2c1-fc1bb65de34d,Registro catalográfico; aprofundamento pendente.
+De Dion-Bouton,M01,Pioneiras globais,A,cataloged,fd9318e3-a142-732e-b351-26d544388d65,Registro catalográfico; aprofundamento pendente.
+Darracq,M01,Pioneiras globais,A,cataloged,c81b913e-b099-70b9-96f6-4788e4783012,Registro catalográfico; aprofundamento pendente.
+Mors,M01,Pioneiras globais,A,cataloged,9e587890-d69b-7455-b6f3-ecca1dd97775,Registro catalográfico; aprofundamento pendente.
+Clément-Bayard,M01,Pioneiras globais,A,cataloged,cda95ce3-b714-71ce-9604-d99063fc8bde,Registro catalográfico; aprofundamento pendente.
+Rochet-Schneider,M01,Pioneiras globais,A,cataloged,c479a0d9-719a-7309-a134-e686f8f15db0,Registro catalográfico; aprofundamento pendente.
+Napier,M01,Pioneiras globais,A,cataloged,4c084fd0-1235-797b-92a3-1de8b84b18e5,Registro catalográfico; aprofundamento pendente.
+Wolseley,M01,Pioneiras globais,A,cataloged,e70c59c9-e1bb-795d-abfd-f9c573aff0c1,Registro catalográfico; aprofundamento pendente.
+Austin,M01,Pioneiras globais,A,cataloged,7ba9461a-6da8-7346-b030-cd7e97d9f1fa,Registro catalográfico; aprofundamento pendente.
+Humber,M01,Pioneiras globais,A,cataloged,ee52c393-326f-7077-9128-ffd3ddf5eb9e,Registro catalográfico; aprofundamento pendente.
+Vauxhall,M01,Pioneiras globais,A,cataloged,0c73f8c8-671e-7d27-ae67-965572b5c56b,Registro catalográfico; aprofundamento pendente.
+Ford,M01,Pioneiras globais,A,cataloged,fb160519-0c1a-74c0-9561-8d77061975d8,Registro catalográfico; aprofundamento pendente.
 Lincoln,M01,Pioneiras globais,A,published,df74636c-86e5-7fc1-a589-5068a6884195,Já existe no SQLite canônico.
 Buick,M01,Pioneiras globais,A,published,ab6e603d-e65c-7ce3-8501-2be111f36e20,Já existe no SQLite canônico.
 Cadillac,M01,Pioneiras globais,A,published,01a01030-3319-7f50-a974-c3181fd95e9c,Já existe no SQLite canônico.
 Oldsmobile,M01,Pioneiras globais,A,published,01a0102a-57eb-7517-bd03-02951e02850f,Já existe no SQLite canônico.
-Packard,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Peerless,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pierce-Arrow,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Studebaker,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-REO,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Maxwell,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rambler,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Locomobile,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Packard,M01,Pioneiras globais,A,cataloged,87d3834b-f7ce-7285-af82-3528b731217e,Registro catalográfico; aprofundamento pendente.
+Peerless,M01,Pioneiras globais,A,cataloged,973fa4c1-2812-7f01-af49-7f422d133eb5,Registro catalográfico; aprofundamento pendente.
+Pierce-Arrow,M01,Pioneiras globais,A,cataloged,186655b7-5751-77d0-8e50-83ee391b4ac9,Registro catalográfico; aprofundamento pendente.
+Studebaker,M01,Pioneiras globais,A,cataloged,b48953d8-f1e7-767a-95b2-9a37a003c764,Registro catalográfico; aprofundamento pendente.
+REO,M01,Pioneiras globais,A,cataloged,d184d514-6e6e-7e45-a2e7-e9c0eec315cd,Registro catalográfico; aprofundamento pendente.
+Maxwell,M01,Pioneiras globais,A,cataloged,224c7c19-fce8-74d1-9a8a-81c907338801,Registro catalográfico; aprofundamento pendente.
+Rambler,M01,Pioneiras globais,A,cataloged,1fd97734-4c52-7ef3-86eb-449e70ce91b6,Registro catalográfico; aprofundamento pendente.
+Locomobile,M01,Pioneiras globais,A,cataloged,f6c0cc8a-6ecd-7a35-be51-6579e14fece6,Registro catalográfico; aprofundamento pendente.
 FIAT,M01,Pioneiras globais,A,published,01a0102a-57e9-79e4-82b2-6aa9183b80e1,Já existe no SQLite canônico.
 Lancia,M01,Pioneiras globais,A,published,01a01030-3312-7d84-9a7e-34630d64f2b9,Já existe no SQLite canônico.
-Itala,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Isotta Fraschini,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Itala,M01,Pioneiras globais,A,cataloged,4cfdd534-ae93-7e46-b8ec-dfcce245d8dd,Registro catalográfico; aprofundamento pendente.
+Isotta Fraschini,M01,Pioneiras globais,A,cataloged,77742aeb-6444-7926-b3d5-6f4dfa496bb8,Registro catalográfico; aprofundamento pendente.
 Alfa Romeo,M01,Pioneiras globais,A,published,4adad7ab-dbca-706a-a9a6-4189d43e3753,Já existe no SQLite canônico.
-Hispano-Suiza,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Laurin & Klement,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Hispano-Suiza,M01,Pioneiras globais,A,cataloged,8bd11bc1-73f1-720c-ab9a-c8c15ed3c432,Registro catalográfico; aprofundamento pendente.
+Laurin & Klement,M01,Pioneiras globais,A,cataloged,f7341027-45ad-7af8-bfdc-f957857a517e,Registro catalográfico; aprofundamento pendente.
 ŠKODA,M01,Pioneiras globais,A,published,01a01028-5453-7cda-9d69-1cfa772774a4,Já existe no SQLite canônico.
-Tatra,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Opel,M01,Pioneiras globais,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Tatra,M01,Pioneiras globais,A,cataloged,bc46843e-80e6-7cef-87ea-facbb1c4e96d,Registro catalográfico; aprofundamento pendente.
+Opel,M01,Pioneiras globais,A,cataloged,abb50118-b0ea-75a8-92e7-3c7c992319cb,Registro catalográfico; aprofundamento pendente.
 Renault,M01,Pioneiras globais,A,published,01a010d9-28c8-734b-8208-0888551089ec,Já existe no SQLite canônico.
 Peugeot,M01,Pioneiras globais,A,published,01a0102a-57e7-7f2b-bebc-fd556c26e81f,Já existe no SQLite canônico.
 Citroën,M01,Pioneiras globais,A,published,01a010d9-28c2-7096-b44e-46cb4d0c6ad7,Já existe no SQLite canônico.
 Rolls-Royce,M01,Pioneiras globais,A,published,01a0102a-57e9-7402-b40c-17fe692810ec,Já existe no SQLite canônico.
-Morris,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-MG,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Riley,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Standard,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Triumph,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rover,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Singer,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hillman,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Talbot,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Sunbeam,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Alvis,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lagonda,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bentley,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aston Martin,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-SS Cars,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Jaguar,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Delage,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Delahaye,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Voisin,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hotchkiss,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Salmson,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Amilcar,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mathis,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rosengart,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Simca,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Panhard,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Morris,M02,Europa 1919-1945,A,cataloged,ad91fe9b-3718-7aac-ba95-50c45c76a113,Registro catalográfico; aprofundamento pendente.
+MG,M02,Europa 1919-1945,A,cataloged,8d481a35-05cd-72ce-b094-580ff8e3302d,Registro catalográfico; aprofundamento pendente.
+Riley,M02,Europa 1919-1945,A,cataloged,cb74b581-4337-772a-9bbd-cf9bf3ee6de0,Registro catalográfico; aprofundamento pendente.
+Standard,M02,Europa 1919-1945,A,cataloged,98066147-1e2e-74ca-b7fd-df78b41eb750,Registro catalográfico; aprofundamento pendente.
+Triumph,M02,Europa 1919-1945,A,cataloged,a035a344-9177-7d75-919e-fba65df60922,Registro catalográfico; aprofundamento pendente.
+Rover,M02,Europa 1919-1945,A,cataloged,604771a0-1e39-7c8b-b0cc-fc016a944994,Registro catalográfico; aprofundamento pendente.
+Singer,M02,Europa 1919-1945,A,cataloged,d15612ee-c3ae-72dd-8fc3-7e1f59fb3463,Registro catalográfico; aprofundamento pendente.
+Hillman,M02,Europa 1919-1945,A,cataloged,6bf9a3c0-742e-7886-a700-6a9b02b712e1,Registro catalográfico; aprofundamento pendente.
+Talbot,M02,Europa 1919-1945,A,cataloged,9abd2b9d-b534-7b8d-91bd-a30b5368b900,Registro catalográfico; aprofundamento pendente.
+Sunbeam,M02,Europa 1919-1945,A,cataloged,306a5b05-cd84-7f11-99f0-25ebdbab84be,Registro catalográfico; aprofundamento pendente.
+Alvis,M02,Europa 1919-1945,A,cataloged,e9f3d5a4-d10e-713a-bf7c-fba1fbd38a76,Registro catalográfico; aprofundamento pendente.
+Lagonda,M02,Europa 1919-1945,A,cataloged,e24066a0-3cb3-7d48-9560-4095621f261e,Registro catalográfico; aprofundamento pendente.
+Bentley,M02,Europa 1919-1945,A,cataloged,ab732c4c-c9be-7b58-9f92-cdbeb201b6cf,Registro catalográfico; aprofundamento pendente.
+Aston Martin,M02,Europa 1919-1945,A,cataloged,546a6134-978a-76c2-9089-9a04fd4e77b7,Registro catalográfico; aprofundamento pendente.
+SS Cars,M02,Europa 1919-1945,A,cataloged,9259a918-61a2-7a60-b592-d4b4d097e13b,Registro catalográfico; aprofundamento pendente.
+Jaguar,M02,Europa 1919-1945,A,cataloged,4646bf8b-ad4d-7f6c-b974-e40b60c62d02,Registro catalográfico; aprofundamento pendente.
+Delage,M02,Europa 1919-1945,A,cataloged,4f75022d-739b-72bf-a8f3-e2c93c5f907a,Registro catalográfico; aprofundamento pendente.
+Delahaye,M02,Europa 1919-1945,A,cataloged,8c887ebb-33cd-77c0-a4ab-09f03cac8b6b,Registro catalográfico; aprofundamento pendente.
+Voisin,M02,Europa 1919-1945,A,cataloged,509fd791-ea2b-7730-80bd-72d1a2368048,Registro catalográfico; aprofundamento pendente.
+Hotchkiss,M02,Europa 1919-1945,A,cataloged,40188aa0-3557-7f6a-bd17-161f69e6cd49,Registro catalográfico; aprofundamento pendente.
+Salmson,M02,Europa 1919-1945,A,cataloged,a75b31ec-90c0-7801-a9e9-dcd23223f60e,Registro catalográfico; aprofundamento pendente.
+Amilcar,M02,Europa 1919-1945,A,cataloged,0879cf3c-b32f-7714-9568-528dd441cdb7,Registro catalográfico; aprofundamento pendente.
+Mathis,M02,Europa 1919-1945,A,cataloged,13c8ba7e-d9b8-726b-9cf4-94ef7cededee,Registro catalográfico; aprofundamento pendente.
+Rosengart,M02,Europa 1919-1945,A,cataloged,00c2209a-47dc-7802-98c6-8c71a71d3662,Registro catalográfico; aprofundamento pendente.
+Simca,M02,Europa 1919-1945,A,cataloged,de3c3626-b58a-707c-bffb-b9bc95a7a5b0,Registro catalográfico; aprofundamento pendente.
+Panhard,M02,Europa 1919-1945,A,cataloged,5d46af91-6b22-781c-a073-6094e99adc23,Registro catalográfico; aprofundamento pendente.
 Bugatti,M02,Europa 1919-1945,A,published,01a01028-5456-74cd-8e02-ff30dece0237,Já existe no SQLite canônico.
-BMW,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+BMW,M02,Europa 1919-1945,A,cataloged,595117cd-7b25-705e-97ac-aa22a18bc53c,Registro catalográfico; aprofundamento pendente.
 Audi,M02,Europa 1919-1945,A,published,01a01028-5452-7d2d-8df1-441ee5876d0f,Já existe no SQLite canônico.
 Volkswagen,M02,Europa 1919-1945,A,published,01a010d9-28c3-7fc4-9f3a-3e300e1d1b76,Já existe no SQLite canônico.
-DKW,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Horch,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Wanderer,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Adler,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Maybach,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Borgward,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hanomag,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-NSU,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Steyr,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Austro-Daimler,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Praga,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aero,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Jawa,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Auto Union,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Chenard-Walcker,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lorraine-Dietrich,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Corre La Licorne,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ballot,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Donnet,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-UNIC,M02,Europa 1919-1945,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+DKW,M02,Europa 1919-1945,A,cataloged,a43a244f-7176-7535-9a2c-06025e0daa81,Registro catalográfico; aprofundamento pendente.
+Horch,M02,Europa 1919-1945,A,cataloged,a1d27127-5c28-7135-b5c8-e675435cc7c3,Registro catalográfico; aprofundamento pendente.
+Wanderer,M02,Europa 1919-1945,A,cataloged,1d300558-3899-7791-8b17-343fc6e4bf75,Registro catalográfico; aprofundamento pendente.
+Adler,M02,Europa 1919-1945,A,cataloged,15a34202-09d4-7e1b-ac97-f72605b04b8f,Registro catalográfico; aprofundamento pendente.
+Maybach,M02,Europa 1919-1945,A,cataloged,11e12eda-2f47-7622-af68-60b27044a09a,Registro catalográfico; aprofundamento pendente.
+Borgward,M02,Europa 1919-1945,A,cataloged,01409b9a-d3c4-7375-a0a5-3d8cc4d57b9a,Registro catalográfico; aprofundamento pendente.
+Hanomag,M02,Europa 1919-1945,A,cataloged,8fe0c70a-c286-769b-8264-b7b1174a862e,Registro catalográfico; aprofundamento pendente.
+NSU,M02,Europa 1919-1945,A,cataloged,0a707596-1329-79f1-acd1-cae3bba60156,Registro catalográfico; aprofundamento pendente.
+Steyr,M02,Europa 1919-1945,A,cataloged,6362bf56-9070-78e3-9906-70de83a29108,Registro catalográfico; aprofundamento pendente.
+Austro-Daimler,M02,Europa 1919-1945,A,cataloged,62611458-1c6c-7e2b-875e-8a5ec0c0b775,Registro catalográfico; aprofundamento pendente.
+Praga,M02,Europa 1919-1945,A,cataloged,7db80a89-2d91-7fa1-a6c3-ff5aebeac381,Registro catalográfico; aprofundamento pendente.
+Aero,M02,Europa 1919-1945,A,cataloged,311f415e-b5cb-71f9-a033-4787bfea33f9,Registro catalográfico; aprofundamento pendente.
+Jawa,M02,Europa 1919-1945,A,cataloged,3d77fe1c-0c08-7368-a6b9-4d68167b0816,Registro catalográfico; aprofundamento pendente.
+Auto Union,M02,Europa 1919-1945,A,cataloged,4fa1fa2b-3a33-76df-840a-5f4e0437f62f,Registro catalográfico; aprofundamento pendente.
+Chenard-Walcker,M02,Europa 1919-1945,A,cataloged,db29f510-3226-7f43-9558-35cd0049211c,Registro catalográfico; aprofundamento pendente.
+Lorraine-Dietrich,M02,Europa 1919-1945,A,cataloged,5e57105e-1b7c-79da-8d56-520dac4defa4,Registro catalográfico; aprofundamento pendente.
+Corre La Licorne,M02,Europa 1919-1945,A,cataloged,91d1f974-9f5a-7558-a670-292b645b04a9,Registro catalográfico; aprofundamento pendente.
+Ballot,M02,Europa 1919-1945,A,cataloged,ed8b5282-24ac-7e46-9518-78072f653da4,Registro catalográfico; aprofundamento pendente.
+Donnet,M02,Europa 1919-1945,A,cataloged,c88e1fbb-6232-703e-b120-ced13ea3f2af,Registro catalográfico; aprofundamento pendente.
+UNIC,M02,Europa 1919-1945,A,cataloged,f0cd661a-3806-7bf8-8b20-589bc6ac3ddd,Registro catalográfico; aprofundamento pendente.
 Chevrolet,M03,Américas,A,published,04964a08-0f19-7d5d-9170-66fc7de2c8f1,Já existe no SQLite canônico.
-Pontiac,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Oakland,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-LaSalle,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Saturn,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hummer,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mercury,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Edsel,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Continental,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Chrysler,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Plymouth,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-DeSoto,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dodge,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Imperial,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Eagle,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hudson,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Nash,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-AMC,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Kaiser,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Frazer,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Willys,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Jeep,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tucker,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Cord,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Auburn,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Duesenberg,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Graham,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Avanti,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tesla,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rivian,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lucid,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Fisker,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Karma,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Saleen,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Shelby,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Vector,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-DeLorean,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-McLaughlin,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Acadian,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bricklin,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mastretta,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-VUHL,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Crosley,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Franklin,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Marmon,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Stutz,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hupmobile,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Moon,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Durant,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Star,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ruxton,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Checker,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Geo,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Panoz,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mosler,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-SSC North America,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Czinger,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Faraday Future,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Canoo,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lordstown,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aptera,M03,Américas,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Pontiac,M03,Américas,A,cataloged,af702364-754d-70d4-95b5-25ac214173c0,Registro catalográfico; aprofundamento pendente.
+Oakland,M03,Américas,A,cataloged,b9a7c0a4-aa09-776c-9969-9acce8a863f1,Registro catalográfico; aprofundamento pendente.
+LaSalle,M03,Américas,A,cataloged,24e21a3e-7559-76e6-a870-5a5a7efc8b3e,Registro catalográfico; aprofundamento pendente.
+Saturn,M03,Américas,A,cataloged,aeadee91-3ac0-7aef-b783-267d7d9af69c,Registro catalográfico; aprofundamento pendente.
+Hummer,M03,Américas,A,cataloged,606b373f-977b-7673-883e-e9590243a760,Registro catalográfico; aprofundamento pendente.
+Mercury,M03,Américas,A,cataloged,71228398-a534-7074-b97d-665345b5295f,Registro catalográfico; aprofundamento pendente.
+Edsel,M03,Américas,A,cataloged,32057d6c-fe9c-765e-9cb0-b8764e51dfbc,Registro catalográfico; aprofundamento pendente.
+Continental,M03,Américas,A,cataloged,e0d80250-ac3e-7af6-b64a-8a1655907428,Registro catalográfico; aprofundamento pendente.
+Chrysler,M03,Américas,A,cataloged,4a4d3296-5b86-73c9-af61-e3850ed9579e,Registro catalográfico; aprofundamento pendente.
+Plymouth,M03,Américas,A,cataloged,abccb2ce-0124-7145-8f82-e87909fadc81,Registro catalográfico; aprofundamento pendente.
+DeSoto,M03,Américas,A,cataloged,6ee19e23-2050-7d28-b4df-76d644055cf7,Registro catalográfico; aprofundamento pendente.
+Dodge,M03,Américas,A,cataloged,2f616290-0fd0-7808-bb3c-c1c9292da533,Registro catalográfico; aprofundamento pendente.
+Imperial,M03,Américas,A,cataloged,86561742-51f0-7da9-ae8b-9622e8c9bb49,Registro catalográfico; aprofundamento pendente.
+Eagle,M03,Américas,A,cataloged,4d2ead26-b35f-78f9-9960-6d16e7954945,Registro catalográfico; aprofundamento pendente.
+Hudson,M03,Américas,A,cataloged,aadc76c1-17b1-7d10-95c1-988968a792cd,Registro catalográfico; aprofundamento pendente.
+Nash,M03,Américas,A,cataloged,ec72cb45-0ef9-7a25-9df4-d4006e245595,Registro catalográfico; aprofundamento pendente.
+AMC,M03,Américas,A,cataloged,588f2614-edf1-7c8e-862a-af900aea1175,Registro catalográfico; aprofundamento pendente.
+Kaiser,M03,Américas,A,cataloged,3fdfbff2-7e5c-7339-b215-4c10b9fe7088,Registro catalográfico; aprofundamento pendente.
+Frazer,M03,Américas,A,cataloged,7bcca833-4184-7c49-a4c1-84990f1ae892,Registro catalográfico; aprofundamento pendente.
+Willys,M03,Américas,A,cataloged,4b6637a6-4e5d-7478-b629-5b55a7ba262b,Registro catalográfico; aprofundamento pendente.
+Jeep,M03,Américas,A,cataloged,d493565d-ff9a-7cde-835b-99542fb7a965,Registro catalográfico; aprofundamento pendente.
+Tucker,M03,Américas,A,cataloged,2bb2a287-08f3-7e22-8c20-403d3884521e,Registro catalográfico; aprofundamento pendente.
+Cord,M03,Américas,A,cataloged,a97bc884-184e-7603-94b0-3b409f4ca258,Registro catalográfico; aprofundamento pendente.
+Auburn,M03,Américas,A,cataloged,e77d8a98-06cb-76e0-b7a4-818b4ff269bf,Registro catalográfico; aprofundamento pendente.
+Duesenberg,M03,Américas,A,cataloged,c39b1de7-5897-74c0-ad64-16113ae6ce5d,Registro catalográfico; aprofundamento pendente.
+Graham,M03,Américas,A,cataloged,3e7d6a75-9fd9-70fe-aab1-3ab870efa492,Registro catalográfico; aprofundamento pendente.
+Avanti,M03,Américas,A,cataloged,0e5a19d4-754e-7207-8567-5753ab2534be,Registro catalográfico; aprofundamento pendente.
+Tesla,M03,Américas,A,cataloged,05eb52af-27b8-70e0-8b00-5f5b8801774a,Registro catalográfico; aprofundamento pendente.
+Rivian,M03,Américas,A,cataloged,1b7bc783-98d8-7fde-ba6d-632e1e2e3ba3,Registro catalográfico; aprofundamento pendente.
+Lucid,M03,Américas,A,cataloged,ba909757-a4d3-7945-ad2d-2e28bb5b906b,Registro catalográfico; aprofundamento pendente.
+Fisker,M03,Américas,A,cataloged,08d1dc4d-2cfb-7912-afdf-af71e89da124,Registro catalográfico; aprofundamento pendente.
+Karma,M03,Américas,A,cataloged,ee89ff4f-6cfa-7119-9f57-74638a97acf8,Registro catalográfico; aprofundamento pendente.
+Saleen,M03,Américas,A,cataloged,e34f4d98-33bc-7f4c-8633-0971e358374b,Registro catalográfico; aprofundamento pendente.
+Shelby,M03,Américas,A,cataloged,e0b30932-acf2-7f52-befb-c61cd7259182,Registro catalográfico; aprofundamento pendente.
+Vector,M03,Américas,A,cataloged,14388b3f-4303-7ad1-9a9b-e3c0d4d8cb9d,Registro catalográfico; aprofundamento pendente.
+DeLorean,M03,Américas,A,cataloged,99d50fcf-3884-7eb8-85af-43eee8d517b1,Registro catalográfico; aprofundamento pendente.
+McLaughlin,M03,Américas,A,cataloged,23aaf8d5-cb55-7850-8265-5467643ec388,Registro catalográfico; aprofundamento pendente.
+Acadian,M03,Américas,A,cataloged,01dd24a4-4e9a-7ec6-bdba-f8f3d163177f,Registro catalográfico; aprofundamento pendente.
+Bricklin,M03,Américas,A,cataloged,bbf3469b-a97c-7bf0-bc9a-f0792bfbf8fa,Registro catalográfico; aprofundamento pendente.
+Mastretta,M03,Américas,A,cataloged,c5941604-d5c2-7e08-bab2-951c381af1cc,Registro catalográfico; aprofundamento pendente.
+VUHL,M03,Américas,A,cataloged,bc4dda6b-a966-78cc-90a8-1ac2c7d1bfb9,Registro catalográfico; aprofundamento pendente.
+Crosley,M03,Américas,A,cataloged,eeb81324-3491-7ebb-81eb-5d45dce59950,Registro catalográfico; aprofundamento pendente.
+Franklin,M03,Américas,A,cataloged,5cd36ca4-acb0-79b7-8ca4-8518d14646e6,Registro catalográfico; aprofundamento pendente.
+Marmon,M03,Américas,A,cataloged,ad6f678c-8833-79cc-b201-c4a9e95c1122,Registro catalográfico; aprofundamento pendente.
+Stutz,M03,Américas,A,cataloged,22405feb-647b-732f-82be-493445996d0a,Registro catalográfico; aprofundamento pendente.
+Hupmobile,M03,Américas,A,cataloged,80de0957-1c57-700f-a830-e208ad9ab3e4,Registro catalográfico; aprofundamento pendente.
+Moon,M03,Américas,A,cataloged,bddc5134-2616-7f0a-852c-f95f81ba1908,Registro catalográfico; aprofundamento pendente.
+Durant,M03,Américas,A,cataloged,8afc0e76-97d1-771b-87b6-a3feba2132f5,Registro catalográfico; aprofundamento pendente.
+Star,M03,Américas,A,cataloged,ef6d0af2-f97f-7c0a-a1d2-8a38c5474df7,Registro catalográfico; aprofundamento pendente.
+Ruxton,M03,Américas,A,cataloged,3252f82f-a0c6-7a4c-a84b-4ead11515ad1,Registro catalográfico; aprofundamento pendente.
+Checker,M03,Américas,A,cataloged,81321c60-08ec-73cb-97c8-cffc426b4285,Registro catalográfico; aprofundamento pendente.
+Geo,M03,Américas,A,cataloged,8a3ef0cc-3334-79a4-8950-1cad03bbbd4f,Registro catalográfico; aprofundamento pendente.
+Panoz,M03,Américas,A,cataloged,a78a8660-8fb5-7225-98bb-250ef7632bfe,Registro catalográfico; aprofundamento pendente.
+Mosler,M03,Américas,A,cataloged,9a97bc18-0270-7994-b671-3eeb918a80eb,Registro catalográfico; aprofundamento pendente.
+SSC North America,M03,Américas,A,cataloged,1e1bafc3-5e2e-7ff2-9d79-a09296fbb89c,Registro catalográfico; aprofundamento pendente.
+Czinger,M03,Américas,A,cataloged,028a329e-24bc-757f-96f7-9359aa0fe9d7,Registro catalográfico; aprofundamento pendente.
+Faraday Future,M03,Américas,A,cataloged,e4b3ad04-0386-7805-937f-21d2f190e152,Registro catalográfico; aprofundamento pendente.
+Canoo,M03,Américas,A,cataloged,14b7410a-23ed-7cbe-be6e-4a43e8c6a8fd,Registro catalográfico; aprofundamento pendente.
+Lordstown,M03,Américas,A,cataloged,821b1ab8-28d4-7ac2-92a0-ce4b14fa8613,Registro catalográfico; aprofundamento pendente.
+Aptera,M03,Américas,A,cataloged,1165cdd4-a423-72d7-a30e-f12638959b09,Registro catalográfico; aprofundamento pendente.
 Ferrari,M04,Itália esportiva e artesanal,A,published,01a010d9-28c4-766e-a135-aaa1e07de128,Já existe no SQLite canônico.
-Maserati,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Maserati,M04,Itália esportiva e artesanal,A,cataloged,55952030-c3ee-7407-9cd3-51a580a4492e,Registro catalográfico; aprofundamento pendente.
 Lamborghini,M04,Itália esportiva e artesanal,A,published,01a010d9-28c6-75ce-9e74-78e287675339,Já existe no SQLite canônico.
-Abarth,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Autobianchi,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Innocenti,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Iso,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bizzarrini,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-De Tomaso,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pagani,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dallara,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Cisitalia,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-OSCA,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Siata,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Moretti,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-ASA,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Cizeta,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Qvale,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-DR Automobiles,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-OM,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Nardi,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Stanguellini,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bandini,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ermini,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Intermeccanica,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-ATS,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Serenissima,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Monteverdi,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Giannini,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Fornasari,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mazzanti,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pininfarina,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bertone,M04,Itália esportiva e artesanal,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lotus,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-McLaren,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-TVR,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bristol,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Jensen,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Reliant,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Morgan,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Caterham,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Marcos,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Noble,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ariel,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ginetta,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-AC,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Austin-Healey,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Healey,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mini,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Abarth,M04,Itália esportiva e artesanal,A,cataloged,1d291b9a-fa72-7216-8eab-6c4c2200cdfb,Registro catalográfico; aprofundamento pendente.
+Autobianchi,M04,Itália esportiva e artesanal,A,cataloged,ce5cae62-0412-7b7c-98f0-431d3fe5f5ca,Registro catalográfico; aprofundamento pendente.
+Innocenti,M04,Itália esportiva e artesanal,A,cataloged,423d0a7d-53dc-756a-a4a4-8e02dacd157d,Registro catalográfico; aprofundamento pendente.
+Iso,M04,Itália esportiva e artesanal,A,cataloged,32b67207-185e-7f01-93b3-4bb319889633,Registro catalográfico; aprofundamento pendente.
+Bizzarrini,M04,Itália esportiva e artesanal,A,cataloged,fc290f3e-d411-753c-9843-a877a2d93a2d,Registro catalográfico; aprofundamento pendente.
+De Tomaso,M04,Itália esportiva e artesanal,A,cataloged,daf3612d-a486-7034-b8bc-edd390f21d34,Registro catalográfico; aprofundamento pendente.
+Pagani,M04,Itália esportiva e artesanal,A,cataloged,fda0f19f-544d-77f7-99b8-8bb3f73fe507,Registro catalográfico; aprofundamento pendente.
+Dallara,M04,Itália esportiva e artesanal,A,cataloged,72891abb-4a20-7156-a0dd-cccba04da483,Registro catalográfico; aprofundamento pendente.
+Cisitalia,M04,Itália esportiva e artesanal,A,cataloged,eefb410d-ec1c-7493-b14b-d57d417ffd18,Registro catalográfico; aprofundamento pendente.
+OSCA,M04,Itália esportiva e artesanal,A,cataloged,abb65a05-2300-741b-a0cb-210c7dd0b7d4,Registro catalográfico; aprofundamento pendente.
+Siata,M04,Itália esportiva e artesanal,A,cataloged,9fe026b3-6b6c-75f3-b9d0-e7b045f53daf,Registro catalográfico; aprofundamento pendente.
+Moretti,M04,Itália esportiva e artesanal,A,cataloged,17f61a60-348f-7951-8103-1c9a128bd033,Registro catalográfico; aprofundamento pendente.
+ASA,M04,Itália esportiva e artesanal,A,cataloged,e05504e5-c761-738a-b9c2-3299f1594917,Registro catalográfico; aprofundamento pendente.
+Cizeta,M04,Itália esportiva e artesanal,A,cataloged,6a9fd106-4dde-77cd-aa97-a63298517851,Registro catalográfico; aprofundamento pendente.
+Qvale,M04,Itália esportiva e artesanal,A,cataloged,5afb3e9f-b7a8-7e79-b7e7-cdb8ac0194f1,Registro catalográfico; aprofundamento pendente.
+DR Automobiles,M04,Itália esportiva e artesanal,A,cataloged,c794a29e-99d2-7998-bfd5-160bcc0cbca8,Registro catalográfico; aprofundamento pendente.
+OM,M04,Itália esportiva e artesanal,A,cataloged,698ef6d4-39b3-7a67-8483-1e6baa045cf3,Registro catalográfico; aprofundamento pendente.
+Nardi,M04,Itália esportiva e artesanal,A,cataloged,b4273c6c-7c82-7d41-8531-0873a161bb97,Registro catalográfico; aprofundamento pendente.
+Stanguellini,M04,Itália esportiva e artesanal,A,cataloged,5cd91f7c-3287-7c9e-ad2d-b60169cbff85,Registro catalográfico; aprofundamento pendente.
+Bandini,M04,Itália esportiva e artesanal,A,cataloged,65042210-404c-7b6c-b17e-67a54b82488c,Registro catalográfico; aprofundamento pendente.
+Ermini,M04,Itália esportiva e artesanal,A,cataloged,f141a8ea-3836-7189-a345-2adf469375f7,Registro catalográfico; aprofundamento pendente.
+Intermeccanica,M04,Itália esportiva e artesanal,A,cataloged,7edcb429-fde6-7aca-b3d7-d55acab3b67a,Registro catalográfico; aprofundamento pendente.
+ATS,M04,Itália esportiva e artesanal,A,cataloged,4cb0b60d-0cc7-76e3-97ea-5722f2745466,Registro catalográfico; aprofundamento pendente.
+Serenissima,M04,Itália esportiva e artesanal,A,cataloged,bda45b5b-71fe-73af-8ffe-f13f82125e7b,Registro catalográfico; aprofundamento pendente.
+Monteverdi,M04,Itália esportiva e artesanal,A,cataloged,90f1701d-3d74-768d-870c-f54a7eebea92,Registro catalográfico; aprofundamento pendente.
+Giannini,M04,Itália esportiva e artesanal,A,cataloged,19e4cc7d-1349-7118-ade6-e3fed804a5ca,Registro catalográfico; aprofundamento pendente.
+Fornasari,M04,Itália esportiva e artesanal,A,cataloged,d00acc98-bb83-79f2-b362-f1273bdb706f,Registro catalográfico; aprofundamento pendente.
+Mazzanti,M04,Itália esportiva e artesanal,A,cataloged,9b23f73d-adb4-7839-96ab-4fc8eb116502,Registro catalográfico; aprofundamento pendente.
+Pininfarina,M04,Itália esportiva e artesanal,A,cataloged,a66dc7cf-b732-7640-9dc4-aaf82c28523a,Registro catalográfico; aprofundamento pendente.
+Bertone,M04,Itália esportiva e artesanal,A,cataloged,be240501-ae3f-710e-aaa8-c9af896183ff,Registro catalográfico; aprofundamento pendente.
+Lotus,M05,Reino Unido,A,cataloged,81007761-33f5-770e-8be1-07ea48e783a3,Registro catalográfico; aprofundamento pendente.
+McLaren,M05,Reino Unido,A,cataloged,1bdbcf50-2bb7-79c2-92db-e17afad4b49b,Registro catalográfico; aprofundamento pendente.
+TVR,M05,Reino Unido,A,cataloged,652ca296-63e5-7bc9-b49a-85b50775aa27,Registro catalográfico; aprofundamento pendente.
+Bristol,M05,Reino Unido,A,cataloged,95414431-a227-7c9f-b45b-3d64f8e5dbd9,Registro catalográfico; aprofundamento pendente.
+Jensen,M05,Reino Unido,A,cataloged,4ebc4a54-a565-74e2-8710-cfd33b0249ac,Registro catalográfico; aprofundamento pendente.
+Reliant,M05,Reino Unido,A,cataloged,666d6c1b-5b93-771d-a6f4-59e02e367588,Registro catalográfico; aprofundamento pendente.
+Morgan,M05,Reino Unido,A,cataloged,1030d10f-c641-7de7-b141-d710a5cf37f1,Registro catalográfico; aprofundamento pendente.
+Caterham,M05,Reino Unido,A,cataloged,ca5f9b29-3af0-74a3-8fe6-672c0e3f9b5d,Registro catalográfico; aprofundamento pendente.
+Marcos,M05,Reino Unido,A,cataloged,d95a861d-5b80-7d65-b2c1-bb986f33ecba,Registro catalográfico; aprofundamento pendente.
+Noble,M05,Reino Unido,A,cataloged,f45d11e3-1e44-7611-a63a-616e83b8b114,Registro catalográfico; aprofundamento pendente.
+Ariel,M05,Reino Unido,A,cataloged,1510c3a4-b9a8-7860-8361-ff33465bfebb,Registro catalográfico; aprofundamento pendente.
+Ginetta,M05,Reino Unido,A,cataloged,56b39093-f79c-7de1-91ae-fe0c3722addf,Registro catalográfico; aprofundamento pendente.
+AC,M05,Reino Unido,A,cataloged,6d5e318e-3832-7ae2-abaa-c5866fff8e17,Registro catalográfico; aprofundamento pendente.
+Austin-Healey,M05,Reino Unido,A,cataloged,c8358283-6e88-766e-9ab5-0b6763afc0d2,Registro catalográfico; aprofundamento pendente.
+Healey,M05,Reino Unido,A,cataloged,eb391d9a-a52e-75dc-9b1c-cd9e791d6aa2,Registro catalográfico; aprofundamento pendente.
+Mini,M05,Reino Unido,A,cataloged,4c51f5e7-f68c-7808-826d-167d64930735,Registro catalográfico; aprofundamento pendente.
 Land Rover,M05,Reino Unido,A,published,01a010d9-28c4-7348-b3c2-bb473308aff8,Já existe no SQLite canônico.
-Range Rover,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Vanden Plas,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Princess,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Daimler (British marque),M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lanchester,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Armstrong Siddeley,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Gordon-Keeble,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Gilbern,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bond,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Berkeley,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Turner,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Peerless GT,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Warwick,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Panther,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Invicta,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Allard,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Frazer Nash,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-BAC,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Radical,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ultima,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-LEVC,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ineos,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Arrival,M05,Reino Unido,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Toyota,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Toyopet,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lexus,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Daihatsu,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Nissan,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Datsun,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Infiniti,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Prince,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Honda,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Acura,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mazda,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mitsubishi,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Subaru,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Suzuki,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Isuzu,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Scion,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Eunos,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Autozam,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mitsuoka,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tommykaira,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aspark,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ohta,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tama,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hino,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Suminoe,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Cony,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aichi Machine Industry,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dome,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Buddy,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Takeoka,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Autech,M06,Japão,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hyundai,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Genesis,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Kia,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Daewoo,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-SsangYong,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-KGM,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Samsung Motors,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Renault Korea,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Asia Motors,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Proto Motors,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Range Rover,M05,Reino Unido,A,cataloged,b3c2cf0b-5936-7190-8874-639198e10162,Registro catalográfico; aprofundamento pendente.
+Vanden Plas,M05,Reino Unido,A,cataloged,bd1260c9-715e-70ad-81fa-f271b2d566e1,Registro catalográfico; aprofundamento pendente.
+Princess,M05,Reino Unido,A,cataloged,b746aafd-1c99-740e-ac1b-840d358053e9,Registro catalográfico; aprofundamento pendente.
+Daimler (British marque),M05,Reino Unido,A,cataloged,03ad8907-fe54-76da-be71-473097c6be1c,Registro catalográfico; aprofundamento pendente.
+Lanchester,M05,Reino Unido,A,cataloged,b5b98ae6-87a0-7d3b-99d4-5b290ce9da22,Registro catalográfico; aprofundamento pendente.
+Armstrong Siddeley,M05,Reino Unido,A,cataloged,45ab78f7-6618-74be-b6ba-653791dfa090,Registro catalográfico; aprofundamento pendente.
+Gordon-Keeble,M05,Reino Unido,A,cataloged,195686a1-f425-7b1b-abf6-913df9382e24,Registro catalográfico; aprofundamento pendente.
+Gilbern,M05,Reino Unido,A,cataloged,9eaca1df-6a84-7529-bbb2-cfd44d0749e4,Registro catalográfico; aprofundamento pendente.
+Bond,M05,Reino Unido,A,cataloged,b925657e-81d3-7546-a134-a19bcfb39333,Registro catalográfico; aprofundamento pendente.
+Berkeley,M05,Reino Unido,A,cataloged,2ec1f810-7827-715b-a56f-6d5379f3912d,Registro catalográfico; aprofundamento pendente.
+Turner,M05,Reino Unido,A,cataloged,481ccb57-9766-73b9-a838-053f2452aacb,Registro catalográfico; aprofundamento pendente.
+Peerless GT,M05,Reino Unido,A,cataloged,e925a72e-72c4-7ed6-a813-1fc2de305be8,Registro catalográfico; aprofundamento pendente.
+Warwick,M05,Reino Unido,A,cataloged,881d4843-085b-7c17-be61-eb7599fcfa84,Registro catalográfico; aprofundamento pendente.
+Panther,M05,Reino Unido,A,cataloged,770f9ea4-40ff-73aa-a0e5-0d88918d5bc9,Registro catalográfico; aprofundamento pendente.
+Invicta,M05,Reino Unido,A,cataloged,71bb527c-cf1c-7dca-850e-3db081cac48e,Registro catalográfico; aprofundamento pendente.
+Allard,M05,Reino Unido,A,cataloged,d9e7dcf7-803c-75ee-80ed-c3b6d170f2e9,Registro catalográfico; aprofundamento pendente.
+Frazer Nash,M05,Reino Unido,A,cataloged,aec58d08-99cb-7d5c-abe9-bc83d957b82c,Registro catalográfico; aprofundamento pendente.
+BAC,M05,Reino Unido,A,cataloged,66f6198a-cf5f-73c6-8101-a3102bc80d38,Registro catalográfico; aprofundamento pendente.
+Radical,M05,Reino Unido,A,cataloged,9218f294-f21f-760d-9383-1fee95930abe,Registro catalográfico; aprofundamento pendente.
+Ultima,M05,Reino Unido,A,cataloged,fe60c35b-b12a-7e78-b6c9-287809edb2c9,Registro catalográfico; aprofundamento pendente.
+LEVC,M05,Reino Unido,A,cataloged,fff92131-5928-7cf6-9090-c8dfb1b35b2d,Registro catalográfico; aprofundamento pendente.
+Ineos,M05,Reino Unido,A,cataloged,ffc71753-9b27-7e7f-8cf9-d89dd3a6e0b8,Registro catalográfico; aprofundamento pendente.
+Arrival,M05,Reino Unido,A,cataloged,e8471690-b9ba-7f7d-8f55-447f71191d0b,Registro catalográfico; aprofundamento pendente.
+Toyota,M06,Japão,A,cataloged,c07143ed-efee-7d47-b0b1-c696a6e5a468,Registro catalográfico; aprofundamento pendente.
+Toyopet,M06,Japão,A,cataloged,d2269802-1308-75b1-a8f6-b3eff3152b6d,Registro catalográfico; aprofundamento pendente.
+Lexus,M06,Japão,A,cataloged,d700c8c2-b71c-7125-b73c-6d892921c8d9,Registro catalográfico; aprofundamento pendente.
+Daihatsu,M06,Japão,A,cataloged,ee177876-ac4a-7c60-b4da-5711afe95288,Registro catalográfico; aprofundamento pendente.
+Nissan,M06,Japão,A,cataloged,d0a21da7-5fc5-737d-85f3-ce621f037132,Registro catalográfico; aprofundamento pendente.
+Datsun,M06,Japão,A,cataloged,d19ebe24-ad21-79f2-a953-94c6a0e58cb6,Registro catalográfico; aprofundamento pendente.
+Infiniti,M06,Japão,A,cataloged,40e34b59-a12b-7914-a704-dc41691b611b,Registro catalográfico; aprofundamento pendente.
+Prince,M06,Japão,A,cataloged,2a8c9fa8-8d04-7b2b-8906-b4feaff7e1d5,Registro catalográfico; aprofundamento pendente.
+Honda,M06,Japão,A,cataloged,d46f96f5-6150-78a6-9e6c-1d9982d239dc,Registro catalográfico; aprofundamento pendente.
+Acura,M06,Japão,A,cataloged,6e4fe7d3-5da3-7561-ae49-6911b4878d26,Registro catalográfico; aprofundamento pendente.
+Mazda,M06,Japão,A,cataloged,ef2c5fdd-bbbd-7ca5-8706-25b50e8ad905,Registro catalográfico; aprofundamento pendente.
+Mitsubishi,M06,Japão,A,cataloged,adb6495f-3804-7961-a486-d3140c6c783b,Registro catalográfico; aprofundamento pendente.
+Subaru,M06,Japão,A,cataloged,6c93da37-a355-72be-9fea-9c8c7ae87d13,Registro catalográfico; aprofundamento pendente.
+Suzuki,M06,Japão,A,cataloged,e1a0bfef-53ae-7f7f-a1f5-9cb3beba87aa,Registro catalográfico; aprofundamento pendente.
+Isuzu,M06,Japão,A,cataloged,0f172eb4-d628-71cd-945e-8281e7dcfeca,Registro catalográfico; aprofundamento pendente.
+Scion,M06,Japão,A,cataloged,5bfcc921-cab8-77ed-973d-857dc0aa1314,Registro catalográfico; aprofundamento pendente.
+Eunos,M06,Japão,A,cataloged,bdeded2c-ef65-7612-967a-95bb5915e285,Registro catalográfico; aprofundamento pendente.
+Autozam,M06,Japão,A,cataloged,3d138a11-b437-7df5-9233-0be77a5ee5d2,Registro catalográfico; aprofundamento pendente.
+Mitsuoka,M06,Japão,A,cataloged,9e157947-2bd4-70bc-b779-41f59b2cb8f9,Registro catalográfico; aprofundamento pendente.
+Tommykaira,M06,Japão,A,cataloged,42f0aeb0-9815-76a2-8404-4801104737e0,Registro catalográfico; aprofundamento pendente.
+Aspark,M06,Japão,A,cataloged,c04c5641-b3fb-7b23-9934-a6ce4093b62d,Registro catalográfico; aprofundamento pendente.
+Ohta,M06,Japão,A,cataloged,42272c80-3b0c-717d-8e93-7d39e818ca4d,Registro catalográfico; aprofundamento pendente.
+Tama,M06,Japão,A,cataloged,f6df7fe2-3972-72c7-a28e-4436c5f5b9b5,Registro catalográfico; aprofundamento pendente.
+Hino,M06,Japão,A,cataloged,8c410e59-18d8-762e-a89f-910ffe82d73a,Registro catalográfico; aprofundamento pendente.
+Suminoe,M06,Japão,A,cataloged,6a186f83-5376-7ed6-a81d-03bc59402323,Registro catalográfico; aprofundamento pendente.
+Cony,M06,Japão,A,cataloged,449dec8c-2c6d-7d78-8e7f-fc0af2fa09fe,Registro catalográfico; aprofundamento pendente.
+Aichi Machine Industry,M06,Japão,A,cataloged,f1f17920-3b07-71df-9e55-d200545afee9,Registro catalográfico; aprofundamento pendente.
+Dome,M06,Japão,A,cataloged,3deea547-4b88-71ce-9529-eeb313819a74,Registro catalográfico; aprofundamento pendente.
+Buddy,M06,Japão,A,cataloged,82091a18-6aec-7d57-9241-1f68321f9fa4,Registro catalográfico; aprofundamento pendente.
+Takeoka,M06,Japão,A,cataloged,9b347ff2-fd81-71e9-8b59-464d6d105994,Registro catalográfico; aprofundamento pendente.
+Autech,M06,Japão,A,cataloged,36208b5a-ed16-7622-b673-3d691deb2795,Registro catalográfico; aprofundamento pendente.
+Hyundai,M07,Coreia China Taiwan,A,cataloged,c0fc7e39-3ccc-7a68-8122-11be44159607,Registro catalográfico; aprofundamento pendente.
+Genesis,M07,Coreia China Taiwan,A,cataloged,78ec717e-5f29-7159-a76c-2ae02c5f6067,Registro catalográfico; aprofundamento pendente.
+Kia,M07,Coreia China Taiwan,A,cataloged,897472c5-6fb3-7993-ae85-bb6c6035e1c7,Registro catalográfico; aprofundamento pendente.
+Daewoo,M07,Coreia China Taiwan,A,cataloged,e70a1b13-322e-7455-a7d9-945876cbffc8,Registro catalográfico; aprofundamento pendente.
+SsangYong,M07,Coreia China Taiwan,A,cataloged,227dd5de-7464-7c60-aa66-b04a7fe13c81,Registro catalográfico; aprofundamento pendente.
+KGM,M07,Coreia China Taiwan,A,cataloged,0e77605e-8176-7960-abc5-ae1cc7a57413,Registro catalográfico; aprofundamento pendente.
+Samsung Motors,M07,Coreia China Taiwan,A,cataloged,327ba5c2-283a-7fad-92e1-2549184a00e7,Registro catalográfico; aprofundamento pendente.
+Renault Korea,M07,Coreia China Taiwan,A,cataloged,ac780554-3adc-749c-a2cd-b3769f096384,Registro catalográfico; aprofundamento pendente.
+Asia Motors,M07,Coreia China Taiwan,A,cataloged,df0e4464-fc69-7528-96b1-ddddc06bec1c,Registro catalográfico; aprofundamento pendente.
+Proto Motors,M07,Coreia China Taiwan,A,cataloged,2e06f3af-078c-78d9-97a1-92832cdab09c,Registro catalográfico; aprofundamento pendente.
 Hongqi,M07,Coreia China Taiwan,A,published,01a01028-5447-779e-8317-57316b628d02,Já existe no SQLite canônico.
-SAIC,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Roewe,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Nanjing,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Geely,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lynk & Co,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Zeekr,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Chery,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Exeed,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Jetour,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Great Wall,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Haval,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ora,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Wey,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-BYD,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Denza,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Yangwang,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Fangchengbao,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Nio,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Onvo,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Firefly,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-XPeng,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Li Auto,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Leapmotor,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Xiaomi Auto,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-GAC,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aion,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dongfeng,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Voyah,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Changan,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Avatr,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-JAC,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-BAIC,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Arcfox,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-FAW,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bestune,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Wuling,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Baojun,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Seres,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aito,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Luxgen,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Yulon,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Brilliance,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Neta,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aiways,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Skywell,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-IM Motors,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Deepal,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Qoros,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Zotye,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lifan,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hafei,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Haima,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Soueast,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Maxus,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Omoda,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Jaecoo,M07,Coreia China Taiwan,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hindustan,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Premier,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tata,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mahindra,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Maruti Suzuki,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Force Motors,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Standard India,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Sipani,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Reva,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-DC Avanti,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-VinFast,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Proton,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Perodua,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bufori,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Thai Rung,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Iran Khodro,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Saipa,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pars Khodro,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-W Motors,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bajaj,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ather,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Ola Electric,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pravaig,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mean Metal Motors,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Vayve Mobility,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Eicher,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-San Storm,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Chinkara,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Esemka,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Timor,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pindad,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-MVM,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bahman,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Paykan,M08,Índia Sudeste Asiático Oriente Médio,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Zastava,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Yugo,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dacia,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Oltcit,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-FSO,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Syrena,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Wartburg,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Trabant,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Sachsenring,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lada,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Moskvitch,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-GAZ,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-ZIL,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-ZAZ,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-LuAZ,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Melkus,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rimac,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-IZh,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-SMZ,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Marussia,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aurus,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Sollers,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Doninvest,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-TagAZ,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aleko,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Velorex,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Avia,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Barkas,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rába,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tushek,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-KTM X-Bow,M09,Europa Central e Oriental,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Volvo,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Saab,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Polestar,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Koenigsegg,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-NEVS,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Donkervoort,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-DAF,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Spyker,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Minerva,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Imperia,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-FN,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-SEAT,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Cupra,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pegaso,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Santana,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tramontana,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Spania GTA,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-UMM,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Portaro,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Adamastor,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Think,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Buddy Electric,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Caresto,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lightyear,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Carver,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Burton,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Vencer,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Edran,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Gillet,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Apal,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hurtan,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Comarth,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Aspid,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Biscúter,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Authi,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Sado,M10,Escandinávia Benelux Ibéria,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+SAIC,M07,Coreia China Taiwan,A,cataloged,a8704304-70fc-761a-82ed-1c9308a60acd,Registro catalográfico; aprofundamento pendente.
+Roewe,M07,Coreia China Taiwan,A,cataloged,e9565139-993e-7f77-a66d-745f56559437,Registro catalográfico; aprofundamento pendente.
+Nanjing,M07,Coreia China Taiwan,A,cataloged,e774b9ca-9331-7c36-ae66-8bea53f19d41,Registro catalográfico; aprofundamento pendente.
+Geely,M07,Coreia China Taiwan,A,cataloged,d17a6182-45d8-79ba-8921-7f46e99a350b,Registro catalográfico; aprofundamento pendente.
+Lynk & Co,M07,Coreia China Taiwan,A,cataloged,f1237a54-0b5f-71ac-a1bb-8a004ee779f6,Registro catalográfico; aprofundamento pendente.
+Zeekr,M07,Coreia China Taiwan,A,cataloged,0d752890-f19b-79c5-8ef2-b5532b273a4b,Registro catalográfico; aprofundamento pendente.
+Chery,M07,Coreia China Taiwan,A,cataloged,e99d00e2-f550-7fa4-bb70-786f87a9954a,Registro catalográfico; aprofundamento pendente.
+Exeed,M07,Coreia China Taiwan,A,cataloged,5ccb1c63-8b2c-7197-a78c-daf1a4351fdf,Registro catalográfico; aprofundamento pendente.
+Jetour,M07,Coreia China Taiwan,A,cataloged,ac42c622-3dd8-70f1-a01b-46ae094acc1d,Registro catalográfico; aprofundamento pendente.
+Great Wall,M07,Coreia China Taiwan,A,cataloged,db686f13-fc13-7282-ae27-995a8b499622,Registro catalográfico; aprofundamento pendente.
+Haval,M07,Coreia China Taiwan,A,cataloged,739ee703-760d-7d68-ac15-814f8d042b6a,Registro catalográfico; aprofundamento pendente.
+Ora,M07,Coreia China Taiwan,A,cataloged,8c6bf04e-c9da-7938-8d00-1635b34179af,Registro catalográfico; aprofundamento pendente.
+Wey,M07,Coreia China Taiwan,A,cataloged,6194f306-ff2e-7b2d-9bf8-41f7775be531,Registro catalográfico; aprofundamento pendente.
+BYD,M07,Coreia China Taiwan,A,cataloged,4c00601f-1cf8-7187-99b3-5a0cc366e70e,Registro catalográfico; aprofundamento pendente.
+Denza,M07,Coreia China Taiwan,A,cataloged,90a7c59e-c142-7aa5-ac6d-0765f294ca54,Registro catalográfico; aprofundamento pendente.
+Yangwang,M07,Coreia China Taiwan,A,cataloged,209f3cdb-19d0-7426-9773-3632377ffbbf,Registro catalográfico; aprofundamento pendente.
+Fangchengbao,M07,Coreia China Taiwan,A,cataloged,d3cd822d-fd10-721c-b24c-2b5b963be9ad,Registro catalográfico; aprofundamento pendente.
+Nio,M07,Coreia China Taiwan,A,cataloged,82d25b2d-9629-79ec-93e5-e5a62515a8ee,Registro catalográfico; aprofundamento pendente.
+Onvo,M07,Coreia China Taiwan,A,cataloged,070affde-54e7-7158-b8a9-f4e91ac46582,Registro catalográfico; aprofundamento pendente.
+Firefly,M07,Coreia China Taiwan,A,cataloged,bf829f94-fcb2-73d8-8548-231f3073aeac,Registro catalográfico; aprofundamento pendente.
+XPeng,M07,Coreia China Taiwan,A,cataloged,8afe26d4-de69-7ddd-bc64-4d407bd98034,Registro catalográfico; aprofundamento pendente.
+Li Auto,M07,Coreia China Taiwan,A,cataloged,f5a2ac23-168d-7aae-bd68-6392d0d4a92a,Registro catalográfico; aprofundamento pendente.
+Leapmotor,M07,Coreia China Taiwan,A,cataloged,9ac6b546-d4c4-70db-ab47-e6c77f577a57,Registro catalográfico; aprofundamento pendente.
+Xiaomi Auto,M07,Coreia China Taiwan,A,cataloged,843c3456-ede9-7241-8c4a-0ea06ef10b7a,Registro catalográfico; aprofundamento pendente.
+GAC,M07,Coreia China Taiwan,A,cataloged,b87454c3-d71a-7a57-a2c3-fc9e8761c0b0,Registro catalográfico; aprofundamento pendente.
+Aion,M07,Coreia China Taiwan,A,cataloged,c148a737-225f-7e11-913d-01a196cf1e00,Registro catalográfico; aprofundamento pendente.
+Dongfeng,M07,Coreia China Taiwan,A,cataloged,2230baff-024e-739b-b451-45de6a31dd08,Registro catalográfico; aprofundamento pendente.
+Voyah,M07,Coreia China Taiwan,A,cataloged,0d96dd0a-0665-771c-b610-1612e001e1f7,Registro catalográfico; aprofundamento pendente.
+Changan,M07,Coreia China Taiwan,A,cataloged,2a2fb4b6-e2b3-75f6-a058-1a3dffd3a81f,Registro catalográfico; aprofundamento pendente.
+Avatr,M07,Coreia China Taiwan,A,cataloged,5db607bb-ca69-7a5e-9334-e26e7473e4fe,Registro catalográfico; aprofundamento pendente.
+JAC,M07,Coreia China Taiwan,A,cataloged,5619e133-7125-73a6-8e84-a57dad55da72,Registro catalográfico; aprofundamento pendente.
+BAIC,M07,Coreia China Taiwan,A,cataloged,e3692289-1361-7cba-9ced-b973d120018f,Registro catalográfico; aprofundamento pendente.
+Arcfox,M07,Coreia China Taiwan,A,cataloged,d7e33c43-598d-7ba0-9a43-f4be0241d762,Registro catalográfico; aprofundamento pendente.
+FAW,M07,Coreia China Taiwan,A,cataloged,ddc72757-7b16-752d-936d-41f19c49d0c3,Registro catalográfico; aprofundamento pendente.
+Bestune,M07,Coreia China Taiwan,A,cataloged,67e5d433-b96c-7fa4-9cdc-aa42ad799a79,Registro catalográfico; aprofundamento pendente.
+Wuling,M07,Coreia China Taiwan,A,cataloged,8c4587be-b30f-768e-9035-0d0f216149d4,Registro catalográfico; aprofundamento pendente.
+Baojun,M07,Coreia China Taiwan,A,cataloged,86520623-11fb-70c5-bbdf-009e76b96fff,Registro catalográfico; aprofundamento pendente.
+Seres,M07,Coreia China Taiwan,A,cataloged,c45812b9-d719-7fe1-9294-97682af6a421,Registro catalográfico; aprofundamento pendente.
+Aito,M07,Coreia China Taiwan,A,cataloged,b16bf2fc-cc2d-77b2-9a6a-592732b71359,Registro catalográfico; aprofundamento pendente.
+Luxgen,M07,Coreia China Taiwan,A,cataloged,f249aa01-706a-79fe-95e7-744f840847ad,Registro catalográfico; aprofundamento pendente.
+Yulon,M07,Coreia China Taiwan,A,cataloged,de26ef47-a3ea-7a83-8413-8e669dfdd329,Registro catalográfico; aprofundamento pendente.
+Brilliance,M07,Coreia China Taiwan,A,cataloged,1223e264-22d0-7752-b6ce-01fdbaaf330f,Registro catalográfico; aprofundamento pendente.
+Neta,M07,Coreia China Taiwan,A,cataloged,6bfee86e-d5b9-7d6f-97eb-25e3bfd73ac0,Registro catalográfico; aprofundamento pendente.
+Aiways,M07,Coreia China Taiwan,A,cataloged,145e4590-c5e2-784f-9650-46b8673e4089,Registro catalográfico; aprofundamento pendente.
+Skywell,M07,Coreia China Taiwan,A,cataloged,cea484f3-d2c3-78ec-8146-0d9aa58b246e,Registro catalográfico; aprofundamento pendente.
+IM Motors,M07,Coreia China Taiwan,A,cataloged,68c91c11-8df1-7594-b194-41f804d3f038,Registro catalográfico; aprofundamento pendente.
+Deepal,M07,Coreia China Taiwan,A,cataloged,4e64cbff-927b-770b-90e0-f50eb674b62a,Registro catalográfico; aprofundamento pendente.
+Qoros,M07,Coreia China Taiwan,A,cataloged,956d737a-3586-7fc4-9aa5-cf2402bf1c6b,Registro catalográfico; aprofundamento pendente.
+Zotye,M07,Coreia China Taiwan,A,cataloged,333eb565-ffaa-7eb3-b936-b78516ab8425,Registro catalográfico; aprofundamento pendente.
+Lifan,M07,Coreia China Taiwan,A,cataloged,83135716-a6d7-7e14-8720-41dc54651ac8,Registro catalográfico; aprofundamento pendente.
+Hafei,M07,Coreia China Taiwan,A,cataloged,1366e403-4de3-7652-9dc0-139ce8b494a3,Registro catalográfico; aprofundamento pendente.
+Haima,M07,Coreia China Taiwan,A,cataloged,b37e2eac-2e70-717e-a358-6f51f7739203,Registro catalográfico; aprofundamento pendente.
+Soueast,M07,Coreia China Taiwan,A,cataloged,51e3cca0-c289-722e-bf25-6bc50b3cd445,Registro catalográfico; aprofundamento pendente.
+Maxus,M07,Coreia China Taiwan,A,cataloged,b8ae024d-4f32-7b0c-8091-326b2714dd57,Registro catalográfico; aprofundamento pendente.
+Omoda,M07,Coreia China Taiwan,A,cataloged,5b19bda4-a243-7671-a6a8-269acf0dae71,Registro catalográfico; aprofundamento pendente.
+Jaecoo,M07,Coreia China Taiwan,A,cataloged,c5589bf9-237e-7938-b5e5-b94781bd91e9,Registro catalográfico; aprofundamento pendente.
+Hindustan,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,55f8ed3f-8aec-775f-a57d-f5242f46c4b0,Registro catalográfico; aprofundamento pendente.
+Premier,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,730d5835-bb8a-7ae2-95c6-303c27409185,Registro catalográfico; aprofundamento pendente.
+Tata,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,4ce8eb27-e506-7cd6-96f5-b0d1fc45f56a,Registro catalográfico; aprofundamento pendente.
+Mahindra,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,53e2aa3d-661b-75b7-a543-f7e7fff99b70,Registro catalográfico; aprofundamento pendente.
+Maruti Suzuki,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,7fad4ad7-3360-754d-b55e-42399fb1d3e6,Registro catalográfico; aprofundamento pendente.
+Force Motors,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,2c4fd14a-290c-7b1c-826d-0399b5457232,Registro catalográfico; aprofundamento pendente.
+Standard India,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,a94e37b8-7689-78e9-adc8-f48e124f7411,Registro catalográfico; aprofundamento pendente.
+Sipani,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,51ef9c67-7a3a-73fa-893d-5a33640cd02d,Registro catalográfico; aprofundamento pendente.
+Reva,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,a0aee1e0-75f5-78b1-8219-c7bf68cb2f31,Registro catalográfico; aprofundamento pendente.
+DC Avanti,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,f08ccedb-40a5-7eab-9072-adc80f3f20ca,Registro catalográfico; aprofundamento pendente.
+VinFast,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,e9192936-23a3-7070-8575-6b8ca0b28fde,Registro catalográfico; aprofundamento pendente.
+Proton,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,a9f49f6a-cf9d-7e98-a2d9-c6372b68c388,Registro catalográfico; aprofundamento pendente.
+Perodua,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,c4a7442f-5f4d-7072-b581-769fb27e1f99,Registro catalográfico; aprofundamento pendente.
+Bufori,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,ad344e68-b765-77d2-ba1f-db5a74874ef8,Registro catalográfico; aprofundamento pendente.
+Thai Rung,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,ccbb4e7a-fffa-75d6-be32-7606582f5e9d,Registro catalográfico; aprofundamento pendente.
+Iran Khodro,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,42811071-1737-7ba9-8422-a10849754062,Registro catalográfico; aprofundamento pendente.
+Saipa,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,512bb56f-120d-784d-9b0d-9f08d3fe837e,Registro catalográfico; aprofundamento pendente.
+Pars Khodro,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,d7019bf8-4782-7431-9d3c-6a915d69bdac,Registro catalográfico; aprofundamento pendente.
+W Motors,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,66a07734-0f81-7f54-a34e-e68f977b78db,Registro catalográfico; aprofundamento pendente.
+Bajaj,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,1ffc234c-ff14-7f5c-84a9-082c987e9a83,Registro catalográfico; aprofundamento pendente.
+Ather,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,a697eb32-1d8f-76a0-a296-afc127e98025,Registro catalográfico; aprofundamento pendente.
+Ola Electric,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,1178bc00-98c9-742d-b6b6-b8f57d53ad2f,Registro catalográfico; aprofundamento pendente.
+Pravaig,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,959133ad-8db3-7656-a647-d30048337238,Registro catalográfico; aprofundamento pendente.
+Mean Metal Motors,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,101b9bb6-2638-7f67-923e-7db231aa484a,Registro catalográfico; aprofundamento pendente.
+Vayve Mobility,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,cc8d36f2-072d-7f50-b617-dfd475be3b2f,Registro catalográfico; aprofundamento pendente.
+Eicher,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,76fe83f4-87d4-7e56-96ed-08fa4523cbeb,Registro catalográfico; aprofundamento pendente.
+San Storm,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,d934ad20-f1d6-73c9-9ed8-cdb0e6e9ea9c,Registro catalográfico; aprofundamento pendente.
+Chinkara,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,7317aea1-0a9c-7bc0-ad55-af252d50e553,Registro catalográfico; aprofundamento pendente.
+Esemka,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,72317cfc-4cff-7828-bf88-9b6168d9b80c,Registro catalográfico; aprofundamento pendente.
+Timor,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,e51a5d28-7233-7980-963f-260870a6e200,Registro catalográfico; aprofundamento pendente.
+Pindad,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,d6032db8-bbd0-7f65-bd94-4b645c56bba9,Registro catalográfico; aprofundamento pendente.
+MVM,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,3a6845de-e938-7aec-b64a-23c0cb8b745b,Registro catalográfico; aprofundamento pendente.
+Bahman,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,cc7bef3a-6372-7b72-9397-7b187c194175,Registro catalográfico; aprofundamento pendente.
+Paykan,M08,Índia Sudeste Asiático Oriente Médio,A,cataloged,288ac4ce-ee61-7460-8104-1290be959326,Registro catalográfico; aprofundamento pendente.
+Zastava,M09,Europa Central e Oriental,A,cataloged,44fdaabf-5a75-700b-b76e-8f55b39a8223,Registro catalográfico; aprofundamento pendente.
+Yugo,M09,Europa Central e Oriental,A,cataloged,e335376e-b78d-705e-8d6b-a5555b122811,Registro catalográfico; aprofundamento pendente.
+Dacia,M09,Europa Central e Oriental,A,cataloged,447a9766-0d4b-7a1d-83ed-ae69be77b838,Registro catalográfico; aprofundamento pendente.
+Oltcit,M09,Europa Central e Oriental,A,cataloged,cd5e4b3c-3d33-7fb4-816e-761e3928db07,Registro catalográfico; aprofundamento pendente.
+FSO,M09,Europa Central e Oriental,A,cataloged,6bb3aa7f-6bb9-7888-8640-7658d220b5d6,Registro catalográfico; aprofundamento pendente.
+Syrena,M09,Europa Central e Oriental,A,cataloged,caeafe60-9e1a-7dd9-b2af-68da8fa0a1a0,Registro catalográfico; aprofundamento pendente.
+Wartburg,M09,Europa Central e Oriental,A,cataloged,14cbd1f9-f7c3-7be6-aa74-7df07304b4ea,Registro catalográfico; aprofundamento pendente.
+Trabant,M09,Europa Central e Oriental,A,cataloged,5a406283-119c-76de-b61e-3ff77b98c90e,Registro catalográfico; aprofundamento pendente.
+Sachsenring,M09,Europa Central e Oriental,A,cataloged,69ad6dc1-135d-757d-97e4-2bf2654c2d7b,Registro catalográfico; aprofundamento pendente.
+Lada,M09,Europa Central e Oriental,A,cataloged,a110e5dc-a566-70dc-8cba-17629908bdeb,Registro catalográfico; aprofundamento pendente.
+Moskvitch,M09,Europa Central e Oriental,A,cataloged,2f6449b7-d701-7569-9c53-63f6244f0dfd,Registro catalográfico; aprofundamento pendente.
+GAZ,M09,Europa Central e Oriental,A,cataloged,2e7cde30-0f4f-70dd-a93e-aed02d025e88,Registro catalográfico; aprofundamento pendente.
+ZIL,M09,Europa Central e Oriental,A,cataloged,a9180aab-3b19-71d0-bac4-46c86011b14e,Registro catalográfico; aprofundamento pendente.
+ZAZ,M09,Europa Central e Oriental,A,cataloged,d4df7643-63c5-7321-b302-2c54769ecb71,Registro catalográfico; aprofundamento pendente.
+LuAZ,M09,Europa Central e Oriental,A,cataloged,3a138495-ca2e-7e05-89c3-d0bd1e06d8f5,Registro catalográfico; aprofundamento pendente.
+Melkus,M09,Europa Central e Oriental,A,cataloged,7cff6c9e-df5b-734e-b043-07a3f2d1ac47,Registro catalográfico; aprofundamento pendente.
+Rimac,M09,Europa Central e Oriental,A,cataloged,ef7a7276-dc14-72c6-993d-5df3d7a4396f,Registro catalográfico; aprofundamento pendente.
+IZh,M09,Europa Central e Oriental,A,cataloged,b2ebb808-13b2-779f-bdd6-8ff09c72f7a9,Registro catalográfico; aprofundamento pendente.
+SMZ,M09,Europa Central e Oriental,A,cataloged,5aae295b-d6f6-79cb-a4f9-35e1e270126a,Registro catalográfico; aprofundamento pendente.
+Marussia,M09,Europa Central e Oriental,A,cataloged,646838e9-9b80-727b-beda-fbbe57072b72,Registro catalográfico; aprofundamento pendente.
+Aurus,M09,Europa Central e Oriental,A,cataloged,6414a9ad-3980-78c2-9f5c-927fc3d3dc54,Registro catalográfico; aprofundamento pendente.
+Sollers,M09,Europa Central e Oriental,A,cataloged,8df80d06-8f66-7c69-b368-6c5dc88e8fe5,Registro catalográfico; aprofundamento pendente.
+Doninvest,M09,Europa Central e Oriental,A,cataloged,e85641aa-2000-753c-b285-de235446671a,Registro catalográfico; aprofundamento pendente.
+TagAZ,M09,Europa Central e Oriental,A,cataloged,7ccb6ac1-cbf8-7b13-bfe2-cb79d6f80cb9,Registro catalográfico; aprofundamento pendente.
+Aleko,M09,Europa Central e Oriental,A,cataloged,3fd5f098-11e6-7de8-904e-42c5a09945c5,Registro catalográfico; aprofundamento pendente.
+Velorex,M09,Europa Central e Oriental,A,cataloged,8cf0784c-3335-77b2-b0e6-9dc9ea3be5ee,Registro catalográfico; aprofundamento pendente.
+Avia,M09,Europa Central e Oriental,A,cataloged,4c8bf8d4-77a2-7a87-a2b9-2625664e4e09,Registro catalográfico; aprofundamento pendente.
+Barkas,M09,Europa Central e Oriental,A,cataloged,ae6eab0c-a17e-76d6-8d8f-8173dae9fc8c,Registro catalográfico; aprofundamento pendente.
+Rába,M09,Europa Central e Oriental,A,cataloged,745a337a-1cfa-70ba-8962-a40c2161d957,Registro catalográfico; aprofundamento pendente.
+Tushek,M09,Europa Central e Oriental,A,cataloged,9cbac31f-a1b0-78d9-a987-73012e4c5abd,Registro catalográfico; aprofundamento pendente.
+KTM X-Bow,M09,Europa Central e Oriental,A,cataloged,a901e938-785a-768d-8c78-8437ed6619b0,Registro catalográfico; aprofundamento pendente.
+Volvo,M10,Escandinávia Benelux Ibéria,A,cataloged,b6256d7a-7231-7226-97b2-0dc0fdc59327,Registro catalográfico; aprofundamento pendente.
+Saab,M10,Escandinávia Benelux Ibéria,A,cataloged,e12d2891-609c-72c9-bd51-0a10bab7e146,Registro catalográfico; aprofundamento pendente.
+Polestar,M10,Escandinávia Benelux Ibéria,A,cataloged,78f40c70-1687-7701-85aa-215a23aacf87,Registro catalográfico; aprofundamento pendente.
+Koenigsegg,M10,Escandinávia Benelux Ibéria,A,cataloged,43a7dfb8-bf3e-7453-b225-d3e4c22adb1b,Registro catalográfico; aprofundamento pendente.
+NEVS,M10,Escandinávia Benelux Ibéria,A,cataloged,2be9223a-95de-71a4-bdec-b1e542fd6607,Registro catalográfico; aprofundamento pendente.
+Donkervoort,M10,Escandinávia Benelux Ibéria,A,cataloged,d205a1cd-0539-7ead-80ea-ac1cfb558b29,Registro catalográfico; aprofundamento pendente.
+DAF,M10,Escandinávia Benelux Ibéria,A,cataloged,d31acfb1-1b0d-71aa-b5c0-0d3c7b4576a5,Registro catalográfico; aprofundamento pendente.
+Spyker,M10,Escandinávia Benelux Ibéria,A,cataloged,d22d92f3-41c8-72a2-914e-5cd6d8897f90,Registro catalográfico; aprofundamento pendente.
+Minerva,M10,Escandinávia Benelux Ibéria,A,cataloged,65b450e5-9f93-7b61-9c1f-140ab319d780,Registro catalográfico; aprofundamento pendente.
+Imperia,M10,Escandinávia Benelux Ibéria,A,cataloged,c73bccc0-2fa1-7643-8ff1-84a943346fb5,Registro catalográfico; aprofundamento pendente.
+FN,M10,Escandinávia Benelux Ibéria,A,cataloged,38de6636-4d87-7739-9769-40124b5d09a9,Registro catalográfico; aprofundamento pendente.
+SEAT,M10,Escandinávia Benelux Ibéria,A,cataloged,1412b255-52d8-74df-9e4c-d23f43cac98b,Registro catalográfico; aprofundamento pendente.
+Cupra,M10,Escandinávia Benelux Ibéria,A,cataloged,d7aac2e7-d986-7003-bafa-958d7b88f9ea,Registro catalográfico; aprofundamento pendente.
+Pegaso,M10,Escandinávia Benelux Ibéria,A,cataloged,36038ca4-0218-72d8-853c-76345635859f,Registro catalográfico; aprofundamento pendente.
+Santana,M10,Escandinávia Benelux Ibéria,A,cataloged,996da123-23c8-79bc-aaa4-a238b8f44cee,Registro catalográfico; aprofundamento pendente.
+Tramontana,M10,Escandinávia Benelux Ibéria,A,cataloged,b0ec4931-7984-74b8-b702-d272a0feefc5,Registro catalográfico; aprofundamento pendente.
+Spania GTA,M10,Escandinávia Benelux Ibéria,A,cataloged,8eee703b-f4af-7852-b731-bb1769d65619,Registro catalográfico; aprofundamento pendente.
+UMM,M10,Escandinávia Benelux Ibéria,A,cataloged,45856902-2544-7d2c-96c7-ef677ced037a,Registro catalográfico; aprofundamento pendente.
+Portaro,M10,Escandinávia Benelux Ibéria,A,cataloged,d66bf8e2-9eb0-734c-9bc8-26da620814f3,Registro catalográfico; aprofundamento pendente.
+Adamastor,M10,Escandinávia Benelux Ibéria,A,cataloged,d0f8cc33-fb34-7978-84fc-e3d9a42e745e,Registro catalográfico; aprofundamento pendente.
+Think,M10,Escandinávia Benelux Ibéria,A,cataloged,714c105e-e83e-7d41-91bf-b1b2cfbd2204,Registro catalográfico; aprofundamento pendente.
+Buddy Electric,M10,Escandinávia Benelux Ibéria,A,cataloged,69432b6a-dc21-71ce-9563-0a57780adbce,Registro catalográfico; aprofundamento pendente.
+Caresto,M10,Escandinávia Benelux Ibéria,A,cataloged,a466d4de-e967-70a8-88f9-b36fb1802159,Registro catalográfico; aprofundamento pendente.
+Lightyear,M10,Escandinávia Benelux Ibéria,A,cataloged,13dbd5cf-8c6f-7d0f-9161-e73da74c8686,Registro catalográfico; aprofundamento pendente.
+Carver,M10,Escandinávia Benelux Ibéria,A,cataloged,3c91a71a-c0cb-74df-b4cb-96ce6ba55b0a,Registro catalográfico; aprofundamento pendente.
+Burton,M10,Escandinávia Benelux Ibéria,A,cataloged,2228501a-49a9-71ca-ace4-c8a3788fdd35,Registro catalográfico; aprofundamento pendente.
+Vencer,M10,Escandinávia Benelux Ibéria,A,cataloged,3a78c737-e45b-7772-a873-87303cb604f6,Registro catalográfico; aprofundamento pendente.
+Edran,M10,Escandinávia Benelux Ibéria,A,cataloged,3428bbd0-1c71-7f0d-84e6-15658abdf390,Registro catalográfico; aprofundamento pendente.
+Gillet,M10,Escandinávia Benelux Ibéria,A,cataloged,d3482580-29a2-7a22-82a6-0010f8aa41f3,Registro catalográfico; aprofundamento pendente.
+Apal,M10,Escandinávia Benelux Ibéria,A,cataloged,3de169f8-251d-729f-b431-1e462fb90926,Registro catalográfico; aprofundamento pendente.
+Hurtan,M10,Escandinávia Benelux Ibéria,A,cataloged,f1db0c82-b1b5-73da-a83c-509e46702c0a,Registro catalográfico; aprofundamento pendente.
+Comarth,M10,Escandinávia Benelux Ibéria,A,cataloged,d0537ec7-fb5e-7ac6-ac99-7fb30302135c,Registro catalográfico; aprofundamento pendente.
+Aspid,M10,Escandinávia Benelux Ibéria,A,cataloged,93481707-6265-771f-bdbf-a94d2ffb95f2,Registro catalográfico; aprofundamento pendente.
+Biscúter,M10,Escandinávia Benelux Ibéria,A,cataloged,6efe17bf-63d0-70e5-8365-cd3566c49951,Registro catalográfico; aprofundamento pendente.
+Authi,M10,Escandinávia Benelux Ibéria,A,cataloged,c103820b-7fe0-7eb8-becf-8c52552a3391,Registro catalográfico; aprofundamento pendente.
+Sado,M10,Escandinávia Benelux Ibéria,A,cataloged,b341dece-4f9e-767c-8e3e-6ec8222e4173,Registro catalográfico; aprofundamento pendente.
 Gurgel,M11,América Latina,A,published,01a01016-ea4c-766d-827a-d7a4341a454d,Já existe no SQLite canônico.
-Puma,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Miura,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Santa Matilde,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-FNM,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Troller,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lobini,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Brasinca,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Vemag,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Agrale,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-JPX,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-CBT,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Engesa,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Envemo,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hofstetter,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Adamo,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Farus,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lafer,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dacon,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Obvio!,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tac Motors,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Chamonix,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-IKA,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Siam Di Tella,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Pur Sang,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Anasagasti,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Grumett,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Effa,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Indio,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bognor,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Justicialista,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rastrojero,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Zanella,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Autoar,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Crespi,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bucci,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-ASA Argentina,M11,América Latina,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+Puma,M11,América Latina,A,cataloged,a4374f7d-c377-7177-9eb7-8af6119503fc,Registro catalográfico; aprofundamento pendente.
+Miura,M11,América Latina,A,cataloged,96cf5f47-2555-77e4-a6a0-6839a49376d6,Registro catalográfico; aprofundamento pendente.
+Santa Matilde,M11,América Latina,A,cataloged,26cb46db-2c2e-7176-bd7a-9ee7c704019c,Registro catalográfico; aprofundamento pendente.
+FNM,M11,América Latina,A,cataloged,beefde06-11b5-734f-b6b8-48315ec69ce4,Registro catalográfico; aprofundamento pendente.
+Troller,M11,América Latina,A,cataloged,f923119a-8332-7195-b7f4-bb38f0d84945,Registro catalográfico; aprofundamento pendente.
+Lobini,M11,América Latina,A,cataloged,08a708ec-5ec6-7a90-8f6e-b67a10aa619a,Registro catalográfico; aprofundamento pendente.
+Brasinca,M11,América Latina,A,cataloged,c63ba633-f1c3-73b8-ac11-5f439b6eb13f,Registro catalográfico; aprofundamento pendente.
+Vemag,M11,América Latina,A,cataloged,61542797-b9b0-73b2-8a78-5e7c38afe22d,Registro catalográfico; aprofundamento pendente.
+Agrale,M11,América Latina,A,cataloged,c2a04dac-dd58-73af-ada2-de2acc4d33e9,Registro catalográfico; aprofundamento pendente.
+JPX,M11,América Latina,A,cataloged,9f21639b-0569-71dd-9e92-8e9de511e0b2,Registro catalográfico; aprofundamento pendente.
+CBT,M11,América Latina,A,cataloged,a2b681a8-3c0b-746d-978b-442d896d9255,Registro catalográfico; aprofundamento pendente.
+Engesa,M11,América Latina,A,cataloged,1d867f62-4f8b-7bec-9d20-ea46482fb001,Registro catalográfico; aprofundamento pendente.
+Envemo,M11,América Latina,A,cataloged,de8f277b-9493-7b63-8d47-1a83bb820875,Registro catalográfico; aprofundamento pendente.
+Hofstetter,M11,América Latina,A,cataloged,ccb47504-1d8e-79b0-8b77-a2c024b94182,Registro catalográfico; aprofundamento pendente.
+Adamo,M11,América Latina,A,cataloged,909634e0-4b6d-760b-9c54-34baa32f6108,Registro catalográfico; aprofundamento pendente.
+Farus,M11,América Latina,A,cataloged,a3dcfbf2-05f0-7fd3-a821-6912705ccf8a,Registro catalográfico; aprofundamento pendente.
+Lafer,M11,América Latina,A,cataloged,8f6ec2e8-f8ba-7666-83e7-de5bca286f07,Registro catalográfico; aprofundamento pendente.
+Dacon,M11,América Latina,A,cataloged,60a988af-35df-7508-bc64-dbc61e641476,Registro catalográfico; aprofundamento pendente.
+Obvio!,M11,América Latina,A,cataloged,0f3dfad5-3d06-7acf-b6ef-0bb9c865a2c1,Registro catalográfico; aprofundamento pendente.
+Tac Motors,M11,América Latina,A,cataloged,85d7828e-4ec1-7268-a7eb-731109734a78,Registro catalográfico; aprofundamento pendente.
+Chamonix,M11,América Latina,A,cataloged,467eb086-499d-7c61-a8b2-db5f862f000f,Registro catalográfico; aprofundamento pendente.
+IKA,M11,América Latina,A,cataloged,e7f68ccd-65a5-78b0-9ba0-7ff9fbefe208,Registro catalográfico; aprofundamento pendente.
+Siam Di Tella,M11,América Latina,A,cataloged,34cbc671-9bc2-7fe2-bda2-c011c85ff7bd,Registro catalográfico; aprofundamento pendente.
+Pur Sang,M11,América Latina,A,cataloged,2a2af513-32aa-79f5-928e-4a1aa769a67a,Registro catalográfico; aprofundamento pendente.
+Anasagasti,M11,América Latina,A,cataloged,df3c902e-8931-76fc-ac9a-f76e1b57b3b1,Registro catalográfico; aprofundamento pendente.
+Grumett,M11,América Latina,A,cataloged,3fe38a6a-3512-7f5e-a4d8-ab776bab0437,Registro catalográfico; aprofundamento pendente.
+Effa,M11,América Latina,A,cataloged,e8121814-9a82-77f1-8b08-5ae07e7510de,Registro catalográfico; aprofundamento pendente.
+Indio,M11,América Latina,A,cataloged,712449f1-e3bf-7afe-ab2f-552643e50f79,Registro catalográfico; aprofundamento pendente.
+Bognor,M11,América Latina,A,cataloged,a1b7ee76-dcbd-7683-b73b-0f1d63be0ab0,Registro catalográfico; aprofundamento pendente.
+Justicialista,M11,América Latina,A,cataloged,4b91b344-e822-7837-bc46-9954af9c77a3,Registro catalográfico; aprofundamento pendente.
+Rastrojero,M11,América Latina,A,cataloged,939df878-33a6-7083-be94-16f6973e8232,Registro catalográfico; aprofundamento pendente.
+Zanella,M11,América Latina,A,cataloged,6672beac-ed06-7ad5-8882-c4d26518e44a,Registro catalográfico; aprofundamento pendente.
+Autoar,M11,América Latina,A,cataloged,30a402f0-027f-7110-b7b4-c3a95b9dfbd3,Registro catalográfico; aprofundamento pendente.
+Crespi,M11,América Latina,A,cataloged,645aed31-df67-76f9-bc2c-d8ebbd644a8b,Registro catalográfico; aprofundamento pendente.
+Bucci,M11,América Latina,A,cataloged,f22587f3-39e8-73ee-a0da-cb37165ce30f,Registro catalográfico; aprofundamento pendente.
+ASA Argentina,M11,América Latina,A,cataloged,6ae5b2ad-4c19-71b6-8ca4-46a942f53b00,Registro catalográfico; aprofundamento pendente.
 Holden,M12,Oceania e África,A,published,01a01028-5455-7a84-b0d2-ee6fb10c31b8,Já existe no SQLite canônico.
-HSV,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-FPV,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bolwell,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Elfin,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Brabham Automotive,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Leyland Australia,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Rootes Australia,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Trekka,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hulme,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Perana,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-GSM,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Birkin,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Optimal Energy,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Mobius,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Kiira,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Innoson,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Kantanka,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Laraki,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Wallyscar,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Purvis,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Giocattolo,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Joss,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Devaux,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Nota,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Lightburn,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Zeta,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Hartnett,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Southern Cross,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Finch,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Skelta,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Tomcar,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-ACE EV,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Almac,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Saker,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Anziel,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Africar,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Bailey,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Harper Sports Cars,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Uri,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-IVEMA,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Menara,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
-Dezzi,M12,Oceania e África,A,needs_research,,"Reconciliar identidade, períodos, organizações, veículo e fontes."
+HSV,M12,Oceania e África,A,cataloged,1ed463c3-a7c9-7233-aa35-397d58db9e52,Registro catalográfico; aprofundamento pendente.
+FPV,M12,Oceania e África,A,cataloged,6744db1d-63f9-7881-bb29-cc67c7ce00f6,Registro catalográfico; aprofundamento pendente.
+Bolwell,M12,Oceania e África,A,cataloged,72b3967e-aa3c-77a9-a5a2-dab051f02b89,Registro catalográfico; aprofundamento pendente.
+Elfin,M12,Oceania e África,A,cataloged,a69b5d58-4a1c-763b-8f0b-b6ec62d42b38,Registro catalográfico; aprofundamento pendente.
+Brabham Automotive,M12,Oceania e África,A,cataloged,3c1ca735-a031-75db-992d-f172bc6b5d23,Registro catalográfico; aprofundamento pendente.
+Leyland Australia,M12,Oceania e África,A,cataloged,8f11aa64-60c6-701a-848d-d1f95ed9523c,Registro catalográfico; aprofundamento pendente.
+Rootes Australia,M12,Oceania e África,A,cataloged,ff3c4b26-cc0a-70c0-9161-4abf23357290,Registro catalográfico; aprofundamento pendente.
+Trekka,M12,Oceania e África,A,cataloged,48a8eb75-a625-7c28-a846-ae49066f2c2b,Registro catalográfico; aprofundamento pendente.
+Hulme,M12,Oceania e África,A,cataloged,e47cfdf4-4281-762e-808d-b137443fd21d,Registro catalográfico; aprofundamento pendente.
+Perana,M12,Oceania e África,A,cataloged,8b1db449-3566-7704-9256-1b81813ada7b,Registro catalográfico; aprofundamento pendente.
+GSM,M12,Oceania e África,A,cataloged,e30e5605-5a43-794d-a536-89ca4c282430,Registro catalográfico; aprofundamento pendente.
+Birkin,M12,Oceania e África,A,cataloged,e7b822ff-4d62-7b8f-aee3-26a36693a899,Registro catalográfico; aprofundamento pendente.
+Optimal Energy,M12,Oceania e África,A,cataloged,715ad2f5-cca1-7423-9aa8-98d8b14fd320,Registro catalográfico; aprofundamento pendente.
+Mobius,M12,Oceania e África,A,cataloged,adac9c92-6ef1-7f4d-95b8-8c2c4fac939c,Registro catalográfico; aprofundamento pendente.
+Kiira,M12,Oceania e África,A,cataloged,1c9bc5fd-1a73-7e43-bb5c-3125708a848a,Registro catalográfico; aprofundamento pendente.
+Innoson,M12,Oceania e África,A,cataloged,c5a461cf-97f7-7f3f-9a78-a7c7e28b7d84,Registro catalográfico; aprofundamento pendente.
+Kantanka,M12,Oceania e África,A,cataloged,ec79712c-7712-792b-accc-5caf25334098,Registro catalográfico; aprofundamento pendente.
+Laraki,M12,Oceania e África,A,cataloged,0586008e-3ca6-7013-aede-44199bb93eaa,Registro catalográfico; aprofundamento pendente.
+Wallyscar,M12,Oceania e África,A,cataloged,88be998a-c96a-714f-b4e8-4f8e3afd94e2,Registro catalográfico; aprofundamento pendente.
+Purvis,M12,Oceania e África,A,cataloged,926742b5-542e-7aa8-8528-e72dd028a4b8,Registro catalográfico; aprofundamento pendente.
+Giocattolo,M12,Oceania e África,A,cataloged,84530e40-81e8-7220-8900-49ed9247bcd2,Registro catalográfico; aprofundamento pendente.
+Joss,M12,Oceania e África,A,cataloged,5af9a0c1-0ade-76a2-a504-6d7a01be8c06,Registro catalográfico; aprofundamento pendente.
+Devaux,M12,Oceania e África,A,cataloged,82710884-1543-72c9-9294-c819604c1813,Registro catalográfico; aprofundamento pendente.
+Nota,M12,Oceania e África,A,cataloged,6c2131c1-b404-7b78-841e-7c25e357e8e6,Registro catalográfico; aprofundamento pendente.
+Lightburn,M12,Oceania e África,A,cataloged,63aaf628-8388-79b4-8f09-f1e894b4c6b5,Registro catalográfico; aprofundamento pendente.
+Zeta,M12,Oceania e África,A,cataloged,6e105af3-d98b-7090-a17d-c6b334b240ac,Registro catalográfico; aprofundamento pendente.
+Hartnett,M12,Oceania e África,A,cataloged,09c5f428-f2de-7905-95da-ed8436fedf6c,Registro catalográfico; aprofundamento pendente.
+Southern Cross,M12,Oceania e África,A,cataloged,8b9f0d23-33ba-72b6-a18b-c991e30aa503,Registro catalográfico; aprofundamento pendente.
+Finch,M12,Oceania e África,A,cataloged,cb6b6fa9-1587-78b3-824d-88b683998f65,Registro catalográfico; aprofundamento pendente.
+Skelta,M12,Oceania e África,A,cataloged,fa187b30-f3c5-7832-8100-3cf693db864e,Registro catalográfico; aprofundamento pendente.
+Tomcar,M12,Oceania e África,A,cataloged,a51650d1-7ee7-7715-bbe1-7414fb7cabef,Registro catalográfico; aprofundamento pendente.
+ACE EV,M12,Oceania e África,A,cataloged,48c22476-ce51-78e5-8367-47b4460f5c1b,Registro catalográfico; aprofundamento pendente.
+Almac,M12,Oceania e África,A,cataloged,15d6c1b3-ef3f-765b-96b9-df562f9cb580,Registro catalográfico; aprofundamento pendente.
+Saker,M12,Oceania e África,A,cataloged,0649e989-daf9-7a99-a82d-6dba1eec72fb,Registro catalográfico; aprofundamento pendente.
+Anziel,M12,Oceania e África,A,cataloged,1644f252-3442-7c4f-a2b9-9e5427e7cdcc,Registro catalográfico; aprofundamento pendente.
+Africar,M12,Oceania e África,A,cataloged,b3254f50-2e17-72a8-901e-5834d8a224a6,Registro catalográfico; aprofundamento pendente.
+Bailey,M12,Oceania e África,A,cataloged,f99ca332-d439-75a7-a376-530b8001f88d,Registro catalográfico; aprofundamento pendente.
+Harper Sports Cars,M12,Oceania e África,A,cataloged,6eeb68c8-0614-7bef-a2ff-b2fe95ceb2df,Registro catalográfico; aprofundamento pendente.
+Uri,M12,Oceania e África,A,cataloged,9ea0a822-767b-7dc5-a667-9c0f68e2dfaa,Registro catalográfico; aprofundamento pendente.
+IVEMA,M12,Oceania e África,A,cataloged,12b282b3-1ac4-77a8-98a7-43de78a1c72d,Registro catalográfico; aprofundamento pendente.
+Menara,M12,Oceania e África,A,cataloged,9ec8c90a-3cbf-7576-ac6c-5c984fa3a5f7,Registro catalográfico; aprofundamento pendente.
+Dezzi,M12,Oceania e África,A,cataloged,ede661ce-cddb-77b4-a13e-6c68c52f1911,Registro catalográfico; aprofundamento pendente.

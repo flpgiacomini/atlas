@@ -17,10 +17,12 @@ for item in items:
     if item.get("license") not in allowed: errors.append(f"{item.get('entity_id')}: disallowed license")
     if not (ROOT / "public" / item.get("file", "")).is_file(): errors.append(f"{item.get('entity_id')}: missing file")
 db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-entity_ids = {row[0] for row in db.execute("SELECT id FROM entity")}
+rows = list(db.execute("SELECT id,metadata_json FROM entity"))
+entity_ids = {row[0] for row in rows}
+required_ids = {entity_id for entity_id, raw in rows if json.loads(raw or "{}").get("editorial_level", "editorial") != "catalog"}
 db.close()
-for entity_id in sorted(entity_ids - set(by_entity)): errors.append(f"{entity_id}: no media")
+for entity_id in sorted(required_ids - set(by_entity)): errors.append(f"{entity_id}: no media")
 for entity_id in sorted(set(by_entity) - entity_ids): errors.append(f"{entity_id}: unknown entity")
-result = {"passed": not errors, "errors": errors, "entities": len(entity_ids), "covered": len(entity_ids & set(by_entity))}
+result = {"passed": not errors, "errors": errors, "entities": len(entity_ids), "required": len(required_ids), "covered": len(entity_ids & set(by_entity))}
 print(json.dumps(result, ensure_ascii=False, indent=2))
 sys.exit(0 if not errors else 1)

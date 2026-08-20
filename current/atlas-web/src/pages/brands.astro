@@ -1,22 +1,23 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import pages from "../data/generated/entity-pages.json";
-import census from "../data/generated/brand-census.json";
 import { withBase } from "../lib/urls";
 const brands = pages.filter((page:any) => page.type === "brand").map((brand:any) => {
   const vehicles = pages.filter((page:any) => page.type === "vehicle" && page.outgoing.some((relation:any) => relation.predicate === "marketed_under" && relation.object_entity_id === brand.id));
   const eventIds = new Set(vehicles.flatMap((vehicle:any) => (vehicle.events ?? []).map((event:any) => event.id)));
   return { ...brand, vehicleCount: vehicles.length, eventCount: eventIds.size };
 }).sort((a:any,b:any) => a.name.localeCompare(b.name, "pt-BR"));
+const editorialCount = brands.filter((brand:any) => (brand.metadata?.editorial_level ?? "editorial") !== "catalog").length;
+const catalogCount = brands.length - editorialCount;
 ---
 <BaseLayout title="Marcas" description="Explore a história das marcas automotivas por seus veículos, tecnologias, organizações e eventos documentados.">
-  <div class="container page-intro" data-pagefind-body>
-    <div class="hero-kicker">Acervo por marca</div><h1>As marcas também têm uma história.</h1>
-    <p class="lead">Explore cada marca por meio dos automóveis e marcos relacionados no banco canônico. O censo interno possui {census.candidates} candidatas em 12 ondas, mas apenas {census.published} cumprem atualmente os gates de relevância, evidência e publicação.</p>
-    <section class="brand-controls card"><label for="brand-query">Filtrar marcas</label><input id="brand-query" type="search" placeholder="Nome da marca…" autocomplete="off" /><span id="brand-count" aria-live="polite">{brands.length} marcas</span></section>
-    <div class="brand-grid" id="brand-grid">{brands.map((brand:any) => <article data-brand={brand.name.toLocaleLowerCase("pt-BR")}><a href={withBase(`e/${brand.id}/`)}><img src={withBase(brand.media.thumbnail)} alt="" width="480" height="320" loading="lazy" /><div><span class="type-pill">Marca</span><h2>{brand.name}</h2><p>{brand.description}</p><footer><strong>{brand.vehicleCount}</strong> automóveis <strong>{brand.eventCount}</strong> marcos</footer></div></a></article>)}</div>
+  <div class="container page-intro brand-index" data-pagefind-body>
+    <div class="hero-kicker">Acervo por marca</div><h1>Marcas</h1>
+    <p class="lead">Navegue por {brands.length} fabricantes e marcas: {editorialCount} histórias editoriais e {catalogCount} registros catalográficos já preparados para aprofundamento.</p>
+    <section class="brand-controls card"><label for="brand-query">Filtrar</label><input id="brand-query" type="search" placeholder="Nome da marca…" autocomplete="off" /><select id="brand-level" aria-label="Nível editorial"><option value="all">Todos os níveis</option><option value="editorial">Editoriais</option><option value="catalog">Catalogados</option></select><span id="brand-count" aria-live="polite">{brands.length} marcas</span></section>
+    <div class="brand-grid" id="brand-grid">{brands.map((brand:any) => { const level=brand.metadata?.editorial_level ?? "editorial"; return <article data-brand={brand.name.toLocaleLowerCase("pt-BR")} data-level={level}><a href={withBase(`e/${brand.id}/`)}>{brand.media ? <img src={withBase(brand.media.thumbnail)} alt="" width="480" height="320" loading="lazy" /> : <div class="brand-monogram" aria-hidden="true">{brand.name.slice(0,2)}</div>}<div><span class="type-pill">Marca · {level === "catalog" ? "catalogada" : "editorial"}</span><h2>{brand.name}</h2><p>{brand.description}</p><footer>{level === "catalog" ? <span>{brand.metadata?.region_cluster}</span> : <><strong>{brand.vehicleCount}</strong> automóveis <strong>{brand.eventCount}</strong> marcos</>}</footer></div></a></article>})}</div>
   </div>
   <script>
-    const query=document.querySelector<HTMLInputElement>("#brand-query");const cards=[...document.querySelectorAll<HTMLElement>("[data-brand]")];const count=document.querySelector<HTMLElement>("#brand-count");query?.addEventListener("input",()=>{const term=query.value.trim().toLocaleLowerCase("pt-BR");let visible=0;for(const card of cards){const show=!term||(card.dataset.brand??"").includes(term);card.hidden=!show;if(show)visible++;}if(count)count.textContent=`${visible} ${visible===1?"marca":"marcas"}`;});
+    const query=document.querySelector<HTMLInputElement>("#brand-query");const level=document.querySelector<HTMLSelectElement>("#brand-level");const cards=[...document.querySelectorAll<HTMLElement>("[data-brand]")];const count=document.querySelector<HTMLElement>("#brand-count");const filter=()=>{const term=query?.value.trim().toLocaleLowerCase("pt-BR")??"";const selected=level?.value??"all";let visible=0;for(const card of cards){const show=(!term||(card.dataset.brand??"").includes(term))&&(selected==="all"||card.dataset.level===selected);card.hidden=!show;if(show)visible++;}if(count)count.textContent=`${visible} ${visible===1?"marca":"marcas"}`;};query?.addEventListener("input",filter);level?.addEventListener("change",filter);
   </script>
 </BaseLayout>

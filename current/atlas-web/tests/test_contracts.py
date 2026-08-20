@@ -23,17 +23,17 @@ class AtlasContracts(unittest.TestCase):
         self.assertFalse(report["critical_semantic_loss"])
     def test_canonical_counts(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":398,"statement":604,"source":159,"claim":730,"evidence":731,"predicate":56}
+        expected = {"entity":920,"statement":604,"source":159,"claim":730,"evidence":731,"predicate":56}
         actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
         db.close(); self.assertEqual(actual, expected)
 
     def test_every_entity_has_media(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        entity_count = db.execute("SELECT COUNT(*) FROM entity").fetchone()[0]
+        required_count = db.execute("SELECT COUNT(*) FROM entity WHERE json_extract(metadata_json,'$.editorial_level')!='catalog'").fetchone()[0]
         db.close()
         manifest = json.loads((ROOT / "data" / "media.manifest.json").read_text(encoding="utf-8"))
         ids = [item["entity_id"] for item in manifest["items"]]
-        self.assertEqual(len(ids), entity_count); self.assertEqual(len(set(ids)), entity_count)
+        self.assertEqual(len(ids), required_count); self.assertEqual(len(set(ids)), required_count)
 
     def test_geography_is_release_ready(self):
         rows = json.loads((ROOT / "data" / "geography.registry.json").read_text(encoding="utf-8"))
@@ -59,7 +59,7 @@ class AtlasContracts(unittest.TestCase):
 
     def test_every_entity_has_editorial_narrative_and_batch(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        rows = db.execute("SELECT description, metadata_json FROM entity").fetchall()
+        rows = db.execute("SELECT description, metadata_json FROM entity WHERE json_extract(metadata_json,'$.editorial_level')!='catalog'").fetchall()
         db.close()
         self.assertGreaterEqual(len(rows), 366)
         self.assertTrue(all(len((description or "").split()) >= 30 for description, _ in rows))
@@ -72,12 +72,21 @@ class AtlasContracts(unittest.TestCase):
         brand_count = db.execute("SELECT COUNT(*) FROM entity WHERE entity_type='brand'").fetchone()[0]
         db.close()
         self.assertEqual(len(brands), brand_count)
-        for brand in brands:
+        for brand in [item for item in brands if item["metadata"].get("editorial_level", "editorial") != "catalog"]:
             vehicles = [page for page in pages if page["type"] == "vehicle" and any(
                 relation["predicate"] == "marketed_under" and relation["object_entity_id"] == brand["id"]
                 for relation in page["outgoing"]
             )]
             self.assertGreater(len(vehicles), 0, brand["name"])
+
+    def test_mass_catalog_is_attributed_and_separate_from_editorial_records(self):
+        db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
+        catalog_count = db.execute("SELECT COUNT(*) FROM entity WHERE json_extract(metadata_json,'$.editorial_level')='catalog'").fetchone()[0]
+        attributed_count = db.execute("""SELECT COUNT(DISTINCT e.id) FROM entity e JOIN external_identifier x ON x.entity_id=e.id
+            WHERE json_extract(e.metadata_json,'$.editorial_level')='catalog' AND x.scheme IN ('atlas-brand-census','atlas-significance-candidate')""").fetchone()[0]
+        db.close()
+        self.assertEqual(catalog_count, 522)
+        self.assertEqual(attributed_count, catalog_count)
 
     def test_published_candidate_registries_resolve_to_sqlite(self):
         for validator in ("validate_brand_census.py", "validate_historical_significance.py"):
@@ -91,7 +100,7 @@ class AtlasContracts(unittest.TestCase):
     def test_all_remaining_historical_candidates_are_editorially_validated(self):
         ledger = json.loads((ROOT / "data" / "historical-significance.validation.json").read_text(encoding="utf-8"))
         self.assertEqual(ledger["summary"]["total"], 54)
-        with (ROOT / "data" / "historical-significance.candidates.csv").open(encoding="utf-8") as stream:
+        with (ROOT / "data" / "historical-significance.candidates.csv").open(encoding="utf-8-sig") as stream:
             candidates = list(csv.DictReader(stream))
         self.assertEqual(ledger["summary"]["remaining_candidates_validated"], sum(row["decision"] == "include_candidate" for row in candidates))
         self.assertEqual(ledger["summary"]["failed"], 0)

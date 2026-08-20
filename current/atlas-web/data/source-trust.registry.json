@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "policy": "Fontes catalográficas podem criar registros atribuídos; somente fontes editoriais verificadas podem criar claims aceitos.",
+  "sources": [
+    {
+      "id": "atlas-brand-census",
+      "name": "Censo editorial M01-M12 do Atlas",
+      "mode": "catalog_import",
+      "allowed_fields": ["canonical_name", "entity_type", "wave", "region_cluster"],
+      "license_status": "project_authored",
+      "confidence": "medium"
+    },
+    {
+      "id": "atlas-significance-candidates",
+      "name": "Registro de relevância histórica do Atlas",
+      "mode": "catalog_import",
+      "allowed_fields": ["canonical_name", "entity_type", "year", "associated_brand", "contribution_tracks", "rationale"],
+      "license_status": "project_authored",
+      "confidence": "medium"
+    },
+    {
+      "id": "allcarindex",
+      "name": "AllCarIndex",
+      "url": "https://allcarindex.com/",
+      "mode": "discovery_snapshot_only",
+      "allowed_fields": ["name", "country", "production_years", "category", "source_url"],
+      "license_status": "permission_required_for_bulk_republication",
+      "confidence": "medium"
+    },
+    {
+      "id": "auto-data",
+      "name": "Auto-Data.net",
+      "url": "https://www.auto-data.net/en/allbrands",
+      "mode": "verification_snapshot_only",
+      "allowed_fields": ["model", "generation", "variant", "specifications", "source_url"],
+      "license_status": "permission_required_for_bulk_republication",
+      "confidence": "medium"
+    },
+    {
+      "id": "ultimatecarpage",
+      "name": "Ultimatecarpage",
+      "url": "https://www.ultimatecarpage.com/",
+      "mode": "editorial_discovery_only",
+      "allowed_fields": ["candidate_name", "category", "source_url"],
+      "license_status": "copyrighted_reference",
+      "confidence": "medium_high"
+    },
+    {
+      "id": "open-vehicle-db",
+      "name": "open-vehicle-db",
+      "url": "https://github.com/plowman/open-vehicle-db",
+      "mode": "blocked_until_license_clarified",
+      "allowed_fields": [],
+      "license_status": "no_explicit_license_detected_2026-08-20",
+      "confidence": "medium"
+    }
+  ]
+}

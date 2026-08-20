@@ -53,6 +53,24 @@ def main() -> int:
         type_rules = criteria["types"][entity["entity_type"]]
         metadata = json.loads(entity["metadata_json"] or "{}")
         description_words = word_count(entity["description"])
+        editorial_level = metadata.get("editorial_level", "editorial")
+        if editorial_level == "catalog":
+            rows.append(
+                {
+                    "priority": "P4",
+                    "status": "catalog",
+                    "score": 0,
+                    "entity_id": entity["id"],
+                    "entity_type": entity["entity_type"],
+                    "canonical_name": entity["canonical_name"],
+                    "description_words": description_words,
+                    "connected_statements": entity["statement_count"],
+                    "required_statements": type_rules["minimum_connected_statements"],
+                    "evidenced_statements": entity["evidenced_count"],
+                    "gaps": "editorial_promotion_required",
+                }
+            )
+            continue
         description_ok = description_words >= global_rules["minimum_description_words"]
         statements_required = type_rules["minimum_connected_statements"]
         statements_ok = entity["statement_count"] >= statements_required
@@ -128,6 +146,7 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 - Substanciais: **{statuses['substantial']}**
 - Parciais: **{statuses['partial']}**
 - Stubs: **{statuses['stub']}**
+- Catalogadas: **{statuses['catalog']}**
 - Prioridade P0: **{priorities['P0']}**
 - Prioridade P1: **{priorities['P1']}**
 

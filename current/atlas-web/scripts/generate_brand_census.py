@@ -19,16 +19,17 @@ WAVES={
 'M12':('Oceania e África','Holden|HSV|FPV|Bolwell|Elfin|Brabham Automotive|Leyland Australia|Rootes Australia|Trekka|Hulme|Perana|GSM|Birkin|Optimal Energy|Mobius|Kiira|Innoson|Kantanka|Laraki|Wallyscar|Purvis|Giocattolo|Joss|Devaux|Nota|Lightburn|Zeta|Hartnett|Southern Cross|Finch|Skelta|Tomcar|ACE EV|Almac|Saker|Anziel|Africar|Bailey|Harper Sports Cars|Uri|IVEMA|Menara|Dezzi'),
 }
 def main():
- db=sqlite3.connect(DB); published={r[0].casefold():r[1] for r in db.execute("select canonical_name,id from entity where entity_type='brand'")}; rows=[];seen=set()
+ db=sqlite3.connect(DB); published={r[0].casefold():(r[1],json.loads(r[2] or '{}').get('editorial_level','editorial')) for r in db.execute("select canonical_name,id,metadata_json from entity where entity_type='brand'")}; rows=[];seen=set()
  for wave,(region,names) in WAVES.items():
   for canonical in names.split('|'):
    key=canonical.casefold()
    if key in seen: continue
-   seen.add(key); rows.append({'candidate_name':canonical,'wave':wave,'region_cluster':region,'scope_level':'A','decision':'published' if key in published else 'needs_research','entity_id':published.get(key,''),'notes':'Já existe no SQLite canônico.' if key in published else 'Reconciliar identidade, períodos, organizações, veículo e fontes.'})
+   decision='cataloged' if key in published and published[key][1]=='catalog' else 'published' if key in published else 'needs_research'
+   seen.add(key); rows.append({'candidate_name':canonical,'wave':wave,'region_cluster':region,'scope_level':'A','decision':decision,'entity_id':published[key][0] if key in published else '','notes':'Registro catalográfico; aprofundamento pendente.' if decision=='cataloged' else 'Já existe no SQLite canônico.' if decision=='published' else 'Reconciliar identidade, períodos, organizações, veículo e fontes.'})
  db.close()
  with OUT.open('w',encoding='utf-8-sig',newline='') as f: w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
- by_wave={w:sum(r['wave']==w for r in rows) for w in WAVES}; done=sum(r['decision']=='published' for r in rows)
- SUMMARY.parent.mkdir(parents=True,exist_ok=True); SUMMARY.write_text(json.dumps({'candidates':len(rows),'published':done,'needs_research':len(rows)-done,'waves':by_wave,'items':[{'name':r['candidate_name'],'wave':r['wave'],'region':r['region_cluster'],'decision':r['decision']} for r in rows]},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ by_wave={w:sum(r['wave']==w for r in rows) for w in WAVES}; done=sum(r['decision']=='published' for r in rows); cataloged=sum(r['decision']=='cataloged' for r in rows)
+ SUMMARY.parent.mkdir(parents=True,exist_ok=True); SUMMARY.write_text(json.dumps({'candidates':len(rows),'published':done,'cataloged':cataloged,'needs_research':len(rows)-done-cataloged,'waves':by_wave,'items':[{'name':r['candidate_name'],'wave':r['wave'],'region':r['region_cluster'],'decision':r['decision']} for r in rows]},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  REPORT.write_text('# Atlas — status do censo global de marcas\n\nData: 18/08/2026  \nRegistry: `current/atlas-web/data/brand.candidates.csv`\n\n## Resultado\n\n'+f'- Candidatos únicos: **{len(rows)}**\n- Já publicados: **{done}**\n- A pesquisar: **{len(rows)-done}**\n- Ondas cobertas: **12/12**\n\n## Por onda\n\n| Onda | Candidatos |\n|---|---:|\n'+'\n'.join(f'| {w} | {n} |' for w,n in by_wave.items())+'\n\nO registry é uma fila editorial, não uma fonte histórica. `needs_research` não gera Entity Page até cumprir o contrato de evidência.\n',encoding='utf-8')
- print(json.dumps({'candidates':len(rows),'published':done,'needs_research':len(rows)-done,'waves':by_wave},ensure_ascii=False))
+ print(json.dumps({'candidates':len(rows),'published':done,'cataloged':cataloged,'needs_research':len(rows)-done-cataloged,'waves':by_wave},ensure_ascii=False))
 if __name__=='__main__': main()

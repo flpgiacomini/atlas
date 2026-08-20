@@ -1,4 +1,4 @@
-candidate_name,kind,year,associated_brand,contribution_tracks,decision,rationale,entity_id
+﻿candidate_name,kind,year,associated_brand,contribution_tracks,decision,rationale,entity_id
 Buick Y-Job,concept,1938,Buick,DES|IND|SOC,published,Institucionalizou o conceito como laboratório público e antecipou recursos depois usados em produção.,c3ccd397-03ed-78d9-960c-b5ed92b01a05
 General Motors Le Sabre,concept,1951,General Motors,DES|TEC|SOC,published,Laboratório de design e tecnologia da era aeronáutica e do Motorama.,1bbc16a8-8105-7a30-935d-f7de85c2a64d
 General Motors Firebird I,concept,1954,General Motors,TEC|DES|SOC,published,Programa experimental de turbina e imaginário tecnológico do pós-guerra.,bb1d2bc3-35c8-72bf-9fea-2d4dbab26aff
@@ -8,48 +8,48 @@ Alfa Romeo BAT 5,concept,1953,Alfa Romeo,DES|TEC,published,Pesquisa aerodinâmic
 Alfa Romeo BAT 7,concept,1954,Alfa Romeo,DES|TEC,published,Desenvolvimento intermediário da série experimental aerodinâmica BAT.,f4e11b3b-409c-7f26-b373-c0de0f49e62d
 Alfa Romeo BAT 9,concept,1955,Alfa Romeo,DES|TEC|GEN,published,Síntese mais próxima da linguagem de produção na série BAT.,d2107c43-c15f-7218-8782-0c8c5b11e688
 Lincoln Futura,concept,1955,Lincoln,DES|SOC,published,Show car influente e artefato cultural posteriormente transformado no Batmobile televisivo.,20efc162-ac4a-7f15-998e-a44a4d7019a2
-Ford Nucleon,concept,1958,Ford,TEC|SOC,context_only,Representa a imaginação atômica; contribuição material e transferência ainda exigem cautela.
+Ford Nucleon,concept,1958,Ford,TEC|SOC,context_only,Representa a imaginação atômica; contribuição material e transferência ainda exigem cautela.,
 Cadillac Cyclone,concept,1959,Cadillac,DES|TEC|SOC,published,Expressou pesquisa de segurança e linguagem aeroespacial em um show car amplamente documentado.,ba59c077-bd08-7bb2-90cc-7e1c383465f7
 Chevrolet Corvair Monza GT,concept,1962,Chevrolet,DES|GEN,published,Arquitetura e linguagem que influenciaram projetos esportivos posteriores da GM.,92914026-c495-72d7-bc02-cf726c98c9eb
-Chrysler Turbine Car,prototype_program,1963,Chrysler,TEC|IND|SOC,include_candidate,Programa de avaliação pública de propulsão por turbina com frota experimental.
-Lamborghini Marzal,concept,1967,Lamborghini,DES|GEN,include_candidate,Exercício de Bertone ligado à genealogia estilística do Espada.
-Alfa Romeo Carabo,concept,1968,Alfa Romeo,DES|GEN,include_candidate,Marco da forma em cunha e da linguagem de supercarros dos anos seguintes.
-Mercedes-Benz C 111,prototype_program,1969,Mercedes-Benz,TEC|DES|GEN,include_candidate,Programa experimental para motores rotativos diesel aerodinâmica e materiais.
-Holden Hurricane,concept,1969,Holden,DES|TEC|GEO,include_candidate,Show car tecnológico relevante à história do design australiano.
-Lancia Stratos Zero,concept,1970,Lancia,DES|GEN|SOC,include_candidate,Radicalização da forma em cunha e elo conceitual na genealogia Stratos.
-Maserati Boomerang,concept,1971,Maserati,DES|SOC,include_candidate,Manifesto da geometria em cunha de Giorgetto Giugiaro.
-BMW Turbo,concept,1972,BMW,DES|SEG|GEN,include_candidate,Laboratório de segurança e design relacionado à futura linhagem M1.
-Volvo VESC,concept,1972,Volvo,SEG|TEC|GEN,include_candidate,Programa de segurança experimental com recursos posteriormente difundidos.
-Hyundai Pony Coupe Concept,concept,1974,Hyundai,DES|GEO|GEN,include_candidate,Marco do design e da ambição exportadora sul-coreana com genealogia posterior reivindicada.
-Italdesign Megagamma,concept,1978,Italdesign,DES|SOC|GEN,include_candidate,Antecipou a organização espacial associada ao monovolume moderno.
-Aston Martin Bulldog,one_off,1979,Aston Martin,DES|TEC|SOC,include_candidate,Protótipo único de alta velocidade e tecnologia para reposicionamento da marca.
-Ford Probe III,concept,1981,Ford,DES|TEC|GEN,include_candidate,Pesquisa aerodinâmica diretamente relacionada à linguagem do Sierra.
-Peugeot Quasar,concept,1984,Peugeot,DES|TEC|SOC,include_candidate,Primeiro grande show car da Peugeot e expressão da eletrônica e competição do período.
-Nissan MID4,prototype_program,1985,Nissan,TEC|GEN,include_candidate,Laboratório de motor central e tração integral com transferência para projetos posteriores.
-Peugeot Proxima,concept,1986,Peugeot,DES|TEC,include_candidate,Show car de aerodinâmica eletrônica e arquitetura de alto desempenho.
-Peugeot Oxia,concept,1988,Peugeot,TEC|DES,include_candidate,Protótipo funcional de alto desempenho e eletrônica embarcada.
-Porsche 989,prototype,1988,Porsche,GEN|DES|IND,include_candidate,Projeto de sedã que ajuda a explicar genealogias posteriores da marca sem sugerir continuidade direta simples.
-GM Impact,concept,1990,General Motors,TEC|SEG|GEN,include_candidate,Conceito elétrico que originou o programa EV1 e dialogou com política de emissões zero.
-Audi Avus quattro,concept,1991,Audi,DES|TEC|GEN,include_candidate,Show car de alumínio e reposicionamento tecnológico da Audi.
-Renault Scénic Concept,concept,1991,Renault,DES|SOC|GEN,include_candidate,Conceito ligado à consolidação do monovolume compacto familiar.
-Mercedes-Benz F 100,concept,1991,Mercedes-Benz,SEG|TEC|GEN,include_candidate,Veículo de pesquisa com recursos de segurança e assistência posteriormente difundidos.
-BMW E1,prototype,1991,BMW,TEC|SEG|GEN,include_candidate,Programa elétrico que documenta uma etapa anterior à estratégia BMW i.
-Ford GT90,concept,1995,Ford,DES|TEC|SOC,include_candidate,Show car de materiais e desempenho representativo da linguagem New Edge.
-Chrysler Atlantic,concept,1995,Chrysler,DES|SOC,include_candidate,Exemplo influente do movimento retro no design automotivo dos anos 1990.
-Toyota Prius Concept,concept,1995,Toyota,TEC|SEG|GEN,include_candidate,Etapa documentada na genealogia do híbrido de produção Prius.
-Audi AL2,concept,1997,Audi,TEC|DES|GEN,include_candidate,Pesquisa de construção leve ligada ao Audi A2 de produção.
-Volkswagen W12,prototype_program,1997,Volkswagen,TEC|DES|GEN,include_candidate,Laboratório de arquitetura W e desempenho para o grupo Volkswagen.
-Volkswagen 1-Litre Car,prototype,2002,Volkswagen,TEC|SEG|GEN,include_candidate,Programa de eficiência extrema ligado à genealogia do XL1.
-Cadillac Sixteen,concept,2003,Cadillac,DES|TEC|SOC,context_only,Manifesto de marca relevante mas com transferência produtiva limitada a demonstrar.
-Maybach Exelero,one_off,2005,Maybach,TEC|DES|SOC,include_candidate,Veículo único criado para ensaio de pneus de alta velocidade e comunicação de marca.
-Ferrari P4/5 by Pininfarina,one_off,2006,Ferrari,DES|GEN|SOC,include_candidate,Caso documentado de coachbuilding contemporâneo e reinterpretação de genealogia Ferrari.
-BMW GINA Light Visionary Model,concept,2008,BMW,DES|TEC,include_candidate,Pesquisa de superfície flexível e transformação da carroceria.
-BMW Vision EfficientDynamics,concept,2009,BMW,TEC|SEG|GEN,include_candidate,Antecipou arquitetura e estratégia tecnológica associadas ao BMW i8.
-Porsche 918 Spyder Concept,concept,2010,Porsche,TEC|ESP|GEN,include_candidate,Precursor direto do hipercarro híbrido de produção.
-Porsche Mission E,concept,2015,Porsche,TEC|GEN|IND,include_candidate,Antecipou o Taycan e a estratégia elétrica de alto desempenho da marca.
-Mercedes-Benz Vision EQXX,concept,2022,Mercedes-Benz,TEC|SEG,hold,Programa recente de eficiência com influência histórica ainda em avaliação.
-Phantom Corsair,one_off,1938,Heinz and Maurice Schwartz,DES|SOC,include_candidate,Automóvel único com carroceria integrada e influência cultural documentável.
-Schlörwagen,prototype,1939,Schlör,TEC|DES,include_candidate,Experimento aerodinâmico extremo cuja eficiência merece documentação institucional.
-Norman Timbs Special,one_off,1948,Norman Timbs,DES|SOC,include_candidate,Exemplo singular da cultura de engenharia e design independente norte-americana.
-Golden Sahara II,one_off,1956,George Barris,TEC|SOC|DES,include_candidate,Custom car usado para demonstrar automação e eletrônica ao público.
-Nardi Bisiluro,one_off,1955,Nardi,ESP|DES|TEC,include_candidate,Experimento assimétrico de competição nas 24 Horas de Le Mans.
+Chrysler Turbine Car,prototype_program,1963,Chrysler,TEC|IND|SOC,cataloged,Programa de avaliação pública de propulsão por turbina com frota experimental.,eb22737e-125f-7cdf-957e-b3eebc5b0546
+Lamborghini Marzal,concept,1967,Lamborghini,DES|GEN,cataloged,Exercício de Bertone ligado à genealogia estilística do Espada.,ace5fdfa-7c88-729f-b9a4-d5ba9aabc118
+Alfa Romeo Carabo,concept,1968,Alfa Romeo,DES|GEN,cataloged,Marco da forma em cunha e da linguagem de supercarros dos anos seguintes.,a56d5840-72a1-7e5a-8217-79ac8b470a48
+Mercedes-Benz C 111,prototype_program,1969,Mercedes-Benz,TEC|DES|GEN,cataloged,Programa experimental para motores rotativos diesel aerodinâmica e materiais.,ee49f8c4-ccde-7b75-95b2-cf4e03ff54a6
+Holden Hurricane,concept,1969,Holden,DES|TEC|GEO,cataloged,Show car tecnológico relevante à história do design australiano.,e8b73f49-9821-72c0-a9b8-ba96e4595d91
+Lancia Stratos Zero,concept,1970,Lancia,DES|GEN|SOC,cataloged,Radicalização da forma em cunha e elo conceitual na genealogia Stratos.,a7585a27-a886-7db7-a12a-57cb344873b2
+Maserati Boomerang,concept,1971,Maserati,DES|SOC,cataloged,Manifesto da geometria em cunha de Giorgetto Giugiaro.,37cb57fa-b494-7394-ba52-e012a8783b37
+BMW Turbo,concept,1972,BMW,DES|SEG|GEN,cataloged,Laboratório de segurança e design relacionado à futura linhagem M1.,dfad9bb8-6aea-7be1-82a4-90e5b2804e26
+Volvo VESC,concept,1972,Volvo,SEG|TEC|GEN,cataloged,Programa de segurança experimental com recursos posteriormente difundidos.,11566c17-4906-7451-8de7-2a2c53cad144
+Hyundai Pony Coupe Concept,concept,1974,Hyundai,DES|GEO|GEN,cataloged,Marco do design e da ambição exportadora sul-coreana com genealogia posterior reivindicada.,85caaf96-474a-7499-8490-87c4bc1af433
+Italdesign Megagamma,concept,1978,Italdesign,DES|SOC|GEN,cataloged,Antecipou a organização espacial associada ao monovolume moderno.,b06fa63b-cfc8-7d31-95a3-dfd889f5b318
+Aston Martin Bulldog,one_off,1979,Aston Martin,DES|TEC|SOC,cataloged,Protótipo único de alta velocidade e tecnologia para reposicionamento da marca.,b6fea8f4-7152-7594-95de-85db64485e62
+Ford Probe III,concept,1981,Ford,DES|TEC|GEN,cataloged,Pesquisa aerodinâmica diretamente relacionada à linguagem do Sierra.,473db619-2a88-7acf-9f6e-e21e0112bc94
+Peugeot Quasar,concept,1984,Peugeot,DES|TEC|SOC,cataloged,Primeiro grande show car da Peugeot e expressão da eletrônica e competição do período.,ad9b826c-e9fd-7eb2-a099-8e8c87161edf
+Nissan MID4,prototype_program,1985,Nissan,TEC|GEN,cataloged,Laboratório de motor central e tração integral com transferência para projetos posteriores.,4f25d8e6-31a3-7095-a2fb-6a9d1a69a605
+Peugeot Proxima,concept,1986,Peugeot,DES|TEC,cataloged,Show car de aerodinâmica eletrônica e arquitetura de alto desempenho.,e0c957dc-5500-7899-adef-0fc0c0d8be1f
+Peugeot Oxia,concept,1988,Peugeot,TEC|DES,cataloged,Protótipo funcional de alto desempenho e eletrônica embarcada.,4c65a7d8-a368-77e9-90b9-075622ae9ee2
+Porsche 989,prototype,1988,Porsche,GEN|DES|IND,cataloged,Projeto de sedã que ajuda a explicar genealogias posteriores da marca sem sugerir continuidade direta simples.,ac15a19a-034f-7196-a4fb-15a463ba1b70
+GM Impact,concept,1990,General Motors,TEC|SEG|GEN,cataloged,Conceito elétrico que originou o programa EV1 e dialogou com política de emissões zero.,81f8ef86-6423-771c-a53b-bcd2ce57f2ef
+Audi Avus quattro,concept,1991,Audi,DES|TEC|GEN,cataloged,Show car de alumínio e reposicionamento tecnológico da Audi.,8472b4ea-71df-7a2f-8806-62159d39b3e1
+Renault Scénic Concept,concept,1991,Renault,DES|SOC|GEN,cataloged,Conceito ligado à consolidação do monovolume compacto familiar.,fad2cba9-ac99-7ff3-853f-3565587d68a7
+Mercedes-Benz F 100,concept,1991,Mercedes-Benz,SEG|TEC|GEN,cataloged,Veículo de pesquisa com recursos de segurança e assistência posteriormente difundidos.,d03fd2c7-45fc-7319-bb11-7d70baa55cae
+BMW E1,prototype,1991,BMW,TEC|SEG|GEN,cataloged,Programa elétrico que documenta uma etapa anterior à estratégia BMW i.,aefb94e7-8a74-72bf-b327-a60646314f2a
+Ford GT90,concept,1995,Ford,DES|TEC|SOC,cataloged,Show car de materiais e desempenho representativo da linguagem New Edge.,d280f213-0081-71dd-9780-dcafd9f19ebd
+Chrysler Atlantic,concept,1995,Chrysler,DES|SOC,cataloged,Exemplo influente do movimento retro no design automotivo dos anos 1990.,37255e9b-ab90-7549-9639-8fd3eefdf1dc
+Toyota Prius Concept,concept,1995,Toyota,TEC|SEG|GEN,cataloged,Etapa documentada na genealogia do híbrido de produção Prius.,d5d014e0-f131-77b3-a041-36729993c1ac
+Audi AL2,concept,1997,Audi,TEC|DES|GEN,cataloged,Pesquisa de construção leve ligada ao Audi A2 de produção.,596e9441-8d33-74cf-8a07-edf80bc4963e
+Volkswagen W12,prototype_program,1997,Volkswagen,TEC|DES|GEN,cataloged,Laboratório de arquitetura W e desempenho para o grupo Volkswagen.,d66f8626-b077-7053-9745-53317cfa3b25
+Volkswagen 1-Litre Car,prototype,2002,Volkswagen,TEC|SEG|GEN,cataloged,Programa de eficiência extrema ligado à genealogia do XL1.,cba36cd2-1707-7a0d-9945-a4d96e023ff4
+Cadillac Sixteen,concept,2003,Cadillac,DES|TEC|SOC,context_only,Manifesto de marca relevante mas com transferência produtiva limitada a demonstrar.,
+Maybach Exelero,one_off,2005,Maybach,TEC|DES|SOC,cataloged,Veículo único criado para ensaio de pneus de alta velocidade e comunicação de marca.,6a3b83de-1150-7ff2-8871-6af7b5f04251
+Ferrari P4/5 by Pininfarina,one_off,2006,Ferrari,DES|GEN|SOC,cataloged,Caso documentado de coachbuilding contemporâneo e reinterpretação de genealogia Ferrari.,277eece6-1f8d-7b45-9950-87d2dcc8418a
+BMW GINA Light Visionary Model,concept,2008,BMW,DES|TEC,cataloged,Pesquisa de superfície flexível e transformação da carroceria.,e1641212-303d-700a-8cfa-8a6e6c90540a
+BMW Vision EfficientDynamics,concept,2009,BMW,TEC|SEG|GEN,cataloged,Antecipou arquitetura e estratégia tecnológica associadas ao BMW i8.,d230bf0c-6211-797a-aa5d-fae7302e398b
+Porsche 918 Spyder Concept,concept,2010,Porsche,TEC|ESP|GEN,cataloged,Precursor direto do hipercarro híbrido de produção.,91c80843-fc35-7f72-94f2-1ebd4f62d7f8
+Porsche Mission E,concept,2015,Porsche,TEC|GEN|IND,cataloged,Antecipou o Taycan e a estratégia elétrica de alto desempenho da marca.,7d01f2b5-e283-7c27-9fbd-380c3b251a86
+Mercedes-Benz Vision EQXX,concept,2022,Mercedes-Benz,TEC|SEG,hold,Programa recente de eficiência com influência histórica ainda em avaliação.,
+Phantom Corsair,one_off,1938,Heinz and Maurice Schwartz,DES|SOC,cataloged,Automóvel único com carroceria integrada e influência cultural documentável.,605dad95-756c-7a8a-ab23-6dca93e9fc1d
+Schlörwagen,prototype,1939,Schlör,TEC|DES,cataloged,Experimento aerodinâmico extremo cuja eficiência merece documentação institucional.,5e36e5a4-f8dc-7523-b795-1129725b31f5
+Norman Timbs Special,one_off,1948,Norman Timbs,DES|SOC,cataloged,Exemplo singular da cultura de engenharia e design independente norte-americana.,c28a7c39-b7d9-7b55-95d0-eb3f015c694f
+Golden Sahara II,one_off,1956,George Barris,TEC|SOC|DES,cataloged,Custom car usado para demonstrar automação e eletrônica ao público.,89059f3f-ef61-7779-9a0c-fafd1348acde
+Nardi Bisiluro,one_off,1955,Nardi,ESP|DES|TEC,cataloged,Experimento assimétrico de competição nas 24 Horas de Le Mans.,b2685b96-30f6-7d38-8422-2ebae3777f92

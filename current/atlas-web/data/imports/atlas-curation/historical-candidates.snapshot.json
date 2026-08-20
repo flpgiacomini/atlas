@@ -1,0 +1,542 @@
+[
+  {
+    "candidate_name": "Buick Y-Job",
+    "kind": "concept",
+    "year": "1938",
+    "associated_brand": "Buick",
+    "contribution_tracks": "DES|IND|SOC",
+    "decision": "published",
+    "rationale": "Institucionalizou o conceito como laboratório público e antecipou recursos depois usados em produção.",
+    "entity_id": "c3ccd397-03ed-78d9-960c-b5ed92b01a05"
+  },
+  {
+    "candidate_name": "General Motors Le Sabre",
+    "kind": "concept",
+    "year": "1951",
+    "associated_brand": "General Motors",
+    "contribution_tracks": "DES|TEC|SOC",
+    "decision": "published",
+    "rationale": "Laboratório de design e tecnologia da era aeronáutica e do Motorama.",
+    "entity_id": "1bbc16a8-8105-7a30-935d-f7de85c2a64d"
+  },
+  {
+    "candidate_name": "General Motors Firebird I",
+    "kind": "concept",
+    "year": "1954",
+    "associated_brand": "General Motors",
+    "contribution_tracks": "TEC|DES|SOC",
+    "decision": "published",
+    "rationale": "Programa experimental de turbina e imaginário tecnológico do pós-guerra.",
+    "entity_id": "bb1d2bc3-35c8-72bf-9fea-2d4dbab26aff"
+  },
+  {
+    "candidate_name": "General Motors Firebird II",
+    "kind": "concept",
+    "year": "1956",
+    "associated_brand": "General Motors",
+    "contribution_tracks": "TEC|DES|SOC",
+    "decision": "published",
+    "rationale": "Associou turbina e visão de infraestrutura com condução guiada.",
+    "entity_id": "35068d25-95de-78fb-b9fc-d1fc330ae7de"
+  },
+  {
+    "candidate_name": "General Motors Firebird III",
+    "kind": "concept",
+    "year": "1958",
+    "associated_brand": "General Motors",
+    "contribution_tracks": "TEC|DES",
+    "decision": "published",
+    "rationale": "Terceira etapa documentada do programa experimental de turbinas.",
+    "entity_id": "c1838100-cf70-7b21-af9b-c7f3b4d0c87f"
+  },
+  {
+    "candidate_name": "Alfa Romeo BAT 5",
+    "kind": "concept",
+    "year": "1953",
+    "associated_brand": "Alfa Romeo",
+    "contribution_tracks": "DES|TEC",
+    "decision": "published",
+    "rationale": "Pesquisa aerodinâmica de Bertone e Franco Scaglione.",
+    "entity_id": "39b1a09b-3fb6-79a5-914f-f42bda2d7e48"
+  },
+  {
+    "candidate_name": "Alfa Romeo BAT 7",
+    "kind": "concept",
+    "year": "1954",
+    "associated_brand": "Alfa Romeo",
+    "contribution_tracks": "DES|TEC",
+    "decision": "published",
+    "rationale": "Desenvolvimento intermediário da série experimental aerodinâmica BAT.",
+    "entity_id": "f4e11b3b-409c-7f26-b373-c0de0f49e62d"
+  },
+  {
+    "candidate_name": "Alfa Romeo BAT 9",
+    "kind": "concept",
+    "year": "1955",
+    "associated_brand": "Alfa Romeo",
+    "contribution_tracks": "DES|TEC|GEN",
+    "decision": "published",
+    "rationale": "Síntese mais próxima da linguagem de produção na série BAT.",
+    "entity_id": "d2107c43-c15f-7218-8782-0c8c5b11e688"
+  },
+  {
+    "candidate_name": "Lincoln Futura",
+    "kind": "concept",
+    "year": "1955",
+    "associated_brand": "Lincoln",
+    "contribution_tracks": "DES|SOC",
+    "decision": "published",
+    "rationale": "Show car influente e artefato cultural posteriormente transformado no Batmobile televisivo.",
+    "entity_id": "20efc162-ac4a-7f15-998e-a44a4d7019a2"
+  },
+  {
+    "candidate_name": "Ford Nucleon",
+    "kind": "concept",
+    "year": "1958",
+    "associated_brand": "Ford",
+    "contribution_tracks": "TEC|SOC",
+    "decision": "context_only",
+    "rationale": "Representa a imaginação atômica; contribuição material e transferência ainda exigem cautela.",
+    "entity_id": ""
+  },
+  {
+    "candidate_name": "Cadillac Cyclone",
+    "kind": "concept",
+    "year": "1959",
+    "associated_brand": "Cadillac",
+    "contribution_tracks": "DES|TEC|SOC",
+    "decision": "published",
+    "rationale": "Expressou pesquisa de segurança e linguagem aeroespacial em um show car amplamente documentado.",
+    "entity_id": "ba59c077-bd08-7bb2-90cc-7e1c383465f7"
+  },
+  {
+    "candidate_name": "Chevrolet Corvair Monza GT",
+    "kind": "concept",
+    "year": "1962",
+    "associated_brand": "Chevrolet",
+    "contribution_tracks": "DES|GEN",
+    "decision": "published",
+    "rationale": "Arquitetura e linguagem que influenciaram projetos esportivos posteriores da GM.",
+    "entity_id": "92914026-c495-72d7-bc02-cf726c98c9eb"
+  },
+  {
+    "candidate_name": "Chrysler Turbine Car",
+    "kind": "prototype_program",
+    "year": "1963",
+    "associated_brand": "Chrysler",
+    "contribution_tracks": "TEC|IND|SOC",
+    "decision": "cataloged",
+    "rationale": "Programa de avaliação pública de propulsão por turbina com frota experimental.",
+    "entity_id": "eb22737e-125f-7cdf-957e-b3eebc5b0546"
+  },
+  {
+    "candidate_name": "Lamborghini Marzal",
+    "kind": "concept",
+    "year": "1967",
+    "associated_brand": "Lamborghini",
+    "contribution_tracks": "DES|GEN",
+    "decision": "cataloged",
+    "rationale": "Exercício de Bertone ligado à genealogia estilística do Espada.",
+    "entity_id": "ace5fdfa-7c88-729f-b9a4-d5ba9aabc118"
+  },
+  {
+    "candidate_name": "Alfa Romeo Carabo",
+    "kind": "concept",
+    "year": "1968",
+    "associated_brand": "Alfa Romeo",
+    "contribution_tracks": "DES|GEN",
+    "decision": "cataloged",
+    "rationale": "Marco da forma em cunha e da linguagem de supercarros dos anos seguintes.",
+    "entity_id": "a56d5840-72a1-7e5a-8217-79ac8b470a48"
+  },
+  {
+    "candidate_name": "Mercedes-Benz C 111",
+    "kind": "prototype_program",
+    "year": "1969",
+    "associated_brand": "Mercedes-Benz",
+    "contribution_tracks": "TEC|DES|GEN",
+    "decision": "cataloged",
+    "rationale": "Programa experimental para motores rotativos diesel aerodinâmica e materiais.",
+    "entity_id": "ee49f8c4-ccde-7b75-95b2-cf4e03ff54a6"
+  },
+  {
+    "candidate_name": "Holden Hurricane",
+    "kind": "concept",
+    "year": "1969",
+    "associated_brand": "Holden",
+    "contribution_tracks": "DES|TEC|GEO",
+    "decision": "cataloged",
+    "rationale": "Show car tecnológico relevante à história do design australiano.",
+    "entity_id": "e8b73f49-9821-72c0-a9b8-ba96e4595d91"
+  },
+  {
+    "candidate_name": "Lancia Stratos Zero",
+    "kind": "concept",
+    "year": "1970",
+    "associated_brand": "Lancia",
+    "contribution_tracks": "DES|GEN|SOC",
+    "decision": "cataloged",
+    "rationale": "Radicalização da forma em cunha e elo conceitual na genealogia Stratos.",
+    "entity_id": "a7585a27-a886-7db7-a12a-57cb344873b2"
+  },
+  {
+    "candidate_name": "Maserati Boomerang",
+    "kind": "concept",
+    "year": "1971",
+    "associated_brand": "Maserati",
+    "contribution_tracks": "DES|SOC",
+    "decision": "cataloged",
+    "rationale": "Manifesto da geometria em cunha de Giorgetto Giugiaro.",
+    "entity_id": "37cb57fa-b494-7394-ba52-e012a8783b37"
+  },
+  {
+    "candidate_name": "BMW Turbo",
+    "kind": "concept",
+    "year": "1972",
+    "associated_brand": "BMW",
+    "contribution_tracks": "DES|SEG|GEN",
+    "decision": "cataloged",
+    "rationale": "Laboratório de segurança e design relacionado à futura linhagem M1.",
+    "entity_id": "dfad9bb8-6aea-7be1-82a4-90e5b2804e26"
+  },
+  {
+    "candidate_name": "Volvo VESC",
+    "kind": "concept",
+    "year": "1972",
+    "associated_brand": "Volvo",
+    "contribution_tracks": "SEG|TEC|GEN",
+    "decision": "cataloged",
+    "rationale": "Programa de segurança experimental com recursos posteriormente difundidos.",
+    "entity_id": "11566c17-4906-7451-8de7-2a2c53cad144"
+  },
+  {
+    "candidate_name": "Hyundai Pony Coupe Concept",
+    "kind": "concept",
+    "year": "1974",
+    "associated_brand": "Hyundai",
+    "contribution_tracks": "DES|GEO|GEN",
+    "decision": "cataloged",
+    "rationale": "Marco do design e da ambição exportadora sul-coreana com genealogia posterior reivindicada.",
+    "entity_id": "85caaf96-474a-7499-8490-87c4bc1af433"
+  },
+  {
+    "candidate_name": "Italdesign Megagamma",
+    "kind": "concept",
+    "year": "1978",
+    "associated_brand": "Italdesign",
+    "contribution_tracks": "DES|SOC|GEN",
+    "decision": "cataloged",
+    "rationale": "Antecipou a organização espacial associada ao monovolume moderno.",
+    "entity_id": "b06fa63b-cfc8-7d31-95a3-dfd889f5b318"
+  },
+  {
+    "candidate_name": "Aston Martin Bulldog",
+    "kind": "one_off",
+    "year": "1979",
+    "associated_brand": "Aston Martin",
+    "contribution_tracks": "DES|TEC|SOC",
+    "decision": "cataloged",
+    "rationale": "Protótipo único de alta velocidade e tecnologia para reposicionamento da marca.",
+    "entity_id": "b6fea8f4-7152-7594-95de-85db64485e62"
+  },
+  {
+    "candidate_name": "Ford Probe III",
+    "kind": "concept",
+    "year": "1981",
+    "associated_brand": "Ford",
+    "contribution_tracks": "DES|TEC|GEN",
+    "decision": "cataloged",
+    "rationale": "Pesquisa aerodinâmica diretamente relacionada à linguagem do Sierra.",
+    "entity_id": "473db619-2a88-7acf-9f6e-e21e0112bc94"
+  },
+  {
+    "candidate_name": "Peugeot Quasar",
+    "kind": "concept",
+    "year": "1984",
+    "associated_brand": "Peugeot",
+    "contribution_tracks": "DES|TEC|SOC",
+    "decision": "cataloged",
+    "rationale": "Primeiro grande show car da Peugeot e expressão da eletrônica e competição do período.",
+    "entity_id": "ad9b826c-e9fd-7eb2-a099-8e8c87161edf"
+  },
+  {
+    "candidate_name": "Nissan MID4",
+    "kind": "prototype_program",
+    "year": "1985",
+    "associated_brand": "Nissan",
+    "contribution_tracks": "TEC|GEN",
+    "decision": "cataloged",
+    "rationale": "Laboratório de motor central e tração integral com transferência para projetos posteriores.",
+    "entity_id": "4f25d8e6-31a3-7095-a2fb-6a9d1a69a605"
+  },
+  {
+    "candidate_name": "Peugeot Proxima",
+    "kind": "concept",
+    "year": "1986",
+    "associated_brand": "Peugeot",
+    "contribution_tracks": "DES|TEC",
+    "decision": "cataloged",
+    "rationale": "Show car de aerodinâmica eletrônica e arquitetura de alto desempenho.",
+    "entity_id": "e0c957dc-5500-7899-adef-0fc0c0d8be1f"
+  },
+  {
+    "candidate_name": "Peugeot Oxia",
+    "kind": "concept",
+    "year": "1988",
+    "associated_brand": "Peugeot",
+    "contribution_tracks": "TEC|DES",
+    "decision": "cataloged",
+    "rationale": "Protótipo funcional de alto desempenho e eletrônica embarcada.",
+    "entity_id": "4c65a7d8-a368-77e9-90b9-075622ae9ee2"
+  },
+  {
+    "candidate_name": "Porsche 989",
+    "kind": "prototype",
+    "year": "1988",
+    "associated_brand": "Porsche",
+    "contribution_tracks": "GEN|DES|IND",
+    "decision": "cataloged",
+    "rationale": "Projeto de sedã que ajuda a explicar genealogias posteriores da marca sem sugerir continuidade direta simples.",
+    "entity_id": "ac15a19a-034f-7196-a4fb-15a463ba1b70"
+  },
+  {
+    "candidate_name": "GM Impact",
+    "kind": "concept",
+    "year": "1990",
+    "associated_brand": "General Motors",
+    "contribution_tracks": "TEC|SEG|GEN",
+    "decision": "cataloged",
+    "rationale": "Conceito elétrico que originou o programa EV1 e dialogou com política de emissões zero.",
+    "entity_id": "81f8ef86-6423-771c-a53b-bcd2ce57f2ef"
+  },
+  {
+    "candidate_name": "Audi Avus quattro",
+    "kind": "concept",
+    "year": "1991",
+    "associated_brand": "Audi",
+    "contribution_tracks": "DES|TEC|GEN",
+    "decision": "cataloged",
+    "rationale": "Show car de alumínio e reposicionamento tecnológico da Audi.",
+    "entity_id": "8472b4ea-71df-7a2f-8806-62159d39b3e1"
+  },
+  {
+    "candidate_name": "Renault Scénic Concept",
+    "kind": "concept",
+    "year": "1991",
+    "associated_brand": "Renault",
+    "contribution_tracks": "DES|SOC|GEN",
+    "decision": "cataloged",
+    "rationale": "Conceito ligado à consolidação do monovolume compacto familiar.",
+    "entity_id": "fad2cba9-ac99-7ff3-853f-3565587d68a7"
+  },
+  {
+    "candidate_name": "Mercedes-Benz F 100",
+    "kind": "concept",
+    "year": "1991",
+    "associated_brand": "Mercedes-Benz",
+    "contribution_tracks": "SEG|TEC|GEN",
+    "decision": "cataloged",
+    "rationale": "Veículo de pesquisa com recursos de segurança e assistência posteriormente difundidos.",
+    "entity_id": "d03fd2c7-45fc-7319-bb11-7d70baa55cae"
+  },
+  {
+    "candidate_name": "BMW E1",
+    "kind": "prototype",
+    "year": "1991",
+    "associated_brand": "BMW",
+    "contribution_tracks": "TEC|SEG|GEN",
+    "decision": "cataloged",
+    "rationale": "Programa elétrico que documenta uma etapa anterior à estratégia BMW i.",
+    "entity_id": "aefb94e7-8a74-72bf-b327-a60646314f2a"
+  },
+  {
+    "candidate_name": "Ford GT90",
+    "kind": "concept",
+    "year": "1995",
+    "associated_brand": "Ford",
+    "contribution_tracks": "DES|TEC|SOC",
+    "decision": "cataloged",
+    "rationale": "Show car de materiais e desempenho representativo da linguagem New Edge.",
+    "entity_id": "d280f213-0081-71dd-9780-dcafd9f19ebd"
+  },
+  {
+    "candidate_name": "Chrysler Atlantic",
+    "kind": "concept",
+    "year": "1995",
+    "associated_brand": "Chrysler",
+    "contribution_tracks": "DES|SOC",
+    "decision": "cataloged",
+    "rationale": "Exemplo influente do movimento retro no design automotivo dos anos 1990.",
+    "entity_id": "37255e9b-ab90-7549-9639-8fd3eefdf1dc"
+  },
+  {
+    "candidate_name": "Toyota Prius Concept",
+    "kind": "concept",
+    "year": "1995",
+    "associated_brand": "Toyota",
+    "contribution_tracks": "TEC|SEG|GEN",
+    "decision": "cataloged",
+    "rationale": "Etapa documentada na genealogia do híbrido de produção Prius.",
+    "entity_id": "d5d014e0-f131-77b3-a041-36729993c1ac"
+  },
+  {
+    "candidate_name": "Audi AL2",
+    "kind": "concept",
+    "year": "1997",
+    "associated_brand": "Audi",
+    "contribution_tracks": "TEC|DES|GEN",
+    "decision": "cataloged",
+    "rationale": "Pesquisa de construção leve ligada ao Audi A2 de produção.",
+    "entity_id": "596e9441-8d33-74cf-8a07-edf80bc4963e"
+  },
+  {
+    "candidate_name": "Volkswagen W12",
+    "kind": "prototype_program",
+    "year": "1997",
+    "associated_brand": "Volkswagen",
+    "contribution_tracks": "TEC|DES|GEN",
+    "decision": "cataloged",
+    "rationale": "Laboratório de arquitetura W e desempenho para o grupo Volkswagen.",
+    "entity_id": "d66f8626-b077-7053-9745-53317cfa3b25"
+  },
+  {
+    "candidate_name": "Volkswagen 1-Litre Car",
+    "kind": "prototype",
+    "year": "2002",
+    "associated_brand": "Volkswagen",
+    "contribution_tracks": "TEC|SEG|GEN",
+    "decision": "cataloged",
+    "rationale": "Programa de eficiência extrema ligado à genealogia do XL1.",
+    "entity_id": "cba36cd2-1707-7a0d-9945-a4d96e023ff4"
+  },
+  {
+    "candidate_name": "Cadillac Sixteen",
+    "kind": "concept",
+    "year": "2003",
+    "associated_brand": "Cadillac",
+    "contribution_tracks": "DES|TEC|SOC",
+    "decision": "context_only",
+    "rationale": "Manifesto de marca relevante mas com transferência produtiva limitada a demonstrar.",
+    "entity_id": ""
+  },
+  {
+    "candidate_name": "Maybach Exelero",
+    "kind": "one_off",
+    "year": "2005",
+    "associated_brand": "Maybach",
+    "contribution_tracks": "TEC|DES|SOC",
+    "decision": "cataloged",
+    "rationale": "Veículo único criado para ensaio de pneus de alta velocidade e comunicação de marca.",
+    "entity_id": "6a3b83de-1150-7ff2-8871-6af7b5f04251"
+  },
+  {
+    "candidate_name": "Ferrari P4/5 by Pininfarina",
+    "kind": "one_off",
+    "year": "2006",
+    "associated_brand": "Ferrari",
+    "contribution_tracks": "DES|GEN|SOC",
+    "decision": "cataloged",
+    "rationale": "Caso documentado de coachbuilding contemporâneo e reinterpretação de genealogia Ferrari.",
+    "entity_id": "277eece6-1f8d-7b45-9950-87d2dcc8418a"
+  },
+  {
+    "candidate_name": "BMW GINA Light Visionary Model",
+    "kind": "concept",
+    "year": "2008",
+    "associated_brand": "BMW",
+    "contribution_tracks": "DES|TEC",
+    "decision": "cataloged",
+    "rationale": "Pesquisa de superfície flexível e transformação da carroceria.",
+    "entity_id": "e1641212-303d-700a-8cfa-8a6e6c90540a"
+  },
+  {
+    "candidate_name": "BMW Vision EfficientDynamics",
+    "kind": "concept",
+    "year": "2009",
+    "associated_brand": "BMW",
+    "contribution_tracks": "TEC|SEG|GEN",
+    "decision": "cataloged",
+    "rationale": "Antecipou arquitetura e estratégia tecnológica associadas ao BMW i8.",
+    "entity_id": "d230bf0c-6211-797a-aa5d-fae7302e398b"
+  },
+  {
+    "candidate_name": "Porsche 918 Spyder Concept",
+    "kind": "concept",
+    "year": "2010",
+    "associated_brand": "Porsche",
+    "contribution_tracks": "TEC|ESP|GEN",
+    "decision": "cataloged",
+    "rationale": "Precursor direto do hipercarro híbrido de produção.",
+    "entity_id": "91c80843-fc35-7f72-94f2-1ebd4f62d7f8"
+  },
+  {
+    "candidate_name": "Porsche Mission E",
+    "kind": "concept",
+    "year": "2015",
+    "associated_brand": "Porsche",
+    "contribution_tracks": "TEC|GEN|IND",
+    "decision": "cataloged",
+    "rationale": "Antecipou o Taycan e a estratégia elétrica de alto desempenho da marca.",
+    "entity_id": "7d01f2b5-e283-7c27-9fbd-380c3b251a86"
+  },
+  {
+    "candidate_name": "Mercedes-Benz Vision EQXX",
+    "kind": "concept",
+    "year": "2022",
+    "associated_brand": "Mercedes-Benz",
+    "contribution_tracks": "TEC|SEG",
+    "decision": "hold",
+    "rationale": "Programa recente de eficiência com influência histórica ainda em avaliação.",
+    "entity_id": ""
+  },
+  {
+    "candidate_name": "Phantom Corsair",
+    "kind": "one_off",
+    "year": "1938",
+    "associated_brand": "Heinz and Maurice Schwartz",
+    "contribution_tracks": "DES|SOC",
+    "decision": "cataloged",
+    "rationale": "Automóvel único com carroceria integrada e influência cultural documentável.",
+    "entity_id": "605dad95-756c-7a8a-ab23-6dca93e9fc1d"
+  },
+  {
+    "candidate_name": "Schlörwagen",
+    "kind": "prototype",
+    "year": "1939",
+    "associated_brand": "Schlör",
+    "contribution_tracks": "TEC|DES",
+    "decision": "cataloged",
+    "rationale": "Experimento aerodinâmico extremo cuja eficiência merece documentação institucional.",
+    "entity_id": "5e36e5a4-f8dc-7523-b795-1129725b31f5"
+  },
+  {
+    "candidate_name": "Norman Timbs Special",
+    "kind": "one_off",
+    "year": "1948",
+    "associated_brand": "Norman Timbs",
+    "contribution_tracks": "DES|SOC",
+    "decision": "cataloged",
+    "rationale": "Exemplo singular da cultura de engenharia e design independente norte-americana.",
+    "entity_id": "c28a7c39-b7d9-7b55-95d0-eb3f015c694f"
+  },
+  {
+    "candidate_name": "Golden Sahara II",
+    "kind": "one_off",
+    "year": "1956",
+    "associated_brand": "George Barris",
+    "contribution_tracks": "TEC|SOC|DES",
+    "decision": "cataloged",
+    "rationale": "Custom car usado para demonstrar automação e eletrônica ao público.",
+    "entity_id": "89059f3f-ef61-7779-9a0c-fafd1348acde"
+  },
+  {
+    "candidate_name": "Nardi Bisiluro",
+    "kind": "one_off",
+    "year": "1955",
+    "associated_brand": "Nardi",
+    "contribution_tracks": "ESP|DES|TEC",
+    "decision": "cataloged",
+    "rationale": "Experimento assimétrico de competição nas 24 Horas de Le Mans.",
+    "entity_id": "b2685b96-30f6-7d38-8422-2ebae3777f92"
+  }
+]

@@ -13,23 +13,27 @@ export function getStaticPaths() { return pages.map((page:any) => ({ params: { i
 const { page } = Astro.props;
 const relationCount = page.outgoing.filter((item:any)=>item.object_type === "entity").length + page.incoming.length;
 const factCount = page.outgoing.filter((item:any)=>item.object_type !== "entity").length;
+const editorialLevel = page.metadata?.editorial_level ?? "editorial";
+const isCatalog = editorialLevel === "catalog";
 const brandVehicles = page.type === "brand" ? pages.filter((candidate:any) => candidate.type === "vehicle" && candidate.outgoing.some((relation:any) => relation.predicate === "marketed_under" && relation.object_entity_id === page.id)) : [];
 ---
 <BaseLayout title={page.name} description={page.description ?? `${label(page.type)} no Atlas da história automotiva`}>
   <article data-pagefind-body>
     <meta data-pagefind-meta={`type:${label(page.type)}`} /><meta data-pagefind-filter={`type:${label(page.type)}`} />
-    <header class="entity-hero">
-      <img src={withBase(page.media.file)} alt={page.media.alt} width="1536" height="1024" />
+    <header class:list={["entity-hero", { "catalog-hero": isCatalog, "no-media": !page.media }]}>
+      {page.media && <img src={withBase(page.media.file)} alt={page.media.alt} width="1536" height="1024" />}
       <div class="entity-hero-shade"></div>
-      <div class="entity-hero-copy"><div class="type-pill">{label(page.type)}</div><h1>{page.name}</h1>{page.description && <p>{page.description}</p>}<div class="entity-actions"><CompareButton id={page.id} name={page.name} type={page.type} /><a class="secondary-btn" href={withBase(`graph/?from=${encodeURIComponent(page.name)}`)}>Ver na rede</a></div></div>
+      <div class="entity-hero-copy"><div class="type-pill">{label(page.type)} · {label(editorialLevel)}</div><h1>{page.name}</h1>{page.description && <p>{page.description}</p>}{!isCatalog && <div class="entity-actions"><CompareButton id={page.id} name={page.name} type={page.type} /><a class="secondary-btn" href={withBase(`graph/?from=${encodeURIComponent(page.name)}`)}>Ver na rede</a></div>}</div>
     </header>
     <div class="container entity-body">
-      <aside class="entity-summary"><div><strong>{relationCount}</strong><span>relações</span></div><div><strong>{factCount}</strong><span>fatos</span></div><div><strong>{page.events.length}</strong><span>eventos</span></div></aside>
-      <div class="content-grid"><div><div class="section-heading compact"><div><div class="hero-kicker">Contexto</div><h2>Relações</h2></div></div><SemanticRelations outgoing={page.outgoing} incoming={page.incoming} /></div><Facts outgoing={page.outgoing} /></div>
-      {page.type === "brand" && <BrandHistory brand={page} vehicles={brandVehicles} />}
-      <Timeline events={page.events} /><Graph graph={page.graph} />
+      {isCatalog ? <section class="catalog-notice"><div class="hero-kicker">Nível catalográfico</div><h2>Este registro já faz parte do Atlas.</h2><p>Ele pode ser encontrado na busca e nos índices, mas ainda não recebeu narrativa, relações e evidências suficientes para promoção editorial. Os dados abaixo preservam a origem e a posição na fila de pesquisa.</p></section> : <>
+        <aside class="entity-summary"><div><strong>{relationCount}</strong><span>relações</span></div><div><strong>{factCount}</strong><span>fatos</span></div><div><strong>{page.events.length}</strong><span>eventos</span></div></aside>
+        <div class="content-grid"><div><div class="section-heading compact"><div><div class="hero-kicker">Contexto</div><h2>Relações</h2></div></div><SemanticRelations outgoing={page.outgoing} incoming={page.incoming} /></div><Facts outgoing={page.outgoing} /></div>
+        {page.type === "brand" && <BrandHistory brand={page} vehicles={brandVehicles} />}
+        <Timeline events={page.events} /><Graph graph={page.graph} />
+      </>}
       <section class="card metadata-grid"><div class="meta-item"><small>Identificador Atlas</small><div>{page.id}</div></div><div class="meta-item"><small>Tipo canônico</small><div>{label(page.type)}</div></div>{Object.entries(page.metadata ?? {}).slice(0,10).map(([key,value]) => <div class="meta-item"><small>{label(key)}</small><div>{JSON.stringify(value).replace(/^"|"$/g,"")}</div></div>)}</section>
-      <figure class="media-credit"><figcaption>{page.media.credit} <a href={page.media.license_url}>{page.media.license}</a> · Representação interpretativa, não evidência histórica.</figcaption></figure>
+      {page.media && <figure class="media-credit"><figcaption>{page.media.credit} <a href={page.media.license_url}>{page.media.license}</a> · Representação interpretativa, não evidência histórica.</figcaption></figure>}
     </div>
   </article>
 </BaseLayout>
