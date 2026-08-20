@@ -1,5 +1,7 @@
 # ATLAS — Handoff Mestre Consolidado
 
+> **Atualização de 20/08/2026:** este documento preserva decisões e contexto do baseline original. Para o estado de 920 Entities e o caminho completo até o produto final, usar `handoff/ATLAS_COMPLETION_MASTER_PLAN.md` e `handoff/CURRENT_STATUS.md` como referências operacionais correntes.
+
 **Versão do handoff:** 2026-08-18  
 **Objetivo:** permitir que o desenvolvimento do Atlas continue a partir de um único workspace, sem depender do histórico da conversa.
 

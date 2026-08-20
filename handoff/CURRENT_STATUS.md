@@ -1,8 +1,8 @@
 # ATLAS — estado atual
 
-**Data:** 18/08/2026
+**Data:** 20/08/2026
 
-**Fase:** A9.7 Product Complete — **APROVADA**
+**Fase:** expansão pós-v1 — Fase 0 do programa de conclusão integral pronta para execução
 
 **Implementação vigente:** `current/atlas-web/`
 **URL:** <https://flpgiacomini.github.io/atlas/>
@@ -17,14 +17,16 @@
 
 Os ZIPs em `historical-artifacts/` são somente rastreabilidade.
 
-## Snapshot canônico após os lotes F01–F03
+## Snapshot canônico atual após MASS01 e R01
 
-- 364 entidades e 364 Entity Pages
-- 556 statements
-- 147 sources
-- 682 claims e 683 evidences
+- 920 entidades e 920 Entity Pages
+- 610 statements
+- 165 sources
+- 736 claims e 737 evidences
 - 56 predicates controlados
-- 364/364 entidades com mídia local e licenciada
+- 398 entidades editoriais com mídia local e licenciada
+- 522 entidades catalográficas; 6 com primeira verificação individual R01
+- 146 entidades completas, 252 substanciais e 522 catalogadas
 - 4/4 geometrias revisadas e release-ready
 - SQLite SHA-256: atualizado no manifesto de release após cada expansão validada
 
@@ -35,15 +37,20 @@ Os ZIPs em `historical-artifacts/` são somente rastreabilidade.
 | SQLite, FK, UUIDv7, evidence e predicates | PASS |
 | Exportação determinística | PASS |
 | Astro, Pagefind, dist e links | PASS |
-| Mídia e geografia | PASS |
-| Acessibilidade, Lighthouse e percursos visuais | PASS |
-| Chrome/Edge, Firefox e WebKit | PASS |
+| Mídia editorial atual e geografia atual | PASS |
+| Mídia do universo expandido | OPEN — executar Fase 10 |
+| Acessibilidade, Lighthouse e percursos do baseline v1.0.0 | PASS histórico |
+| Acessibilidade e Lighthouse sobre 920+ Entities | OPEN — executar Fase 12 |
+| Chrome/Edge, Firefox e WebKit do baseline v1.0.0 | PASS histórico |
+| Matriz multibrowser da expansão | OPEN — executar Fase 12 |
 | CI e GitHub Pages | PASS |
-| Heurist hands-on | PASS — 9/10, sem perda crítica |
-| A9.7 Product Complete | PASS |
+| Heurist hands-on piloto | PASS histórico — 9/10, sem perda crítica |
+| Round-trip da expansão e geometria Heurist | OPEN — executar Fase 13 |
+| A9.7 Product Complete | PASS para o baseline v1.0.0 |
+| Conclusão integral do escopo expandido | OPEN — seguir G0–G12 e GF |
 
 ## Heurist
 
 A base `felip_atlas_a97` no Heurist Huma-Num 7.2.1 contém 86 Entity, 24 Source e 131 Statement importados com zero erros. O único requisito não pontuado foi o mapa interno, pois a projeção piloto não levou geometrias. O resultado completo está em `handoff/heurist-result.json`.
 
-Não existem hard gates abertos. Após a tag `v1.0.0`, o trabalho passa a ser conteúdo, correções e qualidade em `v1.x`.
+O A9.7 e a tag `v1.0.0` permanecem aprovados para seu baseline histórico. A expansão atual reabre gates editoriais e de QA, não a arquitetura. O plano operacional corrente é `handoff/ATLAS_COMPLETION_MASTER_PLAN.md`.

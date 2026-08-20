@@ -1,5 +1,7 @@
 # ATLAS — continuidade após v1.0.0
 
+> Plano corrente: `handoff/ATLAS_COMPLETION_MASTER_PLAN.md`. Este arquivo é apenas um resumo de continuidade; contagens e checkpoints devem seguir o plano mestre e `CURRENT_STATUS.md`.
+
 O A9.7 está concluído. A continuidade é manutenção de produto e conteúdo, sem reabrir a arquitetura static-first.
 
 ## Fluxo normal
