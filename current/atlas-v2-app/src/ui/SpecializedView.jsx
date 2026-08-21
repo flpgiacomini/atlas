@@ -16,15 +16,16 @@ function AccessibleRecords({ title, items }) {
   </details>;
 }
 
-function BrandRiver({ items, year }) {
-  const dated = datedUntil(items, year);
+function BrandRiver({ items, milestones, year }) {
   const catalog = items.filter((item) => item.yearStart == null);
   const regions = [...new Set(catalog.map((item) => item.region))].sort((a, b) => a.localeCompare(b, "pt-BR")).slice(0, 6);
-  const evidence = dated.slice(0, 8);
+  const names = new Map(items.map((item) => [item.id, item.name]));
+  const lifecycle = milestones.filter((item) => item.year <= year).slice(-10);
+  const evidence = lifecycle.map((item) => ({ ...item, id: item.id, yearStart: item.year, name: `${names.get(item.brand) || item.brand} — ${item.label}` }));
   return <section className="projection brand-river" aria-labelledby="brand-river-title">
-    <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{dated.length} datadas · {catalog.length} aguardam cronologia corporativa</span></header>
+    <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos de ciclo de vida · {catalog.length} aguardam cronologia corporativa</span></header>
     <div className="river-canvas" aria-hidden="true">{regions.map((region, index) => <div className="river-lane" key={region} style={{ "--lane": index }}><i /><span>{region}</span><b>{catalog.filter((item) => item.region === region).length}</b></div>)}</div>
-    {evidence.length ? <div className="projection-cards">{evidence.map((item) => <article key={item.id}><time>{item.yearStart}</time><strong>{item.name}</strong><small>{item.region}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: fundações, fusões, renomes e encerramentos continuam sem datas estruturadas.</EmptyEvidence>}
+    {lifecycle.length ? <div className="projection-cards">{lifecycle.map((item) => <article key={item.id}><time>{item.year}</time><strong>{names.get(item.brand) || item.brand}</strong><small>{item.label} · {item.scope === "operator" ? "organização operadora" : "identidade da marca"}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: nenhum marco com fonte ocorre antes deste ano.</EmptyEvidence>}
     <AccessibleRecords title="marcas" items={evidence} />
   </section>;
 }
@@ -62,8 +63,8 @@ function GeographicPreview({ mapKind, story, year }) {
   return <section className="projection geography-preview" aria-labelledby="geography-title"><header><p>CARTOGRAFIA TEMPORAL</p><h2 id="geography-title">{mapKind} histórico · {year}</h2><span>{story.place}</span></header><div className="geo-orbit" aria-hidden="true"><i /><b /><span>{mapKind === "Globo" ? "VISÃO MUNDIAL" : "ROTEIRO EDITORIAL"}</span></div><EmptyEvidence>Esta prévia usa somente o roteiro editorial. MapLibre, Cesium e as geometrias temporais validadas entram no checkpoint cartográfico.</EmptyEvidence></section>;
 }
 
-export default function SpecializedView({ mode, year, modeItems, periodItems, story, mapKind }) {
-  if (mode === "Marcas") return <BrandRiver items={modeItems} year={year} />;
+export default function SpecializedView({ mode, year, modeItems, periodItems, brandMilestones, story, mapKind }) {
+  if (mode === "Marcas") return <BrandRiver items={modeItems} milestones={brandMilestones} year={year} />;
   if (mode === "Veículos") return <VehicleLineage items={modeItems} year={year} />;
   if (mode === "Competições") return <CompetitionSeason items={modeItems} periodItems={periodItems} year={year} />;
   if (mode === "Tecnologias") return <TechnologyFlow items={modeItems} periodItems={periodItems} year={year} />;

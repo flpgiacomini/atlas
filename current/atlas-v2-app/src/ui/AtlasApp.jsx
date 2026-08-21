@@ -34,6 +34,7 @@ export default function AtlasApp({ initialYear }) {
   const [manifest, setManifest] = useState(null);
   const [periodItems, setPeriodItems] = useState([]);
   const [modeItems, setModeItems] = useState([]);
+  const [brandMilestones, setBrandMilestones] = useState([]);
   const [loadState, setLoadState] = useState("loading");
   const [chapterOpen, setChapterOpen] = useState(false);
   const [layer, setLayer] = useState("Narrativa");
@@ -72,6 +73,7 @@ export default function AtlasApp({ initialYear }) {
     const category = CATEGORY[mode];
     if (!category) { setModeItems([]); return; }
     loadBundle(`categories/${category}.json`).then((doc) => setModeItems(doc.items)).catch(() => setModeItems([]));
+    if (mode === "Marcas" && !brandMilestones.length) loadBundle("brand-timeline.json").then((doc) => setBrandMilestones(doc.items)).catch(() => setBrandMilestones([]));
   }, [mode]);
 
   useEffect(() => {
@@ -110,7 +112,7 @@ export default function AtlasApp({ initialYear }) {
       <div className="hero-shade" /><img className="map-trace" src={publicUrl("assets/zuffenhausen-le-mans-map.png")} alt="" />
       <article className="story-copy" aria-live="polite"><p className="story-year">{year}</p><div className="ornament" /><p className="eyebrow">{story.eyebrow}</p><h1>{story.title}</h1><p className="dek">{story.copy}</p><div className="story-actions"><button className="primary" onClick={() => { setLayer("Narrativa"); setChapterOpen(true); }}>ABRIR CAPÍTULO {year}</button><button className="secondary" onClick={() => setMode("Mapa/Globo")}>VER NO MAPA HISTÓRICO</button></div></article>
       <div className="map-switch" aria-label="Tipo de visualização geográfica">{["Mapa", "Globo"].map((item) => <button key={item} className={mapKind === item ? "active" : ""} onClick={() => { setMapKind(item); setMode("Mapa/Globo"); }}>{item.toUpperCase()}</button>)}</div>
-      {mode !== "História" && <aside className="mode-context"><SpecializedView mode={mode} year={year} modeItems={modeItems} periodItems={periodItems} story={story} mapKind={mapKind} /></aside>}
+      {mode !== "História" && <aside className="mode-context"><SpecializedView mode={mode} year={year} modeItems={modeItems} periodItems={periodItems} brandMilestones={brandMilestones} story={story} mapKind={mapKind} /></aside>}
       <div className={`data-state ${loadState}`}>{loadState === "ready" ? `${manifest?.entityCount || 0} entidades · ${periodItems.length} no período` : loadState === "error" ? "Falha ao carregar o acervo" : "Carregando acervo"}</div>
     </section>
 
