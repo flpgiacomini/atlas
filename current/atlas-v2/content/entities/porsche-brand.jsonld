@@ -6,7 +6,39 @@
   "aliases": ["Dr. Ing. h.c. F. Porsche"],
   "names": [],
   "description": "Marca alemã de automóveis esportivos cuja identidade automotiva começa com o Porsche 356 No. 1, registrado em 8 de junho de 1948. A entidade da marca permanece distinta da empresa de engenharia fundada por Ferdinand Porsche em 1931.",
-  "claims": [],
+  "claims": [
+    {
+      "id": "atlas:claim:porsche-brand-born-1948",
+      "type": "Claim",
+      "subject": "atlas:brand:porsche",
+      "predicate": "founded_in",
+      "object": "A identidade da Porsche como fabricante de automóveis começa com o registro do Porsche 356 No. 1 em 8 de junho de 1948.",
+      "sources": ["atlas:source:porsche-70-years-sports-cars"],
+      "evidence": ["atlas:evidence:porsche-356-registration-1948"],
+      "confidence": "single-source",
+      "validity": {"from": "1948-06-08", "until": "1948-06-08", "precision": "day"}
+    }
+  ],
+  "sources": [
+    {
+      "id": "atlas:source:porsche-70-years-sports-cars",
+      "type": "Source",
+      "title": "70 years of sports cars at Porsche",
+      "publisher": "Porsche AG",
+      "url": "https://newsroom.porsche.com/en/company/porsche-70-years-sports-car-new-year-reception-anniversary-356-no-1-roadster-ferry-porsche-ferdinand-alexander-porsche-tradition-future-mission-e-oliver-blume-14750.html",
+      "trust": "institutional",
+      "verifiedAt": "2026-08-21"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "atlas:evidence:porsche-356-registration-1948",
+      "type": "Evidence",
+      "source": "atlas:source:porsche-70-years-sports-cars",
+      "evidenceType": "explicit-statement",
+      "locator": {"section": "The Porsche sports car is 70 years old"}
+    }
+  ],
   "metadata": {
     "brand_status": "active",
     "editorial_batch": "V2-BRAND-TIMELINE-02",
