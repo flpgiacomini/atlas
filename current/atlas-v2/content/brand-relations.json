@@ -164,6 +164,51 @@
       "continuity": "As operações passam ao grupo combinado que adota o nome Stellantis.",
       "source": {"title":"The merger of FCA and Groupe PSA has been completed","publisher":"Stellantis","url":"https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed","trust":"primary","verifiedAt":"2026-08-21"},
       "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:audi-joined-auto-union-1932",
+      "from": "atlas:brand:audi", "fromLabel": "Audi",
+      "to": "atlas:brand:auto-union", "toLabel": "Auto Union",
+      "kind": "merged-into", "validFrom": "1932-06-29", "precision": "day",
+      "label": "Audiwerke integra a formação da Auto Union AG",
+      "continuity": "Audi torna-se um dos quatro anéis e sua identidade retorna aos automóveis da Auto Union em 1965.",
+      "source": {"title":"How the four rings became the Audi trademark","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/how-the-four-rings-became-the-audi-trademark-auto-union-ag-founded-90-years-ago-14750","trust":"primary","verifiedAt":"2026-08-21"}, "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:dkw-joined-auto-union-1932",
+      "from": "atlas:brand:dkw", "fromLabel": "DKW",
+      "to": "atlas:brand:auto-union", "toLabel": "Auto Union",
+      "kind": "merged-into", "validFrom": "1932-06-29", "precision": "day",
+      "label": "DKW integra a formação da Auto Union AG",
+      "continuity": "DKW permanece como uma das quatro identidades de produto sob os quatro anéis.",
+      "source": {"title":"How the four rings became the Audi trademark","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/how-the-four-rings-became-the-audi-trademark-auto-union-ag-founded-90-years-ago-14750","trust":"primary","verifiedAt":"2026-08-21"}, "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:horch-joined-auto-union-1932",
+      "from": "atlas:brand:horch", "fromLabel": "Horch",
+      "to": "atlas:brand:auto-union", "toLabel": "Auto Union",
+      "kind": "merged-into", "validFrom": "1932-06-29", "precision": "day",
+      "label": "Horch integra a formação da Auto Union AG",
+      "continuity": "Horch permanece como uma das quatro identidades de produto sob os quatro anéis.",
+      "source": {"title":"How the four rings became the Audi trademark","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/how-the-four-rings-became-the-audi-trademark-auto-union-ag-founded-90-years-ago-14750","trust":"primary","verifiedAt":"2026-08-21"}, "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:wanderer-joined-auto-union-1932",
+      "from": "atlas:brand:wanderer", "fromLabel": "Wanderer",
+      "to": "atlas:brand:auto-union", "toLabel": "Auto Union",
+      "kind": "joined-lineage-of", "validFrom": "1932-06-29", "precision": "day",
+      "label": "A divisão automotiva Wanderer integra a Auto Union por acordo de compra e arrendamento",
+      "continuity": "A relação preserva a diferença entre a incorporação das três companhias e o acordo específico da divisão Wanderer.",
+      "source": {"title":"How the four rings became the Audi trademark","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/how-the-four-rings-became-the-audi-trademark-auto-union-ag-founded-90-years-ago-14750","trust":"primary","verifiedAt":"2026-08-21"}, "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:nsu-joined-audi-lineage-1969",
+      "from": "atlas:brand:nsu", "fromLabel": "NSU",
+      "to": "atlas:brand:auto-union", "toLabel": "Audi NSU Auto Union",
+      "kind": "joined-lineage-of", "validFrom": "1969-03-10", "precision": "day",
+      "label": "NSU e Auto Union assinam o acordo que forma Audi NSU Auto Union AG",
+      "continuity": "A produção NSU continua até 1977; a operadora adota o nome AUDI AG somente em 1985.",
+      "source": {"title":"History of the Four Rings","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/history-of-the-four-rings-4093","trust":"primary","verifiedAt":"2026-08-21"}, "confidence": "high"
     }
   ]
 }

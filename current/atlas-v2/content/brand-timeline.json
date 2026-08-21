@@ -373,6 +373,18 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:mini-public-debut-1959",
+      "brand": "atlas:brand:mini",
+      "year": 1959,
+      "date": "1959-08-26",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "BMC apresenta publicamente o Morris Mini-Minor e o Austin Seven",
+      "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:nissan-worldwide-identity-1981",
       "brand": "atlas:brand:nissan",
       "year": 1981,
@@ -418,6 +430,29 @@
       "label": "A Bugatti renasce sob o Volkswagen Group",
       "event": "atlas:event:bugatti-revival-under-volkswagen-group",
       "sourceRefs": ["atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:classic-mini-production-ended-2000",
+      "brand": "atlas:brand:mini",
+      "year": 2000,
+      "date": "2000-10-04",
+      "precision": "day",
+      "kind": "discontinued",
+      "scope": "brand-identity",
+      "label": "O último Mini clássico deixa a fábrica de Longbridge",
+      "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:modern-mini-relaunched-2001",
+      "brand": "atlas:brand:mini",
+      "year": 2001,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "BMW Group relança a marca MINI e inicia a produção moderna em Oxford",
+      "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
       "confidence": "high"
     },
     {
