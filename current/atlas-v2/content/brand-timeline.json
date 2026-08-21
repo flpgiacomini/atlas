@@ -373,6 +373,30 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:nissan-worldwide-identity-1981",
+      "brand": "atlas:brand:nissan",
+      "year": 1981,
+      "date": "1981-07",
+      "precision": "month",
+      "kind": "renamed",
+      "scope": "brand-identity",
+      "label": "Nissan inicia a identidade mundial de seus veículos sob o nome corporativo",
+      "source": {"title":"1980's — Company Heritage","publisher":"Nissan Motor Corporation","url":"https://www.nissan-global.com/EN/COMPANY/PROFILE/HERITAGE/1980_copy/","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:audi-ag-name-1985",
+      "brand": "atlas:brand:audi",
+      "year": 1985,
+      "date": "1985-01-01",
+      "precision": "day",
+      "kind": "renamed",
+      "scope": "operator",
+      "label": "Audi NSU Auto Union AG passa a chamar-se AUDI AG",
+      "source": {"title":"History of the Four Rings","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/history-of-the-four-rings-4093","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:bugatti-revival-1987",
       "brand": "atlas:brand:bugatti",
       "year": 1987,

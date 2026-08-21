@@ -1,0 +1,12 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:organization:stellantis",
+  "type": "Organization",
+  "name": "Stellantis",
+  "aliases": ["Stellantis N.V."],
+  "description": "Grupo automotivo resultante da fusão efetiva entre Peugeot S.A. e Fiat Chrysler Automobiles em janeiro de 2021.",
+  "claims": [],
+  "sources": [{"id":"atlas:source:stellantis-merger-completed-2021","type":"Source","title":"The merger of FCA and Groupe PSA has been completed","publisher":"Stellantis","url":"https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed","trust":"institutional","verifiedAt":"2026-08-21"}],
+  "evidence": [],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-BRAND-RELATIONS-02","region_cluster":"Global / não classificado"}
+}

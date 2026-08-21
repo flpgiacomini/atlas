@@ -80,6 +80,90 @@
         "verifiedAt": "2026-08-21"
       },
       "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:auto-union-succeeded-by-audi-1985",
+      "from": "atlas:brand:auto-union",
+      "fromLabel": "Auto Union",
+      "to": "atlas:brand:audi",
+      "toLabel": "Audi",
+      "kind": "succeeded-by",
+      "validFrom": "1985-01-01",
+      "precision": "day",
+      "label": "Audi NSU Auto Union AG adota o nome AUDI AG",
+      "continuity": "A operadora e seus produtos passam a compartilhar a identidade Audi.",
+      "source": {"title":"History of the Four Rings","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/history-of-the-four-rings-4093","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:datsun-market-transition-to-nissan-1981",
+      "from": "atlas:brand:datsun",
+      "fromLabel": "Datsun",
+      "to": "atlas:brand:nissan",
+      "toLabel": "Nissan",
+      "kind": "market-transition-to",
+      "validFrom": "1981-07",
+      "precision": "month",
+      "label": "Nissan inicia a comercialização mundial de veículos sob seu próprio nome",
+      "continuity": "A transição de identidade comercial substitui progressivamente Datsun nos mercados externos, sem implicar uma sucessão empresarial simples.",
+      "source": {"title":"1980's — Company Heritage","publisher":"Nissan Motor Corporation","url":"https://www.nissan-global.com/EN/COMPANY/PROFILE/HERITAGE/1980_copy/","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:jaguar-acquired-by-tata-2008",
+      "from": "atlas:brand:jaguar",
+      "fromLabel": "Jaguar",
+      "to": "atlas:organization:tata-motors",
+      "toLabel": "Tata Motors",
+      "kind": "acquired-by",
+      "validFrom": "2008-06-02",
+      "precision": "day",
+      "label": "Tata Motors conclui a aquisição dos negócios Jaguar",
+      "continuity": "A marca Jaguar mantém sua identidade sob a nova controladora.",
+      "source": {"title":"Tata Motors Completes Acquisition Of Jaguar Land Rover","publisher":"JLR Media Newsroom","url":"https://media.jaguarlandrover.com/de-de/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:land-rover-acquired-by-tata-2008",
+      "from": "atlas:brand:land-rover",
+      "fromLabel": "Land Rover",
+      "to": "atlas:organization:tata-motors",
+      "toLabel": "Tata Motors",
+      "kind": "acquired-by",
+      "validFrom": "2008-06-02",
+      "precision": "day",
+      "label": "Tata Motors conclui a aquisição dos negócios Land Rover",
+      "continuity": "A marca Land Rover mantém sua identidade sob a nova controladora.",
+      "source": {"title":"Tata Motors Completes Acquisition Of Jaguar Land Rover","publisher":"JLR Media Newsroom","url":"https://media.jaguarlandrover.com/de-de/news/2008/06/tata-motors-completes-acquisition-jaguar-land-rover","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:groupe-psa-merged-into-stellantis-2021",
+      "from": "atlas:organization:groupe-psa",
+      "fromLabel": "Groupe PSA",
+      "to": "atlas:organization:stellantis",
+      "toLabel": "Stellantis",
+      "kind": "merged-into",
+      "validFrom": "2021-01-16",
+      "precision": "day",
+      "label": "A fusão entre Groupe PSA e FCA torna-se efetiva",
+      "continuity": "As operações passam ao grupo combinado que adota o nome Stellantis.",
+      "source": {"title":"The merger of FCA and Groupe PSA has been completed","publisher":"Stellantis","url":"https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:fca-merged-into-stellantis-2021",
+      "from": "atlas:organization:fiat-chrysler-automobiles",
+      "fromLabel": "Fiat Chrysler Automobiles",
+      "to": "atlas:organization:stellantis",
+      "toLabel": "Stellantis",
+      "kind": "merged-into",
+      "validFrom": "2021-01-16",
+      "precision": "day",
+      "label": "A fusão entre FCA e Groupe PSA torna-se efetiva",
+      "continuity": "As operações passam ao grupo combinado que adota o nome Stellantis.",
+      "source": {"title":"The merger of FCA and Groupe PSA has been completed","publisher":"Stellantis","url":"https://www.stellantis.com/en/news/press-releases/2021/january/the-merger-of-fca-and-groupe-psa-has-been-completed","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
     }
   ]
 }

@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-KINDS = {"succeeded-by", "renamed-to", "merged-into", "acquired-by", "rights-acquired-by", "spun-off-to"}
+KINDS = {"succeeded-by", "renamed-to", "merged-into", "acquired-by", "rights-acquired-by", "spun-off-to", "market-transition-to"}
 PRECISIONS = {"day": r"\d{4}-\d{2}-\d{2}", "month": r"\d{4}-\d{2}", "year": r"\d{4}"}
 
 
@@ -28,7 +28,7 @@ def validate() -> dict:
         prefix = item.get("id", "<missing>")
         if prefix in ids: errors.append(f"{prefix}: duplicate id")
         ids.add(prefix)
-        if item.get("from") not in brand_ids: errors.append(f"{prefix}: from must reference a Brand")
+        if item.get("from") not in entity_ids: errors.append(f"{prefix}: unknown source participant")
         if item.get("to") not in entity_ids: errors.append(f"{prefix}: unknown target")
         if item.get("from") == item.get("to"): errors.append(f"{prefix}: self relation")
         if item.get("kind") not in KINDS: errors.append(f"{prefix}: invalid kind")
