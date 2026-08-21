@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Tramontana, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "efa62319-af4e-7c3a-8f15-cfcaf8ac559c",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Tramontana"
+    }
+  ],
+  "id": "atlas:brand:tramontana",
+  "legacy": {
+    "id": "b0ec4931-7984-74b8-b702-d272a0feefc5",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Tramontana",
+  "names": [],
+  "type": "Brand"
+}

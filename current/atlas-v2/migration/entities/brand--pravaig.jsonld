@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Pravaig, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7e229791-874b-7d26-92dd-8e2a1495f45e",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Pravaig"
+    }
+  ],
+  "id": "atlas:brand:pravaig",
+  "legacy": {
+    "id": "959133ad-8db3-7656-a647-d30048337238",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Pravaig",
+  "names": [],
+  "type": "Brand"
+}

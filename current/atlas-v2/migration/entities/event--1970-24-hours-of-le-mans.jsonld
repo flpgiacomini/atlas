@@ -1,0 +1,163 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5673baa15b849c76cb4b68"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a706caf88eecd0f6ed88d",
+      "legacyId": "01a01016-ea5a-706c-af88-eecd0f6ed88d",
+      "object": {
+        "id": "atlas:competition:24-hours-of-le-mans",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7471-983c-fd3e8b3d4cda",
+      "subject": "atlas:event:1970-24-hours-of-le-mans",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567dfe910928870c057296"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a71e3bd8f8457cb611622",
+      "legacyId": "01a01016-ea5a-71e3-bd8f-8457cb611622",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1970-06-14"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7e5d-9e28-9237ec91595e",
+      "subject": "atlas:event:1970-24-hours-of-le-mans",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567e14bdb3780e0560d114"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a732f904a2317ee453f11",
+      "legacyId": "01a01016-ea5a-732f-904a-2317ee453f11",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1970-06-14"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7e5d-9e28-9237ec91595e",
+      "subject": "atlas:event:1970-24-hours-of-le-mans",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567a00a07edf83b3e1cfaf"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a78e4a5bb3181290782df",
+      "legacyId": "01a01016-ea5a-78e4-a5bb-3181290782df",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1970-06-14"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7e5d-9e28-9237ec91595e",
+      "subject": "atlas:event:1970-24-hours-of-le-mans",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567fe48acc61fe4cd73d41"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7b3bad3b6b97dc7cc621",
+      "legacyId": "01a01016-ea5a-7b3b-ad3b-6b97dc7cc621",
+      "object": {
+        "id": "atlas:circuit:circuit-de-la-sarthe",
+        "type": "EntityReference"
+      },
+      "predicate": "held-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7a0b-a76b-49bd1ae01764",
+      "subject": "atlas:event:1970-24-hours-of-le-mans",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea56706aa5e9c3f99f7e1034"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7d0aa836cf74b1f37319",
+      "legacyId": "01a01016-ea5a-7d0a-a836-cf74b1f37319",
+      "object": {
+        "id": "atlas:competition:24-hours-of-le-mans",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7471-983c-fd3e8b3d4cda",
+      "subject": "atlas:event:1970-24-hours-of-le-mans",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1970 24 Hours of Le Mans é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra instância de 24 Hours of Le Mans. Também aparece na relação de participação no evento associada a 1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann. A documentação registra realização em Circuit de la Sarthe. A documentação registra ocorrência em 1970-06-14. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:1970-24-hours-of-le-mans",
+  "legacy": {
+    "id": "01a01016-ea4e-7244-a75a-690d8a4f8edf",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7471-983c-fd3e8b3d4cda",
+      "01a01016-ea53-773f-b1f7-bef6b23c7424",
+      "01a01016-ea53-7a0b-a76b-49bd1ae01764",
+      "01a01016-ea53-7e5d-9e28-9237ec91595e"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "1970 24 Hours of Le Mans",
+  "names": [],
+  "type": "Event"
+}

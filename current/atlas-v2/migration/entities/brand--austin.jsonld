@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Austin, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "473c976c-a4c0-7245-b913-ef2a50214b1e",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Austin"
+    }
+  ],
+  "id": "atlas:brand:austin",
+  "legacy": {
+    "id": "7ba9461a-6da8-7346-b030-cd7e97d9f1fa",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Austin",
+  "names": [],
+  "type": "Brand"
+}

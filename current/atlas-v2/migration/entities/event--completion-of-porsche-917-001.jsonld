@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea56719eab4f8989be714280"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5977669079e23e12f2591e",
+      "legacyId": "01a01016-ea59-7766-9079-e23e12f2591e",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1969-03-10"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-78af-a9d1-f3222c4144fc",
+      "subject": "atlas:event:completion-of-porsche-917-001",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea56733abc39d5e0899e591d"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597f5491617a1cb5bdd340",
+      "legacyId": "01a01016-ea59-7f54-9161-7a1cb5bdd340",
+      "object": {
+        "id": "atlas:vehicle-instance:porsche-917-001",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "completed_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-754b-b1e3-9a97eae557e2",
+      "subject": "atlas:event:completion-of-porsche-917-001",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Completion of Porsche 917-001 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Porsche 917-001. A documentação registra ocorrência em 1969-03-10. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:completion-of-porsche-917-001",
+  "legacy": {
+    "id": "01a01016-ea4d-7440-b02a-c7e60a99d201",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-754b-b1e3-9a97eae557e2",
+      "01a01016-ea52-78af-a9d1-f3222c4144fc"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_completion",
+    "realization_status": "occurred"
+  },
+  "name": "Completion of Porsche 917-001",
+  "names": [],
+  "type": "Event"
+}

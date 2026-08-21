@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Wartburg, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8b6a624a-4e7e-78cf-9c24-e7c83e7292e1",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Wartburg"
+    }
+  ],
+  "id": "atlas:brand:wartburg",
+  "legacy": {
+    "id": "14cbd1f9-f7c3-7be6-aa74-7df07304b4ea",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Wartburg",
+  "names": [],
+  "type": "Brand"
+}

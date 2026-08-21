@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Volkswagen Wolfsburg Plant é registrado no Atlas como instalação industrial, dentro da história global do automóvel. Também aparece na relação de produção em associada a Volkswagen Beetle / Type 1. Também aparece na relação de produção em associada a Volkswagen Golf — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:facility:volkswagen-wolfsburg-plant",
+  "legacy": {
+    "id": "01a010d9-28c3-7d42-8ff9-f555d77e38e9",
+    "slug": null,
+    "type": "facility"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c3-7c5d-a481-49c67f2f47d6",
+      "01a010d9-28c8-7547-bee5-3389eaae7dc5"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "facility_type": "factory"
+  },
+  "name": "Volkswagen Wolfsburg Plant",
+  "names": [],
+  "type": "Facility"
+}

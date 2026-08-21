@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557092a282042d655c8e70"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5970c6956346d26fbe6fad",
+      "legacyId": "01a01016-ea59-70c6-9563-46d26fbe6fad",
+      "object": {
+        "id": "atlas:technology:turbocharging",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7858-9f89-c938a373282a",
+      "subject": "atlas:event:introduction-of-turbocharger-in-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5576f78488756af40e25e1"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597ba2ad7e640dfb9c9065",
+      "legacyId": "01a01016-ea59-7ba2-ad7e-640dfb9c9065",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-turbo-g-series-type-930",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "turbo_variant"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7d80-86f4-fde02ea5dae6",
+      "subject": "atlas:event:introduction-of-turbocharger-in-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557c0a8cd22f450b4d5e83"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597c20bf53a4a6d97fabae",
+      "legacyId": "01a01016-ea59-7c20-bf53-a4a6d97fabae",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1974"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7ad7-9842-f5bb20eb8de9",
+      "subject": "atlas:event:introduction-of-turbocharger-in-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Introduction of turbocharger in Porsche 911 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra introdução do recurso Turbocharging. A documentação registra ocorrência em 1974. A documentação registra participação de Porsche 911 Turbo (G-Series / Type 930). O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:introduction-of-turbocharger-in-porsche-911",
+  "legacy": {
+    "id": "01a01016-ea4d-7114-9e02-1fc5bf40b16e",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7858-9f89-c938a373282a",
+      "01a01016-ea52-7ad7-9842-f5bb20eb8de9",
+      "01a01016-ea52-7d80-86f4-fde02ea5dae6"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "technology_introduction",
+    "realization_status": "occurred"
+  },
+  "name": "Introduction of turbocharger in Porsche 911",
+  "names": [],
+  "type": "Event"
+}

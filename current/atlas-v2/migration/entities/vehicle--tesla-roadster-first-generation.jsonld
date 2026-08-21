@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca77f1bccaf7e76cf5669e"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca78338b1a58b90010ba21",
+      "legacyId": "01a010d9-28ca-7833-8b1a-58b90010ba21",
+      "object": {
+        "id": "atlas:technology:battery-electric-vehicle-propulsion",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tesla-motors-tesla-motors-begins-regular-production-of-2008-tesla-roadster"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-7d2f-a490-35631c3cae51",
+      "subject": "atlas:vehicle:tesla-roadster-first-generation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca7b2392d757a2c5e50ca2"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca793d8f8098b598182bc6",
+      "legacyId": "01a010d9-28ca-793d-8f80-98b598182bc6",
+      "object": {
+        "id": "atlas:organization:tesla-motors",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tesla-motors-tesla-motors-begins-regular-production-of-2008-tesla-roadster"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-7f32-b83c-a588581a2b32",
+      "subject": "atlas:vehicle:tesla-roadster-first-generation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Tesla Roadster — First Generation é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Tesla Roadster prototype unveiling. Também aparece na relação de participação de associada a Tesla Roadster regular production begins. A documentação registra uso da tecnologia Battery-electric vehicle propulsion. A documentação registra fabricação por Tesla Motors. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:tesla-roadster-first-generation",
+  "legacy": {
+    "id": "01a010d9-28c9-72dd-ab9d-8d2433e4c51c",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28ca-75aa-a47f-d5979490ccf9",
+      "01a010d9-28ca-7d26-859e-1c28300095f4",
+      "01a010d9-28ca-7d2f-a490-35631c3cae51",
+      "01a010d9-28ca-7f32-b83c-a588581a2b32"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Tesla Roadster — First Generation",
+  "names": [],
+  "type": "Vehicle"
+}

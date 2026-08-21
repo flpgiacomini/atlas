@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Allard, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f90a8acb-0390-739f-82f7-633e5bda291c",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Allard"
+    }
+  ],
+  "id": "atlas:brand:allard",
+  "legacy": {
+    "id": "d9e7dcf7-803c-75ee-80ed-c3b6d170f2e9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Allard",
+  "names": [],
+  "type": "Brand"
+}

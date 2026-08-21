@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Qoros, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "92a93db8-c1e1-75e7-b465-13ba14dd02de",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Qoros"
+    }
+  ],
+  "id": "atlas:brand:qoros",
+  "legacy": {
+    "id": "956d737a-3586-7fc4-9aa5-cf2402bf1c6b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Qoros",
+  "names": [],
+  "type": "Brand"
+}

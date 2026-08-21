@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Dezzi, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "9ebcc07a-0f99-7c17-be49-ce5d0c496aa0",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Dezzi"
+    }
+  ],
+  "id": "atlas:brand:dezzi",
+  "legacy": {
+    "id": "ede661ce-cddb-77b4-a13e-6c68c52f1911",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Dezzi",
+  "names": [],
+  "type": "Brand"
+}

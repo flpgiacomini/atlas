@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de SSC North America, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f3fa38f6-2fc6-7953-8584-cf287a3c3d19",
+      "scheme": "atlas-brand-census",
+      "value": "M03:SSC North America"
+    }
+  ],
+  "id": "atlas:brand:ssc-north-america",
+  "legacy": {
+    "id": "1e1bafc3-5e2e-7ff2-9d79-a09296fbb89c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "SSC North America",
+  "names": [],
+  "type": "Brand"
+}

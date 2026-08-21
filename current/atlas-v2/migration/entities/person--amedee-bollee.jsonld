@@ -1,0 +1,51 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9c71a2d43d187966a4e1989c2d2dad61"
+      ],
+      "id": "atlas:claim:legacy-263f552840e57445980fb9b33e2da1db",
+      "legacyId": "263f5528-40e5-7445-980f-b9b33e2da1db",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1844"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "267c9ca0-7eb7-7564-ae48-be55ba6b6d0a",
+      "subject": "atlas:person:amedee-bollee",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Fundidor, inventor e construtor francês responsável por veículos rodoviários a vapor de grande porte. Com L’Obéissante, demonstrou em 1875 que uma máquina autopropelida podia transportar passageiros em uma viagem pública entre cidades.",
+  "id": "atlas:person:amedee-bollee",
+  "legacy": {
+    "id": "6d16b332-6baa-7d49-8072-c814b0960032",
+    "slug": "amedee-bollee",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "manufacturer"
+    ]
+  },
+  "name": "Amédée Bollée",
+  "names": [],
+  "type": "Person"
+}

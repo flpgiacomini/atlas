@@ -1,0 +1,68 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567b46bbb9deb01145ad9a"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b730f8c62b7b836cc4251",
+      "legacyId": "01a01016-ea5b-730f-8c62-b7b836cc4251",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-nordschleife"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7543-9cba-9a3beeb70658",
+      "subject": "atlas:circuit-layout:nurburgring-sudschleife-1927-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5678b6a159f879d87c76f0"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7d2c81fbe1fadbda8b99",
+      "legacyId": "01a01016-ea5b-7d2c-81fb-e1fadbda8b99",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7543-9cba-9a3beeb70658",
+      "subject": "atlas:circuit-layout:nurburgring-sudschleife-1927-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nürburgring Südschleife (1927 configuration) é registrado no Atlas como configuração de circuito, dentro da história global do automóvel. A documentação registra configuração pertencente a Nürburgring. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:circuit-layout:nurburgring-sudschleife-1927-configuration",
+  "legacy": {
+    "id": "01a01016-ea4e-759c-979a-f1fee34cdd1a",
+    "slug": null,
+    "type": "circuit_layout"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7543-9cba-9a3beeb70658"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial",
+    "length_km": 7.747
+  },
+  "name": "Nürburgring Südschleife (1927 configuration)",
+  "names": [],
+  "type": "CircuitLayout"
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544c752bbebbf2e4f5f666cb"
+      ],
+      "id": "atlas:claim:legacy-01a01028544c70958988ff3853bf3da4",
+      "legacyId": "01a01028-544c-7095-8988-ff3853bf3da4",
+      "object": {
+        "id": "atlas:organization:honda-motor-co",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-introducing-n360-1967"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544c-7f43-b872-74e54ce0416e",
+      "subject": "atlas:vehicle:honda-n360",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Honda N360 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Honda Motor Co.. Também aparece na relação de integração a associada a Honda N360 AT. Também aparece na relação de participação de associada a Honda N360 market launch. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:honda-n360",
+  "legacy": {
+    "id": "01a01028-544c-7d5d-a535-4d8e2484786a",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544c-7f43-b872-74e54ce0416e",
+      "01a01028-544d-7ddd-a87f-5162051587ca",
+      "01a01028-544e-7f5d-b08f-11d93ee05cbd"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "regulatory_class": "kei / mini passenger car",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Honda N360",
+  "names": [],
+  "type": "Vehicle"
+}

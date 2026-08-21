@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c875e7a8b596fe07b6b93e"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c877da9e4599bff78fda7e",
+      "legacyId": "01a010d9-28c8-77da-9e45-99bff78fda7e",
+      "object": {
+        "id": "atlas:vehicle:mazda-cosmo-sport-110s",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mazda-motor-corporation-mazda-celebrates-40th-anniversary-of-rotary-engine-vehicles"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c8-7222-9015-f35471bb08ee",
+      "subject": "atlas:event:mazda-cosmo-sport-sales-begin",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c872cd84467d3a93740b26"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c87ff89ebd1e63058a16da",
+      "legacyId": "01a010d9-28c8-7ff8-9ebd-1e63058a16da",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1967-05-30"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mazda-motor-corporation-mazda-celebrates-40th-anniversary-of-rotary-engine-vehicles"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c8-7700-9402-da99fe6f62e7",
+      "subject": "atlas:event:mazda-cosmo-sport-sales-begin",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mazda Cosmo Sport sales begin é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Mazda Cosmo Sport / 110S. A documentação registra ocorrência em 1967-05-30. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:mazda-cosmo-sport-sales-begin",
+  "legacy": {
+    "id": "01a010d9-28c7-7d27-a89c-87e48b5bca29",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c8-7222-9015-f35471bb08ee",
+      "01a010d9-28c8-7700-9402-da99fe6f62e7"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Mazda Cosmo Sport sales begin",
+  "names": [],
+  "type": "Event"
+}

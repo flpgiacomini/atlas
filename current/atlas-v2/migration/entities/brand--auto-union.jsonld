@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Auto Union, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7c187797-5714-7ae2-99fa-11052197ca3f",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Auto Union"
+    }
+  ],
+  "id": "atlas:brand:auto-union",
+  "legacy": {
+    "id": "4fa1fa2b-3a33-76df-840a-5f4e0437f62f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Auto Union",
+  "names": [],
+  "type": "Brand"
+}

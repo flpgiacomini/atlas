@@ -1,0 +1,139 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c773819c28b235d88e3f9b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c77327b9304f60866f5b20",
+      "legacyId": "01a010d9-28c7-7327-b930-4f60866f5b20",
+      "object": {
+        "id": "atlas:technology:mid-engine-road-car-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-history-miura"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-74f8-98cb-5558773ef118",
+      "subject": "atlas:vehicle:lamborghini-miura",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c7708190639b9e93573837"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c775c4a6ea8c29714bcbc6",
+      "legacyId": "01a010d9-28c7-75c4-a6ea-8c29714bcbc6",
+      "object": {
+        "id": "atlas:technology:mid-engine-road-car-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-miura-the-first-supercar-in-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-74f8-98cb-5558773ef118",
+      "subject": "atlas:vehicle:lamborghini-miura",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c776ae810b5ca03088b154"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c779bca03a46f0523eeee8",
+      "legacyId": "01a010d9-28c7-79bc-a03a-46f0523eeee8",
+      "object": {
+        "id": "atlas:brand:lamborghini",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-miura-the-first-supercar-in-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7e55-87b1-e4855b5d4a8f",
+      "subject": "atlas:vehicle:lamborghini-miura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c7776ba67474de858a0bac"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c779ddb5dfd1ba2548fec9",
+      "legacyId": "01a010d9-28c7-79dd-b5df-d1ba2548fec9",
+      "object": {
+        "id": "atlas:person:marcello-gandini",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-miura-the-first-supercar-in-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-792a-a8a0-42743e77fc18",
+      "subject": "atlas:vehicle:lamborghini-miura",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c776d9b687327fefcc34a2"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c77c5da92bdb3803b720e2",
+      "legacyId": "01a010d9-28c7-7c5d-a92b-db3803b720e2",
+      "object": {
+        "id": "atlas:brand:lamborghini",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-history-miura"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7e55-87b1-e4855b5d4a8f",
+      "subject": "atlas:vehicle:lamborghini-miura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Lamborghini Miura é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Mid-engine road-car architecture. A documentação registra responsabilidade de projeto de Marcello Gandini. Também aparece na relação de participação de associada a First production Lamborghini Miura delivered. Também aparece na relação de participação de associada a Lamborghini Miura presentation at Geneva Motor Show. A documentação registra comercialização sob Lamborghini. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:lamborghini-miura",
+  "legacy": {
+    "id": "01a010d9-28c6-72db-9da6-6b38a676cf71",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c7-74f8-98cb-5558773ef118",
+      "01a010d9-28c7-792a-a8a0-42743e77fc18",
+      "01a010d9-28c7-7cbd-ad22-9458d7456b1c",
+      "01a010d9-28c7-7dbd-b7cb-82e7a266de70",
+      "01a010d9-28c7-7e55-87b1-e4855b5d4a8f"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Lamborghini Miura",
+  "names": [],
+  "type": "Vehicle"
+}

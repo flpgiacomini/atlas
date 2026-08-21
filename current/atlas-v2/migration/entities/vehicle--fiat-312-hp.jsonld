@@ -1,0 +1,70 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e9712ab254308792282560"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e976018602e8c5ad57cc8c",
+      "legacyId": "01a0102a-57e9-7601-8602-e8c5ad57cc8c",
+      "object": {
+        "id": "atlas:brand:fiat",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-heritage-fiat-the-fiat-312-hp-produced-in-1899"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e9-76c8-ab99-8ad12950aa26",
+      "subject": "atlas:vehicle:fiat-312-hp",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e978acb7e4876fa7aa1d8d"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e978588ee19f53d3f4dfed",
+      "legacyId": "01a0102a-57e9-7858-8ee1-9f53d3f4dfed",
+      "object": {
+        "id": "atlas:organization:fabbrica-italiana-automobili-torino",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-heritage-fiat-the-fiat-312-hp-produced-in-1899"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e9-7181-abbb-9a270549898b",
+      "subject": "atlas:vehicle:fiat-312-hp",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "FIAT 3½ HP é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Fabbrica Italiana Automobili Torino. A documentação registra comercialização sob FIAT. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:fiat-312-hp",
+  "legacy": {
+    "id": "01a0102a-57e9-7e89-b032-eab940132035",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e9-7181-abbb-9a270549898b",
+      "01a0102a-57e9-76c8-ab99-8ad12950aa26"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "FIAT 3½ HP",
+  "names": [],
+  "type": "Vehicle"
+}

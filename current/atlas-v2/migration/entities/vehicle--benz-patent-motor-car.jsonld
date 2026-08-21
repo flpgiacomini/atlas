@@ -1,0 +1,79 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285443761183b62ffea6288801"
+      ],
+      "id": "atlas:claim:legacy-01a01028544370d58a4e1377322ba37b",
+      "legacyId": "01a01028-5443-70d5-8a4e-1377322ba37b",
+      "object": {
+        "id": "atlas:person:carl-benz",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-1886-1894"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5443-76ec-bf05-d5ac4193df11",
+      "subject": "atlas:vehicle:benz-patent-motor-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-b5a068fc1ecd7f32bcb82d4a54575b3b"
+      ],
+      "id": "atlas:claim:legacy-d6c4a4154e9e7782beccc4f84ed55288",
+      "legacyId": "d6c4a415-4e9e-7782-becc-c4f84ed55288",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:ciclo-de-quatro-tempos",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e52983f2-a8fd-7d9c-940f-263ec4f17570",
+      "subject": "atlas:vehicle:benz-patent-motor-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Família do automóvel patenteado por Carl Benz em 1886, concebida desde o início como veículo movido por motor a combustão, e não como adaptação de uma carruagem. Representa um marco fundador da história técnica e industrial do automóvel.",
+  "id": "atlas:vehicle:benz-patent-motor-car",
+  "legacy": {
+    "id": "01a01028-5441-7fa0-bb13-31fad66d99f1",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5441-7a8f-9856-e5ada74b8e4f",
+      "01a01028-5443-76ec-bf05-d5ac4193df11",
+      "01a01028-5443-7cad-8613-8a60d7c14acc"
+    ],
+    "editorial_batch": "E09",
+    "editorial_batches": [
+      "E02",
+      "E09"
+    ],
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Benz Patent Motor Car",
+  "names": [],
+  "type": "Vehicle"
+}

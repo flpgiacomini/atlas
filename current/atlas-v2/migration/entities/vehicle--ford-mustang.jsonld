@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c676dcbf693002d47fd58f"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c671e699d198454a90d065",
+      "legacyId": "01a010d9-28c6-71e6-99d1-98454a90d065",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-mustang-debut-at-world-s-fair"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c6-76b5-9466-352abd4badbe",
+      "subject": "atlas:vehicle:ford-mustang",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Mustang é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Ford Mustang public debut at New York World's Fair. A documentação registra fabricação por Ford Motor Company. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:ford-mustang",
+  "legacy": {
+    "id": "01a010d9-28c6-79eb-9cc1-0f8d258b61d4",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c6-72c6-8fff-aa2ad8a3d83a",
+      "01a010d9-28c6-76b5-9466-352abd4badbe"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Ford Mustang",
+  "names": [],
+  "type": "Vehicle"
+}

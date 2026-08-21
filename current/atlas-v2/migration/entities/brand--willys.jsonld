@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Willys, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d773311c-5b78-70ac-8476-53333a83f337",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Willys"
+    }
+  ],
+  "id": "atlas:brand:willys",
+  "legacy": {
+    "id": "4b6637a6-4e5d-7478-b629-5b55a7ba262b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Willys",
+  "names": [],
+  "type": "Brand"
+}

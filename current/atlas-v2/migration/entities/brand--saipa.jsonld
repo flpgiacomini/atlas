@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Saipa, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5d12cc0c-664c-7987-84ba-a043beecba04",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Saipa"
+    }
+  ],
+  "id": "atlas:brand:saipa",
+  "legacy": {
+    "id": "512bb56f-120d-784d-9b0d-9f08d3fe837e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Saipa",
+  "names": [],
+  "type": "Brand"
+}

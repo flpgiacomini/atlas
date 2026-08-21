@@ -1,0 +1,124 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "992"
+  ],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55703bb350f1b2efb831d5"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5871f7a7619b6c160fde55",
+      "legacyId": "01a01016-ea58-71f7-a761-9b6c160fde55",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-type-991",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-78cc-b4ef-210baf9e43ea",
+      "subject": "atlas:vehicle:porsche-911-type-992",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557b25b9703f6789683a4e"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5874e3beb708d90de9b2a5",
+      "legacyId": "01a01016-ea58-74e3-beb7-08d90de9b2a5",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-74db-9fc6-c4b3d2885bde",
+      "subject": "atlas:vehicle:porsche-911-type-992",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55736ca687186564da82dd"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58757bbd1a54e7abf0f71a",
+      "legacyId": "01a01016-ea58-757b-bd1a-54e7abf0f71a",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-type-991",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-78cc-b4ef-210baf9e43ea",
+      "subject": "atlas:vehicle:porsche-911-type-992",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557cb9bb2b8788a91b57cd"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5878789f2149d8685dc774",
+      "legacyId": "01a01016-ea58-7878-9f21-49d8685dc774",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-74db-9fc6-c4b3d2885bde",
+      "subject": "atlas:vehicle:porsche-911-type-992",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 911 Type 992 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra integração a Porsche 911. A documentação registra sucessão de Porsche 911 Type 991. Também aparece na relação de participação de associada a Presentation of Porsche 911 Type 992. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-911-type-992",
+  "legacy": {
+    "id": "01a01016-ea4d-7094-bc6a-f8ffab816d4a",
+    "slug": "porsche-911-992",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-74db-9fc6-c4b3d2885bde",
+      "01a01016-ea51-78cc-b4ef-210baf9e43ea",
+      "01a01016-ea52-7d6c-a343-cc720cc11dd0"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "source_period": "2018-present",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Porsche 911 Type 992",
+  "names": [
+    {
+      "id": "01a01016-ea4d-7ab9-874f-d8cd984a6729",
+      "name_type": "internal_code",
+      "value": "992"
+    }
+  ],
+  "type": "Vehicle"
+}

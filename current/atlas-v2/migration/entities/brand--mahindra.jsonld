@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mahindra, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "639a8fdb-4a7e-7034-b974-ec912f721a07",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Mahindra"
+    }
+  ],
+  "id": "atlas:brand:mahindra",
+  "legacy": {
+    "id": "53e2aa3d-661b-75b7-a543-f7e7fff99b70",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Mahindra",
+  "names": [],
+  "type": "Brand"
+}

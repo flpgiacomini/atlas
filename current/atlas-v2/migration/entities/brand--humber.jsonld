@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Humber, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e151a193-6a68-78cc-90e8-fe6baeaa2f4a",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Humber"
+    }
+  ],
+  "id": "atlas:brand:humber",
+  "legacy": {
+    "id": "ee52c393-326f-7077-9128-ffd3ddf5eb9e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Humber",
+  "names": [],
+  "type": "Brand"
+}

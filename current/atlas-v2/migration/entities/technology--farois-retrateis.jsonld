@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Solução de iluminação na qual os faróis permanecem ocultos ou nivelados quando não utilizados. O Buick Y-Job empregou faróis escondidos como parte de sua pesquisa formal; a solução mais tarde apareceu em automóveis produzidos em série por diferentes fabricantes.",
+  "id": "atlas:technology:farois-retrateis",
+  "legacy": {
+    "id": "3bcc7e4d-7463-72a4-98c9-33d39710f4f7",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V02",
+    "editorial_level": "editorial",
+    "technology_category": "lighting and body integration"
+  },
+  "name": "Faróis retráteis",
+  "names": [],
+  "type": "Technology"
+}

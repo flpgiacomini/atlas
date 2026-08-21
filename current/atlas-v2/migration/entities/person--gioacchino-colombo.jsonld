@@ -1,0 +1,26 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Gioacchino Colombo é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de responsabilidade de projeto de associada a Ferrari 125 S 1.5-litre V12. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:gioacchino-colombo",
+  "legacy": {
+    "id": "01a010d9-28c4-75e7-b4de-555e9f8b5b9a",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c4-7397-91ee-6a4878c6b00f"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "designer"
+    ]
+  },
+  "name": "Gioacchino Colombo",
+  "names": [],
+  "type": "Person"
+}

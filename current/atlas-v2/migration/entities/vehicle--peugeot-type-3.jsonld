@@ -1,0 +1,70 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e870e49bb553e3a47018b0"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e87b769ade6078cf720ebb",
+      "legacyId": "01a0102a-57e8-7b76-9ade-6078cf720ebb",
+      "object": {
+        "id": "atlas:vehicle:peugeot-type-2",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e8-7133-8bf8-df96cf77852c",
+      "subject": "atlas:vehicle:peugeot-type-3",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-673997633b3a7bed8250f2578713074b"
+      ],
+      "id": "atlas:claim:legacy-60cefb3fa7e57d349ac12517afecfc9f",
+      "legacyId": "60cefb3f-a7e5-7d34-9ac1-2517afecfc9f",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:brand:peugeot",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "0e245145-1f20-7f17-a72b-2f477399ca43",
+      "subject": "atlas:vehicle:peugeot-type-3",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Peugeot Type 3 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra sucessão de Peugeot Type 2. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:peugeot-type-3",
+  "legacy": {
+    "id": "01a0102a-57e7-76fd-b8d0-8018ce990f8a",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e8-7133-8bf8-df96cf77852c"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Peugeot Type 3",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Giannini, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b631e0a4-960e-7c74-aa17-250a2797aa1d",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Giannini"
+    }
+  ],
+  "id": "atlas:brand:giannini",
+  "legacy": {
+    "id": "19e4cc7d-1349-7118-ade6-e3fed804a5ca",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Giannini",
+  "names": [],
+  "type": "Brand"
+}

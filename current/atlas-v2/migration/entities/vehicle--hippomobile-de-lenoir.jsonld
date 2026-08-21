@@ -1,0 +1,124 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-3d187044f9067388bd293cdeb1a716ac"
+      ],
+      "id": "atlas:claim:legacy-795c163732147ec9842a2231d818bff2",
+      "legacyId": "795c1637-3214-7ec9-842a-2231d818bff2",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "1c6d2023-c39f-78e9-b317-632a4cdde4c7",
+      "subject": "atlas:vehicle:hippomobile-de-lenoir",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-4bec898966727170b3ac2896d10f84b8"
+      ],
+      "id": "atlas:claim:legacy-a5ab474b04937f71bbf24b6a2d35e494",
+      "legacyId": "a5ab474b-0493-7f71-bbf2-4b6a2d35e494",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:etienne-lenoir",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d280acac-8e6e-76cd-86a7-62e76ec3a4bb",
+      "subject": "atlas:vehicle:hippomobile-de-lenoir",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-130c9b2f56f87efeaa47fcc858bcd185"
+      ],
+      "id": "atlas:claim:legacy-a6293a539f8c798e8b08ecdae72e5083",
+      "legacyId": "a6293a53-9f8c-798e-8b08-ecdae72e5083",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": "veículo rodoviário experimental",
+      "predicate": "configured-as",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d9d97d70-6264-7837-a843-b8efba517237",
+      "subject": "atlas:vehicle:hippomobile-de-lenoir",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-6287735499787dde91f859762f1c5fb6"
+      ],
+      "id": "atlas:claim:legacy-c0b9251be07b70f598944f3f237ab39a",
+      "legacyId": "c0b9251b-e07b-70f5-9894-4f3f237ab39a",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1863"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "7c7ec9c1-1474-7846-8834-1de88d8803d3",
+      "subject": "atlas:vehicle:hippomobile-de-lenoir",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo experimental associado a Étienne Lenoir e usualmente datado de 1863, impulsionado por uma adaptação de seu motor. Ele representa uma etapa entre o motor comercial estacionário e a propulsão rodoviária por combustão interna.",
+  "id": "atlas:vehicle:hippomobile-de-lenoir",
+  "legacy": {
+    "id": "06506223-7aac-7b53-927e-2834b286a38d",
+    "slug": "hippomobile-de-lenoir",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "Hippomobile de Lenoir",
+  "names": [],
+  "type": "Vehicle"
+}

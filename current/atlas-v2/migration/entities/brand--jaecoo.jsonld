@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Jaecoo, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5a46d6e5-ad08-75ae-b58f-ebbb5565ffd4",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Jaecoo"
+    }
+  ],
+  "id": "atlas:brand:jaecoo",
+  "legacy": {
+    "id": "c5589bf9-237e-7938-b5e5-b94781bd91e9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Jaecoo",
+  "names": [],
+  "type": "Brand"
+}

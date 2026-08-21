@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "British Motor Corporation é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Classic Mini. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:british-motor-corporation",
+  "legacy": {
+    "id": "01a010d9-28c6-7d0e-b0fb-fc349473d4fb",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c6-75d3-8792-5816b1bdee92"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "British Motor Corporation",
+  "names": [],
+  "type": "Organization"
+}

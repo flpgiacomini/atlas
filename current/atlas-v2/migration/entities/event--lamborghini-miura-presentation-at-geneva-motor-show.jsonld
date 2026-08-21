@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c7768a930e5669480102f9"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c7729ebfc6ffd0928869d5",
+      "legacyId": "01a010d9-28c7-729e-bfc6-ffd0928869d5",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1966-03"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-history-miura"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7b1a-8809-23730f995a96",
+      "subject": "atlas:event:lamborghini-miura-presentation-at-geneva-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c7712aaa1f367312958bc0"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c77d54bc91ea82e2155351",
+      "legacyId": "01a010d9-28c7-7d54-bc91-ea82e2155351",
+      "object": {
+        "id": "atlas:vehicle:lamborghini-miura",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-history-miura"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7dbd-b7cb-82e7a266de70",
+      "subject": "atlas:event:lamborghini-miura-presentation-at-geneva-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Lamborghini Miura presentation at Geneva Motor Show é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1966-03. A documentação registra participação de Lamborghini Miura. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:lamborghini-miura-presentation-at-geneva-motor-show",
+  "legacy": {
+    "id": "01a010d9-28c7-7e06-b5a7-472a278161dc",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c7-7b1a-8809-23730f995a96",
+      "01a010d9-28c7-7dbd-b7cb-82e7a266de70"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Lamborghini Miura presentation at Geneva Motor Show",
+  "names": [],
+  "type": "Event"
+}

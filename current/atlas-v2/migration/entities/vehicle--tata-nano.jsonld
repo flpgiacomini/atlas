@@ -1,0 +1,105 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544a7f0fa0494770f4479ed7"
+      ],
+      "id": "atlas:claim:legacy-01a01028544a7924b54330f66293da6b",
+      "legacyId": "01a01028-544a-7924-b543-30f66293da6b",
+      "object": {
+        "id": "atlas:organization:tata-motors",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-the-tata-nano-arrives"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5449-7a3d-a110-2050a1017620",
+      "subject": "atlas:vehicle:tata-nano",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544b7bfc83cd0e09583321b4"
+      ],
+      "id": "atlas:claim:legacy-01a01028544b71e49c21c78b49c57d28",
+      "legacyId": "01a01028-544b-71e4-9c21-c78b49c57d28",
+      "object": {
+        "id": "atlas:facility:tata-motors-pantnagar-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-the-tata-nano-arrives"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544b-7588-9fb4-4b9cf7bb5ad4",
+      "subject": "atlas:vehicle:tata-nano",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": null,
+        "precision": "year",
+        "until": "2010"
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544b7224b56c9def5e1e5be6"
+      ],
+      "id": "atlas:claim:legacy-01a01028544b7e648e98d0f546fa9bd4",
+      "legacyId": "01a01028-544b-7e64-8e98-d0f546fa9bd4",
+      "object": {
+        "id": "atlas:facility:tata-motors-sanand-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-tata-motors-celebrates-1-millionth-car-roll-out-from-its-sanand-facility"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544b-7125-b276-6963a3bc3d01",
+      "subject": "atlas:vehicle:tata-nano",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "2010",
+        "precision": "year",
+        "until": null
+      }
+    }
+  ],
+  "description": "Tata Nano é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Tata Motors. A documentação registra produção em Tata Motors Sanand Plant. Também aparece na relação de participação de associada a Tata Nano commercial launch. Também aparece na relação de participação de associada a Tata Nano unveiling. A documentação registra produção em Tata Motors Pantnagar Plant. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:tata-nano",
+  "legacy": {
+    "id": "01a01028-5448-7307-a972-6d98594b95a7",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5449-7a3d-a110-2050a1017620",
+      "01a01028-544b-7125-b276-6963a3bc3d01",
+      "01a01028-544b-744e-99b2-496c35e4e2e0",
+      "01a01028-544b-752e-9edc-a28b00bf4d15",
+      "01a01028-544b-7588-9fb4-4b9cf7bb5ad4"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Tata Nano",
+  "names": [],
+  "type": "Vehicle"
+}

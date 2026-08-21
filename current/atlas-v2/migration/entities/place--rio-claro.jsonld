@@ -1,0 +1,47 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5475f4b54a06f096da447a"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577b72a2461e680de530c2",
+      "legacyId": "01a01016-ea57-7b72-a246-1e680de530c2",
+      "object": {
+        "id": "atlas:place:brazil",
+        "type": "EntityReference"
+      },
+      "predicate": "located-in",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-782d-b144-1c36d47e3e80",
+      "subject": "atlas:place:rio-claro",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Rio Claro é registrado no Atlas como lugar, dentro da história global do automóvel. A documentação registra localização em Brazil. Também aparece na relação de localização em associada a Gurgel Motores S/A. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:place:rio-claro",
+  "legacy": {
+    "id": "01a01016-ea4d-727c-ace2-5a5844c0c932",
+    "slug": null,
+    "type": "place"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea4f-782d-b144-1c36d47e3e80",
+      "01a01016-ea4f-7919-aee5-cf0a9bf1a6a5"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "place_type": "city"
+  },
+  "name": "Rio Claro",
+  "names": [],
+  "type": "Place"
+}

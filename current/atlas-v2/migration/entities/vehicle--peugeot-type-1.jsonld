@@ -1,0 +1,98 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e77f03bf950b71d86bc5d3"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e777e38ebedff7dd894e8b",
+      "legacyId": "01a0102a-57e7-77e3-8ebe-dff7dd894e8b",
+      "object": {
+        "id": "atlas:person:leon-serpollet",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "role": "steam_vehicle_engineering"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-7e0d-a0b6-b70dd2227d41",
+      "subject": "atlas:vehicle:peugeot-type-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e77d1bb0f2df4574e42b4e"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e77dac95d318d37e5f1cf6",
+      "legacyId": "01a0102a-57e7-7dac-95d3-18d37e5f1cf6",
+      "object": {
+        "id": "atlas:brand:peugeot",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-700e-9d80-0295ddbd302c",
+      "subject": "atlas:vehicle:peugeot-type-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e775e4be99324416103cfa"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e77df4b3173e1e2446da23",
+      "legacyId": "01a0102a-57e7-7df4-b317-3e1e2446da23",
+      "object": {
+        "id": "atlas:person:armand-peugeot",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-7eac-a4a0-247ec1555c52",
+      "subject": "atlas:vehicle:peugeot-type-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Peugeot Type 1 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra comercialização sob Peugeot. Também aparece na relação de derivação de associada a Peugeot Type 2. Também aparece na relação de participação de associada a Peugeot Type 1 shown at Paris World Fair. A documentação registra responsabilidade de projeto de Léon Serpollet. A documentação registra desenvolvimento por Armand Peugeot. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:peugeot-type-1",
+  "legacy": {
+    "id": "01a0102a-57e7-7769-9156-f74a67742b6a",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e7-700e-9d80-0295ddbd302c",
+      "01a0102a-57e7-7112-90e0-dcf171223391",
+      "01a0102a-57e7-775c-96b5-68e9f7c4ed54",
+      "01a0102a-57e7-7e0d-a0b6-b70dd2227d41",
+      "01a0102a-57e7-7eac-a4a0-247ec1555c52"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "vehicle_kind": "prototype",
+    "vehicle_level": "standalone"
+  },
+  "name": "Peugeot Type 1",
+  "names": [],
+  "type": "Vehicle"
+}

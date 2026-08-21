@@ -1,0 +1,27 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "João Augusto Conrado do Amaral Gurgel é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de fundação por associada a Gurgel Motores S/A. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:joao-augusto-conrado-do-amaral-gurgel",
+  "legacy": {
+    "id": "01a01016-ea4c-73c1-87d0-37223d1c1ffb",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea4f-7d17-8a3f-5204f228ed0e"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "engineer",
+      "entrepreneur"
+    ]
+  },
+  "name": "João Augusto Conrado do Amaral Gurgel",
+  "names": [],
+  "type": "Person"
+}

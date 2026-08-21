@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-93bd8a3ef87a7f62b5c3c0abb2efb139"
+      ],
+      "id": "atlas:claim:legacy-81754007c1127f4fa2b80b6578f4ed19",
+      "legacyId": "81754007-c112-7f4f-a2b8-0b6578f4ed19",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:alerta-automotivo-de-colisao-por-radar",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Cyclone radar"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:taubman-museum-of-art-1959-cadillac-cyclone-xp-74"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b7e36655-0933-7930-a173-ba333310671d",
+      "subject": "atlas:vehicle:cadillac-cyclone",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-5ccf2098174574e9b50be0e9ff3be2bc"
+      ],
+      "id": "atlas:claim:legacy-a45326f057f470c7a4d0956b77071d10",
+      "legacyId": "a45326f0-57f4-70c7-a4d0-956b77071d10",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:brand:cadillac",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Cyclone"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:cadillac-general-motors-iconic-then-iconic-now-our-legacy"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "74f6ade6-9d54-724a-95fd-572e7b785ba0",
+      "subject": "atlas:vehicle:cadillac-cyclone",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-56f91ccabe1d7b858bb18bf0c233c477"
+      ],
+      "id": "atlas:claim:legacy-b193ef925bdf7df0b4ef108d9699a25f",
+      "legacyId": "b193ef92-5bdf-7df0-b4ef-108d9699a25f",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:linguagem-aeronautica-em-concept-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Cyclone"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:cadillac-general-motors-iconic-then-iconic-now-our-legacy"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f434ccae-3557-71f8-8c07-176915bdd410",
+      "subject": "atlas:vehicle:cadillac-cyclone",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-1d9a6f48502076ef8a0e7ca5419bb26a"
+      ],
+      "id": "atlas:claim:legacy-f3f05dba8b657f50b02affe743f6a781",
+      "legacyId": "f3f05dba-8b65-7f50-b02a-ffe743f6a781",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:canopy-retratil-automotivo",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Cyclone radar"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:taubman-museum-of-art-1959-cadillac-cyclone-xp-74"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "2210797f-abd2-7cac-a47a-8fd2b928ce7c",
+      "subject": "atlas:vehicle:cadillac-cyclone",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept car de 1959 que encerrou a linhagem dos Motoramas sob forte inspiração aeroespacial. Seus cones dianteiros alojavam sensores de radar para advertência de proximidade, enquanto a capota transparente retrátil e as portas deslizantes dramatizavam um futuro automatizado; o projeto permaneceu experimental e integra a coleção histórica da General Motors.",
+  "id": "atlas:vehicle:cadillac-cyclone",
+  "legacy": {
+    "id": "ba59c077-bd08-7bb2-90cc-7e1c383465f7",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "74f6ade6-9d54-724a-95fd-572e7b785ba0",
+      "f434ccae-3557-71f8-8c07-176915bdd410",
+      "b7e36655-0933-7930-a173-ba333310671d",
+      "2210797f-abd2-7cac-a47a-8fd2b928ce7c"
+    ],
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "Cadillac Cyclone",
+  "names": [],
+  "type": "Vehicle"
+}

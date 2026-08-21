@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de McLaren, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ab00bfe9-caca-7504-b345-59a6c37a88ea",
+      "scheme": "atlas-brand-census",
+      "value": "M05:McLaren"
+    }
+  ],
+  "id": "atlas:brand:mclaren",
+  "legacy": {
+    "id": "1bdbcf50-2bb7-79c2-92db-e17afad4b49b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "McLaren",
+  "names": [],
+  "type": "Brand"
+}

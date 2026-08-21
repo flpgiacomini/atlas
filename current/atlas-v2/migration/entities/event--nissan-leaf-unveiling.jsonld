@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285451709594aafe4c23b7155e"
+      ],
+      "id": "atlas:claim:legacy-01a0102854517179956217c371ecdcca",
+      "legacyId": "01a01028-5451-7179-9562-17c371ecdcca",
+      "object": {
+        "id": "atlas:vehicle:nissan-leaf-first-generation",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nissan-motor-co-nissan-unveils-leaf"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5451-7299-8249-1943428f57c2",
+      "subject": "atlas:event:nissan-leaf-unveiling",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854517dbd84e8c9f46a6f8f41"
+      ],
+      "id": "atlas:claim:legacy-01a0102854517f21af261972169fb287",
+      "legacyId": "01a01028-5451-7f21-af26-1972169fb287",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2009-08-02"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nissan-motor-co-nissan-unveils-leaf"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5451-7c89-b84b-91b3473d56b5",
+      "subject": "atlas:event:nissan-leaf-unveiling",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nissan LEAF unveiling é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Nissan LEAF — First Generation. A documentação registra ocorrência em 2009-08-02. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:nissan-leaf-unveiling",
+  "legacy": {
+    "id": "01a01028-544f-7f08-8a11-5ef85c02ecde",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5451-7299-8249-1943428f57c2",
+      "01a01028-5451-7c89-b84b-91b3473d56b5"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Nissan LEAF unveiling",
+  "names": [],
+  "type": "Event"
+}

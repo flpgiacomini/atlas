@@ -1,0 +1,76 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ec70eeb2a8f4c1b3c4df83"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ec70a490d114176292782d",
+      "legacyId": "01a0102a-57ec-70a4-90d1-14176292782d",
+      "object": {
+        "id": "atlas:person:ransom-e-olds",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-curved-dash-oldsmobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ec-7a30-bc65-96911281172e",
+      "subject": "atlas:vehicle:oldsmobile-curved-dash",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ec74b99981e068fa5d5544"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ec7b05af83088d4790c5ef",
+      "legacyId": "01a0102a-57ec-7b05-af83-088d4790c5ef",
+      "object": {
+        "id": "atlas:brand:oldsmobile",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-curved-dash-oldsmobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ec-7071-a8c7-4c0e3e085a12",
+      "subject": "atlas:vehicle:oldsmobile-curved-dash",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Oldsmobile Curved Dash é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra comercialização sob Oldsmobile. A documentação registra desenvolvimento por Ransom E. Olds. Também aparece na relação de participação de associada a Oldsmobile Curved Dash introduction. Também aparece na relação de participação de associada a Oldsmobile Curved Dash enters large-scale American production. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:oldsmobile-curved-dash",
+  "legacy": {
+    "id": "01a0102a-57ec-75f6-9e5f-339e8aeb29d7",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ec-7071-a8c7-4c0e3e085a12",
+      "01a0102a-57ec-7a30-bc65-96911281172e",
+      "01a0102a-57ec-7cfc-94a2-9abd0b69dac1",
+      "01a01030-3319-7daf-b671-f18e9d3ae023"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "historical_significance": [
+      "described by The Henry Ford as America's first car produced in large numbers",
+      "bestselling U.S. car 1902–1905"
+    ],
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Oldsmobile Curved Dash",
+  "names": [],
+  "type": "Vehicle"
+}

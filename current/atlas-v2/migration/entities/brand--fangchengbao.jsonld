@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Fangchengbao, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4b532c4c-38e7-750d-8784-f566a2d3e863",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Fangchengbao"
+    }
+  ],
+  "id": "atlas:brand:fangchengbao",
+  "legacy": {
+    "id": "d3cd822d-fd10-721c-b24c-2b5b963be9ad",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Fangchengbao",
+  "names": [],
+  "type": "Brand"
+}

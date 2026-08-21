@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Acura, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0287e4ad-0a1a-7cda-96d6-0b3cd224935e",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Acura"
+    }
+  ],
+  "id": "atlas:brand:acura",
+  "legacy": {
+    "id": "6e4fe7d3-5da3-7561-ae49-6911b4878d26",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Acura",
+  "names": [],
+  "type": "Brand"
+}

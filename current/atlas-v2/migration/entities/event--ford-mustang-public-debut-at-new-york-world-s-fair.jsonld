@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c67790ae83bb6585ddcda3"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c6791cb7b1decfe779ceeb",
+      "legacyId": "01a010d9-28c6-791c-b7b1-decfe779ceeb",
+      "object": {
+        "id": "atlas:vehicle:ford-mustang",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-mustang-debut-at-world-s-fair"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c6-72c6-8fff-aa2ad8a3d83a",
+      "subject": "atlas:event:ford-mustang-public-debut-at-new-york-world-s-fair",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c671dc8874e57050c3ff2b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c67f6892e552874c2af516",
+      "legacyId": "01a010d9-28c6-7f68-92e5-52874c2af516",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1964-04-17"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-mustang-debut-at-world-s-fair"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c6-7795-80e5-e40b4542929e",
+      "subject": "atlas:event:ford-mustang-public-debut-at-new-york-world-s-fair",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Mustang public debut at New York World's Fair é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Ford Mustang. A documentação registra ocorrência em 1964-04-17. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:ford-mustang-public-debut-at-new-york-world-s-fair",
+  "legacy": {
+    "id": "01a010d9-28c6-7f67-9680-fa5b0538e25c",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c6-72c6-8fff-aa2ad8a3d83a",
+      "01a010d9-28c6-7795-80e5-e40b4542929e"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Ford Mustang public debut at New York World's Fair",
+  "names": [],
+  "type": "Event"
+}

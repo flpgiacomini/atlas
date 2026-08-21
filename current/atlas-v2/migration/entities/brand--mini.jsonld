@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mini, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0a70995b-8048-7b57-bbc1-a3216907061a",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Mini"
+    }
+  ],
+  "id": "atlas:brand:mini",
+  "legacy": {
+    "id": "4c51f5e7-f68c-7808-826d-167d64930735",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Mini",
+  "names": [],
+  "type": "Brand"
+}

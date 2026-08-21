@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Optimal Energy, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "6f65eac1-1eef-7369-9025-d88b0d35de4a",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Optimal Energy"
+    }
+  ],
+  "id": "atlas:brand:optimal-energy",
+  "legacy": {
+    "id": "715ad2f5-cca1-7423-9aa8-98d8b14fd320",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Optimal Energy",
+  "names": [],
+  "type": "Brand"
+}

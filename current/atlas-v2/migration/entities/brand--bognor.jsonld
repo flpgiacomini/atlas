@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Bognor, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e66dcaa2-0853-7aa8-b9cd-73522d6bb096",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Bognor"
+    }
+  ],
+  "id": "atlas:brand:bognor",
+  "legacy": {
+    "id": "a1b7ee76-dcbd-7683-b73b-0f1d63be0ab0",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Bognor",
+  "names": [],
+  "type": "Brand"
+}

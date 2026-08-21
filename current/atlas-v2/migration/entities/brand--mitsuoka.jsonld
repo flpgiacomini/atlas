@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mitsuoka, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "01b38777-de0d-7a0a-816c-d1b706d637a8",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Mitsuoka"
+    }
+  ],
+  "id": "atlas:brand:mitsuoka",
+  "legacy": {
+    "id": "9e157947-2bd4-70bc-b779-41f59b2cb8f9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Mitsuoka",
+  "names": [],
+  "type": "Brand"
+}

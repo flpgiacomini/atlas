@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Arcfox, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "cbbda30a-5964-7960-aa85-8acac4b6144d",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Arcfox"
+    }
+  ],
+  "id": "atlas:brand:arcfox",
+  "legacy": {
+    "id": "d7e33c43-598d-7ba0-9a43-f4be0241d762",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Arcfox",
+  "names": [],
+  "type": "Brand"
+}

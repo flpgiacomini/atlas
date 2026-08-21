@@ -1,0 +1,146 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec567b9db63092a9719eb280"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec56700b9449ab7f85619e9b",
+      "legacyId": "01a01031-ec56-700b-9449-ab7f85619e9b",
+      "object": {
+        "id": "atlas:competition:grand-prix-de-l-automobile-club-de-france",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-7fd1-8dca-65ba2192a111",
+      "subject": "atlas:event:1906-grand-prix-de-l-a-c-f",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec567ec080b0eea6f8e62a49"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5670ddb9331438813559b9",
+      "legacyId": "01a01031-ec56-70dd-b933-1438813559b9",
+      "object": {
+        "id": "atlas:competition:grand-prix-de-l-automobile-club-de-france",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-7fd1-8dca-65ba2192a111",
+      "subject": "atlas:event:1906-grand-prix-de-l-a-c-f",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5675b4a7095e788da7dfb3"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5677e3b1a279448f388e7c",
+      "legacyId": "01a01031-ec56-77e3-b1a2-79448f388e7c",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1906-06-26"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "interval_until": "1906-06-27"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-7626-9c48-fbde18d54940",
+      "subject": "atlas:event:1906-grand-prix-de-l-a-c-f",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577d40ab5e92aab4b6343f"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec57782e9fec5c63a0a8067f",
+      "legacyId": "01a01031-ec57-782e-9fec-5c63a0a8067f",
+      "object": {
+        "id": "atlas:circuit:circuit-de-la-sarthe-a-c-f-1906-triangular-road-circuit",
+        "type": "EntityReference"
+      },
+      "predicate": "held-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7ced-a472-565e8068343f",
+      "subject": "atlas:event:1906-grand-prix-de-l-a-c-f",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577c74b2ca50ffa1618a4b"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5779e2a261d23a30114234",
+      "legacyId": "01a01031-ec57-79e2-a261-d23a30114234",
+      "object": {
+        "id": "atlas:circuit:circuit-de-la-sarthe-a-c-f-1906-triangular-road-circuit",
+        "type": "EntityReference"
+      },
+      "predicate": "held-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7ced-a472-565e8068343f",
+      "subject": "atlas:event:1906-grand-prix-de-l-a-c-f",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1906 Grand Prix de l'A.C.F. é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1906-06-26. A documentação registra instância de Grand Prix de l'Automobile Club de France. A documentação registra realização em Circuit de la Sarthe — A.C.F. 1906 triangular road circuit. Também aparece na relação de participação no evento associada a 1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:1906-grand-prix-de-l-a-c-f",
+  "legacy": {
+    "id": "01a01031-ec56-764c-9194-9ca5ae080c40",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec56-7626-9c48-fbde18d54940",
+      "01a01031-ec56-7fd1-8dca-65ba2192a111",
+      "01a01031-ec57-7ced-a472-565e8068343f",
+      "01a01031-ec57-7e1e-97ba-735512fda487"
+    ],
+    "documented_distance_km": 1238,
+    "documented_lap_length_km": 103.18,
+    "documented_manufacturers": 12,
+    "documented_starting_cars": 32,
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "1906 Grand Prix de l'A.C.F.",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Porsche Mission E (2015), selecionado pelo Atlas por sua possível contribuição histórica em TEC, GEN, IND. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "eec59013-a6d1-7bde-be8d-474ac56762ae",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:2015:Porsche Mission E"
+    }
+  ],
+  "id": "atlas:vehicle:porsche-mission-e",
+  "legacy": {
+    "id": "7d01f2b5-e283-7c27-9fbd-380c3b251a86",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Porsche",
+    "candidate_kind": "concept",
+    "candidate_year": 2015,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "GEN",
+      "IND"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Porsche Mission E",
+  "names": [],
+  "type": "Vehicle"
+}

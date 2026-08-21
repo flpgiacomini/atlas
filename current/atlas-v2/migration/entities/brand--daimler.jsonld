@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Daimler, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a33950d3-dbcd-73c6-b8ab-db5052b88d8e",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Daimler"
+    }
+  ],
+  "id": "atlas:brand:daimler",
+  "legacy": {
+    "id": "bc32818f-7bb5-7197-95ae-7d96987c2c9c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Daimler",
+  "names": [],
+  "type": "Brand"
+}

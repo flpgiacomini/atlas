@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Giocattolo, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "04e29e69-92a0-73a5-9748-e7e15dce3bc3",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Giocattolo"
+    }
+  ],
+  "id": "atlas:brand:giocattolo",
+  "legacy": {
+    "id": "84530e40-81e8-7220-8900-49ed9247bcd2",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Giocattolo",
+  "names": [],
+  "type": "Brand"
+}

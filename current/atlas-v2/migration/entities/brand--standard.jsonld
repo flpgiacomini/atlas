@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Standard, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "c0761973-b786-74ce-b078-f061cfef3319",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Standard"
+    }
+  ],
+  "id": "atlas:brand:standard",
+  "legacy": {
+    "id": "98066147-1e2e-74ca-b7fd-df78b41eb750",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Standard",
+  "names": [],
+  "type": "Brand"
+}

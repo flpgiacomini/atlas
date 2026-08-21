@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-7faaed31a61f71eb98a36f392ff80524"
+      ],
+      "id": "atlas:claim:legacy-51ba350b9c0478bf976af2f0cb167e36",
+      "legacyId": "51ba350b-9c04-78bf-976a-f2f0cb167e36",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:person:ferdinand-alexander-porsche",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ece6e533-889a-739b-af83-7adaeb78eff6",
+      "subject": "atlas:vehicle:porsche-type-754-t7",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche Type 754 T7 é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de derivação de associada a Porsche 911. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-type-754-t7",
+  "legacy": {
+    "id": "01a01016-ea4d-7b60-be4e-3a92caa480ea",
+    "slug": "porsche-type-754-t7",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-7926-a02f-445f4ab39a81"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "vehicle_kind": "prototype",
+    "vehicle_level": "standalone"
+  },
+  "name": "Porsche Type 754 T7",
+  "names": [],
+  "type": "Vehicle"
+}

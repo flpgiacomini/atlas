@@ -1,0 +1,161 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea54796cacf70697e92d2cdc"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5773bc8dcee74b0221fd75",
+      "legacyId": "01a01016-ea57-73bc-8dce-e74b0221fd75",
+      "object": {
+        "id": "atlas:organization:gurgel-motores-s-a",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-o-engenheiro-que-virou-carro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-7a20-86ec-800f37ad0b7f",
+      "subject": "atlas:vehicle:gurgel-br-800",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5475239d9f927f835927da"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5779148999092e3b117152",
+      "legacyId": "01a01016-ea57-7914-8999-092e3b117152",
+      "object": {
+        "id": "atlas:component:gurgel-enertron",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-component",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-supermini-surgiu-para-enfrentar-populares-1-0"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-73e6-893e-8bd7a9940f39",
+      "subject": "atlas:vehicle:gurgel-br-800",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547fe3bf98f8e2b25dd001"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea57792cab0519af237d643e",
+      "legacyId": "01a01016-ea57-792c-ab05-19af237d643e",
+      "object": {
+        "id": "atlas:component:gurgel-enertron",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-component",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-os-motores-mais-exoticos-e-inusitados-dos-ultimos-tempos"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-73e6-893e-8bd7a9940f39",
+      "subject": "atlas:vehicle:gurgel-br-800",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547c4488fdc1612d64bb3e"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577a1fadbbf6f2813a04f9",
+      "legacyId": "01a01016-ea57-7a1f-adbb-f6f2813a04f9",
+      "object": {
+        "id": "atlas:brand:gurgel",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-7e41-8279-7ed9503ce5fa",
+      "subject": "atlas:vehicle:gurgel-br-800",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547cb28aa06b1094d7391f"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577e7c9298bc494491f3be",
+      "legacyId": "01a01016-ea57-7e7c-9298-bc494491f3be",
+      "object": {
+        "id": "atlas:organization:gurgel-motores-s-a",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-7a20-86ec-800f37ad0b7f",
+      "subject": "atlas:vehicle:gurgel-br-800",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547dfcbf6ae563436d9817"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577f1697e8ffce9249350f",
+      "legacyId": "01a01016-ea57-7f16-97e8-ffce9249350f",
+      "object": {
+        "id": "atlas:brand:gurgel",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-o-engenheiro-que-virou-carro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-7e41-8279-7ed9503ce5fa",
+      "subject": "atlas:vehicle:gurgel-br-800",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gurgel BR-800 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Gurgel Motores S/A. A documentação registra comercialização sob Gurgel. Também aparece na relação de participação de associada a Start of BR-800 production. Também aparece na relação de sucessão de associada a Gurgel Supermini. A documentação registra uso do componente Gurgel Enertron. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:gurgel-br-800",
+  "legacy": {
+    "id": "01a01016-ea4d-7042-b42b-c2bb234aaefa",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea4f-7a20-86ec-800f37ad0b7f",
+      "01a01016-ea4f-7e41-8279-7ed9503ce5fa",
+      "01a01016-ea50-7038-bdc9-86210dbc02c1",
+      "01a01016-ea50-7211-b83b-2cbe30a4ff28",
+      "01a01016-ea50-73e6-893e-8bd7a9940f39"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Gurgel BR-800",
+  "names": [],
+  "type": "Vehicle"
+}

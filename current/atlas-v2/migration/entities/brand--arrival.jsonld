@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Arrival, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "48579fa6-7479-78c6-9498-2fd47d0bba03",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Arrival"
+    }
+  ],
+  "id": "atlas:brand:arrival",
+  "legacy": {
+    "id": "e8471690-b9ba-7f7d-8f55-447f71191d0b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Arrival",
+  "names": [],
+  "type": "Brand"
+}

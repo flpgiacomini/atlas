@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Eunos, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "597b0936-b1cd-7f33-bdc0-1873cec6971d",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Eunos"
+    }
+  ],
+  "id": "atlas:brand:eunos",
+  "legacy": {
+    "id": "bdeded2c-ef65-7612-967a-95bb5915e285",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Eunos",
+  "names": [],
+  "type": "Brand"
+}

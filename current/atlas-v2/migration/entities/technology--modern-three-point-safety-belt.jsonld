@@ -1,0 +1,93 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b7ba496f10c8318e1f22b"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b726c9746c463d7946842",
+      "legacyId": "01a010f1-7e8b-726c-9746-c463d7946842",
+      "object": {
+        "id": "atlas:person:nils-bohlin",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-pioneering-automotive-safety-1959-three-point-safety-belt"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8b-72cd-8631-78e84de8d552",
+      "subject": "atlas:technology:modern-three-point-safety-belt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b74ef90585a66abcaa9d3"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b740181d3fe88e80ec8f2",
+      "legacyId": "01a010f1-7e8b-7401-81d3-fe88e80ec8f2",
+      "object": {
+        "id": "atlas:organization:volvo-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8b-759a-87a0-e7ea258e1815",
+      "subject": "atlas:technology:modern-three-point-safety-belt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b7155b7fb2dcc46c53bf5"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b7b8ca2d34bcf687e7e89",
+      "legacyId": "01a010f1-7e8b-7b8c-a2d3-4bcf687e7e89",
+      "object": {
+        "id": "atlas:person:nils-bohlin",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8b-72cd-8631-78e84de8d552",
+      "subject": "atlas:technology:modern-three-point-safety-belt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Modern three-point safety belt é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Volvo PV544. A documentação registra desenvolvimento por Nils Bohlin. A documentação registra introdução por Volvo Cars. Também aparece na relação de introdução do recurso associada a First delivery of a Volvo PV544 with standard-fit three-point safety belt. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:modern-three-point-safety-belt",
+  "legacy": {
+    "id": "01a010f1-7e89-7e9f-b246-2c7b1bb8fda3",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010f1-7e8a-74d6-bcd7-f45aa1b52d87",
+      "01a010f1-7e8b-72cd-8631-78e84de8d552",
+      "01a010f1-7e8b-759a-87a0-e7ea258e1815",
+      "01a010f1-7e8b-7b5c-a4b2-bf765a4e9acb"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "safety"
+  },
+  "name": "Modern three-point safety belt",
+  "names": [],
+  "type": "Technology"
+}

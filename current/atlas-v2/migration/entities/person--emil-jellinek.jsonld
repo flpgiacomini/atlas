@@ -1,0 +1,73 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-2a217c28a9bb793496fa1af721321088"
+      ],
+      "id": "atlas:claim:legacy-4b8f84b1ca697e69948664063ebc8aa1",
+      "legacyId": "4b8f84b1-ca69-7e69-9486-64063ebc8aa1",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1853-04-06"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q78589"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f66b9167-6379-70fa-91c4-a4d8df363202",
+      "subject": "atlas:person:emil-jellinek",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-07a7a098d5d67dd28f540b9439d3659d"
+      ],
+      "id": "atlas:claim:legacy-e92d48ca12587cb5b98ff5f76c43f554",
+      "legacyId": "e92d48ca-1258-7cb5-b98f-f5f76c43f554",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1918-01-21"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q78589"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "0666f79f-abc7-7cf7-9c58-dc2bef741381",
+      "subject": "atlas:person:emil-jellinek",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Empresário e entusiasta do automobilismo ligado à Daimler-Motoren-Gesellschaft, para a qual promoveu e encomendou automóveis de alto desempenho. O nome Mercedes, inspirado em sua filha, tornou-se a identidade comercial dos veículos negociados por ele.",
+  "id": "atlas:person:emil-jellinek",
+  "legacy": {
+    "id": "01a0102f-074e-73a3-b195-049f57ee5d71",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "entrepreneur",
+      "customer",
+      "motorsport_promoter"
+    ]
+  },
+  "name": "Emil Jellinek",
+  "names": [],
+  "type": "Person"
+}

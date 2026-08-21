@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Santana, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f807c5b8-9713-7572-a136-b5d35f4a33e7",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Santana"
+    }
+  ],
+  "id": "atlas:brand:santana",
+  "legacy": {
+    "id": "996da123-23c8-79bc-aaa4-a238b8f44cee",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Santana",
+  "names": [],
+  "type": "Brand"
+}

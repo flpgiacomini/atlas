@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Designer norte-americano que liderou a criação do Buick Y-Job e a formação da prática de design avançado na General Motors. O registro institucional da GM atribui a ele a concepção do veículo como referência para projetos futuros e laboratório móvel de soluções.",
+  "id": "atlas:person:harley-earl",
+  "legacy": {
+    "id": "d796c214-e32d-7336-ba3c-701b917b3dfe",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "V02",
+    "editorial_level": "editorial",
+    "roles": [
+      "designer",
+      "design executive"
+    ]
+  },
+  "name": "Harley Earl",
+  "names": [],
+  "type": "Person"
+}

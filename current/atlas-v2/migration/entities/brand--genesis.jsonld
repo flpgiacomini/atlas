@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Genesis, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a5891e6b-a9f1-7108-8dc0-a1f32ae82286",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Genesis"
+    }
+  ],
+  "id": "atlas:brand:genesis",
+  "legacy": {
+    "id": "78ec717e-5f29-7159-a76c-2ae02c5f6067",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Genesis",
+  "names": [],
+  "type": "Brand"
+}

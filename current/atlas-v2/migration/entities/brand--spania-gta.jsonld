@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Spania GTA, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "95cc4fcd-bdd2-7747-a0f0-eea206f024dc",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Spania GTA"
+    }
+  ],
+  "id": "atlas:brand:spania-gta",
+  "legacy": {
+    "id": "8eee703b-f4af-7852-b731-bb1769d65619",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Spania GTA",
+  "names": [],
+  "type": "Brand"
+}

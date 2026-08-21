@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Suzuki, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a31303c0-29d0-7d9c-89c6-985e3cb9d380",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Suzuki"
+    }
+  ],
+  "id": "atlas:brand:suzuki",
+  "legacy": {
+    "id": "e1a0bfef-53ae-7f7f-a1f5-9cb3beba87aa",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Suzuki",
+  "names": [],
+  "type": "Brand"
+}

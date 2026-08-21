@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Vauxhall, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7c01c41a-e6d3-7032-8e30-4b487b525d26",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Vauxhall"
+    }
+  ],
+  "id": "atlas:brand:vauxhall",
+  "legacy": {
+    "id": "0c73f8c8-671e-7d27-ae67-965572b5c56b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Vauxhall",
+  "names": [],
+  "type": "Brand"
+}

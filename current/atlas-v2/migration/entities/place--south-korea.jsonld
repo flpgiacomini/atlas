@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "South Korea é registrado no Atlas como lugar, dentro da história global do automóvel. Também aparece na relação de localização em associada a Hyundai Motor Company. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:place:south-korea",
+  "legacy": {
+    "id": "01a01028-5445-7ceb-aede-a61a3f0b1795",
+    "slug": null,
+    "type": "place"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5446-7fd4-a42c-94d4234ca320"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "place_type": "country"
+  },
+  "name": "South Korea",
+  "names": [],
+  "type": "Place"
+}

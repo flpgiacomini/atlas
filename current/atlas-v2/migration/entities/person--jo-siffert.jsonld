@@ -1,0 +1,25 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Jo Siffert é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de condução por associada a 1969 Zeltweg — Porsche 917 — Siffert/Ahrens. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:jo-siffert",
+  "legacy": {
+    "id": "01a01016-ea4e-7d0d-b9a8-bc64b11f5aac",
+    "slug": "jo-siffert",
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-741e-8c44-fbdf237e2838"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "driver"
+    ]
+  },
+  "name": "Jo Siffert",
+  "names": [],
+  "type": "Person"
+}

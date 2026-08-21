@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Trabant, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "c5c72d17-2a75-7108-988a-6d689df829cc",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Trabant"
+    }
+  ],
+  "id": "atlas:brand:trabant",
+  "legacy": {
+    "id": "5a406283-119c-76de-b61e-3ff77b98c90e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Trabant",
+  "names": [],
+  "type": "Brand"
+}

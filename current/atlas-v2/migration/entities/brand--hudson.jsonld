@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hudson, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8ff47457-0f66-7c4a-b2bf-e30173102217",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Hudson"
+    }
+  ],
+  "id": "atlas:brand:hudson",
+  "legacy": {
+    "id": "aadc76c1-17b1-7d10-95c1-988968a792cd",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Hudson",
+  "names": [],
+  "type": "Brand"
+}

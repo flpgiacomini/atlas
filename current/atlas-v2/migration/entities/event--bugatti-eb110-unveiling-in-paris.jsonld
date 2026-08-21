@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854587c91b5d6d3fd73e279fa"
+      ],
+      "id": "atlas:claim:legacy-01a01028545871d78984a4ee4fc91a88",
+      "legacyId": "01a01028-5458-71d7-8984-a4ee4fc91a88",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1991-09-15"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-7b80-a58f-a73fe30dce4c",
+      "subject": "atlas:event:bugatti-eb110-unveiling-in-paris",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545871bda50e2e9cc207b8bc"
+      ],
+      "id": "atlas:claim:legacy-01a0102854587e51abb50a2971becf02",
+      "legacyId": "01a01028-5458-7e51-abb5-0a2971becf02",
+      "object": {
+        "id": "atlas:vehicle:bugatti-eb110",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-71df-9af5-23302a054187",
+      "subject": "atlas:event:bugatti-eb110-unveiling-in-paris",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Bugatti EB110 unveiling in Paris é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Bugatti EB110. A documentação registra ocorrência em 1991-09-15. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:bugatti-eb110-unveiling-in-paris",
+  "legacy": {
+    "id": "01a01028-5456-7f92-afb3-3e6cd57783fd",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5458-71df-9af5-23302a054187",
+      "01a01028-5458-7b80-a58f-a73fe30dce4c"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Bugatti EB110 unveiling in Paris",
+  "names": [],
+  "type": "Event"
+}

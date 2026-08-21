@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Jaguar, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "016e4040-5a88-709b-9cc2-73060bb81f5e",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Jaguar"
+    }
+  ],
+  "id": "atlas:brand:jaguar",
+  "legacy": {
+    "id": "4646bf8b-ad4d-7f6c-b974-e40b60c62d02",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Jaguar",
+  "names": [],
+  "type": "Brand"
+}

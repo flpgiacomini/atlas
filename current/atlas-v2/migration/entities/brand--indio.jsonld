@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Indio, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b5488b68-c160-7eff-abaf-446191e8a9bb",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Indio"
+    }
+  ],
+  "id": "atlas:brand:indio",
+  "legacy": {
+    "id": "712449f1-e3bf-7afe-ab2f-552643e50f79",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Indio",
+  "names": [],
+  "type": "Brand"
+}

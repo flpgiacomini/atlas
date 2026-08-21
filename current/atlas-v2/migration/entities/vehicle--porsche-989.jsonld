@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Porsche 989 (1988), selecionado pelo Atlas por sua possível contribuição histórica em GEN, DES, IND. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "c7803570-6eda-7f37-9c7c-6bf4393003d3",
+      "scheme": "atlas-significance-candidate",
+      "value": "prototype:1988:Porsche 989"
+    }
+  ],
+  "id": "atlas:vehicle:porsche-989",
+  "legacy": {
+    "id": "ac15a19a-034f-7196-a4fb-15a463ba1b70",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Porsche",
+    "candidate_kind": "prototype",
+    "candidate_year": 1988,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "GEN",
+      "DES",
+      "IND"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Porsche 989",
+  "names": [],
+  "type": "Vehicle"
+}

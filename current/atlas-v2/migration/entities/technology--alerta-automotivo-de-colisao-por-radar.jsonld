@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Sistema experimental de assistência que usa radar para detectar obstáculos adiante e advertir o motorista. No Cadillac Cyclone, sensores instalados nos cones dianteiros produziam alertas de proximidade, antecipando uma linha de pesquisa posteriormente difundida em sistemas de segurança veicular.",
+  "id": "atlas:technology:alerta-automotivo-de-colisao-por-radar",
+  "legacy": {
+    "id": "54900726-23a2-7115-b9ea-360c77597ec4",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "technology_category": "active safety"
+  },
+  "name": "Alerta automotivo de colisão por radar",
+  "names": [],
+  "type": "Technology"
+}

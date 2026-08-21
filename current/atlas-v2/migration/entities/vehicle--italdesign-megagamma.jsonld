@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Italdesign Megagamma (1978), selecionado pelo Atlas por sua possível contribuição histórica em DES, SOC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "08057c4e-c33c-754b-b020-40d6b88f9b3f",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1978:Italdesign Megagamma"
+    }
+  ],
+  "id": "atlas:vehicle:italdesign-megagamma",
+  "legacy": {
+    "id": "b06fa63b-cfc8-7d31-95a3-dfd889f5b318",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Italdesign",
+    "candidate_kind": "concept",
+    "candidate_year": 1978,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "SOC",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Italdesign Megagamma",
+  "names": [],
+  "type": "Vehicle"
+}

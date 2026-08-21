@@ -8,6 +8,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ID = re.compile(r"^atlas:[a-z][a-z0-9-]*:[a-z0-9]+(?:-[a-z0-9]+)*$")
+REQUIRED_CONTRACTS = {
+    "Entity", "Claim", "Source", "Evidence", "Story", "Chapter", "StoryBeat",
+    "Season", "Series", "TechnologyFlow", "TemporalGeometry",
+}
 
 
 def require_semantic_id(value: object, label: str) -> str:
@@ -30,6 +34,7 @@ def validate_entity(path: Path) -> set[str]:
     if doc.get("@context") != "https://flpgiacomini.github.io/atlas/context/v2.jsonld":
         raise ValueError(f"{path}: invalid context")
     sources = {require_semantic_id(source.get("id"), f"{path}:source") for source in doc.get("sources", [])}
+    evidence = {require_semantic_id(item.get("id"), f"{path}:evidence") for item in doc.get("evidence", [])}
     if not sources:
         raise ValueError(f"{path}: entity requires a source")
     for claim in doc.get("claims", []):
@@ -37,7 +42,19 @@ def validate_entity(path: Path) -> set[str]:
         claim_sources = claim.get("sources", [])
         if not claim_sources or any(source not in sources for source in claim_sources):
             raise ValueError(f"{path}: claim has missing source reference")
-    return {doc["id"], *sources}
+        claim_evidence = claim.get("evidence", [])
+        if not claim_evidence or any(item not in evidence for item in claim_evidence):
+            raise ValueError(f"{path}: claim has missing evidence reference")
+    return {doc["id"], *sources, *evidence}
+
+
+def validate_schema() -> None:
+    schema = canonical_roundtrip(ROOT / "schemas/atlas-v2.schema.json")
+    missing = REQUIRED_CONTRACTS - set(schema.get("$defs", {}))
+    if missing:
+        raise ValueError(f"schema missing contracts: {sorted(missing)}")
+    if schema.get("version") != "2.0.0":
+        raise ValueError("schema version must be 2.0.0")
 
 
 def parse_frontmatter(path: Path) -> dict[str, object]:
@@ -75,6 +92,7 @@ def validate_geography(path: Path, known_ids: set[str]) -> None:
 
 
 def main() -> None:
+    validate_schema()
     known: set[str] = set()
     entities = sorted((ROOT / "content/entities").glob("*.jsonld"))
     stories = sorted((ROOT / "content/stories").glob("*.md"))
@@ -85,7 +103,7 @@ def main() -> None:
         parse_frontmatter(path)
     for path in geography:
         validate_geography(path, known)
-    print(json.dumps({"status": "PASS", "entities": len(entities), "stories": len(stories), "geographies": len(geography), "round_trip": "deterministic"}, ensure_ascii=False))
+    print(json.dumps({"status": "PASS", "contracts": len(REQUIRED_CONTRACTS), "entities": len(entities), "stories": len(stories), "geographies": len(geography), "round_trip": "deterministic"}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

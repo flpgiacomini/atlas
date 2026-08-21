@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Bailey, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "691258fd-9a54-7d68-80d0-f0baa7b96c6c",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Bailey"
+    }
+  ],
+  "id": "atlas:brand:bailey",
+  "legacy": {
+    "id": "f99ca332-d439-75a7-a376-530b8001f88d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Bailey",
+  "names": [],
+  "type": "Brand"
+}

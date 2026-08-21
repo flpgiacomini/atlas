@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Porsche 918 Spyder Concept (2010), selecionado pelo Atlas por sua possível contribuição histórica em TEC, ESP, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "74d73e66-14c3-77d3-8532-4defd17a0d65",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:2010:Porsche 918 Spyder Concept"
+    }
+  ],
+  "id": "atlas:vehicle:porsche-918-spyder-concept",
+  "legacy": {
+    "id": "91c80843-fc35-7f72-94f2-1ebd4f62d7f8",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Porsche",
+    "candidate_kind": "concept",
+    "candidate_year": 2010,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "ESP",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Porsche 918 Spyder Concept",
+  "names": [],
+  "type": "Vehicle"
+}

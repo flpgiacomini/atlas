@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Sunbeam, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "6e133107-6829-7139-8b9c-f34ac04ca6d5",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Sunbeam"
+    }
+  ],
+  "id": "atlas:brand:sunbeam",
+  "legacy": {
+    "id": "306a5b05-cd84-7f11-99f0-25ebdbab84be",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Sunbeam",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Menara, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d41ddbe6-48de-7e38-8f19-de2cd2743edb",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Menara"
+    }
+  ],
+  "id": "atlas:brand:menara",
+  "legacy": {
+    "id": "9ec8c90a-3cbf-7576-ac6c-5c984fa3a5f7",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Menara",
+  "names": [],
+  "type": "Brand"
+}

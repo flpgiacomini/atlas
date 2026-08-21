@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Apal, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7aeaf60e-2423-7be3-9869-2551e5a52611",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Apal"
+    }
+  ],
+  "id": "atlas:brand:apal",
+  "legacy": {
+    "id": "3de169f8-251d-729f-b431-1e462fb90926",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Apal",
+  "names": [],
+  "type": "Brand"
+}

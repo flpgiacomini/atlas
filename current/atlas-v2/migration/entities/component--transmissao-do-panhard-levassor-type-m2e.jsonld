@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Conjunto mecânico documentado no Panhard-Levassor Type M2E de 1896. O catálogo do CNAM descreve caixa de velocidades com eixos paralelos, embreagem cônica, diferencial por engrenagens cônicas e correntes responsáveis por transmitir o movimento às rodas traseiras.",
+  "id": "atlas:component:transmissao-do-panhard-levassor-type-m2e",
+  "legacy": {
+    "id": "2ba77ee0-f85e-7f2b-ae11-db03b3c3c6da",
+    "slug": null,
+    "type": "component"
+  },
+  "metadata": {
+    "component_type": "transmission",
+    "editorial_batch": "V01-M2E",
+    "editorial_level": "editorial"
+  },
+  "name": "Transmissão do Panhard-Levassor Type M2E",
+  "names": [],
+  "type": "Component"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Daimler (British marque), incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "93cba297-08d8-7f39-b62d-939e27db3071",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Daimler (British marque)"
+    }
+  ],
+  "id": "atlas:brand:daimler-british-marque",
+  "legacy": {
+    "id": "03ad8907-fe54-76da-be71-473097c6be1c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Daimler (British marque)",
+  "names": [],
+  "type": "Brand"
+}

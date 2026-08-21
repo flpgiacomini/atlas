@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Vencer, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "74dbeac3-6c9f-786e-b1ed-70050b1aada5",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Vencer"
+    }
+  ],
+  "id": "atlas:brand:vencer",
+  "legacy": {
+    "id": "3a78c737-e45b-7772-a873-87303cb604f6",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Vencer",
+  "names": [],
+  "type": "Brand"
+}

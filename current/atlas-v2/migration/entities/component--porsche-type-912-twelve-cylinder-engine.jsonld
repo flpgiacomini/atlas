@@ -1,0 +1,47 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5671c6850fa81f6d6f48dd"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5977148aef37422dd8412c",
+      "legacyId": "01a01016-ea59-7714-8aef-37422dd8412c",
+      "object": {
+        "id": "atlas:person:hans-mezger",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7e03-b10a-ce46891dbc28",
+      "subject": "atlas:component:porsche-type-912-twelve-cylinder-engine",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche Type 912 twelve-cylinder engine é registrado no Atlas como componente técnico, dentro da história global do automóvel. Também aparece na relação de uso do componente associada a Porsche 917. A documentação registra responsabilidade de projeto de Hans Mezger. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:component:porsche-type-912-twelve-cylinder-engine",
+  "legacy": {
+    "id": "01a01016-ea4d-7173-829c-002efcbf4c38",
+    "slug": "porsche-type-912-engine",
+    "type": "component"
+  },
+  "metadata": {
+    "component_type": "engine",
+    "description_basis_statement_ids": [
+      "01a01016-ea52-726e-92f4-530bd918be8d",
+      "01a01016-ea52-7e03-b10a-ce46891dbc28"
+    ],
+    "editorial_batch": "E14",
+    "editorial_level": "editorial"
+  },
+  "name": "Porsche Type 912 twelve-cylinder engine",
+  "names": [],
+  "type": "Component"
+}

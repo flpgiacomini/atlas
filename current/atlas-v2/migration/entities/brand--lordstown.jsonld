@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lordstown, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "87dc05bd-5b36-7e26-97da-a8b299118142",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Lordstown"
+    }
+  ],
+  "id": "atlas:brand:lordstown",
+  "legacy": {
+    "id": "821b1ab8-28d4-7ac2-92a0-ce4b14fa8613",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Lordstown",
+  "names": [],
+  "type": "Brand"
+}

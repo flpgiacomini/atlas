@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557e31a51262c2528b449a"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5874c7af622c51103d728d",
+      "legacyId": "01a01016-ea58-74c7-af62-2c51103d728d",
+      "object": {
+        "id": "atlas:vehicle:ford-model-t",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7f40-af16-3fba52ffe37b",
+      "subject": "atlas:event:first-model-t-customer-delivery",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5479f38cd2059ba8e1bbd9"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5879ac927deafa06a4d29b",
+      "legacyId": "01a01016-ea58-79ac-927d-eafa06a4d29b",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1908-10-01"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-76bd-a79e-1786c2d4ff6e",
+      "subject": "atlas:event:first-model-t-customer-delivery",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "First Model T customer delivery é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1908-10-01. A documentação registra participação de Ford Model T. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:first-model-t-customer-delivery",
+  "legacy": {
+    "id": "01a01016-ea4d-71e7-8be4-b717819e18e1",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-76bd-a79e-1786c2d4ff6e",
+      "01a01016-ea50-7f40-af16-3fba52ffe37b"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "First Model T customer delivery",
+  "names": [],
+  "type": "Event"
+}

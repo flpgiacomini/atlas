@@ -1,0 +1,76 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c37bc29641324c2372d7df"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c37aed8f8ff6a7247ac67d",
+      "legacyId": "01a010d9-28c3-7aed-8f8f-f6a7247ac67d",
+      "object": {
+        "id": "atlas:facility:volkswagen-wolfsburg-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volkswagen-ag-75-years-ago-in-wolfsburg-start-of-series-production-of-the-volkswagen-beetle"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c3-7c5d-a481-49c67f2f47d6",
+      "subject": "atlas:vehicle:volkswagen-beetle-type-1",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1945-12-27",
+        "precision": "day",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c37e9d8584997b5928cf08"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c37e51b297d3d60dc88c99",
+      "legacyId": "01a010d9-28c3-7e51-b297-d3d60dc88c99",
+      "object": {
+        "id": "atlas:brand:volkswagen",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volkswagen-ag-75-years-ago-in-wolfsburg-start-of-series-production-of-the-volkswagen-beetle"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c3-7a27-93cd-1f943ff69afa",
+      "subject": "atlas:vehicle:volkswagen-beetle-type-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Volkswagen Beetle / Type 1 é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Volkswagen Type 1 series production begins after World War II. A documentação registra comercialização sob Volkswagen. A documentação registra produção em Volkswagen Wolfsburg Plant. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:volkswagen-beetle-type-1",
+  "legacy": {
+    "id": "01a010d9-28c3-79a7-b864-a634aeb7f8d6",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c3-71a1-9a0a-85e577b203ee",
+      "01a010d9-28c3-7a27-93cd-1f943ff69afa",
+      "01a010d9-28c3-7c5d-a481-49c67f2f47d6"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Volkswagen Beetle / Type 1",
+  "names": [],
+  "type": "Vehicle"
+}

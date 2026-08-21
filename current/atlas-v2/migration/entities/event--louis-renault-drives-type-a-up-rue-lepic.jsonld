@@ -1,0 +1,119 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f07487acb88a1e41e5b4435a3"
+      ],
+      "id": "atlas:claim:legacy-01a0102f0748740ea03bd9bcf63fa501",
+      "legacyId": "01a0102f-0748-740e-a03b-d9bcf63fa501",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1898-12-24"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-bespoke-mobility-designed-with-you-in-mind"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0748-73ec-a7f0-224f3dfb45ea",
+      "subject": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f07497b0dab27d3483315df4f"
+      ],
+      "id": "atlas:claim:legacy-01a0102f0749703b86ba97d1c0890fac",
+      "legacyId": "01a0102f-0749-703b-86ba-97d1c0890fac",
+      "object": {
+        "id": "atlas:vehicle:renault-type-a",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-the-dogbox-a-key-choice-for-renault-e-tech-full-hybrid-powertrains"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0749-7383-beb1-4b1cd9bd8c70",
+      "subject": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f07497c6197f787066232ad70"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074972f792d4ce54f08aaf8c",
+      "legacyId": "01a0102f-0749-72f7-92d4-ce54f08aaf8c",
+      "object": {
+        "id": "atlas:vehicle:renault-type-a",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-bespoke-mobility-designed-with-you-in-mind"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0749-7383-beb1-4b1cd9bd8c70",
+      "subject": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074a78c08d8f7c6111133a90"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074a76d994844328189cf2c4",
+      "legacyId": "01a0102f-074a-76d9-9484-4328189cf2c4",
+      "object": {
+        "id": "atlas:person:louis-renault",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "driver_creator"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-bespoke-mobility-designed-with-you-in-mind"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0749-7579-a159-0b8747189b02",
+      "subject": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Louis Renault drives Type A up rue Lepic é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1898-12-24. A documentação registra participação de Renault Type A. A documentação registra participação de Louis Renault. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
+  "legacy": {
+    "id": "01a0102f-0747-7a71-9a36-e9d11203f50a",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-0748-73ec-a7f0-224f3dfb45ea",
+      "01a0102f-0749-7383-beb1-4b1cd9bd8c70",
+      "01a0102f-0749-7579-a159-0b8747189b02"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_demonstration",
+    "realization_status": "occurred"
+  },
+  "name": "Louis Renault drives Type A up rue Lepic",
+  "names": [],
+  "type": "Event"
+}

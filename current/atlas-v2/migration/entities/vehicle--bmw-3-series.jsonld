@@ -1,0 +1,75 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb74b1bfee5d7fa1ec8ac1"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb7efc889a2c6f7f41b4fd",
+      "legacyId": "01a010d9-28cb-7efc-889a-2c6f7f41b4fd",
+      "object": {
+        "id": "atlas:facility:bmw-group-plant-rosslyn",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7bba-b58e-70841a86a34e",
+      "subject": "atlas:vehicle:bmw-3-series",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": null,
+        "precision": "year",
+        "until": "2018"
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-24914941a0377bab8f53e0ddf3e1ef34"
+      ],
+      "id": "atlas:claim:legacy-8169d23174a8788298079b2af9361b72",
+      "legacyId": "8169d231-74a8-7882-9807-9b2af9361b72",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:bmw-group",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "30cd29f4-f5ba-706c-8bf8-026f2fc8926a",
+      "subject": "atlas:vehicle:bmw-3-series",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "BMW 3 Series é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra produção em BMW Group Plant Rosslyn. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:bmw-3-series",
+  "legacy": {
+    "id": "01a010d9-28cb-7ee2-a6bd-a7079773382e",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-7bba-b58e-70841a86a34e"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "BMW 3 Series",
+  "names": [],
+  "type": "Vehicle"
+}

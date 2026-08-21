@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de TagAZ, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "40aa9e30-24b9-7839-b219-ee001bb756ce",
+      "scheme": "atlas-brand-census",
+      "value": "M09:TagAZ"
+    }
+  ],
+  "id": "atlas:brand:tagaz",
+  "legacy": {
+    "id": "7ccb6ac1-cbf8-7b13-bfe2-cb79d6f80cb9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "TagAZ",
+  "names": [],
+  "type": "Brand"
+}

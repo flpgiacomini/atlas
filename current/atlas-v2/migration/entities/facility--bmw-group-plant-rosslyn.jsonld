@@ -1,0 +1,126 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb79558ff42001b66c2705"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb70f9a4b9cf35d452dcad",
+      "legacyId": "01a010d9-28cb-70f9-a4b9-cf35d452dcad",
+      "object": {
+        "id": "atlas:place:south-africa",
+        "type": "EntityReference"
+      },
+      "predicate": "located-in",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-bmw-group-announces-investment-in-electrification-of-south-africa-s-rosslyn-plant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7a24-835e-363054f39581",
+      "subject": "atlas:facility:bmw-group-plant-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb7b4a9c22bfc48f9b9fc4"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb71b682228f45d3d9d839",
+      "legacyId": "01a010d9-28cb-71b6-8222-8f45d3d9d839",
+      "object": {
+        "id": "atlas:organization:bmw-group",
+        "type": "EntityReference"
+      },
+      "predicate": "operated-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-bmw-group-announces-investment-in-electrification-of-south-africa-s-rosslyn-plant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-72d9-b764-47b6f9ce201e",
+      "subject": "atlas:facility:bmw-group-plant-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1973",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb77fc8eecb01afd4ef2ba"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb74dcb80648eccc718725",
+      "legacyId": "01a010d9-28cb-74dc-b806-48eccc718725",
+      "object": {
+        "id": "atlas:organization:bmw-group",
+        "type": "EntityReference"
+      },
+      "predicate": "operated-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-72d9-b764-47b6f9ce201e",
+      "subject": "atlas:facility:bmw-group-plant-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1973",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb7b0d991e353e3c4c3496"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb7980b219fb72bba0ffef",
+      "legacyId": "01a010d9-28cb-7980-b219-fb72bba0ffef",
+      "object": {
+        "id": "atlas:place:south-africa",
+        "type": "EntityReference"
+      },
+      "predicate": "located-in",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7a24-835e-363054f39581",
+      "subject": "atlas:facility:bmw-group-plant-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "BMW Group Plant Rosslyn é registrado no Atlas como instalação industrial, dentro da história global do automóvel. A documentação registra operação por BMW Group. Também aparece na relação de participação de associada a BMW establishes full manufacturing presence at Rosslyn. A documentação registra localização em South Africa. Também aparece na relação de participação de associada a Automotive assembly begins at Rosslyn site. Também aparece na relação de produção em associada a BMW 3 Series. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:facility:bmw-group-plant-rosslyn",
+  "legacy": {
+    "id": "01a010d9-28cb-7d4c-96c5-b09c069b748e",
+    "slug": null,
+    "type": "facility"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-72d9-b764-47b6f9ce201e",
+      "01a010d9-28cb-74ab-9bd6-ae99aacf74fd",
+      "01a010d9-28cb-7a24-835e-363054f39581",
+      "01a010d9-28cb-7aa4-adba-8db80601a63d",
+      "01a010d9-28cb-7bba-b58e-70841a86a34e"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "facility_type": "factory"
+  },
+  "name": "BMW Group Plant Rosslyn",
+  "names": [],
+  "type": "Facility"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Estratégia de design que transpôs referências visuais e funcionais da aviação para automóveis experimentais do pós-guerra. Le Sabre e a série Firebird empregaram proporções, tomadas de ar, aletas, cabines e materiais para comunicar velocidade, pesquisa tecnológica e futuros possíveis.",
+  "id": "atlas:technology:linguagem-aeronautica-em-concept-cars",
+  "legacy": {
+    "id": "4a7fabb0-397d-71de-bb54-085db51bc596",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V03",
+    "editorial_level": "editorial",
+    "technology_category": "design research"
+  },
+  "name": "Linguagem aeronáutica em concept cars",
+  "names": [],
+  "type": "Technology"
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-0a71ee2697ae717893a1db34db9d9b2f"
+      ],
+      "id": "atlas:claim:legacy-111a3e665a8c70cb8c2514b68f141b72",
+      "legacyId": "111a3e66-5a8c-70cb-8c25-14b68f141b72",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:daimler-motoren-gesellschaft",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-28-95-hp-19141924"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "dbcd5574-fdf4-7bbc-850e-743c11b10d4e",
+      "subject": "atlas:vehicle:mercedes-28-95-hp",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mercedes 28/95 hp é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a World War I constrains Mercedes 28/95 hp production. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:mercedes-28-95-hp",
+  "legacy": {
+    "id": "01a01031-ec59-7d90-8c59-f5743880a8e0",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec59-7f5a-81d8-306356341f53"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Mercedes 28/95 hp",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e875b69e7c2a25c76f6e34"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e87bfc988c8bcdd3e085c4",
+      "legacyId": "01a0102a-57e8-7bfc-988c-8bcdd3e085c4",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1898"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-120-years-of-brand-identity"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e8-795f-8204-dd4ee077f0ac",
+      "subject": "atlas:event:renault-freres-founded",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e87622857f9c18676f795f"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e87efb86b7bd64adff2e65",
+      "legacyId": "01a0102a-57e8-7efb-86b7-bd64adff2e65",
+      "object": {
+        "id": "atlas:organization:renault-freres",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-120-years-of-brand-identity"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e8-7d30-a843-318787b23eae",
+      "subject": "atlas:event:renault-freres-founded",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Renault Frères founded é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1898. A documentação registra participação de Renault Frères. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:renault-freres-founded",
+  "legacy": {
+    "id": "01a0102a-57e8-7ee0-bd6b-33456d14abe8",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e8-795f-8204-dd4ee077f0ac",
+      "01a0102a-57e8-7d30-a843-318787b23eae"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "foundation",
+    "realization_status": "occurred"
+  },
+  "name": "Renault Frères founded",
+  "names": [],
+  "type": "Event"
+}

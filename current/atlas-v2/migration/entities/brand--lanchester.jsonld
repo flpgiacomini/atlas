@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lanchester, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "95cbfe12-c1a6-7966-9f86-e647d4b2d71e",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Lanchester"
+    }
+  ],
+  "id": "atlas:brand:lanchester",
+  "legacy": {
+    "id": "b5b98ae6-87a0-7d3b-99d4-5b290ce9da22",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Lanchester",
+  "names": [],
+  "type": "Brand"
+}

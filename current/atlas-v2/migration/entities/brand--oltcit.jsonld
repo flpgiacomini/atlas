@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Oltcit, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4f0abb2e-c9d4-7343-885c-009b0911d539",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Oltcit"
+    }
+  ],
+  "id": "atlas:brand:oltcit",
+  "legacy": {
+    "id": "cd5e4b3c-3d33-7fb4-816e-761e3928db07",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Oltcit",
+  "names": [],
+  "type": "Brand"
+}

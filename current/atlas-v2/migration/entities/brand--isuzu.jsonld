@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Isuzu, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8c1acdae-f151-7ded-ace3-458fd2d3ae67",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Isuzu"
+    }
+  ],
+  "id": "atlas:brand:isuzu",
+  "legacy": {
+    "id": "0f172eb4-d628-71cd-945e-8281e7dcfeca",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Isuzu",
+  "names": [],
+  "type": "Brand"
+}

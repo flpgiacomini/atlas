@@ -1,0 +1,73 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-d628fa19fdb77d529c99a482603293e8"
+      ],
+      "id": "atlas:claim:legacy-2b481ed6ed317b76b638253446b90545",
+      "legacyId": "2b481ed6-ed31-7b76-b638-253446b90545",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1847-11-22"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q5546759"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d3c12ee0-c722-7b6f-aea0-6914717389d7",
+      "subject": "atlas:person:georges-bouton",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-81c4875dbc447987bf2130142758c6a6"
+      ],
+      "id": "atlas:claim:legacy-b83200e8f38073d0be2953a9d0b83b5c",
+      "legacyId": "b83200e8-f380-73d0-be29-53a9d0b83b5c",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1938-10-31"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q5546759"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "6c627d47-5b9c-7026-80ab-84b6ced9eeca",
+      "subject": "atlas:person:georges-bouton",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro francês e cofundador da De Dion-Bouton, responsável por importantes experiências com motores leves no fim do século XIX. Seu trabalho no motor monocilíndrico a petróleo ajudou a ampliar a aplicação prática da propulsão automotiva.",
+  "id": "atlas:person:georges-bouton",
+  "legacy": {
+    "id": "01a0102f-074c-7a67-9c8b-e54c3af74bc9",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Georges Bouton",
+  "names": [],
+  "type": "Person"
+}

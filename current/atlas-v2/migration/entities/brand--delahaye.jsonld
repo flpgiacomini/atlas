@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Delahaye, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4fe15d51-a528-7d27-bacb-a776a1352796",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Delahaye"
+    }
+  ],
+  "id": "atlas:brand:delahaye",
+  "legacy": {
+    "id": "8c887ebb-33cd-77c0-a4ab-09f03cac8b6b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Delahaye",
+  "names": [],
+  "type": "Brand"
+}

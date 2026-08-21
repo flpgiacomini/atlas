@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01ee3d2403287daea1ea2f1d5189f88a"
+      ],
+      "id": "atlas:claim:legacy-441420854aca7e78813ad19472bfb51d",
+      "legacyId": "44142085-4aca-7e78-813a-d19472bfb51d",
+      "note": "Atribuição documentada pela fonte individual R01.",
+      "object": {
+        "id": "atlas:brand:maybach",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "R01",
+        "verification_scope": "brand_attribution"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:fulda-fulda-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "15614173-ef44-70a1-ae8b-7973a6d172c3",
+      "subject": "atlas:vehicle:maybach-exelero",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept coupé criado em 2005 como demonstrador para o pneu de alto desempenho Fulda Carat Exelero, retomando uma parceria histórica entre Fulda e Maybach. Com mais de 700 cv, o exemplar funcionou como plataforma técnica e peça de comunicação; em 1º de maio de 2005 atingiu 351,45 km/h em uma prova de alta velocidade.",
+  "externalIds": [
+    {
+      "id": "309d38ba-e0a0-7d16-a081-4b43429e3883",
+      "scheme": "atlas-significance-candidate",
+      "value": "one_off:2005:Maybach Exelero"
+    }
+  ],
+  "id": "atlas:vehicle:maybach-exelero",
+  "legacy": {
+    "id": "6a3b83de-1150-7ff2-8871-6af7b5f04251",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Maybach",
+    "candidate_kind": "one_off",
+    "candidate_year": 2005,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "DES",
+      "SOC"
+    ],
+    "description_basis_statement_ids": [
+      "15614173-ef44-70a1-ae8b-7973a6d172c3"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "waiting_media_and_second_source",
+    "relevance_score": 75,
+    "verification_batch": "R01",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-20"
+  },
+  "name": "Maybach Exelero",
+  "names": [],
+  "type": "Vehicle"
+}

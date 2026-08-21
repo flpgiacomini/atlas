@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de FSO, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "c7e265d8-b15a-72da-83c3-1a94265edd36",
+      "scheme": "atlas-brand-census",
+      "value": "M09:FSO"
+    }
+  ],
+  "id": "atlas:brand:fso",
+  "legacy": {
+    "id": "6bb3aa7f-6bb9-7888-8640-7658d220b5d6",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "FSO",
+  "names": [],
+  "type": "Brand"
+}

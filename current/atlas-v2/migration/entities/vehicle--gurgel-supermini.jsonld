@@ -1,0 +1,70 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547c4e8ca3ca3bbc874dfd"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577719b4b26c47e16ee927",
+      "legacyId": "01a01016-ea57-7719-b4b2-6c47e16ee927",
+      "object": {
+        "id": "atlas:vehicle:gurgel-br-800",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-supermini-surgiu-para-enfrentar-populares-1-0"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7211-b83b-2cbe30a4ff28",
+      "subject": "atlas:vehicle:gurgel-supermini",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9512e6ea65407699a1430377586d3076"
+      ],
+      "id": "atlas:claim:legacy-a2afde1f2a0f71c5887cc1d502c74b1f",
+      "legacyId": "a2afde1f-2a0f-71c5-887c-c1d502c74b1f",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:gurgel-motores-s-a",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-supermini-surgiu-para-enfrentar-populares-1-0"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "fe5f5193-6de7-7e9f-b804-cb54e80e74ed",
+      "subject": "atlas:vehicle:gurgel-supermini",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gurgel Supermini é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra sucessão de Gurgel BR-800. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:gurgel-supermini",
+  "legacy": {
+    "id": "01a01016-ea4d-7d20-929c-5ce568072960",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7211-b83b-2cbe30a4ff28"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Gurgel Supermini",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567d78825faa3b7edca421"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59725492c139e13ac97664",
+      "legacyId": "01a01016-ea59-7254-92c1-39e13ac97664",
+      "object": {
+        "id": "atlas:technology:turbocharging",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7105-ad52-8a966add5d22",
+      "subject": "atlas:vehicle:porsche-917-30",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567c618f99cab00c75beb2"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5977469de3cd90eae8bac1",
+      "legacyId": "01a01016-ea59-7746-9de3-cd90eae8bac1",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7476-85ed-5697fb65fa92",
+      "subject": "atlas:vehicle:porsche-917-30",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567163825f1e738dce8606"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5978a09b632ea9c9942695",
+      "legacyId": "01a01016-ea59-78a0-9b63-2ea9c9942695",
+      "object": {
+        "id": "atlas:technology:turbocharging",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-congratulates-valentin-schaffer-on-his-90th-birthday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7105-ad52-8a966add5d22",
+      "subject": "atlas:vehicle:porsche-917-30",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917/30 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Turbocharging. A documentação registra integração a Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-917-30",
+  "legacy": {
+    "id": "01a01016-ea4e-77a7-8575-557f6ab94b97",
+    "slug": "porsche-917-30",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7105-ad52-8a966add5d22",
+      "01a01016-ea52-7476-85ed-5697fb65fa92"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "variant_role": "racing",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "variant"
+  },
+  "name": "Porsche 917/30",
+  "names": [],
+  "type": "Vehicle"
+}

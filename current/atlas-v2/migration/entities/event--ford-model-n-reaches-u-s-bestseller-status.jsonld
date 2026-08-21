@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331a766e85c1bba983a81f6e"
+      ],
+      "id": "atlas:claim:legacy-01a01030331a75fcbeaa7123484bd9ce",
+      "legacyId": "01a01030-331a-75fc-beaa-7123484bd9ce",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1906"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-vehicle-viewer"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-7d70-afa6-d670d2166a82",
+      "subject": "atlas:event:ford-model-n-reaches-u-s-bestseller-status",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331b7639843dc4835fcf3ad2"
+      ],
+      "id": "atlas:claim:legacy-01a01030331b7c94b5e1ad18a1085eac",
+      "legacyId": "01a01030-331b-7c94-b5e1-ad18a1085eac",
+      "object": {
+        "id": "atlas:vehicle:ford-model-n",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-vehicle-viewer"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331b-7a47-a19d-ad3274522922",
+      "subject": "atlas:event:ford-model-n-reaches-u-s-bestseller-status",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Model N reaches U.S. bestseller status é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1906. A documentação registra participação de Ford Model N. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:ford-model-n-reaches-u-s-bestseller-status",
+  "legacy": {
+    "id": "01a01030-331a-701c-ac94-eb39ea02aeea",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-331a-7d70-afa6-d670d2166a82",
+      "01a01030-331b-7a47-a19d-ad3274522922"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "market_milestone",
+    "realization_status": "occurred"
+  },
+  "name": "Ford Model N reaches U.S. bestseller status",
+  "names": [],
+  "type": "Event"
+}

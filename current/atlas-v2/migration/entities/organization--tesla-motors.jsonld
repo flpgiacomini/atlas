@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Tesla Motors é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Tesla Roadster — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:tesla-motors",
+  "legacy": {
+    "id": "01a010d9-28c9-7c13-b167-dcc3eb8c2f4f",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28ca-7f32-b83c-a588581a2b32"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Tesla Motors",
+  "names": [],
+  "type": "Organization"
+}

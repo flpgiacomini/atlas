@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Plug-in hybrid electric propulsion é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a BYD F3DM. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:plug-in-hybrid-electric-propulsion",
+  "legacy": {
+    "id": "01a010d9-28ca-7885-8844-a96f2565ea43",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28ca-749e-8c6d-4db47f2b7bf3"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Plug-in hybrid electric propulsion",
+  "names": [],
+  "type": "Technology"
+}

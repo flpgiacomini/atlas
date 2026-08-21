@@ -1,0 +1,30 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "Porsche Salzburg"
+  ],
+  "claims": [],
+  "description": "Porsche Konstruktionen Salzburg é registrado no Atlas como equipe, dentro da história global do automóvel. Também aparece na relação de inscrição por associada a 1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:team:porsche-konstruktionen-salzburg",
+  "legacy": {
+    "id": "01a01016-ea4e-7e94-96bf-9c6446c961a2",
+    "slug": "porsche-konstruktionen-salzburg",
+    "type": "team"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7fb8-b5d9-efe33af81cff"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial"
+  },
+  "name": "Porsche Konstruktionen Salzburg",
+  "names": [
+    {
+      "id": "01a01016-ea4e-7464-9d0a-aad9749a65bf",
+      "name_type": "alias",
+      "value": "Porsche Salzburg"
+    }
+  ],
+  "type": "Team"
+}

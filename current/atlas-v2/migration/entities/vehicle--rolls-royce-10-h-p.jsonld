@@ -1,0 +1,92 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea7fcfa731afbdc719131c"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea71afaa4206b1a7885032",
+      "legacyId": "01a0102a-57ea-71af-aa42-06b1a7885032",
+      "object": {
+        "id": "atlas:vehicle:royce-10-h-p",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-models-of-the-marque-the-1900s-royce-10-h-p-rolls-royce-10-h-p"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-7dd2-9c56-251f8fcb3546",
+      "subject": "atlas:vehicle:rolls-royce-10-h-p",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea7c0bb9371b1f1d1406c7"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea72039ace89f91df0f64f",
+      "legacyId": "01a0102a-57ea-7203-9ace-89f91df0f64f",
+      "object": {
+        "id": "atlas:brand:rolls-royce",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-7ff4-98ea-84db1e16a1e3",
+      "subject": "atlas:vehicle:rolls-royce-10-h-p",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea71ed82d3dd548e7ec366"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea72ba8f1db55e8860b09e",
+      "legacyId": "01a0102a-57ea-72ba-8f1d-b55e8860b09e",
+      "object": {
+        "id": "atlas:brand:rolls-royce",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-models-of-the-marque-the-1900s-royce-10-h-p-rolls-royce-10-h-p"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-7ff4-98ea-84db1e16a1e3",
+      "subject": "atlas:vehicle:rolls-royce-10-h-p",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Rolls-Royce 10 H.P. é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra derivação de Royce 10 H.P.. A documentação registra comercialização sob Rolls-Royce. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:rolls-royce-10-h-p",
+  "legacy": {
+    "id": "01a0102a-57ea-763a-bea0-28163288f550",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ea-7dd2-9c56-251f8fcb3546",
+      "01a0102a-57ea-7ff4-98ea-84db1e16a1e3"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Rolls-Royce 10 H.P.",
+  "names": [],
+  "type": "Vehicle"
+}

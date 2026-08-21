@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lorraine-Dietrich, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "da1d0e10-3a7b-7c0d-98eb-674a7b7dc577",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Lorraine-Dietrich"
+    }
+  ],
+  "id": "atlas:brand:lorraine-dietrich",
+  "legacy": {
+    "id": "5e57105e-1b7c-79da-8d56-520dac4defa4",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Lorraine-Dietrich",
+  "names": [],
+  "type": "Brand"
+}

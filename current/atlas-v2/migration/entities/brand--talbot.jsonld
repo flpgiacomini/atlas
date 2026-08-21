@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Talbot, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "fa03f0cb-0709-74e4-9236-76f974a00c98",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Talbot"
+    }
+  ],
+  "id": "atlas:brand:talbot",
+  "legacy": {
+    "id": "9abd2b9d-b534-7b8d-91bd-a30b5368b900",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Talbot",
+  "names": [],
+  "type": "Brand"
+}

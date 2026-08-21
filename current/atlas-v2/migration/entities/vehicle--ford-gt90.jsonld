@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ford GT90 (1995), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "110d3501-5345-79ba-87bb-9ed21aee0c21",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1995:Ford GT90"
+    }
+  ],
+  "id": "atlas:vehicle:ford-gt90",
+  "legacy": {
+    "id": "d280f213-0081-71dd-9780-dcafd9f19ebd",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Ford",
+    "candidate_kind": "concept",
+    "candidate_year": 1995,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "TEC",
+      "SOC"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Ford GT90",
+  "names": [],
+  "type": "Vehicle"
+}

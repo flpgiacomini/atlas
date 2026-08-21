@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Marca norte-americana de automóveis de luxo da Ford Motor Company. Sua história conecta veículos de produção e estudos de estilo; o Futura de 1955 ocupa posição singular por reunir fabricação transatlântica, experimentação de materiais e posterior circulação como ícone da cultura audiovisual.",
+  "id": "atlas:brand:lincoln",
+  "legacy": {
+    "id": "df74636c-86e5-7fc1-a589-5068a6884195",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "editorial_batch": "V05",
+    "editorial_level": "editorial"
+  },
+  "name": "Lincoln",
+  "names": [],
+  "type": "Brand"
+}

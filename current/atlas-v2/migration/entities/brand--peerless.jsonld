@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Peerless, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5c7570c0-0700-7e34-8594-a5946f20d7f7",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Peerless"
+    }
+  ],
+  "id": "atlas:brand:peerless",
+  "legacy": {
+    "id": "973fa4c1-2812-7f01-af49-7f422d133eb5",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Peerless",
+  "names": [],
+  "type": "Brand"
+}

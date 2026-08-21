@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "BYD é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a BYD F3DM. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:byd",
+  "legacy": {
+    "id": "01a010d9-28ca-723d-95f4-7d88f672a032",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28ca-75a8-bb24-83e6af4bcfbb"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "BYD",
+  "names": [],
+  "type": "Organization"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Perana, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "864b9c83-d03f-796a-98bd-3cd9654778f6",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Perana"
+    }
+  ],
+  "id": "atlas:brand:perana",
+  "legacy": {
+    "id": "8b1db449-3566-7704-9256-1b81813ada7b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Perana",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Plymouth, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5433e3ca-b3b8-779b-9948-f8f8ba307e24",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Plymouth"
+    }
+  ],
+  "id": "atlas:brand:plymouth",
+  "legacy": {
+    "id": "abccb2ce-0124-7145-8f82-e87909fadc81",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Plymouth",
+  "names": [],
+  "type": "Brand"
+}

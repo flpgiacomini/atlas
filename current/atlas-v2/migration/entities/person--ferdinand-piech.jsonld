@@ -1,0 +1,104 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-b2c9295a8862774e97fcaec79e0a2342"
+      ],
+      "id": "atlas:claim:legacy-70badf5c65237f459a3d0834069e8ff8",
+      "legacyId": "70badf5c-6523-7f45-9a3d-0834069e8ff8",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "led",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-porsche-mourns-the-death-of-ferdinand-piech"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "43264cf2-f0b7-7c3d-a214-df8104a63134",
+      "subject": "atlas:person:ferdinand-piech",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1966",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-2e1ede5c24507a2a998d953787f136f8"
+      ],
+      "id": "atlas:claim:legacy-967cc84440117bd68f63a3520e229a87",
+      "legacyId": "967cc844-4011-7bd6-8f63-a3520e229a87",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2019-08-25"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-porsche-mourns-the-death-of-ferdinand-piech"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "cc48ab6b-260e-78dd-b330-f403423ac851",
+      "subject": "atlas:person:ferdinand-piech",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-8497e9e8b68b7653b19337d17696b24c"
+      ],
+      "id": "atlas:claim:legacy-a6ccb60111c278efb5aae0aa50287f97",
+      "legacyId": "a6ccb601-11c2-78ef-b5aa-e0aa50287f97",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "worked-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-porsche-mourns-the-death-of-ferdinand-piech"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c5be595a-ba55-7eb5-af13-3a2e09b0bc9b",
+      "subject": "atlas:person:ferdinand-piech",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1963-04-01",
+        "precision": "day",
+        "until": null
+      }
+    }
+  ],
+  "description": "Engenheiro e executivo austríaco que iniciou a carreira na Porsche em 1963, chefiou testes e desenvolvimento e liderou o programa do 917. Posteriormente transferiu-se para a Audi, mantendo longa participação no conselho supervisor da Porsche.",
+  "id": "atlas:person:ferdinand-piech",
+  "legacy": {
+    "id": "01a01016-ea4d-7397-8a59-8d3799b2d3ff",
+    "slug": "ferdinand-piech",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "executive"
+    ]
+  },
+  "name": "Ferdinand Piëch",
+  "names": [],
+  "type": "Person"
+}

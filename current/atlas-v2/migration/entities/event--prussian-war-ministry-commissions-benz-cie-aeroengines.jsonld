@@ -1,0 +1,126 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5872319be5cb8717a71b82"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5873289f689ab150262342",
+      "legacyId": "01a01031-ec58-7328-9f68-9ab150262342",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1914-06"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-cie-built-aeroengines-for-the-prussian-ministry-of-war"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec58-7fec-abb1-c551e32e4f73",
+      "subject": "atlas:event:prussian-war-ministry-commissions-benz-cie-aeroengines",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec587c1ba0ffa97d4798090b"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec58791c8c2407fca85c7ea7",
+      "legacyId": "01a01031-ec58-791c-8c24-07fca85c7ea7",
+      "object": {
+        "id": "atlas:component:benz-bz-iii-aeroengine",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "aeroengine_family"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-cie-built-aeroengines-for-the-prussian-ministry-of-war"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec58-731a-ab0d-d53df9d11170",
+      "subject": "atlas:event:prussian-war-ministry-commissions-benz-cie-aeroengines",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5877b4821d1ec32df9877a"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec587aa2abe85b354447498a",
+      "legacyId": "01a01031-ec58-7aa2-abe8-5b354447498a",
+      "object": {
+        "id": "atlas:organization:benz-cie",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "commissioned_manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-cie-built-aeroengines-for-the-prussian-ministry-of-war"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec58-76b3-a998-75c84967cf43",
+      "subject": "atlas:event:prussian-war-ministry-commissions-benz-cie-aeroengines",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec587872a0374b825fdc061e"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec587c98b071a49f6d245da5",
+      "legacyId": "01a01031-ec58-7c98-b071-a49f6d245da5",
+      "object": {
+        "id": "atlas:component:benz-bz-ii-aeroengine",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "aeroengine_family"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-cie-built-aeroengines-for-the-prussian-ministry-of-war"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec58-7daf-ae90-c231a4bc356f",
+      "subject": "atlas:event:prussian-war-ministry-commissions-benz-cie-aeroengines",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Prussian War Ministry commissions Benz & Cie. aeroengines é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Benz Bz III aeroengine. A documentação registra participação de Benz & Cie.. A documentação registra participação de Benz Bz II aeroengine. A documentação registra ocorrência em 1914-06. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:prussian-war-ministry-commissions-benz-cie-aeroengines",
+  "legacy": {
+    "id": "01a01031-ec58-7127-85e7-5e4354b40fd5",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec58-731a-ab0d-d53df9d11170",
+      "01a01031-ec58-76b3-a998-75c84967cf43",
+      "01a01031-ec58-7daf-ae90-c231a4bc356f",
+      "01a01031-ec58-7fec-abb1-c551e32e4f73"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "wartime_production_shift",
+    "realization_status": "occurred"
+  },
+  "name": "Prussian War Ministry commissions Benz & Cie. aeroengines",
+  "names": [],
+  "type": "Event"
+}

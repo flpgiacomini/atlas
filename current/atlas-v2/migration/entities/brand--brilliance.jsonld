@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Brilliance, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0433b7ea-dbcc-70cc-a37a-6c56702fa130",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Brilliance"
+    }
+  ],
+  "id": "atlas:brand:brilliance",
+  "legacy": {
+    "id": "1223e264-22d0-7752-b6ce-01fdbaaf330f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Brilliance",
+  "names": [],
+  "type": "Brand"
+}

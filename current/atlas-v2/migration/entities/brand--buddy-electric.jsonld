@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Buddy Electric, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "bd2c7d6f-e2b9-7804-8eef-66cf3a61d7e3",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Buddy Electric"
+    }
+  ],
+  "id": "atlas:brand:buddy-electric",
+  "legacy": {
+    "id": "69432b6a-dc21-71ce-9563-0a57780adbce",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Buddy Electric",
+  "names": [],
+  "type": "Brand"
+}

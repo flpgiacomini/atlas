@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Range Rover, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0ee989de-6a86-714d-bb01-7bd822ae37ff",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Range Rover"
+    }
+  ],
+  "id": "atlas:brand:range-rover",
+  "legacy": {
+    "id": "b3c2cf0b-5936-7190-8874-639198e10162",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Range Rover",
+  "names": [],
+  "type": "Brand"
+}

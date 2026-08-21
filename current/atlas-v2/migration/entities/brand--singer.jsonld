@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Singer, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "77f4f1eb-3203-7492-8edc-845c6db2a32d",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Singer"
+    }
+  ],
+  "id": "atlas:brand:singer",
+  "legacy": {
+    "id": "d15612ee-c3ae-72dd-8fc3-7e1f59fb3463",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Singer",
+  "names": [],
+  "type": "Brand"
+}

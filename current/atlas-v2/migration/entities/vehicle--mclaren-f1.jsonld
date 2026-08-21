@@ -1,0 +1,49 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c9794ca06de1e22cf0bd3f"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c97c86be87421d0365301b",
+      "legacyId": "01a010d9-28c9-7c86-be87-421d0365301b",
+      "object": {
+        "id": "atlas:organization:mclaren-automotive",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mclaren-automotive-mclaren-f1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c9-7f86-b811-23b105a60ac3",
+      "subject": "atlas:vehicle:mclaren-f1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "McLaren F1 é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a McLaren F1 realised as road car. Também aparece na relação de participação de associada a McLaren F1 concept conceived. A documentação registra fabricação por McLaren Automotive. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:mclaren-f1",
+  "legacy": {
+    "id": "01a010d9-28c9-74c5-9eff-79795673f004",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c9-78d4-bd73-d89546dff64f",
+      "01a010d9-28c9-7a3d-8b35-e7fd120543fb",
+      "01a010d9-28c9-7f86-b811-23b105a60ac3"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "McLaren F1",
+  "names": [],
+  "type": "Vehicle"
+}

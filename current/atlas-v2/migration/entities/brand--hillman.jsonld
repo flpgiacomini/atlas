@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hillman, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "9f108024-5e2e-7a95-a33a-d257f108163c",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Hillman"
+    }
+  ],
+  "id": "atlas:brand:hillman",
+  "legacy": {
+    "id": "6bf9a3c0-742e-7886-a700-6a9b02b712e1",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Hillman",
+  "names": [],
+  "type": "Brand"
+}

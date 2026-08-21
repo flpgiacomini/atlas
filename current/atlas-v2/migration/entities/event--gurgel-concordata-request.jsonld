@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea54791dbacf407cd289ced9"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5771718cc18417d82f0671",
+      "legacyId": "01a01016-ea57-7171-8cc1-8417d82f0671",
+      "object": {
+        "id": "atlas:organization:gurgel-motores-s-a",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-o-engenheiro-que-virou-carro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7d30-8e35-9d7a70f852c5",
+      "subject": "atlas:event:gurgel-concordata-request",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547b33bfc7ff5af4b41b43"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577f06858fa9e3fae8a164",
+      "legacyId": "01a01016-ea57-7f06-858f-a9e3fae8a164",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1993"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-o-engenheiro-que-virou-carro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7570-b16a-59c37153f94d",
+      "subject": "atlas:event:gurgel-concordata-request",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gurgel concordata request é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1993. A documentação registra participação de Gurgel Motores S/A. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:gurgel-concordata-request",
+  "legacy": {
+    "id": "01a01016-ea4c-72fc-b996-84522239a439",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7570-b16a-59c37153f94d",
+      "01a01016-ea50-7d30-8e35-9d7a70f852c5"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "insolvency",
+    "realization_status": "occurred"
+  },
+  "name": "Gurgel concordata request",
+  "names": [],
+  "type": "Event"
+}

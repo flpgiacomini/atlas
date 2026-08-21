@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Birkin, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "49f962cd-00c3-70c4-b96d-ad2f9e3f7afb",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Birkin"
+    }
+  ],
+  "id": "atlas:brand:birkin",
+  "legacy": {
+    "id": "e7b822ff-4d62-7b8f-aee3-26a36693a899",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Birkin",
+  "names": [],
+  "type": "Brand"
+}

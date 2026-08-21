@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Pindad, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "40d2ceea-2a59-7e73-8b89-487659e231b7",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Pindad"
+    }
+  ],
+  "id": "atlas:brand:pindad",
+  "legacy": {
+    "id": "d6032db8-bbd0-7f65-bd94-4b645c56bba9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Pindad",
+  "names": [],
+  "type": "Brand"
+}

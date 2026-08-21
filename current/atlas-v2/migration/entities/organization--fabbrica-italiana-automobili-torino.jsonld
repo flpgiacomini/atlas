@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Fabbrica Italiana Automobili Torino é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a FIAT 3½ HP. Também aparece na relação de participação de associada a FIAT founded in Turin. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:fabbrica-italiana-automobili-torino",
+  "legacy": {
+    "id": "01a0102a-57e9-7441-bb9a-c86641e862e7",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e9-7181-abbb-9a270549898b",
+      "01a0102a-57e9-733c-afcc-d1f32fb3a302"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Fabbrica Italiana Automobili Torino",
+  "names": [],
+  "type": "Organization"
+}

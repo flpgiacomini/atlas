@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-66946fd10edb73e1962eca826826cc90"
+      ],
+      "id": "atlas:claim:legacy-5da12f7c20ac72308ef1305a1a116c2a",
+      "legacyId": "5da12f7c-20ac-7230-8ef1-305a1a116c2a",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1944-02-21"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q918792"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b39adc85-84b8-706b-8c56-c1fa0f0f6d2a",
+      "subject": "atlas:person:ferenc-szisz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e414767bef40769f80fe16da60debd59"
+      ],
+      "id": "atlas:claim:legacy-a89c50500d7e7838a892912eab874718",
+      "legacyId": "a89c5050-0d7e-7838-a892-912eab874718",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1873-09-20"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q918792"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ae2afc7c-7a31-7015-962c-7b11fc642e96",
+      "subject": "atlas:person:ferenc-szisz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mecânico e piloto húngaro ligado à Renault, vencedor do primeiro Grand Prix de l’A.C.F. em 1906. Sua atuação combinou preparação técnica e condução em prova, tornando-o personagem central da consolidação inicial das corridas de Grande Prêmio.",
+  "id": "atlas:person:ferenc-szisz",
+  "legacy": {
+    "id": "01a01031-ec56-72e1-87fe-d60d070d71f0",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "driver"
+    ]
+  },
+  "name": "Ferenc Szisz",
+  "names": [],
+  "type": "Person"
+}

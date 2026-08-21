@@ -1,0 +1,124 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e7a65eb1a8cc726c9b8a75b42ab43f0f"
+      ],
+      "id": "atlas:claim:legacy-2d7111239e9076ba940f96bbd5414951",
+      "legacyId": "2d711123-9e90-76ba-940f-96bbd5414951",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1769"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e9a9eb3c-001f-76b6-92d1-feab86328473",
+      "subject": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9abd71b5a6767f85909c8729da2908bc"
+      ],
+      "id": "atlas:claim:legacy-5556fad80ba77154af53a38d79df5561",
+      "legacyId": "5556fad8-0ba7-7154-af53-a38d79df5561",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": "trator de artilharia experimental",
+      "predicate": "configured-as",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "a3fbf720-18bf-74eb-86a3-e63a326a8b48",
+      "subject": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-4511b9f6644b7c039e180c99a7b7d42e"
+      ],
+      "id": "atlas:claim:legacy-885aefa256cb74bb8f2cca23ff974f79",
+      "legacyId": "885aefa2-56cb-74bb-8f2c-ca23ff974f79",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:propulsao-rodoviaria-a-vapor",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "3a0e810b-58b1-785d-b4e3-9559f8048525",
+      "subject": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-502a83276947726da5abeb4b10e41dee"
+      ],
+      "id": "atlas:claim:legacy-dbf95d0e48a77de4b6406d3e50ff5d49",
+      "legacyId": "dbf95d0e-48a7-7de4-b640-6d3e50ff5d49",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:nicolas-joseph-cugnot",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e8d4ba8f-8125-70a9-ab91-49866c666494",
+      "subject": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo rodoviário autopropelido a vapor desenvolvido por Nicolas-Joseph Cugnot para transportar material de artilharia. O exemplar preservado permite tratar o projeto como precursor documentado, sem convertê-lo anacronicamente em equivalente direto do automóvel de passageiros moderno.",
+  "id": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+  "legacy": {
+    "id": "3379bafb-ada4-7dbe-8506-00f21f3934b9",
+    "slug": "fardier-a-vapeur-de-cugnot",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "Fardier à vapeur de Cugnot",
+  "names": [],
+  "type": "Vehicle"
+}

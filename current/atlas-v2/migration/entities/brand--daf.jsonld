@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de DAF, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "daa42731-48ac-78eb-ab5d-0a39bd3acdb5",
+      "scheme": "atlas-brand-census",
+      "value": "M10:DAF"
+    }
+  ],
+  "id": "atlas:brand:daf",
+  "legacy": {
+    "id": "d31acfb1-1b0d-71aa-b5c0-0d3c7b4576a5",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "DAF",
+  "names": [],
+  "type": "Brand"
+}

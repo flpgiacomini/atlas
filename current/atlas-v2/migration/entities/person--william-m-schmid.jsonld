@@ -1,0 +1,22 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Designer da Ford Motor Company creditado pela Lincoln, ao lado de John Najjar, pela concepção do Futura de 1955. Sua participação integra o estudo ao ambiente profissional de design da Ford, antes da construção artesanal da carroceria na Itália.",
+  "id": "atlas:person:william-m-schmid",
+  "legacy": {
+    "id": "f4bd6e16-532d-7949-8422-30bdfb14023c",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "roles": [
+      "automotive designer"
+    ]
+  },
+  "name": "William M. Schmid",
+  "names": [],
+  "type": "Person"
+}

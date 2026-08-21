@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Exeed, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "37707815-bc87-76b2-a509-4858db3b7636",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Exeed"
+    }
+  ],
+  "id": "atlas:brand:exeed",
+  "legacy": {
+    "id": "5ccb1c63-8b2c-7197-a78c-daf1a4351fdf",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Exeed",
+  "names": [],
+  "type": "Brand"
+}

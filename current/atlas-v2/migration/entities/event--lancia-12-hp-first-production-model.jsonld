@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331678d7a6ab0e40825fcf78"
+      ],
+      "id": "atlas:claim:legacy-01a0103033167776b394ea175c49ea9a",
+      "legacyId": "01a01030-3316-7776-b394-ea175c49ea9a",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1908"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3316-7fb1-bfae-dba0e3d4dc70",
+      "subject": "atlas:event:lancia-12-hp-first-production-model",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033167aed85b42c28eb0c4204"
+      ],
+      "id": "atlas:claim:legacy-01a0103033167ca3bdabd8f323d08518",
+      "legacyId": "01a01030-3316-7ca3-bdab-d8f323d08518",
+      "object": {
+        "id": "atlas:vehicle:lancia-12-hp",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3316-76b8-9d11-40047b00627d",
+      "subject": "atlas:event:lancia-12-hp-first-production-model",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Lancia 12 HP first production model é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Lancia 12 HP. A documentação registra ocorrência em 1908. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:lancia-12-hp-first-production-model",
+  "legacy": {
+    "id": "01a01030-3313-763f-beca-e385e745c472",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3316-76b8-9d11-40047b00627d",
+      "01a01030-3316-7fb1-bfae-dba0e3d4dc70"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "production_start",
+    "realization_status": "occurred"
+  },
+  "name": "Lancia 12 HP first production model",
+  "names": [],
+  "type": "Event"
+}

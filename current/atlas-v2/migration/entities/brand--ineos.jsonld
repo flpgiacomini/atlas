@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ineos, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d46b9eb2-3fb3-7ef3-9d61-3879dd8b8474",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Ineos"
+    }
+  ],
+  "id": "atlas:brand:ineos",
+  "legacy": {
+    "id": "ffc71753-9b27-7e7f-8cf9-d89dd3a6e0b8",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Ineos",
+  "names": [],
+  "type": "Brand"
+}

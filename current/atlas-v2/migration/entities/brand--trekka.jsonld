@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Trekka, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "69690a7f-0d19-7d14-9df6-dabd075b3d79",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Trekka"
+    }
+  ],
+  "id": "atlas:brand:trekka",
+  "legacy": {
+    "id": "48a8eb75-a625-7c28-a846-ae49066f2c2b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Trekka",
+  "names": [],
+  "type": "Brand"
+}

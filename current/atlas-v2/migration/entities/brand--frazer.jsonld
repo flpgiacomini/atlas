@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Frazer, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4f9701de-f87e-7850-937a-f0fccc3556c5",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Frazer"
+    }
+  ],
+  "id": "atlas:brand:frazer",
+  "legacy": {
+    "id": "7bcca833-4184-7c49-a4c1-84990f1ae892",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Frazer",
+  "names": [],
+  "type": "Brand"
+}

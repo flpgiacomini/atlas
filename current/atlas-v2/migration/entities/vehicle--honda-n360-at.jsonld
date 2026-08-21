@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544d75d3b895a72d0e8504c2"
+      ],
+      "id": "atlas:claim:legacy-01a01028544d76098c88aa15106fd061",
+      "legacyId": "01a01028-544d-7609-8c88-aa15106fd061",
+      "object": {
+        "id": "atlas:technology:hondamatic-automatic-transmission",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-the-hondamatic-transmission-1968"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544d-7cff-a01a-98c5e4513b07",
+      "subject": "atlas:vehicle:honda-n360-at",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544d71bc9ff62594132ccc49"
+      ],
+      "id": "atlas:claim:legacy-01a01028544d7cb7bb15eaf83a561a33",
+      "legacyId": "01a01028-544d-7cb7-bb15-eaf83a561a33",
+      "object": {
+        "id": "atlas:vehicle:honda-n360",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-the-hondamatic-transmission-1968"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544d-7ddd-a87f-5162051587ca",
+      "subject": "atlas:vehicle:honda-n360-at",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Honda N360 AT é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Hondamatic automatic transmission. A documentação registra integração a Honda N360. Também aparece na relação de participação de associada a Honda N360 AT Hondamatic debut. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:honda-n360-at",
+  "legacy": {
+    "id": "01a01028-544c-74aa-9028-ab50f0240e42",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544d-7cff-a01a-98c5e4513b07",
+      "01a01028-544d-7ddd-a87f-5162051587ca",
+      "01a01028-544e-7b27-b08e-83cde7d75b3f"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "variant_role": "technical",
+    "vehicle_kind": "production",
+    "vehicle_level": "variant"
+  },
+  "name": "Honda N360 AT",
+  "names": [],
+  "type": "Vehicle"
+}

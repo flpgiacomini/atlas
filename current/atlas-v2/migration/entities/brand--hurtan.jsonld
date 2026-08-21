@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hurtan, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "78eff5cf-f43d-73a4-8af5-d259294423e9",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Hurtan"
+    }
+  ],
+  "id": "atlas:brand:hurtan",
+  "legacy": {
+    "id": "f1db0c82-b1b5-73da-a83c-509e46702c0a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Hurtan",
+  "names": [],
+  "type": "Brand"
+}

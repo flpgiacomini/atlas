@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c97924a6ec34e2e34e421b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c97bc4903a505f3abc2d10",
+      "legacyId": "01a010d9-28c9-7bc4-903a-505f3abc2d10",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1988"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mclaren-automotive-mclaren-f1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c9-701b-aa12-29009769267d",
+      "subject": "atlas:event:mclaren-f1-concept-conceived",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c97b65a4886b69af6934f5"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c97d5896123f5e39e1ebd1",
+      "legacyId": "01a010d9-28c9-7d58-9612-3f5e39e1ebd1",
+      "object": {
+        "id": "atlas:vehicle:mclaren-f1",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mclaren-automotive-mclaren-f1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c9-7a3d-8b35-e7fd120543fb",
+      "subject": "atlas:event:mclaren-f1-concept-conceived",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "McLaren F1 concept conceived é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1988. A documentação registra participação de McLaren F1. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:mclaren-f1-concept-conceived",
+  "legacy": {
+    "id": "01a010d9-28c9-7254-b872-ae5bb1c14ec1",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c9-701b-aa12-29009769267d",
+      "01a010d9-28c9-7a3d-8b35-e7fd120543fb"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "development_milestone",
+    "realization_status": "occurred"
+  },
+  "name": "McLaren F1 concept conceived",
+  "names": [],
+  "type": "Event"
+}

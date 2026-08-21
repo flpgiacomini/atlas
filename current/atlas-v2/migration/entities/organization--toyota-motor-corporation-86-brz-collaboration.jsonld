@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Toyota Motor Corporation — 86/BRZ collaboration é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de desenvolvimento por associada a Subaru BRZ. Também aparece na relação de desenvolvimento por associada a Toyota 86. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:toyota-motor-corporation-86-brz-collaboration",
+  "legacy": {
+    "id": "01a01028-5459-7036-9053-993a1a29b824",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5459-70dc-a606-c57d946621b8",
+      "01a01028-5459-775e-94db-4912d9557f5f"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Toyota Motor Corporation — 86/BRZ collaboration",
+  "names": [],
+  "type": "Organization"
+}

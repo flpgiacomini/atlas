@@ -1,0 +1,64 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "917 KH",
+    "Kurzheck"
+  ],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567334b1c1d59851dd4c79"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597693993ecb80c62fedf8",
+      "legacyId": "01a01016-ea59-7693-993e-cb80c62fedf8",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7abc-8ae8-7a1154a0b68b",
+      "subject": "atlas:vehicle:porsche-917-k",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917 K é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de configuração como associada a Porsche 917-023. A documentação registra integração a Porsche 917. Também aparece na relação de veículo inscrito associada a 1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-917-k",
+  "legacy": {
+    "id": "01a01016-ea4e-7f61-a75b-aff9632d7d7a",
+    "slug": "porsche-917-k",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7204-aa3d-6b4fea18cb33",
+      "01a01016-ea52-7abc-8ae8-7a1154a0b68b",
+      "01a01016-ea53-7933-81d4-e16912be6dd7"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "variant_role": "racing",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "variant"
+  },
+  "name": "Porsche 917 K",
+  "names": [
+    {
+      "id": "01a01016-ea4e-7222-96fa-73296ea7cb0f",
+      "name_type": "alias",
+      "value": "917 KH"
+    },
+    {
+      "id": "01a01016-ea4e-7fde-984e-a0686b73580b",
+      "name_type": "alias",
+      "value": "Kurzheck"
+    }
+  ],
+  "type": "Vehicle"
+}

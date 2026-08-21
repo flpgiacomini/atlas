@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de DeLorean, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "97a72b6c-03eb-73cb-aeed-3095185fa86c",
+      "scheme": "atlas-brand-census",
+      "value": "M03:DeLorean"
+    }
+  ],
+  "id": "atlas:brand:delorean",
+  "legacy": {
+    "id": "99d50fcf-3884-7eb8-85af-43eee8d517b1",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "DeLorean",
+  "names": [],
+  "type": "Brand"
+}

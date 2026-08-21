@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Kia, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e9500183-7abc-7efa-a459-d8401a71aae6",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Kia"
+    }
+  ],
+  "id": "atlas:brand:kia",
+  "legacy": {
+    "id": "897472c5-6fb3-7993-ae85-bb6c6035e1c7",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Kia",
+  "names": [],
+  "type": "Brand"
+}

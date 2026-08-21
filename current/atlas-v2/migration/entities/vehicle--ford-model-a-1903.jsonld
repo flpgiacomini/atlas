@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57eb7dd4bdc5fd9ebef86668"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57eb768ab501ea8083e88c30",
+      "legacyId": "01a0102a-57eb-768a-b501-ea8083e88c30",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-1903-ford-model-a-runabout"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57eb-795b-90f3-62257c0d7560",
+      "subject": "atlas:vehicle:ford-model-a-1903",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Model A (1903) é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Ford Model A production introduction. A documentação registra fabricação por Ford Motor Company. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:ford-model-a-1903",
+  "legacy": {
+    "id": "01a0102a-57eb-76a1-8320-8062f4f812e3",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57eb-7357-a48a-d762f91b2a2c",
+      "01a0102a-57eb-795b-90f3-62257c0d7560"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Ford Model A (1903)",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-f60c3fa8126b7dc195849265c51bc289"
+      ],
+      "id": "atlas:claim:legacy-e9c97cca613b75cb91921c96725bdd80",
+      "legacyId": "e9c97cca-613b-75cb-9192-1c96725bdd80",
+      "note": "Atribuição documentada pela fonte individual R01.",
+      "object": {
+        "id": "atlas:brand:aston-martin",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "R01",
+        "verification_scope": "brand_attribution"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:aston-martin-heritage-trust-bulldog-200"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "a1ebe088-37c5-73ef-bd7c-99ba71f5e571",
+      "subject": "atlas:vehicle:aston-martin-bulldog",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Protótipo rodoviário de motor central construído entre 1978 e 1980 para explorar a ambição de um Aston Martin capaz de superar 200 mph. O projeto de portas asa-de-gaivota alcançou 191 mph nos testes de época, mas foi cancelado por custos. Restaurado décadas depois, comprovou a promessa original ao registrar 205,4 mph em 2023.",
+  "externalIds": [
+    {
+      "id": "c2efc210-44bf-78b2-8180-af77484a7b50",
+      "scheme": "atlas-significance-candidate",
+      "value": "one_off:1979:Aston Martin Bulldog"
+    }
+  ],
+  "id": "atlas:vehicle:aston-martin-bulldog",
+  "legacy": {
+    "id": "b6fea8f4-7152-7594-95de-85db64485e62",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Aston Martin",
+    "candidate_kind": "one_off",
+    "candidate_year": 1979,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "TEC",
+      "SOC"
+    ],
+    "description_basis_statement_ids": [
+      "a1ebe088-37c5-73ef-bd7c-99ba71f5e571"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "waiting_media_and_second_source",
+    "relevance_score": 75,
+    "verification_batch": "R01",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-20"
+  },
+  "name": "Aston Martin Bulldog",
+  "names": [],
+  "type": "Vehicle"
+}

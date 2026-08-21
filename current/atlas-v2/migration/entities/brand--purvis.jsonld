@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Purvis, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "315053b2-3d41-7d33-ae4f-7be5a7c95274",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Purvis"
+    }
+  ],
+  "id": "atlas:brand:purvis",
+  "legacy": {
+    "id": "926742b5-542e-7aa8-8528-e72dd028a4b8",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Purvis",
+  "names": [],
+  "type": "Brand"
+}

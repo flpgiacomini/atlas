@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Volkswagen é registrado no Atlas como marca automotiva, dentro da história global do automóvel. Também aparece na relação de comercialização sob associada a Volkswagen Beetle / Type 1. Também aparece na relação de comercialização sob associada a Volkswagen Golf — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:brand:volkswagen",
+  "legacy": {
+    "id": "01a010d9-28c3-7fc4-9f3a-3e300e1d1b76",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "description_basis_statement_ids": [
+      "01a010d9-28c3-7a27-93cd-1f943ff69afa",
+      "01a010d9-28c8-762c-8b0a-4e4156dc6f9d"
+    ],
+    "editorial_batch": "E06",
+    "editorial_level": "editorial"
+  },
+  "name": "Volkswagen",
+  "names": [],
+  "type": "Brand"
+}

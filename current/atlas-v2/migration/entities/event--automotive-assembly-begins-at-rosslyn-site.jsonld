@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb73488d6bde48be2e04f6"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb7b99973dfcfcaab39077",
+      "legacyId": "01a010d9-28cb-7b99-973d-fcfcaab39077",
+      "object": {
+        "id": "atlas:facility:bmw-group-plant-rosslyn",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7aa4-adba-8db80601a63d",
+      "subject": "atlas:event:automotive-assembly-begins-at-rosslyn-site",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb7479bd9fa7d4c524b242"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb7ef2b4f40f8de1abcaa0",
+      "legacyId": "01a010d9-28cb-7ef2-b4f4-0f8de1abcaa0",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1968"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7b23-871a-ff4905f388cb",
+      "subject": "atlas:event:automotive-assembly-begins-at-rosslyn-site",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Automotive assembly begins at Rosslyn site é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de BMW Group Plant Rosslyn. A documentação registra ocorrência em 1968. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:automotive-assembly-begins-at-rosslyn-site",
+  "legacy": {
+    "id": "01a010d9-28cb-7dae-9c22-7489eed09176",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-7aa4-adba-8db80601a63d",
+      "01a010d9-28cb-7b23-871a-ff4905f388cb"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "facility_operation",
+    "realization_status": "occurred"
+  },
+  "name": "Automotive assembly begins at Rosslyn site",
+  "names": [],
+  "type": "Event"
+}

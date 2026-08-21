@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Configuração de acesso em que a cobertura envolvente da cabine bascula para a frente. No Corvair Monza GT, a solução liberava o compartimento dos passageiros e integrava acesso, visibilidade e forma aerodinâmica em um único elemento.",
+  "id": "atlas:technology:canopy-automotivo-com-abertura-dianteira",
+  "legacy": {
+    "id": "2bf24243-c16a-7149-b26e-e07e861a9a8a",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "technology_category": "body and access"
+  },
+  "name": "Canopy automotivo com abertura dianteira",
+  "names": [],
+  "type": "Technology"
+}

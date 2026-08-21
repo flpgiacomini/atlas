@@ -1,0 +1,170 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "996"
+  ],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5571e0a19ea3b6c94d7bd6"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587022994ecf58cfa4ea79",
+      "legacyId": "01a01016-ea58-7022-994e-cf58cfa4ea79",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7339-a7e5-cc50bd4c62c5",
+      "subject": "atlas:vehicle:porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5578d8ba0f8dc71207098c"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58726aa4b7f3970d8970ec",
+      "legacyId": "01a01016-ea58-726a-a4b7-f3970d8970ec",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7339-a7e5-cc50bd4c62c5",
+      "subject": "atlas:vehicle:porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5578a4a00672cd09e09e4d"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587970bb755dc27bb3b70d",
+      "legacyId": "01a01016-ea58-7970-bb75-5dc27bb3b70d",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-type-993",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7ada-9b91-8adb810193b0",
+      "subject": "atlas:vehicle:porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557ba9ad7fab0305de7561"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587a17acb845edd622cd6c",
+      "legacyId": "01a01016-ea58-7a17-acb8-45edd622cd6c",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-type-993",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7ada-9b91-8adb810193b0",
+      "subject": "atlas:vehicle:porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5573e0afb70595bcd9f426"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597071b80a360c8ac99e72",
+      "legacyId": "01a01016-ea59-7071-b80a-360c8ac99e72",
+      "object": {
+        "id": "atlas:technology:water-cooled-flat-six-engine-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-71e0-b767-78cf59e57882",
+      "subject": "atlas:vehicle:porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557a78bffe292804fdb910"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597d95b9840752cffca7a6",
+      "legacyId": "01a01016-ea59-7d95-b984-0752cffca7a6",
+      "object": {
+        "id": "atlas:technology:water-cooled-flat-six-engine-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-new-porsche-911-a-design-icon-and-high-tech-sports-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-71e0-b767-78cf59e57882",
+      "subject": "atlas:vehicle:porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 911 Type 996 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Water-cooled flat-six engine architecture. A documentação registra integração a Porsche 911. A documentação registra sucessão de Porsche 911 Type 993. Também aparece na relação de sucessão de associada a Porsche 911 Type 997. Também aparece na relação de participação de associada a Presentation of Porsche 911 Type 996. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-911-type-996",
+  "legacy": {
+    "id": "01a01016-ea4d-75cb-84ea-b42b494fd567",
+    "slug": "porsche-911-996",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-71e0-b767-78cf59e57882",
+      "01a01016-ea51-7339-a7e5-cc50bd4c62c5",
+      "01a01016-ea51-7ada-9b91-8adb810193b0",
+      "01a01016-ea51-7fb1-ab65-d878bfd93b9d",
+      "01a01016-ea52-7ba5-b39b-6e533f454e32"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "source_period": "1997-2005",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Porsche 911 Type 996",
+  "names": [
+    {
+      "id": "01a01016-ea4d-7cc1-a972-09d4e0287fee",
+      "name_type": "internal_code",
+      "value": "996"
+    }
+  ],
+  "type": "Vehicle"
+}

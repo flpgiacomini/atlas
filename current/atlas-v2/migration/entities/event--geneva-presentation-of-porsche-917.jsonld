@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567252b4ee4236e622c516"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597ee08f0e3f139926b3be",
+      "legacyId": "01a01016-ea59-7ee0-8f0e-3f139926b3be",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1969-03-12"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7859-b2d6-ce4160a2b0cc",
+      "subject": "atlas:event:geneva-presentation-of-porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea56793293eb518936cd97a5"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a70a7af4852dd4f702c2c",
+      "legacyId": "01a01016-ea5a-70a7-af48-52dd4f702c2c",
+      "object": {
+        "id": "atlas:vehicle-instance:porsche-917-001",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "presented_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7076-b99c-e89877fdaa74",
+      "subject": "atlas:event:geneva-presentation-of-porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5674ecbe887fdabee85d9b"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a73bb9f0c3fcb7d1d58f1",
+      "legacyId": "01a01016-ea5a-73bb-9f0c-3fcb7d1d58f1",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "vehicle_program"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7b80-93b9-fe40dfdb7c69",
+      "subject": "atlas:event:geneva-presentation-of-porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Geneva presentation of Porsche 917 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1969-03-12. A documentação registra participação de Porsche 917-001. A documentação registra participação de Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:geneva-presentation-of-porsche-917",
+  "legacy": {
+    "id": "01a01016-ea4d-7e54-87cd-e2040c1786e7",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7859-b2d6-ce4160a2b0cc",
+      "01a01016-ea53-7076-b99c-e89877fdaa74",
+      "01a01016-ea53-7b80-93b9-fe40dfdb7c69"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Geneva presentation of Porsche 917",
+  "names": [],
+  "type": "Event"
+}

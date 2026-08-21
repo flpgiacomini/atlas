@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de FPV, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f31decd0-ae02-78a5-bb21-3e83d99c4955",
+      "scheme": "atlas-brand-census",
+      "value": "M12:FPV"
+    }
+  ],
+  "id": "atlas:brand:fpv",
+  "legacy": {
+    "id": "6744db1d-63f9-7881-bb29-cc67c7ce00f6",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "FPV",
+  "names": [],
+  "type": "Brand"
+}

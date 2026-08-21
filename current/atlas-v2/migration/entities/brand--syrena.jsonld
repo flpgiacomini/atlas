@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Syrena, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4d249970-7ac8-761c-a147-0d43c7cb5e95",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Syrena"
+    }
+  ],
+  "id": "atlas:brand:syrena",
+  "legacy": {
+    "id": "caeafe60-9e1a-7dd9-b2af-68da8fa0a1a0",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Syrena",
+  "names": [],
+  "type": "Brand"
+}

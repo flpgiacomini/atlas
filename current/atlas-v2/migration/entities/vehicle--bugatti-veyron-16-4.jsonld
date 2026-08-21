@@ -1,0 +1,75 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285457736e92e99b22e90d18ef"
+      ],
+      "id": "atlas:claim:legacy-01a0102854577b0db3cc89d0fbb8d5d7",
+      "legacyId": "01a01028-5457-7b0d-b3cc-89d0fbb8d5d7",
+      "object": {
+        "id": "atlas:facility:bugatti-atelier-molsheim",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-7adb-bd63-95cf5d1b68d1",
+      "subject": "atlas:vehicle:bugatti-veyron-16-4",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "2005",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854577151882e0b802dec7c04"
+      ],
+      "id": "atlas:claim:legacy-01a0102854577ecda72e127a2448ff4c",
+      "legacyId": "01a01028-5457-7ecd-a72e-127a2448ff4c",
+      "object": {
+        "id": "atlas:brand:bugatti",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-764b-9095-1e740d189fff",
+      "subject": "atlas:vehicle:bugatti-veyron-16-4",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Bugatti Veyron 16.4 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra comercialização sob Bugatti. A documentação registra produção em Bugatti Atelier Molsheim. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:bugatti-veyron-16-4",
+  "legacy": {
+    "id": "01a01028-5456-75fc-a071-4aa5efb7f81b",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5457-764b-9095-1e740d189fff",
+      "01a01028-5457-7adb-bd63-95cf5d1b68d1"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Bugatti Veyron 16.4",
+  "names": [],
+  "type": "Vehicle"
+}

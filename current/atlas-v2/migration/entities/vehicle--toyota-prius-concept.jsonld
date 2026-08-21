@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Toyota Prius Concept (1995), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "5227ca66-7c65-7d3f-9570-611eff43ee35",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1995:Toyota Prius Concept"
+    }
+  ],
+  "id": "atlas:vehicle:toyota-prius-concept",
+  "legacy": {
+    "id": "d5d014e0-f131-77b3-a041-36729993c1ac",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Toyota",
+    "candidate_kind": "concept",
+    "candidate_year": 1995,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "SEG",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Toyota Prius Concept",
+  "names": [],
+  "type": "Vehicle"
+}

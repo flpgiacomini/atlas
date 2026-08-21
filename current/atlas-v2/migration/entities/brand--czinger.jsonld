@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Czinger, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2d69eacb-ff9c-7ccc-aeb1-4c83816e32fd",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Czinger"
+    }
+  ],
+  "id": "atlas:brand:czinger",
+  "legacy": {
+    "id": "028a329e-24bc-757f-96f7-9359aa0fe9d7",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Czinger",
+  "names": [],
+  "type": "Brand"
+}

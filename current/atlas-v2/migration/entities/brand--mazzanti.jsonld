@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mazzanti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "c3402233-2e6c-75f3-8dd5-b2be7470644c",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Mazzanti"
+    }
+  ],
+  "id": "atlas:brand:mazzanti",
+  "legacy": {
+    "id": "9b23f73d-adb4-7839-96ab-4fc8eb116502",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Mazzanti",
+  "names": [],
+  "type": "Brand"
+}

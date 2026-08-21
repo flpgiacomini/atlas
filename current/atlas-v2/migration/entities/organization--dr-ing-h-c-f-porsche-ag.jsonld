@@ -1,0 +1,35 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "Porsche"
+  ],
+  "claims": [],
+  "description": "Dr. Ing. h.c. F. Porsche AG é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Porsche 917. Também aparece na relação de participação de associada a Porsche 917 homologation. Também aparece na relação de liderança de associada a Ferdinand Piëch. Também aparece na relação de atividade profissional em associada a Ferdinand Alexander Porsche. Também aparece na relação de atividade profissional em associada a Ferdinand Piëch. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+  "legacy": {
+    "id": "01a01016-ea4e-7218-a646-042102986580",
+    "slug": "porsche-ag",
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7be1-a8eb-1fc9a59199c6",
+      "01a01016-ea53-73dc-9b54-af01a360d4d5",
+      "43264cf2-f0b7-7c3d-a214-df8104a63134",
+      "6e5f3ce5-1bc4-7d41-91c5-8cf9ed8e6ca2",
+      "c5be595a-ba55-7eb5-af13-3a2e09b0bc9b"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Dr. Ing. h.c. F. Porsche AG",
+  "names": [
+    {
+      "id": "01a01016-ea4e-7b2b-9591-8c3bb4a85846",
+      "name_type": "commercial_name",
+      "value": "Porsche"
+    }
+  ],
+  "type": "Organization"
+}

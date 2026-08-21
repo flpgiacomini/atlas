@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-3da02741242a7ad2aaefcbacd2f3e40e"
+      ],
+      "id": "atlas:claim:legacy-38cab58b6d4f7130841e2f459261625a",
+      "legacyId": "38cab58b-6d4f-7130-841e-2f459261625a",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:technology:linguagem-aeronautica-em-concept-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird II"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-ii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "2d0b5f4a-5be2-7297-b0aa-fb6ef1f3d06a",
+      "subject": "atlas:vehicle:general-motors-firebird-ii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-1272b7cf326e782aa91b3603dbb3024f"
+      ],
+      "id": "atlas:claim:legacy-55ac6f2643857b4ba3d5c97de9d5b1cc",
+      "legacyId": "55ac6f26-4385-7b4b-a3d5-c97de9d5b1cc",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird II"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-ii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "dd4985fe-87a1-7515-929c-fdb02fb6158a",
+      "subject": "atlas:vehicle:general-motors-firebird-ii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-7785e9e8701771b79578c0bdd6fd8b84"
+      ],
+      "id": "atlas:claim:legacy-804ec9fc58b0790c86af70fccb632bc0",
+      "legacyId": "804ec9fc-58b0-790c-86af-70fccb632bc0",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:technology:propulsao-automotiva-por-turbina-a-gas",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird II"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-ii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f599ce4c-5394-75f3-b25a-a153db217793",
+      "subject": "atlas:vehicle:general-motors-firebird-ii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-d835f1ee92bf73a9912c772333899394"
+      ],
+      "id": "atlas:claim:legacy-be98495384d675108c51c8dc095d7bd9",
+      "legacyId": "be984953-84d6-7510-8c51-c8dc095d7bd9",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:vehicle:general-motors-firebird-i",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird II"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-ii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "760496f6-35c8-742e-ad65-c36682873bd6",
+      "subject": "atlas:vehicle:general-motors-firebird-ii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Segundo automóvel experimental da série Firebird, apresentado no Motorama de 1956 como sucessor do Firebird I. Com quatro lugares, carroceria de titânio, turbina regenerativa e suspensão independente, também serviu de suporte narrativo para uma visão de rodovias eletronicamente guiadas.",
+  "id": "atlas:vehicle:general-motors-firebird-ii",
+  "legacy": {
+    "id": "35068d25-95de-78fb-b9fc-d1fc330ae7de",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "dd4985fe-87a1-7515-929c-fdb02fb6158a",
+      "760496f6-35c8-742e-ad65-c36682873bd6",
+      "f599ce4c-5394-75f3-b25a-a153db217793",
+      "2d0b5f4a-5be2-7297-b0aa-fb6ef1f3d06a"
+    ],
+    "editorial_batch": "V03",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "General Motors Firebird II",
+  "names": [],
+  "type": "Vehicle"
+}

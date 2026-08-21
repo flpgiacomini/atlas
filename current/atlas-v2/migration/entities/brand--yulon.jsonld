@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Yulon, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "bfd3f23d-19d1-7afa-88c3-8458966b4190",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Yulon"
+    }
+  ],
+  "id": "atlas:brand:yulon",
+  "legacy": {
+    "id": "de26ef47-a3ea-7a83-8413-8e669dfdd329",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Yulon",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,128 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5474459b5d6eedfed6599e"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec54719ab696a4abd5286549",
+      "legacyId": "01a01031-ec54-719a-b696-a4abd5286549",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1894-07-22"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-peugeot-18941896"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec53-7abe-90dd-0f1d8d67c6ad",
+      "subject": "atlas:event:parisrouen-reliability-trial-1894",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec547e608edb46087d51233e"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5474e197e0a1166e545825",
+      "legacyId": "01a01031-ec54-74e1-97e0-a1166e545825",
+      "object": {
+        "id": "atlas:organization:panhard-levassor",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "shared_first_prize_manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-peugeot-18941896"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec54-71fb-9b0e-6461ed63a0d5",
+      "subject": "atlas:event:parisrouen-reliability-trial-1894",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec547c459f5abb9584a98f2e"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec547c5c8ea49dc778f9a294",
+      "legacyId": "01a01031-ec54-7c5c-8ea4-9dc778f9a294",
+      "object": {
+        "id": "atlas:organization:de-dion-bouton",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "first_to_finish_but_ineligible_design"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-peugeot-18941896"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec54-7faa-9de3-99b73aaa8df4",
+      "subject": "atlas:event:parisrouen-reliability-trial-1894",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5475f38aa7f005fa801a3f"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec547f868c2155e64c674dec",
+      "legacyId": "01a01031-ec54-7f86-8c21-55e64c674dec",
+      "object": {
+        "id": "atlas:brand:peugeot",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "shared_first_prize_brand"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-peugeot-18941896"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec54-771b-b1f1-5a788b2cbef8",
+      "subject": "atlas:event:parisrouen-reliability-trial-1894",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Paris–Rouen reliability trial 1894 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1894-07-22. A documentação registra participação de Panhard & Levassor. A documentação registra participação de Peugeot. A documentação registra participação de De Dion-Bouton. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:parisrouen-reliability-trial-1894",
+  "legacy": {
+    "id": "01a01031-ec53-7a29-adea-f86a2b759acf",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "characterization": "reliability trial / early competition",
+    "description_basis_statement_ids": [
+      "01a01031-ec53-7abe-90dd-0f1d8d67c6ad",
+      "01a01031-ec54-71fb-9b0e-6461ed63a0d5",
+      "01a01031-ec54-771b-b1f1-5a788b2cbef8",
+      "01a01031-ec54-7faa-9de3-99b73aaa8df4"
+    ],
+    "documented_distance_km": 126,
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "Paris–Rouen reliability trial 1894",
+  "names": [],
+  "type": "Event"
+}

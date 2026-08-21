@@ -1,0 +1,116 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c77f1aa60189d1fdb09f0b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c770fd9f1ba073dd5ef4c6",
+      "legacyId": "01a010d9-28c7-70fd-9f1b-a073dd5ef4c6",
+      "object": {
+        "id": "atlas:organization:mazda-motor-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mazda-motor-corporation-cosmo-sport"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-754d-aef6-8bc074b966fd",
+      "subject": "atlas:vehicle:mazda-cosmo-sport-110s",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c77594872d624e319c3561"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c77c4caf09f46cb776c9a6",
+      "legacyId": "01a010d9-28c7-7c4c-af09-f46cb776c9a6",
+      "object": {
+        "id": "atlas:organization:mazda-motor-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mazda-motor-corporation-mazda-celebrates-40th-anniversary-of-rotary-engine-vehicles"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-754d-aef6-8bc074b966fd",
+      "subject": "atlas:vehicle:mazda-cosmo-sport-110s",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c8730db2f5df593dc861b2"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c8724ba77a90219ee1a728",
+      "legacyId": "01a010d9-28c8-724b-a77a-90219ee1a728",
+      "object": {
+        "id": "atlas:technology:two-rotor-rotary-engine-propulsion",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mazda-motor-corporation-mazda-celebrates-40th-anniversary-of-rotary-engine-vehicles"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7d5a-9c7b-07b3463d0fa1",
+      "subject": "atlas:vehicle:mazda-cosmo-sport-110s",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c8762abffb9a1ae4f01bc3"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c879049bdf827474097872",
+      "legacyId": "01a010d9-28c8-7904-9bdf-827474097872",
+      "object": {
+        "id": "atlas:technology:two-rotor-rotary-engine-propulsion",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mazda-motor-corporation-cosmo-sport"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7d5a-9c7b-07b3463d0fa1",
+      "subject": "atlas:vehicle:mazda-cosmo-sport-110s",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mazda Cosmo Sport / 110S é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Mazda Motor Corporation. A documentação registra uso da tecnologia Two-rotor rotary engine propulsion. Também aparece na relação de participação de associada a Mazda Cosmo Sport sales begin. Também aparece na relação de participação de associada a Mazda Cosmo Sport prototype public unveiling. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:mazda-cosmo-sport-110s",
+  "legacy": {
+    "id": "01a010d9-28c7-745f-a0e1-27cf05392aeb",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c7-754d-aef6-8bc074b966fd",
+      "01a010d9-28c7-7d5a-9c7b-07b3463d0fa1",
+      "01a010d9-28c8-7222-9015-f35471bb08ee",
+      "01a010d9-28c8-7dcd-aaed-4f7458fbd18b"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Mazda Cosmo Sport / 110S",
+  "names": [],
+  "type": "Vehicle"
+}

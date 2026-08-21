@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-2ea8db8ce61675e1bf6d3d9b2f58c618"
+      ],
+      "id": "atlas:claim:legacy-028b045c1f1b7ef2bdf4d191a4d23bee",
+      "legacyId": "028b045c-1f1b-7ef2-bdf4-d191a4d23bee",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "4cc103c4-a2fc-75dd-84b8-e4d04afd3ee7",
+      "subject": "atlas:vehicle:porsche-356",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 356 é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de sucessão de associada a Porsche 911. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-356",
+  "legacy": {
+    "id": "01a01016-ea4d-748e-b4e3-a3da0660676a",
+    "slug": "porsche-356",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-7b91-959b-03f1d2023dd2"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Porsche 356",
+  "names": [],
+  "type": "Vehicle"
+}

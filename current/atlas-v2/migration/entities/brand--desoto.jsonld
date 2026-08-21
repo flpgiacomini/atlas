@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de DeSoto, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2a8c0b53-abd1-7bb9-bef0-e9914d398bfb",
+      "scheme": "atlas-brand-census",
+      "value": "M03:DeSoto"
+    }
+  ],
+  "id": "atlas:brand:desoto",
+  "legacy": {
+    "id": "6ee19e23-2050-7d28-b4df-76d644055cf7",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "DeSoto",
+  "names": [],
+  "type": "Brand"
+}

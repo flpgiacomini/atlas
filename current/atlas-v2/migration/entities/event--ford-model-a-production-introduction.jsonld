@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57eb7bc4b88748ccda5421af"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57eb77bb82e361b8158876dc",
+      "legacyId": "01a0102a-57eb-77bb-82e3-61b8158876dc",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1903"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-1903-ford-model-a-runabout"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57eb-77b1-82ef-c4db449ef276",
+      "subject": "atlas:event:ford-model-a-production-introduction",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57eb724e83845a842b4e7039"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57eb7c0b9282a598dfb0d4b3",
+      "legacyId": "01a0102a-57eb-7c0b-9282-a598dfb0d4b3",
+      "object": {
+        "id": "atlas:vehicle:ford-model-a-1903",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-1903-ford-model-a-runabout"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57eb-7357-a48a-d762f91b2a2c",
+      "subject": "atlas:event:ford-model-a-production-introduction",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Model A production introduction é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Ford Model A (1903). A documentação registra ocorrência em 1903. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:ford-model-a-production-introduction",
+  "legacy": {
+    "id": "01a0102a-57eb-74e0-834c-290622168a7c",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57eb-7357-a48a-d762f91b2a2c",
+      "01a0102a-57eb-77b1-82ef-c4db449ef276"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Ford Model A production introduction",
+  "names": [],
+  "type": "Event"
+}

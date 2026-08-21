@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c57b2eb61686814256cb84"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c57371b9922c8acc872f8f",
+      "legacyId": "01a010d9-28c5-7371-b992-2c8acc872f8f",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-land-cruiser-bj-series"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-7ea0-a8d3-f30d07052dbc",
+      "subject": "atlas:vehicle:toyota-jeep-bj-land-cruiser-bj",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c5704ebdb3b89a15cef19b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c574f4b623df196a74cb24",
+      "legacyId": "01a010d9-28c5-74f4-b623-df196a74cb24",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-s-new-land-cruiser-makes-world-premiere"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-7ea0-a8d3-f30d07052dbc",
+      "subject": "atlas:vehicle:toyota-jeep-bj-land-cruiser-bj",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Toyota Jeep BJ / Land Cruiser BJ é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Toyota Motor Corporation. Também aparece na relação de participação de associada a Toyota BJ launch. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:toyota-jeep-bj-land-cruiser-bj",
+  "legacy": {
+    "id": "01a010d9-28c5-7418-9ce7-bccab4df9cea",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c5-7ea0-a8d3-f30d07052dbc",
+      "01a010d9-28c6-7e85-9c45-8b271ece1103"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "original_context": "developed for Japan's National Police Reserve",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Toyota Jeep BJ / Land Cruiser BJ",
+  "names": [],
+  "type": "Vehicle"
+}

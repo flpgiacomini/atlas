@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Maxus, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "53881e11-401f-7109-b899-39041b8827c3",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Maxus"
+    }
+  ],
+  "id": "atlas:brand:maxus",
+  "legacy": {
+    "id": "b8ae024d-4f32-7b0c-8091-326b2714dd57",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Maxus",
+  "names": [],
+  "type": "Brand"
+}

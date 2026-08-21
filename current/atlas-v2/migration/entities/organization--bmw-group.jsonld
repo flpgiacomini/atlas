@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "BMW Group é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de operação por associada a BMW Group Plant Rosslyn. Também aparece na relação de participação de associada a BMW establishes full manufacturing presence at Rosslyn. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:bmw-group",
+  "legacy": {
+    "id": "01a010d9-28cb-765c-9b30-68028abae18b",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-72d9-b764-47b6f9ce201e",
+      "01a010d9-28cb-7a37-b895-5c42d5b8cefe"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "BMW Group",
+  "names": [],
+  "type": "Organization"
+}

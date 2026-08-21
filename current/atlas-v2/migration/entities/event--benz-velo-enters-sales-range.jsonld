@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074d7263b4cdaf40644e973f"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074d70feb17341f25f0ddd9a",
+      "legacyId": "01a0102f-074d-70fe-b173-41f25f0ddd9a",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1894-04"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-velo-is-world-s-first-volume-produced-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074d-71d7-a637-41e0dd99184f",
+      "subject": "atlas:event:benz-velo-enters-sales-range",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074d7e35a9de61990fd9b91b"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074d7e29873c455cbf5b95f8",
+      "legacyId": "01a0102f-074d-7e29-873c-455cbf5b95f8",
+      "object": {
+        "id": "atlas:vehicle:benz-velo",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-velo-is-world-s-first-volume-produced-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074d-7ec7-a704-4060864c4b67",
+      "subject": "atlas:event:benz-velo-enters-sales-range",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Benz Velo enters sales range é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1894-04. A documentação registra participação de Benz Velo. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:benz-velo-enters-sales-range",
+  "legacy": {
+    "id": "01a0102f-074d-7574-9e5c-ff32d4227e5c",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074d-71d7-a637-41e0dd99184f",
+      "01a0102f-074d-7ec7-a704-4060864c4b67"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "production_start",
+    "realization_status": "occurred"
+  },
+  "name": "Benz Velo enters sales range",
+  "names": [],
+  "type": "Event"
+}

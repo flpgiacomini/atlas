@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de W Motors, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "655e73e6-1677-78c6-80f0-541d8170245f",
+      "scheme": "atlas-brand-census",
+      "value": "M08:W Motors"
+    }
+  ],
+  "id": "atlas:brand:w-motors",
+  "legacy": {
+    "id": "66a07734-0f81-7f54-a34e-e68f977b78db",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "W Motors",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9711b9efbf257cc7ac4b8f848f10272a"
+      ],
+      "id": "atlas:claim:legacy-847a707e992d724594e286a9e6ef1ef7",
+      "legacyId": "847a707e-992d-7245-94e2-86a9e6ef1ef7",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1822"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "246c021e-e5fd-7780-9af3-b3b52e529d6a",
+      "subject": "atlas:person:etienne-lenoir",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9174197e67d77a52bf2a61c1932a8134"
+      ],
+      "id": "atlas:claim:legacy-c577ed2bb3e47c03ac8e820f691bc118",
+      "legacyId": "c577ed2b-b3e4-7c03-ac8e-820f691bc118",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1900"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "33983268-6185-79d6-b816-ba8c935760ee",
+      "subject": "atlas:person:etienne-lenoir",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Inventor franco-belga cujo motor comercial a gás e as experiências veiculares do início da década de 1860 ajudaram a demonstrar a combustão interna fora do laboratório. Sua contribuição precedeu os motores eficientes de quatro tempos e revelou limitações importantes.",
+  "id": "atlas:person:etienne-lenoir",
+  "legacy": {
+    "id": "a2fdc3fd-4c69-767b-a7d7-93ab18950638",
+    "slug": "etienne-lenoir",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "engineer"
+    ]
+  },
+  "name": "Étienne Lenoir",
+  "names": [],
+  "type": "Person"
+}

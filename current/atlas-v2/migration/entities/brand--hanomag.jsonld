@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hanomag, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5691d2c7-f680-7744-82c8-91d9f0e93560",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Hanomag"
+    }
+  ],
+  "id": "atlas:brand:hanomag",
+  "legacy": {
+    "id": "8fe0c70a-c286-769b-8264-b7b1174a862e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Hanomag",
+  "names": [],
+  "type": "Brand"
+}

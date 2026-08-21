@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Water-cooled flat-six engine architecture é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Porsche 911 Type 996. Também aparece na relação de introdução do recurso associada a Presentation of Porsche 911 Type 996. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:water-cooled-flat-six-engine-architecture",
+  "legacy": {
+    "id": "01a01016-ea4d-7c35-9756-76cc5f5923c6",
+    "slug": "water-cooled-flat-six",
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-71e0-b767-78cf59e57882",
+      "01a01016-ea52-7b4f-9fd5-8e86e1bf7ad9"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "engine"
+  },
+  "name": "Water-cooled flat-six engine architecture",
+  "names": [],
+  "type": "Technology"
+}

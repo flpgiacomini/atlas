@@ -1,0 +1,117 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567645b9e2acf46ee15fda"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a71adb0d3d40b50dfaaf0",
+      "legacyId": "01a01016-ea5a-71ad-b0d3-d40b50dfaaf0",
+      "object": {
+        "id": "atlas:competition:1000-km-zeltweg",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7d2a-acae-fafba22bbeb6",
+      "subject": "atlas:event:1969-1000-km-zeltweg",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567f589754744f89b0eda8"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a73ecaf9711cc901a729e",
+      "legacyId": "01a01016-ea5a-73ec-af97-11cc901a729e",
+      "object": {
+        "id": "atlas:competition:1000-km-zeltweg",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7d2a-acae-fafba22bbeb6",
+      "subject": "atlas:event:1969-1000-km-zeltweg",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567278bb2bae816c70a855"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a781e97819b5a4320a42b",
+      "legacyId": "01a01016-ea5a-781e-9781-9b5a4320a42b",
+      "object": {
+        "id": "atlas:circuit:osterreichring",
+        "type": "EntityReference"
+      },
+      "predicate": "held-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7fda-bd2e-69c34d385cec",
+      "subject": "atlas:event:1969-1000-km-zeltweg",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5675bd8853b461cf8d712f"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7a0b92b82a26e4900959",
+      "legacyId": "01a01016-ea5a-7a0b-92b8-2a26e4900959",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1969-08-10"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7977-a9bb-674416aa0bb1",
+      "subject": "atlas:event:1969-1000-km-zeltweg",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1969 1000 km Zeltweg é registrado no Atlas como evento histórico, dentro da história global do automóvel. Também aparece na relação de participação no evento associada a 1969 Zeltweg — Porsche 917 — Siffert/Ahrens. A documentação registra ocorrência em 1969-08-10. A documentação registra instância de 1000 km Zeltweg. A documentação registra realização em Österreichring. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:1969-1000-km-zeltweg",
+  "legacy": {
+    "id": "01a01016-ea4e-7aa6-862f-899f0079b924",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-76bd-b32c-35299227c675",
+      "01a01016-ea53-7977-a9bb-674416aa0bb1",
+      "01a01016-ea53-7d2a-acae-fafba22bbeb6",
+      "01a01016-ea53-7fda-bd2e-69c34d385cec"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "1969 1000 km Zeltweg",
+  "names": [],
+  "type": "Event"
+}

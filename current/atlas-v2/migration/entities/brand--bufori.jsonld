@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Bufori, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "452162d0-c813-79b1-b1fd-b1bfef9669c9",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Bufori"
+    }
+  ],
+  "id": "atlas:brand:bufori",
+  "legacy": {
+    "id": "ad344e68-b765-77d2-ba1f-db5a74874ef8",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Bufori",
+  "names": [],
+  "type": "Brand"
+}

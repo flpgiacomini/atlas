@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Laraki, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4a0f27be-4ad6-73e3-a521-08079ff83118",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Laraki"
+    }
+  ],
+  "id": "atlas:brand:laraki",
+  "legacy": {
+    "id": "0586008e-3ca6-7013-aede-44199bb93eaa",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Laraki",
+  "names": [],
+  "type": "Brand"
+}

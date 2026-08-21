@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Almac, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "674239b4-f052-73c7-8317-235ace9b2828",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Almac"
+    }
+  ],
+  "id": "atlas:brand:almac",
+  "legacy": {
+    "id": "15d6c1b3-ef3f-765b-96b9-df562f9cb580",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Almac",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567782929bee7ecb39d061"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b78f1be724efb6ddb402d",
+      "legacyId": "01a01016-ea5b-78f1-be72-4efb6ddb402d",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-779a-9a77-4b1bde062107",
+      "subject": "atlas:circuit-layout:nurburgring-nordschleife-1927-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5671048add50172e562f0d"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7c1a8cf3ff3ef586b40a",
+      "legacyId": "01a01016-ea5b-7c1a-8cf3-ff3ef586b40a",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-nordschleife"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-779a-9a77-4b1bde062107",
+      "subject": "atlas:circuit-layout:nurburgring-nordschleife-1927-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nürburgring Nordschleife (1927 configuration) é registrado no Atlas como configuração de circuito, dentro da história global do automóvel. A documentação registra configuração pertencente a Nürburgring. Também aparece na relação de sucessão de associada a Nürburgring Nordschleife (current 20.832 km configuration). O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:circuit-layout:nurburgring-nordschleife-1927-configuration",
+  "legacy": {
+    "id": "01a01016-ea4e-7868-a606-c18990d151ef",
+    "slug": null,
+    "type": "circuit_layout"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-779a-9a77-4b1bde062107",
+      "01a01016-ea54-7720-a4f2-73cea5b21341"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial",
+    "length_km": 22.81
+  },
+  "name": "Nürburgring Nordschleife (1927 configuration)",
+  "names": [],
+  "type": "CircuitLayout"
+}

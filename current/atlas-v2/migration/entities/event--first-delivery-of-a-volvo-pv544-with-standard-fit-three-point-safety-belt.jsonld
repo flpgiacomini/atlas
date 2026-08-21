@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b7a9fa283e6e80dab6872"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b702f85e5208f9771904b",
+      "legacyId": "01a010f1-7e8b-702f-85e5-208f9771904b",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1959-08-13"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8b-7a11-881d-9814c0cb3ced",
+      "subject": "atlas:event:first-delivery-of-a-volvo-pv544-with-standard-fit-three-point-safety-belt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b7e2293d55c2e2e344a5b"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b725c94df5ec58cdadb50",
+      "legacyId": "01a010f1-7e8b-725c-94df-5ec58cdadb50",
+      "object": {
+        "id": "atlas:technology:modern-three-point-safety-belt",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8b-7b5c-a4b2-bf765a4e9acb",
+      "subject": "atlas:event:first-delivery-of-a-volvo-pv544-with-standard-fit-three-point-safety-belt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b7920a6c917edd35e6253"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b78b282d5f120b69f2f73",
+      "legacyId": "01a010f1-7e8b-78b2-82d5-f120b69f2f73",
+      "object": {
+        "id": "atlas:vehicle:volvo-pv544",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "first_standard_fit_delivery"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8b-72d1-afe9-dbeb81171c21",
+      "subject": "atlas:event:first-delivery-of-a-volvo-pv544-with-standard-fit-three-point-safety-belt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "First delivery of a Volvo PV544 with standard-fit three-point safety belt é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Volvo PV544. A documentação registra ocorrência em 1959-08-13. A documentação registra introdução do recurso Modern three-point safety belt. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:first-delivery-of-a-volvo-pv544-with-standard-fit-three-point-safety-belt",
+  "legacy": {
+    "id": "01a010f1-7e89-7841-9100-3810ed2123cf",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010f1-7e8b-72d1-afe9-dbeb81171c21",
+      "01a010f1-7e8b-7a11-881d-9814c0cb3ced",
+      "01a010f1-7e8b-7b5c-a4b2-bf765a4e9acb"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "technology_introduction",
+    "realization_status": "occurred"
+  },
+  "name": "First delivery of a Volvo PV544 with standard-fit three-point safety belt",
+  "names": [],
+  "type": "Event"
+}

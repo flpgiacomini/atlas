@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Aito, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a0f6d705-6dae-754d-bca5-0e37eaba36f9",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Aito"
+    }
+  ],
+  "id": "atlas:brand:aito",
+  "legacy": {
+    "id": "b16bf2fc-cc2d-77b2-9a6a-592732b71359",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Aito",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547d46a401b09a35f759d7"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577ade97e7c992bb140d1d",
+      "legacyId": "01a01016-ea57-7ade-97e7-c992bb140d1d",
+      "object": {
+        "id": "atlas:organization:gurgel-motores-s-a",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7eba-ba8a-49dea7b58b2c",
+      "subject": "atlas:event:gurgel-operations-closure-reported-by-rio-claro",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547ba2a64ae7c81d1c1161"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577dd88c3303986939cc05",
+      "legacyId": "01a01016-ea57-7dd8-8c33-03986939cc05",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1996"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "needs_reconciliation",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7b5b-a1ef-e5c7499c04bd",
+      "subject": "atlas:event:gurgel-operations-closure-reported-by-rio-claro",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gurgel operations closure reported by Rio Claro é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1996. A documentação registra participação de Gurgel Motores S/A. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:gurgel-operations-closure-reported-by-rio-claro",
+  "legacy": {
+    "id": "01a01016-ea4c-7d91-94cb-ab7612f7e369",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7b5b-a1ef-e5c7499c04bd",
+      "01a01016-ea50-7eba-ba8a-49dea7b58b2c"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "operations_end",
+    "realization_status": "occurred"
+  },
+  "name": "Gurgel operations closure reported by Rio Claro",
+  "names": [],
+  "type": "Event"
+}

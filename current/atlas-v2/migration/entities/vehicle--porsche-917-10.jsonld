@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5671fa94f0592f04d013eb"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59700789e3184f3eaa0dfd",
+      "legacyId": "01a01016-ea59-7007-89e3-184f3eaa0dfd",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7d24-a8e6-b7939986119f",
+      "subject": "atlas:vehicle:porsche-917-10",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5676e1893a4d115b8ccfe1"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59733ea54aa64df19770f2",
+      "legacyId": "01a01016-ea59-733e-a54a-a64df19770f2",
+      "object": {
+        "id": "atlas:technology:turbocharging",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7777-87dd-f88df247d7a5",
+      "subject": "atlas:vehicle:porsche-917-10",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917/10 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Turbocharging. A documentação registra integração a Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-917-10",
+  "legacy": {
+    "id": "01a01016-ea4e-7bee-8617-228ced532a8e",
+    "slug": "porsche-917-10",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7777-87dd-f88df247d7a5",
+      "01a01016-ea52-7d24-a8e6-b7939986119f"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "variant_role": "racing",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "variant"
+  },
+  "name": "Porsche 917/10",
+  "names": [],
+  "type": "Vehicle"
+}

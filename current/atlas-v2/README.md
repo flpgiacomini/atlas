@@ -17,7 +17,23 @@ determinísticas desses documentos.
 
 ```powershell
 python scripts/validate_contracts.py
+python scripts/migrate_sqlite.py
+python scripts/validate_migration.py
 ```
+
+`migrate_sqlite.py` lê o SQLite v1 somente em modo read-only e recria
+`migration/` de forma determinística. A pasta contém 920 documentos de
+entidade, coleções de fontes, evidências e predicates, o mapa completo de
+identidades legadas, relatório de contagens e checksums SHA-256. Nenhum arquivo
+em `current/atlas-web` é modificado.
+
+`validate_migration.py` compara a projeção com as tabelas canônicas e bloqueia
+perda de entidades, nomes, identificadores externos, statements, claims,
+fontes, evidências, predicates, redirects ou identificadores legados.
+
+O resultado atual é um **candidato de migração**. A v1 continua pública e o
+SQLite só poderá ser retirado depois da revisão editorial e do gate formal de
+corte da v2.
 
 O comando valida IDs, referências, fontes, estrutura editorial, geografia e o
 round-trip JSON determinístico dos exemplos.

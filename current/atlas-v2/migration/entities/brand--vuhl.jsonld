@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de VUHL, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "780e8a68-a135-7f2f-b3b8-2495cf37a742",
+      "scheme": "atlas-brand-census",
+      "value": "M03:VUHL"
+    }
+  ],
+  "id": "atlas:brand:vuhl",
+  "legacy": {
+    "id": "bc4dda6b-a966-78cc-90a8-1ac2c7d1bfb9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "VUHL",
+  "names": [],
+  "type": "Brand"
+}

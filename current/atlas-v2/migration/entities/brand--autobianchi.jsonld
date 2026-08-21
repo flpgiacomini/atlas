@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Autobianchi, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "af827f4e-8759-78f6-abfd-21183019b9e2",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Autobianchi"
+    }
+  ],
+  "id": "atlas:brand:autobianchi",
+  "legacy": {
+    "id": "ce5cae62-0412-7b7c-98f0-431d3fe5f5ca",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Autobianchi",
+  "names": [],
+  "type": "Brand"
+}

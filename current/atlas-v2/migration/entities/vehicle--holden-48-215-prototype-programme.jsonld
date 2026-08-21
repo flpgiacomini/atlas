@@ -1,0 +1,25 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Holden 48-215 prototype programme é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de instância de associada a Holden Prototype No. 1. Também aparece na relação de derivação de associada a Holden 48-215. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:holden-48-215-prototype-programme",
+  "legacy": {
+    "id": "01a01028-5455-79eb-bb6a-6af32b686684",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5455-752f-8664-c19a532f83ad",
+      "01a01028-5455-7ec0-8d60-845f15dea308"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "prototype",
+    "vehicle_level": "standalone"
+  },
+  "name": "Holden 48-215 prototype programme",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Marcel Renault é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de fundação por associada a Renault Frères. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:marcel-renault",
+  "legacy": {
+    "id": "01a0102a-57e8-78ff-aef0-7ec2156f5eec",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e8-73ac-ac3c-396cf8052c0e"
+    ],
+    "editorial_batch": "E05",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "entrepreneur"
+    ]
+  },
+  "name": "Marcel Renault",
+  "names": [],
+  "type": "Person"
+}

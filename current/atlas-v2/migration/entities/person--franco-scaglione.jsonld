@@ -1,0 +1,22 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Designer italiano associado pela Alfa Romeo e por Bertone à criação da série Berlinetta Aerodinamica Tecnica. Seu trabalho nos BAT 5, 7 e 9 explorou superfícies de baixa resistência, aletas e volumes integrados como instrumentos simultaneamente técnicos e expressivos.",
+  "id": "atlas:person:franco-scaglione",
+  "legacy": {
+    "id": "58159c22-107d-7055-b72c-7f46fc443a2b",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "V04",
+    "editorial_level": "editorial",
+    "roles": [
+      "automotive designer"
+    ]
+  },
+  "name": "Franco Scaglione",
+  "names": [],
+  "type": "Person"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55765a8d0284b644184341"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587601b9d3e1f0f18f91eb",
+      "legacyId": "01a01016-ea58-7601-b9d3-e1f0f18f91eb",
+      "object": {
+        "id": "atlas:facility:ford-highland-park-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-70b2-b964-f1db1179e364",
+      "subject": "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5470c8a55f2f256d82aa6e"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587cbd836b4b25b3fab9ec",
+      "legacyId": "01a01016-ea58-7cbd-836b-4b25b3fab9ec",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1913-10"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7f94-bfb9-2ae48130fd7a",
+      "subject": "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Moving assembly line first operated for automobiles at Highland Park é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Ford Highland Park Plant. A documentação registra ocorrência em 1913-10. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park",
+  "legacy": {
+    "id": "01a01016-ea4d-7ad4-b291-20a795711b61",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-70b2-b964-f1db1179e364",
+      "01a01016-ea50-7f94-bfb9-2ae48130fd7a"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "technology_introduction",
+    "realization_status": "occurred"
+  },
+  "name": "Moving assembly line first operated for automobiles at Highland Park",
+  "names": [],
+  "type": "Event"
+}

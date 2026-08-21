@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544c7dfb81bc64d01f788e66"
+      ],
+      "id": "atlas:claim:legacy-01a01028544c7324947dc95b864c4539",
+      "legacyId": "01a01028-544c-7324-947d-c95b864c4539",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "2010"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-tata-motors-celebrates-1-millionth-car-roll-out-from-its-sanand-facility"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544c-79ad-91ad-6647db55c15a",
+      "subject": "atlas:event:tata-motors-sanand-plant-established",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544c759fb3ecc990809d0485"
+      ],
+      "id": "atlas:claim:legacy-01a01028544c7c72b608fb12618e95d6",
+      "legacyId": "01a01028-544c-7c72-b608-fb12618e95d6",
+      "object": {
+        "id": "atlas:facility:tata-motors-sanand-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-tata-motors-celebrates-1-millionth-car-roll-out-from-its-sanand-facility"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544c-7172-b317-3b57030ace06",
+      "subject": "atlas:event:tata-motors-sanand-plant-established",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Tata Motors Sanand plant established é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Tata Motors Sanand Plant. A documentação registra ocorrência em 2010. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:tata-motors-sanand-plant-established",
+  "legacy": {
+    "id": "01a01028-5449-7d1a-a2aa-69ac92faa9da",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544c-7172-b317-3b57030ace06",
+      "01a01028-544c-79ad-91ad-6647db55c15a"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "facility_opening",
+    "realization_status": "occurred"
+  },
+  "name": "Tata Motors Sanand plant established",
+  "names": [],
+  "type": "Event"
+}

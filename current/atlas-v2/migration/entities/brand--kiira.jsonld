@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Kiira, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b8a1ee74-9d0d-716d-b402-9524d2d5bbfb",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Kiira"
+    }
+  ],
+  "id": "atlas:brand:kiira",
+  "legacy": {
+    "id": "1c9bc5fd-1a73-7e43-bb5c-3125708a848a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Kiira",
+  "names": [],
+  "type": "Brand"
+}

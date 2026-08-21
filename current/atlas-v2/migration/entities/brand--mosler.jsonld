@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mosler, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e30991aa-0b1b-7814-83b7-a524f6c39425",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Mosler"
+    }
+  ],
+  "id": "atlas:brand:mosler",
+  "legacy": {
+    "id": "9a97bc18-0270-7994-b671-3eeb918a80eb",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Mosler",
+  "names": [],
+  "type": "Brand"
+}

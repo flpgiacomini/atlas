@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5779ae97fba5f6855bdf14"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b744c99fe46cebc6f2ad7",
+      "legacyId": "01a01016-ea5b-744c-99fe-46cebc6f2ad7",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1981-11-30"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-787e-8125-9748502aed78",
+      "subject": "atlas:event:nurburgring-grand-prix-circuit-reconstruction-begins",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5770a7a871af762e34978b"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7c95a2f79198ad993930",
+      "legacyId": "01a01016-ea5b-7c95-a2f7-9198ad993930",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-70b6-9715-caca57da7187",
+      "subject": "atlas:event:nurburgring-grand-prix-circuit-reconstruction-begins",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nürburgring Grand Prix circuit reconstruction begins é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Nürburgring. A documentação registra ocorrência em 1981-11-30. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:nurburgring-grand-prix-circuit-reconstruction-begins",
+  "legacy": {
+    "id": "01a01016-ea4e-7caf-a1df-90d26f93db28",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea54-70b6-9715-caca57da7187",
+      "01a01016-ea54-787e-8125-9748502aed78"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "circuit_reconstruction",
+    "realization_status": "occurred"
+  },
+  "name": "Nürburgring Grand Prix circuit reconstruction begins",
+  "names": [],
+  "type": "Event"
+}

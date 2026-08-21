@@ -1,0 +1,151 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567f4780de1ebb19374e63"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5972689654221384c9cfec",
+      "legacyId": "01a01016-ea59-7268-9654-221384c9cfec",
+      "object": {
+        "id": "atlas:vehicle:porsche-917-k",
+        "type": "EntityReference"
+      },
+      "predicate": "configured-as",
+      "qualifiers": {
+        "context_event": "p917:evt_000005"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7204-aa3d-6b4fea18cb33",
+      "subject": "atlas:vehicle-instance:porsche-917-023",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567613a950cf579b8f76fe"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597b18a62c809852a4e728",
+      "legacyId": "01a01016-ea59-7b18-a62c-809852a4e728",
+      "object": {
+        "id": "atlas:vehicle:porsche-917-k",
+        "type": "EntityReference"
+      },
+      "predicate": "configured-as",
+      "qualifiers": {
+        "context_event": "p917:evt_000005"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7204-aa3d-6b4fea18cb33",
+      "subject": "atlas:vehicle-instance:porsche-917-023",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567bcab1b0167a6b5ed444"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597c94b689d1146d1e9117",
+      "legacyId": "01a01016-ea59-7c94-b689-d1146d1e9117",
+      "object": {
+        "id": "atlas:vehicle:porsche-917-k",
+        "type": "EntityReference"
+      },
+      "predicate": "configured-as",
+      "qualifiers": {
+        "context_event": "p917:evt_000005"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7204-aa3d-6b4fea18cb33",
+      "subject": "atlas:vehicle-instance:porsche-917-023",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567bc9a91a7a83bfea2386"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597eeebfff72e377d45c87",
+      "legacyId": "01a01016-ea59-7eee-bfff-72e377d45c87",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-73b0-828f-4e8f72075b32",
+      "subject": "atlas:vehicle-instance:porsche-917-023",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567b45856c1cebb901869f"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597f14a00286d73e7e9a7d",
+      "legacyId": "01a01016-ea59-7f14-a002-86d73e7e9a7d",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-73b0-828f-4e8f72075b32",
+      "subject": "atlas:vehicle-instance:porsche-917-023",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917-023 é registrado no Atlas como exemplar físico de veículo, dentro da história global do automóvel. A documentação registra configuração como Porsche 917 K. A documentação registra instância de Porsche 917. Também aparece na relação de uso do exemplar associada a 1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle-instance:porsche-917-023",
+  "legacy": {
+    "id": "01a01016-ea4e-76dd-8b7e-a38a7a9a1e7e",
+    "slug": "porsche-917-023",
+    "type": "vehicle_instance"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7204-aa3d-6b4fea18cb33",
+      "01a01016-ea52-73b0-828f-4e8f72075b32",
+      "01a01016-ea53-7bac-b4b7-ee6aa00ad50e"
+    ],
+    "editorial_batch": "E21",
+    "editorial_level": "editorial",
+    "instance_status": "existing",
+    "serial_identifiers": [
+      {
+        "type": "chassis",
+        "value": "917-023"
+      }
+    ]
+  },
+  "name": "Porsche 917-023",
+  "names": [],
+  "type": "VehicleInstance"
+}

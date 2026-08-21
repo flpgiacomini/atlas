@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Standard India, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "88600628-b198-7b13-93f4-f8d5dc5e6945",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Standard India"
+    }
+  ],
+  "id": "atlas:brand:standard-india",
+  "legacy": {
+    "id": "a94e37b8-7689-78e9-adc8-f48e124f7411",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Standard India",
+  "names": [],
+  "type": "Brand"
+}

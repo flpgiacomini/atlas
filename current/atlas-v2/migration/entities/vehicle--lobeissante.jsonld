@@ -1,0 +1,101 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-fff289474c4a756c81da4045be83350a"
+      ],
+      "id": "atlas:claim:legacy-6dc6c632a0a27660a44f7889c6710689",
+      "legacyId": "6dc6c632-a0a2-7660-a44f-7889c6710689",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1873"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "940bb25b-c62d-73c3-a9ae-ed111783ff89",
+      "subject": "atlas:vehicle:lobeissante",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6e17cf24532f720293d91b6e31af3fbb"
+      ],
+      "id": "atlas:claim:legacy-d5a8605258587daa9073fae2ee571da2",
+      "legacyId": "d5a86052-5858-7daa-9073-fae2ee571da2",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:propulsao-rodoviaria-a-vapor",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "50700738-7c56-726a-9fcc-f10da6c498c0",
+      "subject": "atlas:vehicle:lobeissante",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-814f3ec57a3978018f3dd5a27d745c2b"
+      ],
+      "id": "atlas:claim:legacy-f7198dbac113765bb73feb21cce78c92",
+      "legacyId": "f7198dba-c113-765b-b73f-eb21cce78c92",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:amedee-bollee",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "4be9fd79-b1b5-7537-b7b5-037177d5fe89",
+      "subject": "atlas:vehicle:lobeissante",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo rodoviário a vapor construído por Amédée Bollée em 1873 e conduzido de Le Mans a Paris em 1875. Sua escala e capacidade de passageiros oferecem um contraponto à narrativa centrada exclusivamente nos pequenos veículos a gasolina.",
+  "id": "atlas:vehicle:lobeissante",
+  "legacy": {
+    "id": "dc714de0-9370-77b6-b99a-c30dac584f9d",
+    "slug": "lobeissante",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "L’Obéissante",
+  "names": [],
+  "type": "Vehicle"
+}

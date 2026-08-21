@@ -1,0 +1,55 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-bd6dd1a9ea737b2e858410d1ae9689bf"
+      ],
+      "id": "atlas:claim:legacy-95e4c08080617485b869533c697d00bf",
+      "legacyId": "95e4c080-8061-7485-b869-533c697d00bf",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:wilhelm-maybach",
+        "type": "EntityReference"
+      },
+      "predicate": "collaborated-with",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "31945967-7d52-7a95-bf95-9c1a88179014",
+      "subject": "atlas:person:gottlieb-daimler",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gottlieb Daimler é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de responsabilidade de projeto de associada a Daimler Motorized Carriage (1886). Também aparece na relação de participação de associada a Daimler grants French engine manufacturing rights to Panhard & Levassor. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:gottlieb-daimler",
+  "legacy": {
+    "id": "01a0102a-57e5-7955-a9a2-653c1376cea8",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e6-76c3-b700-053a56dc87a8",
+      "01a0102f-074b-73a1-bdfc-374421b1a314"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "engineer",
+      "entrepreneur"
+    ]
+  },
+  "name": "Gottlieb Daimler",
+  "names": [],
+  "type": "Person"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de BYD, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8e25328f-295c-7667-9408-fb5b69dbe923",
+      "scheme": "atlas-brand-census",
+      "value": "M07:BYD"
+    }
+  ],
+  "id": "atlas:brand:byd",
+  "legacy": {
+    "id": "4c00601f-1cf8-7187-99b3-5a0cc366e70e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "BYD",
+  "names": [],
+  "type": "Brand"
+}

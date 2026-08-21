@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c37166a7f0ac328a7890c1"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c3777599dc19a03b95da3e",
+      "legacyId": "01a010d9-28c3-7775-99dc-19a03b95da3e",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1934-04-18"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:citroen-stellantis-citroen-celebrates-90-years-of-the-traction-avant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c3-7879-99d9-6d04424f927e",
+      "subject": "atlas:event:citroen-traction-avant-presentation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c375e8b6c714f8d26112da"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c37ffeb32f8d407d73730c",
+      "legacyId": "01a010d9-28c3-7ffe-b32f-8d407d73730c",
+      "object": {
+        "id": "atlas:vehicle:citroen-traction-avant",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:citroen-stellantis-citroen-celebrates-90-years-of-the-traction-avant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c3-7f16-93d5-522ae4850d99",
+      "subject": "atlas:event:citroen-traction-avant-presentation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Citroën Traction Avant presentation é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1934-04-18. A documentação registra participação de Citroën Traction Avant. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:citroen-traction-avant-presentation",
+  "legacy": {
+    "id": "01a010d9-28c2-7260-aa5e-65428e9cc6f8",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c3-7879-99d9-6d04424f927e",
+      "01a010d9-28c3-7f16-93d5-522ae4850d99"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Citroën Traction Avant presentation",
+  "names": [],
+  "type": "Event"
+}

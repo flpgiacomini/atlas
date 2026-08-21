@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Phantom Corsair (1938), selecionado pelo Atlas por sua possível contribuição histórica em DES, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "fa1eac4a-7f90-7360-997a-170ea8abe80e",
+      "scheme": "atlas-significance-candidate",
+      "value": "one_off:1938:Phantom Corsair"
+    }
+  ],
+  "id": "atlas:vehicle:phantom-corsair",
+  "legacy": {
+    "id": "605dad95-756c-7a8a-ab23-6dca93e9fc1d",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Heinz and Maurice Schwartz",
+    "candidate_kind": "one_off",
+    "candidate_year": 1938,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "SOC"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 65
+  },
+  "name": "Phantom Corsair",
+  "names": [],
+  "type": "Vehicle"
+}

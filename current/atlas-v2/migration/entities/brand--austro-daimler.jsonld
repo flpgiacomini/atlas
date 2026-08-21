@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Austro-Daimler, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f6a1cd20-f289-7d34-91f5-23365e0e12a6",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Austro-Daimler"
+    }
+  ],
+  "id": "atlas:brand:austro-daimler",
+  "legacy": {
+    "id": "62611458-1c6c-7e2b-875e-8a5ec0c0b775",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Austro-Daimler",
+  "names": [],
+  "type": "Brand"
+}

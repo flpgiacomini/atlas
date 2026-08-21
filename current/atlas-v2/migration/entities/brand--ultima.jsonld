@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ultima, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "140b544e-09a7-73f4-beea-9e8493a8508f",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Ultima"
+    }
+  ],
+  "id": "atlas:brand:ultima",
+  "legacy": {
+    "id": "fe60c35b-b12a-7e78-b6c9-287809edb2c9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Ultima",
+  "names": [],
+  "type": "Brand"
+}

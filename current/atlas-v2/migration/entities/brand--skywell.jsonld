@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Skywell, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2ada6280-d067-7332-8a97-d4befb9eb90c",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Skywell"
+    }
+  ],
+  "id": "atlas:brand:skywell",
+  "legacy": {
+    "id": "cea484f3-d2c3-78ec-8146-0d9aa58b246e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Skywell",
+  "names": [],
+  "type": "Brand"
+}

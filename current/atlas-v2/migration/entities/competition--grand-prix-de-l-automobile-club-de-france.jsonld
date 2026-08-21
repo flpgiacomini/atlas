@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Grand Prix de l'Automobile Club de France é registrado no Atlas como competição automobilística, dentro da história global do automóvel. Também aparece na relação de instância de associada a 1906 Grand Prix de l'A.C.F.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:competition:grand-prix-de-l-automobile-club-de-france",
+  "legacy": {
+    "id": "01a01031-ec56-7c19-9de6-f43ac5fe3a8d",
+    "slug": null,
+    "type": "competition"
+  },
+  "metadata": {
+    "competition_type": "grand_prix",
+    "description_basis_statement_ids": [
+      "01a01031-ec56-7fd1-8dca-65ba2192a111"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial"
+  },
+  "name": "Grand Prix de l'Automobile Club de France",
+  "names": [],
+  "type": "Series"
+}

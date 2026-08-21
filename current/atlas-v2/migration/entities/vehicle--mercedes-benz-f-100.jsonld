@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mercedes-Benz F 100 (1991), selecionado pelo Atlas por sua possível contribuição histórica em SEG, TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "995a33a6-40e3-7e15-911d-7067f24910a7",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1991:Mercedes-Benz F 100"
+    }
+  ],
+  "id": "atlas:vehicle:mercedes-benz-f-100",
+  "legacy": {
+    "id": "d03fd2c7-45fc-7319-bb11-7d70baa55cae",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Mercedes-Benz",
+    "candidate_kind": "concept",
+    "candidate_year": 1991,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "SEG",
+      "TEC",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Mercedes-Benz F 100",
+  "names": [],
+  "type": "Vehicle"
+}

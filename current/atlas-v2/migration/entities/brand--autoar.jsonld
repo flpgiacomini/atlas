@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Autoar, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b7ecd21c-56b6-745a-bc50-09057d879251",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Autoar"
+    }
+  ],
+  "id": "atlas:brand:autoar",
+  "legacy": {
+    "id": "30a402f0-027f-7110-b7b4-c3a95b9dfbd3",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Autoar",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Li Auto, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "bb9a0cc4-e6f9-7c38-a745-a5b241d7b668",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Li Auto"
+    }
+  ],
+  "id": "atlas:brand:li-auto",
+  "legacy": {
+    "id": "f5a2ac23-168d-7aae-bd68-6392d0d4a92a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Li Auto",
+  "names": [],
+  "type": "Brand"
+}

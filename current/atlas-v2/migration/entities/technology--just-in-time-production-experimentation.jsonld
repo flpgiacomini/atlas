@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Just-in-time production experimentation é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Toyoda Model AA. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:just-in-time-production-experimentation",
+  "legacy": {
+    "id": "01a01028-5444-7ade-bc01-ef027c0d3f2c",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5445-70d8-801a-d413e0e21872"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "manufacturing"
+  },
+  "name": "Just-in-time production experimentation",
+  "names": [],
+  "type": "Technology"
+}

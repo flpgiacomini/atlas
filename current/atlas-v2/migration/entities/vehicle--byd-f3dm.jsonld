@@ -1,0 +1,115 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca7b78abb4b32a2e967587"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca7088880cfbde78da13bc",
+      "legacyId": "01a010d9-28ca-7088-880c-fbde78da13bc",
+      "object": {
+        "id": "atlas:technology:plug-in-hybrid-electric-propulsion",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:byd-innovation-at-byd"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-749e-8c6d-4db47f2b7bf3",
+      "subject": "atlas:vehicle:byd-f3dm",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca7b3981f14af935aae2b5"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca770da863ac92948caae4",
+      "legacyId": "01a010d9-28ca-770d-a863-ac92948caae4",
+      "object": {
+        "id": "atlas:organization:byd",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:byd-innovation-at-byd"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-75a8-bb24-83e6af4bcfbb",
+      "subject": "atlas:vehicle:byd-f3dm",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca7bdab1a532201c52cc80"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca7822b884e36dc4b72cc9",
+      "legacyId": "01a010d9-28ca-7822-b884-e36dc4b72cc9",
+      "object": {
+        "id": "atlas:technology:plug-in-hybrid-electric-propulsion",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:byd-about-byd"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-749e-8c6d-4db47f2b7bf3",
+      "subject": "atlas:vehicle:byd-f3dm",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca71e68a612c5003357aa0"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca7b888bc824b539345c9d",
+      "legacyId": "01a010d9-28ca-7b88-8bc8-24b539345c9d",
+      "object": {
+        "id": "atlas:organization:byd",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:byd-about-byd"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-75a8-bb24-83e6af4bcfbb",
+      "subject": "atlas:vehicle:byd-f3dm",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "BYD F3DM é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a BYD F3DM market launch in Shenzhen. A documentação registra uso da tecnologia Plug-in hybrid electric propulsion. A documentação registra fabricação por BYD. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:byd-f3dm",
+  "legacy": {
+    "id": "01a010d9-28ca-7fef-a797-10374d330ad8",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28ca-7041-8517-b5d36d1565bf",
+      "01a010d9-28ca-749e-8c6d-4db47f2b7bf3",
+      "01a010d9-28ca-75a8-bb24-83e6af4bcfbb"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "BYD F3DM",
+  "names": [],
+  "type": "Vehicle"
+}

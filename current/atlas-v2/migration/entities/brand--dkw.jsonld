@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de DKW, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "3883970f-b10f-787c-a0c1-23844084034b",
+      "scheme": "atlas-brand-census",
+      "value": "M02:DKW"
+    }
+  ],
+  "id": "atlas:brand:dkw",
+  "legacy": {
+    "id": "a43a244f-7176-7535-9a2c-06025e0daa81",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "DKW",
+  "names": [],
+  "type": "Brand"
+}

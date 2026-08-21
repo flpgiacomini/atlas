@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-b26567d2c51275dbb57acfd284879e49"
+      ],
+      "id": "atlas:claim:legacy-18174c01530477b9a1a85f5e5c5daab5",
+      "legacyId": "18174c01-5304-77b9-a1a8-5f5e5c5daab5",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:alphonse-beau-de-rochas",
+        "type": "EntityReference"
+      },
+      "predicate": "invented-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "035fc4f8-6bc3-77aa-9abd-a40fc4ab40af",
+      "subject": "atlas:technology:ciclo-de-quatro-tempos",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-c4dd0b48e1c777eeaa3eb2114e6319dd"
+      ],
+      "id": "atlas:claim:legacy-1baefee54b287882bd4b5d8ff816a52f",
+      "legacyId": "1baefee5-4b28-7882-bd4b-5d8ff816a52f",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1862"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d0267547-b076-7a20-a3b4-37875326a36e",
+      "subject": "atlas:technology:ciclo-de-quatro-tempos",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-c9a25ce768aa79e098d7752eef09495b"
+      ],
+      "id": "atlas:claim:legacy-fc03afbf056f7f05a7a087a7d150dd19",
+      "legacyId": "fc03afbf-056f-7f05-a7a0-87a7d150dd19",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:nikolaus-august-otto",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "68b9a897-60f0-7a36-bc1f-443fd195edd1",
+      "subject": "atlas:technology:ciclo-de-quatro-tempos",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ciclo termodinâmico de admissão, compressão, combustão e escape que se tornou central para o motor automotivo. Sua história reúne formulação, patente, construção e comercialização por agentes distintos, exigindo atribuições específicas para cada etapa.",
+  "id": "atlas:technology:ciclo-de-quatro-tempos",
+  "legacy": {
+    "id": "392b5d07-805f-7c24-b63a-73d1039a6c6f",
+    "slug": "ciclo-de-quatro-tempos",
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Ciclo de quatro tempos",
+  "names": [],
+  "type": "Technology"
+}

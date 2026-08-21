@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Radical, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8266490d-d7f6-7cf3-9a6f-23993c81a273",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Radical"
+    }
+  ],
+  "id": "atlas:brand:radical",
+  "legacy": {
+    "id": "9218f294-f21f-760d-9383-1fee95930abe",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Radical",
+  "names": [],
+  "type": "Brand"
+}

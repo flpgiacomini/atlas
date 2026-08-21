@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Bristol, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4d60eeaf-a707-7d48-ae27-1145a040527c",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Bristol"
+    }
+  ],
+  "id": "atlas:brand:bristol",
+  "legacy": {
+    "id": "95414431-a227-7c9f-b45b-3d64f8e5dbd9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Bristol",
+  "names": [],
+  "type": "Brand"
+}

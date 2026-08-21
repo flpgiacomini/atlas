@@ -1,0 +1,101 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-4a97eb657b067d589cfb64d296aa26e0"
+      ],
+      "id": "atlas:claim:legacy-0377ac8b414b722bbb98a74f45c978eb",
+      "legacyId": "0377ac8b-414b-722b-bb98-a74f45c978eb",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:carl-benz",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "4a5c77c9-a532-75ec-a530-acf0777f368b",
+      "subject": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-74d5cb7969337ce2a524e756cc7dcf5c"
+      ],
+      "id": "atlas:claim:legacy-19767618d40379bb8ae5bfd673b58aa7",
+      "legacyId": "19767618-d403-79bb-8ae5-bfd673b58aa7",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1885"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b8cf96a4-7d43-7d6c-8353-812069feda7b",
+      "subject": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-a7b71212504177568ebad886cc58a600"
+      ],
+      "id": "atlas:claim:legacy-88f4880f8ae07df9ba0b7a0547d60253",
+      "legacyId": "88f4880f-8ae0-7df9-ba0b-7a0547d60253",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:vehicle:benz-patent-motor-car",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "00646ca8-bf91-7250-922a-860487323f1f",
+      "subject": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Fase de construção e ensaios do Benz Patent-Motorwagen durante 1885, anterior ao depósito de patente de janeiro de 1886. O evento cria a ponte cronológica entre a experimentação pré-1886 e a série anual principal do Atlas.",
+  "id": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+  "legacy": {
+    "id": "c1180188-074d-7d80-826b-193a1bd7af9f",
+    "slug": "ensaios-do-benz-patent-motorwagen-em-1885",
+    "type": "event"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_test",
+    "realization_status": "occurred"
+  },
+  "name": "Ensaios do Benz Patent-Motorwagen em 1885",
+  "names": [],
+  "type": "Event"
+}

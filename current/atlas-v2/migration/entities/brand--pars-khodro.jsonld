@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Pars Khodro, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "74f68673-9009-76a6-a969-4b29303c1452",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Pars Khodro"
+    }
+  ],
+  "id": "atlas:brand:pars-khodro",
+  "legacy": {
+    "id": "d7019bf8-4782-7431-9d3c-6a915d69bdac",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Pars Khodro",
+  "names": [],
+  "type": "Brand"
+}

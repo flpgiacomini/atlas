@@ -1,0 +1,27 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Kiichiro Toyoda é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de desenvolvimento por associada a Toyoda Model AA. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:kiichiro-toyoda",
+  "legacy": {
+    "id": "01a01028-5444-7f62-bbcf-a10791b92238",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5445-7bf9-b941-3321cf4399ce"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "engineer",
+      "entrepreneur"
+    ]
+  },
+  "name": "Kiichiro Toyoda",
+  "names": [],
+  "type": "Person"
+}

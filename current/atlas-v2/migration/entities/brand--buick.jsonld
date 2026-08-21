@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Marca automotiva norte-americana sob a qual o Y-Job de 1938 foi apresentado. No Atlas, sua história será conectada à estrutura industrial da General Motors, aos automóveis de passageiros e ao papel pioneiro do Y-Job na institucionalização do concept car.",
+  "id": "atlas:brand:buick",
+  "legacy": {
+    "id": "ab6e603d-e65c-7ce3-8501-2be111f36e20",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "editorial_batch": "V02",
+    "editorial_level": "editorial"
+  },
+  "name": "Buick",
+  "names": [],
+  "type": "Brand"
+}

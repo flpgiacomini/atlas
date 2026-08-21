@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de LEVC, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8ec057dd-5bcb-7121-9078-2b21c2334db1",
+      "scheme": "atlas-brand-census",
+      "value": "M05:LEVC"
+    }
+  ],
+  "id": "atlas:brand:levc",
+  "legacy": {
+    "id": "fff92131-5928-7cf6-9090-c8dfb1b35b2d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "LEVC",
+  "names": [],
+  "type": "Brand"
+}

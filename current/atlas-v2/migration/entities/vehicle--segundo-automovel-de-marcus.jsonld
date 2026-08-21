@@ -1,0 +1,102 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-706d6c426fe372d5be07c8dc285972a0"
+      ],
+      "id": "atlas:claim:legacy-1bcda84a1f3e7aea8a6dd48a6ef189c8",
+      "legacyId": "1bcda84a-1f3e-7aea-8a6d-d48a6ef189c8",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:technisches-museum-wien-the-second-marcus-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "40f1481b-2d95-7dfb-8db5-63cabfe9979c",
+      "subject": "atlas:vehicle:segundo-automovel-de-marcus",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "disputed",
+      "evidence": [
+        "atlas:evidence:legacy-52ebcd80eb8876d98b4b35bb5a059ddd"
+      ],
+      "id": "atlas:claim:legacy-6833d4602a1a7eceb19e0ad586501975",
+      "legacyId": "6833d460-2a1a-7ece-b19e-0ad586501975",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1888"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03",
+        "priority_claim_policy": "Não interpretar como prioridade absoluta; preservar divergência historiográfica."
+      },
+      "resolutionStatus": "needs_reconciliation",
+      "sources": [
+        "atlas:source:technisches-museum-wien-the-second-marcus-car"
+      ],
+      "stance": "qualifies",
+      "statementLegacyId": "3f38bafc-89d1-7cde-90bc-0718b5d3c134",
+      "subject": "atlas:vehicle:segundo-automovel-de-marcus",
+      "supportStrength": "weak",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-572f1dbff88073668b034c8eddb6be66"
+      ],
+      "id": "atlas:claim:legacy-8a3a0e3f2e757ffcb50ec79392950c87",
+      "legacyId": "8a3a0e3f-2e75-7ffc-b50e-c79392950c87",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:siegfried-marcus",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:technisches-museum-wien-the-second-marcus-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "21b8d990-0c2e-7e77-adbd-baa0a8c06349",
+      "subject": "atlas:vehicle:segundo-automovel-de-marcus",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo preservado atribuído a Siegfried Marcus e frequentemente inserido nas disputas sobre os primeiros automóveis a gasolina. Sua datação histórica permanece controversa, exigindo qualificadores e fontes independentes antes de qualquer afirmação de prioridade.",
+  "id": "atlas:vehicle:segundo-automovel-de-marcus",
+  "legacy": {
+    "id": "573faa70-3562-7632-b052-8b85bd262412",
+    "slug": "segundo-automovel-de-marcus",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "Segundo automóvel de Marcus",
+  "names": [],
+  "type": "Vehicle"
+}

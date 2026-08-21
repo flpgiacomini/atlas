@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de VinFast, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d7b57161-db70-71cb-bcda-303ba6d1ac93",
+      "scheme": "atlas-brand-census",
+      "value": "M08:VinFast"
+    }
+  ],
+  "id": "atlas:brand:vinfast",
+  "legacy": {
+    "id": "e9192936-23a3-7070-8575-6b8ca0b28fde",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "VinFast",
+  "names": [],
+  "type": "Brand"
+}

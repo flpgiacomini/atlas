@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Innocenti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "65463c6d-1bf0-7c06-a63f-aa4db7055ffd",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Innocenti"
+    }
+  ],
+  "id": "atlas:brand:innocenti",
+  "legacy": {
+    "id": "423d0a7d-53dc-756a-a4a4-8e02dacd157d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Innocenti",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "1000 km Zeltweg é registrado no Atlas como competição automobilística, dentro da história global do automóvel. Também aparece na relação de instância de associada a 1969 1000 km Zeltweg. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:competition:1000-km-zeltweg",
+  "legacy": {
+    "id": "01a01016-ea4d-70ad-9d98-ec4638835a98",
+    "slug": "1000-km-zeltweg",
+    "type": "competition"
+  },
+  "metadata": {
+    "competition_type": "endurance_race",
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7d2a-acae-fafba22bbeb6"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial"
+  },
+  "name": "1000 km Zeltweg",
+  "names": [],
+  "type": "Series"
+}

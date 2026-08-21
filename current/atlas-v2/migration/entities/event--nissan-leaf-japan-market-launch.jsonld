@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854517affabab473e74861514"
+      ],
+      "id": "atlas:claim:legacy-01a0102854517c98b51686726b1a5b3f",
+      "legacyId": "01a01028-5451-7c98-b516-86726b1a5b3f",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2010-12-20"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nissan-motor-co-100-electric-zero-emission-nissan-leaf-debuts-in-japan"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5451-797b-a4a4-57cfeb9810f9",
+      "subject": "atlas:event:nissan-leaf-japan-market-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285451738cbee3bc6f6e500910"
+      ],
+      "id": "atlas:claim:legacy-01a0102854517ceeaa1f97cddc2aebbe",
+      "legacyId": "01a01028-5451-7cee-aa1f-97cddc2aebbe",
+      "object": {
+        "id": "atlas:vehicle:nissan-leaf-first-generation",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nissan-motor-co-100-electric-zero-emission-nissan-leaf-debuts-in-japan"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5451-741d-b17b-b7ad3c79b94d",
+      "subject": "atlas:event:nissan-leaf-japan-market-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nissan LEAF Japan market launch é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Nissan LEAF — First Generation. A documentação registra ocorrência em 2010-12-20. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:nissan-leaf-japan-market-launch",
+  "legacy": {
+    "id": "01a01028-5450-79e3-82d0-aba64a7021ec",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5451-741d-b17b-b7ad3c79b94d",
+      "01a01028-5451-797b-a4a4-57cfeb9810f9"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Nissan LEAF Japan market launch",
+  "names": [],
+  "type": "Event"
+}

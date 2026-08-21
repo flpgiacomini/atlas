@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de LuAZ, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "44744879-de1f-728f-9610-74719c5004bd",
+      "scheme": "atlas-brand-census",
+      "value": "M09:LuAZ"
+    }
+  ],
+  "id": "atlas:brand:luaz",
+  "legacy": {
+    "id": "3a138495-ca2e-7e05-89c3-d0bd1e06d8f5",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "LuAZ",
+  "names": [],
+  "type": "Brand"
+}

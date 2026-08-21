@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Carrozzeria e casa de design de Turim responsável por produzir artesanalmente a carroceria do Lincoln Futura. A colaboração exemplifica a circulação transatlântica de conhecimento entre estúdios de fabricantes norte-americanos e oficinas italianas de protótipos.",
+  "id": "atlas:organization:ghia",
+  "legacy": {
+    "id": "5d289a39-06be-7d52-8e5b-c5cac2bf71cf",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "organization_type": "coachbuilder and design house"
+  },
+  "name": "Ghia",
+  "names": [],
+  "type": "Organization"
+}

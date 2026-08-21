@@ -1,0 +1,29 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Henry Royce é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de responsabilidade de projeto de associada a Royce 10 H.P.. Também aparece na relação de participação de associada a Charles Rolls and Henry Royce first meeting. Também aparece na relação de responsabilidade de projeto de associada a Rolls-Royce 40/50 H.P.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:henry-royce",
+  "legacy": {
+    "id": "01a0102a-57e9-738a-9585-6df3a0b26b99",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ea-7132-986a-3486b10a08fc",
+      "01a0102a-57ea-73e1-82cf-defcae1563fb",
+      "01a01030-3317-75b3-a3a8-5087677ad489"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Henry Royce",
+  "names": [],
+  "type": "Person"
+}

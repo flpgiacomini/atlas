@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de KGM, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "aab93586-eaa9-7d54-9c56-1b9d52402c78",
+      "scheme": "atlas-brand-census",
+      "value": "M07:KGM"
+    }
+  ],
+  "id": "atlas:brand:kgm",
+  "legacy": {
+    "id": "0e77605e-8176-7960-abc5-ae1cc7a57413",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "KGM",
+  "names": [],
+  "type": "Brand"
+}

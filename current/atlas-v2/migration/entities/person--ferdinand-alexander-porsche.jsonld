@@ -1,0 +1,103 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-f394d2b15a6674b8a1637a3e756483bf"
+      ],
+      "id": "atlas:claim:legacy-2927fcf938b971dbae48dab632091903",
+      "legacyId": "2927fcf9-38b9-71db-ae48-dab632091903",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1935-12-11"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-90-years-of-ferdinand-alexander-porsche"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "a301c0f6-ec38-7642-a2af-f5fa74cce233",
+      "subject": "atlas:person:ferdinand-alexander-porsche",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-38f92393f59377e9aa958164a2617462"
+      ],
+      "id": "atlas:claim:legacy-b5e57cb07f56786d8230acff3e7bc111",
+      "legacyId": "b5e57cb0-7f56-786d-8230-acff3e7bc111",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "worked-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-90-years-of-ferdinand-alexander-porsche"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "6e5f3ce5-1bc4-7d41-91c5-8cf9ed8e6ca2",
+      "subject": "atlas:person:ferdinand-alexander-porsche",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1957",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6c01db0e8d3475efa417e95f914f692e"
+      ],
+      "id": "atlas:claim:legacy-b7c8205b0b4476f3aac5483ea72c4a8d",
+      "legacyId": "b7c8205b-0b44-76f3-aac5-483ea72c4a8d",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "led",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-90-years-of-ferdinand-alexander-porsche"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "fde1f0d3-8cf8-743f-a7aa-6efc7068cb4b",
+      "subject": "atlas:person:ferdinand-alexander-porsche",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1961",
+        "precision": "year",
+        "until": null
+      }
+    }
+  ],
+  "description": "Designer alemão responsável pela forma original do Porsche 911 e por projetos como o 904 Carrera GTS. Ingressou na empresa familiar em 1957, assumiu a direção de design em 1961 e depois fundou o Porsche Design Studio.",
+  "id": "atlas:person:ferdinand-alexander-porsche",
+  "legacy": {
+    "id": "01a01016-ea4d-7d5e-bd1b-907f0ec733c1",
+    "slug": "ferdinand-alexander-porsche",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E01",
+    "editorial_level": "editorial",
+    "roles": [
+      "designer"
+    ]
+  },
+  "name": "Ferdinand Alexander Porsche",
+  "names": [],
+  "type": "Person"
+}

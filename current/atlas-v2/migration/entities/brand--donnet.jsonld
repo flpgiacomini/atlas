@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Donnet, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "36d8cf74-ed31-723e-9dbb-3a59c7b1af1a",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Donnet"
+    }
+  ],
+  "id": "atlas:brand:donnet",
+  "legacy": {
+    "id": "c88e1fbb-6232-703e-b120-ced13ea3f2af",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Donnet",
+  "names": [],
+  "type": "Brand"
+}

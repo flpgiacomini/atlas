@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Graham, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4f730a69-0422-7f64-b8ea-439bedf0a05c",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Graham"
+    }
+  ],
+  "id": "atlas:brand:graham",
+  "legacy": {
+    "id": "3e7d6a75-9fd9-70fe-aab1-3ab870efa492",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Graham",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Fisker, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a006b13a-ceb1-7ff5-b09e-374047f521db",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Fisker"
+    }
+  ],
+  "id": "atlas:brand:fisker",
+  "legacy": {
+    "id": "08d1dc4d-2cfb-7912-afdf-af71e89da124",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Fisker",
+  "names": [],
+  "type": "Brand"
+}

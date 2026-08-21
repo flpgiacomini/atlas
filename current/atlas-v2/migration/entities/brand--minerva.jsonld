@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Minerva, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "720f1b6a-a490-7899-9f6a-30e33ea6a91c",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Minerva"
+    }
+  ],
+  "id": "atlas:brand:minerva",
+  "legacy": {
+    "id": "65b450e5-9f93-7b61-9c1f-140ab319d780",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Minerva",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Puma, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "01df6a5d-9af7-755e-bcee-05a5d50c79e8",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Puma"
+    }
+  ],
+  "id": "atlas:brand:puma",
+  "legacy": {
+    "id": "a4374f7d-c377-7177-9eb7-8af6119503fc",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Puma",
+  "names": [],
+  "type": "Brand"
+}

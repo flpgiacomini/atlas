@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Bestune, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "88de57ee-af9e-77c0-b5c9-b6ebd7228550",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Bestune"
+    }
+  ],
+  "id": "atlas:brand:bestune",
+  "legacy": {
+    "id": "67e5d433-b96c-7fa4-9cdc-aa42ad799a79",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Bestune",
+  "names": [],
+  "type": "Brand"
+}

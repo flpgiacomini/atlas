@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Luxgen, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "54b1457d-0485-7b79-9792-9ade2d535376",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Luxgen"
+    }
+  ],
+  "id": "atlas:brand:luxgen",
+  "legacy": {
+    "id": "f249aa01-706a-79fe-95e7-744f840847ad",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Luxgen",
+  "names": [],
+  "type": "Brand"
+}

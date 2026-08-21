@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Napier, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a4252087-12a6-7bf0-adfb-85826018c450",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Napier"
+    }
+  ],
+  "id": "atlas:brand:napier",
+  "legacy": {
+    "id": "4c084fd0-1235-797b-92a3-1de8b84b18e5",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Napier",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544b735489419b9e76d6ec00"
+      ],
+      "id": "atlas:claim:legacy-01a01028544b73b285a0127af214a62d",
+      "legacyId": "01a01028-544b-73b2-85a0-127af214a62d",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2009-03-23"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-the-tata-nano-arrives"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544b-74d2-a4ec-a10e8eb35d6a",
+      "subject": "atlas:event:tata-nano-commercial-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544b7bc8b0e5f61f644a0794"
+      ],
+      "id": "atlas:claim:legacy-01a01028544b7ab3a2cc03c4a357ba1c",
+      "legacyId": "01a01028-544b-7ab3-a2cc-03c4a357ba1c",
+      "object": {
+        "id": "atlas:vehicle:tata-nano",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-the-tata-nano-arrives"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544b-744e-99b2-496c35e4e2e0",
+      "subject": "atlas:event:tata-nano-commercial-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Tata Nano commercial launch é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Tata Nano. A documentação registra ocorrência em 2009-03-23. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:tata-nano-commercial-launch",
+  "legacy": {
+    "id": "01a01028-5449-7808-87d4-062248b63f01",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544b-744e-99b2-496c35e4e2e0",
+      "01a01028-544b-74d2-a4ec-a10e8eb35d6a"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Tata Nano commercial launch",
+  "names": [],
+  "type": "Event"
+}

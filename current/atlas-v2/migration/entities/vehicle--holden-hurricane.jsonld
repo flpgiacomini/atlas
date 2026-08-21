@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Holden Hurricane (1969), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, GEO. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "da70d529-7ef7-722d-b1e0-d2dc65b26248",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1969:Holden Hurricane"
+    }
+  ],
+  "id": "atlas:vehicle:holden-hurricane",
+  "legacy": {
+    "id": "e8b73f49-9821-72c0-a9b8-ba96e4595d91",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Holden",
+    "candidate_kind": "concept",
+    "candidate_year": 1969,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "TEC",
+      "GEO"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Holden Hurricane",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea54763599d938fb9fc84c35"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5773e49efc097b54e63fb6",
+      "legacyId": "01a01016-ea57-73e4-9efc-097b54e63fb6",
+      "object": {
+        "id": "atlas:facility:ford-highland-park-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-79ba-bbfa-ca50fb10ceb7",
+      "subject": "atlas:vehicle:ford-model-t",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1910",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea54739da574797b5e7f6b62"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5778a69f310eb59e9b608a",
+      "legacyId": "01a01016-ea57-78a6-9f31-0eb59e9b608a",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7c35-aa04-ea53c9b11a0e",
+      "subject": "atlas:vehicle:ford-model-t",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5475c8ba1a46b3230dbb49"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577976ae734ba3d193f6f7",
+      "legacyId": "01a01016-ea57-7976-ae73-4ba3d193f6f7",
+      "object": {
+        "id": "atlas:facility:ford-piquette-avenue-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-72db-a6e2-84b845265c28",
+      "subject": "atlas:vehicle:ford-model-t",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": null,
+        "precision": "year",
+        "until": "1910"
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5473fa82ed40d75c4987dc"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577b0494740472b8e5a964",
+      "legacyId": "01a01016-ea57-7b04-9474-0472b8e5a964",
+      "object": {
+        "id": "atlas:technology:extensive-use-of-vanadium-steel",
+        "type": "EntityReference"
+      },
+      "predicate": "used-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7b64-9941-5b72f43d065f",
+      "subject": "atlas:vehicle:ford-model-t",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ec797a95669c814f2b278f"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ec7a6ca5a9daf5cb1a94fe",
+      "legacyId": "01a0102a-57ec-7a6c-a5a9-daf5cb1a94fe",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t-01a0102a"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ec-7d11-afde-4382a8d5e9d8",
+      "subject": "atlas:vehicle:ford-model-t",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Automóvel produzido pela Ford Motor Company entre 1908 e 1927 que combinou materiais resistentes, projeto funcional e fabricação em escala crescente. Sua trajetória entre Piquette Avenue e Highland Park ajuda a explicar a transformação do carro em bem de consumo de massa.",
+  "id": "atlas:vehicle:ford-model-t",
+  "legacy": {
+    "id": "01a01016-ea4d-7265-a55b-b35bdeb3909f",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "E02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Ford Model T",
+  "names": [],
+  "type": "Vehicle"
+}

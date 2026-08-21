@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-1c31a97766d17293bb653a6928d80d1f"
+      ],
+      "id": "atlas:claim:legacy-351026681d9a71aeaf19c76169dd0ca6",
+      "legacyId": "35102668-1d9a-71ae-af19-c76169dd0ca6",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1898"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:technisches-museum-wien-the-second-marcus-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "0c8c89e7-44bf-7726-9924-c62715319ef0",
+      "subject": "atlas:person:siegfried-marcus",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e72787a5bce0748e8c4db65c91961090"
+      ],
+      "id": "atlas:claim:legacy-d6fca7e899c17424bf7d5b2d6182dbea",
+      "legacyId": "d6fca7e8-99c1-7424-bf7d-5b2d6182dbea",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1831"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:technisches-museum-wien-the-second-marcus-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f41eed3a-ccba-7a3d-8919-8ea59dde56c9",
+      "subject": "atlas:person:siegfried-marcus",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Inventor germano-austríaco associado a veículos experimentais com motor de combustão interna. As datas e a prioridade tradicionalmente atribuídas a seus automóveis são discutidas, por isso o Atlas conserva a controvérsia como parte do registro, não como conclusão.",
+  "id": "atlas:person:siegfried-marcus",
+  "legacy": {
+    "id": "e0bb84a8-fe97-7460-893a-87bf4246cd32",
+    "slug": "siegfried-marcus",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "engineer"
+    ]
+  },
+  "name": "Siegfried Marcus",
+  "names": [],
+  "type": "Person"
+}

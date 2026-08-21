@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854587dd1ac5da9fdf757eaaf"
+      ],
+      "id": "atlas:claim:legacy-01a01028545870d9ad50547d2801f4cc",
+      "legacyId": "01a01028-5458-70d9-ad50-547d2801f4cc",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1998"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-739f-8b45-70fc3e2ad0d8",
+      "subject": "atlas:event:bugatti-revival-under-volkswagen-group",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854587aaf877b610a3cb0516c"
+      ],
+      "id": "atlas:claim:legacy-01a010285458765d9d88745adc16ef87",
+      "legacyId": "01a01028-5458-765d-9d88-745adc16ef87",
+      "object": {
+        "id": "atlas:organization:volkswagen-group",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "reviving_group"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-72d1-a996-baae2c229c26",
+      "subject": "atlas:event:bugatti-revival-under-volkswagen-group",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285459716d8402d1662ea41da9"
+      ],
+      "id": "atlas:claim:legacy-01a01028545979b4bda0c15118fe1b6e",
+      "legacyId": "01a01028-5459-79b4-bda0-c15118fe1b6e",
+      "object": {
+        "id": "atlas:brand:bugatti",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-7f12-9b84-728f8ec13cce",
+      "subject": "atlas:event:bugatti-revival-under-volkswagen-group",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Bugatti revival under Volkswagen Group é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Volkswagen Group. A documentação registra ocorrência em 1998. A documentação registra participação de Bugatti. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:bugatti-revival-under-volkswagen-group",
+  "legacy": {
+    "id": "01a01028-5456-76da-8982-4905ccbf0b30",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5458-72d1-a996-baae2c229c26",
+      "01a01028-5458-739f-8b45-70fc3e2ad0d8",
+      "01a01028-5459-7f12-9b84-728f8ec13cce"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "brand_revival",
+    "realization_status": "occurred"
+  },
+  "name": "Bugatti revival under Volkswagen Group",
+  "names": [],
+  "type": "Event"
+}

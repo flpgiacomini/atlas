@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Princess, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e4ae99bc-ef21-76ba-9dfa-9bb8eb697496",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Princess"
+    }
+  ],
+  "id": "atlas:brand:princess",
+  "legacy": {
+    "id": "b746aafd-1c99-740e-ac1b-840d358053e9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Princess",
+  "names": [],
+  "type": "Brand"
+}

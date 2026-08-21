@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Audi é registrado no Atlas como marca automotiva, dentro da história global do automóvel. Também aparece na relação de comercialização sob associada a Audi quattro. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:brand:audi",
+  "legacy": {
+    "id": "01a01028-5452-7d2d-8df1-441ee5876d0f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "description_basis_statement_ids": [
+      "01a01028-5452-7353-a9b7-e690e6443423"
+    ],
+    "editorial_batch": "E06",
+    "editorial_level": "editorial"
+  },
+  "name": "Audi",
+  "names": [],
+  "type": "Brand"
+}

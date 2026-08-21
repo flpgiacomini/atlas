@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331879c6beced81198f6090c"
+      ],
+      "id": "atlas:claim:legacy-01a0103033187bf4b01bfe6953429455",
+      "legacyId": "01a01030-3318-7bf4-b01b-fe6953429455",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1901"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-america-s-industrial-revolution"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3318-707a-b1e9-69dfbf892f91",
+      "subject": "atlas:event:oldsmobile-curved-dash-enters-large-scale-american-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033197c16997688a203765a2a"
+      ],
+      "id": "atlas:claim:legacy-01a0103033197151bbc1d38901d10075",
+      "legacyId": "01a01030-3319-7151-bbc1-d38901d10075",
+      "object": {
+        "id": "atlas:vehicle:oldsmobile-curved-dash",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "high_volume_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-america-s-industrial-revolution"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3319-7daf-b671-f18e9d3ae023",
+      "subject": "atlas:event:oldsmobile-curved-dash-enters-large-scale-american-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Oldsmobile Curved Dash enters large-scale American production é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1901. A documentação registra participação de Oldsmobile Curved Dash. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:oldsmobile-curved-dash-enters-large-scale-american-production",
+  "legacy": {
+    "id": "01a01030-3318-7912-814c-3a5af45b146a",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3318-707a-b1e9-69dfbf892f91",
+      "01a01030-3319-7daf-b671-f18e9d3ae023"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "production_scaleup",
+    "realization_status": "occurred"
+  },
+  "name": "Oldsmobile Curved Dash enters large-scale American production",
+  "names": [],
+  "type": "Event"
+}

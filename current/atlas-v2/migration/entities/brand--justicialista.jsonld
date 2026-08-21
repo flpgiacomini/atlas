@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Justicialista, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "c1dfa8d9-3e0c-709c-b360-0a84e149eacf",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Justicialista"
+    }
+  ],
+  "id": "atlas:brand:justicialista",
+  "legacy": {
+    "id": "4b91b344-e822-7837-bc46-9954af9c77a3",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Justicialista",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5a717d95645d09ea8599fd"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5a721b975cf175ac4ad7a0",
+      "legacyId": "01a01031-ec5a-721b-975c-f175ac4ad7a0",
+      "object": {
+        "id": "atlas:organization:daimler-motoren-gesellschaft",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-daimler-marienfelde-series-dc-trucks-and-buses-19141926"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec5a-737b-be9b-e7dbd305abcf",
+      "subject": "atlas:vehicle:daimler-marienfelde-dc-truck-bus-series",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Daimler Marienfelde DC truck/bus series é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Daimler-Motoren-Gesellschaft. Também aparece na relação de participação de associada a DMG DC commercial vehicle range altered for wartime production. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:daimler-marienfelde-dc-truck-bus-series",
+  "legacy": {
+    "id": "01a01031-ec59-763e-b219-fa55b175d0e7",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec5a-737b-be9b-e7dbd305abcf",
+      "01a01031-ec5a-7f3e-880f-017678d942cd"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "commercial",
+    "vehicle_level": "family"
+  },
+  "name": "Daimler Marienfelde DC truck/bus series",
+  "names": [],
+  "type": "Vehicle"
+}

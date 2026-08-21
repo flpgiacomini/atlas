@@ -1,0 +1,120 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331a77969f42d18e8feae9f3"
+      ],
+      "id": "atlas:claim:legacy-01a01030331a70b8838acf5dbff4f054",
+      "legacyId": "01a01030-331a-70b8-838a-cf5dbff4f054",
+      "object": {
+        "id": "atlas:vehicle:cadillac-model-k",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "award_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1912-cadillac-model-30-gm-heritage-collection"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-75f0-958e-bd0cad53782b",
+      "subject": "atlas:event:cadillac-receives-1908-dewar-trophy-for-interchangeable-parts",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331a7e41b301354cb928a92c"
+      ],
+      "id": "atlas:claim:legacy-01a01030331a70f29a9fb36ee15c1c1d",
+      "legacyId": "01a01030-331a-70f2-9a9f-b36ee15c1c1d",
+      "object": {
+        "id": "atlas:technology:interchangeable-automotive-parts-standardization",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1912-cadillac-model-30-gm-heritage-collection"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-70b9-bfcc-e3204cbb366b",
+      "subject": "atlas:event:cadillac-receives-1908-dewar-trophy-for-interchangeable-parts",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331a7a9c983c960b667fa372"
+      ],
+      "id": "atlas:claim:legacy-01a01030331a7379a8ab53e17a04ad38",
+      "legacyId": "01a01030-331a-7379-a8ab-53e17a04ad38",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1908"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1912-cadillac-model-30-gm-heritage-collection"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-7462-ac94-926c0c9d8333",
+      "subject": "atlas:event:cadillac-receives-1908-dewar-trophy-for-interchangeable-parts",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331a7095a758697bc628e000"
+      ],
+      "id": "atlas:claim:legacy-01a01030331a75ce97fe5f1dacbdc0ee",
+      "legacyId": "01a01030-331a-75ce-97fe-5f1dacbdc0ee",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1908"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-mail-order-motoring-the-sears-motor-buggy"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-7462-ac94-926c0c9d8333",
+      "subject": "atlas:event:cadillac-receives-1908-dewar-trophy-for-interchangeable-parts",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Cadillac receives 1908 Dewar Trophy for interchangeable parts é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra introdução do recurso Interchangeable automotive parts / standardization. A documentação registra ocorrência em 1908. A documentação registra participação de Cadillac Model K. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:cadillac-receives-1908-dewar-trophy-for-interchangeable-parts",
+  "legacy": {
+    "id": "01a01030-3319-7573-953d-cb542fc356d1",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-331a-70b9-bfcc-e3204cbb366b",
+      "01a01030-331a-7462-ac94-926c0c9d8333",
+      "01a01030-331a-75f0-958e-bd0cad53782b"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "award",
+    "realization_status": "occurred"
+  },
+  "name": "Cadillac receives 1908 Dewar Trophy for interchangeable parts",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544f76d2976631ec8c289e9c"
+      ],
+      "id": "atlas:claim:legacy-01a01028544f7008807499d88505f820",
+      "legacyId": "01a01028-544f-7008-8074-99d88505f820",
+      "object": {
+        "id": "atlas:vehicle:toyota-prius-concept-1995",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-prius-concept-car-1995"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544f-7465-9478-50caa1a692d0",
+      "subject": "atlas:event:prius-concept-exhibited-at-tokyo-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544f716f8f7a77523b809a07"
+      ],
+      "id": "atlas:claim:legacy-01a01028544f76a9826fbcaf397d76e9",
+      "legacyId": "01a01028-544f-76a9-826f-bcaf397d76e9",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1995-10"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-prius-concept-car-1995"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544f-7d65-a904-1ab2f335a5f8",
+      "subject": "atlas:event:prius-concept-exhibited-at-tokyo-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Prius concept exhibited at Tokyo Motor Show é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Toyota Prius Concept (1995). A documentação registra ocorrência em 1995-10. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:prius-concept-exhibited-at-tokyo-motor-show",
+  "legacy": {
+    "id": "01a01028-544e-71eb-a964-e77800f731b9",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544f-7465-9478-50caa1a692d0",
+      "01a01028-544f-7d65-a904-1ab2f335a5f8"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Prius concept exhibited at Tokyo Motor Show",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mitsubishi, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "92963499-1369-7fd0-9086-5fcffb33e646",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Mitsubishi"
+    }
+  ],
+  "id": "atlas:brand:mitsubishi",
+  "legacy": {
+    "id": "adb6495f-3804-7961-a486-d3140c6c783b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Mitsubishi",
+  "names": [],
+  "type": "Brand"
+}

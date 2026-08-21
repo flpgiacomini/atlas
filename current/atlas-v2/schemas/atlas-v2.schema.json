@@ -2,6 +2,20 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://flpgiacomini.github.io/atlas/schemas/atlas-v2.schema.json",
   "title": "Atlas v2 canonical documents",
+  "version": "2.0.0",
+  "oneOf": [
+    { "$ref": "#/$defs/Entity" },
+    { "$ref": "#/$defs/Claim" },
+    { "$ref": "#/$defs/Source" },
+    { "$ref": "#/$defs/Evidence" },
+    { "$ref": "#/$defs/Story" },
+    { "$ref": "#/$defs/Chapter" },
+    { "$ref": "#/$defs/StoryBeat" },
+    { "$ref": "#/$defs/Season" },
+    { "$ref": "#/$defs/Series" },
+    { "$ref": "#/$defs/TechnologyFlow" },
+    { "$ref": "#/$defs/TemporalGeometry" }
+  ],
   "$defs": {
     "semanticId": { "type": "string", "pattern": "^atlas:[a-z][a-z0-9-]*:[a-z0-9]+(?:-[a-z0-9]+)*$" },
     "interval": {
@@ -16,7 +30,7 @@
     },
     "Source": {
       "type": "object",
-      "required": ["id", "type", "title", "publisher", "url", "trust"],
+      "required": ["id", "type", "title", "trust"],
       "properties": {
         "id": { "$ref": "#/$defs/semanticId" },
         "type": { "const": "Source" },
@@ -28,9 +42,23 @@
       },
       "additionalProperties": true
     },
+    "Evidence": {
+      "type": "object",
+      "required": ["id", "type", "source", "evidenceType", "locator"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "Evidence" },
+        "source": { "$ref": "#/$defs/semanticId" },
+        "evidenceType": { "type": "string", "minLength": 1 },
+        "locator": { "type": "object" },
+        "excerpt": { "type": ["string", "null"] },
+        "notes": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
     "Claim": {
       "type": "object",
-      "required": ["id", "type", "subject", "predicate", "object", "sources", "confidence"],
+      "required": ["id", "type", "subject", "predicate", "object", "sources", "evidence", "confidence"],
       "properties": {
         "id": { "$ref": "#/$defs/semanticId" },
         "type": { "const": "Claim" },
@@ -38,7 +66,8 @@
         "predicate": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
         "object": {},
         "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/semanticId" } },
-        "confidence": { "enum": ["single-source", "corroborated", "contested"] },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/semanticId" } },
+        "confidence": { "type": "string", "minLength": 1 },
         "validity": { "$ref": "#/$defs/interval" }
       },
       "additionalProperties": true
@@ -49,7 +78,7 @@
       "properties": {
         "@context": { "const": "https://flpgiacomini.github.io/atlas/context/v2.jsonld" },
         "id": { "$ref": "#/$defs/semanticId" },
-        "type": { "enum": ["Vehicle", "Brand", "Organization", "Person", "Event", "Place", "Facility", "Technology", "Season", "Series"] },
+        "type": { "enum": ["Vehicle", "VehicleInstance", "Brand", "Organization", "Person", "Event", "Place", "Facility", "Technology", "Component", "Circuit", "CircuitLayout", "Entry", "Team", "Season", "Series"] },
         "name": { "type": "string", "minLength": 1 },
         "aliases": { "type": "array", "items": { "type": "string" } },
         "claims": { "type": "array", "items": { "$ref": "#/$defs/Claim" } },
@@ -86,6 +115,29 @@
         "type": { "const": "Story" },
         "chapters": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/Chapter" } }
       }
+    },
+    "Season": {
+      "type": "object",
+      "required": ["id", "type", "series", "year", "events"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "Season" },
+        "series": { "$ref": "#/$defs/semanticId" },
+        "year": { "type": "integer", "minimum": 1769, "maximum": 2026 },
+        "events": { "type": "array", "items": { "$ref": "#/$defs/semanticId" } }
+      },
+      "additionalProperties": true
+    },
+    "Series": {
+      "type": "object",
+      "required": ["id", "type", "name", "seasons"],
+      "properties": {
+        "id": { "$ref": "#/$defs/semanticId" },
+        "type": { "const": "Series" },
+        "name": { "type": "string", "minLength": 1 },
+        "seasons": { "type": "array", "items": { "$ref": "#/$defs/semanticId" } }
+      },
+      "additionalProperties": true
     },
     "TechnologyFlow": {
       "type": "object",

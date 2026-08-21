@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Bugatti Atelier Molsheim é registrado no Atlas como instalação industrial, dentro da história global do automóvel. Também aparece na relação de produção em associada a Bugatti Veyron 16.4. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:facility:bugatti-atelier-molsheim",
+  "legacy": {
+    "id": "01a01028-5456-7f2b-ab99-663eb015e56f",
+    "slug": null,
+    "type": "facility"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5457-7adb-bd63-95cf5d1b68d1"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "facility_type": "factory"
+  },
+  "name": "Bugatti Atelier Molsheim",
+  "names": [],
+  "type": "Facility"
+}

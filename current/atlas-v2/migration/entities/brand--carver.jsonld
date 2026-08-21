@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Carver, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "848149a4-48cc-783b-91e1-82af260d4f80",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Carver"
+    }
+  ],
+  "id": "atlas:brand:carver",
+  "legacy": {
+    "id": "3c91a71a-c0cb-74df-b4cb-96ce6ba55b0a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Carver",
+  "names": [],
+  "type": "Brand"
+}

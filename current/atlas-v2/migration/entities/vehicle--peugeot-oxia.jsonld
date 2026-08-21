@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Peugeot Oxia (1988), selecionado pelo Atlas por sua possível contribuição histórica em TEC, DES. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "925842d8-fa29-7204-b2eb-acb6e29307e9",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1988:Peugeot Oxia"
+    }
+  ],
+  "id": "atlas:vehicle:peugeot-oxia",
+  "legacy": {
+    "id": "4c65a7d8-a368-77e9-90b9-075622ae9ee2",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Peugeot",
+    "candidate_kind": "concept",
+    "candidate_year": 1988,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "DES"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 60
+  },
+  "name": "Peugeot Oxia",
+  "names": [],
+  "type": "Vehicle"
+}

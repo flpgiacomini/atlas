@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Saab, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7bbfcd1e-20d0-79a5-ba57-6373291dfc25",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Saab"
+    }
+  ],
+  "id": "atlas:brand:saab",
+  "legacy": {
+    "id": "e12d2891-609c-72c9-bd51-0a10bab7e146",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Saab",
+  "names": [],
+  "type": "Brand"
+}

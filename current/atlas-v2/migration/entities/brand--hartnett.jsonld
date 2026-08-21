@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hartnett, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "96c97e09-758f-7ec2-b279-79df09ff2aad",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Hartnett"
+    }
+  ],
+  "id": "atlas:brand:hartnett",
+  "legacy": {
+    "id": "09c5f428-f2de-7905-95da-ed8436fedf6c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Hartnett",
+  "names": [],
+  "type": "Brand"
+}

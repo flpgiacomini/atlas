@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Xiaomi Auto, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "581c9814-b59c-7822-8e59-f0466d29c5de",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Xiaomi Auto"
+    }
+  ],
+  "id": "atlas:brand:xiaomi-auto",
+  "legacy": {
+    "id": "843c3456-ede9-7241-8c4a-0ea06ef10b7a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Xiaomi Auto",
+  "names": [],
+  "type": "Brand"
+}

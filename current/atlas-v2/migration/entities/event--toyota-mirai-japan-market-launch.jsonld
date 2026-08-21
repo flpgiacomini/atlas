@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb7a1a91a34682468fde52"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb770eafcf8d84635217ed",
+      "legacyId": "01a010d9-28cb-770e-afcf-8d84635217ed",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2014-12-15"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-ushers-in-the-future-with-launch-of-mirai-fuel-cell-sedan"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-74f5-bb17-dff8a098fc1f",
+      "subject": "atlas:event:toyota-mirai-japan-market-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb746fbd90c36f50de064f"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb7842ac4ca9c391dda9fb",
+      "legacyId": "01a010d9-28cb-7842-ac4c-a9c391dda9fb",
+      "object": {
+        "id": "atlas:vehicle:toyota-mirai-first-generation",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-ushers-in-the-future-with-launch-of-mirai-fuel-cell-sedan"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7d0b-8c73-3c17134286ca",
+      "subject": "atlas:event:toyota-mirai-japan-market-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Toyota Mirai Japan market launch é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 2014-12-15. A documentação registra participação de Toyota Mirai — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:toyota-mirai-japan-market-launch",
+  "legacy": {
+    "id": "01a010d9-28cb-7715-8545-b3263b0717e1",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-74f5-bb17-dff8a098fc1f",
+      "01a010d9-28cb-7d0b-8c73-3c17134286ca"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Toyota Mirai Japan market launch",
+  "names": [],
+  "type": "Event"
+}

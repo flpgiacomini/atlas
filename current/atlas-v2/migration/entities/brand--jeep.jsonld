@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Jeep, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "270af5a2-32de-7254-85c1-1a00179a5bef",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Jeep"
+    }
+  ],
+  "id": "atlas:brand:jeep",
+  "legacy": {
+    "id": "d493565d-ff9a-7cde-835b-99542fb7a965",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Jeep",
+  "names": [],
+  "type": "Brand"
+}

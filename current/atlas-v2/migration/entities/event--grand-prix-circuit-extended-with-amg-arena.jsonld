@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea57744387d8429aaf3b8680"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b72af8c5ccde2db9c48a1",
+      "legacyId": "01a01016-ea5b-72af-8c5c-cde2db9c48a1",
+      "object": {
+        "id": "atlas:circuit-layout:nurburgring-grand-prix-circuit-with-amg-arena-2002",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-anniversary-40-years-of-the-grand-prix-circuit"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7cf6-9efc-3b10e4f22167",
+      "subject": "atlas:event:grand-prix-circuit-extended-with-amg-arena",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5774d1bc04eee783a4e0d6"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b72b9a314e37b6b1595ad",
+      "legacyId": "01a01016-ea5b-72b9-a314-e37b6b1595ad",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "2002"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-anniversary-40-years-of-the-grand-prix-circuit"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7a74-bbbb-7196fa7374b4",
+      "subject": "atlas:event:grand-prix-circuit-extended-with-amg-arena",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Grand Prix Circuit extended with AMG Arena é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 2002. A documentação registra participação de Nürburgring Grand Prix Circuit with AMG Arena (2002). O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:grand-prix-circuit-extended-with-amg-arena",
+  "legacy": {
+    "id": "01a01016-ea4e-77ad-9cc2-358ec54ac39b",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea54-7a74-bbbb-7196fa7374b4",
+      "01a01016-ea54-7cf6-9efc-3b10e4f22167"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "circuit_layout_change",
+    "realization_status": "occurred"
+  },
+  "name": "Grand Prix Circuit extended with AMG Arena",
+  "names": [],
+  "type": "Event"
+}

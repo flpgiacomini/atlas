@@ -1,0 +1,26 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Turbocharging é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Porsche 911 Turbo (G-Series / Type 930). Também aparece na relação de uso da tecnologia associada a Porsche 917/30. Também aparece na relação de uso da tecnologia associada a Porsche 917/10. Também aparece na relação de introdução do recurso associada a Introduction of turbocharger in Porsche 911. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:turbocharging",
+  "legacy": {
+    "id": "01a01016-ea4e-76d9-bc16-d2fb752accc6",
+    "slug": "turbocharging",
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-7be3-8072-6f5f12b58fd4",
+      "01a01016-ea52-7105-ad52-8a966add5d22",
+      "01a01016-ea52-7777-87dd-f88df247d7a5",
+      "01a01016-ea52-7858-9f89-c938a373282a"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "engine"
+  },
+  "name": "Turbocharging",
+  "names": [],
+  "type": "Technology"
+}

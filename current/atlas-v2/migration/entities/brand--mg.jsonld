@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de MG, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a70e0270-4bb0-732c-83b7-cfaeb0e1e1b7",
+      "scheme": "atlas-brand-census",
+      "value": "M02:MG"
+    }
+  ],
+  "id": "atlas:brand:mg",
+  "legacy": {
+    "id": "8d481a35-05cd-72ce-b094-580ff8e3302d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "MG",
+  "names": [],
+  "type": "Brand"
+}

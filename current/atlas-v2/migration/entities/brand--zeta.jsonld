@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Zeta, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "298849e9-4e55-75c9-bef4-748ea38bc7f3",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Zeta"
+    }
+  ],
+  "id": "atlas:brand:zeta",
+  "legacy": {
+    "id": "6e105af3-d98b-7090-a17d-c6b334b240ac",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Zeta",
+  "names": [],
+  "type": "Brand"
+}

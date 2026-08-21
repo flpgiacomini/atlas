@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de ATS, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "476dfa21-8fab-78c0-95f3-ff054ef43f7a",
+      "scheme": "atlas-brand-census",
+      "value": "M04:ATS"
+    }
+  ],
+  "id": "atlas:brand:ats",
+  "legacy": {
+    "id": "4cb0b60d-0cc7-76e3-97ea-5722f2745466",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "ATS",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Donkervoort, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7603fb2f-7ab0-7b24-aca4-a5d128272a3f",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Donkervoort"
+    }
+  ],
+  "id": "atlas:brand:donkervoort",
+  "legacy": {
+    "id": "d205a1cd-0539-7ead-80ea-ac1cfb558b29",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Donkervoort",
+  "names": [],
+  "type": "Brand"
+}

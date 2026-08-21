@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ermini, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8b4ce243-8a95-7a29-8b25-a389d7d2e7fe",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Ermini"
+    }
+  ],
+  "id": "atlas:brand:ermini",
+  "legacy": {
+    "id": "f141a8ea-3836-7189-a345-2adf469375f7",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Ermini",
+  "names": [],
+  "type": "Brand"
+}

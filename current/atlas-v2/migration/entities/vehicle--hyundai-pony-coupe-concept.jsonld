@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hyundai Pony Coupe Concept (1974), selecionado pelo Atlas por sua possível contribuição histórica em DES, GEO, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "157c85f1-8753-7a76-b28b-68e15f15000e",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1974:Hyundai Pony Coupe Concept"
+    }
+  ],
+  "id": "atlas:vehicle:hyundai-pony-coupe-concept",
+  "legacy": {
+    "id": "85caaf96-474a-7499-8490-87c4bc1af433",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Hyundai",
+    "candidate_kind": "concept",
+    "candidate_year": 1974,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "GEO",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Hyundai Pony Coupe Concept",
+  "names": [],
+  "type": "Vehicle"
+}

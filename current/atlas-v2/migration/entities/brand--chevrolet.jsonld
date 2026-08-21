@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Marca da General Motors ligada à produção de automóveis de passageiros, esportivos e programas experimentais. No Atlas, o Corvair Monza GT representa sua pesquisa de aerodinâmica, ergonomia e arquitetura mecânica aplicada a concepts no início da década de 1960.",
+  "id": "atlas:brand:chevrolet",
+  "legacy": {
+    "id": "04964a08-0f19-7d5d-9170-66fc7de2c8f1",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "editorial_batch": "V05",
+    "editorial_level": "editorial"
+  },
+  "name": "Chevrolet",
+  "names": [],
+  "type": "Brand"
+}

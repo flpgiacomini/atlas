@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de OSCA, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "77303272-10ca-76e6-89c0-61d9effee9a3",
+      "scheme": "atlas-brand-census",
+      "value": "M04:OSCA"
+    }
+  ],
+  "id": "atlas:brand:osca",
+  "legacy": {
+    "id": "abb65a05-2300-741b-a0cb-210c7dd0b7d4",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "OSCA",
+  "names": [],
+  "type": "Brand"
+}

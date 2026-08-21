@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Agrale, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ebda0782-6a0d-7135-b2ef-5b249fbb059c",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Agrale"
+    }
+  ],
+  "id": "atlas:brand:agrale",
+  "legacy": {
+    "id": "c2a04dac-dd58-73af-ada2-de2acc4d33e9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Agrale",
+  "names": [],
+  "type": "Brand"
+}

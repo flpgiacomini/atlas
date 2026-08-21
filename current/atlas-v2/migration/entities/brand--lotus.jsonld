@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lotus, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4521b952-f2a4-73d1-addb-f3fde372e6b0",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Lotus"
+    }
+  ],
+  "id": "atlas:brand:lotus",
+  "legacy": {
+    "id": "81007761-33f5-770e-8be1-07ea48e783a3",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Lotus",
+  "names": [],
+  "type": "Brand"
+}

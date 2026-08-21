@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ed7c8d91498fb00b0c8812"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ed725d8f1cf876fdae6d58",
+      "legacyId": "01a0102a-57ed-725d-8f1c-f876fdae6d58",
+      "object": {
+        "id": "atlas:vehicle:ford-model-t",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t-01a0102a"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ed-7f3c-abbd-e70ebbe472c5",
+      "subject": "atlas:event:ford-model-t-first-customer-delivery",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ed719394567aa873c06d9e"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ed7f8d9838a1a409eab6c8",
+      "legacyId": "01a0102a-57ed-7f8d-9838-a1a409eab6c8",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1908-10-01"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t-01a0102a"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ed-72f0-a577-7678de0f16fb",
+      "subject": "atlas:event:ford-model-t-first-customer-delivery",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Model T first customer delivery é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1908-10-01. A documentação registra participação de Ford Model T. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:ford-model-t-first-customer-delivery",
+  "legacy": {
+    "id": "01a0102a-57ed-7642-b680-6fc32323b24d",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ed-72f0-a577-7678de0f16fb",
+      "01a0102a-57ed-7f3c-abbd-e70ebbe472c5"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Ford Model T first customer delivery",
+  "names": [],
+  "type": "Event"
+}

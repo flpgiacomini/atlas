@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-97580aecd3e47e14a439f518b79f2b32"
+      ],
+      "id": "atlas:claim:legacy-345a1670224d7b9793752bf4fd149eb5",
+      "legacyId": "345a1670-224d-7b97-9375-2bf4fd149eb5",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1725"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "2d3d10e7-e250-70bd-a0ff-aeb69f65861e",
+      "subject": "atlas:person:nicolas-joseph-cugnot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6f2db5cf01ec70e7bb684ffc681a0dfa"
+      ],
+      "id": "atlas:claim:legacy-4434d6683c127fa39ffe91857904c6a5",
+      "legacyId": "4434d668-3c12-7fa3-9ffe-91857904c6a5",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1804"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "2eb038d2-fcc7-7e3d-b35c-58f92dafb52a",
+      "subject": "atlas:person:nicolas-joseph-cugnot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro militar francês associado ao fardier a vapor construído entre 1769 e 1771. Seu trabalho documenta uma experiência inicial de veículo rodoviário autopropelido, concebida para uma finalidade militar e anterior em mais de um século ao automóvel leve a gasolina.",
+  "id": "atlas:person:nicolas-joseph-cugnot",
+  "legacy": {
+    "id": "9f8c2ef9-d100-7933-b112-c553daef2eb0",
+    "slug": "nicolas-joseph-cugnot",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Nicolas-Joseph Cugnot",
+  "names": [],
+  "type": "Person"
+}

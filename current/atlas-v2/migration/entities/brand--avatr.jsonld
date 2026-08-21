@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Avatr, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d3e07306-a09a-7ea4-bfc0-72aabd9de81d",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Avatr"
+    }
+  ],
+  "id": "atlas:brand:avatr",
+  "legacy": {
+    "id": "5db607bb-ca69-7a5e-9334-e26e7473e4fe",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Avatr",
+  "names": [],
+  "type": "Brand"
+}

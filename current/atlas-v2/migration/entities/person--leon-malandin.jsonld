@@ -1,0 +1,50 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-b165627d54a079b7a7379fe6b691f41c"
+      ],
+      "id": "atlas:claim:legacy-8d8a6b51be117d3ea6e1b1350ad99a26",
+      "legacyId": "8d8a6b51-be11-7d3e-a6e1-b1350ad99a26",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:edouard-delamare-deboutteville",
+        "type": "EntityReference"
+      },
+      "predicate": "collaborated-with",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "fdbdce7d-db24-7910-8054-8ab30df17ebe",
+      "subject": "atlas:person:leon-malandin",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mecânico francês que colaborou com Édouard Delamare-Deboutteville no desenvolvimento de motores e de um veículo experimental em 1884. O Atlas o registra como participante técnico, preservando a autoria compartilhada indicada pela patente.",
+  "id": "atlas:person:leon-malandin",
+  "legacy": {
+    "id": "6ea9b910-292c-73aa-8dc4-90dc1f4822c2",
+    "slug": "leon-malandin",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "roles": [
+      "mechanic",
+      "inventor"
+    ]
+  },
+  "name": "Léon Malandin",
+  "names": [],
+  "type": "Person"
+}

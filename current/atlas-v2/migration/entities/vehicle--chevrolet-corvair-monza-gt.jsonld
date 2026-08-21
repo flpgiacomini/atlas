@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-06e88795fdbe78f897cc523ed17620fb"
+      ],
+      "id": "atlas:claim:legacy-2e3c35b0778273cfbea26780420f3f31",
+      "legacyId": "2e3c35b0-7782-73cf-bea2-6780420f3f31",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:brand:chevrolet",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Monza GT"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-heritage-collection-1962-chevrolet-corvair-monza-gt-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ea5c287a-3c09-74ba-982d-58035f6c0ba8",
+      "subject": "atlas:vehicle:chevrolet-corvair-monza-gt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-60e90f6076317bfb9ddb7461839bc8a4"
+      ],
+      "id": "atlas:claim:legacy-5043c9849871716d97e9457280599f76",
+      "legacyId": "5043c984-9871-716d-97e9-457280599f76",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:canopy-automotivo-com-abertura-dianteira",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Monza GT"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-heritage-collection-1962-chevrolet-corvair-monza-gt-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "043144cb-6b40-768f-aac8-4ffeed557170",
+      "subject": "atlas:vehicle:chevrolet-corvair-monza-gt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-cb50f44fa9047ecc909e5973fb588c0a"
+      ],
+      "id": "atlas:claim:legacy-94eec2d2e2187ac98c01b971280083e2",
+      "legacyId": "94eec2d2-e218-7ac9-8c01-b971280083e2",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:motor-boxer-refrigerado-a-ar",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Monza GT"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-heritage-collection-1962-chevrolet-corvair-monza-gt-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "7e380f79-9bed-723b-a6c3-7ab56881d4c0",
+      "subject": "atlas:vehicle:chevrolet-corvair-monza-gt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-ae03ce9752487d2e8905310b2dd0c517"
+      ],
+      "id": "atlas:claim:legacy-e12f65f502397f7eb6d3ca81f5f35960",
+      "legacyId": "e12f65f5-0239-7f7e-b6d3-ca81f5f35960",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:desenvolvimento-aerodinamico-em-tunel-de-vento",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Monza GT"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-heritage-collection-1962-chevrolet-corvair-monza-gt-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "cdcbb89a-33dc-7b45-ae0a-4ba2fd75bf11",
+      "subject": "atlas:vehicle:chevrolet-corvair-monza-gt",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept car experimental de 1962 cujas linhas aerodinâmicas resultaram de ensaios em túnel de vento. A arquitetura reunia motor boxer de seis cilindros refrigerado a ar, seção traseira basculante para acesso mecânico, cabine com assentos reclinados e canopy envolvente aberto para a frente, documentando a pesquisa esportiva da Chevrolet no início dos anos 1960.",
+  "id": "atlas:vehicle:chevrolet-corvair-monza-gt",
+  "legacy": {
+    "id": "92914026-c495-72d7-bc02-cf726c98c9eb",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "ea5c287a-3c09-74ba-982d-58035f6c0ba8",
+      "cdcbb89a-33dc-7b45-ae0a-4ba2fd75bf11",
+      "7e380f79-9bed-723b-a6c3-7ab56881d4c0",
+      "043144cb-6b40-768f-aac8-4ffeed557170"
+    ],
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "Chevrolet Corvair Monza GT",
+  "names": [],
+  "type": "Vehicle"
+}

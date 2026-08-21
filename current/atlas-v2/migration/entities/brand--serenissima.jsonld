@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Serenissima, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "70da8f81-1224-72c7-9a74-ae1ca6aae5e7",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Serenissima"
+    }
+  ],
+  "id": "atlas:brand:serenissima",
+  "legacy": {
+    "id": "bda45b5b-71fe-73af-8ffe-f13f82125e7b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Serenissima",
+  "names": [],
+  "type": "Brand"
+}

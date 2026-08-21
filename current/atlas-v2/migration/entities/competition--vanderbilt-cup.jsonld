@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Vanderbilt Cup é registrado no Atlas como competição automobilística, dentro da história global do automóvel. Também aparece na relação de instância de associada a 1904 Vanderbilt Cup. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:competition:vanderbilt-cup",
+  "legacy": {
+    "id": "01a01031-ec54-7765-8676-dfba2591b206",
+    "slug": null,
+    "type": "competition"
+  },
+  "metadata": {
+    "competition_type": "road_race_series",
+    "description_basis_statement_ids": [
+      "01a01031-ec55-7e92-85ef-8407e89b8f79"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial"
+  },
+  "name": "Vanderbilt Cup",
+  "names": [],
+  "type": "Series"
+}

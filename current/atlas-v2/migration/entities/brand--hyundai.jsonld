@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hyundai, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "3df77b1f-201b-760e-814f-9989cf622387",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Hyundai"
+    }
+  ],
+  "id": "atlas:brand:hyundai",
+  "legacy": {
+    "id": "c0fc7e39-3ccc-7a68-8122-11be44159607",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Hyundai",
+  "names": [],
+  "type": "Brand"
+}

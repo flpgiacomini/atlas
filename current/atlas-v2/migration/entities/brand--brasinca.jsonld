@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Brasinca, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4cd2b33b-030f-75c1-b2f1-54da0e4235e9",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Brasinca"
+    }
+  ],
+  "id": "atlas:brand:brasinca",
+  "legacy": {
+    "id": "c63ba633-f1c3-73b8-ac11-5f439b6eb13f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Brasinca",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-648702cb6de27443968030c2e928f401"
+      ],
+      "id": "atlas:claim:legacy-0d12742d75ca7d4ba6c456b4e2a1ef75",
+      "legacyId": "0d12742d-75ca-7d4b-a6c4-56b4e2a1ef75",
+      "note": "Atribuição documentada pela fonte individual R01.",
+      "object": {
+        "id": "atlas:brand:volkswagen",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "R01",
+        "verification_scope": "brand_attribution"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volkswagen-classic-mission-maximum-records-and-superlatives-from-the-world-of-volkswagen"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ce821544-3f08-7e30-8067-1362c3e1e35c",
+      "subject": "atlas:vehicle:volkswagen-w12",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Estudo superesportivo iniciado em 1997 para demonstrar a arquitetura compacta W12 desenvolvida pela Volkswagen. O motor combinava duas bancadas derivadas do VR6, permitindo doze cilindros em um conjunto curto. A evolução W12 Nardò, com chassi de fibra de carbono e motor central, foi usada em recordes de longa duração e antecipou a aplicação do W12 em automóveis de luxo do grupo.",
+  "externalIds": [
+    {
+      "id": "45a459e1-bf14-7941-85ae-4173eca83458",
+      "scheme": "atlas-significance-candidate",
+      "value": "prototype_program:1997:Volkswagen W12"
+    }
+  ],
+  "id": "atlas:vehicle:volkswagen-w12",
+  "legacy": {
+    "id": "d66f8626-b077-7053-9745-53317cfa3b25",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Volkswagen",
+    "candidate_kind": "prototype_program",
+    "candidate_year": 1997,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "DES",
+      "GEN"
+    ],
+    "description_basis_statement_ids": [
+      "ce821544-3f08-7e30-8067-1362c3e1e35c"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "waiting_media_and_second_source",
+    "relevance_score": 75,
+    "verification_batch": "R01",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-20"
+  },
+  "name": "Volkswagen W12",
+  "names": [],
+  "type": "Vehicle"
+}

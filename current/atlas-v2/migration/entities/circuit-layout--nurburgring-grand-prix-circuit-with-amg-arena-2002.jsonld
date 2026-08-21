@@ -1,0 +1,92 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5779c983855f51c22beb9d"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b70e3969f58d64ea53f38",
+      "legacyId": "01a01016-ea5b-70e3-969f-58d64ea53f38",
+      "object": {
+        "id": "atlas:circuit-layout:nurburgring-grand-prix-circuit-1984",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-anniversary-40-years-of-the-grand-prix-circuit"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-77c9-8c31-2ee5f86312c2",
+      "subject": "atlas:circuit-layout:nurburgring-grand-prix-circuit-with-amg-arena-2002",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567419a47b3010bbed98da"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b71faa71ed59bcbc3d6dc",
+      "legacyId": "01a01016-ea5b-71fa-a71e-d59bcbc3d6dc",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7699-ba8a-bf71f0781b71",
+      "subject": "atlas:circuit-layout:nurburgring-grand-prix-circuit-with-amg-arena-2002",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5673fdbc65e373517f67b9"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7dbab69b26fb3259ad84",
+      "legacyId": "01a01016-ea5b-7dba-b69b-26fb3259ad84",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-nordschleife"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7699-ba8a-bf71f0781b71",
+      "subject": "atlas:circuit-layout:nurburgring-grand-prix-circuit-with-amg-arena-2002",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nürburgring Grand Prix Circuit with AMG Arena (2002) é registrado no Atlas como configuração de circuito, dentro da história global do automóvel. A documentação registra configuração pertencente a Nürburgring. A documentação registra sucessão de Nürburgring Grand Prix Circuit (1984). Também aparece na relação de participação de associada a Grand Prix Circuit extended with AMG Arena. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:circuit-layout:nurburgring-grand-prix-circuit-with-amg-arena-2002",
+  "legacy": {
+    "id": "01a01016-ea4e-75e3-b52c-1bde5e573967",
+    "slug": null,
+    "type": "circuit_layout"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7699-ba8a-bf71f0781b71",
+      "01a01016-ea54-77c9-8c31-2ee5f86312c2",
+      "01a01016-ea54-7cf6-9efc-3b10e4f22167"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial",
+    "length_km": 5.148
+  },
+  "name": "Nürburgring Grand Prix Circuit with AMG Arena (2002)",
+  "names": [],
+  "type": "CircuitLayout"
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Honda Motor Co. é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Honda N360. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:honda-motor-co",
+  "legacy": {
+    "id": "01a01028-544c-7e05-b6bb-188cdcea4bad",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544c-7f43-b872-74e54ce0416e"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Honda Motor Co.",
+  "names": [],
+  "type": "Organization"
+}

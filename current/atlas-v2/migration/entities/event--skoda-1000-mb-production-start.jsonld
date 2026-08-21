@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285455712998fe302949c97f2d"
+      ],
+      "id": "atlas:claim:legacy-01a01028545570ebb27b45889b18dd36",
+      "legacyId": "01a01028-5455-70eb-b27b-45889b18dd36",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1964-04-11"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-55-years-of-the-skoda-1000-mb"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-7cc9-85e4-fba4ffa2cc21",
+      "subject": "atlas:event:skoda-1000-mb-production-start",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854557c4a9b1953c06e433c02"
+      ],
+      "id": "atlas:claim:legacy-01a0102854557924826542c6ccaf1d30",
+      "legacyId": "01a01028-5455-7924-8265-42c6ccaf1d30",
+      "object": {
+        "id": "atlas:vehicle:skoda-1000-mb",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-55-years-of-the-skoda-1000-mb"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5455-7e87-8b06-0aa5cbd36811",
+      "subject": "atlas:event:skoda-1000-mb-production-start",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "ŠKODA 1000 MB production start é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1964-04-11. A documentação registra participação de ŠKODA 1000 MB. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:skoda-1000-mb-production-start",
+  "legacy": {
+    "id": "01a01028-5454-7d37-913d-347be705040c",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5454-7cc9-85e4-fba4ffa2cc21",
+      "01a01028-5455-7e87-8b06-0aa5cbd36811"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "production_start",
+    "realization_status": "occurred"
+  },
+  "name": "ŠKODA 1000 MB production start",
+  "names": [],
+  "type": "Event"
+}

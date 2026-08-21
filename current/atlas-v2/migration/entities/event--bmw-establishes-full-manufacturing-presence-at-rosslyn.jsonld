@@ -1,0 +1,123 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb7c7b9393738f64943d74"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb70c0a03e9e45d23cf2af",
+      "legacyId": "01a010d9-28cb-70c0-a03e-9e45d23cf2af",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1973"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7539-bdcc-9f8fe154346d",
+      "subject": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb7ae2832cbb445488ef5b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb76a79de3ebbd9b8d1506",
+      "legacyId": "01a010d9-28cb-76a7-9de3-ebbd9b8d1506",
+      "object": {
+        "id": "atlas:organization:bmw-group",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "full_owner_manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7a37-b895-5c42d5b8cefe",
+      "subject": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cb767ab76133626fcbbb92"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cb7a5f862475e2ac908d32",
+      "legacyId": "01a010d9-28cb-7a5f-8624-75e2ac908d32",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1973"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-bmw-group-announces-investment-in-electrification-of-south-africa-s-rosslyn-plant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-7539-bdcc-9f8fe154346d",
+      "subject": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928cc7ad691842856f5f8ff3f"
+      ],
+      "id": "atlas:claim:legacy-01a010d928cc75fd9b3d0d6cc826fe56",
+      "legacyId": "01a010d9-28cc-75fd-9b3d-0d6cc826fe56",
+      "object": {
+        "id": "atlas:facility:bmw-group-plant-rosslyn",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "first_BMW_manufacturing_facility_outside_Germany"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-after-35-years-the-bmw-3-series-sedan-rolls-off-the-production-line-at-bmw-group-plant-rosslyn"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28cb-74ab-9bd6-ae99aacf74fd",
+      "subject": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "BMW establishes full manufacturing presence at Rosslyn é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de BMW Group Plant Rosslyn. A documentação registra ocorrência em 1973. A documentação registra participação de BMW Group. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
+  "legacy": {
+    "id": "01a010d9-28cb-7303-9fce-ea0dbef53522",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-74ab-9bd6-ae99aacf74fd",
+      "01a010d9-28cb-7539-bdcc-9f8fe154346d",
+      "01a010d9-28cb-7a37-b895-5c42d5b8cefe"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "corporate_facility_change",
+    "realization_status": "occurred"
+  },
+  "name": "BMW establishes full manufacturing presence at Rosslyn",
+  "names": [],
+  "type": "Event"
+}

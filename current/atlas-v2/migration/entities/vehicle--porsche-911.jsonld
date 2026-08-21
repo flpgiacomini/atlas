@@ -1,0 +1,186 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55780eb155f5648bcb66c1"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587266a9d324c97cc7a32a",
+      "legacyId": "01a01016-ea58-7266-a9d3-24c97cc7a32a",
+      "object": {
+        "id": "atlas:vehicle:porsche-356",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7b91-959b-03f1d2023dd2",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557b82a077da67f13362e7"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58733eb5a1acd9244db78b",
+      "legacyId": "01a01016-ea58-733e-b5a1-acd9244db78b",
+      "object": {
+        "id": "atlas:vehicle:porsche-356",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7b91-959b-03f1d2023dd2",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5579449240460ed2dc5132"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587379af60c3ce698cb249",
+      "legacyId": "01a01016-ea58-7379-af60-c3ce698cb249",
+      "object": {
+        "id": "atlas:vehicle:porsche-type-754-t7",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7926-a02f-445f4ab39a81",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5575f78f66f985e0d31ad2"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5873ad99331852964c6b53",
+      "legacyId": "01a01016-ea58-73ad-9933-1852964c6b53",
+      "object": {
+        "id": "atlas:person:ferdinand-piech",
+        "type": "EntityReference"
+      },
+      "predicate": "engineered-by",
+      "qualifiers": {
+        "role": "engine_development_oversight"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7f98-b3c2-d547ec2ce5c9",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557b038e6d18b9a4f13848"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5878dc9bebd69721ed8947",
+      "legacyId": "01a01016-ea58-78dc-9beb-d69721ed8947",
+      "object": {
+        "id": "atlas:person:ferdinand-alexander-porsche",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-78ef-9326-2e5bffe9409a",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5578c6b055b8c66b6f63fc"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587cf7a0f5e13ac2503ddd",
+      "legacyId": "01a01016-ea58-7cf7-a0f5-e13ac2503ddd",
+      "object": {
+        "id": "atlas:vehicle:porsche-type-754-t7",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7926-a02f-445f4ab39a81",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5578cb9005df9cbbd5bc97"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587f65b26c8f470e9ddbc5",
+      "legacyId": "01a01016-ea58-7f65-b26c-8f470e9ddbc5",
+      "object": {
+        "id": "atlas:person:ferdinand-alexander-porsche",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-78ef-9326-2e5bffe9409a",
+      "subject": "atlas:vehicle:porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Família de esportivos apresentada originalmente como Porsche 901 e rebatizada 911 em 1964. Desenvolvida como sucessora do 356, recebeu o desenho de Ferdinand Alexander Porsche e consolidou uma linhagem técnica e visual continuamente reinterpretada ao longo de oito gerações.",
+  "externalIds": [
+    {
+      "id": "01a01016-ea4d-731a-95ad-9f2f50cc38e3",
+      "scheme": "wikidata",
+      "value": "Q219357"
+    }
+  ],
+  "id": "atlas:vehicle:porsche-911",
+  "legacy": {
+    "id": "01a01016-ea4d-7c5e-960d-4d958efad5e7",
+    "slug": "porsche-911",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "E02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Porsche 911",
+  "names": [],
+  "type": "Vehicle"
+}

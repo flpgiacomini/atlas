@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ohta, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "dcd26b1f-fe41-7a24-9d8a-cd5851a6e473",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Ohta"
+    }
+  ],
+  "id": "atlas:brand:ohta",
+  "legacy": {
+    "id": "42272c80-3b0c-717d-8e93-7d39e818ca4d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Ohta",
+  "names": [],
+  "type": "Brand"
+}

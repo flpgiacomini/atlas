@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Auburn, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "4875f65a-6061-74a2-9fac-efab311ce5ed",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Auburn"
+    }
+  ],
+  "id": "atlas:brand:auburn",
+  "legacy": {
+    "id": "e77d8a98-06cb-76e0-b7a4-818b4ff269bf",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Auburn",
+  "names": [],
+  "type": "Brand"
+}

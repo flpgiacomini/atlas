@@ -1,0 +1,122 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557d7abb98acf63d455859"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597125944a2f36cb84abae",
+      "legacyId": "01a01016-ea59-7125-944a-2f36cb84abae",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1963-09-12"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7177-b517-3e26eee9a1aa",
+      "subject": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55704ca9b3344a41006402"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5971edbeda4ceaa50505f6",
+      "legacyId": "01a01016-ea59-71ed-beda-4ceaa50505f6",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "presented_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-71b1-b7e8-f26f91059066",
+      "subject": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5574f0bf0a01f78e4d7786"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59790b82b5ecb628d0589a",
+      "legacyId": "01a01016-ea59-790b-82b5-ecb628d0589a",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1963-09-12"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7177-b517-3e26eee9a1aa",
+      "subject": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557fe2a6781e3f7e2753e5"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597963a130983ff9461ba4",
+      "legacyId": "01a01016-ea59-7963-a130-983ff9461ba4",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "presented_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-71b1-b7e8-f26f91059066",
+      "subject": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "World premiere of Porsche 901 at IAA Frankfurt 1963 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1963-09-12. A documentação registra participação de Porsche 911 Original. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
+  "legacy": {
+    "id": "01a01016-ea4d-77a9-bf4a-7e2202142dba",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-7177-b517-3e26eee9a1aa",
+      "01a01016-ea51-71b1-b7e8-f26f91059066"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "World premiere of Porsche 901 at IAA Frankfurt 1963",
+  "names": [],
+  "type": "Event"
+}

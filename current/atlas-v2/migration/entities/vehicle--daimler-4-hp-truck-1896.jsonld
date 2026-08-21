@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074f7f9e8f7ee3cbd1f955e2"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074f7caab47cfdb02fd7c584",
+      "legacyId": "01a0102f-074f-7caa-b47c-fdb02fd7c584",
+      "object": {
+        "id": "atlas:organization:daimler-motoren-gesellschaft",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-first-motorized-truck-delivered-to-london"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074f-73ee-a695-95354dd932a2",
+      "subject": "atlas:vehicle:daimler-4-hp-truck-1896",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074f7fa89e87d7e772149c5a"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074f7dbbbcb75e5e631b08df",
+      "legacyId": "01a0102f-074f-7dbb-bcb7-5e5e631b08df",
+      "object": {
+        "id": "atlas:organization:daimler-motoren-gesellschaft",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-daimler-business-vehicles-and-trucks-1896-1899"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074f-73ee-a695-95354dd932a2",
+      "subject": "atlas:vehicle:daimler-4-hp-truck-1896",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Daimler 4 hp truck (1896) é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Daimler-Motoren-Gesellschaft. Também aparece na relação de participação de associada a First Daimler motorized truck delivered to London. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:daimler-4-hp-truck-1896",
+  "legacy": {
+    "id": "01a0102f-074f-7c84-ab96-be3c346436ac",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074f-73ee-a695-95354dd932a2",
+      "01a0102f-0750-7ea0-9bd0-535b422435cb"
+    ],
+    "documented_payload_kg": 1500,
+    "documented_power_hp": 4,
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "commercial",
+    "vehicle_level": "standalone"
+  },
+  "name": "Daimler 4 hp truck (1896)",
+  "names": [],
+  "type": "Vehicle"
+}

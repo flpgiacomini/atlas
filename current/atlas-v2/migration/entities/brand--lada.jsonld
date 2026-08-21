@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lada, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "6d6e8192-cd72-7350-b52e-d208cad6d177",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Lada"
+    }
+  ],
+  "id": "atlas:brand:lada",
+  "legacy": {
+    "id": "a110e5dc-a566-70dc-8cba-17629908bdeb",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Lada",
+  "names": [],
+  "type": "Brand"
+}

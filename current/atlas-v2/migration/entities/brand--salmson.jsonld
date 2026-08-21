@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Salmson, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "de0b21ea-41f2-7cfa-9222-1f8b7e1c7b5d",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Salmson"
+    }
+  ],
+  "id": "atlas:brand:salmson",
+  "legacy": {
+    "id": "a75b31ec-90c0-7801-a9e9-dcd23223f60e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Salmson",
+  "names": [],
+  "type": "Brand"
+}

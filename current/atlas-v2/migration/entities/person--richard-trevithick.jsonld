@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-47069e6555e57402a0392e9651f39750"
+      ],
+      "id": "atlas:claim:legacy-49bdaf0d57197234af604bd12a5cac6b",
+      "legacyId": "49bdaf0d-5719-7234-af60-4bd12a5cac6b",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1771"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "31f6ff4f-ffe9-7e33-b3d6-7f0f7a3feb6b",
+      "subject": "atlas:person:richard-trevithick",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-18ed81afe3ff73a1a733c2d581ad1b28"
+      ],
+      "id": "atlas:claim:legacy-aded8b2f181b7d269df87eaaf0c07fc5",
+      "legacyId": "aded8b2f-181b-7d26-9df8-7eaaf0c07fc5",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1833"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e6255cb5-8448-7335-bdc2-1e4a2a159598",
+      "subject": "atlas:person:richard-trevithick",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro britânico que desenvolveu motores compactos de vapor de alta pressão e os aplicou a veículos rodoviários entre 1801 e 1803. Seus ensaios demonstraram a possibilidade de maior relação entre potência e massa, embora sem continuidade comercial estável.",
+  "id": "atlas:person:richard-trevithick",
+  "legacy": {
+    "id": "fb7bb917-70fd-7745-a550-1f75e32c4965",
+    "slug": "richard-trevithick",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Richard Trevithick",
+  "names": [],
+  "type": "Person"
+}

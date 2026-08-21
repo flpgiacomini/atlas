@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Marcos, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "62bbaa82-b3e1-7be5-8f50-4ad4e31d71e8",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Marcos"
+    }
+  ],
+  "id": "atlas:brand:marcos",
+  "legacy": {
+    "id": "d95a861d-5b80-7d65-b2c1-bb986f33ecba",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Marcos",
+  "names": [],
+  "type": "Brand"
+}

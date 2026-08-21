@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Siam Di Tella, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d13f2446-8622-7f4d-a46c-1fe174301736",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Siam Di Tella"
+    }
+  ],
+  "id": "atlas:brand:siam-di-tella",
+  "legacy": {
+    "id": "34cbc671-9bc2-7fe2-bda2-c011c85ff7bd",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Siam Di Tella",
+  "names": [],
+  "type": "Brand"
+}

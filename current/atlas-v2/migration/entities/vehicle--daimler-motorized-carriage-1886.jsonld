@@ -1,0 +1,96 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e674abbd3aaf994b6f0f7e"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e673078305867e5b926779",
+      "legacyId": "01a0102a-57e6-7307-8305-867e5b926779",
+      "object": {
+        "id": "atlas:person:gottlieb-daimler",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-daimler-receives-carriage-to-be-fitted-with-his-high-speed-engine"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e6-76c3-b700-053a56dc87a8",
+      "subject": "atlas:vehicle:daimler-motorized-carriage-1886",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e679fea13451f336db0368"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e675abb5861804c4cfbc1d",
+      "legacyId": "01a0102a-57e6-75ab-b586-1804c4cfbc1d",
+      "object": {
+        "id": "atlas:person:wilhelm-maybach",
+        "type": "EntityReference"
+      },
+      "predicate": "engineered-by",
+      "qualifiers": {
+        "role": "engine_and_steering_installation_supervision"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-daimler-receives-carriage-to-be-fitted-with-his-high-speed-engine"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e6-7521-9998-b2ea65b7ab4a",
+      "subject": "atlas:vehicle:daimler-motorized-carriage-1886",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e6792ebd97604d8fe79b3d"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e67632a1959e2a58dc4b7a",
+      "legacyId": "01a0102a-57e6-7632-a195-9e2a58dc4b7a",
+      "object": {
+        "id": "atlas:person:gottlieb-daimler",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-1886"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e6-76c3-b700-053a56dc87a8",
+      "subject": "atlas:vehicle:daimler-motorized-carriage-1886",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Daimler Motorized Carriage (1886) é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Daimler Motorized Carriage completed. A documentação registra engenharia por Wilhelm Maybach. A documentação registra responsabilidade de projeto de Gottlieb Daimler. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:daimler-motorized-carriage-1886",
+  "legacy": {
+    "id": "01a0102a-57e6-7bf9-bfc6-18f4a1d390bc",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e6-7032-b08c-7842b84d0133",
+      "01a0102a-57e6-7521-9998-b2ea65b7ab4a",
+      "01a0102a-57e6-76c3-b700-053a56dc87a8"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "standalone"
+  },
+  "name": "Daimler Motorized Carriage (1886)",
+  "names": [],
+  "type": "Vehicle"
+}

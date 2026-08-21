@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Iran Khodro, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e2bcebf4-2015-766f-aab6-dae07238fa07",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Iran Khodro"
+    }
+  ],
+  "id": "atlas:brand:iran-khodro",
+  "legacy": {
+    "id": "42811071-1737-7ba9-8422-a10849754062",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Iran Khodro",
+  "names": [],
+  "type": "Brand"
+}

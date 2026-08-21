@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de OM, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "79c7dc3e-e4ea-71ea-8994-80bc1bf87ea5",
+      "scheme": "atlas-brand-census",
+      "value": "M04:OM"
+    }
+  ],
+  "id": "atlas:brand:om",
+  "legacy": {
+    "id": "698ef6d4-39b3-7a67-8483-1e6baa045cf3",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "OM",
+  "names": [],
+  "type": "Brand"
+}

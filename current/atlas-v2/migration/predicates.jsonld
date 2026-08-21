@@ -1,0 +1,963 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "items": [
+    {
+      "description": "Engineering responsibility",
+      "id": "atlas:predicate:engineered-by",
+      "legacyId": "01a01016-ea4b-7088-a21c-4e8392f5e37f",
+      "name": "engineered_by",
+      "objectTypes": [
+        "person",
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component",
+        "technology"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Organization responsible for manufacture",
+      "id": "atlas:predicate:manufactured-by",
+      "legacyId": "01a01016-ea4b-708c-a51d-cd5b18977547",
+      "name": "manufactured_by",
+      "objectTypes": [
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Season belongs to competition",
+      "id": "atlas:predicate:season-of",
+      "legacyId": "01a01016-ea4b-70a4-9a66-7f67a1472cee",
+      "name": "season_of",
+      "objectTypes": [
+        "competition"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "season"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Genealogical/historical successor",
+      "id": "atlas:predicate:successor-of",
+      "legacyId": "01a01016-ea4b-70da-a430-5ad479eb5476",
+      "name": "successor_of",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "circuit_layout",
+        "organization",
+        "brand"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented platform sharing",
+      "id": "atlas:predicate:shares-platform-with",
+      "legacyId": "01a01016-ea4b-70f7-9dab-d78a08d1c41e",
+      "name": "shares_platform_with",
+      "objectTypes": [
+        "vehicle"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle"
+      ],
+      "symmetric": true,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Event belongs to competition season",
+      "id": "atlas:predicate:part-of-season",
+      "legacyId": "01a01016-ea4b-7156-8450-18cbd0493e14",
+      "name": "part_of_season",
+      "objectTypes": [
+        "season"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented widespread popularization",
+      "id": "atlas:predicate:popularized-by",
+      "legacyId": "01a01016-ea4b-71bd-adad-e6fa5a849419",
+      "name": "popularized_by",
+      "objectTypes": [
+        "vehicle",
+        "organization",
+        "person"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "technology"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Event introduced technology/vehicle feature",
+      "id": "atlas:predicate:introduced-feature",
+      "legacyId": "01a01016-ea4b-7294-8d48-3e6b5b8cdac7",
+      "name": "introduced_feature",
+      "objectTypes": [
+        "technology",
+        "vehicle"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Historical invention relationship",
+      "id": "atlas:predicate:invented-by",
+      "legacyId": "01a01016-ea4b-72a1-bca9-83ab4675734d",
+      "name": "invented_by",
+      "objectTypes": [
+        "person"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "technology",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Circuit layout belongs to circuit",
+      "id": "atlas:predicate:layout-of",
+      "legacyId": "01a01016-ea4b-72ae-aecc-1c41af0760b5",
+      "name": "layout_of",
+      "objectTypes": [
+        "circuit"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "circuit_layout"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Founder relationship",
+      "id": "atlas:predicate:founded-by",
+      "legacyId": "01a01016-ea4b-7337-b45b-f10843ef18d9",
+      "name": "founded_by",
+      "objectTypes": [
+        "person"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "organization",
+        "brand"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Event held at circuit/place",
+      "id": "atlas:predicate:held-at",
+      "legacyId": "01a01016-ea4b-734f-b297-fc09a6e21a49",
+      "name": "held_at",
+      "objectTypes": [
+        "circuit",
+        "place"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented collaboration",
+      "id": "atlas:predicate:collaborated-with",
+      "legacyId": "01a01016-ea4b-7380-b8c8-1c491da096a0",
+      "name": "collaborated_with",
+      "objectTypes": [
+        "person",
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "person",
+        "organization"
+      ],
+      "symmetric": true,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Facility at which a vehicle/component was produced",
+      "id": "atlas:predicate:produced-at",
+      "legacyId": "01a01016-ea4b-7460-8672-e98b8f21ffdb",
+      "name": "produced_at",
+      "objectTypes": [
+        "facility"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Vehicle represented by motorsport entry",
+      "id": "atlas:predicate:entered-vehicle",
+      "legacyId": "01a01016-ea4b-7474-b5e4-4c0bd661e4d5",
+      "name": "entered_vehicle",
+      "objectTypes": [
+        "vehicle"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Geographical containment/location",
+      "id": "atlas:predicate:located-in",
+      "legacyId": "01a01016-ea4b-74a4-a4a6-d83e036cf714",
+      "name": "located_in",
+      "objectTypes": [
+        "place"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "facility",
+        "circuit",
+        "organization",
+        "place",
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Physical vehicle/chassis represented by entry",
+      "id": "atlas:predicate:entered-instance",
+      "legacyId": "01a01016-ea4b-74d3-8bfe-78adcef03284",
+      "name": "entered_instance",
+      "objectTypes": [
+        "vehicle_instance"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Overall finishing position",
+      "id": "atlas:predicate:overall-position",
+      "legacyId": "01a01016-ea4b-74e9-bc76-d9cb4aaa1eba",
+      "name": "overall_position",
+      "objectTypes": [
+        "number"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Place of founding",
+      "id": "atlas:predicate:founded-in",
+      "legacyId": "01a01016-ea4b-74fe-86e6-abbd1ecdc0b7",
+      "name": "founded_in",
+      "objectTypes": [
+        "place"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "organization",
+        "brand"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Team/entrant responsible for entry",
+      "id": "atlas:predicate:entered-by",
+      "legacyId": "01a01016-ea4b-751a-a972-95032d3fc6a3",
+      "name": "entered_by",
+      "objectTypes": [
+        "team",
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Interval of event occurrence",
+      "id": "atlas:predicate:occurred-during",
+      "legacyId": "01a01016-ea4b-752d-92aa-bc3d0f464404",
+      "name": "occurred_during",
+      "objectTypes": [
+        "date"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Structural membership in a broader entity",
+      "id": "atlas:predicate:part-of",
+      "legacyId": "01a01016-ea4b-7552-8132-cd1d2671513c",
+      "name": "part_of",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "season",
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Governed by regulation",
+      "id": "atlas:predicate:governed-by",
+      "legacyId": "01a01016-ea4b-75e1-a5fa-d3ac6e0169b9",
+      "name": "governed_by",
+      "objectTypes": [
+        "regulation"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "competition",
+        "season",
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Developed or derived from another entity",
+      "id": "atlas:predicate:derived-from",
+      "legacyId": "01a01016-ea4b-768d-a7b3-bc7635ef0573",
+      "name": "derived_from",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component",
+        "technology"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Regulation required technology/component",
+      "id": "atlas:predicate:required",
+      "legacyId": "01a01016-ea4b-7695-88ea-4846e1138069",
+      "name": "required",
+      "objectTypes": [
+        "technology",
+        "component"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "regulation"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Development responsibility",
+      "id": "atlas:predicate:developed-by",
+      "legacyId": "01a01016-ea4b-77bd-81a8-52b2d45be79c",
+      "name": "developed_by",
+      "objectTypes": [
+        "person",
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "technology",
+        "component",
+        "vehicle"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Employment/work relationship",
+      "id": "atlas:predicate:worked-at",
+      "legacyId": "01a01016-ea4b-7806-83da-778763f95590",
+      "name": "worked_at",
+      "objectTypes": [
+        "organization",
+        "team"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "person"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Brand under which a vehicle is marketed",
+      "id": "atlas:predicate:marketed-under",
+      "legacyId": "01a01016-ea4b-780f-9a2e-e02471548da5",
+      "name": "marketed_under",
+      "objectTypes": [
+        "brand"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Generic event participant",
+      "id": "atlas:predicate:involved",
+      "legacyId": "01a01016-ea4b-7878-9149-024fc6b79081",
+      "name": "involved",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented historically significant effect",
+      "id": "atlas:predicate:affected",
+      "legacyId": "01a01016-ea4b-7903-be28-603281a3dbf5",
+      "name": "affected",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event",
+        "regulation"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Leadership relationship",
+      "id": "atlas:predicate:led",
+      "legacyId": "01a01016-ea4b-794f-94e1-fe0f35d711c4",
+      "name": "led",
+      "objectTypes": [
+        "organization",
+        "team"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "person"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Corporate subsidiary relationship",
+      "id": "atlas:predicate:subsidiary-of",
+      "legacyId": "01a01016-ea4b-7975-9b26-1c7791267aeb",
+      "name": "subsidiary_of",
+      "objectTypes": [
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "organization"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented influence without direct technical derivation",
+      "id": "atlas:predicate:inspired-by",
+      "legacyId": "01a01016-ea4b-79a8-a04d-28d6242792b6",
+      "name": "inspired_by",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "technology",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Design authorship/responsibility",
+      "id": "atlas:predicate:designed-by",
+      "legacyId": "01a01016-ea4b-79af-aa4a-a9ed796b66c7",
+      "name": "designed_by",
+      "objectTypes": [
+        "person",
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Entry result/status",
+      "id": "atlas:predicate:entry-status",
+      "legacyId": "01a01016-ea4b-79c6-b8fd-27f370b1884f",
+      "name": "entry_status",
+      "objectTypes": [
+        "string"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Event resulted in entity/event",
+      "id": "atlas:predicate:resulted-in",
+      "legacyId": "01a01016-ea4b-79fb-b2f3-761c38264b75",
+      "name": "resulted_in",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Vehicle instance configured as a variant/configuration",
+      "id": "atlas:predicate:configured-as",
+      "legacyId": "01a01016-ea4b-7a18-b4cb-e810128c72f2",
+      "name": "configured_as",
+      "objectTypes": [
+        "vehicle"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle_instance"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Regulation prohibited technology/component",
+      "id": "atlas:predicate:prohibited",
+      "legacyId": "01a01016-ea4b-7a24-aacb-d3fab4bf9b4f",
+      "name": "prohibited",
+      "objectTypes": [
+        "technology",
+        "component"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "regulation"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Uses a technology/concept",
+      "id": "atlas:predicate:uses-technology",
+      "legacyId": "01a01016-ea4b-7a96-ae31-348bcb353dd9",
+      "name": "uses_technology",
+      "objectTypes": [
+        "technology"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component",
+        "facility"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Regulation restricted technology/component",
+      "id": "atlas:predicate:restricted",
+      "legacyId": "01a01016-ea4b-7b1d-8121-21d3f29cff95",
+      "name": "restricted",
+      "objectTypes": [
+        "technology",
+        "component"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "regulation"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Point/date of event occurrence",
+      "id": "atlas:predicate:occurred-on",
+      "legacyId": "01a01016-ea4b-7b80-bd7b-e12719b0f7ff",
+      "name": "occurred_on",
+      "objectTypes": [
+        "date"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Operator relationship",
+      "id": "atlas:predicate:operated-by",
+      "legacyId": "01a01016-ea4b-7bae-a070-b4b1ac107b3f",
+      "name": "operated_by",
+      "objectTypes": [
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "facility",
+        "circuit",
+        "team"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Event used circuit layout",
+      "id": "atlas:predicate:used-layout",
+      "legacyId": "01a01016-ea4b-7bd8-859d-da0df59a86ff",
+      "name": "used_layout",
+      "objectTypes": [
+        "circuit_layout"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Uses manufacturing technology/process",
+      "id": "atlas:predicate:manufactured-using",
+      "legacyId": "01a01016-ea4b-7bfc-af29-ca4752d62718",
+      "name": "manufactured_using",
+      "objectTypes": [
+        "technology"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Driver for motorsport entry",
+      "id": "atlas:predicate:driven-by",
+      "legacyId": "01a01016-ea4b-7c10-8f63-f754e2a0c67b",
+      "name": "driven_by",
+      "objectTypes": [
+        "person"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Uses a concrete component",
+      "id": "atlas:predicate:uses-component",
+      "legacyId": "01a01016-ea4b-7c5d-9c35-04f9076d8e8a",
+      "name": "uses_component",
+      "objectTypes": [
+        "component"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Direct technical/structural basis",
+      "id": "atlas:predicate:based-on",
+      "legacyId": "01a01016-ea4b-7c8a-a73a-44b38066529a",
+      "name": "based_on",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Physical/contextual instance of another entity",
+      "id": "atlas:predicate:instance-of",
+      "legacyId": "01a01016-ea4b-7daf-b98e-737d2c47453a",
+      "name": "instance_of",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle_instance",
+        "event"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Entry belongs to motorsport event",
+      "id": "atlas:predicate:entry-for-event",
+      "legacyId": "01a01016-ea4b-7e43-8b44-2d8079654a15",
+      "name": "entry_for_event",
+      "objectTypes": [
+        "event"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Competition number used by entry",
+      "id": "atlas:predicate:start-number",
+      "legacyId": "01a01016-ea4b-7e8a-933d-4ab4da065a5a",
+      "name": "start_number",
+      "objectTypes": [
+        "string"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "entry"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Important introduction/application",
+      "id": "atlas:predicate:introduced-by",
+      "legacyId": "01a01016-ea4b-7f37-a550-13949ce87be9",
+      "name": "introduced_by",
+      "objectTypes": [
+        "vehicle",
+        "organization",
+        "person"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "technology",
+        "component"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Ownership/control relationship",
+      "id": "atlas:predicate:owned-by",
+      "legacyId": "01a01016-ea4b-7f38-a4cb-6d13d1ee02f1",
+      "name": "owned_by",
+      "objectTypes": [
+        "organization"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "brand",
+        "organization",
+        "facility"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "recommended",
+      "type": "Predicate"
+    },
+    {
+      "description": "Intentional revival of historical identity",
+      "id": "atlas:predicate:revival-of",
+      "legacyId": "01a01016-ea4b-7f52-ad96-74bfb822a59f",
+      "name": "revival_of",
+      "objectTypes": [
+        "entity"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "vehicle",
+        "brand",
+        "organization"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Migrated pilot predicate; review required.",
+      "id": "atlas:predicate:used-technology",
+      "legacyId": "01a01016-ea4f-7186-a15e-431dfefae07b",
+      "name": "used_technology",
+      "objectTypes": [
+        "entity",
+        "string",
+        "date",
+        "number",
+        "quantity",
+        "boolean"
+      ],
+      "status": "provisional",
+      "subjectTypes": [
+        "entity"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "optional",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented date of birth",
+      "id": "atlas:predicate:born-on",
+      "legacyId": "01a01100-0001-7000-8000-000000000001",
+      "name": "born_on",
+      "objectTypes": [
+        "date"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "person"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    },
+    {
+      "description": "Documented date of death",
+      "id": "atlas:predicate:died-on",
+      "legacyId": "01a01100-0001-7000-8000-000000000002",
+      "name": "died_on",
+      "objectTypes": [
+        "date"
+      ],
+      "status": "active",
+      "subjectTypes": [
+        "person"
+      ],
+      "symmetric": false,
+      "temporalPolicy": "none",
+      "type": "Predicate"
+    }
+  ],
+  "type": "PredicateCollection"
+}

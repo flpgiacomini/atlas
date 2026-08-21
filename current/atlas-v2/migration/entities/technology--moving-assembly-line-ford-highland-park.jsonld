@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Moving assembly line — Ford Highland Park é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de introdução do recurso associada a Ford moving assembly line adopted at Highland Park. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:moving-assembly-line-ford-highland-park",
+  "legacy": {
+    "id": "01a0102a-57ed-71a8-830b-ba54758fe885",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ed-70c2-8d2c-65911034e8ee"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "manufacturing"
+  },
+  "name": "Moving assembly line — Ford Highland Park",
+  "names": [],
+  "type": "Technology"
+}

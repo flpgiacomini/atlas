@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Wallyscar, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2826ceb1-e547-7ea3-a0c4-138ba136a344",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Wallyscar"
+    }
+  ],
+  "id": "atlas:brand:wallyscar",
+  "legacy": {
+    "id": "88be998a-c96a-714f-b4e8-4f8e3afd94e2",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Wallyscar",
+  "names": [],
+  "type": "Brand"
+}

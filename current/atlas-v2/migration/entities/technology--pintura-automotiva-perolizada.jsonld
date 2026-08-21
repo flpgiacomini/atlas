@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Acabamento que incorpora partículas de efeito para produzir brilho e variação visual na pintura. A Ford registra o Futura de 1955 como um marco inicial de apresentação pública da técnica, então obtida com pérolas trituradas adicionadas ao revestimento.",
+  "id": "atlas:technology:pintura-automotiva-perolizada",
+  "legacy": {
+    "id": "ec4c91ab-91df-7967-8040-092ae713d009",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "technology_category": "materials and finish"
+  },
+  "name": "Pintura automotiva perolizada",
+  "names": [],
+  "type": "Technology"
+}

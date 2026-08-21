@@ -1,0 +1,93 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f07487bc090633535dcb34774"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074870cbb4f6cb5d671ead64",
+      "legacyId": "01a0102f-0748-70cb-b4f6-cb5d671ead64",
+      "object": {
+        "id": "atlas:person:louis-renault",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-bespoke-mobility-designed-with-you-in-mind"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0748-7210-8967-9605808ee9b1",
+      "subject": "atlas:vehicle:renault-type-a",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f0748754383f3e609c4e16dc6"
+      ],
+      "id": "atlas:claim:legacy-01a0102f0748747eaa2fc5ea72b96ee4",
+      "legacyId": "01a0102f-0748-747e-aa2f-c5ea72b96ee4",
+      "object": {
+        "id": "atlas:technology:renault-direct-drive-dog-clutch-gearbox",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-the-dogbox-a-key-choice-for-renault-e-tech-full-hybrid-powertrains"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0748-7405-9046-ee477f2eb75e",
+      "subject": "atlas:vehicle:renault-type-a",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074879e098ec90c92a5499df"
+      ],
+      "id": "atlas:claim:legacy-01a0102f0748757db73191c530fc6698",
+      "legacyId": "01a0102f-0748-757d-b731-91c530fc6698",
+      "object": {
+        "id": "atlas:person:louis-renault",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-the-dogbox-a-key-choice-for-renault-e-tech-full-hybrid-powertrains"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0748-7210-8967-9605808ee9b1",
+      "subject": "atlas:vehicle:renault-type-a",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Renault Type A é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra responsabilidade de projeto de Louis Renault. A documentação registra uso da tecnologia Renault direct-drive dog-clutch gearbox. Também aparece na relação de participação de associada a Louis Renault drives Type A up rue Lepic. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:renault-type-a",
+  "legacy": {
+    "id": "01a0102f-0747-7a09-96ad-67d528294ef0",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-0748-7210-8967-9605808ee9b1",
+      "01a0102f-0748-7405-9046-ee477f2eb75e",
+      "01a0102f-0749-7383-beb1-4b1cd9bd8c70"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Renault Type A",
+  "names": [],
+  "type": "Vehicle"
+}

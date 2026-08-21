@@ -1,0 +1,54 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547c958a0090f0e37679a7"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577586a78f97245a510e19",
+      "legacyId": "01a01016-ea57-7586-a78f-97245a510e19",
+      "object": {
+        "id": "atlas:technology:moving-assembly-line",
+        "type": "EntityReference"
+      },
+      "predicate": "used-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7ef8-b0eb-2087f6f7d54d",
+      "subject": "atlas:facility:ford-highland-park-plant",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1913-10",
+        "precision": "month",
+        "until": null
+      }
+    }
+  ],
+  "description": "Ford Highland Park Plant é registrado no Atlas como instalação industrial, dentro da história global do automóvel. Também aparece na relação de participação de associada a Moving assembly line first operated for automobiles at Highland Park. Também aparece na relação de participação de associada a Model T production moved to Highland Park. Também aparece na relação de produção em associada a Ford Model T. A documentação registra uso da tecnologia Moving assembly line. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:facility:ford-highland-park-plant",
+  "legacy": {
+    "id": "01a01016-ea4d-7efc-a092-49e059f1f4a7",
+    "slug": null,
+    "type": "facility"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-70b2-b964-f1db1179e364",
+      "01a01016-ea50-7300-8000-595eb2b5e0fd",
+      "01a01016-ea50-79ba-bbfa-ca50fb10ceb7",
+      "01a01016-ea50-7ef8-b0eb-2087f6f7d54d"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "facility_type": "factory"
+  },
+  "name": "Ford Highland Park Plant",
+  "names": [],
+  "type": "Facility"
+}

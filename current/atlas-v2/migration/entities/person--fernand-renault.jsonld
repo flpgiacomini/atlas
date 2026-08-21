@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e6cd4421d18c76ff8ba7ab7fa4c94ade"
+      ],
+      "id": "atlas:claim:legacy-99b2a388a9eb73b39cb9e7ae315b1b10",
+      "legacyId": "99b2a388-a9eb-73b3-9cb9-e7ae315b1b10",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1909-03-22"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q729431"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "58603554-c521-764f-8ae6-c87404962f10",
+      "subject": "atlas:person:fernand-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-f5309074c0dd7e2aa405b3549cf873b5"
+      ],
+      "id": "atlas:claim:legacy-c4de4d5a85907807bba9cd03de990f40",
+      "legacyId": "c4de4d5a-8590-7807-bba9-cd03de990f40",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1864-11-28"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q729431"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "a9cfbc7b-b3bf-7c5f-a64b-ab86f63daaf4",
+      "subject": "atlas:person:fernand-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Empresário francês que fundou a Renault Frères com os irmãos Louis e Marcel. Atuou na organização comercial e industrial da companhia durante sua fase pioneira, quando os primeiros veículos Renault ganharam mercado e participaram de competições.",
+  "id": "atlas:person:fernand-renault",
+  "legacy": {
+    "id": "01a0102a-57e8-7b53-b434-2f603c11af78",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "entrepreneur"
+    ]
+  },
+  "name": "Fernand Renault",
+  "names": [],
+  "type": "Person"
+}

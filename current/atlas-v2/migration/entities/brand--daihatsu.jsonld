@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Daihatsu, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5537b823-5d2c-78c3-aeba-675a8525b38a",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Daihatsu"
+    }
+  ],
+  "id": "atlas:brand:daihatsu",
+  "legacy": {
+    "id": "ee177876-ac4a-7c60-b4da-5711afe95288",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Daihatsu",
+  "names": [],
+  "type": "Brand"
+}

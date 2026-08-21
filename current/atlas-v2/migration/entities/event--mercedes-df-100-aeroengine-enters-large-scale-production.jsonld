@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec597db696693dea3d4419a1"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec59718da8c612c2ca9f7eb3",
+      "legacyId": "01a01031-ec59-718d-a8c6-12c2ca9f7eb3",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1914-08"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-df-100-aeroengine-goes-into-large-scale-production"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec59-79b5-a80b-f8755217ea41",
+      "subject": "atlas:event:mercedes-df-100-aeroengine-enters-large-scale-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5976f9afc177a722cec578"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5971989e64743c36026723",
+      "legacyId": "01a01031-ec59-7198-9e64-743c36026723",
+      "object": {
+        "id": "atlas:organization:daimler-motoren-gesellschaft",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-df-100-aeroengine-goes-into-large-scale-production"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec59-79f7-a870-d4083e43f250",
+      "subject": "atlas:event:mercedes-df-100-aeroengine-enters-large-scale-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec597ebcbb5346276b4747ec"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec597c22b1a5ccb0ebfb9921",
+      "legacyId": "01a01031-ec59-7c22-b1a5-ccb0ebfb9921",
+      "object": {
+        "id": "atlas:component:mercedes-df-100-aeroengine",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "mass_produced_aeroengine"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-df-100-aeroengine-goes-into-large-scale-production"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec59-7815-9d14-c267f51343bb",
+      "subject": "atlas:event:mercedes-df-100-aeroengine-enters-large-scale-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mercedes DF 100 aeroengine enters large-scale production é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Mercedes DF 100 aeroengine. A documentação registra ocorrência em 1914-08. A documentação registra participação de Daimler-Motoren-Gesellschaft. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:mercedes-df-100-aeroengine-enters-large-scale-production",
+  "legacy": {
+    "id": "01a01031-ec59-7536-945e-654d75ddae61",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec59-7815-9d14-c267f51343bb",
+      "01a01031-ec59-79b5-a80b-f8755217ea41",
+      "01a01031-ec59-79f7-a870-d4083e43f250"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "wartime_production_shift",
+    "realization_status": "occurred"
+  },
+  "name": "Mercedes DF 100 aeroengine enters large-scale production",
+  "names": [],
+  "type": "Event"
+}

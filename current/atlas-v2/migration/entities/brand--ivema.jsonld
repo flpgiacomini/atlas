@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de IVEMA, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a1e4dd37-1e8b-7ac4-a164-ff7cda798628",
+      "scheme": "atlas-brand-census",
+      "value": "M12:IVEMA"
+    }
+  ],
+  "id": "atlas:brand:ivema",
+  "legacy": {
+    "id": "12b282b3-1ac4-77a8-98a7-43de78a1c72d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "IVEMA",
+  "names": [],
+  "type": "Brand"
+}

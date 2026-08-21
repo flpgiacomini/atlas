@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca7d5da535a42626dd8ddc"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca72d198562662c2c990c5",
+      "legacyId": "01a010d9-28ca-72d1-9856-2662c2c990c5",
+      "object": {
+        "id": "atlas:vehicle:byd-f3dm",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:byd-about-byd"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-7041-8517-b5d36d1565bf",
+      "subject": "atlas:event:byd-f3dm-market-launch-in-shenzhen",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928ca7345852c7b52d3976aea"
+      ],
+      "id": "atlas:claim:legacy-01a010d928ca7a3f82781515845d7dbf",
+      "legacyId": "01a010d9-28ca-7a3f-8278-1515845d7dbf",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2008-12-15"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:byd-about-byd"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28ca-7634-b107-b8f8c4514637",
+      "subject": "atlas:event:byd-f3dm-market-launch-in-shenzhen",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "BYD F3DM market launch in Shenzhen é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de BYD F3DM. A documentação registra ocorrência em 2008-12-15. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:byd-f3dm-market-launch-in-shenzhen",
+  "legacy": {
+    "id": "01a010d9-28ca-7762-8d30-af4b0193d715",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28ca-7041-8517-b5d36d1565bf",
+      "01a010d9-28ca-7634-b107-b8f8c4514637"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "BYD F3DM market launch in Shenzhen",
+  "names": [],
+  "type": "Event"
+}

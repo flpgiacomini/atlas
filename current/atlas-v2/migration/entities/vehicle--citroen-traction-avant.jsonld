@@ -1,0 +1,94 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c27b4c91786e253ffade26"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c2732c85cc236d08af8ea4",
+      "legacyId": "01a010d9-28c2-732c-85cc-236d08af8ea4",
+      "object": {
+        "id": "atlas:brand:citroen",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:citroen-stellantis-citroen-celebrates-90-years-of-the-traction-avant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c2-7c4e-8968-b6e47a0ed5e2",
+      "subject": "atlas:vehicle:citroen-traction-avant",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c274c9b8deeef21943c487"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c27455af1dbc7d5222c73c",
+      "legacyId": "01a010d9-28c2-7455-af1d-bc7d5222c73c",
+      "object": {
+        "id": "atlas:technology:front-wheel-drive-passenger-car-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:citroen-stellantis-citroen-celebrates-90-years-of-the-traction-avant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c2-7c0b-9e33-fd107902369e",
+      "subject": "atlas:vehicle:citroen-traction-avant",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c27171b8bd05ba32e8f8b7"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c27dd8a1975871d400f86e",
+      "legacyId": "01a010d9-28c2-7dd8-a197-5871d400f86e",
+      "object": {
+        "id": "atlas:technology:mass-produced-monocoque-passenger-car-construction",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:citroen-stellantis-citroen-celebrates-90-years-of-the-traction-avant"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c2-773b-adfe-9a0150053efa",
+      "subject": "atlas:vehicle:citroen-traction-avant",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Citroën Traction Avant é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Mass-produced monocoque passenger-car construction. A documentação registra uso da tecnologia Front-wheel drive passenger-car architecture. A documentação registra comercialização sob Citroën. Também aparece na relação de participação de associada a Citroën Traction Avant presentation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:citroen-traction-avant",
+  "legacy": {
+    "id": "01a010d9-28c2-7267-a8d7-a33f486f0be7",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c2-773b-adfe-9a0150053efa",
+      "01a010d9-28c2-7c0b-9e33-fd107902369e",
+      "01a010d9-28c2-7c4e-8968-b6e47a0ed5e2",
+      "01a010d9-28c3-7f16-93d5-522ae4850d99"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Citroën Traction Avant",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-5f5b88e00be9774abc3637a55ba10525"
+      ],
+      "id": "atlas:claim:legacy-7fdc449ddff774debc75663710f48b26",
+      "legacyId": "7fdc449d-dff7-74de-bc75-663710f48b26",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1872"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q15976363"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e00a6097-4c56-7c9e-9ada-2037b4d5542d",
+      "subject": "atlas:person:claudio-fogolin",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-5152a543543a7d3f894daf7427f34d6c"
+      ],
+      "id": "atlas:claim:legacy-e468dfd8be3d73b0b1e308b9c6e9ed33",
+      "legacyId": "e468dfd8-be3d-73b0-b1e3-08b9c6e9ed33",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1945"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q15976363"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "8978f7e5-803f-77e4-8921-8c2f68dd12ab",
+      "subject": "atlas:person:claudio-fogolin",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Empresário e ciclista italiano que se associou a Vincenzo Lancia na criação da Lancia & C. em Turim. Participou da formação administrativa da companhia durante seus primeiros anos, enquanto Lancia liderava o desenvolvimento técnico dos automóveis.",
+  "id": "atlas:person:claudio-fogolin",
+  "legacy": {
+    "id": "01a01030-3313-7c92-8420-09288e3b4769",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "entrepreneur"
+    ]
+  },
+  "name": "Claudio Fogolin",
+  "names": [],
+  "type": "Person"
+}

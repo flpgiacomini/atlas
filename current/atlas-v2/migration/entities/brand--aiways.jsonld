@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Aiways, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "86bca6d2-2c7a-71bf-ac16-71fa53f54a04",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Aiways"
+    }
+  ],
+  "id": "atlas:brand:aiways",
+  "legacy": {
+    "id": "145e4590-c5e2-784f-9650-46b8673e4089",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Aiways",
+  "names": [],
+  "type": "Brand"
+}

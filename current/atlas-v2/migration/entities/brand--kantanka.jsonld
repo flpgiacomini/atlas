@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Kantanka, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "1a8a83ed-bf2e-7770-a4ef-4419c751153c",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Kantanka"
+    }
+  ],
+  "id": "atlas:brand:kantanka",
+  "legacy": {
+    "id": "ec79712c-7712-792b-accc-5caf25334098",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Kantanka",
+  "names": [],
+  "type": "Brand"
+}

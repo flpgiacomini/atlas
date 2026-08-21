@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Aurus, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "cec37cf8-66f6-70bf-9c4c-544944941944",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Aurus"
+    }
+  ],
+  "id": "atlas:brand:aurus",
+  "legacy": {
+    "id": "6414a9ad-3980-78c2-9f5c-927fc3d3dc54",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Aurus",
+  "names": [],
+  "type": "Brand"
+}

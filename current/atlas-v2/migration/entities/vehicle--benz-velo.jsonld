@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074d7eb781da7fd7b1e74188"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074d721d94805eace4d60ee9",
+      "legacyId": "01a0102f-074d-721d-9480-5eace4d60ee9",
+      "object": {
+        "id": "atlas:organization:benz-cie",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-velo-is-world-s-first-volume-produced-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074d-7b31-9af5-b5598bd7614c",
+      "subject": "atlas:vehicle:benz-velo",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074d7148b38177340fb870a7"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074d78fa93a6d243b2b30fc5",
+      "legacyId": "01a0102f-074d-78fa-93a6-d243b2b30fc5",
+      "object": {
+        "id": "atlas:organization:benz-cie",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-velo-and-comfortable-1894-1902"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074d-7b31-9af5-b5598bd7614c",
+      "subject": "atlas:vehicle:benz-velo",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Benz Velo é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Benz & Cie.. Também aparece na relação de participação de associada a Benz Velo enters sales range. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:benz-velo",
+  "legacy": {
+    "id": "01a0102f-074d-7152-b66e-6308e7fe61fb",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074d-7b31-9af5-b5598bd7614c",
+      "01a0102f-074d-7ec7-a704-4060864c4b67"
+    ],
+    "documented_total_units": 1200,
+    "documented_total_units_until": "1901",
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Benz Velo",
+  "names": [],
+  "type": "Vehicle"
+}

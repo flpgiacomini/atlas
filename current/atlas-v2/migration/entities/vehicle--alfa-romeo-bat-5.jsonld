@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-8794695128f6736dafe89a2abcd0017d"
+      ],
+      "id": "atlas:claim:legacy-6208339cf05e7363b049d26cf98de413",
+      "legacyId": "6208339c-f05e-7363-b049-d26cf98de413",
+      "note": "Relação documentada na história institucional da série BAT.",
+      "object": {
+        "id": "atlas:vehicle:alfa-romeo-1900",
+        "type": "EntityReference"
+      },
+      "predicate": "based-on",
+      "qualifiers": {
+        "editorial_batch": "V04",
+        "program": "Berlinetta Aerodinamica Tecnica"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:alfa-romeo-stellantis-70-anos-del-alfa-romeo-bat-7"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "2a667bd1-577c-71ac-8400-d6f7c7bf9a46",
+      "subject": "atlas:vehicle:alfa-romeo-bat-5",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9919df4d3a6c7e7692aa9515886115a6"
+      ],
+      "id": "atlas:claim:legacy-937ba9ab72d57c7b897e311dc2bd0910",
+      "legacyId": "937ba9ab-72d5-7c7b-897e-311dc2bd0910",
+      "note": "Relação documentada na história institucional da série BAT.",
+      "object": {
+        "id": "atlas:person:franco-scaglione",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "editorial_batch": "V04",
+        "program": "Berlinetta Aerodinamica Tecnica"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:alfa-romeo-stellantis-70-anos-del-alfa-romeo-bat-7"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "74b002e6-df24-7220-9c79-08b4d56e9a3d",
+      "subject": "atlas:vehicle:alfa-romeo-bat-5",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6b49fd14b69679549c83bef241c2fc29"
+      ],
+      "id": "atlas:claim:legacy-aeb91a450eff7f9ebb4ae281834dfef7",
+      "legacyId": "aeb91a45-0eff-7f9e-bb4a-e281834dfef7",
+      "note": "Relação documentada na história institucional da série BAT.",
+      "object": {
+        "id": "atlas:brand:alfa-romeo",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V04",
+        "program": "Berlinetta Aerodinamica Tecnica"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:alfa-romeo-stellantis-70-anos-del-alfa-romeo-bat-7"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "df564b72-9ab1-7a95-b168-f5c8ae52bd4c",
+      "subject": "atlas:vehicle:alfa-romeo-bat-5",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-1df1345f2a3b79e68a3f58af7c485960"
+      ],
+      "id": "atlas:claim:legacy-d6077f761cf87a71b01747290e8ed585",
+      "legacyId": "d6077f76-1cf8-7a71-b017-47290e8ed585",
+      "note": "Relação documentada na história institucional da série BAT.",
+      "object": {
+        "id": "atlas:organization:bertone",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V04",
+        "program": "Berlinetta Aerodinamica Tecnica"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:alfa-romeo-stellantis-70-anos-del-alfa-romeo-bat-7"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "5bbb488d-c293-7f3d-a3a4-c644b675b7b3",
+      "subject": "atlas:vehicle:alfa-romeo-bat-5",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Primeiro automóvel concluído da série Berlinetta Aerodinamica Tecnica apresentada em 1953. Desenvolvido por Bertone e Franco Scaglione sobre a base técnica Alfa Romeo 1900, funcionou como investigação de baixa resistência aerodinâmica, integração formal da carroceria e possibilidades expressivas para um esportivo futuro.",
+  "id": "atlas:vehicle:alfa-romeo-bat-5",
+  "legacy": {
+    "id": "39b1a09b-3fb6-79a5-914f-f42bda2d7e48",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "74b002e6-df24-7220-9c79-08b4d56e9a3d",
+      "5bbb488d-c293-7f3d-a3a4-c644b675b7b3",
+      "df564b72-9ab1-7a95-b168-f5c8ae52bd4c",
+      "2a667bd1-577c-71ac-8400-d6f7c7bf9a46"
+    ],
+    "editorial_batch": "V04",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "Alfa Romeo BAT 5",
+  "names": [],
+  "type": "Vehicle"
+}

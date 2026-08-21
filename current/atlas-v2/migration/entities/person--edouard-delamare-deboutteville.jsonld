@@ -1,0 +1,77 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6703b8949d6178ae8586bf07d75793cf"
+      ],
+      "id": "atlas:claim:legacy-18464de866597944a7ea30239456c210",
+      "legacyId": "18464de8-6659-7944-a7ea-30239456c210",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:leon-malandin",
+        "type": "EntityReference"
+      },
+      "predicate": "collaborated-with",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "37b762eb-3b8a-7335-892f-5e43b233b5d9",
+      "subject": "atlas:person:edouard-delamare-deboutteville",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-0122c56deb847e0591a185f274e5f0ad"
+      ],
+      "id": "atlas:claim:legacy-bbcf14e607d074dfbac522f1e4026704",
+      "legacyId": "bbcf14e6-07d0-74df-bac5-22f1e4026704",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1856"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d791b251-51e0-7b90-ba39-a78a5bccf306",
+      "subject": "atlas:person:edouard-delamare-deboutteville",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Industrial e inventor francês ligado, com Léon Malandin, a uma patente e a experiências de veículo movido a combustível líquido em 1884. O caso será tratado como reivindicação documentada, sem converter prioridade nacional em consenso mundial.",
+  "id": "atlas:person:edouard-delamare-deboutteville",
+  "legacy": {
+    "id": "33fee9f7-1598-7a67-bdba-9f7d745e3e43",
+    "slug": "edouard-delamare-deboutteville",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "industrialist"
+    ]
+  },
+  "name": "Édouard Delamare-Deboutteville",
+  "names": [],
+  "type": "Person"
+}

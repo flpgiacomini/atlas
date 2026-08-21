@@ -1,0 +1,120 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854477903bec9d242c8f9786b"
+      ],
+      "id": "atlas:claim:legacy-01a01028544774d2a3a3a1e0a8110474",
+      "legacyId": "01a01028-5447-74d2-a3a3-a1e0a8110474",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1958"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hongqi-hongqi-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5447-7f52-8a03-23f1bda81bab",
+      "subject": "atlas:event:first-hongqi-sedan-completed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544775dfbece250170f65859"
+      ],
+      "id": "atlas:claim:legacy-01a01028544777d8a9ae9ac792b8ae87",
+      "legacyId": "01a01028-5447-77d8-a9ae-9ac792b8ae87",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1958"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hongqi-malaysia-since-1958-the-founding-of-hongqi"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5447-7f52-8a03-23f1bda81bab",
+      "subject": "atlas:event:first-hongqi-sedan-completed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854487680a62794e5e4b81320"
+      ],
+      "id": "atlas:claim:legacy-01a01028544874bf86c05027bb3ef080",
+      "legacyId": "01a01028-5448-74bf-86c0-5027bb3ef080",
+      "object": {
+        "id": "atlas:vehicle:hongqi-ca72",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hongqi-hongqi-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5448-78b7-b1c4-9f12327c2c28",
+      "subject": "atlas:event:first-hongqi-sedan-completed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854487a6cac550967f9a7a5da"
+      ],
+      "id": "atlas:claim:legacy-01a010285448770789af8083da8b1e20",
+      "legacyId": "01a01028-5448-7707-89af-8083da8b1e20",
+      "object": {
+        "id": "atlas:organization:first-automobile-works-faw",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hongqi-malaysia-since-1958-the-founding-of-hongqi"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5448-7d28-ba70-8137fc1369c7",
+      "subject": "atlas:event:first-hongqi-sedan-completed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "First Hongqi sedan completed é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1958. A documentação registra participação de Hongqi CA72. A documentação registra participação de First Automobile Works (FAW). O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:first-hongqi-sedan-completed",
+  "legacy": {
+    "id": "01a01028-5447-7989-9ba7-b68bd002002f",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5447-7f52-8a03-23f1bda81bab",
+      "01a01028-5448-78b7-b1c4-9f12327c2c28",
+      "01a01028-5448-7d28-ba70-8137fc1369c7"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_completion",
+    "realization_status": "occurred"
+  },
+  "name": "First Hongqi sedan completed",
+  "names": [],
+  "type": "Event"
+}

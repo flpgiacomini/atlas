@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Zeekr, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a91ec635-d1e7-78ed-b143-a671e54d5b87",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Zeekr"
+    }
+  ],
+  "id": "atlas:brand:zeekr",
+  "legacy": {
+    "id": "0d752890-f19b-79c5-8ef2-b5532b273a4b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Zeekr",
+  "names": [],
+  "type": "Brand"
+}

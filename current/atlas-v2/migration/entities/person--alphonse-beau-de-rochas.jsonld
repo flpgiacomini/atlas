@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-90491ac7e277716e91fbea1aac83e2a8"
+      ],
+      "id": "atlas:claim:legacy-45003c2c805c7aa5a297294b8be93e50",
+      "legacyId": "45003c2c-805c-7aa5-a297-294b8be93e50",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1893"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "15c8d1b6-bb27-7218-9701-3d7def2ad19a",
+      "subject": "atlas:person:alphonse-beau-de-rochas",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-364bee52f1d172dc900e39b139620189"
+      ],
+      "id": "atlas:claim:legacy-5e36a1c1d5de76e683023054a14600b6",
+      "legacyId": "5e36a1c1-d5de-76e6-8302-3054a14600b6",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1815"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ee33d4d7-7ed6-7c4a-ad34-711e7f3ba2d3",
+      "subject": "atlas:person:alphonse-beau-de-rochas",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro francês que formulou e patenteou em 1862 princípios do ciclo de quatro tempos. O Atlas separa essa formulação documental da posterior realização prática e comercial, evitando atribuir todo o desenvolvimento do motor moderno a um único inventor.",
+  "id": "atlas:person:alphonse-beau-de-rochas",
+  "legacy": {
+    "id": "f634ee21-161e-717b-b5e0-ef0a70c76e07",
+    "slug": "alphonse-beau-de-rochas",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Alphonse Beau de Rochas",
+  "names": [],
+  "type": "Person"
+}

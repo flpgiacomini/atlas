@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea7caebea16d80be66aa12"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea74aab9cf44ad8e7ae747",
+      "legacyId": "01a0102a-57ea-74aa-b9cf-44ad8e7ae747",
+      "object": {
+        "id": "atlas:person:henry-royce",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-models-of-the-marque-the-1900s-royce-10-h-p-rolls-royce-10-h-p"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-7132-986a-3486b10a08fc",
+      "subject": "atlas:vehicle:royce-10-h-p",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Royce 10 H.P. é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra responsabilidade de projeto de Henry Royce. Também aparece na relação de derivação de associada a Rolls-Royce 10 H.P.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:royce-10-h-p",
+  "legacy": {
+    "id": "01a0102a-57ea-7e52-9674-4056cba82d9b",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ea-7132-986a-3486b10a08fc",
+      "01a0102a-57ea-7dd2-9c56-251f8fcb3546"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "prototype",
+    "vehicle_level": "standalone"
+  },
+  "name": "Royce 10 H.P.",
+  "names": [],
+  "type": "Vehicle"
+}

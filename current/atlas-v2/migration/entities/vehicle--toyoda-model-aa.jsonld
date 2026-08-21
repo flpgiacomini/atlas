@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285444704b9148bf8616ac0651"
+      ],
+      "id": "atlas:claim:legacy-01a0102854447db98e3e597c0ed3563f",
+      "legacyId": "01a01028-5444-7db9-8e3e-597c0ed3563f",
+      "object": {
+        "id": "atlas:organization:toyoda-automatic-loom-works",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5444-7942-a7ee-8324e70b7797",
+      "subject": "atlas:vehicle:toyoda-model-aa",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854457b9f94d2d17ee42fad35"
+      ],
+      "id": "atlas:claim:legacy-01a010285445789a8de968bceee16849",
+      "legacyId": "01a01028-5445-789a-8de9-68bceee16849",
+      "object": {
+        "id": "atlas:person:kiichiro-toyoda",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "role": "development_guidance"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-motor-corporation-founder-kiichiro-toyoda-inducted-into-automotive-hall-of-fame"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5445-7bf9-b941-3321cf4399ce",
+      "subject": "atlas:vehicle:toyoda-model-aa",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544574a59a71e0c54ca60e24"
+      ],
+      "id": "atlas:claim:legacy-01a0102854457b39b711701a10fdfda1",
+      "legacyId": "01a01028-5445-7b39-b711-701a10fdfda1",
+      "object": {
+        "id": "atlas:technology:just-in-time-production-experimentation",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-motor-corporation-founder-kiichiro-toyoda-inducted-into-automotive-hall-of-fame"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5445-70d8-801a-d413e0e21872",
+      "subject": "atlas:vehicle:toyoda-model-aa",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Toyoda Model AA é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Toyoda Automatic Loom Works. A documentação registra uso da tecnologia Just-in-time production experimentation. Também aparece na relação de participação de associada a Toyoda Model AA debut. A documentação registra desenvolvimento por Kiichiro Toyoda. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:toyoda-model-aa",
+  "legacy": {
+    "id": "01a01028-5444-767e-bd0e-dc4ce10424e9",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5444-7942-a7ee-8324e70b7797",
+      "01a01028-5445-70d8-801a-d413e0e21872",
+      "01a01028-5445-79c4-ac1a-065312d45452",
+      "01a01028-5445-7bf9-b941-3321cf4399ce"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Toyoda Model AA",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de NEVS, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "cc428348-9b7e-794f-a193-5d2fe4732539",
+      "scheme": "atlas-brand-census",
+      "value": "M10:NEVS"
+    }
+  ],
+  "id": "atlas:brand:nevs",
+  "legacy": {
+    "id": "2be9223a-95de-71a4-bdec-b1e542fd6607",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "NEVS",
+  "names": [],
+  "type": "Brand"
+}

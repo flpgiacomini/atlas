@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Chrysler Atlantic (1995), selecionado pelo Atlas por sua possível contribuição histórica em DES, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "f08c4bd9-904f-7c07-90d3-515d2cc6cdf0",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1995:Chrysler Atlantic"
+    }
+  ],
+  "id": "atlas:vehicle:chrysler-atlantic",
+  "legacy": {
+    "id": "37255e9b-ab90-7549-9639-8fd3eefdf1dc",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Chrysler",
+    "candidate_kind": "concept",
+    "candidate_year": 1995,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "SOC"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 60
+  },
+  "name": "Chrysler Atlantic",
+  "names": [],
+  "type": "Vehicle"
+}

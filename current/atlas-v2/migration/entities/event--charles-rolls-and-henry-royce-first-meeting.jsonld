@@ -1,0 +1,94 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea702da519af949fab77c1"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea70bc824a26c01c60135d",
+      "legacyId": "01a0102a-57ea-70bc-824a-26c01c60135d",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1904-05-04"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-7cd4-aa11-bd4f061f2db0",
+      "subject": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea7f3d868465b142cff76d"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea727c9da91c0a3beecc2c",
+      "legacyId": "01a0102a-57ea-727c-9da9-1c0a3beecc2c",
+      "object": {
+        "id": "atlas:person:henry-royce",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-73e1-82cf-defcae1563fb",
+      "subject": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ea7be083f928af63e9af84"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ea7d0caa379c2c552dac61",
+      "legacyId": "01a0102a-57ea-7d0c-aa37-9c2c552dac61",
+      "object": {
+        "id": "atlas:person:charles-rolls",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ea-7a27-a6a7-5dc873981787",
+      "subject": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Charles Rolls and Henry Royce first meeting é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Henry Royce. A documentação registra participação de Charles Rolls. A documentação registra ocorrência em 1904-05-04. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
+  "legacy": {
+    "id": "01a0102a-57ea-7aa8-80fc-653065bd9612",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ea-73e1-82cf-defcae1563fb",
+      "01a0102a-57ea-7a27-a6a7-5dc873981787",
+      "01a0102a-57ea-7cd4-aa11-bd4f061f2db0"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "partnership_formation",
+    "realization_status": "occurred"
+  },
+  "name": "Charles Rolls and Henry Royce first meeting",
+  "names": [],
+  "type": "Event"
+}

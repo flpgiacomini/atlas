@@ -1,0 +1,242 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec557252b8ec73aeddf01665"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec557393b5f18ed84232ec86",
+      "legacyId": "01a01031-ec55-7393-b5f1-8ed84232ec86",
+      "object": {
+        "id": "atlas:event:1904-vanderbilt-cup",
+        "type": "EntityReference"
+      },
+      "predicate": "entry-for-event",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-vanderbilt-cup"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7119-bd78-1fc368a57604",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5575f68130f8ac8fc84504"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5573e8864726e4cfe95991",
+      "legacyId": "01a01031-ec55-73e8-8647-26e4cfe95991",
+      "object": {
+        "id": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-vehicle",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-vanderbilt-cup"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7b69-97fe-96510370c2e0",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec557cbd8dd621896d97cd56"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec55764fab213c9749980923",
+      "legacyId": "01a01031-ec55-764f-ab21-3c9749980923",
+      "object": {
+        "id": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-vehicle",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7b69-97fe-96510370c2e0",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec557b5fb0e9211a2be6e681"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5579daa1131b7550ba2ed7",
+      "legacyId": "01a01031-ec55-79da-a113-1b7550ba2ed7",
+      "object": {
+        "id": "atlas:person:george-heath",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-vanderbilt-cup"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7760-8caf-15a755361e67",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec55708780043456108b8d95"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec557ad7bd0abde4d8639737",
+      "legacyId": "01a01031-ec55-7ad7-bd0a-bde4d8639737",
+      "object": {
+        "id": "atlas:event:1904-vanderbilt-cup",
+        "type": "EntityReference"
+      },
+      "predicate": "entry-for-event",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7119-bd78-1fc368a57604",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5577f698edd30fdcb6d7fc"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec557ce0b535131e2e09753c",
+      "legacyId": "01a01031-ec55-7ce0-b535-131e2e09753c",
+      "object": {
+        "id": "atlas:person:george-heath",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7760-8caf-15a755361e67",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec567a5f9b47001f87b1305e"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec56761f849023b8ad96fd38",
+      "legacyId": "01a01031-ec56-761f-8490-23b8ad96fd38",
+      "object": {
+        "type": "number",
+        "value": 1.0
+      },
+      "predicate": "overall-position",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-vanderbilt-cup"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-7f44-8211-e6e3d24e9b8e",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec567381817f2ca3673083b1"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5679998553752810562b8d",
+      "legacyId": "01a01031-ec56-7999-8553-752810562b8d",
+      "object": "7",
+      "predicate": "start-number",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-7e06-a2a1-27003b6bb3b9",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec567189a9d2230ba2df37cb"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec567d798cb8686ea7d7be33",
+      "legacyId": "01a01031-ec56-7d79-8cb8-686ea7d7be33",
+      "object": {
+        "type": "number",
+        "value": 1.0
+      },
+      "predicate": "overall-position",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-7f44-8211-e6e3d24e9b8e",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec567de09a92cfaad0a50595"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec567e41a964672936028494",
+      "legacyId": "01a01031-ec56-7e41-a964-672936028494",
+      "object": "classified",
+      "predicate": "entry-status",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec56-76cf-bbb8-075227c012c5",
+      "subject": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1904 Vanderbilt Cup #7 — George Heath / Panhard é registrado no Atlas como inscrição esportiva, dentro da história global do automóvel. A documentação registra participação no evento 1904 Vanderbilt Cup. A documentação registra condução por George Heath. A documentação registra veículo inscrito Panhard race car — 1904 Vanderbilt Cup. A documentação registra situação na prova classified. A documentação registra número de competição 7. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
+  "legacy": {
+    "id": "01a01031-ec55-70a4-8dae-dee294f5e1f7",
+    "slug": null,
+    "type": "entry"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec55-7119-bd78-1fc368a57604",
+      "01a01031-ec55-7760-8caf-15a755361e67",
+      "01a01031-ec55-7b69-97fe-96510370c2e0",
+      "01a01031-ec56-76cf-bbb8-075227c012c5",
+      "01a01031-ec56-7e06-a2a1-27003b6bb3b9"
+    ],
+    "editorial_batch": "E21",
+    "editorial_level": "editorial",
+    "entry_type": "motorsport_entry"
+  },
+  "name": "1904 Vanderbilt Cup #7 — George Heath / Panhard",
+  "names": [],
+  "type": "Entry"
+}

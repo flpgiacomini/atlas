@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lexus, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "5238ca8d-27fe-75c0-8b39-5b134ee7a833",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Lexus"
+    }
+  ],
+  "id": "atlas:brand:lexus",
+  "legacy": {
+    "id": "d700c8c2-b71c-7125-b73c-6d892921c8d9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Lexus",
+  "names": [],
+  "type": "Brand"
+}

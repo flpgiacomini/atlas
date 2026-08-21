@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lagonda, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "6c8eb5ed-c104-787a-96ce-309c581fb160",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Lagonda"
+    }
+  ],
+  "id": "atlas:brand:lagonda",
+  "legacy": {
+    "id": "e24066a0-3cb3-7d48-9560-4095621f261e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Lagonda",
+  "names": [],
+  "type": "Brand"
+}

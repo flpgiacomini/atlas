@@ -1,0 +1,132 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-c11a4e643a127b859c6e70bbf31f82ca"
+      ],
+      "id": "atlas:claim:legacy-039dba5cf6eb77c1a1b3049caada860e",
+      "legacyId": "039dba5c-f6eb-77c1-a1b3-049caada860e",
+      "note": "Relação explicitada pela coleção histórica da fabricante.",
+      "object": {
+        "id": "atlas:brand:buick",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V02"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1938-buick-y-job-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "5d0194dd-31e8-7c9b-bba3-805973782aec",
+      "subject": "atlas:vehicle:buick-y-job",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-455b733d940874159626d04a4f0e3774"
+      ],
+      "id": "atlas:claim:legacy-694187e1ad587dcfb66cede0911cf590",
+      "legacyId": "694187e1-ad58-7dcf-b66c-ede0911cf590",
+      "note": "Relação explicitada pela coleção histórica da fabricante.",
+      "object": {
+        "id": "atlas:technology:farois-retrateis",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V02"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1938-buick-y-job-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "4a527757-bb4e-7f08-9f5e-b368dade8348",
+      "subject": "atlas:vehicle:buick-y-job",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-ab6543fe0efd7dad99989677c0373fec"
+      ],
+      "id": "atlas:claim:legacy-a2db7f0ec45879b38e79eb4f03208c89",
+      "legacyId": "a2db7f0e-c458-79b3-8e79-eb4f03208c89",
+      "note": "Relação explicitada pela coleção histórica da fabricante.",
+      "object": {
+        "id": "atlas:person:harley-earl",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "editorial_batch": "V02"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1938-buick-y-job-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "80752f5a-77a2-72d7-bd28-0531f5a452a0",
+      "subject": "atlas:vehicle:buick-y-job",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-5a9912b644ab7d448f5548464adc82ce"
+      ],
+      "id": "atlas:claim:legacy-d55cac8a7814785fb12db2948b18ecaf",
+      "legacyId": "d55cac8a-7814-785f-b12d-b2948b18ecaf",
+      "note": "Relação explicitada pela coleção histórica da fabricante.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V02"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-1938-buick-y-job-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "8f39205e-a71b-7962-9111-5a5a9a2fd776",
+      "subject": "atlas:vehicle:buick-y-job",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept car construído em 1938 para explorar antecipadamente forma, equipamentos e reação pública, sem intenção imediata de produção. Concebido por Harley Earl e pela organização hoje conhecida como GM Design, usou chassi Buick de 1937 e antecipou faróis ocultos, maçanetas niveladas, capota recolhida sob cobertura metálica e vidros elétricos.",
+  "id": "atlas:vehicle:buick-y-job",
+  "legacy": {
+    "id": "c3ccd397-03ed-78d9-960c-b5ed92b01a05",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "80752f5a-77a2-72d7-bd28-0531f5a452a0",
+      "8f39205e-a71b-7962-9111-5a5a9a2fd776",
+      "5d0194dd-31e8-7c9b-bba3-805973782aec",
+      "4a527757-bb4e-7f08-9f5e-b368dade8348"
+    ],
+    "editorial_batch": "V02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "Buick Y-Job",
+  "names": [],
+  "type": "Vehicle"
+}

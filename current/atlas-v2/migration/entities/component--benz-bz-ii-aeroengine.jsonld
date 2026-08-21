@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Benz Bz II aeroengine é registrado no Atlas como componente técnico, dentro da história global do automóvel. Também aparece na relação de participação de associada a Prussian War Ministry commissions Benz & Cie. aeroengines. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:component:benz-bz-ii-aeroengine",
+  "legacy": {
+    "id": "01a01031-ec58-7735-af62-ffc520fbf15f",
+    "slug": null,
+    "type": "component"
+  },
+  "metadata": {
+    "component_type": "engine",
+    "description_basis_statement_ids": [
+      "01a01031-ec58-7daf-ae90-c231a4bc356f"
+    ],
+    "documented_output_hp": 115,
+    "editorial_batch": "E14",
+    "editorial_level": "editorial"
+  },
+  "name": "Benz Bz II aeroengine",
+  "names": [],
+  "type": "Component"
+}

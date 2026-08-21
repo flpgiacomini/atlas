@@ -1,0 +1,47 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544678b88e0a5fd66eb046cc"
+      ],
+      "id": "atlas:claim:legacy-01a0102854467f06983c5f46644dccc2",
+      "legacyId": "01a01028-5446-7f06-983c-5f46644dccc2",
+      "object": {
+        "id": "atlas:place:south-korea",
+        "type": "EntityReference"
+      },
+      "predicate": "located-in",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hyundai-motor-company-pony-hyundai-motor-europe"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5446-7fd4-a42c-94d4234ca320",
+      "subject": "atlas:organization:hyundai-motor-company",
+      "supportStrength": "indirect",
+      "type": "Claim"
+    }
+  ],
+  "description": "Hyundai Motor Company é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Hyundai Pony. A documentação registra localização em South Korea. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:hyundai-motor-company",
+  "legacy": {
+    "id": "01a01028-5445-76f0-8779-1b2aa753b133",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5446-7b4e-942a-8ac5f120e844",
+      "01a01028-5446-7fd4-a42c-94d4234ca320"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Hyundai Motor Company",
+  "names": [],
+  "type": "Organization"
+}

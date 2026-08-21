@@ -1,0 +1,88 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8a7ceb80c8a548ae1e71d5"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8a7454acb810add5716224",
+      "legacyId": "01a010f1-7e8a-7454-acb8-10add5716224",
+      "object": {
+        "id": "atlas:technology:modern-three-point-safety-belt",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-pioneering-automotive-safety-1959-three-point-safety-belt"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8a-74d6-bcd7-f45aa1b52d87",
+      "subject": "atlas:vehicle:volvo-pv544",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8a74e889e7381dce5a8bea"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8a78fa88056311586afde2",
+      "legacyId": "01a010f1-7e8a-78fa-8805-6311586afde2",
+      "object": {
+        "id": "atlas:organization:volvo-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8a-7a56-b708-68ce623103fe",
+      "subject": "atlas:vehicle:volvo-pv544",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010f17e8b771990980802e000a2c4"
+      ],
+      "id": "atlas:claim:legacy-01a010f17e8b7c6d9e3e5d8819863fc7",
+      "legacyId": "01a010f1-7e8b-7c6d-9e3e-5d8819863fc7",
+      "object": {
+        "id": "atlas:technology:modern-three-point-safety-belt",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-s-three-point-safety-belt-turns-50"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010f1-7e8a-74d6-bcd7-f45aa1b52d87",
+      "subject": "atlas:vehicle:volvo-pv544",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Automóvel de passageiros da Volvo associado à introdução em série do cinto de segurança moderno de três pontos em 1959. O modelo funciona no Atlas como elo entre engenharia de produto, pesquisa de segurança e disseminação de uma tecnologia de proteção mundialmente adotada.",
+  "id": "atlas:vehicle:volvo-pv544",
+  "legacy": {
+    "id": "01a010f1-7e89-7097-811b-4535048cf1a3",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "E02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Volvo PV544",
+  "names": [],
+  "type": "Vehicle"
+}

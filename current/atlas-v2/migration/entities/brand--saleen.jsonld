@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Saleen, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2a2d554a-53f7-7edf-a50c-5f3226f4d338",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Saleen"
+    }
+  ],
+  "id": "atlas:brand:saleen",
+  "legacy": {
+    "id": "e34f4d98-33bc-7f4c-8633-0971e358374b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Saleen",
+  "names": [],
+  "type": "Brand"
+}

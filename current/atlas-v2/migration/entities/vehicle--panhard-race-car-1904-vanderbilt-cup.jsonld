@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-981b41be33367690860c7adeb2608ac1"
+      ],
+      "id": "atlas:claim:legacy-3314fa994531714eb46c7540dc6d8936",
+      "legacyId": "3314fa99-4531-714e-b46c-7540dc6d8936",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:panhard-levassor",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-vanderbilt-cup"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "1f60e590-b6fd-731c-8ec0-a2f7ad9d5059",
+      "subject": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Panhard race car — 1904 Vanderbilt Cup é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de veículo inscrito associada a 1904 Vanderbilt Cup #7 — George Heath / Panhard. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
+  "legacy": {
+    "id": "01a01031-ec55-739b-abf7-ba1888203e8d",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec55-7b69-97fe-96510370c2e0"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "standalone"
+  },
+  "name": "Panhard race car — 1904 Vanderbilt Cup",
+  "names": [],
+  "type": "Vehicle"
+}

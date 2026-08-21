@@ -1,0 +1,125 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "G model"
+  ],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557405869a063c2dc5a084"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5878af918be77c44254ea5",
+      "legacyId": "01a01016-ea58-78af-918b-e77c44254ea5",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-784a-9c83-75c09e6dea26",
+      "subject": "atlas:vehicle:porsche-911-g-series",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55729eba8c9ace90f65b53"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587bfca89dedc56eaf840a",
+      "legacyId": "01a01016-ea58-7bfc-a89d-edc56eaf840a",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7880-b16a-ae18675bb934",
+      "subject": "atlas:vehicle:porsche-911-g-series",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5573a49b966480b07c3033"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587cb281c709fd738a4b39",
+      "legacyId": "01a01016-ea58-7cb2-81c7-09fd738a4b39",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7880-b16a-ae18675bb934",
+      "subject": "atlas:vehicle:porsche-911-g-series",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55729286d476c061afff1f"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587e73b426c536642dc204",
+      "legacyId": "01a01016-ea58-7e73-b426-c536642dc204",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-784a-9c83-75c09e6dea26",
+      "subject": "atlas:vehicle:porsche-911-g-series",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 911 G-Series é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra integração a Porsche 911. Também aparece na relação de sucessão de associada a Porsche 911 Type 964. Também aparece na relação de integração a associada a Porsche 911 Turbo (G-Series / Type 930). A documentação registra sucessão de Porsche 911 Original. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-911-g-series",
+  "legacy": {
+    "id": "01a01016-ea4d-7b71-98b3-3f71f2a0da5b",
+    "slug": "porsche-911-g-series",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-784a-9c83-75c09e6dea26",
+      "01a01016-ea51-76a4-9da8-9853a72ce2ff",
+      "01a01016-ea51-772c-bf70-4192fcc5d542",
+      "01a01016-ea51-7880-b16a-ae18675bb934"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "source_period": "1973/1974-1989",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Porsche 911 G-Series",
+  "names": [
+    {
+      "id": "01a01016-ea4d-735b-b820-daa282a03c61",
+      "name_type": "alias",
+      "value": "G model"
+    }
+  ],
+  "type": "Vehicle"
+}

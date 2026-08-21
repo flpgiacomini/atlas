@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de BMW Vision EfficientDynamics (2009), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "50823bf0-700e-74ca-b12d-1d41c733b9cc",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:2009:BMW Vision EfficientDynamics"
+    }
+  ],
+  "id": "atlas:vehicle:bmw-vision-efficientdynamics",
+  "legacy": {
+    "id": "d230bf0c-6211-797a-aa5d-fae7302e398b",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "BMW",
+    "candidate_kind": "concept",
+    "candidate_year": 2009,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "SEG",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "BMW Vision EfficientDynamics",
+  "names": [],
+  "type": "Vehicle"
+}

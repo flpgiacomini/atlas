@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e77fae82e4e13ef4d3cd37"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e77a99bc5d209e42eca904",
+      "legacyId": "01a0102a-57e7-7a99-bc5d-209e42eca904",
+      "object": {
+        "id": "atlas:vehicle:peugeot-type-1",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-775c-96b5-68e9f7c4ed54",
+      "subject": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e77abfb2cd7b847c07336c"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e77eddbe4c22f870b1ff95",
+      "legacyId": "01a0102a-57e7-7edd-be4c-22f870b1ff95",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1889"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-7d2b-8270-07bfc2395908",
+      "subject": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Peugeot Type 1 shown at Paris World Fair é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Peugeot Type 1. A documentação registra ocorrência em 1889. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
+  "legacy": {
+    "id": "01a0102a-57e7-77ac-b6ce-704e2c782f37",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e7-775c-96b5-68e9f7c4ed54",
+      "01a0102a-57e7-7d2b-8270-07bfc2395908"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Peugeot Type 1 shown at Paris World Fair",
+  "names": [],
+  "type": "Event"
+}

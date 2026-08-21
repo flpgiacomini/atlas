@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Self-supporting / monocoque body construction é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a ŠKODA 1000 MB. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:self-supporting-monocoque-body-construction",
+  "legacy": {
+    "id": "01a01028-5453-75e3-b16d-9b2b533467ff",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5454-7b5c-b29c-0105192b7a7e"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "materials"
+  },
+  "name": "Self-supporting / monocoque body construction",
+  "names": [],
+  "type": "Technology"
+}

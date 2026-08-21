@@ -1,0 +1,81 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-cb229b7c9ffc7f78b083ac9959375f64"
+      ],
+      "id": "atlas:claim:legacy-0781fee45bb072b28d9acadb5365c3ef",
+      "legacyId": "0781fee4-5bb0-72b2-8d9a-cadb5365c3ef",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:volvo-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "worked-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-cars-heritage"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "35f1053e-7a64-76ff-b9ed-c7040ac142b5",
+      "subject": "atlas:person:nils-bohlin",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1958",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-a96696e5f4027773b1f30236041ddc79"
+      ],
+      "id": "atlas:claim:legacy-bf8e3b6faef0798aa39a3841b0f12d01",
+      "legacyId": "bf8e3b6f-aef0-798a-a39a-3841b0f12d01",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1920"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:volvo-cars-volvo-cars-heritage"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ade1e84b-7fce-73ae-a14c-e5fd10119842",
+      "subject": "atlas:person:nils-bohlin",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro sueco especializado em segurança que desenvolveu o cinto de três pontos em formato de V para a Volvo. A solução, introduzida em 1959 e liberada para uso amplo, tornou-se uma referência mundial de proteção automotiva.",
+  "id": "atlas:person:nils-bohlin",
+  "legacy": {
+    "id": "01a010f1-7e89-7c31-a280-a3fdfe3e04d1",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010f1-7e8b-72cd-8631-78e84de8d552",
+      "35f1053e-7a64-76ff-b9ed-c7040ac142b5",
+      "ade1e84b-7fce-73ae-a14c-e5fd10119842"
+    ],
+    "editorial_batch": "E01",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Nils Bohlin",
+  "names": [],
+  "type": "Person"
+}

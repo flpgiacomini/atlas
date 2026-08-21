@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Tata Motors Sanand Plant é registrado no Atlas como instalação industrial, dentro da história global do automóvel. Também aparece na relação de produção em associada a Tata Nano. Também aparece na relação de participação de associada a Tata Motors Sanand plant established. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:facility:tata-motors-sanand-plant",
+  "legacy": {
+    "id": "01a01028-5449-7940-8ce8-a3b8e0e47cf1",
+    "slug": null,
+    "type": "facility"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544b-7125-b276-6963a3bc3d01",
+      "01a01028-544c-7172-b317-3b57030ace06"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "facility_type": "factory"
+  },
+  "name": "Tata Motors Sanand Plant",
+  "names": [],
+  "type": "Facility"
+}

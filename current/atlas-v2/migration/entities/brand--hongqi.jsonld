@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Hongqi é registrado no Atlas como marca automotiva, dentro da história global do automóvel. Também aparece na relação de comercialização sob associada a Hongqi CA72. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:brand:hongqi",
+  "legacy": {
+    "id": "01a01028-5447-779e-8317-57316b628d02",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "description_basis_statement_ids": [
+      "01a01028-5447-704a-be91-8d20daa7717e"
+    ],
+    "editorial_batch": "E06",
+    "editorial_level": "editorial"
+  },
+  "name": "Hongqi",
+  "names": [],
+  "type": "Brand"
+}

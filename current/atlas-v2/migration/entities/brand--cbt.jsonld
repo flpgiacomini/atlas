@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de CBT, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a7c2c134-9110-7fd5-bbff-3a18fc82390a",
+      "scheme": "atlas-brand-census",
+      "value": "M11:CBT"
+    }
+  ],
+  "id": "atlas:brand:cbt",
+  "legacy": {
+    "id": "a2b681a8-3c0b-746d-978b-442d896d9255",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "CBT",
+  "names": [],
+  "type": "Brand"
+}

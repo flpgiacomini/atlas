@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Golden Sahara II (1956), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SOC, DES. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "97e53383-d5c3-7cf9-933e-f4e07deeff64",
+      "scheme": "atlas-significance-candidate",
+      "value": "one_off:1956:Golden Sahara II"
+    }
+  ],
+  "id": "atlas:vehicle:golden-sahara-ii",
+  "legacy": {
+    "id": "89059f3f-ef61-7779-9a0c-fafd1348acde",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "George Barris",
+    "candidate_kind": "one_off",
+    "candidate_year": 1956,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "SOC",
+      "DES"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 75
+  },
+  "name": "Golden Sahara II",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-99e65aa8f386773cb8a418de0d63307a"
+      ],
+      "id": "atlas:claim:legacy-4cd50dcfbfac70ba8600fb98ef3943a7",
+      "legacyId": "4cd50dcf-bfac-70ba-8600-fb98ef3943a7",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1988-10-02"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q457634"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "0ad0923d-0ef4-76fe-8816-8f571f3b38be",
+      "subject": "atlas:person:alec-issigonis",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e87428516a387e5aa9498d348f62f38c"
+      ],
+      "id": "atlas:claim:legacy-9e3f06db1dd57328a78f0b72c9405e8b",
+      "legacyId": "9e3f06db-1dd5-7328-a78f-0b72c9405e8b",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1906-11-18"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q457634"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "11d08e62-ad0f-7f91-922e-351f436890bf",
+      "subject": "atlas:person:alec-issigonis",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro e projetista britânico de origem grega, responsável pelo conceito do Classic Mini. Seu arranjo transversal com tração dianteira privilegiou o espaço interno e transformou o pequeno automóvel apresentado pela British Motor Corporation em 1959.",
+  "id": "atlas:person:alec-issigonis",
+  "legacy": {
+    "id": "01a010d9-28c6-73a0-ae55-f5e91aea4fe6",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "designer",
+      "engineer"
+    ]
+  },
+  "name": "Alec Issigonis",
+  "names": [],
+  "type": "Person"
+}

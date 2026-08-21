@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074f71a0a3de39230c0e099e"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074f789bac800e78ce23d367",
+      "legacyId": "01a0102f-074f-789b-ac80-0e78ce23d367",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1896-10-01"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-first-motorized-truck-delivered-to-london"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074f-74fe-8c10-5df9de54a950",
+      "subject": "atlas:event:first-daimler-motorized-truck-delivered-to-london",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f075079a28d73522924c936e7"
+      ],
+      "id": "atlas:claim:legacy-01a0102f07507036ac42b3ef9ccb672f",
+      "legacyId": "01a0102f-0750-7036-ac42-b3ef9ccb672f",
+      "object": {
+        "id": "atlas:vehicle:daimler-4-hp-truck-1896",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "delivered_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-first-motorized-truck-delivered-to-london"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0750-7ea0-9bd0-535b422435cb",
+      "subject": "atlas:event:first-daimler-motorized-truck-delivered-to-london",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f07507ccb9d98acae6574324f"
+      ],
+      "id": "atlas:claim:legacy-01a0102f0750723386d98a9a042047b6",
+      "legacyId": "01a0102f-0750-7233-86d9-8a9a042047b6",
+      "object": {
+        "id": "atlas:organization:british-motor-syndicate-ltd",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "recipient"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-first-motorized-truck-delivered-to-london"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-0750-7eba-8360-996ef84a845c",
+      "subject": "atlas:event:first-daimler-motorized-truck-delivered-to-london",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "First Daimler motorized truck delivered to London é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1896-10-01. A documentação registra participação de Daimler 4 hp truck (1896). A documentação registra participação de British Motor Syndicate, Ltd.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:first-daimler-motorized-truck-delivered-to-london",
+  "legacy": {
+    "id": "01a0102f-074f-7859-a499-2311c8b7d2c5",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074f-74fe-8c10-5df9de54a950",
+      "01a0102f-0750-7ea0-9bd0-535b422435cb",
+      "01a0102f-0750-7eba-8360-996ef84a845c"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_delivery",
+    "realization_status": "occurred"
+  },
+  "name": "First Daimler motorized truck delivered to London",
+  "names": [],
+  "type": "Event"
+}

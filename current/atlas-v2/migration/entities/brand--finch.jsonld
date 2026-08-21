@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Finch, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "70fbd04e-ea6d-7c51-8b23-4dd1cc3fa4cc",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Finch"
+    }
+  ],
+  "id": "atlas:brand:finch",
+  "legacy": {
+    "id": "cb6b6fa9-1587-78b3-824d-88b683998f65",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Finch",
+  "names": [],
+  "type": "Brand"
+}

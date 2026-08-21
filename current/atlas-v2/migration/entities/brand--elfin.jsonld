@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Elfin, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "094ae01e-7946-7020-8f90-78d8ae4f4474",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Elfin"
+    }
+  ],
+  "id": "atlas:brand:elfin",
+  "legacy": {
+    "id": "a69b5d58-4a1c-763b-8f0b-b6ec62d42b38",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Elfin",
+  "names": [],
+  "type": "Brand"
+}

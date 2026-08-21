@@ -1,0 +1,94 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5772f98df48e4a83f3baf5"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b712aaf6297564cef331c",
+      "legacyId": "01a01016-ea5b-712a-af62-97564cef331c",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1984-05-12"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7ec1-9df8-a4992aeb810c",
+      "subject": "atlas:event:opening-of-new-nurburgring-grand-prix-circuit",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea577761b1b6f5be0a69c000"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b76c389079aec777c76c2",
+      "legacyId": "01a01016-ea5b-76c3-8907-9aec777c76c2",
+      "object": {
+        "id": "atlas:circuit-layout:nurburgring-grand-prix-circuit-1984",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-anniversary-40-years-of-the-grand-prix-circuit"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-709f-b01b-4f21d0c50d13",
+      "subject": "atlas:event:opening-of-new-nurburgring-grand-prix-circuit",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5778009b7f925b859c6c43"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7fdc8fcebeb49c863344",
+      "legacyId": "01a01016-ea5b-7fdc-8fce-beb49c863344",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1984-05-12"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-anniversary-40-years-of-the-grand-prix-circuit"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7ec1-9df8-a4992aeb810c",
+      "subject": "atlas:event:opening-of-new-nurburgring-grand-prix-circuit",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Opening of new Nürburgring Grand Prix Circuit é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Nürburgring Grand Prix Circuit (1984). A documentação registra ocorrência em 1984-05-12. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:opening-of-new-nurburgring-grand-prix-circuit",
+  "legacy": {
+    "id": "01a01016-ea4e-732f-9b07-f12a0bff187a",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea54-709f-b01b-4f21d0c50d13",
+      "01a01016-ea54-7ec1-9df8-a4992aeb810c"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "circuit_layout_opening",
+    "realization_status": "occurred"
+  },
+  "name": "Opening of new Nürburgring Grand Prix Circuit",
+  "names": [],
+  "type": "Event"
+}

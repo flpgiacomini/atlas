@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544776018de65e55bdbc412a"
+      ],
+      "id": "atlas:claim:legacy-01a010285447756dab78f659d65d67ac",
+      "legacyId": "01a01028-5447-756d-ab78-f659d65d67ac",
+      "object": {
+        "id": "atlas:organization:first-automobile-works-faw",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hongqi-malaysia-since-1958-the-founding-of-hongqi"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5447-7bb0-bc5d-b3d16d03d253",
+      "subject": "atlas:vehicle:hongqi-ca72",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854477138b2b94dd0e715bbbf"
+      ],
+      "id": "atlas:claim:legacy-01a0102854477c68b95fe0cb6f38a4fc",
+      "legacyId": "01a01028-5447-7c68-b95f-e0cb6f38a4fc",
+      "object": {
+        "id": "atlas:brand:hongqi",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hongqi-hongqi-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5447-704a-be91-8d20daa7717e",
+      "subject": "atlas:vehicle:hongqi-ca72",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Hongqi CA72 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra comercialização sob Hongqi. A documentação registra fabricação por First Automobile Works (FAW). Também aparece na relação de participação de associada a First Hongqi sedan completed. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:hongqi-ca72",
+  "legacy": {
+    "id": "01a01028-5447-722b-9de2-da7e0db03af9",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5447-704a-be91-8d20daa7717e",
+      "01a01028-5447-7bb0-bc5d-b3d16d03d253",
+      "01a01028-5448-78b7-b1c4-9f12327c2c28"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Hongqi CA72",
+  "names": [],
+  "type": "Vehicle"
+}

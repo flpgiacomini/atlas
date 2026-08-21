@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-bfe44ab41d5e79a584ce8ebd49a77108"
+      ],
+      "id": "atlas:claim:legacy-283a6a7bf6ff7105920f145aaffab72d",
+      "legacyId": "283a6a7b-f6ff-7105-920f-145aaffab72d",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:person:harley-earl",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird I"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-i"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c674a9e8-75f4-74a9-ae17-e8e672562161",
+      "subject": "atlas:vehicle:general-motors-firebird-i",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e7840cb71d197b948554780fb2780c7c"
+      ],
+      "id": "atlas:claim:legacy-6b42ebf88c2772d08b6a62e1407e945e",
+      "legacyId": "6b42ebf8-8c27-72d0-8b6a-62e1407e945e",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:vehicle:general-motors-le-sabre",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird I"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-i"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "fe1568b5-9a1e-7ab7-b594-0e611384d253",
+      "subject": "atlas:vehicle:general-motors-firebird-i",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9c037e0b28fb794bba0c24f4e2071f3a"
+      ],
+      "id": "atlas:claim:legacy-6ce86d72ed067a5ba410ad8274b36c2a",
+      "legacyId": "6ce86d72-ed06-7a5b-a410-ad8274b36c2a",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:technology:propulsao-automotiva-por-turbina-a-gas",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird I"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-i"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "16823fbb-41d2-7db7-8461-5d3386dd9bef",
+      "subject": "atlas:vehicle:general-motors-firebird-i",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-f15ad145f7d07ad4811c727b18447773"
+      ],
+      "id": "atlas:claim:legacy-92d936f3fad174158e4b2370a578d304",
+      "legacyId": "92d936f3-fad1-7415-8e4b-2370a578d304",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird I"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-i"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "babe4ced-672e-7f2c-a2f4-0fdbc3b9fd72",
+      "subject": "atlas:vehicle:general-motors-firebird-i",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept car experimental XP-21 de 1954, criado para investigar a viabilidade da turbina a gás em automóveis e explorar uma carroceria de plástico reforçado inspirada em aeronaves. A GM documenta testes reais, transmissão mecânica às rodas traseiras e refinamento aerodinâmico em túnel de vento do Caltech.",
+  "id": "atlas:vehicle:general-motors-firebird-i",
+  "legacy": {
+    "id": "bb1d2bc3-35c8-72bf-9fea-2d4dbab26aff",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "c674a9e8-75f4-74a9-ae17-e8e672562161",
+      "babe4ced-672e-7f2c-a2f4-0fdbc3b9fd72",
+      "fe1568b5-9a1e-7ab7-b594-0e611384d253",
+      "16823fbb-41d2-7db7-8461-5d3386dd9bef"
+    ],
+    "editorial_batch": "V03",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "General Motors Firebird I",
+  "names": [],
+  "type": "Vehicle"
+}

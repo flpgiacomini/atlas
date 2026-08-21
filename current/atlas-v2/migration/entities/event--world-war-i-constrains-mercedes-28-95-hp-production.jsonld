@@ -1,0 +1,77 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec597a3aa87181fa8055ae5a"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5978a1b1aad4a6ceed6419",
+      "legacyId": "01a01031-ec59-78a1-b1aa-d4a6ceed6419",
+      "object": {
+        "id": "atlas:vehicle:mercedes-28-95-hp",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "affected_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-28-95-hp-19141924"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec59-7f5a-81d8-306356341f53",
+      "subject": "atlas:event:world-war-i-constrains-mercedes-28-95-hp-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5970e8962ace057be2c4df"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5978a5bdeb758a1857267e",
+      "legacyId": "01a01031-ec59-78a5-bdeb-758a1857267e",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1914"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "affected_period": "1914-1915"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-28-95-hp-19141924"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec59-761d-a8bd-b3578dd75440",
+      "subject": "atlas:event:world-war-i-constrains-mercedes-28-95-hp-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "World War I constrains Mercedes 28/95 hp production é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1914. A documentação registra participação de Mercedes 28/95 hp. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:world-war-i-constrains-mercedes-28-95-hp-production",
+  "legacy": {
+    "id": "01a01031-ec59-7812-aad3-50bed05feae4",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec59-761d-a8bd-b3578dd75440",
+      "01a01031-ec59-7f5a-81d8-306356341f53"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "production_interruption",
+    "realization_status": "occurred"
+  },
+  "name": "World War I constrains Mercedes 28/95 hp production",
+  "names": [],
+  "type": "Event"
+}

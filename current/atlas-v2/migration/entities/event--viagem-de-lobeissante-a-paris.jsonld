@@ -1,0 +1,101 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-dd1c4a3b029b79969c90e05e62e2036c"
+      ],
+      "id": "atlas:claim:legacy-4bd0e8c72d58728a8e7551bd01022258",
+      "legacyId": "4bd0e8c7-2d58-728a-8e75-51bd01022258",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:vehicle:lobeissante",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "6a77620f-b895-77a5-b983-83b06b7096c1",
+      "subject": "atlas:event:viagem-de-lobeissante-a-paris",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-86fa95738c82789dbb1c7b26d2fdc84a"
+      ],
+      "id": "atlas:claim:legacy-583e8e94aa287a4396d28b1444fa3e97",
+      "legacyId": "583e8e94-aa28-7a43-96d2-8b1444fa3e97",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:amedee-bollee",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e7f32295-37af-7056-8764-f20bdfd959e8",
+      "subject": "atlas:event:viagem-de-lobeissante-a-paris",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-070341c0bbc47647801770937a7ac3d3"
+      ],
+      "id": "atlas:claim:legacy-85c005bae7c07a52a343931607d39325",
+      "legacyId": "85c005ba-e7c0-7a52-a343-931607d39325",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1875"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e2a7252f-bec5-7bf8-a694-2eef2c98c98a",
+      "subject": "atlas:event:viagem-de-lobeissante-a-paris",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Viagem pública realizada em 1875 por Amédée Bollée com L’Obéissante entre Le Mans e Paris. O episódio demonstrou alcance rodoviário para passageiros, ao mesmo tempo que expôs dificuldades regulatórias e operacionais enfrentadas pelos veículos a vapor.",
+  "id": "atlas:event:viagem-de-lobeissante-a-paris",
+  "legacy": {
+    "id": "c6520447-f6ac-7ba1-bcd1-7a7df4b63a65",
+    "slug": "viagem-de-lobeissante-a-paris",
+    "type": "event"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "event_type": "demonstration",
+    "realization_status": "occurred"
+  },
+  "name": "Viagem de L’Obéissante a Paris",
+  "names": [],
+  "type": "Event"
+}

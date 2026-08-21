@@ -1,0 +1,92 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285442754584359fdfd8c88a66"
+      ],
+      "id": "atlas:claim:legacy-01a0102854427108b97596e4f07419e0",
+      "legacyId": "01a01028-5442-7108-b975-96e4f07419e0",
+      "object": {
+        "id": "atlas:vehicle:benz-patent-motor-car",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5441-7a8f-9856-e5ada74b8e4f",
+      "subject": "atlas:vehicle:benz-patent-motor-car-model-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854427237a1919e18c9f9c1b9"
+      ],
+      "id": "atlas:claim:legacy-01a0102854427b30a0b0d61700e61b4b",
+      "legacyId": "01a01028-5442-7b30-a0b0-d61700e61b4b",
+      "object": {
+        "id": "atlas:vehicle:benz-patent-motor-car",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-1886-1894"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5441-7a8f-9856-e5ada74b8e4f",
+      "subject": "atlas:vehicle:benz-patent-motor-car-model-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-c90af39b3f3a79778d86a173af6ef6ab"
+      ],
+      "id": "atlas:claim:legacy-de9bcc03457d77adba803749c7d1e196",
+      "legacyId": "de9bcc03-457d-77ad-ba80-3749c7d1e196",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:person:carl-benz",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "555c1cde-21cf-75fb-8c91-aa589a304555",
+      "subject": "atlas:vehicle:benz-patent-motor-car-model-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Benz Patent Motor Car Model 1 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra integração a Benz Patent Motor Car. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:benz-patent-motor-car-model-1",
+  "legacy": {
+    "id": "01a01028-5441-7dba-8fc7-6006eb681a73",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5441-7a8f-9856-e5ada74b8e4f"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "prototype",
+    "vehicle_level": "variant"
+  },
+  "name": "Benz Patent Motor Car Model 1",
+  "names": [],
+  "type": "Vehicle"
+}

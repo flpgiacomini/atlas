@@ -1,0 +1,126 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-7a9e93fed4827a27bf8beb7d31ce1f0e"
+      ],
+      "id": "atlas:claim:legacy-0e816a2bbd02716581d992f818661bba",
+      "legacyId": "0e816a2b-bd02-7165-81d9-92f818661bba",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": "carro experimental movido por mistura gasosa",
+      "predicate": "configured-as",
+      "qualifiers": {
+        "editorial_batch": "F01-F03",
+        "priority_claim_policy": "Não interpretar como prioridade absoluta; preservar divergência historiográfica."
+      },
+      "resolutionStatus": "needs_reconciliation",
+      "sources": [
+        "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz"
+      ],
+      "stance": "qualifies",
+      "statementLegacyId": "9e89d65f-3ab5-722e-988f-e7da531dbe2b",
+      "subject": "atlas:vehicle:veiculo-experimental-de-rivaz",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-2eaf626322d774f1bb0c3468bd9121f8"
+      ],
+      "id": "atlas:claim:legacy-195ef101fff773a09d33c783fd5e17ff",
+      "legacyId": "195ef101-fff7-73a0-9d33-c783fd5e17ff",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f129d3f6-0a59-7de0-903c-060aaed51db9",
+      "subject": "atlas:vehicle:veiculo-experimental-de-rivaz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-9509714782237e238fcbf5cbc4843e57"
+      ],
+      "id": "atlas:claim:legacy-b8b2e5ca6a2778e99cd8b29af12f6e88",
+      "legacyId": "b8b2e5ca-6a27-78e9-9cd8-b29af12f6e88",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:francois-isaac-de-rivaz",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e4b76935-a3eb-7a29-9d6a-ad62da34e85a",
+      "subject": "atlas:vehicle:veiculo-experimental-de-rivaz",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-e504576fb5e479a2b9bc8a85820d8546"
+      ],
+      "id": "atlas:claim:legacy-f923fb0921fe705d8bf34eecbd084ab2",
+      "legacyId": "f923fb09-21fe-705d-8bf3-4eecbd084ab2",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1807"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03",
+        "priority_claim_policy": "Não interpretar como prioridade absoluta; preservar divergência historiográfica."
+      },
+      "resolutionStatus": "needs_reconciliation",
+      "sources": [
+        "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz"
+      ],
+      "stance": "qualifies",
+      "statementLegacyId": "b5646c28-c066-7b6b-b6f7-ea2960f63dc5",
+      "subject": "atlas:vehicle:veiculo-experimental-de-rivaz",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo experimental atribuído a François Isaac de Rivaz e movido por um motor de combustão interna com mistura gasosa. O registro no Atlas distingue a patente de 1805 das experiências veiculares posteriores e evita uma reivindicação simplificada de prioridade absoluta.",
+  "id": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "legacy": {
+    "id": "589cf0f6-e5d2-7fd4-b158-a5608ce1e7b4",
+    "slug": "veiculo-experimental-de-rivaz",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "Veículo experimental de Rivaz",
+  "names": [],
+  "type": "Vehicle"
+}

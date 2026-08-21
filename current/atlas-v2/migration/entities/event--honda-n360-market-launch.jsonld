@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544d734c9ea70ceb3a23d35f"
+      ],
+      "id": "atlas:claim:legacy-01a01028544d707085f5f9472f97c438",
+      "legacyId": "01a01028-544d-7070-85f5-f9472f97c438",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1967-03"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-introducing-n360-1967"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544d-70dc-8204-fbd59ee0a73b",
+      "subject": "atlas:event:honda-n360-market-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544e7885b0cff4fe9edbd8ff"
+      ],
+      "id": "atlas:claim:legacy-01a01028544e783abdccd2d8c9ac6c14",
+      "legacyId": "01a01028-544e-783a-bdcc-d2d8c9ac6c14",
+      "object": {
+        "id": "atlas:vehicle:honda-n360",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-introducing-n360-1967"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544e-7f5d-b08f-11d93ee05cbd",
+      "subject": "atlas:event:honda-n360-market-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Honda N360 market launch é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1967-03. A documentação registra participação de Honda N360. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:honda-n360-market-launch",
+  "legacy": {
+    "id": "01a01028-544c-79a1-9697-4bf87cc0f009",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544d-70dc-8204-fbd59ee0a73b",
+      "01a01028-544e-7f5d-b08f-11d93ee05cbd"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Honda N360 market launch",
+  "names": [],
+  "type": "Event"
+}

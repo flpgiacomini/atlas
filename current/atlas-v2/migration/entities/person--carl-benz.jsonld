@@ -1,0 +1,129 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-298c34303d1371a3b3f756529231d332"
+      ],
+      "id": "atlas:claim:legacy-1f5babd05def77b282b0106c6967ec25",
+      "legacyId": "1f5babd0-5def-77b2-82b0-106c6967ec25",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1844-11-25"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-group-carl-benz-inventor-and-entrepreneur"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "8005bbed-67ce-79fc-a7d2-6181db8ec3aa",
+      "subject": "atlas:person:carl-benz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-bcb4e31326537d61b9e298e6f2de9973"
+      ],
+      "id": "atlas:claim:legacy-399f14f6636070fabaa42096b131532b",
+      "legacyId": "399f14f6-6360-70fa-baa4-2096b131532b",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1929-04-04"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-group-carl-benz-inventor-and-entrepreneur"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "9ce29246-2744-754f-a60d-810fa82de6ca",
+      "subject": "atlas:person:carl-benz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-47922d2e6a2a7579a4fd2c7ea56a1bd4"
+      ],
+      "id": "atlas:claim:legacy-d227be024e017886ace5d1366563a005",
+      "legacyId": "d227be02-4e01-7886-ace5-d1366563a005",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:benz-cie",
+        "type": "EntityReference"
+      },
+      "predicate": "led",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-group-carl-benz-inventor-and-entrepreneur"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "8e615a8e-b2f9-74d7-b354-675e20a1d488",
+      "subject": "atlas:person:carl-benz",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1883",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-215b7856a57976ccb2f83aacccb863c7"
+      ],
+      "id": "atlas:claim:legacy-e4e45e982c0c78fd9fdd661b634299e8",
+      "legacyId": "e4e45e98-2c0c-78fd-9fdd-661b634299e8",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:benz-cie",
+        "type": "EntityReference"
+      },
+      "predicate": "worked-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-group-carl-benz-inventor-and-entrepreneur"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "55b07132-d461-7d57-a56c-a7f15c6b46ba",
+      "subject": "atlas:person:carl-benz",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1883",
+        "precision": "year",
+        "until": null
+      }
+    }
+  ],
+  "description": "Engenheiro e empreendedor alemão que desenvolveu o automóvel movido a gasolina patenteado em 1886. Sua trajetória uniu pesquisa mecânica, fabricação de motores e liderança empresarial, estabelecendo uma das bases técnicas e industriais da mobilidade moderna.",
+  "id": "atlas:person:carl-benz",
+  "legacy": {
+    "id": "01a01028-5441-7e94-9604-f48e8c9254e7",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E01",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "engineer",
+      "entrepreneur"
+    ]
+  },
+  "name": "Carl Benz",
+  "names": [],
+  "type": "Person"
+}

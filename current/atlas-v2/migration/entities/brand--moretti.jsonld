@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Moretti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8aeda949-b2bb-7bd8-8f06-970d78d0aec8",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Moretti"
+    }
+  ],
+  "id": "atlas:brand:moretti",
+  "legacy": {
+    "id": "17f61a60-348f-7951-8103-1c9a128bd033",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Moretti",
+  "names": [],
+  "type": "Brand"
+}

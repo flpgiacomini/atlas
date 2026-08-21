@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Haval, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2cf1cda0-ea44-73c2-b317-cbaf07e31e33",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Haval"
+    }
+  ],
+  "id": "atlas:brand:haval",
+  "legacy": {
+    "id": "739ee703-760d-7d68-ac15-814f8d042b6a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Haval",
+  "names": [],
+  "type": "Brand"
+}

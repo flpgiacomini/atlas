@@ -1,0 +1,21 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Automóvel de passageiros utilizado como base técnica dos protótipos BAT desenvolvidos por Bertone e Franco Scaglione. Sua presença no Atlas permite separar o veículo de produção da série de carrocerias experimentais que reutilizou sua arquitetura entre 1953 e 1955.",
+  "id": "atlas:vehicle:alfa-romeo-1900",
+  "legacy": {
+    "id": "4309b524-9bd8-7654-89b3-8738e6203099",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "V04",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "model"
+  },
+  "name": "Alfa Romeo 1900",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-3c83aad754167bd3b43f5c5ac9d7a327"
+      ],
+      "id": "atlas:claim:legacy-a22006306db779e99b8e204cce7a06c3",
+      "legacyId": "a2200630-6db7-79e9-9b8e-204cce7a06c3",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1877-08-27"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q313074"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "49faa183-7023-725a-98dd-50b60ba0f72e",
+      "subject": "atlas:person:charles-rolls",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-5191e33a61ba7c23bb1de9f9d0c2649f"
+      ],
+      "id": "atlas:claim:legacy-b501a6114234756bb6c609b8fe630bf9",
+      "legacyId": "b501a611-4234-756b-b6c6-09b8fe630bf9",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1910-07-12"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q313074"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "06ff5484-4b91-7b84-9630-1939b2310961",
+      "subject": "atlas:person:charles-rolls",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Pioneiro britânico do automobilismo e da aviação, comerciante de automóveis e cofundador da empresa associada a Henry Royce. O encontro entre ambos, em 1904, reuniu a capacidade comercial de Rolls à engenharia e fabricação de Royce.",
+  "id": "atlas:person:charles-rolls",
+  "legacy": {
+    "id": "01a0102a-57e9-773d-8a60-1b66f245b8ae",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "entrepreneur",
+      "driver"
+    ]
+  },
+  "name": "Charles Rolls",
+  "names": [],
+  "type": "Person"
+}

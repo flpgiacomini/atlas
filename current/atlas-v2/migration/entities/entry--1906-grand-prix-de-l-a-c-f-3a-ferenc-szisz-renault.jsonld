@@ -1,0 +1,261 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577249935c824eee49d41c"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5771e786c7bf08b6bcaf57",
+      "legacyId": "01a01031-ec57-71e7-86c7-bf08b6bcaf57",
+      "object": "classified",
+      "predicate": "entry-status",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7e03-9139-dd7c85645ca9",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577762a56bda2318de6daf"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5771ecb1157c8fcb6d78fd",
+      "legacyId": "01a01031-ec57-71ec-b115-7c8fcb6d78fd",
+      "object": {
+        "id": "atlas:team:renault-1906-grand-prix-works-entry",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7721-b869-0458d77b4400",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577cee8f9ce2940648d5ef"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec57733492b8312bb890d4df",
+      "legacyId": "01a01031-ec57-7334-92b8-312bb890d4df",
+      "object": {
+        "id": "atlas:event:1906-grand-prix-de-l-a-c-f",
+        "type": "EntityReference"
+      },
+      "predicate": "entry-for-event",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7e1e-97ba-735512fda487",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5774ae8766c631f14de3bf"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5773a8abe95094e7b1b06b",
+      "legacyId": "01a01031-ec57-73a8-abe9-5094e7b1b06b",
+      "object": "3 A",
+      "predicate": "start-number",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7f8f-b30f-10061ee428a3",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577e538d7878b1e9d2a14b"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5773ad84f29b7e3dfd1da7",
+      "legacyId": "01a01031-ec57-73ad-84f2-9b7e3dfd1da7",
+      "object": {
+        "type": "number",
+        "value": 1.0
+      },
+      "predicate": "overall-position",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7eb9-8156-c1533312f979",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5771d0b5e64f3afd33a3ee"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5776d59a223b0956448db1",
+      "legacyId": "01a01031-ec57-76d5-9a22-3b0956448db1",
+      "object": {
+        "id": "atlas:person:ferenc-szisz",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-706b-b0bd-69ece89335c7",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577af3b29559ab2735f801"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec577b3bb2e3d19bc7c4e637",
+      "legacyId": "01a01031-ec57-7b3b-b2e3-d19bc7c4e637",
+      "object": {
+        "type": "number",
+        "value": 1.0
+      },
+      "predicate": "overall-position",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7eb9-8156-c1533312f979",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577fb6939330a8d215b70f"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec577d4c8118bd4687290945",
+      "legacyId": "01a01031-ec57-7d4c-8118-bd4687290945",
+      "object": {
+        "id": "atlas:event:1906-grand-prix-de-l-a-c-f",
+        "type": "EntityReference"
+      },
+      "predicate": "entry-for-event",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-french-grand-prix"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7e1e-97ba-735512fda487",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577e31848d4a6c9e97c27d"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec577db7bddd83a2db50c60f",
+      "legacyId": "01a01031-ec57-7db7-bddd-83a2db50c60f",
+      "object": "classified",
+      "predicate": "entry-status",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-7e03-9139-dd7c85645ca9",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec577846b9ba36cf8efa4306"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec577f9187f001ce8e734d5c",
+      "legacyId": "01a01031-ec57-7f91-87f0-01ce8e734d5c",
+      "object": {
+        "id": "atlas:vehicle:renault-type-ak-grand-prix",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-vehicle",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-73c4-a1ec-4b81106981df",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5772cf8b9509cdb19e794d"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec577fc2aa935620d9873a83",
+      "legacyId": "01a01031-ec57-7fc2-aa93-5620d9873a83",
+      "object": {
+        "id": "atlas:person:ferenc-szisz",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec57-706b-b0bd-69ece89335c7",
+      "subject": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault é registrado no Atlas como inscrição esportiva, dentro da história global do automóvel. A documentação registra condução por Ferenc Szisz. A documentação registra veículo inscrito Renault Type AK Grand Prix. A documentação registra inscrição por Renault — 1906 Grand Prix works entry. A documentação registra situação na prova classified. A documentação registra participação no evento 1906 Grand Prix de l'A.C.F.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
+  "legacy": {
+    "id": "01a01031-ec56-7459-925c-fc864c0e340e",
+    "slug": null,
+    "type": "entry"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec57-706b-b0bd-69ece89335c7",
+      "01a01031-ec57-73c4-a1ec-4b81106981df",
+      "01a01031-ec57-7721-b869-0458d77b4400",
+      "01a01031-ec57-7e03-9139-dd7c85645ca9",
+      "01a01031-ec57-7e1e-97ba-735512fda487"
+    ],
+    "editorial_batch": "E21",
+    "editorial_level": "editorial",
+    "entry_type": "motorsport_entry"
+  },
+  "name": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
+  "names": [],
+  "type": "Entry"
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033187a53be80f3358279f3e9"
+      ],
+      "id": "atlas:claim:legacy-01a0103033187565965dfa33ff686ac4",
+      "legacyId": "01a01030-3318-7565-965d-fa33ff686ac4",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1907"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-a-defining-moment-rolls-royce-marks-alpine-trial-s-110th-anniversary"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3317-788e-a82c-314f853b6e4c",
+      "subject": "atlas:event:1907-scottish-reliability-trial-silver-ghost",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033187b5ab61812904ad82cdd"
+      ],
+      "id": "atlas:claim:legacy-01a01030331879238a7b52acff25dd50",
+      "legacyId": "01a01030-3318-7923-8a7b-52acff25dd50",
+      "object": {
+        "id": "atlas:vehicle-instance:rolls-royce-40-50-h-p-chassis-60551-silver-ghost",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "reliability_trial_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-a-defining-moment-rolls-royce-marks-alpine-trial-s-110th-anniversary"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3318-7c27-a884-923154dc582c",
+      "subject": "atlas:event:1907-scottish-reliability-trial-silver-ghost",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1907 Scottish Reliability Trial — Silver Ghost é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1907. A documentação registra participação de Rolls-Royce 40/50 H.P. chassis 60551 'Silver Ghost'. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:1907-scottish-reliability-trial-silver-ghost",
+  "legacy": {
+    "id": "01a01030-3317-7466-80ec-39222e8361c6",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3317-788e-a82c-314f853b6e4c",
+      "01a01030-3318-7c27-a884-923154dc582c"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "1907 Scottish Reliability Trial — Silver Ghost",
+  "names": [],
+  "type": "Event"
+}

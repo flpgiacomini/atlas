@@ -1,0 +1,128 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-5f2f5c8b3a3c7375b1672269d23dc472"
+      ],
+      "id": "atlas:claim:legacy-2fb8c89196647cc380e95fc934a7f7e7",
+      "legacyId": "2fb8c891-9664-7cc3-80e9-5fc934a7f7e7",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d1cf2a33-a068-7beb-861b-c28dc0508a6b",
+      "subject": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-8829ac0d66797e0b8340e90520ccfa6b"
+      ],
+      "id": "atlas:claim:legacy-47f1153bb7de72598d59b19459092376",
+      "legacyId": "47f1153b-b7de-7259-8d59-b19459092376",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:leon-malandin",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ae1471c8-db22-74a3-acca-59c629fa244a",
+      "subject": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-5eaba23d9a897fa2aec1d80e6edffde1"
+      ],
+      "id": "atlas:claim:legacy-7893aef0480e76709ff3d72423aeefe3",
+      "legacyId": "7893aef0-480e-7670-9ff3-d72423aeefe3",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:edouard-delamare-deboutteville",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d20cfc6b-83ac-7d4f-a827-bd742e8e0287",
+      "subject": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-7d9d4d0cdb3d7c5c93ebbcd547848d53"
+      ],
+      "id": "atlas:claim:legacy-d6fe2f189de7733fb320bdf123658189",
+      "legacyId": "d6fe2f18-9de7-733f-b320-bdf123658189",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1884"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03",
+        "priority_claim_policy": "Não interpretar como prioridade absoluta; preservar divergência historiográfica."
+      },
+      "resolutionStatus": "needs_reconciliation",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "qualifies",
+      "statementLegacyId": "50709ab1-2589-7237-80df-cb11ccbb4aff",
+      "subject": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo experimental francês associado à patente de Delamare-Deboutteville e Malandin em 1884. Integra a discussão sobre a convergência do motor a combustível líquido e da carruagem, mas sua prioridade depende da definição e da documentação utilizada.",
+  "id": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
+  "legacy": {
+    "id": "cf88c6c1-696b-75da-98a9-dbf6d096105c",
+    "slug": "veiculo-delamare-debouttevillemalandin",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "Veículo Delamare-Deboutteville–Malandin",
+  "names": [],
+  "type": "Vehicle"
+}

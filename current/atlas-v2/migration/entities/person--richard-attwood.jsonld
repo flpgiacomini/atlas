@@ -1,0 +1,109 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-25d4ac7e81c87a6ca2c1447b44f2fbd4"
+      ],
+      "id": "atlas:claim:legacy-5d62d9969dd17c21a0af6ca45cff1032",
+      "legacyId": "5d62d996-9dd1-7c21-a0af-6ca45cff1032",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1940-04-04"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-porsche-congratulates-richard-attwood-on-his-85th-birthday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c49447d9-843b-720e-8f5d-e8bc0f29ab94",
+      "subject": "atlas:person:richard-attwood",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-45abedaee4e9708ea4ef15d31b4957fd"
+      ],
+      "id": "atlas:claim:legacy-6e0b15c402ae7b30ae2b7e9eed8560a7",
+      "legacyId": "6e0b15c4-02ae-7b30-ae2b-7e9eed8560a7",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "worked-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-porsche-congratulates-richard-attwood-on-his-85th-birthday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c739306f-f9a6-7ee0-9258-ed88e7f330d4",
+      "subject": "atlas:person:richard-attwood",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1969",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6d30599637637ce89a308a40718714a2"
+      ],
+      "id": "atlas:claim:legacy-c0562bbc2e2a7e449b0fcf3a88ff0ef9",
+      "legacyId": "c0562bbc-2e2a-7e44-9b0f-cf3a88ff0ef9",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:person:hans-herrmann",
+        "type": "EntityReference"
+      },
+      "predicate": "collaborated-with",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-newsroom-porsche-congratulates-richard-attwood-on-his-85th-birthday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "a56ee3f1-026b-765e-9e23-dcd73d1e6aec",
+      "subject": "atlas:person:richard-attwood",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1970-06-14",
+        "precision": "day",
+        "until": null
+      }
+    }
+  ],
+  "description": "Piloto britânico com passagem pela Fórmula 1 e pelos protótipos de longa duração. Como piloto oficial da Porsche, venceu as 24 Horas de Le Mans de 1970 ao lado de Hans Herrmann, obtendo a primeira vitória geral da marca na prova.",
+  "id": "atlas:person:richard-attwood",
+  "legacy": {
+    "id": "01a01016-ea4e-78db-95d0-5ebf2fcdfaf8",
+    "slug": "richard-attwood",
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-70cd-b447-70a85a66b26a",
+      "a56ee3f1-026b-765e-9e23-dcd73d1e6aec",
+      "c49447d9-843b-720e-8f5d-e8bc0f29ab94",
+      "c739306f-f9a6-7ee0-9258-ed88e7f330d4"
+    ],
+    "editorial_batch": "E01",
+    "editorial_level": "editorial",
+    "roles": [
+      "driver"
+    ]
+  },
+  "name": "Richard Attwood",
+  "names": [],
+  "type": "Person"
+}

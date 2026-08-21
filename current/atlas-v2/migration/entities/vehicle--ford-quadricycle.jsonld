@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57eb7b9e9223ff29eae00e03"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57eb7b598d94610f380c7d7a",
+      "legacyId": "01a0102a-57eb-7b59-8d94-610f380c7d7a",
+      "object": {
+        "id": "atlas:person:henry-ford",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-1896-ford-quadricycle-runabout"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57eb-744c-a91b-2bebd27ef9ba",
+      "subject": "atlas:vehicle:ford-quadricycle",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Quadricycle é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra responsabilidade de projeto de Henry Ford. Também aparece na relação de participação de associada a First drive of Ford Quadricycle. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:ford-quadricycle",
+  "legacy": {
+    "id": "01a0102a-57eb-757c-8088-4ed32c002ced",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57eb-744c-a91b-2bebd27ef9ba",
+      "01a0102a-57eb-7d74-9b1c-6acc4a60abb8"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "standalone"
+  },
+  "name": "Ford Quadricycle",
+  "names": [],
+  "type": "Vehicle"
+}

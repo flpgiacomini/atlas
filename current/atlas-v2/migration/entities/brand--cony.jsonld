@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Cony, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "6d6d8530-a412-73c3-a57f-904a07a080e3",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Cony"
+    }
+  ],
+  "id": "atlas:brand:cony",
+  "legacy": {
+    "id": "449dec8c-2c6d-7d78-8e7f-fc0af2fa09fe",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Cony",
+  "names": [],
+  "type": "Brand"
+}

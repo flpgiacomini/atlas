@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Audi quattro all-wheel-drive system é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Audi quattro. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:audi-quattro-all-wheel-drive-system",
+  "legacy": {
+    "id": "01a01028-5452-7987-a6b5-8af393863053",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5452-7f25-ae3f-906619a1bf52"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "drivetrain"
+  },
+  "name": "Audi quattro all-wheel-drive system",
+  "names": [],
+  "type": "Technology"
+}

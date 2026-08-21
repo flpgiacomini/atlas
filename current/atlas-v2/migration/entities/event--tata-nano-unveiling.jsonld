@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544b71d49deab1bc4273accf"
+      ],
+      "id": "atlas:claim:legacy-01a01028544b70019abe68e3638ad061",
+      "legacyId": "01a01028-544b-7001-9abe-68e3638ad061",
+      "object": {
+        "id": "atlas:vehicle:tata-nano",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-the-tata-nano-arrives"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544b-752e-9edc-a28b00bf4d15",
+      "subject": "atlas:event:tata-nano-unveiling",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544b751fa6479c1c4da42132"
+      ],
+      "id": "atlas:claim:legacy-01a01028544b75f0a3b7853561db9f79",
+      "legacyId": "01a01028-544b-75f0-a3b7-853561db9f79",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "2008-01-10"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:tata-motors-the-tata-nano-arrives"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544b-7570-ba4c-a0b6c339f5c1",
+      "subject": "atlas:event:tata-nano-unveiling",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Tata Nano unveiling é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Tata Nano. A documentação registra ocorrência em 2008-01-10. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:tata-nano-unveiling",
+  "legacy": {
+    "id": "01a01028-5449-7479-8d82-4307e8493853",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544b-752e-9edc-a28b00bf4d15",
+      "01a01028-544b-7570-ba4c-a0b6c339f5c1"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Tata Nano unveiling",
+  "names": [],
+  "type": "Event"
+}

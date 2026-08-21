@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Subaru, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "df0752f0-11d2-752f-ab4f-57e2659a2a6e",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Subaru"
+    }
+  ],
+  "id": "atlas:brand:subaru",
+  "legacy": {
+    "id": "6c93da37-a355-72be-9fea-9c8c7ae87d13",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Subaru",
+  "names": [],
+  "type": "Brand"
+}

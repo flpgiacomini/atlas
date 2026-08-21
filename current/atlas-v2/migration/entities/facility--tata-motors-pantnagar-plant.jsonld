@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Tata Motors Pantnagar Plant é registrado no Atlas como instalação industrial, dentro da história global do automóvel. Também aparece na relação de produção em associada a Tata Nano. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:facility:tata-motors-pantnagar-plant",
+  "legacy": {
+    "id": "01a01028-5449-70ed-8c33-269beafc87b0",
+    "slug": null,
+    "type": "facility"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544b-7588-9fb4-4b9cf7bb5ad4"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "facility_type": "factory"
+  },
+  "name": "Tata Motors Pantnagar Plant",
+  "names": [],
+  "type": "Facility"
+}

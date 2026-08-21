@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Gillet, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ddcbb129-0182-7925-b28a-30151f2f86b3",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Gillet"
+    }
+  ],
+  "id": "atlas:brand:gillet",
+  "legacy": {
+    "id": "d3482580-29a2-7a22-82a6-0010f8aa41f3",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Gillet",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Wey, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d07a91ee-8666-73d4-af9f-65647d5b1464",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Wey"
+    }
+  ],
+  "id": "atlas:brand:wey",
+  "legacy": {
+    "id": "6194f306-ff2e-7b2d-9bf8-41f7775be531",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Wey",
+  "names": [],
+  "type": "Brand"
+}

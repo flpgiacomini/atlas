@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557a6b89551256d3a86e28"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587611a39a11937b4da9e9",
+      "legacyId": "01a01016-ea58-7611-a39a-11937b4da9e9",
+      "object": {
+        "id": "atlas:facility:ford-highland-park-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7300-8000-595eb2b5e0fd",
+      "subject": "atlas:event:model-t-production-moved-to-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547f88928c10ce9b91c14b"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587fe19dd8b0e5a793d26d",
+      "legacyId": "01a01016-ea58-7fe1-9dd8-b0e5a793d26d",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1910"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-highland-park"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7e24-b626-7ace48519947",
+      "subject": "atlas:event:model-t-production-moved-to-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Model T production moved to Highland Park é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Ford Highland Park Plant. A documentação registra ocorrência em 1910. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:model-t-production-moved-to-highland-park",
+  "legacy": {
+    "id": "01a01016-ea4d-70f5-abd4-1548510b564e",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7300-8000-595eb2b5e0fd",
+      "01a01016-ea50-7e24-b626-7ace48519947"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "production_change",
+    "realization_status": "occurred"
+  },
+  "name": "Model T production moved to Highland Park",
+  "names": [],
+  "type": "Event"
+}

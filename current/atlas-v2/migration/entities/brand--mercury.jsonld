@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mercury, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "34e009f4-6221-7ada-8eb6-f6f2c16d43b4",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Mercury"
+    }
+  ],
+  "id": "atlas:brand:mercury",
+  "legacy": {
+    "id": "71228398-a534-7074-b97d-665345b5295f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Mercury",
+  "names": [],
+  "type": "Brand"
+}

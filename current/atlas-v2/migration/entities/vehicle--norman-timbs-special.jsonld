@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Norman Timbs Special (1948), selecionado pelo Atlas por sua possível contribuição histórica em DES, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "91db6492-1018-7a48-b968-76613feb3920",
+      "scheme": "atlas-significance-candidate",
+      "value": "one_off:1948:Norman Timbs Special"
+    }
+  ],
+  "id": "atlas:vehicle:norman-timbs-special",
+  "legacy": {
+    "id": "c28a7c39-b7d9-7b55-95d0-eb3f015c694f",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Norman Timbs",
+    "candidate_kind": "one_off",
+    "candidate_year": 1948,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "SOC"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 65
+  },
+  "name": "Norman Timbs Special",
+  "names": [],
+  "type": "Vehicle"
+}

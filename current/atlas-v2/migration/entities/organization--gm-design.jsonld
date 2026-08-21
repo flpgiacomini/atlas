@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Organização de design da General Motors à qual a fonte institucional atribui o desenvolvimento do Buick Y-Job sob liderança de Harley Earl. Sua atuação ajudou a transformar o concept car em instrumento sistemático de pesquisa, comunicação pública e antecipação de linguagem automotiva.",
+  "id": "atlas:organization:gm-design",
+  "legacy": {
+    "id": "281c05cc-f8b0-7f04-b329-1c9261441f83",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "editorial_batch": "V02",
+    "editorial_level": "editorial",
+    "organization_type": "design organization"
+  },
+  "name": "GM Design",
+  "names": [],
+  "type": "Organization"
+}

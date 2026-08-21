@@ -1,0 +1,47 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5976d09193d06064b85c83"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec597b138cf11e878606861b",
+      "legacyId": "01a01031-ec59-7b13-8cf1-1e878606861b",
+      "object": {
+        "id": "atlas:organization:daimler-motoren-gesellschaft",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-mercedes-df-100-aeroengine-goes-into-large-scale-production"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec59-7701-ac20-ca9b805ff3da",
+      "subject": "atlas:component:mercedes-df-100-aeroengine",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Mercedes DF 100 aeroengine é registrado no Atlas como componente técnico, dentro da história global do automóvel. A documentação registra desenvolvimento por Daimler-Motoren-Gesellschaft. Também aparece na relação de participação de associada a Mercedes DF 100 aeroengine enters large-scale production. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:component:mercedes-df-100-aeroengine",
+  "legacy": {
+    "id": "01a01031-ec59-7816-bdcd-ed7a27d3e552",
+    "slug": null,
+    "type": "component"
+  },
+  "metadata": {
+    "component_type": "engine",
+    "description_basis_statement_ids": [
+      "01a01031-ec59-7701-ac20-ca9b805ff3da",
+      "01a01031-ec59-7815-9d14-c267f51343bb"
+    ],
+    "editorial_batch": "E14",
+    "editorial_level": "editorial"
+  },
+  "name": "Mercedes DF 100 aeroengine",
+  "names": [],
+  "type": "Component"
+}

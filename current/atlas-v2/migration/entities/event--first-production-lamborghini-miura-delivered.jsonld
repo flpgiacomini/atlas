@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c77e0f8b6191f02ef899d6"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c77194ac00041bdc69d6e6",
+      "legacyId": "01a010d9-28c7-7194-ac00-041bdc69d6e6",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1966-12-29"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-miura-the-first-supercar-in-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7cef-a4b8-446f8a2afa98",
+      "subject": "atlas:event:first-production-lamborghini-miura-delivered",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c77bd9975552d707c862d3"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c7790b98a4c21db63b13a5",
+      "legacyId": "01a010d9-28c7-790b-98a4-c21db63b13a5",
+      "object": {
+        "id": "atlas:vehicle:lamborghini-miura",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:automobili-lamborghini-lamborghini-miura-the-first-supercar-in-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7cbd-ad22-9458d7456b1c",
+      "subject": "atlas:event:first-production-lamborghini-miura-delivered",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "First production Lamborghini Miura delivered é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Lamborghini Miura. A documentação registra ocorrência em 1966-12-29. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:first-production-lamborghini-miura-delivered",
+  "legacy": {
+    "id": "01a010d9-28c7-762c-8984-66fc4f1232b8",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c7-7cbd-ad22-9458d7456b1c",
+      "01a010d9-28c7-7cef-a4b8-446f8a2afa98"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_delivery",
+    "realization_status": "occurred"
+  },
+  "name": "First production Lamborghini Miura delivered",
+  "names": [],
+  "type": "Event"
+}

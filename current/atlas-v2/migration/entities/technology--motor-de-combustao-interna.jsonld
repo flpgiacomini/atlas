@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Tecnologia que converte em trabalho mecânico a energia liberada pela combustão dentro do motor. Antes do automóvel a gasolina, experiências com diferentes gases, ignição e arquiteturas estabeleceram princípios que seriam refinados ao longo do século XIX.",
+  "id": "atlas:technology:motor-de-combustao-interna",
+  "legacy": {
+    "id": "ca11234b-a3d0-7118-91f6-fe8d41ea5a8a",
+    "slug": "motor-de-combustao-interna",
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Motor de combustão interna",
+  "names": [],
+  "type": "Technology"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Arquitetura de motor com cilindros horizontalmente opostos e refrigeração por fluxo de ar, dispensando circuito líquido. O Corvair Monza GT empregou um seis-cilindros desse tipo, acessível pela seção traseira basculante da carroceria.",
+  "id": "atlas:technology:motor-boxer-refrigerado-a-ar",
+  "legacy": {
+    "id": "46a15bab-babf-7933-bc7b-401e0e82a3a8",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion architecture"
+  },
+  "name": "Motor boxer refrigerado a ar",
+  "names": [],
+  "type": "Technology"
+}

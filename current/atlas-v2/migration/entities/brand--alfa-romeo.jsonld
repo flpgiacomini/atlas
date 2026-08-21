@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Marca italiana cuja base técnica Alfa Romeo 1900 sustentou os estudos BAT conduzidos com Bertone e Franco Scaglione. No Atlas, a marca conecta automóveis de passageiros, competição, pesquisa aerodinâmica e sucessivas colaborações com carrozzerie e designers independentes.",
+  "id": "atlas:brand:alfa-romeo",
+  "legacy": {
+    "id": "4adad7ab-dbca-706a-a9a6-4189d43e3753",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "editorial_batch": "V04",
+    "editorial_level": "editorial"
+  },
+  "name": "Alfa Romeo",
+  "names": [],
+  "type": "Brand"
+}

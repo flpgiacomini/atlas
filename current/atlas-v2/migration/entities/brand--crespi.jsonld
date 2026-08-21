@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Crespi, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f49fe4de-9edd-7117-9746-1362a45dca5b",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Crespi"
+    }
+  ],
+  "id": "atlas:brand:crespi",
+  "legacy": {
+    "id": "645aed31-df67-76f9-bc2c-d8ebbd644a8b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Crespi",
+  "names": [],
+  "type": "Brand"
+}

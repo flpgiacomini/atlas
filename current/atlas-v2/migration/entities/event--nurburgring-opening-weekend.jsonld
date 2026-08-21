@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea57718f98db376bd343fadc"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b785ebaed00d6ae6bff61",
+      "legacyId": "01a01016-ea5b-785e-baed-00d6ae6bff61",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1927-06-18"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "note": "Opening weekend began with motorcycle race; first car race followed on 19 June."
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-nordschleife"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7868-a5e5-1a433d82407b",
+      "subject": "atlas:event:nurburgring-opening-weekend",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5770efa2ef7ff92f0e1ce9"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7b2bae7a6686b37d0b99",
+      "legacyId": "01a01016-ea5b-7b2b-ae7a-6686b37d0b99",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1927-06-18"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "note": "Opening weekend began with motorcycle race; first car race followed on 19 June."
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7868-a5e5-1a433d82407b",
+      "subject": "atlas:event:nurburgring-opening-weekend",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea577ae6b099357ee96f7107"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7d71bd9d12490a739efa",
+      "legacyId": "01a01016-ea5b-7d71-bd9d-12490a739efa",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-778d-9d64-552b15e6b27d",
+      "subject": "atlas:event:nurburgring-opening-weekend",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nürburgring opening weekend é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Nürburgring. A documentação registra ocorrência em 1927-06-18. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:nurburgring-opening-weekend",
+  "legacy": {
+    "id": "01a01016-ea4e-7fb0-ad4e-b1ad2d5f5a72",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea54-778d-9d64-552b15e6b27d",
+      "01a01016-ea54-7868-a5e5-1a433d82407b"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "circuit_opening",
+    "realization_status": "occurred"
+  },
+  "name": "Nürburgring opening weekend",
+  "names": [],
+  "type": "Event"
+}

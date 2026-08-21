@@ -1,0 +1,25 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Kurt Ahrens Jr. é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de condução por associada a 1969 Zeltweg — Porsche 917 — Siffert/Ahrens. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:kurt-ahrens-jr",
+  "legacy": {
+    "id": "01a01016-ea4e-7045-8f22-9c6c06ba34d5",
+    "slug": "kurt-ahrens-jr",
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7066-bcc1-aebba0c7ad19"
+    ],
+    "editorial_batch": "E05",
+    "editorial_level": "editorial",
+    "roles": [
+      "driver"
+    ]
+  },
+  "name": "Kurt Ahrens Jr.",
+  "names": [],
+  "type": "Person"
+}

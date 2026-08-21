@@ -1,0 +1,124 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "964"
+  ],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5570899c376dc63481bee7"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58713492b36b30c4437636",
+      "legacyId": "01a01016-ea58-7134-92b3-6b30c4437636",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-73ec-9b8a-cebc7e34da50",
+      "subject": "atlas:vehicle:porsche-911-type-964",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557f878011c38fdd087593"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5872b8a552d5c8e446b38c",
+      "legacyId": "01a01016-ea58-72b8-a552-d5c8e446b38c",
+      "object": {
+        "id": "atlas:vehicle:porsche-911",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-73ec-9b8a-cebc7e34da50",
+      "subject": "atlas:vehicle:porsche-911-type-964",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5578f3a315f7a6229f39eb"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58793ebe984048028ae802",
+      "legacyId": "01a01016-ea58-793e-be98-4048028ae802",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-g-series",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-a-brief-history-of-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-76a4-9da8-9853a72ce2ff",
+      "subject": "atlas:vehicle:porsche-911-type-964",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5578969f7d2a85b2843978"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58798c9a38101182734a63",
+      "legacyId": "01a01016-ea58-798c-9a38-101182734a63",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-g-series",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-76a4-9da8-9853a72ce2ff",
+      "subject": "atlas:vehicle:porsche-911-type-964",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 911 Type 964 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra integração a Porsche 911. A documentação registra sucessão de Porsche 911 G-Series. Também aparece na relação de sucessão de associada a Porsche 911 Type 993. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-911-type-964",
+  "legacy": {
+    "id": "01a01016-ea4d-7319-9f1b-4a0e30df07f1",
+    "slug": "porsche-911-964",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-73ec-9b8a-cebc7e34da50",
+      "01a01016-ea51-76a4-9da8-9853a72ce2ff",
+      "01a01016-ea51-7738-bee6-1dc346c6466c"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "source_period": "1988-1994",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Porsche 911 Type 964",
+  "names": [
+    {
+      "id": "01a01016-ea4d-7f85-a0a6-188e6782e227",
+      "name_type": "internal_code",
+      "value": "964"
+    }
+  ],
+  "type": "Vehicle"
+}

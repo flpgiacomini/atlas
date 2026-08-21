@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Carrozzeria e organização italiana de design responsável pelo desenvolvimento da série BAT em colaboração com Alfa Romeo e Franco Scaglione. O programa transformou pesquisa aerodinâmica, novos materiais e construção de protótipos em três estudos públicos apresentados entre 1953 e 1955.",
+  "id": "atlas:organization:bertone",
+  "legacy": {
+    "id": "e680234d-087c-716c-a877-a59440652683",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "editorial_batch": "V04",
+    "editorial_level": "editorial",
+    "organization_type": "coachbuilder and design house"
+  },
+  "name": "Bertone",
+  "names": [],
+  "type": "Organization"
+}

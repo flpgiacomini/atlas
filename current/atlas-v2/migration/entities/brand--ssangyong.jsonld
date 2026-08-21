@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de SsangYong, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f5f8ab52-f794-7db0-81b5-b6644c112d00",
+      "scheme": "atlas-brand-census",
+      "value": "M07:SsangYong"
+    }
+  ],
+  "id": "atlas:brand:ssangyong",
+  "legacy": {
+    "id": "227dd5de-7464-7c60-aa66-b04a7fe13c81",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "SsangYong",
+  "names": [],
+  "type": "Brand"
+}

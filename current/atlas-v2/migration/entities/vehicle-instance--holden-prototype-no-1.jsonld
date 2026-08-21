@@ -1,0 +1,69 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854557222bfa7e36ac7b9ff47"
+      ],
+      "id": "atlas:claim:legacy-01a01028545571a393bb1bffeab7c458",
+      "legacyId": "01a01028-5455-71a3-93bb-1bffeab7c458",
+      "object": {
+        "id": "atlas:vehicle:holden-48-215-prototype-programme",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:national-museum-of-australia-holden-prototype-no-1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5455-752f-8664-c19a532f83ad",
+      "subject": "atlas:vehicle-instance:holden-prototype-no-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854557a1ab1fccd353c850a5b"
+      ],
+      "id": "atlas:claim:legacy-01a010285455733fbc3c873e324bed33",
+      "legacyId": "01a01028-5455-733f-bc3c-873e324bed33",
+      "object": {
+        "id": "atlas:vehicle:holden-48-215-prototype-programme",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:national-museum-of-australia-holden-launch"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5455-752f-8664-c19a532f83ad",
+      "subject": "atlas:vehicle-instance:holden-prototype-no-1",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Holden Prototype No. 1 é registrado no Atlas como exemplar físico de veículo, dentro da história global do automóvel. A documentação registra instância de Holden 48-215 prototype programme. Também aparece na relação de participação de associada a Holden Prototype No. 1 hand-built in Detroit. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle-instance:holden-prototype-no-1",
+  "legacy": {
+    "id": "01a01028-5455-70c8-9212-e958618f90e8",
+    "slug": null,
+    "type": "vehicle_instance"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5455-752f-8664-c19a532f83ad",
+      "01a01028-5456-7e2e-a87b-972989f82401"
+    ],
+    "editorial_batch": "E21",
+    "editorial_level": "editorial",
+    "instance_status": "existing"
+  },
+  "name": "Holden Prototype No. 1",
+  "names": [],
+  "type": "VehicleInstance"
+}

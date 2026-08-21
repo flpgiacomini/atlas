@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Melkus, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "fbd3d6b2-8887-7557-8073-807e1e37d2e8",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Melkus"
+    }
+  ],
+  "id": "atlas:brand:melkus",
+  "legacy": {
+    "id": "7cff6c9e-df5b-734e-b043-07a3f2d1ac47",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Melkus",
+  "names": [],
+  "type": "Brand"
+}

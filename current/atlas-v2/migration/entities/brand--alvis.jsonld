@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Alvis, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "75323e37-6f57-780c-aa9a-949935862520",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Alvis"
+    }
+  ],
+  "id": "atlas:brand:alvis",
+  "legacy": {
+    "id": "e9f3d5a4-d10e-713a-bf7c-fba1fbd38a76",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Alvis",
+  "names": [],
+  "type": "Brand"
+}

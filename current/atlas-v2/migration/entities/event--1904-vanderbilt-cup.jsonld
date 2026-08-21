@@ -1,0 +1,94 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec55727e878f252b220fb3ce"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5570139433c31ca237ebc4",
+      "legacyId": "01a01031-ec55-7013-9433-c31ca237ebc4",
+      "object": {
+        "id": "atlas:competition:vanderbilt-cup",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7e92-85ef-8407e89b8f79",
+      "subject": "atlas:event:1904-vanderbilt-cup",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec557b15907c73588aa3cd53"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec55741da411005d8849b827",
+      "legacyId": "01a01031-ec55-741d-a411-005d8849b827",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1904-10-08"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-71ad-9c06-32feb2e84fa8",
+      "subject": "atlas:event:1904-vanderbilt-cup",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5571b595441a542127c6d0"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec557486a861966340bf1c7c",
+      "legacyId": "01a01031-ec55-7486-a861-966340bf1c7c",
+      "object": {
+        "id": "atlas:competition:vanderbilt-cup",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-the-vanderbilt-cup"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec55-7e92-85ef-8407e89b8f79",
+      "subject": "atlas:event:1904-vanderbilt-cup",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1904 Vanderbilt Cup é registrado no Atlas como evento histórico, dentro da história global do automóvel. Também aparece na relação de participação no evento associada a 1904 Vanderbilt Cup #7 — George Heath / Panhard. A documentação registra ocorrência em 1904-10-08. A documentação registra instância de Vanderbilt Cup. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:1904-vanderbilt-cup",
+  "legacy": {
+    "id": "01a01031-ec54-75b7-8d10-769da4a06663",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec55-7119-bd78-1fc368a57604",
+      "01a01031-ec55-71ad-9c06-32feb2e84fa8",
+      "01a01031-ec55-7e92-85ef-8407e89b8f79"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "1904 Vanderbilt Cup",
+  "names": [],
+  "type": "Event"
+}

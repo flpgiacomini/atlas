@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Comarth, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "061db4e8-88b8-7328-b0c1-b6691d583569",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Comarth"
+    }
+  ],
+  "id": "atlas:brand:comarth",
+  "legacy": {
+    "id": "d0537ec7-fb5e-7ac6-ac99-7fb30302135c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Comarth",
+  "names": [],
+  "type": "Brand"
+}

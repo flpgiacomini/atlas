@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010303317749594140e2f43a205c9"
+      ],
+      "id": "atlas:claim:legacy-01a01030331775238c143ea2b56a1600",
+      "legacyId": "01a01030-3317-7523-8c14-3ea2b56a1600",
+      "object": {
+        "id": "atlas:brand:rolls-royce",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-models-of-the-marque-the-1910s-the-rolls-royce-40-50-h-p-silver-ghost"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3317-778d-84b7-a2af034614fc",
+      "subject": "atlas:vehicle:rolls-royce-40-50-h-p",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331771d19840e990f20f7f98"
+      ],
+      "id": "atlas:claim:legacy-01a010303317755d9b982565e8ea46f9",
+      "legacyId": "01a01030-3317-755d-9b98-2565e8ea46f9",
+      "object": {
+        "id": "atlas:person:henry-royce",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-models-of-the-marque-the-1910s-the-rolls-royce-40-50-h-p-silver-ghost"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3317-75b3-a3a8-5087677ad489",
+      "subject": "atlas:vehicle:rolls-royce-40-50-h-p",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Rolls-Royce 40/50 H.P. é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Rolls-Royce 40/50 H.P. launched. A documentação registra responsabilidade de projeto de Henry Royce. Também aparece na relação de instância de associada a Rolls-Royce 40/50 H.P. chassis 60551 'Silver Ghost'. A documentação registra comercialização sob Rolls-Royce. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:rolls-royce-40-50-h-p",
+  "legacy": {
+    "id": "01a01030-3316-7ce0-8ad2-168f6bfb1f42",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3317-70c7-8407-30236c83bf2c",
+      "01a01030-3317-75b3-a3a8-5087677ad489",
+      "01a01030-3317-7696-9a3a-0126cb9d569e",
+      "01a01030-3317-778d-84b7-a2af034614fc"
+    ],
+    "documented_approx_total_units": "almost 8000",
+    "documented_production_span_years": 18,
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Rolls-Royce 40/50 H.P.",
+  "names": [],
+  "type": "Vehicle"
+}

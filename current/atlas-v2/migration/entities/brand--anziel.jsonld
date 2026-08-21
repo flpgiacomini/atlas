@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Anziel, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "434013f6-334c-75fc-b84c-cbc1dd68c224",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Anziel"
+    }
+  ],
+  "id": "atlas:brand:anziel",
+  "legacy": {
+    "id": "1644f252-3442-7c4f-a2b9-9e5427e7cdcc",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Anziel",
+  "names": [],
+  "type": "Brand"
+}

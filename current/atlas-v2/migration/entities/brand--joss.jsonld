@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Joss, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f88f09a8-1fc1-793c-ab44-c4d3bf68587f",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Joss"
+    }
+  ],
+  "id": "atlas:brand:joss",
+  "legacy": {
+    "id": "5af9a0c1-0ade-76a2-a504-6d7a01be8c06",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Joss",
+  "names": [],
+  "type": "Brand"
+}

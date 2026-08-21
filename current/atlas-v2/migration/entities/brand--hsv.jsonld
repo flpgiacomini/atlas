@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de HSV, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a8659b13-c5b2-7575-b168-7fe65963c270",
+      "scheme": "atlas-brand-census",
+      "value": "M12:HSV"
+    }
+  ],
+  "id": "atlas:brand:hsv",
+  "legacy": {
+    "id": "1ed463c3-a7c9-7233-aa35-397d58db9e52",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "HSV",
+  "names": [],
+  "type": "Brand"
+}

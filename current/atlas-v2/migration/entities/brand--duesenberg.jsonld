@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Duesenberg, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "13612c32-efd0-78b8-b8e8-1238f925e3db",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Duesenberg"
+    }
+  ],
+  "id": "atlas:brand:duesenberg",
+  "legacy": {
+    "id": "c39b1de7-5897-74c0-ad64-16113ae6ce5d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Duesenberg",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-fd93a1992bea719fab7a47b85aebd09c"
+      ],
+      "id": "atlas:claim:legacy-63ee9cd98b36702baaca82845ac99d95",
+      "legacyId": "63ee9cd9-8b36-702b-aaca-82845ac99d95",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:vehicle:buick-y-job",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Le Sabre"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-le-sabre"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c9680f9b-3b77-7905-99a7-9dd4c6fff9c0",
+      "subject": "atlas:vehicle:general-motors-le-sabre",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-f694b55d4901786982f9de28b2d47792"
+      ],
+      "id": "atlas:claim:legacy-64de92f4e25672d8a4109ad58c59f80b",
+      "legacyId": "64de92f4-e256-72d8-a410-9ad58c59f80b",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:technology:linguagem-aeronautica-em-concept-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Le Sabre"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-le-sabre"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b1297431-852a-77de-a68b-0e4db287e0a6",
+      "subject": "atlas:vehicle:general-motors-le-sabre",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-b76db7d3f91f776dbcec8a11e5154602"
+      ],
+      "id": "atlas:claim:legacy-958d94c7879d700ca1b4ecb6da08dbaa",
+      "legacyId": "958d94c7-879d-700c-a1b4-ecb6da08dbaa",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Le Sabre"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-le-sabre"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "838d32bd-740e-7b1d-abf2-98a9c8dfc922",
+      "subject": "atlas:vehicle:general-motors-le-sabre",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-50b220c4f5ae7476bff990c9098342f3"
+      ],
+      "id": "atlas:claim:legacy-feb028c67300750fbcb461e8c20d4aac",
+      "legacyId": "feb028c6-7300-750f-bcb4-61e8c20d4aac",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:person:harley-earl",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Le Sabre"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-le-sabre"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f91d66d6-3dd4-7d8d-b47b-0aef518444d2",
+      "subject": "atlas:vehicle:general-motors-le-sabre",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept car apresentado em 1951 como continuação da pesquisa iniciada pelo Buick Y-Job. Sob a liderança de Harley Earl e da organização de design da General Motors, sua forma inspirada em aviões a jato ajudou a estabelecer o repertório aeroespacial que dominaria os dream cars norte-americanos da década seguinte.",
+  "id": "atlas:vehicle:general-motors-le-sabre",
+  "legacy": {
+    "id": "1bbc16a8-8105-7a30-935d-f7de85c2a64d",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "f91d66d6-3dd4-7d8d-b47b-0aef518444d2",
+      "838d32bd-740e-7b1d-abf2-98a9c8dfc922",
+      "c9680f9b-3b77-7905-99a7-9dd4c6fff9c0",
+      "b1297431-852a-77de-a68b-0e4db287e0a6"
+    ],
+    "editorial_batch": "V03",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "General Motors Le Sabre",
+  "names": [],
+  "type": "Vehicle"
+}

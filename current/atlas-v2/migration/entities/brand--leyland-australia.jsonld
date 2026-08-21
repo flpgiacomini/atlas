@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Leyland Australia, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0b7997ea-055d-78a8-a035-b7eb49dcb8db",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Leyland Australia"
+    }
+  ],
+  "id": "atlas:brand:leyland-australia",
+  "legacy": {
+    "id": "8f11aa64-60c6-701a-848d-d1f95ed9523c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Leyland Australia",
+  "names": [],
+  "type": "Brand"
+}

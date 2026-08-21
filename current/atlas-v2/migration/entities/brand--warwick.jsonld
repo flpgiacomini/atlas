@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Warwick, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0e1fb24d-e598-76ed-8149-6736037fe011",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Warwick"
+    }
+  ],
+  "id": "atlas:brand:warwick",
+  "legacy": {
+    "id": "881d4843-085b-7c17-be61-eb7599fcfa84",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Warwick",
+  "names": [],
+  "type": "Brand"
+}

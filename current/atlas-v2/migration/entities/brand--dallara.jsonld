@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Dallara, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "1a4a680a-6bb6-74af-a716-99cecf0313b9",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Dallara"
+    }
+  ],
+  "id": "atlas:brand:dallara",
+  "legacy": {
+    "id": "72891abb-4a20-7156-a0dd-cccba04da483",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Dallara",
+  "names": [],
+  "type": "Brand"
+}

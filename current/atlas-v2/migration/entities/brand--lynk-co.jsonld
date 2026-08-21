@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lynk & Co, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "77ff8fc4-6c6b-7d95-987b-b85a8de47143",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Lynk & Co"
+    }
+  ],
+  "id": "atlas:brand:lynk-co",
+  "legacy": {
+    "id": "f1237a54-0b5f-71ac-a1bb-8a004ee779f6",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Lynk & Co",
+  "names": [],
+  "type": "Brand"
+}

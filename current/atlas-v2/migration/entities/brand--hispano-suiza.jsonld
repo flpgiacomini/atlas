@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Hispano-Suiza, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "12d9113b-fdd2-7533-8a60-a22266a981ad",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Hispano-Suiza"
+    }
+  ],
+  "id": "atlas:brand:hispano-suiza",
+  "legacy": {
+    "id": "8bd11bc1-73f1-720c-ab9a-c8c15ed3c432",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Hispano-Suiza",
+  "names": [],
+  "type": "Brand"
+}

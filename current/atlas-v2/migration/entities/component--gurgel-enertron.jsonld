@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Gurgel Enertron é registrado no Atlas como componente técnico, dentro da história global do automóvel. Também aparece na relação de uso do componente associada a Gurgel BR-800. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:component:gurgel-enertron",
+  "legacy": {
+    "id": "01a01016-ea4c-730d-b48d-0dc661cb9d75",
+    "slug": null,
+    "type": "component"
+  },
+  "metadata": {
+    "component_type": "engine",
+    "description_basis_statement_ids": [
+      "01a01016-ea50-73e6-893e-8bd7a9940f39"
+    ],
+    "editorial_batch": "E14",
+    "editorial_level": "editorial"
+  },
+  "name": "Gurgel Enertron",
+  "names": [],
+  "type": "Component"
+}

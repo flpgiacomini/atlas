@@ -1,0 +1,27 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Vincenzo Lancia é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de fundação por associada a Lancia & C.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:vincenzo-lancia",
+  "legacy": {
+    "id": "01a01030-3312-7bd6-bfa0-e1d71a49c740",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3313-7886-b31b-b734280b37d1"
+    ],
+    "editorial_batch": "E05",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "driver",
+      "entrepreneur"
+    ]
+  },
+  "name": "Vincenzo Lancia",
+  "names": [],
+  "type": "Person"
+}

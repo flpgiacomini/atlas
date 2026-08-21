@@ -1,0 +1,167 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5575ca8068cc135a93a3fd"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597009879990a50a64586d",
+      "legacyId": "01a01016-ea59-7009-8799-90a50a64586d",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1997"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7a24-aa63-45cb137aaf32",
+      "subject": "atlas:event:presentation-of-porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5571f48d6e057da82c606e"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5973de84efb0de3e43027d",
+      "legacyId": "01a01016-ea59-73de-84ef-b0de3e43027d",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-type-996",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "presented_generation"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-new-porsche-911-a-design-icon-and-high-tech-sports-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7ba5-b39b-6e533f454e32",
+      "subject": "atlas:event:presentation-of-porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55755b9eef217f8b2e29df"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5978bf90829af6bf4cea71",
+      "legacyId": "01a01016-ea59-78bf-9082-9af6bf4cea71",
+      "object": {
+        "id": "atlas:technology:water-cooled-flat-six-engine-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7b4f-9fd5-8e86e1bf7ad9",
+      "subject": "atlas:event:presentation-of-porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557088aec001ca5fe8078d"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59792687e00f23997b771b",
+      "legacyId": "01a01016-ea59-7926-87e0-0f23997b771b",
+      "object": {
+        "id": "atlas:technology:water-cooled-flat-six-engine-architecture",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-new-porsche-911-a-design-icon-and-high-tech-sports-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7b4f-9fd5-8e86e1bf7ad9",
+      "subject": "atlas:event:presentation-of-porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557a06a959655c48e3aee4"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59792fae178bad5611b32e",
+      "legacyId": "01a01016-ea59-792f-ae17-8bad5611b32e",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-type-996",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "presented_generation"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-60-years-of-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7ba5-b39b-6e533f454e32",
+      "subject": "atlas:event:presentation-of-porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557f03962c16c7e85d7cd8"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5979baa67aecdfd41321f4",
+      "legacyId": "01a01016-ea59-79ba-a67a-ecdfd41321f4",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1997"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-new-porsche-911-a-design-icon-and-high-tech-sports-car"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7a24-aa63-45cb137aaf32",
+      "subject": "atlas:event:presentation-of-porsche-911-type-996",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Presentation of Porsche 911 Type 996 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1997. A documentação registra introdução do recurso Water-cooled flat-six engine architecture. A documentação registra participação de Porsche 911 Type 996. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:presentation-of-porsche-911-type-996",
+  "legacy": {
+    "id": "01a01016-ea4d-7a99-8e89-0604ea365719",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7a24-aa63-45cb137aaf32",
+      "01a01016-ea52-7b4f-9fd5-8e86e1bf7ad9",
+      "01a01016-ea52-7ba5-b39b-6e533f454e32"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Presentation of Porsche 911 Type 996",
+  "names": [],
+  "type": "Event"
+}

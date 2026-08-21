@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Reva, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "69755fba-cbda-7ef4-aa2b-7bf0bad03b97",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Reva"
+    }
+  ],
+  "id": "atlas:brand:reva",
+  "legacy": {
+    "id": "a0aee1e0-75f5-78b1-8219-c7bf68cb2f31",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Reva",
+  "names": [],
+  "type": "Brand"
+}

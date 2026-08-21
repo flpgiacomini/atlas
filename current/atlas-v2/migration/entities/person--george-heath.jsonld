@@ -1,0 +1,22 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Piloto nascido nos Estados Unidos e associado às competições automobilísticas francesas, vencedor da primeira Vanderbilt Cup em 1904 ao volante de um Panhard. Sua vitória conectou a experiência europeia às primeiras grandes provas organizadas nos Estados Unidos.",
+  "id": "atlas:person:george-heath",
+  "legacy": {
+    "id": "01a01031-ec55-7a02-b399-8a7daa8bcf94",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "driver"
+    ]
+  },
+  "name": "George Heath",
+  "names": [],
+  "type": "Person"
+}

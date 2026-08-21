@@ -1,0 +1,113 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea57718a8cb3cf4e5057cd09"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b79e698115dbfa60a67b1",
+      "legacyId": "01a01016-ea5b-79e6-9811-5dbfa60a67b1",
+      "object": {
+        "id": "atlas:circuit-layout:nurburgring-nordschleife-1927-configuration",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7720-a4f2-73cea5b21341",
+      "subject": "atlas:circuit-layout:nurburgring-nordschleife-current-20-832-km-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5671d09c38fd0ac742bae1"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b79e880cc27a0d346eed5",
+      "legacyId": "01a01016-ea5b-79e8-80cc-27a0d346eed5",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-the-history"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-706e-a159-ac45bba9c1ff",
+      "subject": "atlas:circuit-layout:nurburgring-nordschleife-current-20-832-km-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567fb8851a2a62c4b687d0"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7e32ba16c810469f723a",
+      "legacyId": "01a01016-ea5b-7e32-ba16-c810469f723a",
+      "object": {
+        "id": "atlas:circuit:nurburgring",
+        "type": "EntityReference"
+      },
+      "predicate": "layout-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-nordschleife"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-706e-a159-ac45bba9c1ff",
+      "subject": "atlas:circuit-layout:nurburgring-nordschleife-current-20-832-km-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea577e42a7c6dfdcc19af90c"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5b7ec8a682fea43b4c2b62",
+      "legacyId": "01a01016-ea5b-7ec8-a682-fea43b4c2b62",
+      "object": {
+        "id": "atlas:circuit-layout:nurburgring-nordschleife-1927-configuration",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:nurburgring-nordschleife"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea54-7720-a4f2-73cea5b21341",
+      "subject": "atlas:circuit-layout:nurburgring-nordschleife-current-20-832-km-configuration",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nürburgring Nordschleife (current 20.832 km configuration) é registrado no Atlas como configuração de circuito, dentro da história global do automóvel. A documentação registra configuração pertencente a Nürburgring. A documentação registra sucessão de Nürburgring Nordschleife (1927 configuration). O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:circuit-layout:nurburgring-nordschleife-current-20-832-km-configuration",
+  "legacy": {
+    "id": "01a01016-ea4e-7d21-a0c1-407b6fcdf8c0",
+    "slug": null,
+    "type": "circuit_layout"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-706e-a159-ac45bba9c1ff",
+      "01a01016-ea54-7720-a4f2-73cea5b21341"
+    ],
+    "editorial_batch": "E20",
+    "editorial_level": "editorial",
+    "length_km": 20.832
+  },
+  "name": "Nürburgring Nordschleife (current 20.832 km configuration)",
+  "names": [],
+  "type": "CircuitLayout"
+}

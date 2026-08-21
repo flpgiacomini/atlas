@@ -1,0 +1,27 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Ford Motor Company é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Ford Model T. Também aparece na relação de fabricação por associada a Ford Model A (1903). Também aparece na relação de fabricação por associada a Ford Model N. Também aparece na relação de fabricação por associada a Ford Mustang. Também aparece na relação de atividade profissional em associada a Henry Ford. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:ford-motor-company",
+  "legacy": {
+    "id": "01a01016-ea4d-739b-9d06-20a647780fe2",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7c35-aa04-ea53c9b11a0e",
+      "01a0102a-57eb-795b-90f3-62257c0d7560",
+      "01a0102a-57ec-7d11-afde-4382a8d5e9d8",
+      "01a01030-331a-7c8c-8637-239db8a8409e",
+      "01a010d9-28c6-76b5-9466-352abd4badbe"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Ford Motor Company",
+  "names": [],
+  "type": "Organization"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Clément-Bayard, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "e2979dcc-efbc-7012-bc80-4b4d1111056d",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Clément-Bayard"
+    }
+  ],
+  "id": "atlas:brand:clement-bayard",
+  "legacy": {
+    "id": "cda95ce3-b714-71ce-9604-d99063fc8bde",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Clément-Bayard",
+  "names": [],
+  "type": "Brand"
+}

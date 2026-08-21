@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de SEAT, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "9d952b03-4e09-7fd6-858a-325ce33c5b10",
+      "scheme": "atlas-brand-census",
+      "value": "M10:SEAT"
+    }
+  ],
+  "id": "atlas:brand:seat",
+  "legacy": {
+    "id": "1412b255-52d8-74df-9e4c-d23f43cac98b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "SEAT",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Toyota Prius Concept (1995) é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de derivação de associada a Toyota Prius — First Generation. Também aparece na relação de participação de associada a Prius concept exhibited at Tokyo Motor Show. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:toyota-prius-concept-1995",
+  "legacy": {
+    "id": "01a01028-544e-7c04-ae41-69a0fc8dcd4d",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544e-7817-a6b0-bc85785f7401",
+      "01a01028-544f-7465-9478-50caa1a692d0"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "Toyota Prius Concept (1995)",
+  "names": [],
+  "type": "Vehicle"
+}

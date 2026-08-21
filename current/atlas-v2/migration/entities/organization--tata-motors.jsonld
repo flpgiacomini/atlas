@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Tata Motors é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Tata Nano. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:tata-motors",
+  "legacy": {
+    "id": "01a01028-5449-72d1-948c-ce73403c8ed5",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5449-7a3d-a110-2050a1017620"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Tata Motors",
+  "names": [],
+  "type": "Organization"
+}

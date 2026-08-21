@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331777e495d3c31ddfc488eb"
+      ],
+      "id": "atlas:claim:legacy-01a01030331775d390563cf8e0a56908",
+      "legacyId": "01a01030-3317-75d3-9056-3cf8e0a56908",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1907"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-the-extraordinary-history-of-the-spectre-name"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3317-72d3-9908-0cfd4bc30e2a",
+      "subject": "atlas:event:chassis-60551-presented-as-the-silver-ghost",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033177a709e94bd94d9f8075e"
+      ],
+      "id": "atlas:claim:legacy-01a01030331779b4a6793bd07a27d421",
+      "legacyId": "01a01030-3317-79b4-a679-3bd07a27d421",
+      "object": {
+        "id": "atlas:vehicle-instance:rolls-royce-40-50-h-p-chassis-60551-silver-ghost",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "named_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:rolls-royce-motor-cars-the-extraordinary-history-of-the-spectre-name"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3317-7e56-a21d-45db7405ab54",
+      "subject": "atlas:event:chassis-60551-presented-as-the-silver-ghost",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Chassis 60551 presented as 'The Silver Ghost' é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1907. A documentação registra participação de Rolls-Royce 40/50 H.P. chassis 60551 'Silver Ghost'. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:chassis-60551-presented-as-the-silver-ghost",
+  "legacy": {
+    "id": "01a01030-3317-71e8-b47b-d6d71c9de497",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3317-72d3-9908-0cfd4bc30e2a",
+      "01a01030-3317-7e56-a21d-45db7405ab54"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "designation_change",
+    "realization_status": "occurred"
+  },
+  "name": "Chassis 60551 presented as 'The Silver Ghost'",
+  "names": [],
+  "type": "Event"
+}

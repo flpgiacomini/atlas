@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Sistema de refrigeração líquida documentado no Panhard-Levassor Type M2E de 1896. A água circulava por uma bomba acionada pelo contato de um rolete com o volante do motor, solução específica preservada na descrição técnica do catálogo do CNAM.",
+  "id": "atlas:component:refrigeracao-do-panhard-levassor-type-m2e",
+  "legacy": {
+    "id": "3df74a75-d76d-70ae-a2f0-4aec89ac8daf",
+    "slug": null,
+    "type": "component"
+  },
+  "metadata": {
+    "component_type": "cooling_system",
+    "editorial_batch": "V01-M2E",
+    "editorial_level": "editorial"
+  },
+  "name": "Refrigeração do Panhard-Levassor Type M2E",
+  "names": [],
+  "type": "Component"
+}

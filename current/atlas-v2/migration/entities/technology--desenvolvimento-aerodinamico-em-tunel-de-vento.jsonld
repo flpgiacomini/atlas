@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Método de pesquisa no qual modelos ou veículos são expostos a fluxo de ar controlado para observar e reduzir arrasto, sustentação e turbulência. A General Motors atribui diretamente as linhas do Corvair Monza GT a um programa de testes em túnel de vento.",
+  "id": "atlas:technology:desenvolvimento-aerodinamico-em-tunel-de-vento",
+  "legacy": {
+    "id": "6669983c-8fe7-7425-bc53-8dff2ea6bc55",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "technology_category": "aerodynamics"
+  },
+  "name": "Desenvolvimento aerodinâmico em túnel de vento",
+  "names": [],
+  "type": "Technology"
+}

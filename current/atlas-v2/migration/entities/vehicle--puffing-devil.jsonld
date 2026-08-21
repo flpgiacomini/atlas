@@ -1,0 +1,124 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-95c4abbcf355717aaa12f57370d33e04"
+      ],
+      "id": "atlas:claim:legacy-298e785023d4767989f5e7ebe0191433",
+      "legacyId": "298e7850-23d4-7679-89f5-e7ebe0191433",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:richard-trevithick",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "de3df3cd-3c7a-709a-9985-05e67bf79ee5",
+      "subject": "atlas:vehicle:puffing-devil",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-b4cad748cd0474559cebe5e0909ceb37"
+      ],
+      "id": "atlas:claim:legacy-8b5db03f549f783a893f19b359ff4195",
+      "legacyId": "8b5db03f-549f-783a-893f-19b359ff4195",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1801"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f0293f2b-dcc0-75d0-92ea-59ed38db7747",
+      "subject": "atlas:vehicle:puffing-devil",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-06d5205990897d73a96e1b240787ffcd"
+      ],
+      "id": "atlas:claim:legacy-f8772ebada2778b09fe8de70b97e2cf8",
+      "legacyId": "f8772eba-da27-78b0-9fe8-de70b97e2cf8",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": "veículo rodoviário experimental",
+      "predicate": "configured-as",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "030589d0-3fca-7c90-b0ae-e13a238f212b",
+      "subject": "atlas:vehicle:puffing-devil",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-a3404e9e4b0f7c45a3228434168392e6"
+      ],
+      "id": "atlas:claim:legacy-fe0f63c7c5f67c9b83120bdb079741d6",
+      "legacyId": "fe0f63c7-c5f6-7c9b-8312-0bdb079741d6",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:propulsao-rodoviaria-a-vapor",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "6cc36792-5a65-7330-80d6-8f29c1f5dfaf",
+      "subject": "atlas:vehicle:puffing-devil",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Veículo rodoviário experimental a vapor construído por Richard Trevithick em 1801, em Camborne. É um marco da aplicação do vapor de alta pressão à mobilidade terrestre, conhecido por documentação histórica e reconstruções que precisam permanecer diferenciadas do artefato original.",
+  "id": "atlas:vehicle:puffing-devil",
+  "legacy": {
+    "id": "578dd9f4-7eff-753d-9d65-81e70fbe895b",
+    "slug": "puffing-devil",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "Puffing Devil",
+  "names": [],
+  "type": "Vehicle"
+}

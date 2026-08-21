@@ -1,0 +1,145 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074a7ccbb70161f2ae21d77c",
+        "atlas:evidence:legacy-3ec611a24e9578c98e992a714db47b89"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074a72fb943a8ef456d79298",
+      "legacyId": "01a0102f-074a-72fb-943a-8ef456d79298",
+      "object": {
+        "id": "atlas:organization:panhard-levassor",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-automobile-panhard-levassor-type-m2e",
+        "atlas:source:musee-des-arts-et-metiers-l-epopee-de-l-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074a-7851-a39d-75a0b25dc12b",
+      "subject": "atlas:vehicle:panhard-levassor-type-m2e",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-69ae2e026f10728899fe8cd7aa14e8ab"
+      ],
+      "id": "atlas:claim:legacy-2fdd295c844a77d5b77949de57125879",
+      "legacyId": "2fdd295c-844a-77d5-b779-49de57125879",
+      "note": "Relação derivada da descrição técnica individual do item 16.715.",
+      "object": {
+        "id": "atlas:component:refrigeracao-do-panhard-levassor-type-m2e",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-component",
+      "qualifiers": {
+        "catalogue_page": 83,
+        "editorial_batch": "V01-M2E"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:conservatoire-national-des-arts-et-metiers-catalogue-du-musee-section-da-transports-sur-route"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "2a26c88a-19d0-777d-8e3d-d8dc80bfd24c",
+      "subject": "atlas:vehicle:panhard-levassor-type-m2e",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9d52dd1e4f4477099d23e9ed32d45b73"
+      ],
+      "id": "atlas:claim:legacy-58daa29ee33e701ca8c3c7f4df0c6b6a",
+      "legacyId": "58daa29e-e33e-701c-a8c3-c7f4df0c6b6a",
+      "note": "Relação derivada da descrição técnica individual do item 16.715.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "catalogue_page": 83,
+        "editorial_batch": "V01-M2E",
+        "specification": "motor bicilíndrico, 4 cv, 700 rpm"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:conservatoire-national-des-arts-et-metiers-catalogue-du-musee-section-da-transports-sur-route"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "115b405a-6eee-77d8-a856-8771f37fad15",
+      "subject": "atlas:vehicle:panhard-levassor-type-m2e",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-0f2ce979f3ee733b8cd4a8a72be15c54"
+      ],
+      "id": "atlas:claim:legacy-ba3d2fbe83a7700181bdba5d2b476a10",
+      "legacyId": "ba3d2fbe-83a7-7001-81bd-ba5d2b476a10",
+      "note": "Relação derivada da descrição técnica individual do item 16.715.",
+      "object": {
+        "id": "atlas:component:transmissao-do-panhard-levassor-type-m2e",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-component",
+      "qualifiers": {
+        "catalogue_pages": [
+          83,
+          84
+        ],
+        "editorial_batch": "V01-M2E"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:conservatoire-national-des-arts-et-metiers-catalogue-du-musee-section-da-transports-sur-route"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "dc1bc6c8-2e3d-7c62-bf21-dac899e42727",
+      "subject": "atlas:vehicle:panhard-levassor-type-m2e",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Automóvel Panhard-Levassor fabricado em 1896 e preservado pelo Musée des Arts et Métiers sob o inventário 16715. O registro museológico destaca sua condição de produto de luxo e a combinação de construção aparentemente simples com inovações importantes para a época.",
+  "externalIds": [
+    {
+      "id": "823192ea-1c1c-745b-b1f3-6d036b143372",
+      "scheme": "wikidata",
+      "url": "https://www.wikidata.org/wiki/Q119890021",
+      "value": "Q119890021"
+    }
+  ],
+  "id": "atlas:vehicle:panhard-levassor-type-m2e",
+  "legacy": {
+    "id": "01a0102f-074a-78b2-97ba-8e8b1ea48500",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074a-7851-a39d-75a0b25dc12b",
+      "115b405a-6eee-77d8-a856-8771f37fad15",
+      "2a26c88a-19d0-777d-8e3d-d8dc80bfd24c",
+      "dc1bc6c8-2e3d-7c62-bf21-dac899e42727"
+    ],
+    "editorial_batch": "V01-M2E",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Panhard-Levassor Type M2E",
+  "names": [],
+  "type": "Vehicle"
+}

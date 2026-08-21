@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de BMW E1 (1991), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "8387ef9a-4409-7bb5-884a-3df1337e0420",
+      "scheme": "atlas-significance-candidate",
+      "value": "prototype:1991:BMW E1"
+    }
+  ],
+  "id": "atlas:vehicle:bmw-e1",
+  "legacy": {
+    "id": "aefb94e7-8a74-72bf-b327-a60646314f2a",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "BMW",
+    "candidate_kind": "prototype",
+    "candidate_year": 1991,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "SEG",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "BMW E1",
+  "names": [],
+  "type": "Vehicle"
+}

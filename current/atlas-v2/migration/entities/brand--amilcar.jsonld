@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Amilcar, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "24ab344f-0dc1-7baf-9dfb-5158021d5b2a",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Amilcar"
+    }
+  ],
+  "id": "atlas:brand:amilcar",
+  "legacy": {
+    "id": "0879cf3c-b32f-7714-9568-528dd441cdb7",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Amilcar",
+  "names": [],
+  "type": "Brand"
+}

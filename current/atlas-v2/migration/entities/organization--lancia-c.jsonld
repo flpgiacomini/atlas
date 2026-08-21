@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331473f0a49d7b90dd2e9a69"
+      ],
+      "id": "atlas:claim:legacy-01a01030331470ab8ee3cbb478946e0c",
+      "legacyId": "01a01030-3314-70ab-8ee3-cbb478946e0c",
+      "object": {
+        "id": "atlas:person:claudio-fogolin",
+        "type": "EntityReference"
+      },
+      "predicate": "founded-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3314-7f5a-bd8b-24ddee4accf5",
+      "subject": "atlas:organization:lancia-c",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033147e17bc4dc35c9367a429"
+      ],
+      "id": "atlas:claim:legacy-01a010303314731fadc0db255f448338",
+      "legacyId": "01a01030-3314-731f-adc0-db255f448338",
+      "object": {
+        "id": "atlas:person:vincenzo-lancia",
+        "type": "EntityReference"
+      },
+      "predicate": "founded-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3313-7886-b31b-b734280b37d1",
+      "subject": "atlas:organization:lancia-c",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Lancia & C. é registrado no Atlas como organização, dentro da história global do automóvel. A documentação registra fundação por Vincenzo Lancia. A documentação registra fundação por Claudio Fogolin. Também aparece na relação de participação de associada a Lancia founded in Turin. Também aparece na relação de fabricação por associada a Lancia 12 HP. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:lancia-c",
+  "legacy": {
+    "id": "01a01030-3313-7ab6-a2bf-5bfd6daf2faf",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3313-7886-b31b-b734280b37d1",
+      "01a01030-3314-7f5a-bd8b-24ddee4accf5",
+      "01a01030-3315-7724-98ee-4ea305e2a9cf",
+      "01a01030-3316-7066-93dd-a9db716ee0be"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Lancia & C.",
+  "names": [],
+  "type": "Organization"
+}

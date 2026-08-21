@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Bajaj, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ca03a08b-29f8-7eb4-a08b-34be5ba31151",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Bajaj"
+    }
+  ],
+  "id": "atlas:brand:bajaj",
+  "legacy": {
+    "id": "1ffc234c-ff14-7f5c-84a9-082c987e9a83",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Bajaj",
+  "names": [],
+  "type": "Brand"
+}

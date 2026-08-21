@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Gurgel é registrado no Atlas como marca automotiva, dentro da história global do automóvel. Também aparece na relação de comercialização sob associada a Gurgel BR-800. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:brand:gurgel",
+  "legacy": {
+    "id": "01a01016-ea4c-766d-827a-d7a4341a454d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "historical",
+    "description_basis_statement_ids": [
+      "01a01016-ea4f-7e41-8279-7ed9503ce5fa"
+    ],
+    "editorial_batch": "E06",
+    "editorial_level": "editorial"
+  },
+  "name": "Gurgel",
+  "names": [],
+  "type": "Brand"
+}

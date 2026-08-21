@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de LaSalle, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "98ac0eec-7a1b-7ebb-be7b-010c18c88cdc",
+      "scheme": "atlas-brand-census",
+      "value": "M03:LaSalle"
+    }
+  ],
+  "id": "atlas:brand:lasalle",
+  "legacy": {
+    "id": "24e21a3e-7559-76e6-a870-5a5a7efc8b3e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "LaSalle",
+  "names": [],
+  "type": "Brand"
+}

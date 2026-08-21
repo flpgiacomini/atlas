@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Darracq, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "7ca0e867-5ada-794b-a4d9-ed304b9b7d93",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Darracq"
+    }
+  ],
+  "id": "atlas:brand:darracq",
+  "legacy": {
+    "id": "c81b913e-b099-70b9-96f6-4788e4783012",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Darracq",
+  "names": [],
+  "type": "Brand"
+}

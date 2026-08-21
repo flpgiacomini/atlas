@@ -1,0 +1,103 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074e71e6b54902131b8d6627"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074e7ae89ce6dcdcd38d023f",
+      "legacyId": "01a0102f-074e-7ae8-9ce6-dcdcd38d023f",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1901-03-25"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "interval_until": "1901-03-29"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-35-hp-mercedes-shows-its-superiority-in-nice-race-week"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074e-7155-814d-a33725409513",
+      "subject": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074e77b9a5d37c4743f1499c"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074e7d4cbcacdbb26ef53b93",
+      "legacyId": "01a0102f-074e-7d4c-bcac-dbb26ef53b93",
+      "object": {
+        "id": "atlas:vehicle:mercedes-35-hp",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "competition_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-35-hp-mercedes-shows-its-superiority-in-nice-race-week"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074e-755d-a054-f483d598b53b",
+      "subject": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074f761d8bba85ca9a528b92"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074f77e4927bdd2ab59e52cf",
+      "legacyId": "01a0102f-074f-77e4-927b-dd2ab59e52cf",
+      "object": {
+        "id": "atlas:person:wilhelm-werner",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "driver"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-35-hp-mercedes-shows-its-superiority-in-nice-race-week"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074f-7c29-b4d7-ed28643c07ae",
+      "subject": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Nice Race Week 1901 — Mercedes 35 hp breakthrough é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1901-03-25. A documentação registra participação de Mercedes 35 hp. A documentação registra participação de Wilhelm Werner. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
+  "legacy": {
+    "id": "01a0102f-074e-7522-a061-3c60224c158a",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074e-7155-814d-a33725409513",
+      "01a0102f-074e-755d-a054-f483d598b53b",
+      "01a0102f-074f-7c29-b4d7-ed28643c07ae"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "motorsport_event",
+    "realization_status": "occurred"
+  },
+  "name": "Nice Race Week 1901 — Mercedes 35 hp breakthrough",
+  "names": [],
+  "type": "Event"
+}

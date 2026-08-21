@@ -1,0 +1,267 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5672c5b759f1e4077247ff"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a71c2980986f0b53605f5",
+      "legacyId": "01a01016-ea5a-71c2-9809-86f0b53605f5",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-vehicle",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7839-8a43-3ff00ab1f0d3",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567f1e82cd70f77d03d8ba"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7218a2cf68b70e4bf007",
+      "legacyId": "01a01016-ea5a-7218-a2cf-68b70e4bf007",
+      "object": {
+        "id": "atlas:person:jo-siffert",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-741e-8c44-fbdf237e2838",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567e20a03b901ae595139e"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a738c8eb3a1ab9fda2211",
+      "legacyId": "01a01016-ea5a-738c-8eb3-a1ab9fda2211",
+      "object": {
+        "id": "atlas:person:kurt-ahrens-jr",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7066-bcc1-aebba0c7ad19",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567a82832ad3208a202fc9"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7426aa82746cb508f125",
+      "legacyId": "01a01016-ea5a-7426-aa82-746cb508f125",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-vehicle",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7839-8a43-3ff00ab1f0d3",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5672c297610a01240f5e72"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a765a8638b7d32e814ecc",
+      "legacyId": "01a01016-ea5a-765a-8638-b7d32e814ecc",
+      "object": {
+        "id": "atlas:person:jo-siffert",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-741e-8c44-fbdf237e2838",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567ae989d2ec3459fb97cb"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a79238518c0f3922b7bff",
+      "legacyId": "01a01016-ea5a-7923-8518-c0f3922b7bff",
+      "object": {
+        "id": "atlas:team:karl-freiherr-von-wendt",
+        "type": "EntityReference"
+      },
+      "predicate": "entered-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-75f4-be05-99faccfd504e",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567748814ad13a7f35d1bb"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7a31909b12ad5da989b9",
+      "legacyId": "01a01016-ea5a-7a31-909b-12ad5da989b9",
+      "object": {
+        "id": "atlas:person:kurt-ahrens-jr",
+        "type": "EntityReference"
+      },
+      "predicate": "driven-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7066-bcc1-aebba0c7ad19",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567307806fc1081c2a6aeb"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7acc87e9bb294ce06c80",
+      "legacyId": "01a01016-ea5a-7acc-87e9-bb294ce06c80",
+      "object": {
+        "type": "number",
+        "value": 1.0
+      },
+      "predicate": "overall-position",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7a21-aca3-dc15a3467f15",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea56741ba8554f82e7205b90"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7c0eb3efb180c1b9da87",
+      "legacyId": "01a01016-ea5a-7c0e-b3ef-b180c1b9da87",
+      "object": "classified",
+      "predicate": "entry-status",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7e8f-9a69-dd205ae6a13c",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5677e4a076362cd4c00fbb"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7f1698be7e42eabac782",
+      "legacyId": "01a01016-ea5a-7f16-98be-7e42eabac782",
+      "object": {
+        "id": "atlas:event:1969-1000-km-zeltweg",
+        "type": "EntityReference"
+      },
+      "predicate": "entry-for-event",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:racing-sports-cars-porsche-917-all-results"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-76bd-b32c-35299227c675",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5673bbbc0a4cfe9dd428aa"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7f589b689854c7ff4ec8",
+      "legacyId": "01a01016-ea5a-7f58-9b68-9854c7ff4ec8",
+      "object": {
+        "type": "number",
+        "value": 1.0
+      },
+      "predicate": "overall-position",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7a21-aca3-dc15a3467f15",
+      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "1969 Zeltweg — Porsche 917 — Siffert/Ahrens é registrado no Atlas como inscrição esportiva, dentro da história global do automóvel. A documentação registra condução por Kurt Ahrens Jr.. A documentação registra condução por Jo Siffert. A documentação registra inscrição por Karl Freiherr von Wendt. A documentação registra participação no evento 1969 1000 km Zeltweg. A documentação registra veículo inscrito Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
+  "legacy": {
+    "id": "01a01016-ea4d-763b-928f-bb7bfad13e74",
+    "slug": null,
+    "type": "entry"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7066-bcc1-aebba0c7ad19",
+      "01a01016-ea53-741e-8c44-fbdf237e2838",
+      "01a01016-ea53-75f4-be05-99faccfd504e",
+      "01a01016-ea53-76bd-b32c-35299227c675",
+      "01a01016-ea53-7839-8a43-3ff00ab1f0d3"
+    ],
+    "editorial_batch": "E21",
+    "editorial_level": "editorial",
+    "entry_type": "motorsport_entry"
+  },
+  "name": "1969 Zeltweg — Porsche 917 — Siffert/Ahrens",
+  "names": [],
+  "type": "Entry"
+}

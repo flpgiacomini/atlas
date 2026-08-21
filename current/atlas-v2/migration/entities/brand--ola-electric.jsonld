@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ola Electric, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2dfcc240-eed2-7300-b36a-1d1c58c139de",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Ola Electric"
+    }
+  ],
+  "id": "atlas:brand:ola-electric",
+  "legacy": {
+    "id": "1178bc00-98c9-742d-b6b6-b8f57d53ad2f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Ola Electric",
+  "names": [],
+  "type": "Brand"
+}

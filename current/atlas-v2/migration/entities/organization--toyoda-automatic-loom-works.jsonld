@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Toyoda Automatic Loom Works é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Toyoda Model AA. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:toyoda-automatic-loom-works",
+  "legacy": {
+    "id": "01a01028-5444-73c4-a762-1ea7589ef679",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5444-7942-a7ee-8324e70b7797"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Toyoda Automatic Loom Works",
+  "names": [],
+  "type": "Organization"
+}

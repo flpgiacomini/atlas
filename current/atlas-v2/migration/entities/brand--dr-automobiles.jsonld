@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de DR Automobiles, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ae2d945f-8af8-7a40-92e9-ccc4ed1ffccf",
+      "scheme": "atlas-brand-census",
+      "value": "M04:DR Automobiles"
+    }
+  ],
+  "id": "atlas:brand:dr-automobiles",
+  "legacy": {
+    "id": "c794a29e-99d2-7998-bfd5-160bcc0cbca8",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "DR Automobiles",
+  "names": [],
+  "type": "Brand"
+}

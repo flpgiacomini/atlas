@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Canoo, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "52c0af13-4f90-7129-a7f4-42954c3dfb4d",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Canoo"
+    }
+  ],
+  "id": "atlas:brand:canoo",
+  "legacy": {
+    "id": "14b7410a-23ed-7cbe-be6e-4a43e8c6a8fd",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Canoo",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Aion, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0bd8901e-a9bb-7245-a7cb-f8df149dc334",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Aion"
+    }
+  ],
+  "id": "atlas:brand:aion",
+  "legacy": {
+    "id": "c148a737-225f-7e11-913d-01a196cf1e00",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Aion",
+  "names": [],
+  "type": "Brand"
+}

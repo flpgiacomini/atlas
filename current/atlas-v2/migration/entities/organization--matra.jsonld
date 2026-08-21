@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Matra é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de desenvolvimento por associada a Renault Espace — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:matra",
+  "legacy": {
+    "id": "01a010d9-28c8-7dcd-9a43-ab8b3d433b5e",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c9-7c76-b724-8dcfbae009e8"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "engineering_company"
+  },
+  "name": "Matra",
+  "names": [],
+  "type": "Organization"
+}

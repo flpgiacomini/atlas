@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-ded60784beaa7c7a9c468906dd9772a1"
+      ],
+      "id": "atlas:claim:legacy-0ce63b40a29f7763b1db8aa27d531e70",
+      "legacyId": "0ce63b40-a29f-7763-b1db-8aa27d531e70",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1915-01-02"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q1388558"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b57b5e86-7536-7894-bd46-8eed336d04b7",
+      "subject": "atlas:person:armand-peugeot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-1342e98339cc75d4b81b43359985fbee"
+      ],
+      "id": "atlas:claim:legacy-4fb794fb5fac7aa4a2b1b6712689d203",
+      "legacyId": "4fb794fb-5fac-7aa4-a2b1-b6712689d203",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1849-03-26"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:wikidata-wikidata-entity-q1388558"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "69e19bde-6687-7d49-ba88-043f05aef070",
+      "subject": "atlas:person:armand-peugeot",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Industrial francês e pioneiro da motorização que conduziu a família Peugeot da fabricação de bens metálicos à produção de veículos. Participou do desenvolvimento dos primeiros automóveis da marca e estabeleceu uma atividade industrial dedicada ao setor.",
+  "id": "atlas:person:armand-peugeot",
+  "legacy": {
+    "id": "01a0102a-57e7-7ba3-b726-4bd89283a10f",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "E03",
+    "editorial_level": "editorial",
+    "roles": [
+      "entrepreneur",
+      "executive"
+    ]
+  },
+  "name": "Armand Peugeot",
+  "names": [],
+  "type": "Person"
+}

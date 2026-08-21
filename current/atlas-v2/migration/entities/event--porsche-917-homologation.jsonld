@@ -1,0 +1,173 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5677078eb2558321cd4f8a"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a729d81d74cc8adf2ecdf",
+      "legacyId": "01a01016-ea5a-729d-81d7-4cc8adf2ecdf",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1969-04-21"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7280-aaea-927393e7d67e",
+      "subject": "atlas:event:porsche-917-homologation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5678f69039ade8b5611367"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a752fbf6c935f9e46a8f3",
+      "legacyId": "01a01016-ea5a-752f-bf6c-935f9e46a8f3",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-73dc-9b54-af01a360d4d5",
+      "subject": "atlas:event:porsche-917-homologation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5679e4b174def1ca122e69"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7a7ab019d21c1ca6389c",
+      "legacyId": "01a01016-ea5a-7a7a-b019-d21c1ca6389c",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-73dc-9b54-af01a360d4d5",
+      "subject": "atlas:event:porsche-917-homologation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567f0495d38e3e76c8df6a"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7ec8b1bdea3a7903b773",
+      "legacyId": "01a01016-ea5a-7ec8-b1bd-ea3a7903b773",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1969-04-21"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-7280-aaea-927393e7d67e",
+      "subject": "atlas:event:porsche-917-homologation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567370b19216ca3c721391"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7edda0df8f9e2165c227",
+      "legacyId": "01a01016-ea5a-7edd-a0df-8f9e2165c227",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "homologated_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-775e-a8b5-c504a65705ac",
+      "subject": "atlas:event:porsche-917-homologation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5670bea5aa83060270d9e6"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5a7fe6bc3c145e142d8276",
+      "legacyId": "01a01016-ea5a-7fe6-bc3c-145e142d8276",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "homologated_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea53-775e-a8b5-c504a65705ac",
+      "subject": "atlas:event:porsche-917-homologation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917 homologation é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1969-04-21. A documentação registra participação de Dr. Ing. h.c. F. Porsche AG. A documentação registra participação de Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:porsche-917-homologation",
+  "legacy": {
+    "id": "01a01016-ea4e-7773-be00-13358fc1c566",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-7280-aaea-927393e7d67e",
+      "01a01016-ea53-73dc-9b54-af01a360d4d5",
+      "01a01016-ea53-775e-a8b5-c504a65705ac"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "homologation",
+    "realization_status": "occurred"
+  },
+  "name": "Porsche 917 homologation",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Avanti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "d2d60177-da1d-7d38-965e-e5170e448b3c",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Avanti"
+    }
+  ],
+  "id": "atlas:brand:avanti",
+  "legacy": {
+    "id": "0e5a19d4-754e-7207-8567-5753ab2534be",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Avanti",
+  "names": [],
+  "type": "Brand"
+}

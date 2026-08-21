@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Velorex, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "fbd361a0-77fa-7512-8b01-60326b4535b4",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Velorex"
+    }
+  ],
+  "id": "atlas:brand:velorex",
+  "legacy": {
+    "id": "8cf0784c-3335-77b2-b0e6-9dc9ea3be5ee",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Velorex",
+  "names": [],
+  "type": "Brand"
+}

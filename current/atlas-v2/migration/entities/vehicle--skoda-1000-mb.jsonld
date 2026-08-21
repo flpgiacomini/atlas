@@ -1,0 +1,161 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854547d5c8c51b5635f2842e7"
+      ],
+      "id": "atlas:claim:legacy-01a010285454703eabde666ebab8b2bc",
+      "legacyId": "01a01028-5454-703e-abde-666ebab8b2bc",
+      "object": {
+        "id": "atlas:facility:mlada-boleslav-main-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-55-years-of-the-skoda-1000-mb"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-7739-b57b-d54df3df0768",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545479be9d39f5884fe74b64"
+      ],
+      "id": "atlas:claim:legacy-01a01028545475e2b92f95afe563c393",
+      "legacyId": "01a01028-5454-75e2-b92f-95afe563c393",
+      "object": {
+        "id": "atlas:brand:skoda",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-skoda-1000-mb-19641969-the-revolutionary-change-of-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-784c-8187-c0bf05c42624",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854547dfb8dc669609b4d719c"
+      ],
+      "id": "atlas:claim:legacy-01a0102854547bd9bac860ce4575181c",
+      "legacyId": "01a01028-5454-7bd9-bac8-60ce4575181c",
+      "object": {
+        "id": "atlas:technology:pressure-cast-aluminium-engine-housing-process",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-55-years-of-the-skoda-1000-mb"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-7221-9dbd-6925d4b4afb4",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545476f2ab4f873069e33ad2"
+      ],
+      "id": "atlas:claim:legacy-01a0102854547d95affa1c165f591ffd",
+      "legacyId": "01a01028-5454-7d95-affa-1c165f591ffd",
+      "object": {
+        "id": "atlas:technology:self-supporting-monocoque-body-construction",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-skoda-1000-mb-19641969-the-revolutionary-change-of-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-7b5c-b29c-0105192b7a7e",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854547606bace192171395034"
+      ],
+      "id": "atlas:claim:legacy-01a0102854547f04bedec3a2b35f8caf",
+      "legacyId": "01a01028-5454-7f04-bede-c3a2b35f8caf",
+      "object": {
+        "id": "atlas:technology:pressure-cast-aluminium-engine-housing-process",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-skoda-1000-mb-19641969-the-revolutionary-change-of-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-7221-9dbd-6925d4b4afb4",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545479d1b0d889cf177659f8"
+      ],
+      "id": "atlas:claim:legacy-01a0102854547f81b778dd62d140ec08",
+      "legacyId": "01a01028-5454-7f81-b778-dd62d140ec08",
+      "object": {
+        "id": "atlas:facility:mlada-boleslav-main-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:skoda-auto-skoda-1000-mb-19641969-the-revolutionary-change-of-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-7739-b57b-d54df3df0768",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "ŠKODA 1000 MB é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Pressure-cast aluminium engine housing process. A documentação registra produção em Mladá Boleslav main plant. A documentação registra comercialização sob ŠKODA. A documentação registra uso da tecnologia Self-supporting / monocoque body construction. Também aparece na relação de participação de associada a ŠKODA 1000 MB production start. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:skoda-1000-mb",
+  "legacy": {
+    "id": "01a01028-5453-7900-8694-2766fd617abc",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5454-7221-9dbd-6925d4b4afb4",
+      "01a01028-5454-7739-b57b-d54df3df0768",
+      "01a01028-5454-784c-8187-c0bf05c42624",
+      "01a01028-5454-7b5c-b29c-0105192b7a7e",
+      "01a01028-5455-7e87-8b06-0aa5cbd36811"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "ŠKODA 1000 MB",
+  "names": [],
+  "type": "Vehicle"
+}

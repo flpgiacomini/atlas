@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Caterham, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "978f552e-3df8-7b95-9185-7dcdea180fb6",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Caterham"
+    }
+  ],
+  "id": "atlas:brand:caterham",
+  "legacy": {
+    "id": "ca5f9b29-3af0-74a3-8fe6-672c0e3f9b5d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Caterham",
+  "names": [],
+  "type": "Brand"
+}

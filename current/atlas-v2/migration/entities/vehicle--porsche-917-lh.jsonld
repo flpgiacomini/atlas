@@ -1,0 +1,79 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [
+    "Langheck"
+  ],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5678d0bb0ec0a3b9540f81"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59700eb90bb575781a6dc2",
+      "legacyId": "01a01016-ea59-700e-b90b-b575781a6dc2",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7251-bad5-6dd67bafa5bf",
+      "subject": "atlas:vehicle:porsche-917-lh",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-8e975ec7b37e786ea43a0ffb8e1f459d"
+      ],
+      "id": "atlas:claim:legacy-823a1ea98b5f7820ba736e9a7187712c",
+      "legacyId": "823a1ea9-8b5f-7820-ba73-6e9a7187712c",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "cdde4d59-1c66-7316-bd63-e9d38132a05d",
+      "subject": "atlas:vehicle:porsche-917-lh",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917 LH é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra integração a Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-917-lh",
+  "legacy": {
+    "id": "01a01016-ea4e-7dca-85dc-5ad613f80bea",
+    "slug": "porsche-917-lh",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-7251-bad5-6dd67bafa5bf"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "variant_role": "racing",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "variant"
+  },
+  "name": "Porsche 917 LH",
+  "names": [
+    {
+      "id": "01a01016-ea4e-72af-8b99-6b2e946a8fc4",
+      "name_type": "alias",
+      "value": "Langheck"
+    }
+  ],
+  "type": "Vehicle"
+}

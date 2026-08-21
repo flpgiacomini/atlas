@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Lightyear, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8664150d-f5f3-7119-945e-7ac120dc5c58",
+      "scheme": "atlas-brand-census",
+      "value": "M10:Lightyear"
+    }
+  ],
+  "id": "atlas:brand:lightyear",
+  "legacy": {
+    "id": "13dbd5cf-8c6f-7d0f-9161-e73da74c8686",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Escandinávia Benelux Ibéria",
+    "relevance_score": 35,
+    "wave": "M10"
+  },
+  "name": "Lightyear",
+  "names": [],
+  "type": "Brand"
+}

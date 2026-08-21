@@ -1,0 +1,116 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545a7b6abfc41c2978f17d39"
+      ],
+      "id": "atlas:claim:legacy-01a01028545a710ba7ac676f575f0119",
+      "legacyId": "01a01028-545a-710b-a7ac-676f575f0119",
+      "object": {
+        "id": "atlas:organization:subaru-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-to-jointly-develop-bev-dedicated-platform-and-model"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-545a-7779-a008-c50fd43182e9",
+      "subject": "atlas:vehicle:subaru-brz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545a712ea7c46a7fc7b81f56"
+      ],
+      "id": "atlas:claim:legacy-01a01028545a723f95826190363719db",
+      "legacyId": "01a01028-545a-723f-9582-6190363719db",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation-86-brz-collaboration",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-to-jointly-develop-bev-dedicated-platform-and-model"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-70dc-a606-c57d946621b8",
+      "subject": "atlas:vehicle:subaru-brz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545a7cf0a081678d19207f2b"
+      ],
+      "id": "atlas:claim:legacy-01a01028545a786db709ef15582bfb6c",
+      "legacyId": "01a01028-545a-786d-b709-ef15582bfb6c",
+      "object": {
+        "id": "atlas:organization:subaru-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-on-new-business-and-capital-alliance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-545a-7779-a008-c50fd43182e9",
+      "subject": "atlas:vehicle:subaru-brz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545a73cfaae07fcbc492b33f"
+      ],
+      "id": "atlas:claim:legacy-01a01028545a7aa1b882f80184000ab0",
+      "legacyId": "01a01028-545a-7aa1-b882-f80184000ab0",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation-86-brz-collaboration",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-on-new-business-and-capital-alliance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-70dc-a606-c57d946621b8",
+      "subject": "atlas:vehicle:subaru-brz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Subaru BRZ é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra desenvolvimento por Toyota Motor Corporation — 86/BRZ collaboration. Também aparece na relação de plataforma compartilhada com associada a Toyota 86. Também aparece na relação de participação de associada a Toyota 86 and Subaru BRZ sales start. A documentação registra desenvolvimento por Subaru Corporation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:subaru-brz",
+  "legacy": {
+    "id": "01a01028-5459-7ef2-af1e-84a6202bba0a",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5459-70dc-a606-c57d946621b8",
+      "01a01028-545a-72f6-824b-374a77d0227b",
+      "01a01028-545a-774c-8dd3-eae1f18f5eb3",
+      "01a01028-545a-7779-a008-c50fd43182e9"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Subaru BRZ",
+  "names": [],
+  "type": "Vehicle"
+}

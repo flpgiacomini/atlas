@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Zanella, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "fee9577f-7396-7b32-a1bc-09b0cb15548c",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Zanella"
+    }
+  ],
+  "id": "atlas:brand:zanella",
+  "legacy": {
+    "id": "6672beac-ed06-7ad5-8882-c4d26518e44a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Zanella",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557f22a2c486030cc2f909"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587489b217b998989b838f",
+      "legacyId": "01a01016-ea58-7489-b217-b998989b838f",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "part-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-innovations-of-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7eb6-9ed7-1edcb4b9ff1e",
+      "subject": "atlas:vehicle:porsche-911-targa-original-generation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55770db6377791c0574243"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587fa588672994d513c113",
+      "legacyId": "01a01016-ea58-7fa5-8867-2994d513c113",
+      "object": {
+        "id": "atlas:technology:targa-fixed-rollover-bar-concept",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-innovations-of-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea51-7210-a743-34207e53c1ae",
+      "subject": "atlas:vehicle:porsche-911-targa-original-generation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 911 Targa (original generation) é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Targa fixed rollover bar concept. A documentação registra integração a Porsche 911 Original. Também aparece na relação de participação de associada a Presentation of first Porsche 911 Targa. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:porsche-911-targa-original-generation",
+  "legacy": {
+    "id": "01a01016-ea4d-7fbf-b468-0d9691ea1228",
+    "slug": "porsche-911-targa-original",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-7210-a743-34207e53c1ae",
+      "01a01016-ea51-7eb6-9ed7-1edcb4b9ff1e",
+      "01a01016-ea52-7cb2-87ce-512fe4dfbac5"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "variant_role": "body_style",
+    "vehicle_kind": "production",
+    "vehicle_level": "variant"
+  },
+  "name": "Porsche 911 Targa (original generation)",
+  "names": [],
+  "type": "Vehicle"
+}

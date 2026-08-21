@@ -1,0 +1,55 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854577294b8c9d172bdd54b94"
+      ],
+      "id": "atlas:claim:legacy-01a0102854577c9d8eef203a9409dd05",
+      "legacyId": "01a01028-5457-7c9d-8eef-203a9409dd05",
+      "object": {
+        "id": "atlas:organization:volkswagen-group",
+        "type": "EntityReference"
+      },
+      "predicate": "owned-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-76c0-89f8-096481018240",
+      "subject": "atlas:brand:bugatti",
+      "supportStrength": "strong",
+      "type": "Claim",
+      "validity": {
+        "from": "1998",
+        "precision": "year",
+        "until": null
+      }
+    }
+  ],
+  "description": "Bugatti é registrado no Atlas como marca automotiva, dentro da história global do automóvel. Também aparece na relação de comercialização sob associada a Bugatti Veyron 16.4. Também aparece na relação de comercialização sob associada a Bugatti EB110. A documentação registra controle por Volkswagen Group. Também aparece na relação de participação de associada a Romano Artioli revival of Bugatti automotive activity. Também aparece na relação de participação de associada a Bugatti revival under Volkswagen Group. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:brand:bugatti",
+  "legacy": {
+    "id": "01a01028-5456-74cd-8e02-ff30dece0237",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "active",
+    "description_basis_statement_ids": [
+      "01a01028-5457-764b-9095-1e740d189fff",
+      "01a01028-5457-767b-bd95-30da6505b38f",
+      "01a01028-5457-76c0-89f8-096481018240",
+      "01a01028-5458-7949-a8f9-5d54402e723e",
+      "01a01028-5459-7f12-9b84-728f8ec13cce"
+    ],
+    "editorial_batch": "E06",
+    "editorial_level": "editorial"
+  },
+  "name": "Bugatti",
+  "names": [],
+  "type": "Brand"
+}

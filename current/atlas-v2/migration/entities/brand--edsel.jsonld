@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Edsel, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f6ef6c58-bdf0-759e-8b42-81e72d1e759d",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Edsel"
+    }
+  ],
+  "id": "atlas:brand:edsel",
+  "legacy": {
+    "id": "32057d6c-fe9c-765e-9cb0-b8764e51dfbc",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Edsel",
+  "names": [],
+  "type": "Brand"
+}

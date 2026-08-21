@@ -1,0 +1,94 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544e70078129fa319cbac0d9"
+      ],
+      "id": "atlas:claim:legacy-01a01028544e7071bb64196718e85661",
+      "legacyId": "01a01028-544e-7071-bb64-196718e85661",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-the-evolution-of-the-prius"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544e-7783-8435-c3b5d6337a8c",
+      "subject": "atlas:vehicle:toyota-prius-first-generation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544e7c56b2c9dd4b112029af"
+      ],
+      "id": "atlas:claim:legacy-01a01028544e7e1c8d126719779503b4",
+      "legacyId": "01a01028-544e-7e1c-8d12-6719779503b4",
+      "object": {
+        "id": "atlas:vehicle:toyota-prius-concept-1995",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-prius-concept-car-1995"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544e-7817-a6b0-bc85785f7401",
+      "subject": "atlas:vehicle:toyota-prius-first-generation",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544f76119a434532998fa744"
+      ],
+      "id": "atlas:claim:legacy-01a01028544f796c858a172693b1a11f",
+      "legacyId": "01a01028-544f-796c-858a-172693b1a11f",
+      "object": {
+        "id": "atlas:technology:toyota-hybrid-system-gasoline-electric-hybrid-propulsion",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-the-evolution-of-the-prius"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544e-7a71-a23d-f3706f6902a1",
+      "subject": "atlas:vehicle:toyota-prius-first-generation",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Toyota Prius — First Generation é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Toyota Motor Corporation. A documentação registra derivação de Toyota Prius Concept (1995). A documentação registra uso da tecnologia Toyota Hybrid System / gasoline-electric hybrid propulsion. Também aparece na relação de participação de associada a First-generation Toyota Prius launch. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:toyota-prius-first-generation",
+  "legacy": {
+    "id": "01a01028-544e-7aca-8c56-74c80e705fcd",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544e-7783-8435-c3b5d6337a8c",
+      "01a01028-544e-7817-a6b0-bc85785f7401",
+      "01a01028-544e-7a71-a23d-f3706f6902a1",
+      "01a01028-544f-711c-b41c-f5fd30e39aca"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "generation"
+  },
+  "name": "Toyota Prius — First Generation",
+  "names": [],
+  "type": "Vehicle"
+}

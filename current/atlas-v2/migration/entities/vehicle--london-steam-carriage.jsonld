@@ -1,0 +1,124 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-7e996431cafb7a02840dbf4aba985ba6"
+      ],
+      "id": "atlas:claim:legacy-0d6a532b30f77537a0dd09d99b37005d",
+      "legacyId": "0d6a532b-30f7-7537-a0dd-09d99b37005d",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:propulsao-rodoviaria-a-vapor",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b885dcc3-477c-7463-83ff-04824e250d7c",
+      "subject": "atlas:vehicle:london-steam-carriage",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-f4b8b994f9dd7860906bf34b9c89dc63"
+      ],
+      "id": "atlas:claim:legacy-457a5787eee27f8eb1d25cc41b31f84e",
+      "legacyId": "457a5787-eee2-7f8e-b1d2-5cc41b31f84e",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": "carruagem rodoviária de passageiros",
+      "predicate": "configured-as",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "9f6ec0f9-caef-7f95-aff6-f33c410ff857",
+      "subject": "atlas:vehicle:london-steam-carriage",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-aa466efc03ba79968a007b35182e387c"
+      ],
+      "id": "atlas:claim:legacy-7478dd76ab7b724f9ba65384541aaf30",
+      "legacyId": "7478dd76-ab7b-724f-9ba6-5384541aaf30",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:richard-trevithick",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "47eaf51d-416d-70b4-8990-f493e84f1a78",
+      "subject": "atlas:vehicle:london-steam-carriage",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-eef629d2ac1e7db79495c15281625257"
+      ],
+      "id": "atlas:claim:legacy-f93d283ea2c674a38fb6c5aeb2c8ca9f",
+      "legacyId": "f93d283e-a2c6-74a3-8fb6-c5aeb2c8ca9f",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1803"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:science-museum-group-collection-richard-trevithick"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "335f2a08-4ad3-7d0d-b394-1986be16e2d8",
+      "subject": "atlas:vehicle:london-steam-carriage",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Carruagem rodoviária a vapor apresentada por Richard Trevithick em Londres em 1803. O veículo levou a experimentação de alta pressão a um ambiente urbano e ilustra simultaneamente a capacidade técnica alcançada e as limitações econômicas e operacionais do período.",
+  "id": "atlas:vehicle:london-steam-carriage",
+  "legacy": {
+    "id": "52365406-b98c-703b-a0a3-1b23c6150823",
+    "slug": "london-steam-carriage",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "model"
+  },
+  "name": "London Steam Carriage",
+  "names": [],
+  "type": "Vehicle"
+}

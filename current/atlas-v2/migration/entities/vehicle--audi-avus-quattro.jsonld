@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Audi Avus quattro (1991), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "c03312c7-28a5-7302-9592-6633cc26b41c",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1991:Audi Avus quattro"
+    }
+  ],
+  "id": "atlas:vehicle:audi-avus-quattro",
+  "legacy": {
+    "id": "8472b4ea-71df-7a2f-8806-62159d39b3e1",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Audi",
+    "candidate_kind": "concept",
+    "candidate_year": 1991,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "TEC",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Audi Avus quattro",
+  "names": [],
+  "type": "Vehicle"
+}

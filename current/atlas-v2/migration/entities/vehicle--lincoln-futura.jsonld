@@ -1,0 +1,164 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-6a31f94b7f1370a28532394cd7efc564"
+      ],
+      "id": "atlas:claim:legacy-2c7ea5eb0f7376e8a6090179787212ef",
+      "legacyId": "2c7ea5eb-0f73-76e8-a609-0179787212ef",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:organization:ghia",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Futura"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lincoln-ford-motor-company-lincoln-en-los-comics-el-primer-batimovil"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "1c59bf02-99a5-7bba-b76f-d258c628fdf1",
+      "subject": "atlas:vehicle:lincoln-futura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-c67cce57fc8a7b618287f98b7e26dfc8"
+      ],
+      "id": "atlas:claim:legacy-922acc9f9715725e9cafc7d550091bc6",
+      "legacyId": "922acc9f-9715-725e-9caf-c7d550091bc6",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:person:john-najjar",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Futura"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lincoln-ford-motor-company-lincoln-en-los-comics-el-primer-batimovil"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "15cf5538-3b12-7814-9ffb-272bea3d2c2d",
+      "subject": "atlas:vehicle:lincoln-futura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-0bc82e1bc18b781cbb25f461a9265b01"
+      ],
+      "id": "atlas:claim:legacy-aee9503d6e6575978e33aa6efe5e7c3c",
+      "legacyId": "aee9503d-6e65-7597-8e33-aa6efe5e7c3c",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:person:william-m-schmid",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Futura"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lincoln-ford-motor-company-lincoln-en-los-comics-el-primer-batimovil"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "d0c67cb7-4fff-77e9-86b5-aa03b0e4afcf",
+      "subject": "atlas:vehicle:lincoln-futura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-4c06d313d78174c5a1ab8d3c5de7db0a"
+      ],
+      "id": "atlas:claim:legacy-d33ccb11cdab7a4c8025422e911ada11",
+      "legacyId": "d33ccb11-cdab-7a4c-8025-422e911ada11",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:brand:lincoln",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Futura"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lincoln-ford-motor-company-lincoln-en-los-comics-el-primer-batimovil"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "972c43bc-d569-7037-a637-91fa61ed7cfe",
+      "subject": "atlas:vehicle:lincoln-futura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-d5c5fc8b7a277d3491d63406ae761847"
+      ],
+      "id": "atlas:claim:legacy-fc0665ad80e070738120c0ef719cff40",
+      "legacyId": "fc0665ad-80e0-7073-8120-c0ef719cff40",
+      "note": "Relação documentada pela fonte vinculada.",
+      "object": {
+        "id": "atlas:technology:pintura-automotiva-perolizada",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Futura paint"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-ford-comemora-80-anos-do-seu-estudio-de-design"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "9677fdb3-90f4-72f6-af44-32eeac32ad9b",
+      "subject": "atlas:vehicle:lincoln-futura",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Concept car funcional de 1955 concebido pelos designers da Ford John Najjar e William M. Schmid, com carroceria artesanal produzida pela Ghia em Turim. Além de experimentar pintura perolizada, o exemplar atravessou cinema e televisão: George Barris o transformou no Batmóvel da série de 1966, tornando-o uma ponte rara entre pesquisa de estilo e cultura popular.",
+  "id": "atlas:vehicle:lincoln-futura",
+  "legacy": {
+    "id": "20efc162-ac4a-7f15-998e-a44a4d7019a2",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "15cf5538-3b12-7814-9ffb-272bea3d2c2d",
+      "d0c67cb7-4fff-77e9-86b5-aa03b0e4afcf",
+      "1c59bf02-99a5-7bba-b76f-d258c628fdf1",
+      "972c43bc-d569-7037-a637-91fa61ed7cfe",
+      "9677fdb3-90f4-72f6-af44-32eeac32ad9b"
+    ],
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "Lincoln Futura",
+  "names": [],
+  "type": "Vehicle"
+}

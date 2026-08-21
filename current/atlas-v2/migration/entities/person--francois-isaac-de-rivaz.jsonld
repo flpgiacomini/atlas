@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-ec78693ac2797820ad019186af4e08ff"
+      ],
+      "id": "atlas:claim:legacy-b7698a54f30f7be5bf406c897d36d991",
+      "legacyId": "b7698a54-f30f-7be5-bf40-6c897d36d991",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1828"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "f1416e3b-e207-7cb1-9c34-134df7ba68a2",
+      "subject": "atlas:person:francois-isaac-de-rivaz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-3efa760b81c2782db54c58144e94d317"
+      ],
+      "id": "atlas:claim:legacy-ce94268945e77cad88b41e3acb1427e8",
+      "legacyId": "ce942689-45e7-7cad-88b4-1e3acb1427e8",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1752"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "4caf61d4-acc4-7edc-9301-8a0841e6c65d",
+      "subject": "atlas:person:francois-isaac-de-rivaz",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Inventor e político franco-suíço que patenteou uma máquina baseada na explosão de gases e realizou experiências de propulsão veicular. Seu caso constitui uma fundação da combustão interna, mas patente, motor e veículo devem conservar datas e níveis de evidência separados.",
+  "id": "atlas:person:francois-isaac-de-rivaz",
+  "legacy": {
+    "id": "a7d0bde5-c064-7e5a-ac83-f7dfd392d255",
+    "slug": "francois-isaac-de-rivaz",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "roles": [
+      "inventor",
+      "engineer"
+    ]
+  },
+  "name": "François Isaac de Rivaz",
+  "names": [],
+  "type": "Person"
+}

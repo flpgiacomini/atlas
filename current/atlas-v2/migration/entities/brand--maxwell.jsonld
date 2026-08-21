@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Maxwell, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "bc4511d2-a076-7ee0-9595-312367f15b44",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Maxwell"
+    }
+  ],
+  "id": "atlas:brand:maxwell",
+  "legacy": {
+    "id": "224c7c19-fce8-74d1-9a8a-81c907338801",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Maxwell",
+  "names": [],
+  "type": "Brand"
+}

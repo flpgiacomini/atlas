@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544371018e3cb3a1bf7e447a"
+      ],
+      "id": "atlas:claim:legacy-01a0102854437bcc84c3c53a4091215f",
+      "legacyId": "01a01028-5443-7bcc-84c3-c53a4091215f",
+      "object": {
+        "id": "atlas:vehicle:benz-patent-motor-car",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "patented_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-1886-1894"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5443-7cad-8613-8a60d7c14acc",
+      "subject": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854437a56ab6254b69d3366a8"
+      ],
+      "id": "atlas:claim:legacy-01a0102854437bf6a772235af25bafaa",
+      "legacyId": "01a01028-5443-7bf6-a772-235af25bafaa",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1886-01-29"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-1886-1894"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5443-7280-af31-37a7685139be",
+      "subject": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285444777187204393e863adc5"
+      ],
+      "id": "atlas:claim:legacy-01a01028544471d4971de76a83854a39",
+      "legacyId": "01a01028-5444-71d4-971d-e76a83854a39",
+      "object": {
+        "id": "atlas:person:carl-benz",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "applicant_inventor"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-1886-1894"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5444-7e26-8ded-e174bd7a6f22",
+      "subject": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Carl Benz patent application for gas-engine motor car é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1886-01-29. A documentação registra participação de Benz Patent Motor Car. A documentação registra participação de Carl Benz. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
+  "legacy": {
+    "id": "01a01028-5441-7c65-aa68-269559994d5f",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5443-7280-af31-37a7685139be",
+      "01a01028-5443-7cad-8613-8a60d7c14acc",
+      "01a01028-5444-7e26-8ded-e174bd7a6f22"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "patent_application",
+    "realization_status": "occurred"
+  },
+  "name": "Carl Benz patent application for gas-engine motor car",
+  "names": [],
+  "type": "Event"
+}

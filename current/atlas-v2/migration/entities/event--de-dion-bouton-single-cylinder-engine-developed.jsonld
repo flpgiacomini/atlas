@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074c7674bd0f5160e96ff266"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074c7257ab44c0465c6056dc",
+      "legacyId": "01a0102f-074c-7257-ab44-c0465c6056dc",
+      "object": {
+        "id": "atlas:component:de-dion-bouton-single-cylinder-petroleum-engine-1895",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-moteur-monocylindre-a-petrole"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074c-7040-a014-d78c38250f93",
+      "subject": "atlas:event:de-dion-bouton-single-cylinder-engine-developed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074c7449bfaba33aeb206af2"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074c7fb3853687f9f2d30888",
+      "legacyId": "01a0102f-074c-7fb3-8536-87f9f2d30888",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1895"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-moteur-monocylindre-a-petrole"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074c-7202-bfd8-7645f45dd208",
+      "subject": "atlas:event:de-dion-bouton-single-cylinder-engine-developed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102f074d70c1a4a91fe20d208c87"
+      ],
+      "id": "atlas:claim:legacy-01a0102f074d7c8887e0ba589fe9d7d8",
+      "legacyId": "01a0102f-074d-7c88-87e0-ba589fe9d7d8",
+      "object": {
+        "id": "atlas:organization:de-dion-bouton",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-moteur-monocylindre-a-petrole"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102f-074c-799a-90d5-3000b277557a",
+      "subject": "atlas:event:de-dion-bouton-single-cylinder-engine-developed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "De Dion-Bouton single-cylinder engine developed é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de De Dion-Bouton single-cylinder petroleum engine (1895). A documentação registra ocorrência em 1895. A documentação registra participação de De Dion-Bouton. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:de-dion-bouton-single-cylinder-engine-developed",
+  "legacy": {
+    "id": "01a0102f-074c-72c4-827a-194d2afb76c7",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102f-074c-7040-a014-d78c38250f93",
+      "01a0102f-074c-7202-bfd8-7645f45dd208",
+      "01a0102f-074c-799a-90d5-3000b277557a"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "technology_introduction",
+    "realization_status": "occurred"
+  },
+  "name": "De Dion-Bouton single-cylinder engine developed",
+  "names": [],
+  "type": "Event"
+}

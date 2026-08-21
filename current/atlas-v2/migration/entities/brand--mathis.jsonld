@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mathis, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b8887ad3-682a-75d7-807b-1f60c5db2c09",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Mathis"
+    }
+  ],
+  "id": "atlas:brand:mathis",
+  "legacy": {
+    "id": "13c8ba7e-d9b8-726b-9cf4-94ef7cededee",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Mathis",
+  "names": [],
+  "type": "Brand"
+}

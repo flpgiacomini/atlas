@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Borgward, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b10e033d-d478-7a82-b606-98fbd5baf686",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Borgward"
+    }
+  ],
+  "id": "atlas:brand:borgward",
+  "legacy": {
+    "id": "01409b9a-d3c4-7375-a0a5-3d8cc4d57b9a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Borgward",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Volvo Cars é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a Volvo PV544. Também aparece na relação de introdução por associada a Modern three-point safety belt. Também aparece na relação de atividade profissional em associada a Nils Bohlin. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:volvo-cars",
+  "legacy": {
+    "id": "01a010f1-7e89-7648-bf89-51792b04ab9e",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010f1-7e8a-7a56-b708-68ce623103fe",
+      "01a010f1-7e8b-759a-87a0-e7ea258e1815",
+      "35f1053e-7a64-76ff-b9ed-c7040ac142b5"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Volvo Cars",
+  "names": [],
+  "type": "Organization"
+}

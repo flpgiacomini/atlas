@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Ballot, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "53280a8d-e90a-7bdd-8323-a39a2631dba5",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Ballot"
+    }
+  ],
+  "id": "atlas:brand:ballot",
+  "legacy": {
+    "id": "ed8b5282-24ac-7e46-9518-78072f653da4",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Ballot",
+  "names": [],
+  "type": "Brand"
+}

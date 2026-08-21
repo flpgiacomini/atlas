@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Hondamatic automatic transmission é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Honda N360 AT. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:hondamatic-automatic-transmission",
+  "legacy": {
+    "id": "01a01028-544c-7456-8810-cee79666e012",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544d-7cff-a01a-98c5e4513b07"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "transmission"
+  },
+  "name": "Hondamatic automatic transmission",
+  "names": [],
+  "type": "Technology"
+}

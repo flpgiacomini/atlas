@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de GSM, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ad8c8b63-52e0-7ab9-ad42-4f126b8bb5f8",
+      "scheme": "atlas-brand-census",
+      "value": "M12:GSM"
+    }
+  ],
+  "id": "atlas:brand:gsm",
+  "legacy": {
+    "id": "e30e5605-5a43-794d-a536-89ca4c282430",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "GSM",
+  "names": [],
+  "type": "Brand"
+}

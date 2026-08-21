@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Nissan MID4 (1985), selecionado pelo Atlas por sua possível contribuição histórica em TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "96975f23-9497-7ccd-8659-98ba1a16e8c1",
+      "scheme": "atlas-significance-candidate",
+      "value": "prototype_program:1985:Nissan MID4"
+    }
+  ],
+  "id": "atlas:vehicle:nissan-mid4",
+  "legacy": {
+    "id": "4f25d8e6-31a3-7095-a2fb-6a9d1a69a605",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Nissan",
+    "candidate_kind": "prototype_program",
+    "candidate_year": 1985,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 65
+  },
+  "name": "Nissan MID4",
+  "names": [],
+  "type": "Vehicle"
+}

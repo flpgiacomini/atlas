@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c57606a1a84416901cecb8"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c577e1add0c41e21476ae6",
+      "legacyId": "01a010d9-28c5-77e1-add0-c41e21476ae6",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1951-08"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-s-new-land-cruiser-makes-world-premiere"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-78cc-8234-918f54629be4",
+      "subject": "atlas:event:toyota-bj-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c67aae9d3c28d57097d5be"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c6756b9cd781fa13a1f199",
+      "legacyId": "01a010d9-28c6-756b-9cd7-81fa13a1f199",
+      "object": {
+        "id": "atlas:vehicle:toyota-jeep-bj-land-cruiser-bj",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-s-new-land-cruiser-makes-world-premiere"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c6-7e85-9c45-8b271ece1103",
+      "subject": "atlas:event:toyota-bj-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Toyota BJ launch é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1951-08. A documentação registra participação de Toyota Jeep BJ / Land Cruiser BJ. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:toyota-bj-launch",
+  "legacy": {
+    "id": "01a010d9-28c5-76b6-80f4-1fb4fb1322a7",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c5-78cc-8234-918f54629be4",
+      "01a010d9-28c6-7e85-9c45-8b271ece1103"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Toyota BJ launch",
+  "names": [],
+  "type": "Event"
+}

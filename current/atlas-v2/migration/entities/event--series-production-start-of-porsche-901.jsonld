@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5573d2bf7d343c78d74b46"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59711fba342647f401dca0",
+      "legacyId": "01a01016-ea59-711f-ba34-2647f401dca0",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "production_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-72ad-ba70-3311435a7079",
+      "subject": "atlas:event:series-production-start-of-porsche-901",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55799b8305cb7fc7dc802b"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5974af89f07516e3064f05",
+      "legacyId": "01a01016-ea59-74af-89f0-7516e3064f05",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1964-09-14"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7767-ae63-597663431e43",
+      "subject": "atlas:event:series-production-start-of-porsche-901",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Series production start of Porsche 901 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Porsche 911 Original. A documentação registra ocorrência em 1964-09-14. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:series-production-start-of-porsche-901",
+  "legacy": {
+    "id": "01a01016-ea4d-78ba-ae38-39f89229e5ee",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-72ad-ba70-3311435a7079",
+      "01a01016-ea52-7767-ae63-597663431e43"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "production_start",
+    "realization_status": "occurred"
+  },
+  "name": "Series production start of Porsche 901",
+  "names": [],
+  "type": "Event"
+}

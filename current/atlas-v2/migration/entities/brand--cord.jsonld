@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Cord, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "2b1006ca-cdbf-75bb-b970-df4029fa190b",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Cord"
+    }
+  ],
+  "id": "atlas:brand:cord",
+  "legacy": {
+    "id": "a97bc884-184e-7603-94b0-3b409f4ca258",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Cord",
+  "names": [],
+  "type": "Brand"
+}

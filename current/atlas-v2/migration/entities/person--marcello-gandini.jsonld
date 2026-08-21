@@ -1,0 +1,25 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Marcello Gandini é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de responsabilidade de projeto de associada a Lamborghini Miura. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:marcello-gandini",
+  "legacy": {
+    "id": "01a010d9-28c7-7eed-a50f-a22ba35f0ff2",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c7-792a-a8a0-42743e77fc18"
+    ],
+    "editorial_batch": "E05",
+    "editorial_level": "editorial",
+    "roles": [
+      "designer"
+    ]
+  },
+  "name": "Marcello Gandini",
+  "names": [],
+  "type": "Person"
+}

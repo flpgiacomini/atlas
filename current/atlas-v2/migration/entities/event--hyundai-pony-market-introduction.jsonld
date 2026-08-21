@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285446700089255008bae8347b"
+      ],
+      "id": "atlas:claim:legacy-01a0102854467287a639dd8750930f0f",
+      "legacyId": "01a01028-5446-7287-a639-dd8750930f0f",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1975-12"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hyundai-motor-company-pony-hyundai-motor-europe"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5446-7c00-aa96-78c9bb4c3812",
+      "subject": "atlas:event:hyundai-pony-market-introduction",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544673308a2adcf444562ffc"
+      ],
+      "id": "atlas:claim:legacy-01a01028544679c7ba3d35416d04793e",
+      "legacyId": "01a01028-5446-79c7-ba3d-35416d04793e",
+      "object": {
+        "id": "atlas:vehicle:hyundai-pony",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hyundai-motor-company-pony-hyundai-motor-europe"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5446-76af-9fbc-f0ffd75a914d",
+      "subject": "atlas:event:hyundai-pony-market-introduction",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Hyundai Pony market introduction é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Hyundai Pony. A documentação registra ocorrência em 1975-12. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:hyundai-pony-market-introduction",
+  "legacy": {
+    "id": "01a01028-5445-7da6-8ca5-3dc96e589613",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5446-76af-9fbc-f0ffd75a914d",
+      "01a01028-5446-7c00-aa96-78c9bb4c3812"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "Hyundai Pony market introduction",
+  "names": [],
+  "type": "Event"
+}

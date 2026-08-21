@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Toyota, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "0f62ec90-0bd3-7c14-b477-1f88a7051335",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Toyota"
+    }
+  ],
+  "id": "atlas:brand:toyota",
+  "legacy": {
+    "id": "c07143ed-efee-7d47-b0b1-c696a6e5a468",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Toyota",
+  "names": [],
+  "type": "Brand"
+}

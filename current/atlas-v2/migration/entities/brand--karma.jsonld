@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Karma, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "1f42fa0c-38b9-7dbc-b456-c25c9e5d54b5",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Karma"
+    }
+  ],
+  "id": "atlas:brand:karma",
+  "legacy": {
+    "id": "ee89ff4f-6cfa-7119-9f57-74638a97acf8",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Karma",
+  "names": [],
+  "type": "Brand"
+}

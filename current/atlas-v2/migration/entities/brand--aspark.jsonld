@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Aspark, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "3fb8121d-738b-76bd-b505-56c2572b4849",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Aspark"
+    }
+  ],
+  "id": "atlas:brand:aspark",
+  "legacy": {
+    "id": "c04c5641-b3fb-7b23-9934-a6ce4093b62d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Aspark",
+  "names": [],
+  "type": "Brand"
+}

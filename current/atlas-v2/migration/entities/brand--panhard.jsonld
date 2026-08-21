@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Panhard, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "31314718-3860-780e-9b13-46e4fad59ab4",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Panhard"
+    }
+  ],
+  "id": "atlas:brand:panhard",
+  "legacy": {
+    "id": "5d46af91-6b22-781c-a073-6094e99adc23",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Panhard",
+  "names": [],
+  "type": "Brand"
+}

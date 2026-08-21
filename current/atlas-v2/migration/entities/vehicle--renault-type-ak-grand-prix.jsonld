@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-cf0241b720cf7d988ebb8043c770f075"
+      ],
+      "id": "atlas:claim:legacy-704c272a03367c1fb00c5198a8a6204d",
+      "legacyId": "704c272a-0336-7c1f-b00c-5198a8a6204d",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:renault-freres",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c8887010-c8d3-7963-97b0-aa632818427e",
+      "subject": "atlas:vehicle:renault-type-ak-grand-prix",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Renault Type AK Grand Prix é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de veículo inscrito associada a 1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:renault-type-ak-grand-prix",
+  "legacy": {
+    "id": "01a01031-ec56-74ed-85cd-19f117781c2c",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec57-73c4-a1ec-4b81106981df"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "standalone"
+  },
+  "name": "Renault Type AK Grand Prix",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Franklin, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "1ee3600a-1440-72b2-b15f-4bb4c4337e43",
+      "scheme": "atlas-brand-census",
+      "value": "M03:Franklin"
+    }
+  ],
+  "id": "atlas:brand:franklin",
+  "legacy": {
+    "id": "5cd36ca4-acb0-79b7-8ca4-8518d14646e6",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Américas",
+    "relevance_score": 35,
+    "wave": "M03"
+  },
+  "name": "Franklin",
+  "names": [],
+  "type": "Brand"
+}

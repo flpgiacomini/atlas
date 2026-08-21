@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de BMW Turbo (1972), selecionado pelo Atlas por sua possível contribuição histórica em DES, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "c0e583c3-c803-7285-b0b4-c92afb45ae09",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1972:BMW Turbo"
+    }
+  ],
+  "id": "atlas:vehicle:bmw-turbo",
+  "legacy": {
+    "id": "dfad9bb8-6aea-7be1-82a4-90e5b2804e26",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "BMW",
+    "candidate_kind": "concept",
+    "candidate_year": 1972,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "SEG",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "BMW Turbo",
+  "names": [],
+  "type": "Vehicle"
+}

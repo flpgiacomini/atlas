@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c67fbaae58673441220111"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c67c86a97f8e2ee8e3e092",
+      "legacyId": "01a010d9-28c6-7c86-a97f-8e2ee8e3e092",
+      "object": {
+        "id": "atlas:person:alec-issigonis",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-19592019-sixty-years-of-mini"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c6-7ae3-82a3-91f1600d0ff6",
+      "subject": "atlas:vehicle:classic-mini",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c6720cb0dd9e4f1bbdd3d4"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c67fce916345ca479ba68b",
+      "legacyId": "01a010d9-28c6-7fce-9163-45ca479ba68b",
+      "object": {
+        "id": "atlas:organization:british-motor-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bmw-group-19592019-sixty-years-of-mini"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c6-75d3-8792-5816b1bdee92",
+      "subject": "atlas:vehicle:classic-mini",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Classic Mini é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por British Motor Corporation. Também aparece na relação de participação de associada a Classic Mini public unveiling. A documentação registra responsabilidade de projeto de Alec Issigonis. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:classic-mini",
+  "legacy": {
+    "id": "01a010d9-28c6-75ed-94ae-4f2acbcfb018",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c6-75d3-8792-5816b1bdee92",
+      "01a010d9-28c6-7826-9b7c-46e49363b193",
+      "01a010d9-28c6-7ae3-82a3-91f1600d0ff6"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Classic Mini",
+  "names": [],
+  "type": "Vehicle"
+}

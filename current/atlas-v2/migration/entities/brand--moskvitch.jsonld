@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Moskvitch, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f36318d7-517d-7969-8cb4-d43919adddda",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Moskvitch"
+    }
+  ],
+  "id": "atlas:brand:moskvitch",
+  "legacy": {
+    "id": "2f6449b7-d701-7569-9c53-63f6244f0dfd",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Moskvitch",
+  "names": [],
+  "type": "Brand"
+}

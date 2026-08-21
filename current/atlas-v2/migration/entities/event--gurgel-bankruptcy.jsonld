@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5470a3aede32dd121b632f"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea57795680994567ff51b527",
+      "legacyId": "01a01016-ea57-7956-8099-4567ff51b527",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1994-05"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-o-engenheiro-que-virou-carro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-736a-8469-2f5ae8407570",
+      "subject": "atlas:event:gurgel-bankruptcy",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5479a9a8fdea2a5dfbf4a8"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577f2197083594b95423e8",
+      "legacyId": "01a01016-ea57-7f21-9708-3594b95423e8",
+      "object": {
+        "id": "atlas:organization:gurgel-motores-s-a",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:quatro-rodas-gurgel-o-engenheiro-que-virou-carro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7e1a-881a-bbb5991a531a",
+      "subject": "atlas:event:gurgel-bankruptcy",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gurgel bankruptcy é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1994-05. A documentação registra participação de Gurgel Motores S/A. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:gurgel-bankruptcy",
+  "legacy": {
+    "id": "01a01016-ea4c-73c4-80b1-7c2c2bfd6a62",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-736a-8469-2f5ae8407570",
+      "01a01016-ea50-7e1a-881a-bbb5991a531a"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "bankruptcy",
+    "realization_status": "occurred"
+  },
+  "name": "Gurgel bankruptcy",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,79 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-8c1ac37647187e3abac9275cdd4a7549"
+      ],
+      "id": "atlas:claim:legacy-bea1c25bc8667bbe8d3ee0f33544e94b",
+      "legacyId": "bea1c25b-c866-7bbe-8d3e-e0f33544e94b",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1832"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "08d0b0f6-4fd4-712b-bfee-88b1108c1841",
+      "subject": "atlas:person:nikolaus-august-otto",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-4c32662060d3749797e05333e3d5fb7c"
+      ],
+      "id": "atlas:claim:legacy-ebc43c98750470c6ac422b18ea7bc0d2",
+      "legacyId": "ebc43c98-7504-70c6-ac42-2b18ea7bc0d2",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1891"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "1c81179b-c210-72ff-aab1-d621f435ac84",
+      "subject": "atlas:person:nikolaus-august-otto",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro alemão ligado à realização prática e comercial do motor de quatro tempos na década de 1870. Sua contribuição é registrada em relação com a formulação anterior de Beau de Rochas e com as disputas técnicas e jurídicas subsequentes.",
+  "id": "atlas:person:nikolaus-august-otto",
+  "legacy": {
+    "id": "ccbf928a-a99a-7420-a67b-3fd034d36163",
+    "slug": "nikolaus-august-otto",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F02",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "inventor",
+      "entrepreneur"
+    ]
+  },
+  "name": "Nikolaus August Otto",
+  "names": [],
+  "type": "Person"
+}

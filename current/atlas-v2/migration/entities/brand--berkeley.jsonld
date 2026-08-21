@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Berkeley, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "84eaa794-e11e-76f0-8c23-f327d3f0e3f2",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Berkeley"
+    }
+  ],
+  "id": "atlas:brand:berkeley",
+  "legacy": {
+    "id": "2ec1f810-7827-715b-a56f-6d5379f3912d",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Berkeley",
+  "names": [],
+  "type": "Brand"
+}

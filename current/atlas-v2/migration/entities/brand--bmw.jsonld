@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de BMW, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "009ac5a8-e048-73d0-9a94-519a0bd9b320",
+      "scheme": "atlas-brand-census",
+      "value": "M02:BMW"
+    }
+  ],
+  "id": "atlas:brand:bmw",
+  "legacy": {
+    "id": "595117cd-7b25-705e-97ac-aa22a18bc53c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "BMW",
+  "names": [],
+  "type": "Brand"
+}

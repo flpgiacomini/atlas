@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854527cdf86b995820166d89b"
+      ],
+      "id": "atlas:claim:legacy-01a01028545277d782addd1e3509623f",
+      "legacyId": "01a01028-5452-77d7-82ad-dd1e3509623f",
+      "object": {
+        "id": "atlas:brand:audi",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audi-ag-audi-tradition-celebrates-40-years-of-quattro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5452-7353-a9b7-e690e6443423",
+      "subject": "atlas:vehicle:audi-quattro",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854537fe48b548476889e007f"
+      ],
+      "id": "atlas:claim:legacy-01a01028545374ba80465d7b6381a829",
+      "legacyId": "01a01028-5453-74ba-8046-5d7b6381a829",
+      "object": {
+        "id": "atlas:technology:audi-quattro-all-wheel-drive-system",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audi-ag-audi-tradition-celebrates-40-years-of-quattro"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5452-7f25-ae3f-906619a1bf52",
+      "subject": "atlas:vehicle:audi-quattro",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Audi quattro é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra comercialização sob Audi. A documentação registra uso da tecnologia Audi quattro all-wheel-drive system. Também aparece na relação de participação de associada a Audi quattro Geneva Motor Show debut. Também aparece na relação de participação de associada a Audi quattro motorsport debut at Jänner Rally. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:audi-quattro",
+  "legacy": {
+    "id": "01a01028-5452-7b30-9a49-a2e7cdb66dfc",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5452-7353-a9b7-e690e6443423",
+      "01a01028-5452-7f25-ae3f-906619a1bf52",
+      "01a01028-5453-79a9-8d72-a06a258dde40",
+      "01a01028-5453-7cdf-b26a-490ffc3153d9"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Audi quattro",
+  "names": [],
+  "type": "Vehicle"
+}

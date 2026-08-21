@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de IKA, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8fb2e21e-06f6-7ad5-811f-c933a7a2e414",
+      "scheme": "atlas-brand-census",
+      "value": "M11:IKA"
+    }
+  ],
+  "id": "atlas:brand:ika",
+  "legacy": {
+    "id": "e7f68ccd-65a5-78b0-9ba0-7ff9fbefe208",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "IKA",
+  "names": [],
+  "type": "Brand"
+}

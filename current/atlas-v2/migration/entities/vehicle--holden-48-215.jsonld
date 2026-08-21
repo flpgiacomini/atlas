@@ -1,0 +1,93 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010285455782881b98712ba049a90"
+      ],
+      "id": "atlas:claim:legacy-01a01028545575678c29d43f97b960a5",
+      "legacyId": "01a01028-5455-7567-8c29-d43f97b960a5",
+      "object": {
+        "id": "atlas:brand:holden",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:national-museum-of-australia-holden-prototype-no-1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5455-7597-8d17-6a2d5062279f",
+      "subject": "atlas:vehicle:holden-48-215",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545579c8a955e3d7a02ee9d7"
+      ],
+      "id": "atlas:claim:legacy-01a010285455760eaccdffca76cf94b8",
+      "legacyId": "01a01028-5455-760e-accd-ffca76cf94b8",
+      "object": {
+        "id": "atlas:vehicle:holden-48-215-prototype-programme",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:national-museum-of-australia-holden-prototype-no-1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5455-7ec0-8d60-845f15dea308",
+      "subject": "atlas:vehicle:holden-48-215",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854557dddabc72adc8d84b5b5"
+      ],
+      "id": "atlas:claim:legacy-01a010285455783d8fe3c322e57f87b7",
+      "legacyId": "01a01028-5455-783d-8fe3-c322e57f87b7",
+      "object": {
+        "id": "atlas:vehicle:holden-48-215-prototype-programme",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:national-museum-of-australia-holden-launch"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5455-7ec0-8d60-845f15dea308",
+      "subject": "atlas:vehicle:holden-48-215",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Holden 48-215 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra comercialização sob Holden. A documentação registra derivação de Holden 48-215 prototype programme. Também aparece na relação de participação de associada a First production Holden 48-215 rolled off assembly line. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:holden-48-215",
+  "legacy": {
+    "id": "01a01028-5455-759c-a6a7-06375500cf5d",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5455-7597-8d17-6a2d5062279f",
+      "01a01028-5455-7ec0-8d60-845f15dea308",
+      "01a01028-5456-7595-b3fc-0f5cceefa628"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Holden 48-215",
+  "names": [],
+  "type": "Vehicle"
+}

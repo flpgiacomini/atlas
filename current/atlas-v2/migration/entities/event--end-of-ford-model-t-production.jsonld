@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557f75affd6c13449143f3"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea58704cb3f1b22a495572eb",
+      "legacyId": "01a01016-ea58-704c-b3f1-b22a495572eb",
+      "object": {
+        "id": "atlas:vehicle:ford-model-t",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7a90-b259-b5799597d532",
+      "subject": "atlas:event:end-of-ford-model-t-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea55795c9d21ab79b0e78ea0"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea587942ab2849a2ac13b429",
+      "legacyId": "01a01016-ea58-7942-ab28-49a2ac13b429",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1927-05"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-ford-model-t"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7c1e-abde-4cc0c693663e",
+      "subject": "atlas:event:end-of-ford-model-t-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "End of Ford Model T production é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Ford Model T. A documentação registra ocorrência em 1927-05. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:end-of-ford-model-t-production",
+  "legacy": {
+    "id": "01a01016-ea4d-7410-b64b-d3ecd10b22b1",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7a90-b259-b5799597d532",
+      "01a01016-ea50-7c1e-abde-4cc0c693663e"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "production_end",
+    "realization_status": "occurred"
+  },
+  "name": "End of Ford Model T production",
+  "names": [],
+  "type": "Event"
+}

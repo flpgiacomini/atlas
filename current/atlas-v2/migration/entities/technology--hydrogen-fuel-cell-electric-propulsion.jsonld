@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Hydrogen fuel-cell electric propulsion é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Toyota Mirai — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:hydrogen-fuel-cell-electric-propulsion",
+  "legacy": {
+    "id": "01a010d9-28cb-7795-9ec4-8c41e9b968eb",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-79f2-8338-aed004b3af82"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Hydrogen fuel-cell electric propulsion",
+  "names": [],
+  "type": "Technology"
+}

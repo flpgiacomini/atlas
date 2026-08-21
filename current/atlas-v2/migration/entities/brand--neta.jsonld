@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Neta, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "81164bc7-7935-77bf-88bc-48fb5739eeba",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Neta"
+    }
+  ],
+  "id": "atlas:brand:neta",
+  "legacy": {
+    "id": "6bfee86e-d5b9-7d6f-97eb-25e3bfd73ac0",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Neta",
+  "names": [],
+  "type": "Brand"
+}

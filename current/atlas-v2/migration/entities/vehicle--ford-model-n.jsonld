@@ -1,0 +1,50 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331a72229e93a1562816ed77"
+      ],
+      "id": "atlas:claim:legacy-01a01030331a7563bb8514ce6ec75d83",
+      "legacyId": "01a01030-331a-7563-bb85-14ce6ec75d83",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-vehicle-viewer"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-7c8c-8637-239db8a8409e",
+      "subject": "atlas:vehicle:ford-model-n",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford Model N é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Ford Motor Company. Também aparece na relação de participação de associada a Ford Model N reaches U.S. bestseller status. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:ford-model-n",
+  "legacy": {
+    "id": "01a01030-331a-705c-8d5c-39c13669049e",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-331a-7c8c-8637-239db8a8409e",
+      "01a01030-331b-7a47-a19d-ad3274522922"
+    ],
+    "documented_price_usd": 500,
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "historical_significance": "described by The Henry Ford as the bestselling car in America",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Ford Model N",
+  "names": [],
+  "type": "Vehicle"
+}

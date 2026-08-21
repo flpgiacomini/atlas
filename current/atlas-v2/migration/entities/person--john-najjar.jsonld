@@ -1,0 +1,22 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Designer da Ford Motor Company creditado pela Lincoln, ao lado de William M. Schmid, pela concepção do Futura de 1955. O projeto combinou referências aeronáuticas e uma carroceria construída pela Ghia antes de adquirir uma segunda vida como veículo de cinema e televisão.",
+  "id": "atlas:person:john-najjar",
+  "legacy": {
+    "id": "22d997da-2965-7560-abd9-28cbc1e281fe",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "roles": [
+      "automotive designer"
+    ]
+  },
+  "name": "John Najjar",
+  "names": [],
+  "type": "Person"
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Toyota Hybrid System / gasoline-electric hybrid propulsion é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Toyota Prius — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:toyota-hybrid-system-gasoline-electric-hybrid-propulsion",
+  "legacy": {
+    "id": "01a01028-544e-7ab2-a063-2b7daa91693f",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544e-7a71-a23d-f3706f6902a1"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Toyota Hybrid System / gasoline-electric hybrid propulsion",
+  "names": [],
+  "type": "Technology"
+}

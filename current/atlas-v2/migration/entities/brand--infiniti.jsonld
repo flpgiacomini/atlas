@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Infiniti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "731e19ec-4c71-7225-8c7c-dd5441596eff",
+      "scheme": "atlas-brand-census",
+      "value": "M06:Infiniti"
+    }
+  ],
+  "id": "atlas:brand:infiniti",
+  "legacy": {
+    "id": "40e34b59-a12b-7914-a704-dc41691b611b",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Japão",
+    "relevance_score": 35,
+    "wave": "M06"
+  },
+  "name": "Infiniti",
+  "names": [],
+  "type": "Brand"
+}

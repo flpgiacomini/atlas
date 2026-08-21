@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Marussia, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a6f80619-fdb5-7c94-9e65-d6ec0bf26a74",
+      "scheme": "atlas-brand-census",
+      "value": "M09:Marussia"
+    }
+  ],
+  "id": "atlas:brand:marussia",
+  "legacy": {
+    "id": "646838e9-9b80-727b-beda-fbbe57072b72",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "Marussia",
+  "names": [],
+  "type": "Brand"
+}

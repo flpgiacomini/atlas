@@ -1,0 +1,101 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5a7408a262ed2e63707cc9"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5a72bba14d16575f402da6",
+      "legacyId": "01a01031-ec5a-72bb-a14d-16575f402da6",
+      "object": {
+        "id": "atlas:organization:renault-freres",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "manufacturer"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-autoworld-fete-les-120-ans-de-renault"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec5a-7c48-9953-6174fe2a2a2d",
+      "subject": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5a7fe8b35520159dc16799"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5a7ee390ccc1a07c6bac7a",
+      "legacyId": "01a01031-ec5a-7ee3-90cc-c1a07c6bac7a",
+      "object": {
+        "id": "atlas:vehicle:renault-type-ag1-taxi",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "taxi_type"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-autoworld-fete-les-120-ans-de-renault"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec5a-7eac-ad34-15dd9711f3d1",
+      "subject": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5a78cb9547fcabe3a87701"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5a7f5a93c5373d66448fd5",
+      "legacyId": "01a01031-ec5a-7f5a-93c5-373d66448fd5",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1914"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-autoworld-fete-les-120-ans-de-renault"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec5a-7e0a-95e7-a88ec9aa964a",
+      "subject": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Renault 'Taxis de la Marne' wartime mobilization é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Renault Frères. A documentação registra ocorrência em 1914. A documentação registra participação de Renault Type AG1 taxi. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
+  "legacy": {
+    "id": "01a01031-ec5a-75dd-9ed8-1bac069aaf14",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "context": "Renault had supplied approximately 1,500 taxis to Paris; these taxis later played a major wartime transport role.",
+    "description_basis_statement_ids": [
+      "01a01031-ec5a-7c48-9953-6174fe2a2a2d",
+      "01a01031-ec5a-7e0a-95e7-a88ec9aa964a",
+      "01a01031-ec5a-7eac-ad34-15dd9711f3d1"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "wartime_transport",
+    "realization_status": "occurred"
+  },
+  "name": "Renault 'Taxis de la Marne' wartime mobilization",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Peugeot Proxima (1986), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "163e20e8-2ebc-74b5-bf50-f97523ab2c48",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:1986:Peugeot Proxima"
+    }
+  ],
+  "id": "atlas:vehicle:peugeot-proxima",
+  "legacy": {
+    "id": "e0c957dc-5500-7899-adef-0fc0c0d8be1f",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Peugeot",
+    "candidate_kind": "concept",
+    "candidate_year": 1986,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "TEC"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 60
+  },
+  "name": "Peugeot Proxima",
+  "names": [],
+  "type": "Vehicle"
+}

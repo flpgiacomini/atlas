@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Mercedes-Benz, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "24d2b823-f2d4-7d13-8f41-517db2b6de46",
+      "scheme": "atlas-brand-census",
+      "value": "M01:Mercedes-Benz"
+    }
+  ],
+  "id": "atlas:brand:mercedes-benz",
+  "legacy": {
+    "id": "eb0a0e51-2d35-7599-b005-c1c0e0ebcdff",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Pioneiras globais",
+    "relevance_score": 35,
+    "wave": "M01"
+  },
+  "name": "Mercedes-Benz",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544e7dfe87cf775a5e62c991"
+      ],
+      "id": "atlas:claim:legacy-01a01028544e7734a828d9fe21837caa",
+      "legacyId": "01a01028-544e-7734-a828-d9fe21837caa",
+      "object": {
+        "id": "atlas:vehicle:honda-n360-at",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-the-hondamatic-transmission-1968"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544e-7b27-b08e-83cde7d75b3f",
+      "subject": "atlas:event:honda-n360-at-hondamatic-debut",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544e75deba67d3d591b197f6"
+      ],
+      "id": "atlas:claim:legacy-01a01028544e7bd78bdd6b581c79b36a",
+      "legacyId": "01a01028-544e-7bd7-8bdd-6b581c79b36a",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1968-03"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:honda-motor-co-the-hondamatic-transmission-1968"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544e-7d39-a9a8-9bad680aad02",
+      "subject": "atlas:event:honda-n360-at-hondamatic-debut",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Honda N360 AT Hondamatic debut é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Honda N360 AT. A documentação registra ocorrência em 1968-03. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:honda-n360-at-hondamatic-debut",
+  "legacy": {
+    "id": "01a01028-544c-762d-8c10-8e49481b6784",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544e-7b27-b08e-83cde7d75b3f",
+      "01a01028-544e-7d39-a9a8-9bad680aad02"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "technology_introduction",
+    "realization_status": "occurred"
+  },
+  "name": "Honda N360 AT Hondamatic debut",
+  "names": [],
+  "type": "Event"
+}

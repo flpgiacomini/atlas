@@ -1,0 +1,123 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5579aca04fd7c5b73f9e9d"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59732d8ecb16c360e3f733",
+      "legacyId": "01a01016-ea59-732d-8ecb-16c360e3f733",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "renamed_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7d52-8a40-ec11ca6b978a",
+      "subject": "atlas:event:porsche-901-renamed-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "disputed",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea557aa8a6cd054e5e23fb04"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5976a580a6ea36800a7ff7",
+      "legacyId": "01a01016-ea59-76a5-80a6-ea36800a7ff7",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1964-10-22"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "disputed",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7bac-84c5-518cfe29ff27",
+      "subject": "atlas:event:porsche-901-renamed-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5570e1a629f95e997d575e"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5978e5964c3dfdb599bdb4",
+      "legacyId": "01a01016-ea59-78e5-964c-3dfdb599bdb4",
+      "object": {
+        "id": "atlas:vehicle:porsche-911-original",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "renamed_vehicle"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-an-evolutionary-history-from-the-754-via-the-901-to-the-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7d52-8a40-ec11ca6b978a",
+      "subject": "atlas:event:porsche-901-renamed-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "disputed",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5574a6a58f40e5f647e1ec"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59796ab6625f0dc04d049d",
+      "legacyId": "01a01016-ea59-796a-b662-5f0dc04d049d",
+      "object": {
+        "precision": "unknown",
+        "type": "date",
+        "value": "1964-11-22"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "disputed",
+      "sources": [
+        "atlas:source:porsche-ag-the-porsche-911"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-74f5-81b5-7ef81aa5eec3",
+      "subject": "atlas:event:porsche-901-renamed-porsche-911",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 901 renamed Porsche 911 é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1964-11-22. A documentação registra ocorrência em 1964-10-22. A documentação registra participação de Porsche 911 Original. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:porsche-901-renamed-porsche-911",
+  "legacy": {
+    "id": "01a01016-ea4d-7e57-8ffc-fe0303c7d19b",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-74f5-81b5-7ef81aa5eec3",
+      "01a01016-ea52-7bac-84c5-518cfe29ff27",
+      "01a01016-ea52-7d52-8a40-ec11ca6b978a"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "designation_change",
+    "realization_status": "occurred"
+  },
+  "name": "Porsche 901 renamed Porsche 911",
+  "names": [],
+  "type": "Event"
+}

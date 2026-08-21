@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Siata, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f7675cca-7d51-7b67-b35b-9c7388cf8107",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Siata"
+    }
+  ],
+  "id": "atlas:brand:siata",
+  "legacy": {
+    "id": "9fe026b3-6b6c-75f3-b9d0-e7b045f53daf",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Siata",
+  "names": [],
+  "type": "Brand"
+}

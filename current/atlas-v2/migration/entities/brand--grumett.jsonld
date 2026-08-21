@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Grumett, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ed19020f-42e4-7fea-9efa-01c59ef8e6e8",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Grumett"
+    }
+  ],
+  "id": "atlas:brand:grumett",
+  "legacy": {
+    "id": "3fe38a6a-3512-7f5e-a4d8-ab776bab0437",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Grumett",
+  "names": [],
+  "type": "Brand"
+}

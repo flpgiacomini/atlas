@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "McLaren Automotive é registrado no Atlas como organização, dentro da história global do automóvel. Também aparece na relação de fabricação por associada a McLaren F1. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:mclaren-automotive",
+  "legacy": {
+    "id": "01a010d9-28c9-787b-ba1d-036c3f7bded2",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c9-7f86-b811-23b105a60ac3"
+    ],
+    "editorial_batch": "E08",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "McLaren Automotive",
+  "names": [],
+  "type": "Organization"
+}

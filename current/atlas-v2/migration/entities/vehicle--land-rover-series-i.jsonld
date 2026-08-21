@@ -1,0 +1,77 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c57d13a1b85294d2b5c2c5"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c5700490d43ed296518fcc",
+      "legacyId": "01a010d9-28c5-7004-90d4-3ed296518fcc",
+      "object": {
+        "id": "atlas:facility:land-rover-solihull-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:land-rover-land-rover-celebrates-defender-with-recreation-of-1948-production-line"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-7efd-b894-037575df84ee",
+      "subject": "atlas:vehicle:land-rover-series-i",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1948",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c57e87814faa2d35deaf10"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c573b1b6708d5edcebc601",
+      "legacyId": "01a010d9-28c5-73b1-b670-8d5edcebc601",
+      "object": {
+        "id": "atlas:brand:land-rover",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:land-rover-land-rover-celebrates-defender-with-recreation-of-1948-production-line"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-798b-ac6d-18202fc22b63",
+      "subject": "atlas:vehicle:land-rover-series-i",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Land Rover Series I é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de instância de associada a Land Rover pre-production HUE 166. A documentação registra comercialização sob Land Rover. A documentação registra produção em Land Rover Solihull Plant. Também aparece na relação de participação de associada a Land Rover Series I launch at Amsterdam Motor Show. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:land-rover-series-i",
+  "legacy": {
+    "id": "01a010d9-28c4-7374-b925-54a7bfff62c8",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c4-723e-b384-97c6219bba78",
+      "01a010d9-28c5-798b-ac6d-18202fc22b63",
+      "01a010d9-28c5-7efd-b894-037575df84ee",
+      "01a010d9-28c5-7feb-b96e-dd6045aeef66"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Land Rover Series I",
+  "names": [],
+  "type": "Vehicle"
+}

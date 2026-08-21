@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "South Africa é registrado no Atlas como lugar, dentro da história global do automóvel. Também aparece na relação de localização em associada a BMW Group Plant Rosslyn. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:place:south-africa",
+  "legacy": {
+    "id": "01a010d9-28cb-74f3-9cde-81ffc05409b6",
+    "slug": null,
+    "type": "place"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28cb-7a24-835e-363054f39581"
+    ],
+    "editorial_batch": "E19",
+    "editorial_level": "editorial",
+    "place_type": "country"
+  },
+  "name": "South Africa",
+  "names": [],
+  "type": "Place"
+}

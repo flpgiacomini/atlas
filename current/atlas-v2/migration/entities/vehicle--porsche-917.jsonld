@@ -1,0 +1,139 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567305925ad16f74c906ba"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59719facc9a09a1a90f8a7",
+      "legacyId": "01a01016-ea59-719f-acc9-a09a1a90f8a7",
+      "object": {
+        "id": "atlas:person:hans-mezger",
+        "type": "EntityReference"
+      },
+      "predicate": "engineered-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-75bc-908e-c7909da3939b",
+      "subject": "atlas:vehicle:porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5677129bed9447c4b4a46a"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea59720b96a525828bc0eada",
+      "legacyId": "01a01016-ea59-720b-96a5-25828bc0eada",
+      "object": {
+        "id": "atlas:organization:dr-ing-h-c-f-porsche-ag",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-7be1-a8eb-1fc9a59199c6",
+      "subject": "atlas:vehicle:porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5672088b33ad7e24869492"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597494ba10d21f07038ac4",
+      "legacyId": "01a01016-ea59-7494-ba10-d21f07038ac4",
+      "object": {
+        "id": "atlas:component:porsche-type-912-twelve-cylinder-engine",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-component",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-makers-day"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-726e-92f4-530bd918be8d",
+      "subject": "atlas:vehicle:porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567280bd1307227c570607"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5979e78f60490b6b4eb4e2",
+      "legacyId": "01a01016-ea59-79e7-8f60-490b6b4eb4e2",
+      "object": {
+        "id": "atlas:person:hans-mezger",
+        "type": "EntityReference"
+      },
+      "predicate": "engineered-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-creative-spirit"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-75bc-908e-c7909da3939b",
+      "subject": "atlas:vehicle:porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea567db2bce8caba7f646a00"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea597aa1a2fbab5a46b60137",
+      "legacyId": "01a01016-ea59-7aa1-a2fb-ab5a46b60137",
+      "object": {
+        "id": "atlas:component:porsche-type-912-twelve-cylinder-engine",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-component",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-porsche-congratulates-valentin-schaffer-on-his-90th-birthday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-726e-92f4-530bd918be8d",
+      "subject": "atlas:vehicle:porsche-917",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Protótipo de competição criado pela Porsche para enfrentar o regulamento internacional de carros esporte no fim dos anos 1960. Com motor de doze cilindros e múltiplas configurações aerodinâmicas, tornou-se protagonista das vitórias gerais da marca em Le Mans.",
+  "externalIds": [
+    {
+      "id": "01a01016-ea4e-7acd-80c3-ba55a71ef76b",
+      "scheme": "wikidata",
+      "value": "Q1514835"
+    }
+  ],
+  "id": "atlas:vehicle:porsche-917",
+  "legacy": {
+    "id": "01a01016-ea4e-7a86-9dc9-72ee0ab1c448",
+    "slug": "porsche-917",
+    "type": "vehicle"
+  },
+  "metadata": {
+    "editorial_batch": "E02",
+    "editorial_level": "editorial",
+    "vehicle_kind": "race_car",
+    "vehicle_level": "family"
+  },
+  "name": "Porsche 917",
+  "names": [],
+  "type": "Vehicle"
+}

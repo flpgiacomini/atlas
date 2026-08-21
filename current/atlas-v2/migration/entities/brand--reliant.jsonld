@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Reliant, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "6ebe7e88-1f0b-78be-9df3-57cbc4926412",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Reliant"
+    }
+  ],
+  "id": "atlas:brand:reliant",
+  "legacy": {
+    "id": "666d6c1b-5b93-771d-a6f4-59e02e367588",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Reliant",
+  "names": [],
+  "type": "Brand"
+}

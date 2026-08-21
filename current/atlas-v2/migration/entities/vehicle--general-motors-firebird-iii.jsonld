@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-a76c74271c25714495aa50620416ff54"
+      ],
+      "id": "atlas:claim:legacy-62258308dbd1777e82fbafbdd142acfb",
+      "legacyId": "62258308-dbd1-777e-82fb-afbdd142acfb",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:technology:propulsao-automotiva-por-turbina-a-gas",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird III"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-iii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "084e92e5-4231-7a53-9c14-3fa7861a8cd7",
+      "subject": "atlas:vehicle:general-motors-firebird-iii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-38054586c0f67859a4d155824043f607"
+      ],
+      "id": "atlas:claim:legacy-7db7dcec400c79b2acb50454ee2c97d6",
+      "legacyId": "7db7dcec-400c-79b2-acb5-0454ee2c97d6",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:vehicle:general-motors-firebird-ii",
+        "type": "EntityReference"
+      },
+      "predicate": "successor-of",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird III"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-iii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "3a68f09c-ef1e-718a-91c1-295cf19ad4ef",
+      "subject": "atlas:vehicle:general-motors-firebird-iii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01f4cdc980c67663a48199511f848c82"
+      ],
+      "id": "atlas:claim:legacy-e6760df3ae65722c9164f72d0240ac5e",
+      "legacyId": "e6760df3-ae65-722c-9164-f72d0240ac5e",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:technology:linguagem-aeronautica-em-concept-cars",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird III"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-iii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "50f424c6-bd0a-7855-9617-3ad20a51f063",
+      "subject": "atlas:vehicle:general-motors-firebird-iii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-bdb6154495387a468102affb226e0027"
+      ],
+      "id": "atlas:claim:legacy-ebfd7c82de8270b1a24e180715b3cbba",
+      "legacyId": "ebfd7c82-de82-70b1-a24e-180715b3cbba",
+      "note": "Relação sustentada pela narrativa institucional do programa.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird III"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:general-motors-firebird-iii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "891e3eaf-d1c7-7a2d-9d5a-41ee2d0e64d5",
+      "subject": "atlas:vehicle:general-motors-firebird-iii",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Terceiro concept car da linhagem Firebird, construído em 1958. A GM o identifica como o membro mais influente da série no desenho de veículos de produção, com soluções formais posteriormente refletidas em Cadillac de 1959 e 1961 e uma ruptura deliberada com convenções anteriores.",
+  "id": "atlas:vehicle:general-motors-firebird-iii",
+  "legacy": {
+    "id": "c1838100-cf70-7b21-af9b-c7f3b4d0c87f",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "891e3eaf-d1c7-7a2d-9d5a-41ee2d0e64d5",
+      "3a68f09c-ef1e-718a-91c1-295cf19ad4ef",
+      "084e92e5-4231-7a53-9c14-3fa7861a8cd7",
+      "50f424c6-bd0a-7855-9617-3ad20a51f063"
+    ],
+    "editorial_batch": "V03",
+    "editorial_level": "editorial",
+    "vehicle_kind": "concept",
+    "vehicle_level": "standalone"
+  },
+  "name": "General Motors Firebird III",
+  "names": [],
+  "type": "Vehicle"
+}

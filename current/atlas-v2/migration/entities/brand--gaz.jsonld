@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de GAZ, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "8e53feb5-34c2-72b8-9cd2-2149e9d4c967",
+      "scheme": "atlas-brand-census",
+      "value": "M09:GAZ"
+    }
+  ],
+  "id": "atlas:brand:gaz",
+  "legacy": {
+    "id": "2e7cde30-0f4f-70dd-a93e-aed02d025e88",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa Central e Oriental",
+    "relevance_score": 35,
+    "wave": "M09"
+  },
+  "name": "GAZ",
+  "names": [],
+  "type": "Brand"
+}

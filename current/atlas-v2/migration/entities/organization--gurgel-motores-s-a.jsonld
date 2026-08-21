@@ -1,0 +1,72 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea54705cbc51b76fbe33b3c9"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577614b62494e0ba9a1fdb",
+      "legacyId": "01a01016-ea57-7614-b624-94e0ba9a1fdb",
+      "object": {
+        "id": "atlas:person:joao-augusto-conrado-do-amaral-gurgel",
+        "type": "EntityReference"
+      },
+      "predicate": "founded-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-7d17-8a3f-5204f228ed0e",
+      "subject": "atlas:organization:gurgel-motores-s-a",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547b81a18df05048d98c9b"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577768bda8f73e649b15e4",
+      "legacyId": "01a01016-ea57-7768-bda8-f73e649b15e4",
+      "object": {
+        "id": "atlas:place:rio-claro",
+        "type": "EntityReference"
+      },
+      "predicate": "located-in",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea4f-7919-aee5-cf0a9bf1a6a5",
+      "subject": "atlas:organization:gurgel-motores-s-a",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Gurgel Motores S/A é registrado no Atlas como organização, dentro da história global do automóvel. A documentação registra localização em Rio Claro. Também aparece na relação de fabricação por associada a Gurgel BR-800. A documentação registra fundação por João Augusto Conrado do Amaral Gurgel. Também aparece na relação de participação de associada a Gurgel concordata request. Também aparece na relação de participação de associada a Gurgel bankruptcy. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:organization:gurgel-motores-s-a",
+  "legacy": {
+    "id": "01a01016-ea4c-76b8-b2a8-c85cdee6e70e",
+    "slug": null,
+    "type": "organization"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea4f-7919-aee5-cf0a9bf1a6a5",
+      "01a01016-ea4f-7a20-86ec-800f37ad0b7f",
+      "01a01016-ea4f-7d17-8a3f-5204f228ed0e",
+      "01a01016-ea50-7d30-8e35-9d7a70f852c5",
+      "01a01016-ea50-7e1a-881a-bbb5991a531a"
+    ],
+    "editorial_batch": "E07",
+    "editorial_level": "editorial",
+    "organization_type": "manufacturer"
+  },
+  "name": "Gurgel Motores S/A",
+  "names": [],
+  "type": "Organization"
+}

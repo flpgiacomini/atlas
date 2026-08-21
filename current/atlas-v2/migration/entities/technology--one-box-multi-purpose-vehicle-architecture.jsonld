@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "One-box multi-purpose vehicle architecture é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Renault Espace — First Generation. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:one-box-multi-purpose-vehicle-architecture",
+  "legacy": {
+    "id": "01a010d9-28c8-7577-b58f-58d91d754e32",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c9-7e76-870d-041bfcbdecf5"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "vehicle_architecture"
+  },
+  "name": "One-box multi-purpose vehicle architecture",
+  "names": [],
+  "type": "Technology"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c97c62a4302085d6537298"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c970fdb0b3c6928625d261",
+      "legacyId": "01a010d9-28c9-70fd-b0b3-c6928625d261",
+      "object": {
+        "id": "atlas:vehicle:mclaren-f1",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mclaren-automotive-mclaren-f1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c9-78d4-bd73-d89546dff64f",
+      "subject": "atlas:event:mclaren-f1-realised-as-road-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c977e5834f78506078e1b2"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c972018161ab762d14c393",
+      "legacyId": "01a010d9-28c9-7201-8161-ab762d14c393",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1992"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mclaren-automotive-mclaren-f1"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c9-76bb-ad2c-683c3b8a1047",
+      "subject": "atlas:event:mclaren-f1-realised-as-road-car",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "McLaren F1 realised as road car é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1992. A documentação registra participação de McLaren F1. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:mclaren-f1-realised-as-road-car",
+  "legacy": {
+    "id": "01a010d9-28c9-78f2-b35e-90217575b50d",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c9-76bb-ad2c-683c3b8a1047",
+      "01a010d9-28c9-78d4-bd73-d89546dff64f"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_debut",
+    "realization_status": "occurred"
+  },
+  "name": "McLaren F1 realised as road car",
+  "names": [],
+  "type": "Event"
+}

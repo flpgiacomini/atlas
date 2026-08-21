@@ -1,0 +1,70 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e77188a5843c0b07cdae03"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e770d9a5628a000936ba78",
+      "legacyId": "01a0102a-57e7-70d9-a562-8a000936ba78",
+      "object": {
+        "id": "atlas:vehicle:peugeot-type-1",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-7112-90e0-dcf171223391",
+      "subject": "atlas:vehicle:peugeot-type-2",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e87521abf3e1bc474b9516"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e87d4b83fb24b9f5b82faf",
+      "legacyId": "01a0102a-57e8-7d4b-83fb-24b9f5b82faf",
+      "object": {
+        "id": "atlas:vehicle:peugeot-type-1",
+        "type": "EntityReference"
+      },
+      "predicate": "derived-from",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:stellantis-peugeot-aventure-peugeot-at-epoqu-auto"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e7-7112-90e0-dcf171223391",
+      "subject": "atlas:vehicle:peugeot-type-2",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Peugeot Type 2 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra derivação de Peugeot Type 1. Também aparece na relação de sucessão de associada a Peugeot Type 3. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:peugeot-type-2",
+  "legacy": {
+    "id": "01a0102a-57e7-72af-aff7-faa78d8ea08c",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e7-7112-90e0-dcf171223391",
+      "01a0102a-57e8-7133-8bf8-df96cf77852c"
+    ],
+    "editorial_batch": "E11",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Peugeot Type 2",
+  "names": [],
+  "type": "Vehicle"
+}

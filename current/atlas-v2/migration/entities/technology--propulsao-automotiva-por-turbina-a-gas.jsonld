@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Aplicação experimental de turbinas a gás à propulsão de veículos rodoviários. A General Motors investigou essa alternativa durante décadas; os Firebird I, II e III materializaram diferentes estágios públicos do programa, sem que a solução alcançasse produção comercial de automóveis de passageiros.",
+  "id": "atlas:technology:propulsao-automotiva-por-turbina-a-gas",
+  "legacy": {
+    "id": "fd1c43f3-f11f-7ab7-8750-57672337ec40",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V03",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Propulsão automotiva por turbina a gás",
+  "names": [],
+  "type": "Technology"
+}

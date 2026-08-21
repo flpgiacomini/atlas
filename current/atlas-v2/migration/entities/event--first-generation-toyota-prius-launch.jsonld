@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544f7b46a5e487e541e5e360"
+      ],
+      "id": "atlas:claim:legacy-01a01028544f711dabd1fea46b9a39ea",
+      "legacyId": "01a01028-544f-711d-abd1-fea46b9a39ea",
+      "object": {
+        "id": "atlas:vehicle:toyota-prius-first-generation",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-the-evolution-of-the-prius"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544f-711c-b41c-f5fd30e39aca",
+      "subject": "atlas:event:first-generation-toyota-prius-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028544f7c419f353e79197a79df"
+      ],
+      "id": "atlas:claim:legacy-01a01028544f7c979ac16ac299566ff6",
+      "legacyId": "01a01028-544f-7c97-9ac1-6ac299566ff6",
+      "object": {
+        "precision": "month",
+        "type": "date",
+        "value": "1997-10"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-the-evolution-of-the-prius"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-544f-7eed-a1fc-8949c6e2f4b1",
+      "subject": "atlas:event:first-generation-toyota-prius-launch",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "First-generation Toyota Prius launch é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Toyota Prius — First Generation. A documentação registra ocorrência em 1997-10. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:first-generation-toyota-prius-launch",
+  "legacy": {
+    "id": "01a01028-544e-748a-8c0a-0f953a9b9807",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-544f-711c-b41c-f5fd30e39aca",
+      "01a01028-544f-7eed-a1fc-8949c6e2f4b1"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "launch",
+    "realization_status": "occurred"
+  },
+  "name": "First-generation Toyota Prius launch",
+  "names": [],
+  "type": "Event"
+}

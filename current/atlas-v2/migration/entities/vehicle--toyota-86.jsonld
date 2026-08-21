@@ -1,0 +1,138 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854597650b5daa31e888d8538"
+      ],
+      "id": "atlas:claim:legacy-01a01028545973058f96dba74bd951ea",
+      "legacyId": "01a01028-5459-7305-8f96-dba74bd951ea",
+      "object": {
+        "id": "atlas:organization:subaru-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-on-new-business-and-capital-alliance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-7c3e-ab38-ed6cfb32c74c",
+      "subject": "atlas:vehicle:toyota-86",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854597b5da71a1bd12d7ae6b4"
+      ],
+      "id": "atlas:claim:legacy-01a0102854597647a35375ab5001b26f",
+      "legacyId": "01a01028-5459-7647-a353-75ab5001b26f",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation-86-brz-collaboration",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-on-new-business-and-capital-alliance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-775e-94db-4912d9557f5f",
+      "subject": "atlas:vehicle:toyota-86",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854597ce8a060a4dce22b6e7f"
+      ],
+      "id": "atlas:claim:legacy-01a010285459795d9f5e27e387f75488",
+      "legacyId": "01a01028-5459-795d-9f5e-27e387f75488",
+      "object": {
+        "id": "atlas:organization:subaru-corporation",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-to-jointly-develop-bev-dedicated-platform-and-model"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-7c3e-ab38-ed6cfb32c74c",
+      "subject": "atlas:vehicle:toyota-86",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545979368d76e7801cb6360f"
+      ],
+      "id": "atlas:claim:legacy-01a010285459799e9cbe82b65f879689",
+      "legacyId": "01a01028-5459-799e-9cbe-82b65f879689",
+      "object": {
+        "id": "atlas:organization:toyota-motor-corporation-86-brz-collaboration",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-to-jointly-develop-bev-dedicated-platform-and-model"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5459-775e-94db-4912d9557f5f",
+      "subject": "atlas:vehicle:toyota-86",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545a795c9d5a7944c0b92d40"
+      ],
+      "id": "atlas:claim:legacy-01a01028545a77ed9960f2df7c503430",
+      "legacyId": "01a01028-545a-77ed-9960-f2df7c503430",
+      "object": {
+        "id": "atlas:vehicle:subaru-brz",
+        "type": "EntityReference"
+      },
+      "predicate": "shares-platform-with",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:toyota-motor-corporation-toyota-and-subaru-agree-on-new-business-and-capital-alliance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-545a-72f6-824b-374a77d0227b",
+      "subject": "atlas:vehicle:toyota-86",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Toyota 86 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra desenvolvimento por Toyota Motor Corporation — 86/BRZ collaboration. A documentação registra desenvolvimento por Subaru Corporation. Também aparece na relação de participação de associada a Toyota 86 and Subaru BRZ sales start. A documentação registra plataforma compartilhada com Subaru BRZ. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:toyota-86",
+  "legacy": {
+    "id": "01a01028-5459-7dd9-a0d5-a9cd1065d870",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5459-775e-94db-4912d9557f5f",
+      "01a01028-5459-7c3e-ab38-ed6cfb32c74c",
+      "01a01028-545a-7118-aedf-02d0a1727ebf",
+      "01a01028-545a-72f6-824b-374a77d0227b"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Toyota 86",
+  "names": [],
+  "type": "Vehicle"
+}

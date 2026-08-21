@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Yangwang, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f8d25d7e-2f70-7ccb-bc1c-630f1dd9573f",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Yangwang"
+    }
+  ],
+  "id": "atlas:brand:yangwang",
+  "legacy": {
+    "id": "209f3cdb-19d0-7426-9773-3632377ffbbf",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Yangwang",
+  "names": [],
+  "type": "Brand"
+}

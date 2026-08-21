@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Deepal, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "865d5b8a-bee5-72f4-b072-a7a70a5c60ae",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Deepal"
+    }
+  ],
+  "id": "atlas:brand:deepal",
+  "legacy": {
+    "id": "4e64cbff-927b-770b-90e0-f50eb674b62a",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Deepal",
+  "names": [],
+  "type": "Brand"
+}

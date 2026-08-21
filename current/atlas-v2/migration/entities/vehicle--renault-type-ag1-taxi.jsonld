@@ -1,0 +1,48 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-01a01031ec5a7f06a075eed4d032e381"
+      ],
+      "id": "atlas:claim:legacy-01a01031ec5a73faae68504adcdbf0f9",
+      "legacyId": "01a01031-ec5a-73fa-ae68-504adcdbf0f9",
+      "object": {
+        "id": "atlas:organization:renault-freres",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:renault-group-autoworld-fete-les-120-ans-de-renault"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01031-ec5a-7569-82b7-198378d26a15",
+      "subject": "atlas:vehicle:renault-type-ag1-taxi",
+      "supportStrength": "strong",
+      "type": "Claim"
+    }
+  ],
+  "description": "Renault Type AG1 taxi é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Renault Frères. Também aparece na relação de participação de associada a Renault 'Taxis de la Marne' wartime mobilization. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:renault-type-ag1-taxi",
+  "legacy": {
+    "id": "01a01031-ec5a-7b84-a0a9-8961713832b6",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01031-ec5a-7569-82b7-198378d26a15",
+      "01a01031-ec5a-7eac-ad34-15dd9711f3d1"
+    ],
+    "editorial_batch": "E12",
+    "editorial_level": "editorial",
+    "vehicle_kind": "commercial",
+    "vehicle_level": "variant"
+  },
+  "name": "Renault Type AG1 taxi",
+  "names": [],
+  "type": "Vehicle"
+}

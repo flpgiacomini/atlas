@@ -1,0 +1,94 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c57acb94c4344c6b6abea4"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c571a4b3d26ebf05280508",
+      "legacyId": "01a010d9-28c5-71a4-b3d2-6ebf05280508",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1948"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:land-rover-land-rover-s-70th-anniversary-begins-with-restoration-of-missing-original-4x4"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-79a5-b348-80f5cb05537e",
+      "subject": "atlas:event:land-rover-series-i-launch-at-amsterdam-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010d928c5770683ae0ae277fb2c4b"
+      ],
+      "id": "atlas:claim:legacy-01a010d928c573edb884343fd3cf8c6e",
+      "legacyId": "01a010d9-28c5-73ed-b884-343fd3cf8c6e",
+      "object": {
+        "id": "atlas:vehicle:land-rover-series-i",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:land-rover-land-rover-s-70th-anniversary-begins-with-restoration-of-missing-original-4x4"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-7feb-b96e-dd6045aeef66",
+      "subject": "atlas:event:land-rover-series-i-launch-at-amsterdam-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-2c1b77f3c8b27910b839cd2d8d39e636"
+      ],
+      "id": "atlas:claim:legacy-1fa90cf824047a60aab1e8cd45a78ce5",
+      "legacyId": "1fa90cf8-2404-7a60-aab1-e8cd45a78ce5",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:vehicle-instance:land-rover-pre-production-hue-166",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:land-rover-land-rover-s-70th-anniversary-begins-with-restoration-of-missing-original-4x4"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "03fbbcb0-64f9-78f7-81b1-3e76956347ee",
+      "subject": "atlas:event:land-rover-series-i-launch-at-amsterdam-motor-show",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Land Rover Series I launch at Amsterdam Motor Show é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1948. A documentação registra participação de Land Rover Series I. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:land-rover-series-i-launch-at-amsterdam-motor-show",
+  "legacy": {
+    "id": "01a010d9-28c4-7d45-b8cf-ff3eff00a4ee",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a010d9-28c5-79a5-b348-80f5cb05537e",
+      "01a010d9-28c5-7feb-b96e-dd6045aeef66"
+    ],
+    "editorial_batch": "E17",
+    "editorial_level": "editorial",
+    "event_type": "presentation",
+    "realization_status": "occurred"
+  },
+  "name": "Land Rover Series I launch at Amsterdam Motor Show",
+  "names": [],
+  "type": "Event"
+}

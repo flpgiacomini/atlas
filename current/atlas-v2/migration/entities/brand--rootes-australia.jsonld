@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Rootes Australia, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b2943179-44f5-76fc-92b0-e3530fb01edd",
+      "scheme": "atlas-brand-census",
+      "value": "M12:Rootes Australia"
+    }
+  ],
+  "id": "atlas:brand:rootes-australia",
+  "legacy": {
+    "id": "ff3c4b26-cc0a-70c0-9161-4abf23357290",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Oceania e África",
+    "relevance_score": 35,
+    "wave": "M12"
+  },
+  "name": "Rootes Australia",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ed7c6fa9114492d6bc8c30"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ed71fb87203c03460c644b",
+      "legacyId": "01a0102a-57ed-71fb-8720-3c03460c644b",
+      "object": {
+        "id": "atlas:technology:moving-assembly-line-ford-highland-park",
+        "type": "EntityReference"
+      },
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-moving-assembly-line-and-the-five-dollar-workday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ed-70c2-8d2c-65911034e8ee",
+      "subject": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ed7e61b1180cbac0db65b7"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ed76e69e4e2f764229635d",
+      "legacyId": "01a0102a-57ed-76e6-9e4e-2f764229635d",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1913"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-moving-assembly-line-and-the-five-dollar-workday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ed-7ace-be8f-33c62c32b039",
+      "subject": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57ed7dbfb188aa379666740d"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57ed7d18a0eecaf82b7b76fb",
+      "legacyId": "01a0102a-57ed-7d18-a0ee-caf82b7b76fb",
+      "object": {
+        "id": "atlas:vehicle:ford-model-t",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "vehicle_produced_on_line"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:ford-motor-company-the-moving-assembly-line-and-the-five-dollar-workday"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57ed-7da9-94ad-5369e9722fd9",
+      "subject": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ford moving assembly line adopted at Highland Park é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra introdução do recurso Moving assembly line — Ford Highland Park. A documentação registra ocorrência em 1913. A documentação registra participação de Ford Model T. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
+  "legacy": {
+    "id": "01a0102a-57ed-717d-b19b-5f8c51729303",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57ed-70c2-8d2c-65911034e8ee",
+      "01a0102a-57ed-7ace-be8f-33c62c32b039",
+      "01a0102a-57ed-7da9-94ad-5369e9722fd9"
+    ],
+    "editorial_batch": "E16",
+    "editorial_level": "editorial",
+    "event_type": "technology_introduction",
+    "realization_status": "occurred"
+  },
+  "name": "Ford moving assembly line adopted at Highland Park",
+  "names": [],
+  "type": "Event"
+}

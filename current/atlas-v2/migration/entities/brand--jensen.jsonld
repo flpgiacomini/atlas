@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Jensen, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "a8359da0-8125-728a-a4e3-31e085f3dd64",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Jensen"
+    }
+  ],
+  "id": "atlas:brand:jensen",
+  "legacy": {
+    "id": "4ebc4a54-a565-74e2-8710-cfd33b0249ac",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Jensen",
+  "names": [],
+  "type": "Brand"
+}

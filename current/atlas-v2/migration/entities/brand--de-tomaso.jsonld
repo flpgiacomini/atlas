@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de De Tomaso, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "b5966e29-668f-7cd0-a574-828a5bd3e09a",
+      "scheme": "atlas-brand-census",
+      "value": "M04:De Tomaso"
+    }
+  ],
+  "id": "atlas:brand:de-tomaso",
+  "legacy": {
+    "id": "daf3612d-a486-7034-b8bc-edd390f21d34",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "De Tomaso",
+  "names": [],
+  "type": "Brand"
+}

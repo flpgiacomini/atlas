@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Panther, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "febfdf55-8959-76fe-855a-5554b95d2478",
+      "scheme": "atlas-brand-census",
+      "value": "M05:Panther"
+    }
+  ],
+  "id": "atlas:brand:panther",
+  "legacy": {
+    "id": "770f9ea4-40ff-73aa-a0e5-0d88918d5bc9",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Reino Unido",
+    "relevance_score": 35,
+    "wave": "M05"
+  },
+  "name": "Panther",
+  "names": [],
+  "type": "Brand"
+}

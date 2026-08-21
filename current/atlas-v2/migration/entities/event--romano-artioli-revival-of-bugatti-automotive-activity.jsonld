@@ -1,0 +1,145 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854577af1bf209437652250ef"
+      ],
+      "id": "atlas:claim:legacy-01a01028545776429d48b79ebbc23e18",
+      "legacyId": "01a01028-5457-7642-9d48-b79ebbc23e18",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1987"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-75ed-99a2-c5bfe7153589",
+      "subject": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854577bd9aa8439323d100ee1"
+      ],
+      "id": "atlas:claim:legacy-01a0102854577f7392c4cd92594b9337",
+      "legacyId": "01a01028-5457-7f73-92c4-cd92594b9337",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1987"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-romano-artioli-at-90-a-visionary-and-bugatti-savior"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-75ed-99a2-c5bfe7153589",
+      "subject": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854587486b58b4c4d3df5075d"
+      ],
+      "id": "atlas:claim:legacy-01a010285458713994144bb5d4225fb4",
+      "legacyId": "01a01028-5458-7139-9414-4bb5d4225fb4",
+      "object": {
+        "id": "atlas:person:romano-artioli",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "revival_leader"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-romano-artioli-at-90-a-visionary-and-bugatti-savior"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-718a-a043-d9de639ceadb",
+      "subject": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854587426aef4b191ab3ba0da"
+      ],
+      "id": "atlas:claim:legacy-01a010285458747bbee2587901aadcd0",
+      "legacyId": "01a01028-5458-747b-bee2-587901aadcd0",
+      "object": {
+        "id": "atlas:brand:bugatti",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-7949-a8f9-5d54402e723e",
+      "subject": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854587611b4291d603ca7c3a7"
+      ],
+      "id": "atlas:claim:legacy-01a0102854587b94b1198dc7b2930561",
+      "legacyId": "01a01028-5458-7b94-b119-8dc7b2930561",
+      "object": {
+        "id": "atlas:person:romano-artioli",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "qualifiers": {
+        "role": "revival_leader"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5458-718a-a043-d9de639ceadb",
+      "subject": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Romano Artioli revival of Bugatti automotive activity é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra ocorrência em 1987. A documentação registra participação de Romano Artioli. A documentação registra participação de Bugatti. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+  "legacy": {
+    "id": "01a01028-5456-7995-9f7e-f62849d921c2",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5457-75ed-99a2-c5bfe7153589",
+      "01a01028-5458-718a-a043-d9de639ceadb",
+      "01a01028-5458-7949-a8f9-5d54402e723e"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "brand_revival",
+    "realization_status": "occurred"
+  },
+  "name": "Romano Artioli revival of Bugatti automotive activity",
+  "names": [],
+  "type": "Event"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Changan, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "1fa01444-cc8e-73fa-812f-c1d5929fda42",
+      "scheme": "atlas-brand-census",
+      "value": "M07:Changan"
+    }
+  ],
+  "id": "atlas:brand:changan",
+  "legacy": {
+    "id": "2a2fb4b6-e2b3-75f6-a058-1a3dffd3a81f",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Coreia China Taiwan",
+    "relevance_score": 35,
+    "wave": "M07"
+  },
+  "name": "Changan",
+  "names": [],
+  "type": "Brand"
+}

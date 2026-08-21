@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Schlörwagen (1939), selecionado pelo Atlas por sua possível contribuição histórica em TEC, DES. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "ecb634c1-ff90-7a30-bb35-36d04711b5f5",
+      "scheme": "atlas-significance-candidate",
+      "value": "prototype:1939:Schlörwagen"
+    }
+  ],
+  "id": "atlas:vehicle:schlorwagen",
+  "legacy": {
+    "id": "5e36e5a4-f8dc-7523-b795-1129725b31f5",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Schlör",
+    "candidate_kind": "prototype",
+    "candidate_year": 1939,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "DES"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 60
+  },
+  "name": "Schlörwagen",
+  "names": [],
+  "type": "Vehicle"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Solução experimental que substitui ou complementa teto e portas convencionais por uma cobertura transparente móvel. No Cadillac Cyclone, a bolha retrátil reforçava tanto a visibilidade panorâmica quanto a linguagem aeroespacial do concept car.",
+  "id": "atlas:technology:canopy-retratil-automotivo",
+  "legacy": {
+    "id": "cfa9e11f-5d22-78c8-9a56-70ecb7fc4c8e",
+    "slug": null,
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "V05",
+    "editorial_level": "editorial",
+    "technology_category": "body and access"
+  },
+  "name": "Canopy retrátil automotivo",
+  "names": [],
+  "type": "Technology"
+}

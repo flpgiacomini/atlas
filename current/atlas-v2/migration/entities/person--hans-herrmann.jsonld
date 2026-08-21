@@ -1,0 +1,26 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Hans Herrmann é registrado no Atlas como pessoa, dentro da história global do automóvel. Também aparece na relação de condução por associada a 1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann. Também aparece na relação de colaboração com associada a Richard Attwood. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:person:hans-herrmann",
+  "legacy": {
+    "id": "01a01016-ea4e-7290-91db-c64d4bd07c58",
+    "slug": "hans-herrmann",
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea53-74dd-8a35-f17a98b0654f",
+      "a56ee3f1-026b-765e-9e23-dcd73d1e6aec"
+    ],
+    "editorial_batch": "E04",
+    "editorial_level": "editorial",
+    "roles": [
+      "driver"
+    ]
+  },
+  "name": "Hans Herrmann",
+  "names": [],
+  "type": "Person"
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Aplicação de motores a vapor a veículos que se deslocam por vias públicas, em contraste com usos estacionários e ferroviários. A tecnologia formou uma trajetória própria, condicionada por massa, água, pressão, infraestrutura, operação e regulação durante o século XIX.",
+  "id": "atlas:technology:propulsao-rodoviaria-a-vapor",
+  "legacy": {
+    "id": "61ed2ec5-a6f8-7054-8777-ed25e197c2d1",
+    "slug": "propulsao-rodoviaria-a-vapor",
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "F01",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Propulsão rodoviária a vapor",
+  "names": [],
+  "type": "Technology"
+}

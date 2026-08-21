@@ -1,0 +1,100 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-9d59968e5d9f7fc099aaa8383f88f66a"
+      ],
+      "id": "atlas:claim:legacy-20fd4eaeb6d676198c0b74f47242fcfc",
+      "legacyId": "20fd4eae-b6d6-7619-8c0b-74f47242fcfc",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "based-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "856f7f27-f3a1-79f7-8b94-00bf4281af89",
+      "subject": "atlas:technology:ciclo-de-dois-tempos",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "medium",
+      "evidence": [
+        "atlas:evidence:legacy-3fb21db40d0576438560414c0b019187"
+      ],
+      "id": "atlas:claim:legacy-2baae68956737e67847aad29e855a4fc",
+      "legacyId": "2baae689-5673-7e67-847a-ad29e855a4fc",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1878"
+      },
+      "predicate": "occurred-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b77f5d1c-89e1-7b2b-b967-85cf16c16889",
+      "subject": "atlas:technology:ciclo-de-dois-tempos",
+      "supportStrength": "strong",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-bc143a27fb4c76129ddc26b1593b8b00"
+      ],
+      "id": "atlas:claim:legacy-89b7b896bfd0752b92cf79957058a3ca",
+      "legacyId": "89b7b896-bfd0-752b-92cf-79957058a3ca",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "id": "atlas:person:dugald-clerk",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e049624d-6782-7429-889f-79721ab26cce",
+      "subject": "atlas:technology:ciclo-de-dois-tempos",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Ciclo de motor que completa sua sequência operacional em duas movimentações do pistão. Desenvolvido em formas práticas no século XIX, constituiu uma alternativa tecnológica relevante, ainda que suas aplicações automotivas posteriores tenham seguido trajetória própria.",
+  "id": "atlas:technology:ciclo-de-dois-tempos",
+  "legacy": {
+    "id": "7ee1a733-dadb-77cc-8e6b-ce7eb1b3936c",
+    "slug": "ciclo-de-dois-tempos",
+    "type": "technology"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "technology_category": "propulsion"
+  },
+  "name": "Ciclo de dois tempos",
+  "names": [],
+  "type": "Technology"
+}

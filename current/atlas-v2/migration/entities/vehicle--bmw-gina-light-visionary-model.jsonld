@@ -1,0 +1,36 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de BMW GINA Light Visionary Model (2008), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "72052152-6bde-7cba-896e-b8424c1c9310",
+      "scheme": "atlas-significance-candidate",
+      "value": "concept:2008:BMW GINA Light Visionary Model"
+    }
+  ],
+  "id": "atlas:vehicle:bmw-gina-light-visionary-model",
+  "legacy": {
+    "id": "e1641212-303d-700a-8cfa-8a6e6c90540a",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "BMW",
+    "candidate_kind": "concept",
+    "candidate_year": 2008,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "DES",
+      "TEC"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 60
+  },
+  "name": "BMW GINA Light Visionary Model",
+  "names": [],
+  "type": "Vehicle"
+}

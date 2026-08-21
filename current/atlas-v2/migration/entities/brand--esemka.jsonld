@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Esemka, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "c8d04cea-3d30-7aa4-9228-12eca01b9a70",
+      "scheme": "atlas-brand-census",
+      "value": "M08:Esemka"
+    }
+  ],
+  "id": "atlas:brand:esemka",
+  "legacy": {
+    "id": "72317cfc-4cff-7828-bf88-9b6168d9b80c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Índia Sudeste Asiático Oriente Médio",
+    "relevance_score": 35,
+    "wave": "M08"
+  },
+  "name": "Esemka",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547b3fb2aea9d84d9bdb43"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577384a9e87f258009e1ab",
+      "legacyId": "01a01016-ea57-7384-a9e8-7f258009e1ab",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1988"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-74e3-9f47-03cd111568ed",
+      "subject": "atlas:event:start-of-br-800-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea547fb2be97a972db027c81"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea577643aa57e4114091c4d7",
+      "legacyId": "01a01016-ea57-7643-aa57-e4114091c4d7",
+      "object": {
+        "id": "atlas:vehicle:gurgel-br-800",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea50-7038-bdc9-86210dbc02c1",
+      "subject": "atlas:event:start-of-br-800-production",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Start of BR-800 production é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Gurgel BR-800. A documentação registra ocorrência em 1988. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:start-of-br-800-production",
+  "legacy": {
+    "id": "01a01016-ea4c-7569-9ec4-1eb11e3f3151",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea50-7038-bdc9-86210dbc02c1",
+      "01a01016-ea50-74e3-9f47-03cd111568ed"
+    ],
+    "editorial_batch": "E18",
+    "editorial_level": "editorial",
+    "event_type": "production_start",
+    "realization_status": "occurred"
+  },
+  "name": "Start of BR-800 production",
+  "names": [],
+  "type": "Event"
+}

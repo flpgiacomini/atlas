@@ -1,0 +1,71 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e6741491736d354a6e8d3e"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e674b4a4efa8401432cafe",
+      "legacyId": "01a0102a-57e6-74b4-a4ef-a8401432cafe",
+      "object": {
+        "id": "atlas:vehicle:daimler-motorized-carriage-1886",
+        "type": "EntityReference"
+      },
+      "predicate": "involved",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-daimler-receives-carriage-to-be-fitted-with-his-high-speed-engine"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e6-7032-b08c-7842b84d0133",
+      "subject": "atlas:event:daimler-motorized-carriage-completed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102a57e679d5a7012cd25f45eab5"
+      ],
+      "id": "atlas:claim:legacy-01a0102a57e67d8d9073af849fbdfb18",
+      "legacyId": "01a0102a-57e6-7d8d-9073-af849fbdfb18",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1886-08-28"
+      },
+      "predicate": "occurred-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:mercedes-benz-public-archive-daimler-receives-carriage-to-be-fitted-with-his-high-speed-engine"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a0102a-57e6-70cc-83e7-0378613df35f",
+      "subject": "atlas:event:daimler-motorized-carriage-completed",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Daimler Motorized Carriage completed é registrado no Atlas como evento histórico, dentro da história global do automóvel. A documentação registra participação de Daimler Motorized Carriage (1886). A documentação registra ocorrência em 1886-08-28. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:event:daimler-motorized-carriage-completed",
+  "legacy": {
+    "id": "01a0102a-57e6-7bae-9eec-9b525b9dea1b",
+    "slug": null,
+    "type": "event"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57e6-7032-b08c-7842b84d0133",
+      "01a0102a-57e6-70cc-83e7-0378613df35f"
+    ],
+    "editorial_batch": "E15",
+    "editorial_level": "editorial",
+    "event_type": "vehicle_completion",
+    "realization_status": "occurred"
+  },
+  "name": "Daimler Motorized Carriage completed",
+  "names": [],
+  "type": "Event"
+}

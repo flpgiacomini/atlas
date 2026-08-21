@@ -1,0 +1,24 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Targa fixed rollover bar concept é registrado no Atlas como tecnologia, dentro da história global do automóvel. Também aparece na relação de uso da tecnologia associada a Porsche 911 Targa (original generation). Também aparece na relação de introdução do recurso associada a Presentation of first Porsche 911 Targa. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:technology:targa-fixed-rollover-bar-concept",
+  "legacy": {
+    "id": "01a01016-ea4d-7a26-8bc4-132ba83497c5",
+    "slug": "targa-rollover-bar",
+    "type": "technology"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea51-7210-a743-34207e53c1ae",
+      "01a01016-ea52-71cb-a742-5a7b5af44507"
+    ],
+    "editorial_batch": "E13",
+    "editorial_level": "editorial",
+    "technology_category": "safety"
+  },
+  "name": "Targa fixed rollover bar concept",
+  "names": [],
+  "type": "Technology"
+}

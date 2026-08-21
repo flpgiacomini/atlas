@@ -1,0 +1,136 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-da046b95a44f72f1ba5b7b46e3d2151c"
+      ],
+      "id": "atlas:claim:legacy-311a3f9c093b7c72bdf31961be04b4b5",
+      "legacyId": "311a3f9c-093b-7c72-bdf3-1961be04b4b5",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "worked-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-henry-ford-biography"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "5cdd43dd-4fa9-7bab-b496-85a1eacc985d",
+      "subject": "atlas:person:henry-ford",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1903-06-16",
+        "precision": "day",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-efb8ec55e50179b78738e33bd77a37b3"
+      ],
+      "id": "atlas:claim:legacy-3499897553b07d58925ad20c7cfb76c8",
+      "legacyId": "34998975-53b0-7d58-925a-d20c7cfb76c8",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1863-07-30"
+      },
+      "predicate": "born-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-henry-ford-biography"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "39abcb1e-f078-7660-83c7-9ea2205dbf9b",
+      "subject": "atlas:person:henry-ford",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-b148416c61cd7a798f8ee3b70e424d66"
+      ],
+      "id": "atlas:claim:legacy-de5dc89f1e017c21840b10836f7da29c",
+      "legacyId": "de5dc89f-1e01-7c21-840b-10836f7da29c",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "precision": "day",
+        "type": "date",
+        "value": "1947-04-07"
+      },
+      "predicate": "died-on",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-henry-ford-biography"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "4693fed1-f575-74f2-a6db-17d9d137fd6f",
+      "subject": "atlas:person:henry-ford",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-ea3a55609c5675c2ae7679e95203f77c"
+      ],
+      "id": "atlas:claim:legacy-e32aabe2527374fdbb1bf4011b911825",
+      "legacyId": "e32aabe2-5273-74fd-bb1b-f4011b911825",
+      "note": "Afirmação biográfica documentada pela fonte institucional indicada.",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "led",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-henry-ford-biography"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "ab0641c6-2f6c-7343-bd47-75efac25bfb2",
+      "subject": "atlas:person:henry-ford",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1903-06-16",
+        "precision": "day",
+        "until": null
+      }
+    }
+  ],
+  "description": "Engenheiro e industrial norte-americano que construiu o Quadricycle em 1896 e fundou a Ford Motor Company em 1903. Tornou-se figura decisiva na transformação do automóvel em produto de grande escala e no desenvolvimento da indústria moderna.",
+  "id": "atlas:person:henry-ford",
+  "legacy": {
+    "id": "01a0102a-57eb-71e8-9acf-f52ed60ec5d4",
+    "slug": null,
+    "type": "person"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a0102a-57eb-744c-a91b-2bebd27ef9ba",
+      "39abcb1e-f078-7660-83c7-9ea2205dbf9b",
+      "4693fed1-f575-74f2-a6db-17d9d137fd6f",
+      "5cdd43dd-4fa9-7bab-b496-85a1eacc985d",
+      "ab0641c6-2f6c-7343-bd47-75efac25bfb2"
+    ],
+    "editorial_batch": "E01",
+    "editorial_level": "editorial",
+    "roles": [
+      "founder",
+      "engineer",
+      "entrepreneur"
+    ]
+  },
+  "name": "Henry Ford",
+  "names": [],
+  "type": "Person"
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-7ff32d662a9779e6b1575664fc93babf"
+      ],
+      "id": "atlas:claim:legacy-bd44a043475472309e459c579d18fb6d",
+      "legacyId": "bd44a043-4754-7230-9e45-9c579d18fb6d",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1932"
+      },
+      "predicate": "died-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "facfc530-f7a6-7813-9900-bea7751dbcd1",
+      "subject": "atlas:person:dugald-clerk",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-0d582f95682174c7a4ec4a7459c5a72a"
+      ],
+      "id": "atlas:claim:legacy-d815fcc140567bada2459a99143537d0",
+      "legacyId": "d815fcc1-4056-7bad-a245-9a99143537d0",
+      "note": "Registro do lote F01-F03; datas, função do veículo e reivindicações de prioridade são mantidas separadas.",
+      "object": {
+        "precision": "year",
+        "type": "date",
+        "value": "1854"
+      },
+      "predicate": "born-on",
+      "qualifiers": {
+        "editorial_batch": "F01-F03"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:encyclopaedia-britannica-history-of-the-automobile"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "c5ec8031-5d3c-711b-9283-4216f64ca5cd",
+      "subject": "atlas:person:dugald-clerk",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Engenheiro escocês associado ao desenvolvimento de um motor funcional de dois tempos no final da década de 1870. Sua presença amplia o Atlas para além da genealogia do ciclo Otto e mostra alternativas técnicas contemporâneas.",
+  "id": "atlas:person:dugald-clerk",
+  "legacy": {
+    "id": "35b0cd73-bdf0-74b5-b8b9-7be9288615f8",
+    "slug": "dugald-clerk",
+    "type": "person"
+  },
+  "metadata": {
+    "editorial_batch": "F03",
+    "editorial_level": "editorial",
+    "roles": [
+      "engineer",
+      "inventor"
+    ]
+  },
+  "name": "Dugald Clerk",
+  "names": [],
+  "type": "Person"
+}

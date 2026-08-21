@@ -1,0 +1,37 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Volkswagen 1-Litre Car (2002), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "externalIds": [
+    {
+      "id": "8579a023-ced8-7907-83d5-4cd12cc08cd0",
+      "scheme": "atlas-significance-candidate",
+      "value": "prototype:2002:Volkswagen 1-Litre Car"
+    }
+  ],
+  "id": "atlas:vehicle:volkswagen-1-litre-car",
+  "legacy": {
+    "id": "cba36cd2-1707-7a0d-9945-a4d96e023ff4",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "associated_brand": "Volkswagen",
+    "candidate_kind": "prototype",
+    "candidate_year": 2002,
+    "catalog_source": "atlas-significance-candidates",
+    "contribution_tracks": [
+      "TEC",
+      "SEG",
+      "GEN"
+    ],
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "priority_editorial",
+    "relevance_score": 70
+  },
+  "name": "Volkswagen 1-Litre Car",
+  "names": [],
+  "type": "Vehicle"
+}

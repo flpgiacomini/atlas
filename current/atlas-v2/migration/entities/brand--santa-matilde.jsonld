@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Santa Matilde, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "f0ae4227-2a83-7167-89f5-79d5e04a9831",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Santa Matilde"
+    }
+  ],
+  "id": "atlas:brand:santa-matilde",
+  "legacy": {
+    "id": "26cb46db-2c2e-7176-bd7a-9ee7c704019c",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Santa Matilde",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Morris, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "ad43f43d-3cdc-7483-b161-d20bfeca5858",
+      "scheme": "atlas-brand-census",
+      "value": "M02:Morris"
+    }
+  ],
+  "id": "atlas:brand:morris",
+  "legacy": {
+    "id": "ad91fe9b-3718-7aac-ba95-50c45c76a113",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Europa 1919-1945",
+    "relevance_score": 35,
+    "wave": "M02"
+  },
+  "name": "Morris",
+  "names": [],
+  "type": "Brand"
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Tac Motors, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "942c9645-dad3-7dc1-9eea-10b7fc90851c",
+      "scheme": "atlas-brand-census",
+      "value": "M11:Tac Motors"
+    }
+  ],
+  "id": "atlas:brand:tac-motors",
+  "legacy": {
+    "id": "85d7828e-4ec1-7268-a7eb-731109734a78",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "América Latina",
+    "relevance_score": 35,
+    "wave": "M11"
+  },
+  "name": "Tac Motors",
+  "names": [],
+  "type": "Brand"
+}

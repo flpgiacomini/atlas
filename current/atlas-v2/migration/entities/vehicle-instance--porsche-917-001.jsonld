@@ -1,0 +1,54 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01016ea5670a3a89062c273cc3430"
+      ],
+      "id": "atlas:claim:legacy-01a01016ea5979188f9bb4518e6c8ed2",
+      "legacyId": "01a01016-ea59-7918-8f9b-b4518e6c8ed2",
+      "object": {
+        "id": "atlas:vehicle:porsche-917",
+        "type": "EntityReference"
+      },
+      "predicate": "instance-of",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:porsche-ag-the-trailblazer-returns"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01016-ea52-789e-ab0b-b0a16e010555",
+      "subject": "atlas:vehicle-instance:porsche-917-001",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Porsche 917-001 é registrado no Atlas como exemplar físico de veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Completion of Porsche 917-001. A documentação registra instância de Porsche 917. Também aparece na relação de participação de associada a Geneva presentation of Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle-instance:porsche-917-001",
+  "legacy": {
+    "id": "01a01016-ea4e-747b-9ba4-e560d648e4ef",
+    "slug": "porsche-917-001",
+    "type": "vehicle_instance"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01016-ea52-754b-b1e3-9a97eae557e2",
+      "01a01016-ea52-789e-ab0b-b0a16e010555",
+      "01a01016-ea53-7076-b99c-e89877fdaa74"
+    ],
+    "editorial_batch": "E21",
+    "editorial_level": "editorial",
+    "instance_status": "existing",
+    "serial_identifiers": [
+      {
+        "type": "chassis",
+        "value": "917-001"
+      }
+    ]
+  },
+  "name": "Porsche 917-001",
+  "names": [],
+  "type": "VehicleInstance"
+}

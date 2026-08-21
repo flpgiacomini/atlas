@@ -1,0 +1,32 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [],
+  "description": "Registro catalográfico de Maserati, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "externalIds": [
+    {
+      "id": "69683cfa-3b80-75b6-b224-ddd6c95c261c",
+      "scheme": "atlas-brand-census",
+      "value": "M04:Maserati"
+    }
+  ],
+  "id": "atlas:brand:maserati",
+  "legacy": {
+    "id": "55952030-c3ee-7407-9cd3-51a580a4492e",
+    "slug": null,
+    "type": "brand"
+  },
+  "metadata": {
+    "brand_status": "em pesquisa",
+    "catalog_source": "atlas-brand-census",
+    "editorial_batch": "MASS01",
+    "editorial_level": "catalog",
+    "promotion_state": "queued",
+    "region_cluster": "Itália esportiva e artesanal",
+    "relevance_score": 35,
+    "wave": "M04"
+  },
+  "name": "Maserati",
+  "names": [],
+  "type": "Brand"
+}

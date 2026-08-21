@@ -1,0 +1,97 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0103033167873bfad574b13ae530a"
+      ],
+      "id": "atlas:claim:legacy-01a01030331678e599da496bb5384339",
+      "legacyId": "01a01030-3316-78e5-99da-496bb5384339",
+      "object": {
+        "id": "atlas:organization:lancia-c",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3316-7066-93dd-a9db716ee0be",
+      "subject": "atlas:vehicle:lancia-12-hp",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01030331671dab97c71e641f68a68"
+      ],
+      "id": "atlas:claim:legacy-01a0103033167d30995a4c0a88389f4a",
+      "legacyId": "01a01030-3316-7d30-995a-4c0a88389f4a",
+      "object": {
+        "id": "atlas:brand:lancia",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-luca-napolitano-celebrates-lancia-s-115th-anniversary"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3316-7652-a77e-dafdb5f2bd45",
+      "subject": "atlas:vehicle:lancia-12-hp",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a010303316759f984b4517bce95390"
+      ],
+      "id": "atlas:claim:legacy-01a0103033167fcb90c91e6454ecfa4b",
+      "legacyId": "01a01030-3316-7fcb-90c9-1e6454ecfa4b",
+      "object": {
+        "id": "atlas:brand:lancia",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-3316-7652-a77e-dafdb5f2bd45",
+      "subject": "atlas:vehicle:lancia-12-hp",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Lancia 12 HP é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Lancia & C.. A documentação registra comercialização sob Lancia. Também aparece na relação de participação de associada a Lancia 12 HP first production model. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:lancia-12-hp",
+  "legacy": {
+    "id": "01a01030-3313-7bef-8e4d-63573101fdc7",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01030-3316-7066-93dd-a9db716ee0be",
+      "01a01030-3316-7652-a77e-dafdb5f2bd45",
+      "01a01030-3316-76b8-9d11-40047b00627d"
+    ],
+    "editorial_batch": "E10",
+    "editorial_level": "editorial",
+    "historical_features": [
+      "low lightweight chassis",
+      "shaft drive instead of chain"
+    ],
+    "vehicle_kind": "production",
+    "vehicle_level": "standalone"
+  },
+  "name": "Lancia 12 HP",
+  "names": [],
+  "type": "Vehicle"
+}

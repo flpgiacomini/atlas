@@ -1,0 +1,93 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a0102854577848b58bc9c509e939ce"
+      ],
+      "id": "atlas:claim:legacy-01a01028545773618429561119d8acb7",
+      "legacyId": "01a01028-5457-7361-8429-561119d8acb7",
+      "object": {
+        "id": "atlas:brand:bugatti",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-romano-artioli-at-90-a-visionary-and-bugatti-savior"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-767b-bd95-30da6505b38f",
+      "subject": "atlas:vehicle:bugatti-eb110",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545776cda7921f95335c5087"
+      ],
+      "id": "atlas:claim:legacy-01a0102854577362bc0aed2c544aff4f",
+      "legacyId": "01a01028-5457-7362-bc0a-ed2c544aff4f",
+      "object": {
+        "id": "atlas:brand:bugatti",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-767b-bd95-30da6505b38f",
+      "subject": "atlas:vehicle:bugatti-eb110",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-01a01028545772d9929c6f5bbdaa34c3"
+      ],
+      "id": "atlas:claim:legacy-01a01028545775eb8b24a283efe0463d",
+      "legacyId": "01a01028-5457-75eb-8b24-a283efe0463d",
+      "object": {
+        "id": "atlas:facility:bugatti-campogalliano-plant",
+        "type": "EntityReference"
+      },
+      "predicate": "produced-at",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5457-74bb-a81b-ec5bad3de0bd",
+      "subject": "atlas:vehicle:bugatti-eb110",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    }
+  ],
+  "description": "Bugatti EB110 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra produção em Bugatti Campogalliano plant. A documentação registra comercialização sob Bugatti. Também aparece na relação de participação de associada a Bugatti EB110 unveiling in Paris. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "id": "atlas:vehicle:bugatti-eb110",
+  "legacy": {
+    "id": "01a01028-5456-7347-bcb9-8a40ce99ef02",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "description_basis_statement_ids": [
+      "01a01028-5457-74bb-a81b-ec5bad3de0bd",
+      "01a01028-5457-767b-bd95-30da6505b38f",
+      "01a01028-5458-71df-9af5-23302a054187"
+    ],
+    "editorial_batch": "E09",
+    "editorial_level": "editorial",
+    "vehicle_kind": "production",
+    "vehicle_level": "family"
+  },
+  "name": "Bugatti EB110",
+  "names": [],
+  "type": "Vehicle"
+}

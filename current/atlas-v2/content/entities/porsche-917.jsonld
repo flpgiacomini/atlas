@@ -12,6 +12,7 @@
       "predicate": "introduced-in",
       "object": 1969,
       "sources": ["atlas:source:porsche-917-archive"],
+      "evidence": ["atlas:evidence:porsche-917-archive-introduction"],
       "confidence": "single-source",
       "validity": { "from": "1969", "until": null, "precision": "year" }
     }
@@ -25,6 +26,15 @@
       "url": "https://newsroom.porsche.com/",
       "trust": "institutional",
       "verifiedAt": "2026-08-20"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "atlas:evidence:porsche-917-archive-introduction",
+      "type": "Evidence",
+      "source": "atlas:source:porsche-917-archive",
+      "evidenceType": "explicit-statement",
+      "locator": { "section": "History" }
     }
   ]
 }
