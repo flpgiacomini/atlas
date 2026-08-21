@@ -9,6 +9,7 @@ const RELATION_LABELS = {
   "renamed-to": "renome",
   "spun-off-to": "cisão",
   "joined-lineage-of": "integração de linhagem",
+  "became-subbrand-of": "transformação em submarca",
 };
 
 function datedUntil(items, year) {
