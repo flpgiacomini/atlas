@@ -52,7 +52,7 @@ a { color: #9b302b; }
 .brand-relations article { min-width: min(190px, 100%); flex: 1; }
 .brand-relations article[data-kind="acquired-by"], .brand-relations article[data-kind="rights-acquired-by"] { border-color: #b76f50; }
 .brand-relations article[data-kind="merged-into"] { border-color: #8b7bb8; }
-.brand-relations article[data-kind="market-transition-to"], .brand-relations article[data-kind="succeeded-by"] { border-color: #6f9c91; }
+.brand-relations article[data-kind="market-transition-to"], .brand-relations article[data-kind="succeeded-by"], .brand-relations article[data-kind="joined-lineage-of"] { border-color: #6f9c91; }
 .projection article time { display: block; color: #d83c36; font: 12px Georgia, serif; }
 .projection article strong { display: block; margin: 5px 0; font-size: 11px; line-height: 1.2; }
 .lineage-track { align-items: flex-end; padding-top: 14px; border-bottom: 1px solid #a98b5866; }

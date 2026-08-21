@@ -8,6 +8,7 @@ const RELATION_LABELS = {
   "merged-into": "fusão corporativa",
   "renamed-to": "renome",
   "spun-off-to": "cisão",
+  "joined-lineage-of": "integração de linhagem",
 };
 
 function datedUntil(items, year) {
