@@ -21,7 +21,7 @@ jobs:
       - run: python scripts/migrate_sqlite.py
       - run: python scripts/validate_migration.py
       - name: Assert deterministic migration
-        run: git diff --exit-code -- migration
+        run: python scripts/check_determinism.py
   verify:
     env:
       ASTRO_TELEMETRY_DISABLED: "1"

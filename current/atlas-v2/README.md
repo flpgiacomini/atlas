@@ -19,6 +19,7 @@ determinísticas desses documentos.
 python scripts/validate_contracts.py
 python scripts/migrate_sqlite.py
 python scripts/validate_migration.py
+python scripts/check_determinism.py
 ```
 
 `migrate_sqlite.py` lê o SQLite v1 somente em modo read-only e recria

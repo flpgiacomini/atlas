@@ -51,6 +51,7 @@ cd current/atlas-v2
 python scripts/validate_contracts.py
 python scripts/migrate_sqlite.py
 python scripts/validate_migration.py
+python scripts/check_determinism.py
 ```
 
 ## Próximo gate
