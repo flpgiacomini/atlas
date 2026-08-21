@@ -3,6 +3,9 @@
 Este diretório contém a nova autoridade documental do Atlas. O site público em
 `current/atlas-web` permanece intocado até o corte formal da v2.
 
+O estado de cada fase, seus passos e checkpoints estão consolidados em
+[`docs/IMPLEMENTATION_PANORAMA.md`](docs/IMPLEMENTATION_PANORAMA.md).
+
 ## Autoridade canônica
 
 - `content/entities/*.jsonld`: entidades, claims, fontes e evidências.
