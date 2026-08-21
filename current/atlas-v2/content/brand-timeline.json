@@ -186,6 +186,41 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:bentley-founded-1919",
+      "brand": "atlas:brand:bentley",
+      "year": 1919,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "W. O. Bentley funda a Bentley Motors",
+      "source": {
+        "title": "Bentley history",
+        "publisher": "Bentley Motors",
+        "url": "https://www.bentleymedia.com/en/company/heritage",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:mazda-operator-founded-1920",
+      "brand": "atlas:brand:mazda",
+      "year": 1920,
+      "date": "1920-01-30",
+      "precision": "day",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Toyo Cork Kogyo, origem corporativa da Mazda, é fundada em Hiroshima",
+      "source": {
+        "title": "Company Outline",
+        "publisher": "Mazda Motor Corporation",
+        "url": "https://www.mazda.com/en/about/outline/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:mercedes-benz-trademark-1925",
       "brand": "atlas:brand:mercedes-benz",
       "year": 1925,
@@ -262,6 +297,24 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:nissan-predecessor-founded-1933",
+      "brand": "atlas:brand:nissan",
+      "year": 1933,
+      "date": "1933-12-26",
+      "precision": "day",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Jidosha Seizo, predecessora direta da Nissan Motor, é estabelecida em Yokohama",
+      "source": {
+        "title": "Nissan's Beginnings",
+        "publisher": "Nissan Motor Corporation",
+        "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/HERITAGE/HISTORY/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:toyota-motor-founded-1937",
       "brand": "atlas:brand:toyota",
       "year": 1937,
@@ -303,6 +356,23 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:honda-motor-founded-1948",
+      "brand": "atlas:brand:honda",
+      "year": 1948,
+      "precision": "year",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Honda Motor Co. inicia sua trajetória industrial",
+      "source": {
+        "title": "Honda Motor Co., Ltd. 75 Years of History",
+        "publisher": "Honda Motor Co.",
+        "url": "https://global.honda/en/about/history-digest/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:bugatti-revival-1987",
       "brand": "atlas:brand:bugatti",
       "year": 1987,
@@ -324,6 +394,24 @@
       "label": "A Bugatti renasce sob o Volkswagen Group",
       "event": "atlas:event:bugatti-revival-under-volkswagen-group",
       "sourceRefs": ["atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:tesla-incorporated-2003",
+      "brand": "atlas:brand:tesla",
+      "year": 2003,
+      "date": "2003-07-01",
+      "precision": "day",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Tesla é incorporada no estado de Delaware",
+      "source": {
+        "title": "Investor FAQs",
+        "publisher": "Tesla Investor Relations",
+        "url": "https://ir.tesla.com/node/16",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     }
   ]

@@ -33,6 +33,7 @@ jobs:
           python-version: "3.13"
       - run: python scripts/validate_contracts.py
       - run: python scripts/validate_brand_timeline.py
+      - run: python scripts/validate_brand_relations.py
       - run: python scripts/migrate_sqlite.py
       - run: python scripts/validate_migration.py
       - name: Assert deterministic migration

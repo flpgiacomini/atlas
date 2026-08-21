@@ -134,6 +134,11 @@ def build(output: Path) -> dict:
     dump(temp / "brand-timeline.json", {"version": brand_timeline["version"], "count": len(milestones), "items": milestones})
     files.append({"path": "brand-timeline.json", "kind": "brand-timeline", "key": "lifecycle-milestones", "count": len(milestones)})
 
+    brand_relations = load(ROOT / "content/brand-relations.json")
+    relations = sorted(brand_relations["relations"], key=lambda item: (item["validFrom"], item["id"]))
+    dump(temp / "brand-relations.json", {"version": brand_relations["version"], "count": len(relations), "items": relations})
+    files.append({"path": "brand-relations.json", "kind": "brand-relations", "key": "corporate-relations", "count": len(relations)})
+
     dump(temp / "index.json", {"version": "2.0.0", "count": len(summaries), "items": summaries})
     files.append({"path": "index.json", "kind": "index", "key": "entities", "count": len(summaries)})
     for item in files:

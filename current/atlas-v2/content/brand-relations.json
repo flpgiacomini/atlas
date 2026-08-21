@@ -1,0 +1,85 @@
+{
+  "version": "2.0.0",
+  "relations": [
+    {
+      "id": "atlas:brand-relation:benz-succeeded-by-mercedes-benz-1926",
+      "from": "atlas:brand:benz",
+      "fromLabel": "Benz",
+      "to": "atlas:brand:mercedes-benz",
+      "toLabel": "Mercedes-Benz",
+      "kind": "succeeded-by",
+      "validFrom": "1926-06",
+      "precision": "month",
+      "label": "Benz integra a nova identidade Mercedes-Benz após a fusão das operadoras",
+      "continuity": "A marca sucessora combina as tradições de Benz & Cie. e Daimler-Motoren-Gesellschaft.",
+      "source": {
+        "title": "Beginnings of the automobile: The predecessor companies (1886-1920)",
+        "publisher": "Mercedes-Benz Group",
+        "url": "https://group.mercedes-benz.com/company/tradition/company-history/1886-1920.html",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:daimler-succeeded-by-mercedes-benz-1926",
+      "from": "atlas:brand:daimler",
+      "fromLabel": "Daimler",
+      "to": "atlas:brand:mercedes-benz",
+      "toLabel": "Mercedes-Benz",
+      "kind": "succeeded-by",
+      "validFrom": "1926-06",
+      "precision": "month",
+      "label": "Daimler integra a nova identidade Mercedes-Benz após a fusão das operadoras",
+      "continuity": "A marca sucessora combina as tradições de Daimler-Motoren-Gesellschaft e Benz & Cie.",
+      "source": {
+        "title": "Beginnings of the automobile: The predecessor companies (1886-1920)",
+        "publisher": "Mercedes-Benz Group",
+        "url": "https://group.mercedes-benz.com/company/tradition/company-history/1886-1920.html",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:bugatti-rights-acquired-by-volkswagen-1998",
+      "from": "atlas:brand:bugatti",
+      "fromLabel": "Bugatti",
+      "to": "atlas:organization:volkswagen-group",
+      "toLabel": "Volkswagen Group",
+      "kind": "rights-acquired-by",
+      "validFrom": "1998-05-05",
+      "precision": "day",
+      "label": "Volkswagen assegura os direitos da marca Bugatti",
+      "continuity": "A aquisição dos direitos viabiliza o segundo renascimento moderno da marca.",
+      "source": {
+        "title": "The Birth of a Legend",
+        "publisher": "Bugatti",
+        "url": "https://newsroom.bugatti.com/en/press-releases/the-birth-of-a-legend",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:bentley-acquired-by-volkswagen-1998",
+      "from": "atlas:brand:bentley",
+      "fromLabel": "Bentley",
+      "to": "atlas:organization:volkswagen-group",
+      "toLabel": "Volkswagen Group",
+      "kind": "acquired-by",
+      "validFrom": "1998",
+      "precision": "year",
+      "label": "Bentley passa ao controle do Volkswagen Group",
+      "continuity": "A identidade Bentley é preservada sob uma nova controladora.",
+      "source": {
+        "title": "Bentley history",
+        "publisher": "Bentley Motors",
+        "url": "https://www.bentleymedia.com/en/company/heritage",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    }
+  ]
+}
