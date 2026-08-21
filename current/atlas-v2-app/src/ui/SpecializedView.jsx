@@ -16,7 +16,7 @@ function AccessibleRecords({ title, items }) {
   </details>;
 }
 
-function BrandRiver({ items, milestones, year }) {
+function BrandRiver({ items, milestones, relations, year }) {
   const catalog = items.filter((item) => item.yearStart == null);
   const regions = [...new Set(catalog.map((item) => item.region))].sort((a, b) => a.localeCompare(b, "pt-BR")).slice(0, 6);
   const names = new Map(items.map((item) => [item.id, item.name]));
@@ -25,11 +25,14 @@ function BrandRiver({ items, milestones, year }) {
   const documentedBrands = new Set(milestones.map((item) => item.brand));
   const undocumentedCount = Math.max(0, items.length - documentedBrands.size);
   const evidence = lifecycle.map((item) => ({ ...item, id: item.id, yearStart: item.year, name: `${names.get(item.brand) || item.brand} — ${item.label}` }));
+  const activeRelations = relations.filter((item) => Number(item.validFrom.slice(0, 4)) <= year).slice(-6);
+  const relationEvidence = activeRelations.map((item) => ({ id: item.id, yearStart: Number(item.validFrom.slice(0, 4)), name: `${item.fromLabel} → ${item.toLabel}: ${item.label}` }));
   return <section className="projection brand-river" aria-labelledby="brand-river-title">
     <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos documentados · exibindo {visibleLifecycle.length} recentes · {undocumentedCount} marcas sem marco</span></header>
     <div className="river-canvas" aria-hidden="true">{regions.map((region, index) => <div className="river-lane" key={region} style={{ "--lane": index }}><i /><span>{region}</span><b>{catalog.filter((item) => item.region === region).length}</b></div>)}</div>
     {visibleLifecycle.length ? <div className="projection-cards">{visibleLifecycle.map((item) => <article key={item.id}><time>{item.year}</time><strong>{names.get(item.brand) || item.brand}</strong><small>{item.label} · {item.scope === "operator" ? "organização operadora" : "identidade da marca"}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: nenhum marco com fonte ocorre antes deste ano.</EmptyEvidence>}
-    <AccessibleRecords title="marcas" items={evidence} />
+    {activeRelations.length ? <div className="projection-cards brand-relations" aria-label="Relações corporativas conhecidas"><h3>Conexões corporativas</h3>{activeRelations.map((item) => <article key={item.id}><time>{item.validFrom.slice(0, 4)}</time><strong>{item.fromLabel} → {item.toLabel}</strong><small>{item.label}</small></article>)}</div> : null}
+    <AccessibleRecords title="marcas" items={[...evidence, ...relationEvidence]} />
   </section>;
 }
 
@@ -66,8 +69,8 @@ function GeographicPreview({ mapKind, story, year }) {
   return <section className="projection geography-preview" aria-labelledby="geography-title"><header><p>CARTOGRAFIA TEMPORAL</p><h2 id="geography-title">{mapKind} histórico · {year}</h2><span>{story.place}</span></header><div className="geo-orbit" aria-hidden="true"><i /><b /><span>{mapKind === "Globo" ? "VISÃO MUNDIAL" : "ROTEIRO EDITORIAL"}</span></div><EmptyEvidence>Esta prévia usa somente o roteiro editorial. MapLibre, Cesium e as geometrias temporais validadas entram no checkpoint cartográfico.</EmptyEvidence></section>;
 }
 
-export default function SpecializedView({ mode, year, modeItems, periodItems, brandMilestones, story, mapKind }) {
-  if (mode === "Marcas") return <BrandRiver items={modeItems} milestones={brandMilestones} year={year} />;
+export default function SpecializedView({ mode, year, modeItems, periodItems, brandMilestones, brandRelations, story, mapKind }) {
+  if (mode === "Marcas") return <BrandRiver items={modeItems} milestones={brandMilestones} relations={brandRelations} year={year} />;
   if (mode === "Veículos") return <VehicleLineage items={modeItems} year={year} />;
   if (mode === "Competições") return <CompetitionSeason items={modeItems} periodItems={periodItems} year={year} />;
   if (mode === "Tecnologias") return <TechnologyFlow items={modeItems} periodItems={periodItems} year={year} />;

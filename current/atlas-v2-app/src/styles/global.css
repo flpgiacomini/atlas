@@ -47,6 +47,9 @@ a { color: #9b302b; }
 .river-lane b { color: #eee9dc; }
 .projection-cards, .lineage-track { display: flex; gap: 8px; overflow: hidden; margin-top: 14px; }
 .projection-cards article, .lineage-track article { min-width: 110px; padding: 10px; background: #ffffff09; border-top: 1px solid #555149; }
+.brand-relations { flex-wrap: wrap; overflow: visible; border-top: 1px solid #ffffff22; padding-top: 12px; }
+.brand-relations h3 { flex-basis: 100%; margin: 0; font: 600 10px/1.2 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: #c9a56b; }
+.brand-relations article { min-width: min(190px, 100%); flex: 1; }
 .projection article time { display: block; color: #d83c36; font: 12px Georgia, serif; }
 .projection article strong { display: block; margin: 5px 0; font-size: 11px; line-height: 1.2; }
 .lineage-track { align-items: flex-end; padding-top: 14px; border-bottom: 1px solid #a98b5866; }
