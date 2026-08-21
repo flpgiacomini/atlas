@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { loadBundle, periodForYear, publicUrl, searchEntities, yearUrl } from "../lib/atlas-data.js";
+import SpecializedView from "./SpecializedView.jsx";
 
 const MODES = ["História", "Mapa/Globo", "Marcas", "Veículos", "Competições", "Tecnologias"];
 const CATEGORY = { Marcas: "brand", Veículos: "vehicle", Competições: "series", Tecnologias: "technology" };
@@ -97,7 +98,6 @@ export default function AtlasApp({ initialYear }) {
 
   const timelineJourneys = journeys.map((item) => ({ year: item.year, label: item.label.replace("Porsche ", "").replace("Ford ", "") }));
   const milestones = [{ year: 1769, label: "Cugnot" }, ...timelineJourneys, { year: 1997, label: "Prius" }, { year: 2026, label: "Agora" }].sort((a, b) => a.year - b.year);
-  const visibleModeItems = modeItems.filter((item) => item.yearStart == null || item.yearStart <= year).slice(0, 5);
 
   return <main className="atlas-shell" style={{ "--hero": `url('${publicUrl(story.asset)}')` }}>
     <header className="masthead">
@@ -110,7 +110,7 @@ export default function AtlasApp({ initialYear }) {
       <div className="hero-shade" /><img className="map-trace" src={publicUrl("assets/zuffenhausen-le-mans-map.png")} alt="" />
       <article className="story-copy" aria-live="polite"><p className="story-year">{year}</p><div className="ornament" /><p className="eyebrow">{story.eyebrow}</p><h1>{story.title}</h1><p className="dek">{story.copy}</p><div className="story-actions"><button className="primary" onClick={() => { setLayer("Narrativa"); setChapterOpen(true); }}>ABRIR CAPÍTULO {year}</button><button className="secondary" onClick={() => setMode("Mapa/Globo")}>VER NO MAPA HISTÓRICO</button></div></article>
       <div className="map-switch" aria-label="Tipo de visualização geográfica">{["Mapa", "Globo"].map((item) => <button key={item} className={mapKind === item ? "active" : ""} onClick={() => { setMapKind(item); setMode("Mapa/Globo"); }}>{item.toUpperCase()}</button>)}</div>
-      {mode !== "História" && <aside className="mode-context"><p>{mode}</p><h2>{mode === "Mapa/Globo" ? `${mapKind} histórico · ${year}` : `${mode} em ${year}`}</h2><span>{mode === "Mapa/Globo" ? `Roteiro editorial: ${story.place}.` : `${visibleModeItems.length} registros carregados neste recorte.`}</span>{visibleModeItems.map((item) => <small key={item.id}>{item.name}</small>)}</aside>}
+      {mode !== "História" && <aside className="mode-context"><SpecializedView mode={mode} year={year} modeItems={modeItems} periodItems={periodItems} story={story} mapKind={mapKind} /></aside>}
       <div className={`data-state ${loadState}`}>{loadState === "ready" ? `${manifest?.entityCount || 0} entidades · ${periodItems.length} no período` : loadState === "error" ? "Falha ao carregar o acervo" : "Carregando acervo"}</div>
     </section>
 
