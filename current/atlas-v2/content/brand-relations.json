@@ -209,6 +209,16 @@
       "label": "NSU e Auto Union assinam o acordo que forma Audi NSU Auto Union AG",
       "continuity": "A produção NSU continua até 1977; a operadora adota o nome AUDI AG somente em 1985.",
       "source": {"title":"History of the Four Rings","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/history-of-the-four-rings-4093","trust":"primary","verifiedAt":"2026-08-21"}, "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:maybach-became-mercedes-subbrand-2014",
+      "from": "atlas:brand:maybach", "fromLabel": "Maybach",
+      "to": "atlas:brand:mercedes-benz", "toLabel": "Mercedes-Benz",
+      "kind": "became-subbrand-of", "validFrom": "2014-11", "precision": "month",
+      "label": "Mercedes-Maybach estreia como submarca da Mercedes-Benz",
+      "continuity": "O nome Maybach deixa de operar como gama autônoma e passa a qualificar a expressão mais exclusiva da linha Mercedes-Benz.",
+      "source": {"title":"Daimler Annual Report 2015","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annual-report-2015.pdf","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
     }
   ]
 }

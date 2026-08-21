@@ -1,0 +1,12 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:brand:alpine",
+  "type": "Brand",
+  "name": "Alpine",
+  "aliases": ["Automobiles Alpine"],
+  "description": "Marca francesa de automóveis esportivos fundada por Jean Rédélé em 1955, estreitamente ligada à Renault e à competição.",
+  "claims": [],
+  "sources": [{"id":"atlas:source:renault-history-alpine-brand","type":"Source","title":"History of the Alpine brand","publisher":"Renault Group Media","url":"https://be.media.renaultgroup.com/history-of-the-alpine-brand/","trust":"institutional","verifiedAt":"2026-08-21"}],
+  "evidence": [],
+  "metadata": {"brand_status":"active","editorial_level":"editorial","editorial_batch":"V2-BRAND-REVIVALS-01","region_cluster":"Europa 1919-1945"}
+}

@@ -221,6 +221,17 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:mg-first-model-1924",
+      "brand": "atlas:brand:mg",
+      "year": 1924,
+      "precision": "year",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "O MG 14/28 inaugura a identidade automotiva MG",
+      "source": {"title":"Los 10 coches más importantes de MG en sus 100 años de historia","publisher":"MG Motor Europe","url":"https://news.mgmotor.eu/es/press/10-modelos-mg-historia/","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:mercedes-benz-trademark-1925",
       "brand": "atlas:brand:mercedes-benz",
       "year": 1925,
@@ -385,6 +396,18 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:alpine-founded-1955",
+      "brand": "atlas:brand:alpine",
+      "year": 1955,
+      "date": "1955-06-25",
+      "precision": "day",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Jean Rédélé constitui a Société des Automobiles Alpine",
+      "source": {"title":"Alpine avec passion à Rétromobile","publisher":"Renault Group Media","url":"https://be.media.renaultgroup.com/alpine-avec-passion-a-retromobile/","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:nissan-worldwide-identity-1981",
       "brand": "atlas:brand:nissan",
       "year": 1981,
@@ -453,6 +476,51 @@
       "scope": "brand-identity",
       "label": "BMW Group relança a marca MINI e inicia a produção moderna em Oxford",
       "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:maybach-revived-2002",
+      "brand": "atlas:brand:maybach",
+      "year": 2002,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "Maybach retorna ao mercado após seis décadas",
+      "source": {"title":"DaimlerChrysler Annual Report 2002","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimlerchrysler/daimler-ir-annualreport-2002.pdf","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:maybach-production-discontinued-2013",
+      "brand": "atlas:brand:maybach",
+      "year": 2013,
+      "precision": "year",
+      "kind": "discontinued",
+      "scope": "brand-identity",
+      "label": "A produção da gama Maybach autônoma é encerrada",
+      "source": {"title":"Daimler Annual Report 2011","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annualreport-2011.pdf","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "medium"
+    },
+    {
+      "id": "atlas:brand-milestone:mercedes-maybach-subbrand-2014",
+      "brand": "atlas:brand:maybach",
+      "year": 2014,
+      "date": "2014-11",
+      "precision": "month",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "O nome retorna como submarca Mercedes-Maybach",
+      "source": {"title":"Daimler Annual Report 2015","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annual-report-2015.pdf","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:alpine-commercial-return-2017",
+      "brand": "atlas:brand:alpine",
+      "year": 2017,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "Alpine retorna comercialmente com a nova geração A110",
+      "source": {"title":"Alpine avec passion à Rétromobile","publisher":"Renault Group Media","url":"https://be.media.renaultgroup.com/alpine-avec-passion-a-retromobile/","trust":"primary","verifiedAt":"2026-08-21"},
       "confidence": "high"
     },
     {

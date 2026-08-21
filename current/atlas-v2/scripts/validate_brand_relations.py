@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-KINDS = {"succeeded-by", "renamed-to", "merged-into", "acquired-by", "rights-acquired-by", "spun-off-to", "market-transition-to", "joined-lineage-of"}
+KINDS = {"succeeded-by", "renamed-to", "merged-into", "acquired-by", "rights-acquired-by", "spun-off-to", "market-transition-to", "joined-lineage-of", "became-subbrand-of"}
 PRECISIONS = {"day": r"\d{4}-\d{2}-\d{2}", "month": r"\d{4}-\d{2}", "year": r"\d{4}"}
 
 
