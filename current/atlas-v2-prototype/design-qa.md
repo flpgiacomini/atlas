@@ -1,58 +1,52 @@
 # Atlas v2 prototype — Design QA
 
-- Source visual truth: `design/atlas-v2-master-target.png`
-- Source pixels: 1536 × 1024
-- Intended implementation viewport: 1440 × 1024 CSS px, device scale 1
-- State: História, 1969, Porsche 917, modal fechado
-- Browser target: Chrome desktop
-- Build result: passed
-- Sites worker tests: 4/4 passed
-- Dependency refresh: React 19.2.8, React DOM 19.2.8, Vite 8.2.2,
-  `@vitejs/plugin-react` 6.1.0
-- Production dependency audit: 0 vulnerabilities
+- Fonte visual: `design/atlas-v2-master-target.png` (1536 × 1024)
+- Evidência renderizada: `design/implementation-1969.png` (1440 × 1024 CSS px)
+- Comparação: `design/comparison-source-vs-implementation.png`
+- Estado validado: História, 1969, Porsche 917, modal fechado
+- Navegador: Google Chrome desktop
+- Resultado de build: aprovado
+- Testes do worker Sites: 4/4 aprovados
+- Auditoria de dependências de produção: 0 vulnerabilidades
 
-## Evidence status
+## Evidências visuais
 
-The source visual is available locally and the implementation builds. A
-browser-rendered implementation screenshot could not be captured. The Chrome
-validation was retried after the first GitHub checkpoint, but the connected
-browser runtime still references the removed plugin build `26.818.21641`
-instead of the installed `26.818.22352` build.
+A captura real do Chrome foi produzida no viewport bloqueante de 1440 × 1024 e
+comparada lado a lado com a referência. A implementação preserva a hierarquia
+editorial, a fotografia dominante, o contraste escuro, o destaque vermelho,
+o mapa contextual e a timeline persistente. As diferenças de enquadramento e
+densidade da timeline são variações deliberadas do protótipo responsivo e não
+comprometem o conceito aprovado.
 
-Without the implementation screenshot there is no valid full-view or focused
-region comparison. Build output and source inspection are not substitutes for
-visual evidence.
+## Verificações de interação
 
-## Findings
+- Os seis percursos obrigatórios abriram o ano e o capítulo corretos:
+  Benz Patent-Motorwagen (1886), Ford Model T (1908), origens do Motorsport
+  (1955), Volvo PV544 (1958), Porsche 911 (1963) e Porsche 917 (1969).
+- Os modos História, Mapa/Globo, Marcas, Veículos, Competições e Tecnologias
+  responderam ao ano global.
+- Mapa e globo alternaram o estado ativo corretamente.
+- O modal imersivo abriu e fechou pelo controle visível e pela tecla Escape.
+- As teclas de seta alteraram 1969 para 1968 e retornaram para 1969.
+- A seleção por marcos da timeline foi exercitada pelos seis percursos.
+- O console do Chrome não registrou erros.
 
-- [P0] Browser-rendered comparison is missing.
-  - Location: complete 1440 × 1024 primary screen.
-  - Evidence: source image exists; equivalent implementation capture does not.
-  - Impact: typography, crop, spacing, controls and responsive fidelity cannot
-    be approved.
-  - Fix: reconnect Chrome or repair the in-app browser runtime, capture the
-    1969 state at 1440 × 1024, test primary interactions, and compare the two
-    images in one visual input.
+## Achados
 
-## Interaction checks pending
+Nenhum defeito P0, P1 ou P2 foi encontrado nesta rodada.
 
-- Timeline range and milestone selection.
-- História and Mapa/Globo switching.
-- Six discovery journeys.
-- Immersive chapter modal open/close.
-- Keyboard left/right and Escape.
-- Browser console errors.
+## Histórico da comparação
 
-## Comparison history
+- Primeira rodada: bloqueada pela ausência de uma conexão ativa com o Chrome.
+- Segunda rodada: bloqueada por incompatibilidade entre versões do controlador.
+- Rodada final: conexão restabelecida, evidências capturadas, interações
+  verificadas e comparação visual aprovada.
 
-- Initial pass: blocked before comparison because browser evidence was not
-  available. No visual fixes are claimed from this pass.
-- Retry after dependency refresh: Chrome remained blocked by the stale browser
-  runtime reference. The production build and four hosting tests passed again,
-  but they are not substituted for visual evidence.
+## Polimentos não bloqueantes
 
-## Follow-up polish
+- A timeline final poderá incorporar maior densidade de microeventos conforme
+  os 258 capítulos forem produzidos.
+- A cartografia definitiva substituirá a composição ilustrativa do protótipo
+  pelas camadas temporais de MapLibre e Cesium.
 
-None classified until the blocking comparison is completed.
-
-final result: blocked
+final result: passed
