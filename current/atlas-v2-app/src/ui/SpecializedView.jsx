@@ -20,12 +20,15 @@ function BrandRiver({ items, milestones, year }) {
   const catalog = items.filter((item) => item.yearStart == null);
   const regions = [...new Set(catalog.map((item) => item.region))].sort((a, b) => a.localeCompare(b, "pt-BR")).slice(0, 6);
   const names = new Map(items.map((item) => [item.id, item.name]));
-  const lifecycle = milestones.filter((item) => item.year <= year).slice(-10);
+  const lifecycle = milestones.filter((item) => item.year <= year);
+  const visibleLifecycle = lifecycle.slice(-10);
+  const documentedBrands = new Set(milestones.map((item) => item.brand));
+  const undocumentedCount = Math.max(0, items.length - documentedBrands.size);
   const evidence = lifecycle.map((item) => ({ ...item, id: item.id, yearStart: item.year, name: `${names.get(item.brand) || item.brand} — ${item.label}` }));
   return <section className="projection brand-river" aria-labelledby="brand-river-title">
-    <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos de ciclo de vida · {catalog.length} aguardam cronologia corporativa</span></header>
+    <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos documentados · exibindo {visibleLifecycle.length} recentes · {undocumentedCount} marcas sem marco</span></header>
     <div className="river-canvas" aria-hidden="true">{regions.map((region, index) => <div className="river-lane" key={region} style={{ "--lane": index }}><i /><span>{region}</span><b>{catalog.filter((item) => item.region === region).length}</b></div>)}</div>
-    {lifecycle.length ? <div className="projection-cards">{lifecycle.map((item) => <article key={item.id}><time>{item.year}</time><strong>{names.get(item.brand) || item.brand}</strong><small>{item.label} · {item.scope === "operator" ? "organização operadora" : "identidade da marca"}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: nenhum marco com fonte ocorre antes deste ano.</EmptyEvidence>}
+    {visibleLifecycle.length ? <div className="projection-cards">{visibleLifecycle.map((item) => <article key={item.id}><time>{item.year}</time><strong>{names.get(item.brand) || item.brand}</strong><small>{item.label} · {item.scope === "operator" ? "organização operadora" : "identidade da marca"}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: nenhum marco com fonte ocorre antes deste ano.</EmptyEvidence>}
     <AccessibleRecords title="marcas" items={evidence} />
   </section>;
 }

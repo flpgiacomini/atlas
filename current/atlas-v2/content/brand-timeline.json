@@ -2,6 +2,17 @@
   "version": "2.0.0",
   "milestones": [
     {
+      "id": "atlas:brand-milestone:peugeot-first-automobile-1889",
+      "brand": "atlas:brand:peugeot",
+      "year": 1889,
+      "precision": "year",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Peugeot apresenta seu primeiro modelo de automóvel",
+      "sourceRefs": ["atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"],
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:renault-operator-founded-1898",
       "brand": "atlas:brand:renault",
       "year": 1898,
@@ -11,6 +22,24 @@
       "label": "Renault Frères é constituída",
       "event": "atlas:event:renault-freres-founded",
       "sourceRefs": ["atlas:source:renault-group-120-years-of-brand-identity"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:opel-automobile-production-1899",
+      "brand": "atlas:brand:opel",
+      "year": 1899,
+      "date": "1899-01-21",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Opel inicia oficialmente a produção de automóveis",
+      "source": {
+        "title": "Rüsselsheim’s First: The Opel Patentmotorwagen System Lutzmann",
+        "publisher": "Stellantis / Opel",
+        "url": "https://www.media.stellantis.com/em-en/opel/press/ruesselsheim-s-first-the-opel-patentmotorwagen-system-lutzmann",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -39,8 +68,55 @@
         "title": "Life of Henry Ford",
         "publisher": "Ford Motor Company",
         "url": "https://corporate.ford.com/corporate/corporate/articles/history/henry-ford-biography/",
-        "trust": "primary"
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
       },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:cadillac-operator-founded-1902",
+      "brand": "atlas:brand:cadillac",
+      "year": 1902,
+      "precision": "year",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Henry Leland funda a Cadillac Automobile Company",
+      "source": {
+        "title": "GM Heritage",
+        "publisher": "General Motors",
+        "url": "https://www.gm.com/heritage",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:buick-operator-incorporated-1903",
+      "brand": "atlas:brand:buick",
+      "year": 1903,
+      "precision": "year",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Buick Motor Company é incorporada",
+      "source": {
+        "title": "GM Heritage",
+        "publisher": "General Motors",
+        "url": "https://www.gm.com/heritage",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:rolls-royce-name-agreement-1904",
+      "brand": "atlas:brand:rolls-royce",
+      "year": 1904,
+      "date": "1904-05-04",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Rolls e Royce acordam vender automóveis sob o nome Rolls-Royce",
+      "sourceRefs": ["atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"],
       "confidence": "high"
     },
     {
@@ -57,6 +133,42 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:alfa-established-1910",
+      "brand": "atlas:brand:alfa-romeo",
+      "year": 1910,
+      "date": "1910-06-24",
+      "precision": "day",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "A.L.F.A. é oficialmente estabelecida em Milão",
+      "source": {
+        "title": "Alfa Romeo celebrates its 100th anniversary today",
+        "publisher": "Stellantis / Alfa Romeo",
+        "url": "https://www.media.stellantis.com/uk-en/alfa-romeo/press/alfa-romeo-celebrates-its-100th-anniversary-today",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:bmw-official-founding-1916",
+      "brand": "atlas:brand:bmw",
+      "year": 1916,
+      "date": "1916-03-07",
+      "precision": "day",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Data oficial de fundação adotada pelo BMW Group",
+      "source": {
+        "title": "BMW Group history",
+        "publisher": "BMW Group",
+        "url": "https://www.bmwgroup.com/en/company/history.html",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:citroen-automobile-production-1919",
       "brand": "atlas:brand:citroen",
       "year": 1919,
@@ -68,7 +180,8 @@
         "title": "90 anos do Traction Avant",
         "publisher": "Stellantis / Citroën",
         "url": "https://www.media.stellantis.com/uploads/pt/attachment/4248/90anosdotractionavant-662b7fb61a1bc.pdf",
-        "trust": "primary"
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
       },
       "confidence": "high"
     },
@@ -85,7 +198,8 @@
         "title": "100 years of the Mercedes-Benz brand",
         "publisher": "Mercedes-Benz Group",
         "url": "https://group.mercedes-benz.com/company/tradition/company-history/100-years-brand-mb.html",
-        "trust": "primary"
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
       },
       "confidence": "high"
     },
@@ -102,7 +216,89 @@
         "title": "100 years of the Mercedes-Benz brand",
         "publisher": "Mercedes-Benz Group",
         "url": "https://group.mercedes-benz.com/company/tradition/company-history/100-years-brand-mb.html",
-        "trust": "primary"
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:volvo-first-car-1927",
+      "brand": "atlas:brand:volvo",
+      "year": 1927,
+      "date": "1927-04-14",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "O primeiro automóvel Volvo deixa a fábrica em Gotemburgo",
+      "sourceRefs": ["atlas:source:volvo-cars-volvo-cars-heritage"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:toyota-logo-established-1936",
+      "brand": "atlas:brand:toyota",
+      "year": 1936,
+      "precision": "year",
+      "kind": "trademark-registered",
+      "scope": "brand-identity",
+      "label": "A identidade Toyota e seu logotipo são estabelecidos",
+      "sourceRefs": ["atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:volkswagenwerk-founded-1937",
+      "brand": "atlas:brand:volkswagen",
+      "year": 1937,
+      "precision": "year",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Volkswagenwerk GmbH é fundada sob a Frente Alemã para o Trabalho",
+      "source": {
+        "title": "History",
+        "publisher": "Volkswagen Group",
+        "url": "https://www.volkswagen-group.com/en/history-15914",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:toyota-motor-founded-1937",
+      "brand": "atlas:brand:toyota",
+      "year": 1937,
+      "precision": "year",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Toyota Motor Co., Ltd. é estabelecida",
+      "sourceRefs": ["atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:ferrari-first-car-1947",
+      "brand": "atlas:brand:ferrari",
+      "year": 1947,
+      "date": "1947-03-12",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "O motor da Ferrari 125 S funciona pela primeira vez",
+      "sourceRefs": ["atlas:source:ferrari-ferrari-125-s"],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:porsche-brand-born-1948",
+      "brand": "atlas:brand:porsche",
+      "year": 1948,
+      "date": "1948-06-08",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "O Porsche 356 No. 1 é registrado e inaugura a marca automotiva",
+      "source": {
+        "title": "70 years of sports cars at Porsche",
+        "publisher": "Porsche AG",
+        "url": "https://newsroom.porsche.com/en/company/porsche-70-years-sports-car-new-year-reception-anniversary-356-no-1-roadster-ferry-porsche-ferdinand-alexander-porsche-tradition-future-mission-e-oliver-blume-14750.html",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
       },
       "confidence": "high"
     },

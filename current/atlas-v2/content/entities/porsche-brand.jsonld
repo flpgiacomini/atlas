@@ -1,0 +1,16 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:brand:porsche",
+  "type": "Brand",
+  "name": "Porsche",
+  "aliases": ["Dr. Ing. h.c. F. Porsche"],
+  "names": [],
+  "description": "Marca alemã de automóveis esportivos cuja identidade automotiva começa com o Porsche 356 No. 1, registrado em 8 de junho de 1948. A entidade da marca permanece distinta da empresa de engenharia fundada por Ferdinand Porsche em 1931.",
+  "claims": [],
+  "metadata": {
+    "brand_status": "active",
+    "editorial_batch": "V2-BRAND-TIMELINE-02",
+    "editorial_level": "editorial",
+    "region_cluster": "Europa Central e Oriental"
+  }
+}

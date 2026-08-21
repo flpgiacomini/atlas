@@ -19,7 +19,10 @@ def load(path: Path):
 
 def validate() -> dict:
     doc = load(ROOT / "content/brand-timeline.json")
-    entity_ids = {load(path)["id"] for path in (ROOT / "migration/entities").glob("*.jsonld")}
+    entity_docs = [load(path) for path in (ROOT / "migration/entities").glob("*.jsonld")]
+    entity_docs += [load(path) for path in (ROOT / "content/entities").glob("*.jsonld")]
+    entity_ids = {item["id"] for item in entity_docs}
+    brand_ids = {item["id"] for item in entity_docs if item.get("type") == "Brand"}
     source_ids = {item["id"] for item in load(ROOT / "migration/sources.jsonld")["items"]}
     ids: set[str] = set()
     errors: list[str] = []
@@ -27,7 +30,7 @@ def validate() -> dict:
         prefix = item.get("id", "<missing>")
         if prefix in ids: errors.append(f"{prefix}: duplicate id")
         ids.add(prefix)
-        if item.get("brand") not in entity_ids: errors.append(f"{prefix}: unknown brand")
+        if item.get("brand") not in brand_ids: errors.append(f"{prefix}: unknown or non-Brand entity")
         if item.get("event") and item["event"] not in entity_ids: errors.append(f"{prefix}: unknown event")
         if item.get("kind") not in KINDS: errors.append(f"{prefix}: invalid kind")
         if item.get("scope") not in SCOPES: errors.append(f"{prefix}: invalid scope")
@@ -46,6 +49,7 @@ def validate() -> dict:
             parsed = urlparse(source.get("url", ""))
             if parsed.scheme != "https" or not parsed.netloc: errors.append(f"{prefix}: invalid source URL")
             if source.get("trust") != "primary": errors.append(f"{prefix}: seed sources must be primary")
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", source.get("verifiedAt", "")): errors.append(f"{prefix}: external source requires verifiedAt")
     if errors:
         raise SystemExit("\n".join(errors))
     return {"status": "PASS", "milestones": len(ids), "brands": len({item["brand"] for item in doc["milestones"]})}
