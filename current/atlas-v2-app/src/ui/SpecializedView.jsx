@@ -1,5 +1,14 @@
 const COMPETITION_PATTERN = /prix|rally|rali|race|racing|le mans|zeltweg|motorsport|championship|corrida|prova/i;
 const TECHNOLOGY_PATTERN = /turbo|hybrid|h[ií]brid|electric|el[eé]tric|motor|engine|radar|safety|seguran|aero|battery|bateria|fuel|combust|transmission|tra[cç][aã]o/i;
+const RELATION_LABELS = {
+  "succeeded-by": "continuidade",
+  "market-transition-to": "transição de identidade",
+  "acquired-by": "mudança de controle",
+  "rights-acquired-by": "direitos da marca",
+  "merged-into": "fusão corporativa",
+  "renamed-to": "renome",
+  "spun-off-to": "cisão",
+};
 
 function datedUntil(items, year) {
   return items.filter((item) => item.yearStart != null && item.yearStart <= year)
@@ -31,7 +40,7 @@ function BrandRiver({ items, milestones, relations, year }) {
     <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos documentados · exibindo {visibleLifecycle.length} recentes · {undocumentedCount} marcas sem marco</span></header>
     <div className="river-canvas" aria-hidden="true">{regions.map((region, index) => <div className="river-lane" key={region} style={{ "--lane": index }}><i /><span>{region}</span><b>{catalog.filter((item) => item.region === region).length}</b></div>)}</div>
     {visibleLifecycle.length ? <div className="projection-cards">{visibleLifecycle.map((item) => <article key={item.id}><time>{item.year}</time><strong>{names.get(item.brand) || item.brand}</strong><small>{item.label} · {item.scope === "operator" ? "organização operadora" : "identidade da marca"}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: nenhum marco com fonte ocorre antes deste ano.</EmptyEvidence>}
-    {activeRelations.length ? <div className="projection-cards brand-relations" aria-label="Relações corporativas conhecidas"><h3>Conexões corporativas</h3>{activeRelations.map((item) => <article key={item.id}><time>{item.validFrom.slice(0, 4)}</time><strong>{item.fromLabel} → {item.toLabel}</strong><small>{item.label}</small></article>)}</div> : null}
+    {activeRelations.length ? <div className="projection-cards brand-relations" aria-label="Relações corporativas conhecidas"><h3>Conexões corporativas</h3>{activeRelations.map((item) => <article key={item.id} data-kind={item.kind}><time>{item.validFrom.slice(0, 4)} · {RELATION_LABELS[item.kind] || item.kind}</time><strong>{item.fromLabel} → {item.toLabel}</strong><small>{item.label}</small></article>)}</div> : null}
     <AccessibleRecords title="marcas" items={[...evidence, ...relationEvidence]} />
   </section>;
 }
