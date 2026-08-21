@@ -1,24 +1,55 @@
 import { useEffect, useMemo, useState } from "react";
 
-const journeys = [
-  { year: 1886, label: "Benz Patent-Motorwagen", eyebrow: "A origem documentada", title: "A máquina aprende a caminhar", copy: "Em Mannheim, patente, oficina e demonstração pública se unem para transformar uma experiência mecânica em um novo meio de transporte.", place: "Mannheim", asset: "/assets/geography.webp" },
-  { year: 1908, label: "Ford Model T", eyebrow: "Escala e mobilidade", title: "O automóvel encontra a multidão", copy: "O Model T reorganiza produto, fábrica e preço. O automóvel deixa de ser exceção e passa a redesenhar trabalho, cidade e distância.", place: "Detroit", asset: "/assets/people-industry.webp" },
-  { year: 1955, label: "Origens do Motorsport", eyebrow: "Inovação e consequência", title: "Um ano, duas verdades", copy: "A técnica encanta nas ruas e cobra seu preço nas pistas. Desempenho e segurança passam a pertencer à mesma história.", place: "Paris · Le Mans", asset: "/assets/motorsport.webp" },
-  { year: 1958, label: "Volvo PV544", eyebrow: "Segurança em série", title: "Proteger também é avançar", copy: "A Volvo transforma pesquisa de segurança em equipamento cotidiano e ajuda a redefinir o que significa progresso no automóvel.", place: "Gotemburgo", asset: "/assets/technology.webp" },
-  { year: 1963, label: "Porsche 911", eyebrow: "Uma forma persistente", title: "A linhagem encontra sua identidade", copy: "Motor traseiro, silhueta precisa e evolução contínua criam uma família capaz de atravessar décadas sem perder sua origem.", place: "Zuffenhausen", asset: "/assets/vehicles.webp" },
-  { year: 1969, label: "Porsche 917", eyebrow: "Ambição e resistência", title: "A velocidade encontra uma nova forma", copy: "O Porsche 917 transforma ambição, aerodinâmica e resistência em uma nova linguagem para o automobilismo.", place: "Zuffenhausen · Le Mans", asset: "/assets/porsche-917-1969-hero.png" },
-];
+const fallbackStory = {
+  year: 1969,
+  label: "Carregando o acervo",
+  eyebrow: "Documentos canônicos v2",
+  title: "A história está sendo conectada",
+  copy: "O Atlas prepara o capítulo, suas relações e evidências.",
+  place: "Atlas",
+  asset: "/assets/porsche-917-1969-hero.png",
+  claims: [],
+  sources: [],
+  coverageState: "loading",
+};
 
-const milestones = [
-  { year: 1769, label: "Cugnot" }, { year: 1886, label: "Benz" }, { year: 1908, label: "Model T" },
-  { year: 1955, label: "DS · Le Mans" }, { year: 1958, label: "PV544" }, { year: 1963, label: "911" },
-  { year: 1969, label: "917" }, { year: 1997, label: "Prius" }, { year: 2026, label: "Agora" },
+const fixedMilestones = [
+  { year: 1769, label: "Cugnot" },
+  { year: 1997, label: "Prius" },
+  { year: 2026, label: "Agora" },
 ];
-
 const modes = ["História", "Mapa/Globo", "Marcas", "Veículos", "Competições", "Tecnologias"];
+const chapterLayers = ["Narrativa", "Cronologia", "Relações", "Fontes"];
 
-function nearestJourney(year) {
+function publicUrl(path) {
+  const clean = path.startsWith("/") ? path.slice(1) : path;
+  return `${import.meta.env.BASE_URL}${clean}`;
+}
+
+function nearestJourney(year, journeys) {
+  if (!journeys.length) return fallbackStory;
   return journeys.reduce((best, item) => Math.abs(item.year - year) < Math.abs(best.year - year) ? item : best, journeys[0]);
+}
+
+function claimText(claim) {
+  const object = claim.object;
+  if (typeof object === "string" || typeof object === "number") return String(object);
+  if (object?.type === "EntityReference") return object.id;
+  if (object?.value !== undefined) return `${object.value}${object.unit ? ` ${object.unit}` : ""}`;
+  return "Relação documentada no acervo";
+}
+
+function ChapterContent({ layer, story, year }) {
+  if (layer === "Cronologia") {
+    return <div className="chapter-body"><div><p><strong>{story.claims.length} afirmações conectadas</strong></p>{story.claims.length ? story.claims.map((claim) => <p key={claim.id}>{claim.validity?.from || year} · {claimText(claim)}</p>) : <p>O capítulo ainda não possui claims temporais suficientes.</p>}</div></div>;
+  }
+  if (layer === "Relações") {
+    return <div className="chapter-body"><p><strong>{story.record?.name || story.label}</strong> está registrado como {story.record?.type || "história editorial"}, com {story.record?.claimCount || 0} claims e {story.record?.sourceCount || story.sources.length} fontes distintas.</p><blockquote>{story.record?.id || "Conexão editorial em revisão"}</blockquote></div>;
+  }
+  if (layer === "Fontes") {
+    return <div className="chapter-body"><div><p><strong>Fontes recuperáveis</strong></p>{story.sources.length ? story.sources.map((source) => <p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><br /><small>{source.publisher || source.trust}</small></p>) : <p>Nenhuma fonte publicada neste recorte.</p>}</div></div>;
+  }
+  return <div className="chapter-body"><p>Este capítulo combina contexto editorial com os documentos canônicos disponíveis até {year}. A camada carregada registra a entidade, suas afirmações e as evidências recuperáveis.</p><blockquote>“{story.place}” conecta pessoas, técnica, indústria e competição como partes da mesma história.</blockquote></div>;
 }
 
 export function App() {
@@ -26,8 +57,30 @@ export function App() {
   const [mode, setMode] = useState("História");
   const [mapKind, setMapKind] = useState("Mapa");
   const [chapterOpen, setChapterOpen] = useState(false);
+  const [chapterLayer, setChapterLayer] = useState("Narrativa");
   const [discoverOpen, setDiscoverOpen] = useState(false);
-  const story = useMemo(() => nearestJourney(year), [year]);
+  const [journeys, setJourneys] = useState([]);
+  const [bundleState, setBundleState] = useState("loading");
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch(publicUrl("data/v2/journeys.json"), { signal: controller.signal })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Bundle ${response.status}`);
+        return response.json();
+      })
+      .then((payload) => {
+        setJourneys(payload.items);
+        setBundleState(payload.items.every((item) => item.coverageState === "connected") ? "connected" : "partial");
+      })
+      .catch((error) => {
+        if (error.name !== "AbortError") setBundleState("error");
+      });
+    return () => controller.abort();
+  }, []);
+
+  const story = useMemo(() => nearestJourney(year, journeys), [year, journeys]);
+  const milestones = useMemo(() => [...fixedMilestones, ...journeys.map(({ year: itemYear, label }) => ({ year: itemYear, label: label.replace("Porsche ", "").replace("Ford ", "") }))].sort((a, b) => a.year - b.year), [journeys]);
 
   useEffect(() => {
     const onKey = (event) => {
@@ -46,7 +99,7 @@ export function App() {
   };
 
   return (
-    <main className="atlas-shell" style={{ "--hero": `url('${story.asset}')` }}>
+    <main className="atlas-shell" style={{ "--hero": `url('${publicUrl(story.asset)}')` }}>
       <header className="masthead">
         <button className="brand" onClick={() => { setYear(1969); setMode("História"); }} aria-label="Voltar ao prólogo do Atlas">
           <span className="brand-name">ATLAS <i>v2</i></span>
@@ -60,7 +113,7 @@ export function App() {
 
       <section className={`hero mode-${mode.replace("/", "-").toLowerCase()}`}>
         <div className="hero-shade" />
-        <img className="map-trace" src="/assets/zuffenhausen-le-mans-map.png" alt="" />
+        <img className="map-trace" src={publicUrl("assets/zuffenhausen-le-mans-map.png")} alt="" />
         <article className="story-copy" aria-live="polite">
           <p className="story-year">{year}</p>
           <div className="ornament" />
@@ -68,13 +121,13 @@ export function App() {
           <h1>{story.title}</h1>
           <p className="dek">{story.copy}</p>
           <div className="story-actions">
-            <button className="primary" onClick={() => setChapterOpen(true)}>ABRIR CAPÍTULO {year}</button>
+            <button className="primary" onClick={() => { setChapterLayer("Narrativa"); setChapterOpen(true); }}>ABRIR CAPÍTULO {year}</button>
             <button className="secondary" onClick={() => setMode("Mapa/Globo")}>VER NO MAPA HISTÓRICO</button>
           </div>
         </article>
 
         <div className="map-switch" aria-label="Tipo de visualização geográfica">
-          {['Mapa', 'Globo'].map((item) => <button key={item} className={mapKind === item ? "active" : ""} onClick={() => { setMapKind(item); setMode("Mapa/Globo"); }}>{item.toUpperCase()}</button>)}
+          {["Mapa", "Globo"].map((item) => <button key={item} className={mapKind === item ? "active" : ""} onClick={() => { setMapKind(item); setMode("Mapa/Globo"); }}>{item.toUpperCase()}</button>)}
         </div>
 
         {mode !== "História" && (
@@ -91,7 +144,7 @@ export function App() {
         <input aria-label="Selecionar ano" type="range" min="1769" max="2026" value={year} onChange={(event) => setYear(Number(event.target.value))} />
         <output>{year}</output>
         <div className="milestone-row">
-          {milestones.map((item) => <button key={item.year} className={Math.abs(item.year - year) < 2 ? "active" : ""} onClick={() => setYear(item.year)}><strong>{item.year}</strong><span>{item.label}</span></button>)}
+          {milestones.map((item) => <button key={`${item.year}-${item.label}`} className={Math.abs(item.year - year) < 2 ? "active" : ""} onClick={() => setYear(item.year)}><strong>{item.year}</strong><span>{item.label}</span></button>)}
         </div>
       </section>
 
@@ -99,14 +152,11 @@ export function App() {
         <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setChapterOpen(false)}>
           <article className="chapter-modal" role="dialog" aria-modal="true" aria-labelledby="chapter-title">
             <button className="close" onClick={() => setChapterOpen(false)} aria-label="Fechar capítulo">FECHAR</button>
-            <p className="modal-kicker">CAPÍTULO {year} · {story.label}</p>
+            <p className="modal-kicker">CAPÍTULO {year} · {story.label} · ACERVO {bundleState === "connected" ? "CONECTADO" : bundleState.toUpperCase()}</p>
             <h2 id="chapter-title">{story.title}</h2>
             <p className="lead">{story.copy}</p>
-            <div className="chapter-tabs"><button className="active">NARRATIVA</button><button>CRONOLOGIA</button><button>RELAÇÕES</button><button>FONTES</button></div>
-            <div className="chapter-body">
-              <p>Este protótipo demonstra a leitura em camadas: contexto editorial primeiro, entidades e evidências a seguir. Tudo permanece limitado ao conhecimento disponível em {year}.</p>
-              <blockquote>“{story.place}” torna-se um ponto de partida para compreender pessoas, técnica, indústria e competição como partes da mesma história.</blockquote>
-            </div>
+            <div className="chapter-tabs">{chapterLayers.map((layer) => <button key={layer} className={chapterLayer === layer ? "active" : ""} onClick={() => setChapterLayer(layer)}>{layer.toUpperCase()}</button>)}</div>
+            <ChapterContent layer={chapterLayer} story={story} year={year} />
           </article>
         </div>
       )}
@@ -115,9 +165,9 @@ export function App() {
         <div className="modal-backdrop discover" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setDiscoverOpen(false)}>
           <section className="discover-panel" role="dialog" aria-modal="true" aria-label="Central de descoberta">
             <button className="close" onClick={() => setDiscoverOpen(false)}>FECHAR</button>
-            <p className="modal-kicker">SEIS PERCURSOS DO PROTÓTIPO</p>
+            <p className="modal-kicker">SEIS PERCURSOS · DADOS CANÔNICOS V2</p>
             <h2>Onde a história começa?</h2>
-            <div className="journey-list">{journeys.map((item) => <button key={item.label} onClick={() => chooseJourney(item)}><span>{item.year}</span><strong>{item.label}</strong><small>{item.eyebrow}</small></button>)}</div>
+            {bundleState === "error" ? <p role="alert">Não foi possível carregar o acervo. Tente novamente após atualizar a página.</p> : <div className="journey-list">{journeys.map((item) => <button key={item.label} onClick={() => chooseJourney(item)}><span>{item.year}</span><strong>{item.label}</strong><small>{item.eyebrow} · {item.record?.claimCount || 0} claims</small></button>)}</div>}
           </section>
         </div>
       )}

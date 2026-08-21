@@ -1,0 +1,74 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:1955-innovation-and-consequence",
+  "type": "Event",
+  "name": "1955: inovação e consequência",
+  "aliases": ["1955 no automóvel e no automobilismo"],
+  "description": "A estreia do Citroën DS em Paris e a temporada marcada pelo desastre de Le Mans expõem, no mesmo ano, a potência transformadora e a responsabilidade pública da engenharia automotiva.",
+  "metadata": {
+    "editorial_level": "editorial",
+    "editorial_batch": "V2-FOUNDATION",
+    "event_type": "historical-synthesis",
+    "realization_status": "occurred"
+  },
+  "claims": [
+    {
+      "id": "atlas:claim:ds-19-debuted-paris-1955",
+      "type": "Claim",
+      "subject": "atlas:event:1955-innovation-and-consequence",
+      "predicate": "involved",
+      "object": "O DS 19 estreou no Salão do Automóvel de Paris em 6 de outubro de 1955.",
+      "sources": ["atlas:source:ds-70-year-history"],
+      "evidence": ["atlas:evidence:ds-1955-paris-debut"],
+      "confidence": "single-source",
+      "validity": {"from": "1955-10-06", "until": "1955-10-06", "precision": "day"}
+    },
+    {
+      "id": "atlas:claim:le-mans-disaster-1955",
+      "type": "Claim",
+      "subject": "atlas:event:1955-innovation-and-consequence",
+      "predicate": "involved",
+      "object": "O desastre de Le Mans de junho de 1955 matou 83 pessoas, incluindo o piloto de fábrica Pierre Levegh.",
+      "sources": ["atlas:source:mercedes-motorsport-newsletter-2025"],
+      "evidence": ["atlas:evidence:mercedes-le-mans-1955-summary"],
+      "confidence": "single-source",
+      "validity": {"from": "1955-06", "until": "1955-06", "precision": "month"}
+    }
+  ],
+  "sources": [
+    {
+      "id": "atlas:source:ds-70-year-history",
+      "type": "Source",
+      "title": "DS, A 70-Year History",
+      "publisher": "DS Automobiles — Stellantis Media",
+      "url": "https://www.media.stellantis.com/em-en/ds/press/ds-a-70-year-history",
+      "trust": "institutional",
+      "verifiedAt": "2026-08-21"
+    },
+    {
+      "id": "atlas:source:mercedes-motorsport-newsletter-2025",
+      "type": "Source",
+      "title": "Mercedes-Benz Classic Motorsport-Newsletter 1/2025",
+      "publisher": "Mercedes-Benz Media",
+      "url": "https://media.mercedes-benz.com/article/c2365d76-269f-4e1b-acc8-2a626a9f5cdc",
+      "trust": "institutional",
+      "verifiedAt": "2026-08-21"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "atlas:evidence:ds-1955-paris-debut",
+      "type": "Evidence",
+      "source": "atlas:source:ds-70-year-history",
+      "evidenceType": "explicit-statement",
+      "locator": {"section": "1955 Motor Show: The DS makes its debut in Paris"}
+    },
+    {
+      "id": "atlas:evidence:mercedes-le-mans-1955-summary",
+      "type": "Evidence",
+      "source": "atlas:source:mercedes-motorsport-newsletter-2025",
+      "evidenceType": "explicit-statement",
+      "locator": {"section": "1 May 1955 — 70 years ago"}
+    }
+  ]
+}

@@ -10,6 +10,7 @@ output/
 artifacts/preview-root/
 .tmp*/
 .playwright-cli/
+current/atlas-v2-prototype/public/data/v2/
 *.log
 .env
 .env.*

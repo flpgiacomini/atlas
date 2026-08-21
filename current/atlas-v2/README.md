@@ -20,6 +20,9 @@ python scripts/validate_contracts.py
 python scripts/migrate_sqlite.py
 python scripts/validate_migration.py
 python scripts/check_determinism.py
+python scripts/build_bundles.py
+python scripts/validate_bundles.py
+python scripts/check_bundles_determinism.py
 ```
 
 `migrate_sqlite.py` lê o SQLite v1 somente em modo read-only e recria
@@ -35,6 +38,14 @@ fontes, evidências, predicates, redirects ou identificadores legados.
 O resultado atual é um **candidato de migração**. A v1 continua pública e o
 SQLite só poderá ser retirado depois da revisão editorial e do gate formal de
 corte da v2.
+
+## Bundles de publicação
+
+`build_bundles.py` projeta os documentos em `bundles/`, segmentando resumos
+por categoria, período e região. `manifest.json` registra caminho, contagem e
+SHA-256; `journeys.json` conecta os seis percursos aprovados às entidades,
+claims e fontes canônicas. O protótipo sincroniza esses arquivos no build por
+meio de `npm run sync:data`.
 
 O comando valida IDs, referências, fontes, estrutura editorial, geografia e o
 round-trip JSON determinístico dos exemplos.

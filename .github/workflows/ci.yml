@@ -22,6 +22,10 @@ jobs:
       - run: python scripts/validate_migration.py
       - name: Assert deterministic migration
         run: python scripts/check_determinism.py
+      - run: python scripts/build_bundles.py
+      - run: python scripts/validate_bundles.py
+      - name: Assert deterministic bundles
+        run: python scripts/check_bundles_determinism.py
   verify:
     env:
       ASTRO_TELEMETRY_DISABLED: "1"

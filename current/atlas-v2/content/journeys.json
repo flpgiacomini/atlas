@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "journeys": [
+    {
+      "year": 1886,
+      "entity": "atlas:vehicle:benz-patent-motor-car",
+      "label": "Benz Patent-Motorwagen",
+      "eyebrow": "A origem documentada",
+      "title": "A máquina aprende a caminhar",
+      "copy": "Em Mannheim, patente, oficina e demonstração pública se unem para transformar uma experiência mecânica em um novo meio de transporte.",
+      "place": "Mannheim",
+      "asset": "/assets/geography.webp"
+    },
+    {
+      "year": 1908,
+      "entity": "atlas:vehicle:ford-model-t",
+      "label": "Ford Model T",
+      "eyebrow": "Escala e mobilidade",
+      "title": "O automóvel encontra a multidão",
+      "copy": "O Model T reorganiza produto, fábrica e preço. O automóvel deixa de ser exceção e passa a redesenhar trabalho, cidade e distância.",
+      "place": "Detroit",
+      "asset": "/assets/people-industry.webp"
+    },
+    {
+      "year": 1955,
+      "entity": "atlas:event:1955-innovation-and-consequence",
+      "label": "Origens do Motorsport",
+      "eyebrow": "Inovação e consequência",
+      "title": "Um ano, duas verdades",
+      "copy": "A técnica encanta nas ruas e cobra seu preço nas pistas. Desempenho e segurança passam a pertencer à mesma história.",
+      "place": "Paris · Le Mans",
+      "asset": "/assets/motorsport.webp"
+    },
+    {
+      "year": 1958,
+      "entity": "atlas:vehicle:volvo-pv544",
+      "label": "Volvo PV544",
+      "eyebrow": "Segurança em série",
+      "title": "Proteger também é avançar",
+      "copy": "A Volvo transforma pesquisa de segurança em equipamento cotidiano e ajuda a redefinir o que significa progresso no automóvel.",
+      "place": "Gotemburgo",
+      "asset": "/assets/technology.webp"
+    },
+    {
+      "year": 1963,
+      "entity": "atlas:vehicle:porsche-911",
+      "label": "Porsche 911",
+      "eyebrow": "Uma forma persistente",
+      "title": "A linhagem encontra sua identidade",
+      "copy": "Motor traseiro, silhueta precisa e evolução contínua criam uma família capaz de atravessar décadas sem perder sua origem.",
+      "place": "Zuffenhausen",
+      "asset": "/assets/vehicles.webp"
+    },
+    {
+      "year": 1969,
+      "entity": "atlas:vehicle:porsche-917",
+      "label": "Porsche 917",
+      "eyebrow": "Ambição e resistência",
+      "title": "A velocidade encontra uma nova forma",
+      "copy": "O Porsche 917 transforma ambição, aerodinâmica e resistência em uma nova linguagem para o automobilismo.",
+      "place": "Zuffenhausen · Le Mans",
+      "asset": "/assets/porsche-917-1969-hero.png"
+    }
+  ]
+}

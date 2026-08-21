@@ -4,8 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "predev": "npm run sync:data",
     "dev": "vite",
-    "build": "vite build && node scripts/prepare-sites-build.mjs",
+    "sync:data": "node scripts/sync-v2-data.mjs",
+    "build": "npm run sync:data && vite build && node scripts/prepare-sites-build.mjs",
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs"
   },
