@@ -219,6 +219,16 @@
       "continuity": "O nome Maybach deixa de operar como gama autônoma e passa a qualificar a expressão mais exclusiva da linha Mercedes-Benz.",
       "source": {"title":"Daimler Annual Report 2015","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annual-report-2015.pdf","trust":"primary","verifiedAt":"2026-08-21"},
       "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-relation:saab-acquired-by-general-motors-2000",
+      "from": "atlas:brand:saab", "fromLabel": "Saab",
+      "to": "atlas:organization:general-motors", "toLabel": "General Motors",
+      "kind": "acquired-by", "validFrom": "2000", "precision": "year",
+      "label": "General Motors assume integralmente a Saab Automobile",
+      "continuity": "A aquisição integral sucede a participação de 50% iniciada em 1990; a operação automotiva encerra-se em 2011, sem extinguir a Saab AB de defesa.",
+      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
     }
   ]
 }

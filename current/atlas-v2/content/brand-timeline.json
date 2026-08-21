@@ -524,6 +524,97 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:borgward-first-vehicle-1924",
+      "brand": "atlas:brand:borgward",
+      "year": 1924,
+      "precision": "year",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Carl Borgward constrói o Blitzkarren, primeiro veículo de sua linhagem industrial",
+      "source": {"title":"Stadtgeschichte im Überblick","publisher":"Freie Hansestadt Bremen","url":"https://www.bremen.de/tourismus/stadt-leute/geschichte","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:saab-first-car-unveiled-1947",
+      "brand": "atlas:brand:saab",
+      "year": 1947,
+      "date": "1947-06",
+      "precision": "month",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Saab apresenta publicamente seu primeiro automóvel em Linköping",
+      "source": {"title":"The cars: Saab's little green car","publisher":"Saab AB","url":"https://www.saab.com/newsroom/stories/2016/february/the-cars-saabs-little-green-car---a-classic-in-swedens-welfare-state","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:borgward-bankruptcy-1961",
+      "brand": "atlas:brand:borgward",
+      "year": 1961,
+      "precision": "year",
+      "kind": "discontinued",
+      "scope": "operator",
+      "label": "A crise da Borgward termina em falência e encerra sua operação industrial em Bremen",
+      "source": {"title":"Automotive","publisher":"Freie Hansestadt Bremen","url":"https://www.bremen.de/wirtschaft/standortinformationen/automotive","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:delorean-first-production-car-1981",
+      "brand": "atlas:brand:delorean",
+      "year": 1981,
+      "date": "1981-01-18",
+      "precision": "day",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "O primeiro DeLorean de produção é concluído em Dunmurry",
+      "source": {"title":"The First DeLorean — SCEDT26T8BD000500","publisher":"DeLorean Motor Company (Texas)","url":"https://support.delorean.com/kb/a119/the-first-delorean-scedt26t8bd000500.aspx","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:delorean-original-production-ended-1982",
+      "brand": "atlas:brand:delorean",
+      "year": 1982,
+      "date": "1982-12",
+      "precision": "month",
+      "kind": "discontinued",
+      "scope": "operator",
+      "label": "Termina a produção original do DeLorean após dois anos",
+      "source": {"title":"DeLorean Model Years","publisher":"DeLorean Motor Company (Texas)","url":"https://support.delorean.com/kb/a11/delorean-model-years.aspx","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:saab-automobile-separated-gm-stake-1990",
+      "brand": "atlas:brand:saab",
+      "year": 1990,
+      "precision": "year",
+      "kind": "acquired",
+      "scope": "ownership",
+      "label": "Saab Automobile torna-se companhia separada e a GM adquire participação de 50%",
+      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:saab-fully-acquired-gm-2000",
+      "brand": "atlas:brand:saab",
+      "year": 2000,
+      "precision": "year",
+      "kind": "acquired",
+      "scope": "ownership",
+      "label": "General Motors assume integralmente a operação automobilística Saab",
+      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:saab-automobile-bankruptcy-2011",
+      "brand": "atlas:brand:saab",
+      "year": 2011,
+      "precision": "year",
+      "kind": "discontinued",
+      "scope": "operator",
+      "label": "Saab Automobile entra em falência e encerra a atividade automotiva da marca",
+      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:tesla-incorporated-2003",
       "brand": "atlas:brand:tesla",
       "year": 2003,

@@ -1,0 +1,12 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:organization:general-motors",
+  "type": "Organization",
+  "name": "General Motors",
+  "aliases": ["GM", "General Motors Corporation"],
+  "description": "Grupo automotivo norte-americano incorporado por William C. Durant em 1908, estruturado desde a origem como organização multimarcas.",
+  "claims": [],
+  "sources": [{"id":"atlas:source:gm-heritage","type":"Source","title":"GM Heritage: An Iconic Legacy","publisher":"General Motors","url":"https://www.gm.com/heritage","trust":"institutional","verifiedAt":"2026-08-21"}],
+  "evidence": [],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-BRAND-REVIVALS-02","region_cluster":"Américas"}
+}
