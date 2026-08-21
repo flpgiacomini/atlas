@@ -1,0 +1,29 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { normalizeSearch, periodForYear, publicUrl, searchEntities, yearUrl } from "../src/lib/atlas-data.js";
+
+test("normalizes accents and casing", () => {
+  assert.equal(normalizeSearch("  Citroën DS  "), "citroen ds");
+});
+
+test("searches names, aliases and respects selected year", () => {
+  const items = [
+    { id: "1", name: "Citroën DS", aliases: ["DS 19"], type: "Vehicle", region: "França", yearStart: 1955 },
+    { id: "2", name: "Toyota Prius", aliases: [], type: "Vehicle", region: "Japão", yearStart: 1997 },
+  ];
+  assert.deepEqual(searchEntities(items, "citroen", 1960).map((item) => item.id), ["1"]);
+  assert.deepEqual(searchEntities(items, "prius", 1960), []);
+  assert.deepEqual(searchEntities(items, "japao", 2000).map((item) => item.id), ["2"]);
+});
+
+test("maps every boundary year to its publication period", () => {
+  assert.equal(periodForYear(1769), "1769-1885");
+  assert.equal(periodForYear(1886), "1886-1918");
+  assert.equal(periodForYear(1955), "1940-1959");
+  assert.equal(periodForYear(2026), "2020-2026");
+});
+
+test("builds base-aware public and annual URLs", () => {
+  assert.equal(publicUrl("/data/v2/manifest.json", "/atlas/"), "/atlas/data/v2/manifest.json");
+  assert.equal(yearUrl(1969, "/atlas/"), "/atlas/1969/");
+});

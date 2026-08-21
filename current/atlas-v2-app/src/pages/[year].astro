@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AtlasApp from "../ui/AtlasApp.jsx";
+
+export function getStaticPaths() {
+  return Array.from({ length: 258 }, (_, index) => {
+    const year = 1769 + index;
+    return { params: { year: String(year) }, props: { year } };
+  });
+}
+
+const { year } = Astro.props;
+---
+<BaseLayout title={`${year} — Atlas v2`} description={`Capítulo histórico do Atlas para ${year}.`} year={year}>
+  <AtlasApp client:load initialYear={year} />
+</BaseLayout>

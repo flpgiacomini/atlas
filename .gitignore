@@ -11,6 +11,9 @@ artifacts/preview-root/
 .tmp*/
 .playwright-cli/
 current/atlas-v2-prototype/public/data/v2/
+current/atlas-v2-app/public/data/v2/
+current/atlas-v2-app/public/assets/
+.vscode/
 *.log
 .env
 .env.*

@@ -1,0 +1,26 @@
+{
+  "name": "atlas-v2-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:data": "node scripts/sync-content.mjs",
+    "predev": "npm run sync:data",
+    "dev": "astro dev",
+    "prebuild": "npm run sync:data",
+    "build": "astro build",
+    "check": "astro check",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run check && npm test && npm run build && node scripts/validate-dist.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "latest",
+    "astro": "7.2.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "typescript": "6.0.3"
+  }
+}

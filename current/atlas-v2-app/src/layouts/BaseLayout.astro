@@ -1,0 +1,36 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  year?: number;
+}
+
+const {
+  title = "Atlas v2 — História Interativa do Automóvel",
+  description = "Uma experiência histórica contínua sobre automóveis, marcas, tecnologias, competições e lugares, de 1769 a 2026.",
+  year,
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#080907" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {year && <meta name="atlas:year" content={String(year)} />}
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+    <noscript>O Atlas v2 requer JavaScript para sincronizar a timeline e as visualizações. Os metadados e capítulos anuais permanecem prerenderizados.</noscript>
+  </body>
+</html>
