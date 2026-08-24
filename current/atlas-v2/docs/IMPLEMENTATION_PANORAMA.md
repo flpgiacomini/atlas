@@ -166,8 +166,10 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    Model T / 1908, Origens do Motorsport / 1955, Volvo PV544 / 1958,
    Porsche 911 / 1963 e Porsche 917 / 1969 estão completos. Ver
    [`JOURNEYS_CHECKPOINT_16_COMPLETE.md`](JOURNEYS_CHECKPOINT_16_COMPLETE.md).
-3. **CP17 — Inventário cartográfico:** classificar os 258 capítulos e fechar
-   geometria para 100% do subconjunto espacial.
+3. **CP17 — Inventário cartográfico: em andamento.** Os 258 capítulos estão
+   classificados: 98 exigem interação e 160 aceitam representação estática;
+   6/98 interativos têm geometria e 92 permanecem no backlog. Ver
+   [`CARTOGRAPHY_CHECKPOINT_17_INVENTORY.md`](CARTOGRAPHY_CHECKPOINT_17_INVENTORY.md).
 4. **CP18 — Mídia editorial:** manifesto, arquivos locais e licenças por história.
 5. **CP19 — Curadoria canônica:** resolver 522 registros catalográficos.
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
