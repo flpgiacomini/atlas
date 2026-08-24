@@ -1643,5 +1643,237 @@
   "asset": "/assets/people-industry.webp",
   "chapterKind": "continuity"
 }
+    ,
+{
+  "year": 1919,
+  "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
+  "label": "A fábrica volta-se à paz",
+  "eyebrow": "Citroën Type A",
+  "title": "A produção em série chega à Europa",
+  "copy": "A Citroën apresenta o Type A ao grande público e aplica métodos de grande série à produção europeia. Reconversão industrial e automóvel acessível tornam-se a mesma história.",
+  "place": "Paris",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1920,
+  "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
+  "label": "Reconstruir também é motorizar",
+  "eyebrow": "Mercado europeu",
+  "title": "A demanda civil reorganiza a fábrica",
+  "copy": "Em 1920, fábricas reconvertidas procuram compradores civis, enquanto materiais, crédito e estradas ainda carregam as marcas da guerra. O automóvel participa da reconstrução.",
+  "place": "Europa",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1921,
+  "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
+  "label": "A gama popular evolui",
+  "eyebrow": "Citroën B2",
+  "title": "Produzir em série permite suceder modelos",
+  "copy": "O sucesso do Type A abre caminho para o B2. A evolução por uma gama planejada substitui gradualmente a lógica do modelo isolado.",
+  "place": "França",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1922,
+  "entity": "atlas:event:austin-seven-mass-motoring-1922",
+  "label": "Um carro pequeno muda o Reino Unido",
+  "eyebrow": "Austin Seven",
+  "title": "Menos automóvel pode significar mais motoristas",
+  "copy": "O Austin Seven torna dimensões, custo e operação compatíveis com um público britânico mais amplo. O automóvel popular ganha uma referência duradoura.",
+  "place": "Longbridge",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1923,
+  "entity": "atlas:event:first-le-mans-24-hours-1923",
+  "label": "Le Mans transforma duração em prova",
+  "eyebrow": "Primeiras 24 Horas",
+  "title": "Carros de produção enfrentam um dia inteiro",
+  "copy": "A primeira edição das 24 Horas de Le Mans reúne 33 participantes para testar automóveis e equipamentos em corrida. Confiabilidade torna-se espetáculo e método de desenvolvimento.",
+  "place": "Le Mans",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1924,
+  "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
+  "label": "A carroceria torna-se industrial",
+  "eyebrow": "Aço e volume",
+  "title": "A forma do carro entra na fábrica",
+  "copy": "Em 1924, a expansão Citroën e a adoção de carrocerias de aço mostram que produzir em volume exige controlar não só o chassi, mas também a construção da carroceria.",
+  "place": "França",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1925,
+  "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
+  "label": "A escala europeia cresce",
+  "eyebrow": "Citroën em volume",
+  "title": "Dezenas de milhares mudam a paisagem",
+  "copy": "A produção anual da gama Citroën supera 61 mil veículos. O automóvel em série deixa de ser excepcional na Europa e passa a pressionar cidades, estradas e serviços.",
+  "place": "França",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1926,
+  "entity": "atlas:event:end-of-ford-model-t-production",
+  "label": "O sucesso também envelhece",
+  "eyebrow": "Model T no fim do ciclo",
+  "title": "Padronização precisa aceitar mudança",
+  "copy": "Em 1926, o Model T ainda simboliza escala, mas o mercado pede variedade, conforto e atualização. A eficiência de um produto duradouro começa a limitar a adaptação.",
+  "place": "Estados Unidos",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1927,
+  "entity": "atlas:event:end-of-ford-model-t-production",
+  "label": "O Model T encerra sua produção",
+  "eyebrow": "Fim de ciclo e novo circuito",
+  "title": "Um ícone sai; Nürburgring abre",
+  "copy": "A Ford encerra o Model T após transformar o mercado. No mesmo ano, Nürburgring abre como infraestrutura permanente para competição, teste e público.",
+  "place": "Detroit · Nürburg",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1928,
+  "entity": "atlas:event:nurburgring-opening-weekend",
+  "label": "Circuitos aceleram o aprendizado",
+  "eyebrow": "Nürburgring",
+  "title": "A pista liga competição e desenvolvimento",
+  "copy": "Em 1928, circuitos permanentes oferecem repetição, comparação e segurança relativa para testar veículos. A competição ganha uma infraestrutura própria.",
+  "place": "Nürburg",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1929,
+  "entity": "atlas:event:nurburgring-opening-weekend",
+  "label": "A expansão encontra a crise",
+  "eyebrow": "Mercado e competição",
+  "title": "O automóvel entra numa economia instável",
+  "copy": "Em 1929, a indústria já possui escala e segmentação quando a crise financeira rompe crédito e demanda. Sobreviver passa a exigir redução de custos e reposicionamento.",
+  "place": "Mundo industrializado",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1930,
+  "entity": "atlas:event:nurburgring-opening-weekend",
+  "label": "Engenharia sob pressão",
+  "eyebrow": "Depois do choque",
+  "title": "Eficiência deixa de ser opção",
+  "copy": "Em 1930, fabricantes enfrentam queda de mercado e excesso de capacidade. Consumo, preço e racionalização produtiva passam ao centro das decisões.",
+  "place": "Europa · Estados Unidos",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1931,
+  "entity": "atlas:event:nurburgring-opening-weekend",
+  "label": "Forma e função se aproximam",
+  "eyebrow": "Design moderno",
+  "title": "A carroceria começa a enfrentar o ar",
+  "copy": "Em 1931, estudos de forma, velocidade e eficiência aproximam aerodinâmica e desenho industrial. A silhueta do automóvel começa a abandonar volumes herdados da carruagem.",
+  "place": "Europa · Estados Unidos",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1932,
+  "entity": "atlas:event:citroen-traction-avant-presentation",
+  "label": "Conforto vira engenharia",
+  "eyebrow": "Motores e vibração",
+  "title": "Isolar a mecânica muda a experiência",
+  "copy": "Em 1932, suportes de motor mais sofisticados e pesquisas de carroceria mostram que conforto não é ornamento: ele passa a ser projetado no sistema do veículo.",
+  "place": "França",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1933,
+  "entity": "atlas:event:citroen-traction-avant-presentation",
+  "label": "Preparar uma ruptura construtiva",
+  "eyebrow": "Às vésperas da Traction",
+  "title": "Chassi, tração e carroceria serão revistos juntos",
+  "copy": "Em 1933, a busca por menor altura, melhor aproveitamento interno e estabilidade prepara automóveis nos quais arquitetura e carroceria deixam de ser decisões separadas.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1934,
+  "entity": "atlas:event:citroen-traction-avant-presentation",
+  "label": "A Traction Avant reúne as mudanças",
+  "eyebrow": "Citroën e Chrysler",
+  "title": "Arquitetura e aerodinâmica tornam-se produto",
+  "copy": "A Citroën apresenta a Traction Avant com tração dianteira e construção monobloco em grande série; a Chrysler lança o Airflow. Duas respostas distintas aproximam o carro moderno.",
+  "place": "Paris · Detroit",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1935,
+  "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
+  "label": "O A1 prepara uma indústria japonesa",
+  "eyebrow": "Toyoda",
+  "title": "Aprender com referências para criar capacidade própria",
+  "copy": "A Toyoda conclui o protótipo A1. O projeto combina estudo de soluções estrangeiras com a formação de engenharia e produção automotiva no Japão.",
+  "place": "Japão",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1936,
+  "entity": "atlas:event:toyoda-model-aa-debut",
+  "label": "O Model AA chega ao público",
+  "eyebrow": "Toyoda Model AA",
+  "title": "A indústria japonesa apresenta um sedã próprio",
+  "copy": "A Toyoda inicia a produção do Model AA e o apresenta em Nagoya e Tóquio. O automóvel de passageiros passa ao centro de uma estratégia industrial japonesa.",
+  "place": "Nagoya · Tóquio",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1937,
+  "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
+  "label": "A Toyota torna-se empresa",
+  "eyebrow": "Fundação corporativa",
+  "title": "O programa automotivo ganha organização própria",
+  "copy": "A Toyota Motor é estabelecida em 1937. Engenharia, produção, fornecedores e vendas passam a ser organizados como uma empresa automotiva dedicada.",
+  "place": "Japão",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1938,
+  "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
+  "label": "Koromo inicia a produção",
+  "eyebrow": "Fábrica integrada",
+  "title": "Uma nova base industrial entra no mapa",
+  "copy": "A fábrica de Koromo inicia operações. O investimento consolida capacidade produtiva japonesa e cria a base territorial da futura cidade de Toyota.",
+  "place": "Koromo",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1939,
+  "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
+  "label": "A guerra interrompe outra expansão",
+  "eyebrow": "Fim do entre-guerras",
+  "title": "A indústria volta a servir ao conflito",
+  "copy": "Em 1939, a guerra europeia altera mercados, materiais e prioridades industriais. Projetos civis permanecem, mas a produção volta a ser subordinada à mobilização.",
+  "place": "Europa · Ásia",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+}
   ]
 }
