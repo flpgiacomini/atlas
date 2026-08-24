@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:veyron-molsheim-ehra-lessien-2005",
+      "properties": {"entity": "atlas:event:performance-control-and-electric-strategy-2005-2007", "label": "Molsheim–Ehra-Lessien — produção e validação do Veyron", "validity": {"from": "2005", "until": "2005", "precision": "year"}, "precision": "route", "confidence": "approximate", "source": "atlas:source:bugatti-veyron-history", "purpose": "supercar-production-and-test"},
+      "geometry": {"type": "LineString", "coordinates": [[7.492, 48.542], [10.77, 52.59]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:tesla-master-plan-california-2006",
+      "properties": {"entity": "atlas:event:performance-control-and-electric-strategy-2005-2007", "label": "Califórnia — publicação do plano estratégico da Tesla", "validity": {"from": "2006", "until": "2006", "precision": "year"}, "precision": "approximate", "confidence": "verified", "source": "atlas:source:tesla-master-plan-2006", "purpose": "electric-strategy-publication"},
+      "geometry": {"type": "Point", "coordinates": [-122.143, 37.442]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:us-esc-final-rule-2007",
+      "properties": {"entity": "atlas:event:performance-control-and-electric-strategy-2005-2007", "label": "Washington — regra final para controle eletrônico de estabilidade", "validity": {"from": "2007", "until": "2007", "precision": "year"}, "precision": "city", "confidence": "verified", "source": "atlas:source:nhtsa-esc-final-rule", "purpose": "safety-regulation-anchor"},
+      "geometry": {"type": "Point", "coordinates": [-77.0369, 38.9072]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:us-auto-program-detroit-washington-2008-2009",
+      "properties": {"entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009", "label": "Detroit–Washington — crise e programa automotivo federal", "validity": {"from": "2008", "until": "2009", "precision": "range"}, "precision": "route", "confidence": "approximate", "source": "atlas:source:us-treasury-auto-program", "purpose": "industrial-policy-editorial-link"},
+      "geometry": {"type": "LineString", "coordinates": [[-83.0458, 42.3314], [-77.0369, 38.9072]]}
+    }
+  ]
+}

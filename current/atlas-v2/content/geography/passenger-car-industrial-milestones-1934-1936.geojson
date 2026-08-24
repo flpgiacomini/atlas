@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:citroen-traction-avant-paris-1934",
+      "properties": {
+        "entity": "atlas:event:citroen-traction-avant-presentation",
+        "label": "Paris — apresentação do Citroën Traction Avant",
+        "validity": {"from": "1934", "until": "1934", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:citroen-stellantis-citroen-celebrates-90-years-of-the-traction-avant",
+        "purpose": "passenger-car-debut"
+      },
+      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:toyoda-model-aa-nagoya-tokyo-1936",
+      "properties": {
+        "entity": "atlas:event:toyoda-model-aa-debut",
+        "label": "Nagoya–Tóquio — apresentações do Toyoda Model AA",
+        "validity": {"from": "1936", "until": "1936", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota",
+        "purpose": "passenger-car-debut-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[136.9066, 35.1815], [139.6917, 35.6895]]}
+    }
+  ]
+}

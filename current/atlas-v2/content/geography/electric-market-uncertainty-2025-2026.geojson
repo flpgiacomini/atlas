@@ -1,0 +1,7 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type": "Feature", "id": "atlas:geometry:global-electric-market-centres-2025", "properties": {"entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026", "label": "China–Europa–Estados Unidos — mercados elétricos em 2025", "validity": {"from": "2025", "until": "2025", "precision": "year"}, "precision": "approximate", "confidence": "verified", "source": "atlas:source:iea-electric-markets-uncertainty-2026", "purpose": "electric-market-comparison"}, "geometry": {"type": "MultiPoint", "coordinates": [[104.1954, 35.8617], [10.0, 50.0], [-98.5795, 39.8283]]}},
+    {"type": "Feature", "id": "atlas:geometry:global-electric-market-centres-2026", "properties": {"entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026", "label": "China–Europa–Estados Unidos — dados e incerteza em 2026", "validity": {"from": "2026", "until": "2026", "precision": "year"}, "precision": "approximate", "confidence": "verified", "source": "atlas:source:iea-global-ev-outlook-2026", "purpose": "current-electric-market-comparison"}, "geometry": {"type": "MultiPoint", "coordinates": [[104.1954, 35.8617], [10.0, 50.0], [-98.5795, 39.8283]]}}
+  ]
+}

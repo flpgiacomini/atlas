@@ -156,8 +156,8 @@
         "id": { "$ref": "#/$defs/semanticId" },
         "entity": { "$ref": "#/$defs/semanticId" },
         "validity": { "$ref": "#/$defs/interval" },
-        "precision": { "enum": ["entrance", "centroid", "site", "route", "boundary", "approximate"] },
-        "confidence": { "enum": ["verified", "probable", "approximate"] },
+        "precision": { "enum": ["entrance", "centroid", "site", "route", "boundary", "approximate", "city", "locality", "facility", "facility-approximate"] },
+        "confidence": { "enum": ["verified", "probable", "approximate", "high"] },
         "source": { "$ref": "#/$defs/semanticId" }
       }
     }

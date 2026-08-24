@@ -35,7 +35,7 @@
       "properties": {
         "entity": "atlas:event:nurburgring-opening-weekend",
         "label": "Nürburgring — abertura e consolidação do circuito",
-        "validity": {"from": "1927", "until": "1928", "precision": "range"},
+        "validity": {"from": "1927", "until": "1931", "precision": "range"},
         "precision": "facility",
         "confidence": "verified",
         "source": "atlas:source:nurburgring-the-history",

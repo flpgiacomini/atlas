@@ -36,9 +36,14 @@ def audit() -> dict:
 
     geometry_by_entity: dict[str, list[tuple[int, int]]] = {}
     features = 0
+    feature_ids: set[str] = set()
     for path in sorted((ROOT / "content" / "geography").glob("*.geojson")):
         for feature in load(path).get("features", []):
             features += 1
+            feature_id = feature.get("id", "")
+            if feature_id in feature_ids:
+                errors.append(f"{feature_id}: duplicate geometry id")
+            feature_ids.add(feature_id)
             props = feature.get("properties", {})
             entity = props.get("entity", "")
             validity = props.get("validity", {})
@@ -46,6 +51,8 @@ def audit() -> dict:
                 errors.append(f"{feature.get('id')}: incomplete temporal validity")
             start, end = parsed_year(validity.get("from")), parsed_year(validity.get("until"))
             if start is not None and end is not None:
+                if start > end:
+                    errors.append(f"{feature_id}: reversed validity interval")
                 geometry_by_entity.setdefault(entity, []).append((start, end))
             if props.get("precision") not in PRECISIONS:
                 errors.append(f"{feature.get('id')}: invalid precision")
@@ -53,6 +60,9 @@ def audit() -> dict:
                 errors.append(f"{feature.get('id')}: invalid confidence")
             if not props.get("source"):
                 errors.append(f"{feature.get('id')}: missing source")
+            geometry = feature.get("geometry", {})
+            if geometry.get("type") not in {"Point", "MultiPoint", "LineString", "Polygon", "MultiPolygon"} or not geometry.get("coordinates"):
+                errors.append(f"{feature_id}: invalid or empty GeoJSON geometry")
 
     items = inventory.get("items", [])
     for item in items:
@@ -66,13 +76,16 @@ def audit() -> dict:
 
     required = [item for item in items if item.get("mode") == "interactive-required"]
     covered = [item for item in required if item.get("geometryStatus") == "covered"]
+    pending = [item for item in required if item.get("geometryStatus") != "covered"]
+    if pending:
+        errors.append(f"{len(pending)} interactive-required chapters lack temporally valid geometry")
     summary = {
         "chapters": len(items),
         "interactiveRequired": len(required),
         "staticSufficient": sum(item.get("mode") == "static-sufficient" for item in items),
         "notSpatial": sum(item.get("mode") == "not-spatial" for item in items),
         "interactiveCovered": len(covered),
-        "interactivePending": len(required) - len(covered),
+        "interactivePending": len(pending),
         "geographyFeatures": features,
     }
     report = {"version": "1.0.0", "status": "PASS" if not errors else "FAIL", "summary": summary, "errors": errors}

@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:prius-global-rollout-2000",
+      "properties": {"entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004", "label": "Japão–Estados Unidos–Europa — expansão do Prius", "validity": {"from": "2000", "until": "2000", "precision": "year"}, "precision": "route", "confidence": "approximate", "source": "atlas:source:toyota-prius-rollout", "purpose": "hybrid-market-expansion"},
+      "geometry": {"type": "MultiPoint", "coordinates": [[137.156, 35.083], [-118.2437, 34.0522], [4.3517, 50.8503]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:bmw-idrive-munich-2001",
+      "properties": {"entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004", "label": "Munique — introdução do BMW iDrive", "validity": {"from": "2001", "until": "2001", "precision": "year"}, "precision": "city", "confidence": "verified", "source": "atlas:source:bmw-idrive-history", "purpose": "human-machine-interface-launch"},
+      "geometry": {"type": "Point", "coordinates": [11.582, 48.1351]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:porsche-cayenne-production-network-2002",
+      "properties": {"entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004", "label": "Bratislava–Zuffenhausen–Leipzig — rede produtiva do Cayenne", "validity": {"from": "2002", "until": "2002", "precision": "year"}, "precision": "route", "confidence": "verified", "source": "atlas:source:porsche-cayenne-leipzig", "purpose": "distributed-production-network"},
+      "geometry": {"type": "MultiPoint", "coordinates": [[17.1077, 48.1486], [9.177, 48.835], [12.3731, 51.3397]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:prius-second-generation-global-2003",
+      "properties": {"entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004", "label": "Japão e mercados globais — segunda geração do Prius", "validity": {"from": "2003", "until": "2003", "precision": "year"}, "precision": "approximate", "confidence": "verified", "source": "atlas:source:toyota-prius-rollout", "purpose": "hybrid-generation-expansion"},
+      "geometry": {"type": "Point", "coordinates": [137.156, 35.083]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:fiat-panda-tychy-europe-2004",
+      "properties": {"entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004", "label": "Tychy–Europa — difusão do Fiat Panda", "validity": {"from": "2004", "until": "2004", "precision": "year"}, "precision": "city", "confidence": "probable", "source": "atlas:source:fiat-panda-coty-2004", "purpose": "compact-car-production-context"},
+      "geometry": {"type": "Point", "coordinates": [19.0, 50.1372]}
+    }
+  ]
+}

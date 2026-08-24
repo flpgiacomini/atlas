@@ -1443,7 +1443,7 @@
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
       "geometryEntity": "atlas:event:nurburgring-opening-weekend",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Mundo industrializado",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1452,7 +1452,7 @@
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
       "geometryEntity": "atlas:event:nurburgring-opening-weekend",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa · Estados Unidos",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1461,7 +1461,7 @@
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
       "geometryEntity": "atlas:event:nurburgring-opening-weekend",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa · Estados Unidos",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1488,7 +1488,7 @@
     {
       "entity": "atlas:event:citroen-traction-avant-presentation",
       "geometryEntity": "atlas:event:citroen-traction-avant-presentation",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Paris · Detroit",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1506,7 +1506,7 @@
     {
       "entity": "atlas:event:toyoda-model-aa-debut",
       "geometryEntity": "atlas:event:toyoda-model-aa-debut",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Nagoya · Tóquio",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1632,10 +1632,10 @@
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
       "geometryEntity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "geometryStatus": "pending",
-      "mode": "interactive-required",
+      "geometryStatus": "not-required",
+      "mode": "static-sufficient",
       "place": "Europa · Estados Unidos · Japão",
-      "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
+      "rationale": "capítulo de transição cuja evidência espacial material começa em 1951",
       "year": 1950
     },
     {
@@ -1686,10 +1686,10 @@
     {
       "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
       "geometryEntity": "atlas:event:mass-mobility-and-safety-1956-1959",
-      "geometryStatus": "pending",
-      "mode": "interactive-required",
+      "geometryStatus": "not-required",
+      "mode": "static-sufficient",
       "place": "Japão · Europa",
-      "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
+      "rationale": "capítulo de transição cujos marcos espaciais materiais começam em 1957",
       "year": 1956
     },
     {
@@ -1722,10 +1722,10 @@
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
       "geometryEntity": "atlas:event:design-performance-expansion-1960-1965",
-      "geometryStatus": "pending",
-      "mode": "interactive-required",
+      "geometryStatus": "not-required",
+      "mode": "static-sufficient",
       "place": "Europa · Estados Unidos",
-      "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
+      "rationale": "capítulo de transição cuja expansão espacial documentada começa em 1961",
       "year": 1960
     },
     {
@@ -2082,7 +2082,7 @@
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
       "geometryEntity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · Estados Unidos · Europa",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2091,7 +2091,7 @@
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
       "geometryEntity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Munique · mercados globais",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2100,7 +2100,7 @@
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
       "geometryEntity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Leipzig · Bratislava · Zuffenhausen",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2109,7 +2109,7 @@
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
       "geometryEntity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · mercados globais",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2118,7 +2118,7 @@
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
       "geometryEntity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Tychy · Europa",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2127,7 +2127,7 @@
     {
       "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
       "geometryEntity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Molsheim · Ehra-Lessien",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2136,7 +2136,7 @@
     {
       "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
       "geometryEntity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Califórnia · mercado global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2145,7 +2145,7 @@
     {
       "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
       "geometryEntity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · indústria global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2154,7 +2154,7 @@
     {
       "entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
       "geometryEntity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Detroit · Washington · cadeia global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2163,7 +2163,7 @@
     {
       "entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
       "geometryEntity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · Canadá · Itália",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2172,7 +2172,7 @@
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
       "geometryEntity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · América do Norte",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2181,7 +2181,7 @@
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
       "geometryEntity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Munique · Leipzig · cidades globais",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2190,7 +2190,7 @@
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
       "geometryEntity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Fremont · Wolfsburg",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2199,7 +2199,7 @@
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
       "geometryEntity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Leipzig · mercados urbanos",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2208,7 +2208,7 @@
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
       "geometryEntity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Wolfsburg · Europa",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2217,7 +2217,7 @@
     {
       "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
       "geometryEntity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · Alemanha · mercado global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2226,7 +2226,7 @@
     {
       "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
       "geometryEntity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Michigan · Estados Unidos",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2235,7 +2235,7 @@
     {
       "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
       "geometryEntity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Fremont · Nevada · mercado global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2253,7 +2253,7 @@
     {
       "entity": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
       "geometryEntity": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Frankfurt · Zwickau · Wolfsburg",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2262,7 +2262,7 @@
     {
       "entity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
       "geometryEntity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Mundo · fábricas e cadeias logísticas",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2271,7 +2271,7 @@
     {
       "entity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
       "geometryEntity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "China · Europa · Estados Unidos",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2289,7 +2289,7 @@
     {
       "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
       "geometryEntity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "China · Europa · Estados Unidos · mercados emergentes",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -2298,7 +2298,7 @@
     {
       "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
       "geometryEntity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "China · União Europeia · mercado global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2307,7 +2307,7 @@
     {
       "entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
       "geometryEntity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Mundo · liderança chinesa",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -2316,7 +2316,7 @@
     {
       "entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
       "geometryEntity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Mundo · dados do primeiro semestre",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -2330,11 +2330,11 @@
   },
   "summary": {
     "chapters": 258,
-    "interactiveCovered": 66,
-    "interactivePending": 32,
-    "interactiveRequired": 98,
+    "interactiveCovered": 95,
+    "interactivePending": 0,
+    "interactiveRequired": 95,
     "notSpatial": 0,
-    "staticSufficient": 160
+    "staticSufficient": 163
   },
   "version": "1.0.0"
 }

@@ -14,6 +14,11 @@ BROAD_CONTEXTS = {
     "Japão", "Mundo", "Mundo industrializado", "Indústria global",
     "União Europeia", "Coreia do Sul",
 }
+STATIC_OVERRIDES = {
+    1950: "capítulo de transição cuja evidência espacial material começa em 1951",
+    1956: "capítulo de transição cujos marcos espaciais materiais começam em 1957",
+    1960: "capítulo de transição cuja expansão espacial documentada começa em 1961",
+}
 
 
 def load(path: Path):
@@ -43,6 +48,8 @@ def classify(chapter: dict, journey_years: set[int]) -> tuple[str, str]:
     asset = chapter["asset"]
     if chapter["year"] in journey_years:
         return "interactive-required", "percurso editorial obrigatório sincronizado ao ano global"
+    if chapter["year"] in STATIC_OVERRIDES:
+        return "static-sufficient", STATIC_OVERRIDES[chapter["year"]]
     if asset.endswith("geography.webp"):
         return "interactive-required", "capítulo explicitamente estruturado pela geografia"
     if asset.endswith("motorsport.webp"):
