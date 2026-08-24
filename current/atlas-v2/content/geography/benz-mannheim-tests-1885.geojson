@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:benz-mannheim-tests-1885",
+      "properties": {
+        "entity": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+        "label": "Mannheim — desenvolvimento do Patent-Motorwagen",
+        "validity": {"from": "1885", "until": "1885", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8",
+        "purpose": "vehicle-development-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [8.466, 49.487]}
+    }
+  ]
+}

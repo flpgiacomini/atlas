@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:great-britain-locomotive-act-1865-1896",
+      "properties": {
+        "entity": "atlas:event:locomotive-act-1865-regime",
+        "label": "Grã-Bretanha — âmbito do Locomotives Act",
+        "validity": {"from": "1865", "until": "1896", "precision": "range"},
+        "precision": "approximate",
+        "confidence": "verified",
+        "source": "atlas:source:uk-legislation-locomotives-act-1865",
+        "purpose": "legislative-jurisdiction-anchor"
+      },
+      "geometry": {"type": "Point", "coordinates": [-2.5, 54.5]}
+    }
+  ]
+}

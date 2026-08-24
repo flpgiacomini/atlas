@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:trevithick-cornwall-road-locomotives-1801-1803",
+      "properties": {
+        "entity": "atlas:vehicle:puffing-devil",
+        "label": "Cornualha — locomotivas rodoviárias de Trevithick",
+        "validity": {"from": "1801", "until": "1803", "precision": "range"},
+        "precision": "approximate",
+        "confidence": "probable",
+        "source": "atlas:source:science-museum-group-collection-richard-trevithick",
+        "purpose": "road-locomotive-development"
+      },
+      "geometry": {"type": "Point", "coordinates": [-5.297, 50.213]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:trevithick-london-demonstration-1808",
+      "properties": {
+        "entity": "atlas:vehicle:puffing-devil",
+        "label": "Londres — demonstração de Catch Me Who Can",
+        "validity": {"from": "1808", "until": "1808", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:science-museum-group-collection-richard-trevithick",
+        "purpose": "later-public-demonstration"
+      },
+      "geometry": {"type": "Point", "coordinates": [-0.1276, 51.5072]}
+    }
+  ]
+}

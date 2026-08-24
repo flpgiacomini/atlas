@@ -3,7 +3,7 @@
     {
       "entity": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
       "geometryEntity": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Paris",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -12,7 +12,7 @@
     {
       "entity": "atlas:event:fardier-full-scale-tests-1770",
       "geometryEntity": "atlas:event:fardier-full-scale-tests-1770",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Vanves",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -291,7 +291,7 @@
     {
       "entity": "atlas:vehicle:puffing-devil",
       "geometryEntity": "atlas:vehicle:puffing-devil",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Camborne",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -345,7 +345,7 @@
     {
       "entity": "atlas:event:viagem-de-lobeissante-a-paris",
       "geometryEntity": "atlas:event:viagem-de-lobeissante-a-paris",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Le Mans · Paris",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -372,7 +372,7 @@
     {
       "entity": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
       "geometryEntity": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Mannheim",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -381,7 +381,7 @@
     {
       "entity": "atlas:vehicle:puffing-devil",
       "geometryEntity": "atlas:vehicle:puffing-devil",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Cornualha · Londres",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -912,7 +912,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Reino Unido",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -921,7 +921,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Reino Unido",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -930,7 +930,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Reino Unido",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -939,7 +939,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Reino Unido",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -948,7 +948,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Reino Unido",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -957,7 +957,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Reino Unido",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -966,7 +966,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Reino Unido",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -975,7 +975,7 @@
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
       "geometryEntity": "atlas:event:locomotive-act-1865-regime",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -993,7 +993,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Manchester · Colônia",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1002,7 +1002,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Manchester",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1011,7 +1011,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Europa",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1020,7 +1020,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Manchester",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1029,7 +1029,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Manchester",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1038,7 +1038,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Openshaw · Manchester",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -2330,8 +2330,8 @@
   },
   "summary": {
     "chapters": 258,
-    "interactiveCovered": 6,
-    "interactivePending": 92,
+    "interactiveCovered": 15,
+    "interactivePending": 83,
     "interactiveRequired": 98,
     "notSpatial": 0,
     "staticSufficient": 160

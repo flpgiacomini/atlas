@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:otto-crossley-manchester-cologne-1869-1876",
+      "properties": {
+        "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+        "label": "Colônia–Manchester — transferência de direitos industriais",
+        "validity": {"from": "1869", "until": "1876", "precision": "range"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:science-museum-group-crossley-brothers",
+        "purpose": "technology-rights-transfer"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[6.9603, 50.9375], [-2.2426, 53.4808]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:crossley-openshaw-pottery-lane-1882",
+      "properties": {
+        "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+        "label": "Pottery Lane, Openshaw — novas instalações da Crossley",
+        "validity": {"from": "1882", "until": "1882", "precision": "year"},
+        "precision": "approximate",
+        "confidence": "verified",
+        "source": "atlas:source:science-museum-group-crossley-limited",
+        "purpose": "factory-relocation"
+      },
+      "geometry": {"type": "Point", "coordinates": [-2.17, 53.47]}
+    }
+  ]
+}

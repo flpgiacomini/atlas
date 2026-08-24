@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:cugnot-paris-1769",
+      "properties": {
+        "entity": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+        "label": "Paris — contexto do primeiro fardier",
+        "validity": {"from": "1769", "until": "1769", "precision": "year"},
+        "precision": "city",
+        "confidence": "approximate",
+        "source": "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot",
+        "purpose": "development-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:cugnot-vanves-1770",
+      "properties": {
+        "entity": "atlas:event:fardier-full-scale-tests-1770",
+        "label": "Vanves — ensaios em escala real",
+        "validity": {"from": "1770", "until": "1770", "precision": "year"},
+        "precision": "city",
+        "confidence": "approximate",
+        "source": "atlas:source:arts-et-metiers-fardier-cugnot-1770-1771",
+        "purpose": "full-scale-test-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [2.2945, 48.8224]}
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:obeissante-le-mans-paris-1875",
+      "properties": {
+        "entity": "atlas:event:viagem-de-lobeissante-a-paris",
+        "label": "Viagem de L'Obéissante: Le Mans–Paris",
+        "validity": {"from": "1875", "until": "1875", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:musee-des-24-heures-du-mans-l-obeissante-voiture-a-vapeur-d-amedee-bollee",
+        "purpose": "documented-journey-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[0.1996, 48.0061], [2.3522, 48.8566]]}
+    }
+  ]
+}

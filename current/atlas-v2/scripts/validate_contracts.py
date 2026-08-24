@@ -99,6 +99,12 @@ def main() -> None:
     geography = sorted((ROOT / "content/geography").glob("*.geojson"))
     for path in entities:
         known.update(validate_entity(path))
+    for path in sorted((ROOT / "migration/entities").glob("*.jsonld")):
+        document = canonical_roundtrip(path)
+        known.add(require_semantic_id(document.get("id"), f"{path}:id"))
+    for registry in (ROOT / "migration/sources.jsonld", ROOT / "migration/evidence.jsonld"):
+        for item in canonical_roundtrip(registry).get("items", []):
+            known.add(require_semantic_id(item.get("id"), f"{registry}:id"))
     for path in stories:
         parse_frontmatter(path)
     for path in geography:
