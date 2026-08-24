@@ -129,6 +129,22 @@ def build(output: Path) -> dict:
     dump(temp / "journeys.json", {"version": "2.0.0", "count": len(journey_items), "items": journey_items})
     files.append({"path": "journeys.json", "kind": "journeys", "key": "required-six", "count": len(journey_items)})
 
+    annual_config = load(ROOT / "content/annual-chapters.json")
+    annual_items = []
+    for chapter in annual_config["chapters"]:
+        entity = by_id.get(chapter["entity"])
+        source_ids = sorted({source for claim in entity.get("claims", []) for source in claim.get("sources", [])})
+        annual_items.append({
+            **chapter,
+            "record": summary(entity),
+            "claims": entity.get("claims", []),
+            "sources": [source_by_id[source] for source in source_ids],
+            "coverageState": "authored",
+        })
+    annual_items.sort(key=lambda item: item["year"])
+    dump(temp / "annual-chapters.json", {"version": annual_config["version"], "count": len(annual_items), "items": annual_items})
+    files.append({"path": "annual-chapters.json", "kind": "annual-chapters", "key": "exact-year", "count": len(annual_items)})
+
     brand_timeline = load(ROOT / "content/brand-timeline.json")
     milestones = sorted(brand_timeline["milestones"], key=lambda item: (item["year"], item["id"]))
     dump(temp / "brand-timeline.json", {"version": brand_timeline["version"], "count": len(milestones), "items": milestones})

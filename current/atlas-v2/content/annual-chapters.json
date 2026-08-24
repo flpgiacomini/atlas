@@ -1,0 +1,115 @@
+{
+  "version": "2.0.0",
+  "chapters": [
+    {
+      "year": 1769,
+      "entity": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
+      "label": "Cugnot e o fardier",
+      "eyebrow": "Antes do automóvel",
+      "title": "Uma máquina pesada começa a se mover",
+      "copy": "O fardier de Nicolas-Joseph Cugnot aplica o vapor à tração rodoviária para uma finalidade militar. Não é ainda o automóvel de passageiros, mas torna concreta a ideia de um veículo que leva consigo sua própria força motriz.",
+      "place": "Paris",
+      "asset": "/assets/geography.webp"
+    },
+    {
+      "year": 1801,
+      "entity": "atlas:vehicle:puffing-devil",
+      "label": "Puffing Devil",
+      "eyebrow": "Vapor de alta pressão",
+      "title": "Potência e massa mudam de proporção",
+      "copy": "Richard Trevithick experimenta em Camborne um veículo rodoviário movido por vapor de alta pressão. A máquina demonstra uma solução mais compacta, embora autonomia, operação e pavimento ainda impeçam uma adoção estável.",
+      "place": "Camborne",
+      "asset": "/assets/technology.webp"
+    },
+    {
+      "year": 1803,
+      "entity": "atlas:vehicle:london-steam-carriage",
+      "label": "London Steam Carriage",
+      "eyebrow": "A experiência chega à cidade",
+      "title": "O vapor encontra as ruas de Londres",
+      "copy": "A carruagem de Trevithick leva a propulsão de alta pressão ao ambiente urbano. O ensaio evidencia capacidade técnica e, ao mesmo tempo, o custo de operar uma máquina complexa em ruas e economias ainda organizadas para cavalos.",
+      "place": "Londres",
+      "asset": "/assets/people-industry.webp"
+    },
+    {
+      "year": 1807,
+      "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+      "label": "Experiência de Rivaz",
+      "eyebrow": "Combustão fora do vapor",
+      "title": "Outra fonte de movimento entra em cena",
+      "copy": "François Isaac de Rivaz associa sua patente de motor por explosão de gases a uma experiência veicular. O episódio amplia a genealogia do automóvel: vapor e combustão interna passam a coexistir como caminhos ainda incertos.",
+      "place": "Valais",
+      "asset": "/assets/technology.webp"
+    },
+    {
+      "year": 1862,
+      "entity": "atlas:technology:ciclo-de-quatro-tempos",
+      "label": "Formulação do ciclo de quatro tempos",
+      "eyebrow": "A teoria organiza o motor",
+      "title": "Quatro movimentos para uma nova eficiência",
+      "copy": "Alphonse Beau de Rochas formula princípios do ciclo de quatro tempos. A história precisa separar formulação, realização prática e exploração comercial: o motor moderno resulta de contribuições sucessivas, não de um único instante fundador.",
+      "place": "França",
+      "asset": "/assets/technology.webp"
+    },
+    {
+      "year": 1863,
+      "entity": "atlas:vehicle:hippomobile-de-lenoir",
+      "label": "Hippomobile de Lenoir",
+      "eyebrow": "Do motor estacionário à estrada",
+      "title": "A combustão interna tenta viajar",
+      "copy": "Étienne Lenoir adapta seu motor comercial a um veículo experimental. A experiência é limitada, mas aproxima duas histórias que ainda corriam separadas: a do motor de combustão e a da carruagem sem cavalos.",
+      "place": "Paris",
+      "asset": "/assets/vehicles.webp"
+    },
+    {
+      "year": 1873,
+      "entity": "atlas:vehicle:lobeissante",
+      "label": "L’Obéissante",
+      "eyebrow": "Escala para passageiros",
+      "title": "O veículo rodoviário cresce",
+      "copy": "Amédée Bollée constrói L’Obéissante, um grande veículo a vapor capaz de transportar passageiros. Sua escala desloca a narrativa dos pequenos experimentos e antecipa questões de capacidade, controle e convivência com a estrada.",
+      "place": "Le Mans",
+      "asset": "/assets/vehicles.webp"
+    },
+    {
+      "year": 1875,
+      "entity": "atlas:event:viagem-de-lobeissante-a-paris",
+      "label": "Le Mans–Paris",
+      "eyebrow": "A demonstração torna-se viagem",
+      "title": "Duzentos quilômetros expõem possibilidades e limites",
+      "copy": "A viagem pública de L’Obéissante entre Le Mans e Paris demonstra alcance rodoviário para passageiros. Autorizações, paradas e operação tornam visível que mobilidade é também uma questão de regras e infraestrutura.",
+      "place": "Le Mans · Paris",
+      "asset": "/assets/geography.webp"
+    },
+    {
+      "year": 1878,
+      "entity": "atlas:technology:ciclo-de-dois-tempos",
+      "label": "Ciclo de dois tempos",
+      "eyebrow": "Uma arquitetura alternativa",
+      "title": "O motor procura simplicidade",
+      "copy": "O desenvolvimento associado a Dugald Clerk consolida uma alternativa de dois tempos. A solução seguirá uma trajetória própria em veículos leves, motocicletas e aplicações nas quais simplicidade e relação potência-peso importam.",
+      "place": "Reino Unido",
+      "asset": "/assets/technology.webp"
+    },
+    {
+      "year": 1884,
+      "entity": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
+      "label": "Delamare-Deboutteville–Malandin",
+      "eyebrow": "Prioridades em disputa",
+      "title": "A patente registra uma convergência francesa",
+      "copy": "Édouard Delamare-Deboutteville e Léon Malandin associam motor a combustível líquido e veículo em uma patente francesa. O Atlas preserva o caso como reivindicação documentada, sem transformar prioridade nacional em consenso mundial.",
+      "place": "Fontaine-le-Bourg",
+      "asset": "/assets/vehicles.webp"
+    },
+    {
+      "year": 1885,
+      "entity": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+      "label": "Ensaios do Benz Patent-Motorwagen",
+      "eyebrow": "Às vésperas da patente",
+      "title": "O experimento assume forma de sistema",
+      "copy": "Carl Benz testa em Mannheim um veículo concebido em torno do motor, e não apenas uma carruagem adaptada. Os ensaios de 1885 preparam a patente de 1886 e conectam oficina, engenharia e futura demonstração pública.",
+      "place": "Mannheim",
+      "asset": "/assets/geography.webp"
+    }
+  ]
+}

@@ -20,6 +20,7 @@ def validate(root: Path) -> dict:
     manifest = load(root / "manifest.json")
     index = load(root / "index.json")
     journeys = load(root / "journeys.json")
+    annual = load(root / "annual-chapters.json")
     if manifest["entityCount"] != index["count"] or index["count"] < 920:
         raise ValueError("entity index does not cover the migrated corpus")
     ids = [item["id"] for item in index["items"]]
@@ -38,9 +39,15 @@ def validate(root: Path) -> dict:
         raise ValueError(f"period coverage mismatch: {sorted(period_keys)}")
     if journeys["count"] != 6 or any(item["coverageState"] != "connected" for item in journeys["items"]):
         raise ValueError("six required journeys must be connected")
+    annual_years = [item["year"] for item in annual["items"]]
+    if annual["count"] < 11 or len(annual_years) != len(set(annual_years)):
+        raise ValueError("annual chapters must be unique and cover the precursor anchors")
+    if any(item["coverageState"] != "authored" or not item.get("sources") for item in annual["items"]):
+        raise ValueError("annual chapters must be authored and source-backed")
     return {
         "status": "PASS", "entities": index["count"], "bundles": len(manifest["files"]),
         "periods": len(period_keys), "journeys": journeys["count"],
+        "annualChapters": annual["count"],
         "undated": next(item["count"] for item in manifest["files"] if item["kind"] == "period" and item["key"] == "undated"),
     }
 
