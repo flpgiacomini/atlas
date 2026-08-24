@@ -84,13 +84,16 @@ def audit() -> dict:
         if entity is None:
             errors.append(f"{chapter_year}: unresolved entity {chapter.get('entity')}")
             continue
-        temporal_entity = entities.get(chapter.get("temporalContext"), entity)
-        if temporal_entity is None:
-            errors.append(f"{chapter_year}: unresolved temporal context {chapter.get('temporalContext')}")
+        context_value = chapter.get("temporalContext")
+        context_ids = context_value if isinstance(context_value, list) else [context_value]
+        context_ids = [item for item in context_ids if item is not None]
+        temporal_entities = [entities.get(item) for item in context_ids] or [entity]
+        if any(item is None for item in temporal_entities):
+            errors.append(f"{chapter_year}: unresolved temporal context {context_value}")
             continue
         claims = entity.get("claims", [])
-        temporal_claims = temporal_entity.get("claims", [])
-        support_claims = claims + ([] if temporal_entity is entity else temporal_claims)
+        temporal_claims = [claim for item in temporal_entities for claim in item.get("claims", [])]
+        support_claims = claims + ([] if temporal_entities == [entity] else temporal_claims)
         source_ids = {ref for claim in support_claims for ref in claim.get("sources", [])}
         evidence_ids = {ref for claim in support_claims for ref in claim.get("evidence", [])}
         chapter_source_counts.append(len(source_ids))
@@ -149,6 +152,8 @@ def audit() -> dict:
         errors.append("annual publication must contain exactly 258 chapters from 1769 to 2026")
     if asset_missing:
         errors.append(f"{len(asset_missing)} chapter assets are missing")
+    if temporal_gaps:
+        errors.append(f"{len(temporal_gaps)} chapters lack canonical temporal support")
 
     manifest_candidates = [
         ROOT / "content" / "media-manifest.json",

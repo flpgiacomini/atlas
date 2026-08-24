@@ -12,7 +12,7 @@ os 920 registros da v1; 47 entidades editoriais adicionais foram incorporadas,
 com uma sobreposição de identidade resolvida no índice final.
 
 A cobertura anual ainda não equivale à completude histórica. A auditoria atual
-confirma 226 capítulos com suporte temporal canônico e aponta 32 para alinhamento
+confirma 258 capítulos com suporte temporal canônico e nenhum gap de alinhamento
 de claims. Os capítulos usam seis ativos visuais de apresentação, somente uma
 geometria temporal está publicada e não há manifesto licenciado de mídia por
 história. A v2 permanece paralela à v1 e não está autorizada para o corte.
@@ -23,9 +23,9 @@ história. A v2 permanece paralela à v1 e não está autorizada para o corte.
 - Entidades no índice: 966 (444 editoriais e 522 catalográficas).
 - Entidades referenciadas pelos capítulos: 88.
 - Capítulos com claim no ano exato: 133/258.
-- Capítulos com continuidade entre marcos documentados: 49/258.
-- Capítulos com suporte temporal total: 226/258.
-- Capítulos a alinhar temporalmente: 32/258.
+- Capítulos com continuidade entre marcos documentados: 81/258.
+- Capítulos com suporte temporal total: 258/258.
+- Capítulos a alinhar temporalmente: 0/258.
 - Capítulos com arquivo visual existente: 258/258; ativos únicos: 6.
 - Capítulos ligados à geometria publicada: 1/258; inventário espacial pendente: 257.
 - Marcos de marcas: 46; relações corporativas temporais: 17.
@@ -61,7 +61,7 @@ Checkpoint de saída: cada entidade catalográfica com decisão versionada —
 aprofundar, manter como contexto, fundir ou retirar — e justificativa/fonte ao
 ser promovida.
 
-Próximo lote: entidades necessárias aos 32 gaps temporais e aos seis percursos.
+Próximo lote: entidades necessárias aos seis percursos completos.
 
 ## Fase 3 — Núcleo da experiência temporal
 
@@ -103,7 +103,7 @@ Restante: classificar os 258 capítulos e cartografar os seis percursos primeiro
 
 ## Fase 6 — Expansão editorial anual
 
-Estado: **cobertura estrutural concluída; evidência em alinhamento**.
+Estado: **cobertura e gate temporal concluídos; revisão semântica em andamento**.
 
 Entregue: 258/258 capítulos com título, narrativa, fontes, entidades e navegação
 contínua. O capítulo de 2026 distingue fatos confirmados de projeções.
@@ -111,8 +111,8 @@ contínua. O capítulo de 2026 distingue fatos confirmados de projeções.
 Checkpoint de saída: 258/258 capítulos com afirmação recuperável no ano ou
 intervalo correspondente, conflitos preservados e sem extrapolação não marcada.
 
-Restante: resolver 32 gaps, aprofundar anos de baixa densidade e revisar a
-correspondência narrativa–evidência bloco a bloco.
+Restante: aprofundar anos de baixa densidade e revisar a correspondência
+narrativa–evidência bloco a bloco.
 
 ## Fase 7 — Mídia e direção visual
 
@@ -156,7 +156,7 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 
 ## Caminho crítico e checkpoints seguintes
 
-1. **CP15 — Evidência temporal:** fechar os 32 gaps restantes e alcançar 258/258.
+1. **CP15 — Evidência temporal: concluído**, com 258/258 e zero gaps.
 2. **CP16 — Seis percursos completos:** narrativa, mídia, geometria e modos.
 3. **CP17 — Inventário cartográfico:** classificar os 258 capítulos e fechar
    geometria para 100% do subconjunto espacial.
@@ -165,6 +165,6 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
-O caminho crítico é evidência temporal → seis percursos → cartografia e mídia →
-QA. A infraestrutura publica; falta converter cobertura ampla em história
+O caminho crítico agora é seis percursos → cartografia e mídia → QA. A
+infraestrutura publica; falta converter cobertura ampla em história
 verificável, visualmente específica e espacialmente coerente.
