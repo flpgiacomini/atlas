@@ -2,14 +2,14 @@
   "errors": [],
   "items": [
     {
-      "authoredStory": false,
+      "authoredStory": true,
       "canonicalEvidence": true,
-      "complete": false,
+      "complete": true,
       "entity": "atlas:vehicle:benz-patent-motor-car",
       "label": "Benz Patent-Motorwagen",
-      "licensedMedia": 0,
+      "licensedMedia": 1,
       "presentationAsset": true,
-      "temporalGeography": false,
+      "temporalGeography": true,
       "year": 1886
     },
     {
@@ -68,15 +68,15 @@
       "year": 1969
     }
   ],
-  "reportSha256": "3ed0fa955d8e16e0902c74573283367d9a8c31be22fe85b2ace90fb03cd1279a",
+  "reportSha256": "812931ff2fdcc33a03e46dcb535cc00ce40f35041040d7a9b1315841889da3fe",
   "status": "PASS",
   "summary": {
-    "authoredStories": 2,
+    "authoredStories": 3,
     "canonicalEvidence": 6,
-    "completeJourneys": 2,
+    "completeJourneys": 3,
     "journeys": 6,
-    "journeysWithLicensedMedia": 2,
-    "journeysWithTemporalGeography": 2,
+    "journeysWithLicensedMedia": 3,
+    "journeysWithTemporalGeography": 3,
     "presentationAssets": 6
   },
   "version": "1.0.0"

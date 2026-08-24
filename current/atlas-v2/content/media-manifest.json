@@ -45,6 +45,21 @@
       "verifiedAt": "2026-08-24",
       "nature": "illustrative",
       "historicalDocument": false
+    },
+    {
+      "id": "atlas:media:benz-patent-motorwagen-1886-editorial-hero",
+      "journeyEntity": "atlas:vehicle:benz-patent-motor-car",
+      "file": "/assets/benz-patent-motorwagen-1886-editorial.png",
+      "mediaType": "illustration",
+      "author": "Projeto Atlas com geração assistida por IA",
+      "originalSource": "Produção editorial original do Atlas; não deriva de fotografia histórica específica",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração editorial original: Projeto Atlas, CC BY 4.0",
+      "alt": "Ilustração editorial do Benz Patent-Motorwagen, um veículo aberto de três rodas, deixando uma oficina diante de observadores em uma rua de Mannheim em 1886.",
+      "verifiedAt": "2026-08-24",
+      "nature": "illustrative",
+      "historicalDocument": false
     }
   ]
 }

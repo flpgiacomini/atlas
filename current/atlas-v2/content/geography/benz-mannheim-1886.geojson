@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:benz-mannheim-1886",
+      "properties": {
+        "entity": "atlas:vehicle:benz-patent-motor-car",
+        "label": "Mannheim",
+        "validity": { "from": "1885", "until": "1888", "precision": "year" },
+        "precision": "city",
+        "confidence": "high",
+        "source": "atlas:source:mercedes-benz-first-automobile-1885-1886",
+        "purpose": "development-and-public-outing"
+      },
+      "geometry": { "type": "Point", "coordinates": [8.466, 49.488] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:bertha-benz-mannheim-pforzheim-1888",
+      "properties": {
+        "entity": "atlas:vehicle:benz-patent-motor-car",
+        "label": "Viagem Mannheim–Pforzheim",
+        "validity": { "from": "1888-08", "until": "1888-08", "precision": "month" },
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:mercedes-benz-first-automobile-1885-1886",
+        "purpose": "editorial-route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[8.466, 49.488], [8.598, 49.320], [8.472, 49.002], [8.404, 48.891]]
+      }
+    }
+  ]
+}
