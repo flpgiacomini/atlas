@@ -13,14 +13,14 @@
       "year": 1886
     },
     {
-      "authoredStory": false,
+      "authoredStory": true,
       "canonicalEvidence": true,
-      "complete": false,
+      "complete": true,
       "entity": "atlas:vehicle:ford-model-t",
       "label": "Ford Model T",
-      "licensedMedia": 0,
+      "licensedMedia": 1,
       "presentationAsset": true,
-      "temporalGeography": false,
+      "temporalGeography": true,
       "year": 1908
     },
     {
@@ -68,15 +68,15 @@
       "year": 1969
     }
   ],
-  "reportSha256": "812931ff2fdcc33a03e46dcb535cc00ce40f35041040d7a9b1315841889da3fe",
+  "reportSha256": "864bf204d8f4ade9b8e1468207de974690e3d70e944ea8e49f1069f6a1a10367",
   "status": "PASS",
   "summary": {
-    "authoredStories": 3,
+    "authoredStories": 4,
     "canonicalEvidence": 6,
-    "completeJourneys": 3,
+    "completeJourneys": 4,
     "journeys": 6,
-    "journeysWithLicensedMedia": 3,
-    "journeysWithTemporalGeography": 3,
+    "journeysWithLicensedMedia": 4,
+    "journeysWithTemporalGeography": 4,
     "presentationAssets": 6
   },
   "version": "1.0.0"

@@ -1,0 +1,70 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:vehicle:ford-model-t",
+  "type": "Vehicle",
+  "name": "Ford Model T",
+  "aliases": ["Model T", "Tin Lizzie", "Ford T"],
+  "description": "Automóvel produzido pela Ford entre 1908 e 1927. Desenvolvido e inicialmente fabricado em Piquette Avenue, combinou construção resistente, operação simples e materiais como aço vanádio; posteriormente tornou-se o principal produto do sistema de produção em massa de Highland Park.",
+  "claims": [
+    {
+      "id": "atlas:claim:first-model-t-assembled-1908-09-27", "type": "Claim",
+      "subject": "atlas:vehicle:ford-model-t", "predicate": "completed-on",
+      "object": {"type":"date","value":"1908-09-27","precision":"day"},
+      "sources": ["atlas:source:henry-ford-first-model-t-production-card"],
+      "evidence": ["atlas:evidence:first-model-t-production-card"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:first-model-t-customer-shipment-1908-10-01", "type": "Claim",
+      "subject": "atlas:vehicle:ford-model-t", "predicate": "delivered-on",
+      "object": {"type":"date","value":"1908-10-01","precision":"day"},
+      "sources": ["atlas:source:ford-model-t-history"],
+      "evidence": ["atlas:evidence:first-model-t-customer-shipment"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:model-t-produced-piquette-1908-1910", "type": "Claim",
+      "subject": "atlas:vehicle:ford-model-t", "predicate": "produced-at",
+      "object": {"id":"atlas:facility:ford-piquette-avenue-plant","type":"EntityReference"},
+      "validity": {"from":"1908","until":"1910","precision":"year"},
+      "sources": ["atlas:source:henry-ford-piquette-model-t"],
+      "evidence": ["atlas:evidence:model-t-piquette-production"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:model-t-uses-vanadium-steel", "type": "Claim",
+      "subject": "atlas:vehicle:ford-model-t", "predicate": "used-technology",
+      "object": {"id":"atlas:technology:extensive-use-of-vanadium-steel","type":"EntityReference"},
+      "sources": ["atlas:source:ford-model-t-history"],
+      "evidence": ["atlas:evidence:model-t-vanadium-steel"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:model-t-produced-highland-park-from-1910", "type": "Claim",
+      "subject": "atlas:vehicle:ford-model-t", "predicate": "produced-at",
+      "object": {"id":"atlas:facility:ford-highland-park-plant","type":"EntityReference"},
+      "validity": {"from":"1910","until":"1927","precision":"year"},
+      "sources": ["atlas:source:ford-highland-park-history"],
+      "evidence": ["atlas:evidence:model-t-highland-park-transfer"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:model-t-moving-assembly-line-1913-10", "type": "Claim",
+      "subject": "atlas:vehicle:ford-model-t", "predicate": "used-technology",
+      "object": {"id":"atlas:technology:moving-assembly-line","type":"EntityReference"},
+      "validity": {"from":"1913-10","until":"1927","precision":"month"},
+      "sources": ["atlas:source:ford-highland-park-history"],
+      "evidence": ["atlas:evidence:moving-assembly-line-october-1913"], "confidence": "high"
+    }
+  ],
+  "sources": [
+    {"id":"atlas:source:ford-model-t-history","type":"Source","title":"The Ford Model T","publisher":"Ford Motor Company","url":"https://corporate.ford.com/articles/history/the-model-t.html","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:ford-highland-park-history","type":"Source","title":"Highland Park Plant Legacy","publisher":"Ford Motor Company","url":"https://corporate.ford.com/articles/history/highland-park.html","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:henry-ford-first-model-t-production-card","type":"Source","title":"First Ford Model T Production Card, September 27, 1908","publisher":"The Henry Ford","url":"https://www.thehenryford.org/collections/explore/artifact/312908","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:henry-ford-piquette-model-t","type":"Source","title":"Early Model T Automobiles at Ford Motor Company Piquette Plant, Detroit, Michigan, 1908–1909","publisher":"The Henry Ford","url":"https://www.thehenryford.org/collections/explore/artifact/87716","trust":"institutional","verifiedAt":"2026-08-24"}
+  ],
+  "evidence": [
+    {"id":"atlas:evidence:first-model-t-production-card","type":"Evidence","source":"atlas:source:henry-ford-first-model-t-production-card","evidenceType":"museum-record","locator":{"date":"1908-09-27","artifact":"THF95995"},"notes":"O registro de produção da Ford identifica o primeiro Model T montado em Piquette Avenue em 27 de setembro de 1908."},
+    {"id":"atlas:evidence:first-model-t-customer-shipment","type":"Evidence","source":"atlas:source:ford-model-t-history","evidenceType":"manufacturer-archive","locator":{"date":"1908-10-01"},"notes":"A Ford registra o envio do veículo ao primeiro cliente em 1º de outubro de 1908."},
+    {"id":"atlas:evidence:model-t-piquette-production","type":"Evidence","source":"atlas:source:henry-ford-piquette-model-t","evidenceType":"museum-record","locator":{"place":"Piquette Avenue Plant","period":"1908–1910"},"notes":"O acervo The Henry Ford registra Piquette Avenue como local de desenvolvimento e primeira fabricação do Model T, antes da transferência em 1910."},
+    {"id":"atlas:evidence:model-t-vanadium-steel","type":"Evidence","source":"atlas:source:ford-model-t-history","evidenceType":"manufacturer-archive","locator":{"section":"The Model T"},"notes":"A Ford destaca o uso extensivo de aço vanádio leve e resistente entre as características técnicas do Model T."},
+    {"id":"atlas:evidence:model-t-highland-park-transfer","type":"Evidence","source":"atlas:source:ford-highland-park-history","evidenceType":"manufacturer-archive","locator":{"year":"1910"},"notes":"A Ford registra a transferência da produção de Piquette Street para Highland Park em 1910."},
+    {"id":"atlas:evidence:moving-assembly-line-october-1913","type":"Evidence","source":"atlas:source:ford-highland-park-history","evidenceType":"manufacturer-archive","locator":{"month":"1913-10"},"notes":"A primeira operação da linha de montagem móvel de automóveis em Highland Park é situada em outubro de 1913."}
+  ],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"CP16-04","region_cluster":"América do Norte 1900-1919"}
+}

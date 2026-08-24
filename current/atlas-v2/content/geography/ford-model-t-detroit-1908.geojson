@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ford-piquette-avenue-model-t-1908",
+      "properties": {
+        "entity": "atlas:vehicle:ford-model-t",
+        "label": "Piquette Avenue Plant",
+        "validity": { "from": "1908", "until": "1910", "precision": "year" },
+        "precision": "facility",
+        "confidence": "high",
+        "source": "atlas:source:henry-ford-piquette-model-t",
+        "purpose": "development-and-initial-production"
+      },
+      "geometry": { "type": "Point", "coordinates": [-83.0632, 42.3739] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ford-highland-park-model-t-1910-1927",
+      "properties": {
+        "entity": "atlas:vehicle:ford-model-t",
+        "label": "Highland Park Plant",
+        "validity": { "from": "1910", "until": "1927", "precision": "year" },
+        "precision": "facility",
+        "confidence": "high",
+        "source": "atlas:source:ford-highland-park-history",
+        "purpose": "mass-production"
+      },
+      "geometry": { "type": "Point", "coordinates": [-83.0951, 42.4062] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:model-t-piquette-highland-transition",
+      "properties": {
+        "entity": "atlas:vehicle:ford-model-t",
+        "label": "Transição de Piquette Avenue para Highland Park",
+        "validity": { "from": "1910", "until": "1910", "precision": "year" },
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:ford-highland-park-history",
+        "purpose": "editorial-transition"
+      },
+      "geometry": { "type": "LineString", "coordinates": [[-83.0632, 42.3739], [-83.0951, 42.4062]] }
+    }
+  ]
+}

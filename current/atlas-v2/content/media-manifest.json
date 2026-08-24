@@ -60,6 +60,21 @@
       "verifiedAt": "2026-08-24",
       "nature": "illustrative",
       "historicalDocument": false
+    },
+    {
+      "id": "atlas:media:ford-model-t-1908-editorial-hero",
+      "journeyEntity": "atlas:vehicle:ford-model-t",
+      "file": "/assets/ford-model-t-1908-editorial.png",
+      "mediaType": "illustration",
+      "author": "Projeto Atlas com geração assistida por IA",
+      "originalSource": "Produção editorial original do Atlas; não deriva de fotografia histórica específica",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração editorial original: Projeto Atlas, CC BY 4.0",
+      "alt": "Ilustração editorial de dois Ford Model T antigos deixando uma fábrica de tijolos em uma rua não pavimentada de Detroit em 1908.",
+      "verifiedAt": "2026-08-24",
+      "nature": "illustrative",
+      "historicalDocument": false
     }
   ]
 }
