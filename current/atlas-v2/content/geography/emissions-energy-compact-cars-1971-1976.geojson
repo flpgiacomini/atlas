@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:honda-cvcc-tokyo-announcement-1971",
+      "properties": {
+        "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+        "label": "Tóquio — anúncio do desenvolvimento CVCC em 1971",
+        "validity": {"from": "1971", "until": "1971", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:honda-cvcc-history",
+        "purpose": "emissions-technology-announcement"
+      },
+      "geometry": {"type": "Point", "coordinates": [139.6917, 35.6895]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:honda-cvcc-tokyo-ann-arbor-1972",
+      "properties": {
+        "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+        "label": "Tóquio–Ann Arbor — apresentação e validação do CVCC",
+        "validity": {"from": "1972", "until": "1972", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:honda-cvcc-history",
+        "purpose": "technology-validation-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[139.6917, 35.6895], [-83.743, 42.2808]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:honda-accord-japan-1976",
+      "properties": {
+        "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+        "label": "Japão — lançamento do Honda Accord em 1976",
+        "validity": {"from": "1976", "until": "1976", "precision": "year"},
+        "precision": "city",
+        "confidence": "approximate",
+        "source": "atlas:source:honda-accord-1976",
+        "purpose": "passenger-car-launch-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [139.6917, 35.6895]}
+    }
+  ]
+}

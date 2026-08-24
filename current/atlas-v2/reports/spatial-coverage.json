@@ -1,12 +1,12 @@
 {
   "errors": [],
-  "reportSha256": "fa49f68622156063d77308146e1a87f961b1799b577f2151c7c2500853b37814",
+  "reportSha256": "0cb1af7355aa828657e57eee458ddcf6138f3dc73a4cd6046059da7bb958710b",
   "status": "PASS",
   "summary": {
     "chapters": 258,
-    "geographyFeatures": 54,
-    "interactiveCovered": 47,
-    "interactivePending": 51,
+    "geographyFeatures": 71,
+    "interactiveCovered": 66,
+    "interactivePending": 32,
     "interactiveRequired": 98,
     "notSpatial": 0,
     "staticSufficient": 160

@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:bugatti-campogalliano-revival-1987",
+      "properties": {
+        "entity": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+        "label": "Campogalliano — renascimento industrial da Bugatti",
+        "validity": {"from": "1987", "until": "1987", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:bugatti-automobiles-s-a-s-romano-artioli-at-90-a-visionary-and-bugatti-savior",
+        "purpose": "brand-revival"
+      },
+      "geometry": {"type": "Point", "coordinates": [10.84, 44.69]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:gurgel-br800-rio-claro-1988",
+      "properties": {
+        "entity": "atlas:event:start-of-br-800-production",
+        "label": "Rio Claro — produção do Gurgel BR-800",
+        "validity": {"from": "1988", "until": "1988", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel",
+        "purpose": "passenger-car-production"
+      },
+      "geometry": {"type": "Point", "coordinates": [-47.5608, -22.4108]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:mazda-mx5-hiroshima-chicago-1989",
+      "properties": {
+        "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
+        "label": "Hiroshima–Chicago — apresentação do Mazda MX-5",
+        "validity": {"from": "1989", "until": "1989", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:mazda-mx5-history",
+        "purpose": "roadster-debut-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[132.4553, 34.3853], [-87.6298, 41.8781]]}
+    }
+  ]
+}

@@ -1821,7 +1821,7 @@
     {
       "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
       "geometryEntity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · Japão · Europa",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1830,7 +1830,7 @@
     {
       "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
       "geometryEntity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Tóquio · Ann Arbor",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1839,7 +1839,7 @@
     {
       "entity": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
       "geometryEntity": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Rosslyn · África do Sul",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1866,7 +1866,7 @@
     {
       "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
       "geometryEntity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · Estados Unidos",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1875,7 +1875,7 @@
     {
       "entity": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
       "geometryEntity": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Stuttgart · América do Norte",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1902,7 +1902,7 @@
     {
       "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
       "geometryEntity": "atlas:event:traction-safety-and-global-production-1980-1984",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Genebra · Ingolstadt",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1920,7 +1920,7 @@
     {
       "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
       "geometryEntity": "atlas:event:traction-safety-and-global-production-1980-1984",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Marysville",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1929,7 +1929,7 @@
     {
       "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
       "geometryEntity": "atlas:event:traction-safety-and-global-production-1980-1984",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Indústria global",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1938,7 +1938,7 @@
     {
       "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
       "geometryEntity": "atlas:event:traction-safety-and-global-production-1980-1984",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa · América do Norte · Japão",
       "rationale": "competição depende de circuito, etapa ou deslocamento",
@@ -1956,7 +1956,7 @@
     {
       "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
       "geometryEntity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · Japão",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1965,7 +1965,7 @@
     {
       "entity": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
       "geometryEntity": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Itália · França",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1974,7 +1974,7 @@
     {
       "entity": "atlas:event:start-of-br-800-production",
       "geometryEntity": "atlas:event:start-of-br-800-production",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Rio Claro · Brasil",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1983,7 +1983,7 @@
     {
       "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
       "geometryEntity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Chicago · Hiroshima",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1992,7 +1992,7 @@
     {
       "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
       "geometryEntity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Tochigi · mercados globais",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2001,7 +2001,7 @@
     {
       "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
       "geometryEntity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · indústria global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2010,7 +2010,7 @@
     {
       "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
       "geometryEntity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão",
       "rationale": "competição depende de circuito, etapa ou deslocamento",
@@ -2019,7 +2019,7 @@
     {
       "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
       "geometryEntity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · mercados globais",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2028,7 +2028,7 @@
     {
       "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
       "geometryEntity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · América do Norte",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2037,7 +2037,7 @@
     {
       "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
       "geometryEntity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Califórnia · Japão",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2055,7 +2055,7 @@
     {
       "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
       "geometryEntity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Japão",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -2064,7 +2064,7 @@
     {
       "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
       "geometryEntity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · indústria global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2073,7 +2073,7 @@
     {
       "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
       "geometryEntity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Japão · Estados Unidos · Europa",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2330,8 +2330,8 @@
   },
   "summary": {
     "chapters": 258,
-    "interactiveCovered": 47,
-    "interactivePending": 51,
+    "interactiveCovered": 66,
+    "interactivePending": 32,
     "interactiveRequired": 98,
     "notSpatial": 0,
     "staticSufficient": 160

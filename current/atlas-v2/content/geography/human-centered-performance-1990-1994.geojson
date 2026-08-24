@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:honda-tochigi-nsx-family-1990-1994",
+      "properties": {
+        "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+        "label": "Tochigi — desenvolvimento e evolução inicial do Honda NSX",
+        "validity": {"from": "1990", "until": "1994", "precision": "range"},
+        "precision": "facility-approximate",
+        "confidence": "probable",
+        "source": "atlas:source:honda-nsx-history",
+        "purpose": "passenger-car-development-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [139.88, 36.55]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:us-airbag-regulatory-path-1991",
+      "properties": {
+        "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+        "label": "Washington — caminho regulatório para airbags dianteiros",
+        "validity": {"from": "1991", "until": "1991", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:nhtsa-airbag-review",
+        "purpose": "safety-regulation-anchor"
+      },
+      "geometry": {"type": "Point", "coordinates": [-77.0369, 38.9072]}
+    }
+  ]
+}

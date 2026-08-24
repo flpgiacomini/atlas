@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:honda-civic-low-emission-california-1995",
+      "properties": {
+        "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+        "label": "Califórnia — comercialização do Civic de baixa emissão",
+        "validity": {"from": "1995", "until": "1995", "precision": "year"},
+        "precision": "approximate",
+        "confidence": "verified",
+        "source": "atlas:source:honda-fifty-years-america",
+        "purpose": "low-emission-market-introduction"
+      },
+      "geometry": {"type": "Point", "coordinates": [-119.4179, 36.7783]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:toyota-prius-development-japan-1997-1999",
+      "properties": {
+        "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+        "label": "Japão — desenvolvimento e lançamento inicial do Toyota Prius",
+        "validity": {"from": "1997", "until": "1999", "precision": "range"},
+        "precision": "city",
+        "confidence": "probable",
+        "source": "atlas:source:toyota-prius-development",
+        "purpose": "hybrid-development-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [137.156, 35.083]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:us-dual-airbag-requirement-1998",
+      "properties": {
+        "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+        "label": "Estados Unidos — exigência de airbags dianteiros em 1998",
+        "validity": {"from": "1998", "until": "1998", "precision": "year"},
+        "precision": "approximate",
+        "confidence": "verified",
+        "source": "atlas:source:nhtsa-airbag-consumer-reference",
+        "purpose": "safety-regulation-jurisdiction"
+      },
+      "geometry": {"type": "Point", "coordinates": [-98.5795, 39.8283]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:honda-insight-japan-1999",
+      "properties": {
+        "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+        "label": "Japão — lançamento do Honda Insight",
+        "validity": {"from": "1999", "until": "1999", "precision": "year"},
+        "precision": "city",
+        "confidence": "approximate",
+        "source": "atlas:source:honda-insight-release",
+        "purpose": "hybrid-vehicle-launch"
+      },
+      "geometry": {"type": "Point", "coordinates": [139.6917, 35.6895]}
+    }
+  ]
+}
