@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
-APP_PUBLIC = ROOT.parent / "atlas-v2-app" / "public"
+ASSET_ROOT = ROOT.parent / "atlas-v2-prototype" / "public"
 DEFAULT_REPORT = ROOT / "reports" / "editorial-coverage.json"
 
 
@@ -121,7 +121,7 @@ def audit() -> dict:
             mapped_years.append(chapter_year)
         asset = chapter.get("asset", "")
         asset_usage[asset] += 1
-        asset_path = APP_PUBLIC / asset.lstrip("/")
+        asset_path = ASSET_ROOT / asset.lstrip("/")
         if not asset or not asset_path.is_file():
             asset_missing.append({"year": chapter_year, "asset": asset})
 
