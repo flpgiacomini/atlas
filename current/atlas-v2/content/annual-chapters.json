@@ -1091,5 +1091,193 @@
   "asset": "/assets/people-industry.webp",
   "chapterKind": "milestone"
 }
+    ,
+{
+  "year": 1864,
+  "entity": "atlas:event:post-lenoir-transition-1864",
+  "label": "Depois do Hippomobile",
+  "eyebrow": "Combustão ainda experimental",
+  "title": "O veículo corre à frente do motor",
+  "copy": "Em 1864, a experiência de Lenoir já ligou motor e carruagem, mas não criou um automóvel repetível. Consumo, rendimento e controle ainda separam a demonstração de uma indústria.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1865,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "A bandeira vermelha",
+  "eyebrow": "A estrada impõe seu ritmo",
+  "title": "Uma pessoa deve caminhar diante da máquina",
+  "copy": "A lei britânica de 1865 exige três operadores e uma pessoa a pé, com bandeira vermelha, à frente da locomotiva rodoviária. A inovação passa a circular no ritmo definido para proteger cavalos e demais usuários.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1866,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "Tecnologia sob escolta",
+  "eyebrow": "O regime da bandeira vermelha",
+  "title": "Mover-se exige uma equipe",
+  "copy": "Em 1866, uma locomotiva rodoviária britânica não é apenas máquina e condutor: a lei exige uma equipe e um batedor a pé. O custo operacional nasce também da regulação.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1867,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "A prioridade continua animal",
+  "eyebrow": "Convivência na estrada",
+  "title": "A máquina deve parar para o cavalo",
+  "copy": "Em 1867, o regime britânico obriga a locomotiva a ceder espaço e parar diante de sinais relacionados ao tráfego e aos cavalos. A estrada preserva a hierarquia anterior.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1868,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "Silêncio regulamentado",
+  "eyebrow": "Máquina, ruído e medo",
+  "title": "Apito e vapor entram na lei",
+  "copy": "Em 1868, apitos, descargas de vapor e pressão não são detalhes neutros: as regras britânicas os limitam para reduzir sustos e riscos no convívio com a tração animal.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1869,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "A estrada não é laboratório",
+  "eyebrow": "Operação pública",
+  "title": "Demonstrar exige negociar o espaço",
+  "copy": "Em 1869, qualquer ensaio rodoviário precisa se ajustar a regras, outros veículos e usuários vulneráveis. A história técnica torna-se inseparável da história do espaço público.",
+  "place": "Reino Unido",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1870,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "O sistema pesa mais que o motor",
+  "eyebrow": "Custos de circulação",
+  "title": "A máquina leva consigo obrigações",
+  "copy": "Em 1870, massa, combustível e manutenção continuam importantes, mas a circulação também carrega exigências de pessoal, sinalização e comportamento. O veículo é parte de um sistema regulado.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1871,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "Inovação em baixa velocidade",
+  "eyebrow": "O ritmo legal",
+  "title": "A promessa mecânica avança a pé",
+  "copy": "Em 1871, a imagem do batedor com bandeira resume a tensão do período: a potência mecânica existe, mas a velocidade socialmente permitida continua associada ao passo humano.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1872,
+  "entity": "atlas:event:locomotive-act-1865-regime",
+  "label": "À espera de outra demonstração",
+  "eyebrow": "Entre regra e capacidade",
+  "title": "O vapor procura escala fora do Reino Unido",
+  "copy": "Em 1872, o ambiente britânico permanece restritivo, enquanto construtores continentais procuram veículos maiores e viagens demonstrativas. L’Obéissante surgirá no ano seguinte.",
+  "place": "Europa",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1874,
+  "entity": "atlas:vehicle:lobeissante",
+  "label": "Preparar uma viagem pública",
+  "eyebrow": "L’Obéissante entre construção e estrada",
+  "title": "Capacidade precisa tornar-se alcance",
+  "copy": "Em 1874, L’Obéissante já representa um veículo de passageiros de escala incomum. O próximo teste histórico será transformar capacidade técnica em uma viagem interurbana visível.",
+  "place": "Le Mans",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1876,
+  "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+  "label": "Direitos para o quatro-tempos",
+  "eyebrow": "O ciclo entra na produção",
+  "title": "A formulação ganha uma máquina industrial",
+  "copy": "A Crossley amplia seus direitos para incluir o motor Otto de quatro tempos. O marco conecta o princípio formulado anteriormente a uma fabricação capaz de atravessar fronteiras.",
+  "place": "Manchester · Colônia",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1877,
+  "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+  "label": "O quatro-tempos substitui o atmosférico",
+  "eyebrow": "Mudança na fábrica",
+  "title": "Uma arquitetura passa a dominar a produção",
+  "copy": "A Crossley substitui a produção de motores atmosféricos pelos motores Otto de quatro tempos. A eficiência deixa de ser apenas argumento técnico e reorganiza a linha industrial.",
+  "place": "Manchester",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1879,
+  "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+  "label": "Depois do dois-tempos",
+  "eyebrow": "Arquiteturas em paralelo",
+  "title": "O motor moderno não terá uma só genealogia",
+  "copy": "Em 1879, quatro-tempos e dois-tempos já representam respostas distintas a eficiência, simplicidade e potência. A futura indústria veicular herdará ambas as linhas.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1880,
+  "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+  "label": "Da oficina ao catálogo",
+  "eyebrow": "Repetição industrial",
+  "title": "O motor torna-se produto",
+  "copy": "Em 1880, a fabricação licenciada ajuda a transformar o motor de combustão em equipamento comercial repetível. Essa base industrial antecede sua integração sistemática ao automóvel.",
+  "place": "Manchester",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1881,
+  "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+  "label": "Crossley torna-se companhia limitada",
+  "eyebrow": "Escala organizacional",
+  "title": "A tecnologia ganha uma empresa maior",
+  "copy": "A Crossley é registrada como companhia limitada em 1881. A evolução jurídica e empresarial mostra que a difusão do motor depende também de capital, instalações e organização.",
+  "place": "Manchester",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1882,
+  "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
+  "label": "Uma fábrica para crescer",
+  "eyebrow": "Pottery Lane",
+  "title": "A produção muda de endereço e escala",
+  "copy": "Em 1882, a Crossley muda-se para novas instalações em Pottery Lane. O motor de combustão já possui uma trajetória fabril antes de se tornar o coração do automóvel.",
+  "place": "Openshaw · Manchester",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1883,
+  "entity": "atlas:event:vehicle-convergence-1883",
+  "label": "Motor e carruagem se aproximam",
+  "eyebrow": "Às vésperas da convergência",
+  "title": "As peças existem; falta organizá-las como veículo",
+  "copy": "Em 1883, motores mais repetíveis, oficinas e experiências rodoviárias aproximam-se de uma convergência. O ano funciona como ponte documentada para as patentes e ensaios veiculares de 1884 e 1885.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+}
   ]
 }

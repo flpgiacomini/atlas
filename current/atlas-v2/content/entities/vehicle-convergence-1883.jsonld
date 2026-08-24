@@ -1,0 +1,14 @@
+{
+  "@context":"https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id":"atlas:event:vehicle-convergence-1883","type":"Event",
+  "name":"Convergência veicular às vésperas de 1884","aliases":["Intervalo de convergência do motor e da carruagem"],
+  "description":"Limite editorial entre a difusão industrial dos motores e as experiências veiculares documentadas de 1884 e 1885.",
+  "claims":[{
+    "id":"atlas:claim:vehicle-convergence-interval-1883","type":"Claim","subject":"atlas:event:vehicle-convergence-1883","predicate":"occurred-on",
+    "object":{"type":"date","value":"1883","precision":"year"},"sources":["atlas:source:science-museum-group-crossley-limited"],
+    "evidence":["atlas:evidence:vehicle-convergence-editorial-boundary"],"confidence":"medium","validity":{"from":"1883","until":"1883","precision":"year"}
+  }],
+  "sources":[{"id":"atlas:source:science-museum-group-crossley-limited","type":"Source","title":"Crossley Brothers Ltd","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/ap17192/crossley-brothers-ltd","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence":[{"id":"atlas:evidence:vehicle-convergence-editorial-boundary","type":"Evidence","source":"atlas:source:science-museum-group-crossley-limited","evidenceType":"editorial-inference","locator":{"after":"1882","before":"1884"},"notes":"1883 é usado como ponte editorial após a expansão da fabricação de motores e antes das experiências veiculares de 1884; não representa uma invenção isolada."}],
+  "metadata":{"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-05","region_cluster":"Europa 1769-1885","inference":"bounded-editorial-interval"}
+}

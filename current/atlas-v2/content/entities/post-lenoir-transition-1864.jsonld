@@ -1,0 +1,14 @@
+{
+  "@context":"https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id":"atlas:event:post-lenoir-transition-1864","type":"Event",
+  "name":"Transição após o Hippomobile de Lenoir","aliases":["Intervalo pós-Lenoir"],
+  "description":"Intervalo editorial posterior à experiência veicular de Lenoir, quando a combustão interna ainda precisava ganhar eficiência e produção repetível.",
+  "claims":[{
+    "id":"atlas:claim:post-lenoir-transition-began-1864","type":"Claim","subject":"atlas:event:post-lenoir-transition-1864","predicate":"began-on",
+    "object":{"type":"date","value":"1864","precision":"year"},"sources":["atlas:source:arts-et-metiers-lenoir-engine"],
+    "evidence":["atlas:evidence:arts-et-metiers-post-lenoir-transition"],"confidence":"medium","validity":{"from":"1864","until":"1864","precision":"year"}
+  }],
+  "sources":[{"id":"atlas:source:arts-et-metiers-lenoir-engine","type":"Source","title":"Moteur à gaz du premier type de Lenoir","publisher":"Musée des Arts et Métiers — Cnam","url":"https://www.arts-et-metiers.net/musee/moteur-gaz-du-premier-type-de-lenoir","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence":[{"id":"atlas:evidence:arts-et-metiers-post-lenoir-transition","type":"Evidence","source":"atlas:source:arts-et-metiers-lenoir-engine","evidenceType":"collection-record","locator":{"section":"Rendement et consommation"},"notes":"O museu documenta o baixo rendimento e o alto consumo do motor de Lenoir; 1864 é um limite editorial posterior ao Hippomobile, não um evento autônomo."}],
+  "metadata":{"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-05","region_cluster":"Europa 1769-1885","inference":"bounded-editorial-interval"}
+}

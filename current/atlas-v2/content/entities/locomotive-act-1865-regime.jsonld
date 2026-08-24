@@ -1,0 +1,14 @@
+{
+  "@context":"https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id":"atlas:event:locomotive-act-1865-regime","type":"Event",
+  "name":"Regime britânico da bandeira vermelha","aliases":["Locomotives Act 1865","Red Flag Act"],
+  "description":"Regime criado pela lei britânica de 1865 para locomotivas movidas por vapor ou outra força não animal em turnpikes e vias públicas.",
+  "claims":[{
+    "id":"atlas:claim:locomotive-act-red-flag-1865","type":"Claim","subject":"atlas:event:locomotive-act-1865-regime","predicate":"began-on",
+    "object":{"type":"date","value":"1865","precision":"year"},"sources":["atlas:source:uk-legislation-locomotives-act-1865"],
+    "evidence":["atlas:evidence:uk-legislation-red-flag-rules"],"confidence":"high","validity":{"from":"1865","until":"1872","precision":"range"}
+  }],
+  "sources":[{"id":"atlas:source:uk-legislation-locomotives-act-1865","type":"Source","title":"Locomotives Act 1865","publisher":"The National Archives — legislation.gov.uk","url":"https://www.legislation.gov.uk/ukpga/Vict/28-29/83/pdfs/ukpga_18650083_en.pdf","trust":"primary","verifiedAt":"2026-08-24"}],
+  "evidence":[{"id":"atlas:evidence:uk-legislation-red-flag-rules","type":"Evidence","source":"atlas:source:uk-legislation-locomotives-act-1865","evidenceType":"legislation","locator":{"section":"3"},"notes":"A lei exige três operadores e uma pessoa caminhando pelo menos sessenta jardas à frente com bandeira vermelha, além de regras de parada, luzes e convivência com cavalos."}],
+  "metadata":{"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-05","region_cluster":"Europa 1769-1885"}
+}

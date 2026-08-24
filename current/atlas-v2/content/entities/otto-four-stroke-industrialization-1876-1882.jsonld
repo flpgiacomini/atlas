@@ -1,0 +1,20 @@
+{
+  "@context":"https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id":"atlas:event:otto-four-stroke-industrialization-1876-1882","type":"Event",
+  "name":"Industrialização do motor Otto de quatro tempos","aliases":["Difusão Crossley do motor Otto"],
+  "description":"Passagem do motor Otto de quatro tempos aos direitos de produção britânicos e à fabricação industrial pela Crossley entre 1876 e 1882.",
+  "claims":[
+    {"id":"atlas:claim:crossley-rights-otto-four-stroke-1876","type":"Claim","subject":"atlas:event:otto-four-stroke-industrialization-1876-1882","predicate":"began-on","object":{"type":"date","value":"1876","precision":"year"},"sources":["atlas:source:science-museum-group-crossley-brothers"],"evidence":["atlas:evidence:science-museum-group-crossley-otto-production"],"confidence":"high","validity":{"from":"1876","until":"1876","precision":"year"}},
+    {"id":"atlas:claim:crossley-four-stroke-production-1877","type":"Claim","subject":"atlas:event:otto-four-stroke-industrialization-1876-1882","predicate":"occurred-on","object":{"type":"date","value":"1877","precision":"year"},"sources":["atlas:source:science-museum-group-crossley-brothers"],"evidence":["atlas:evidence:science-museum-group-crossley-otto-production"],"confidence":"high","validity":{"from":"1877","until":"1877","precision":"year"}},
+    {"id":"atlas:claim:crossley-expansion-1881-1882","type":"Claim","subject":"atlas:event:otto-four-stroke-industrialization-1876-1882","predicate":"ended-on","object":{"type":"date","value":"1882","precision":"year"},"sources":["atlas:source:science-museum-group-crossley-limited"],"evidence":["atlas:evidence:science-museum-group-crossley-expansion"],"confidence":"high","validity":{"from":"1881","until":"1882","precision":"range"}}
+  ],
+  "sources":[
+    {"id":"atlas:source:science-museum-group-crossley-brothers","type":"Source","title":"Crossley Brothers","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/cp51887/crossley-brothers","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:science-museum-group-crossley-limited","type":"Source","title":"Crossley Brothers Ltd","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/ap17192/crossley-brothers-ltd","trust":"institutional","verifiedAt":"2026-08-24"}
+  ],
+  "evidence":[
+    {"id":"atlas:evidence:science-museum-group-crossley-otto-production","type":"Evidence","source":"atlas:source:science-museum-group-crossley-brothers","evidenceType":"collection-biography","locator":{"years":"1876-1877"},"notes":"A Crossley recebeu em 1876 direitos para o motor Otto de quatro tempos, que substituiu a produção dos motores atmosféricos em 1877."},
+    {"id":"atlas:evidence:science-museum-group-crossley-expansion","type":"Evidence","source":"atlas:source:science-museum-group-crossley-limited","evidenceType":"collection-biography","locator":{"years":"1881-1882"},"notes":"A organização tornou-se companhia limitada em 1881 e mudou-se para Pottery Lane em 1882."}
+  ],
+  "metadata":{"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-05","region_cluster":"Europa 1769-1885"}
+}
