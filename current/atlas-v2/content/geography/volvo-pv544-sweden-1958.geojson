@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:volvo-pv544-gothenburg-1958",
+      "properties": {
+        "entity": "atlas:vehicle:volvo-pv544",
+        "label": "Gotemburgo",
+        "validity": { "from": "1958", "until": "1965", "precision": "year" },
+        "precision": "city",
+        "confidence": "high",
+        "source": "atlas:source:volvo-1950-1959-review",
+        "purpose": "manufacturer-context"
+      },
+      "geometry": { "type": "Point", "coordinates": [11.9746, 57.7089] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:volvo-pv544-kristianstad-1959-08-13",
+      "properties": {
+        "entity": "atlas:vehicle:volvo-pv544",
+        "label": "Kristianstad",
+        "validity": { "from": "1959-08-13", "until": "1959-08-13", "precision": "day" },
+        "precision": "city",
+        "confidence": "high",
+        "source": "atlas:source:volvo-three-point-belt-sixty-years",
+        "purpose": "first-standard-belt-delivery"
+      },
+      "geometry": { "type": "Point", "coordinates": [14.1567, 56.0294] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:volvo-pv544-gothenburg-kristianstad-editorial",
+      "properties": {
+        "entity": "atlas:vehicle:volvo-pv544",
+        "label": "Do desenvolvimento à entrega documentada",
+        "validity": { "from": "1958", "until": "1959", "precision": "year" },
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:volvo-three-point-belt-sixty-years",
+        "purpose": "editorial-transition"
+      },
+      "geometry": { "type": "LineString", "coordinates": [[11.9746, 57.7089], [14.1567, 56.0294]] }
+    }
+  ]
+}

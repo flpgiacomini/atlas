@@ -1,8 +1,8 @@
 {
   "backlog": {
     "note": "Spatial backlog is an upper bound until chapters are classified as spatial or non-spatial.",
-    "spatialStoriesPendingInventory": 254,
-    "storyMediaManifest": 254,
+    "spatialStoriesPendingInventory": 253,
+    "storyMediaManifest": 253,
     "temporalClaims": 0
   },
   "coverage": {
@@ -235,12 +235,14 @@
     "licensedMediaYears": [
       1886,
       1908,
+      1958,
       1963,
       1969
     ],
     "mappedYears": [
       1886,
       1908,
+      1958,
       1963,
       1969
     ],
@@ -248,19 +250,19 @@
     "temporalGapYears": []
   },
   "errors": [],
-  "reportSha256": "cc9e135bd5cf28584153ccc6ba03d744fd3aeb51c7dd4077a097eab0f3d0e1b8",
+  "reportSha256": "4e686f60d4089dc7041413abc42e0d7a916c3e7f1e406f99ab9b91387aaea426",
   "status": "PASS",
   "summary": {
     "chapters": 258,
     "chaptersWithBracketedContinuity": 81,
     "chaptersWithExactYearClaim": 133,
     "chaptersWithExistingAsset": 258,
-    "chaptersWithLicensedMedia": 4,
-    "chaptersWithMappedEntity": 4,
+    "chaptersWithLicensedMedia": 5,
+    "chaptersWithMappedEntity": 5,
     "chaptersWithTemporalSupport": 258,
     "chaptersWithoutTemporalSupport": 0,
     "entitiesReferenced": 88,
-    "geographyFeatures": 9,
+    "geographyFeatures": 12,
     "licensedStoryMediaManifest": true,
     "minimumSourcesPerChapter": 1,
     "uniquePresentationAssets": 6

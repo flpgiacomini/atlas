@@ -35,14 +35,14 @@
       "year": 1955
     },
     {
-      "authoredStory": false,
+      "authoredStory": true,
       "canonicalEvidence": true,
-      "complete": false,
+      "complete": true,
       "entity": "atlas:vehicle:volvo-pv544",
       "label": "Volvo PV544",
-      "licensedMedia": 0,
+      "licensedMedia": 1,
       "presentationAsset": true,
-      "temporalGeography": false,
+      "temporalGeography": true,
       "year": 1958
     },
     {
@@ -68,15 +68,15 @@
       "year": 1969
     }
   ],
-  "reportSha256": "864bf204d8f4ade9b8e1468207de974690e3d70e944ea8e49f1069f6a1a10367",
+  "reportSha256": "b4351a9e8b48c5400aced24153b51bf690448a2ca4c6d5fa9ba2708e8b599398",
   "status": "PASS",
   "summary": {
-    "authoredStories": 4,
+    "authoredStories": 5,
     "canonicalEvidence": 6,
-    "completeJourneys": 4,
+    "completeJourneys": 5,
     "journeys": 6,
-    "journeysWithLicensedMedia": 4,
-    "journeysWithTemporalGeography": 4,
+    "journeysWithLicensedMedia": 5,
+    "journeysWithTemporalGeography": 5,
     "presentationAssets": 6
   },
   "version": "1.0.0"

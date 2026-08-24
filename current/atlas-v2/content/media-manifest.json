@@ -75,6 +75,21 @@
       "verifiedAt": "2026-08-24",
       "nature": "illustrative",
       "historicalDocument": false
+    },
+    {
+      "id": "atlas:media:volvo-pv544-1958-editorial-hero",
+      "journeyEntity": "atlas:vehicle:volvo-pv544",
+      "file": "/assets/volvo-pv544-1958-editorial.png",
+      "mediaType": "illustration",
+      "author": "Projeto Atlas com geração assistida por IA",
+      "originalSource": "Produção editorial original do Atlas; não deriva de fotografia histórica específica",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração editorial original: Projeto Atlas, CC BY 4.0",
+      "alt": "Ilustração editorial de um Volvo PV544 azul diante de um edifício industrial em uma manhã chuvosa de Gotemburgo em 1958.",
+      "verifiedAt": "2026-08-24",
+      "nature": "illustrative",
+      "historicalDocument": false
     }
   ]
 }
