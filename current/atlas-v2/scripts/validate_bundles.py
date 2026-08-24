@@ -40,10 +40,10 @@ def validate(root: Path) -> dict:
     if journeys["count"] != 6 or any(item["coverageState"] != "connected" for item in journeys["items"]):
         raise ValueError("six required journeys must be connected")
     annual_years = [item["year"] for item in annual["items"]]
-    if annual["count"] < 231 or len(annual_years) != len(set(annual_years)):
+    if annual["count"] < 241 or len(annual_years) != len(set(annual_years)):
         raise ValueError("annual chapters must be unique and cover the precursor anchors")
-    if not set(range(1769, 2000)).issubset(annual_years):
-        raise ValueError("annual chapters must fully cover 1769-1999")
+    if not set(range(1769, 2010)).issubset(annual_years):
+        raise ValueError("annual chapters must fully cover 1769-2009")
     if any(item["coverageState"] != "authored" or not item.get("sources") for item in annual["items"]):
         raise ValueError("annual chapters must be authored and source-backed")
     return {

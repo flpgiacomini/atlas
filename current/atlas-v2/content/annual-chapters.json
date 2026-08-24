@@ -2524,8 +2524,8 @@
   "asset": "/assets/technology.webp",
   "chapterKind": "milestone"
 },
-{
-  "year": 1999,
+    {
+      "year": 1999,
   "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
   "label": "O Insight oferece outra arquitetura híbrida",
   "eyebrow": "Honda IMA",
@@ -2533,7 +2533,117 @@
   "copy": "A Honda lança o Insight com estrutura de alumínio, motor elétrico auxiliar e recuperação de energia. O fim do século já apresenta duas respostas híbridas distintas.",
   "place": "Japão · Estados Unidos · Europa",
   "asset": "/assets/technology.webp",
-  "chapterKind": "milestone"
-}
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2000,
+      "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
+      "label": "O Prius atravessa o Pacífico e o Atlântico",
+      "eyebrow": "Híbrido global",
+      "title": "A eletrificação deixa de ser uma experiência apenas japonesa",
+      "copy": "Uma atualização do Prius chega aos Estados Unidos e à Europa. O sistema híbrido passa a enfrentar hábitos, normas e infraestruturas diferentes, transformando uma inovação doméstica em proposta internacional.",
+      "place": "Japão · Estados Unidos · Europa",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2001,
+      "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
+      "label": "O iDrive reorganiza o painel",
+      "eyebrow": "BMW Série 7",
+      "title": "O automóvel começa a ser operado como sistema digital",
+      "copy": "A BMW concentra entretenimento, navegação e outras funções num controlador e numa tela. Reduzir botões cria uma nova questão: como tornar compreensível um automóvel cuja complexidade agora vive no software?",
+      "place": "Munique · mercados globais",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2002,
+      "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
+      "label": "O Cayenne muda o alcance da Porsche",
+      "eyebrow": "Leipzig · Bratislava · Zuffenhausen",
+      "title": "Uma marca esportiva encontra escala em outro formato",
+      "copy": "O primeiro Cayenne sai de Leipzig, reunindo carroceria produzida em Bratislava e motores de Zuffenhausen. Plataforma compartilhada, cadeia distribuída e utilitário esportivo redefinem produto e sustentação econômica.",
+      "place": "Leipzig · Bratislava · Zuffenhausen",
+      "asset": "/assets/vehicles.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2003,
+      "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
+      "label": "O Prius de segunda geração amplia a ambição",
+      "eyebrow": "THS II",
+      "title": "Eficiência precisa conviver com espaço, desempenho e desejo",
+      "copy": "O novo Prius adota carroceria hatchback e um sistema híbrido mais potente. Tecnologias de assistência e controle mostram que eletrificação e digitalização estão amadurecendo juntas.",
+      "place": "Japão · mercados globais",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2004,
+      "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
+      "label": "O Panda reafirma o automóvel compacto",
+      "eyebrow": "Cidade europeia",
+      "title": "Inovação também é resolver muito com pouco",
+      "copy": "O Fiat Panda torna-se o primeiro modelo do segmento A a receber o prêmio europeu Car of the Year. Espaço, simplicidade, consumo e preço lembram que a história não avança apenas nos extremos tecnológicos.",
+      "place": "Tychy · Europa",
+      "asset": "/assets/vehicles.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2005,
+      "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
+      "label": "O Veyron integra o impossível",
+      "eyebrow": "Molsheim",
+      "title": "Velocidade extrema torna-se um problema de sistema",
+      "copy": "Mais de mil cavalos, quatro turbos, transmissão de dupla embreagem, aerodinâmica ativa, pneus e refrigeração precisam operar como conjunto. O Veyron ultrapassa 400 km/h e chega ao público sem abandonar a proposta de uso rodoviário.",
+      "place": "Molsheim · Ehra-Lessien",
+      "asset": "/assets/vehicles.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2006,
+      "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
+      "label": "A Tesla explicita uma escada para o elétrico",
+      "eyebrow": "Roadster e estratégia",
+      "title": "O esportivo caro é apresentado como começo, não destino",
+      "copy": "O plano da Tesla usa um automóvel elétrico de alto desempenho para financiar modelos futuros de maior volume e menor preço. Baterias deixam de aparecer apenas como substituição técnica e passam a sustentar uma estratégia industrial.",
+      "place": "Califórnia · mercado global",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2007,
+      "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
+      "label": "O controle de estabilidade entra na norma",
+      "eyebrow": "FMVSS 126",
+      "title": "Frear cada roda passa a ser uma política de segurança",
+      "copy": "A NHTSA estabelece a exigência de controle eletrônico de estabilidade para veículos leves abrangidos. Sensores, cálculo e frenagem individual transformam correções invisíveis em infraestrutura regulatória.",
+      "place": "Estados Unidos · indústria global",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2008,
+      "entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
+      "label": "A crise financeira alcança a linha de montagem",
+      "eyebrow": "Crédito, vendas e fornecedores",
+      "title": "O automóvel revela toda a sua interdependência econômica",
+      "copy": "Com crédito e demanda em retração, GM e Chrysler aproximam-se de uma ruptura desordenada. Em dezembro, empréstimos emergenciais mostram que uma montadora conecta milhões de empregos, fornecedores, concessionários e financiadores.",
+      "place": "Detroit · Washington · cadeia global",
+      "asset": "/assets/people-industry.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2009,
+      "entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
+      "label": "GM e Chrysler atravessam reorganizações",
+      "eyebrow": "Falência organizada",
+      "title": "Sobreviver exige redesenhar empresas, alianças e responsabilidades",
+      "copy": "Chrysler e General Motors passam por processos judiciais acelerados, com financiamento público e novas estruturas societárias; a Fiat integra a solução da Chrysler. A década termina com a indústria tradicional reconfigurada enquanto o elétrico prepara sua expansão.",
+      "place": "Estados Unidos · Canadá · Itália",
+      "asset": "/assets/people-industry.webp",
+      "chapterKind": "milestone"
+    }
   ]
 }
