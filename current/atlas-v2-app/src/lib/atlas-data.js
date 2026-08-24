@@ -49,3 +49,22 @@ export function periodForYear(year) {
 export function yearUrl(year, base = import.meta.env.BASE_URL) {
   return `${base}${year}/`;
 }
+
+export function storyForYear(year, annualChapters, journeys) {
+  const exact = annualChapters.find((item) => item.year === year) || journeys.find((item) => item.year === year);
+  if (exact) return exact;
+  const dated = [...annualChapters, ...journeys];
+  const context = dated.length
+    ? dated.reduce((best, item) => Math.abs(item.year - year) < Math.abs(best.year - year) ? item : best, dated[0])
+    : { year: "ainda não determinado" };
+  return {
+    year,
+    label: `Contexto de ${year}`,
+    eyebrow: "Capítulo em pesquisa",
+    title: "Um intervalo ainda está sendo documentado",
+    copy: `Ainda não há um marco anual aprovado para ${year}. O Atlas preserva a continuidade do período sem deslocar para este ano uma história ocorrida em ${context.year}.`,
+    place: "Acervo em revisão",
+    asset: "/assets/people-industry.webp",
+    claims: [], sources: [], record: null, coverageState: "editorial-gap",
+  };
+}

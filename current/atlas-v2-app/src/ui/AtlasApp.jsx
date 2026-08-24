@@ -1,16 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { loadBundle, periodForYear, publicUrl, searchEntities, yearUrl } from "../lib/atlas-data.js";
+import { loadBundle, periodForYear, publicUrl, searchEntities, storyForYear, yearUrl } from "../lib/atlas-data.js";
 import SpecializedView from "./SpecializedView.jsx";
 
 const MODES = ["História", "Mapa/Globo", "Marcas", "Veículos", "Competições", "Tecnologias"];
 const CATEGORY = { Marcas: "brand", Veículos: "vehicle", Competições: "series", Tecnologias: "technology" };
 const LAYERS = ["Narrativa", "Cronologia", "Relações", "Fontes"];
-const FALLBACK = { year: 1969, label: "Atlas v2", eyebrow: "Acervo em carregamento", title: "A história está sendo conectada", copy: "Preparando documentos, fontes e relações.", place: "Atlas", asset: "/assets/porsche-917-1969-hero.png", claims: [], sources: [] };
-
-function nearest(year, journeys) {
-  if (!journeys.length) return FALLBACK;
-  return journeys.reduce((best, item) => Math.abs(item.year - year) < Math.abs(best.year - year) ? item : best, journeys[0]);
-}
+const FALLBACK = { year: 1969, label: "Atlas v2", eyebrow: "Acervo em carregamento", title: "A história está sendo conectada", copy: "Preparando documentos, fontes e relações.", place: "Atlas", asset: "/assets/porsche-917-1969-hero.png", claims: [], sources: [], coverageState: "loading" };
 
 function objectText(object) {
   if (typeof object === "string" || typeof object === "number") return String(object);
@@ -31,6 +26,7 @@ export default function AtlasApp({ initialYear }) {
   const [mode, setMode] = useState("História");
   const [mapKind, setMapKind] = useState("Mapa");
   const [journeys, setJourneys] = useState([]);
+  const [annualChapters, setAnnualChapters] = useState([]);
   const [manifest, setManifest] = useState(null);
   const [periodItems, setPeriodItems] = useState([]);
   const [modeItems, setModeItems] = useState([]);
@@ -45,7 +41,7 @@ export default function AtlasApp({ initialYear }) {
   const [searchIndex, setSearchIndex] = useState([]);
   const searchInput = useRef(null);
 
-  const story = useMemo(() => nearest(year, journeys), [year, journeys]);
+  const story = useMemo(() => annualChapters.length || journeys.length ? storyForYear(year, annualChapters, journeys) : FALLBACK, [year, annualChapters, journeys]);
   const results = useMemo(() => searchEntities(searchIndex, query, year), [searchIndex, query, year]);
 
   const setYear = (next, { history = "push" } = {}) => {
@@ -55,8 +51,8 @@ export default function AtlasApp({ initialYear }) {
   };
 
   useEffect(() => {
-    Promise.all([loadBundle("manifest.json"), loadBundle("journeys.json")])
-      .then(([manifestDoc, journeyDoc]) => { setManifest(manifestDoc); setJourneys(journeyDoc.items); setLoadState("ready"); })
+    Promise.all([loadBundle("manifest.json"), loadBundle("journeys.json"), loadBundle("annual-chapters.json")])
+      .then(([manifestDoc, journeyDoc, annualDoc]) => { setManifest(manifestDoc); setJourneys(journeyDoc.items); setAnnualChapters(annualDoc.items); setLoadState("ready"); })
       .catch(() => setLoadState("error"));
     const pop = (event) => {
       const match = window.location.pathname.match(/\/(\d{4})\/?$/);

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { normalizeSearch, periodForYear, publicUrl, searchEntities, yearUrl } from "../src/lib/atlas-data.js";
+import { normalizeSearch, periodForYear, publicUrl, searchEntities, storyForYear, yearUrl } from "../src/lib/atlas-data.js";
 
 test("normalizes accents and casing", () => {
   assert.equal(normalizeSearch("  Citroën DS  "), "citroen ds");
@@ -26,4 +26,13 @@ test("maps every boundary year to its publication period", () => {
 test("builds base-aware public and annual URLs", () => {
   assert.equal(publicUrl("/data/v2/manifest.json", "/atlas/"), "/atlas/data/v2/manifest.json");
   assert.equal(yearUrl(1969, "/atlas/"), "/atlas/1969/");
+});
+
+test("uses only exact-year chapters and exposes editorial gaps", () => {
+  const chapters = [{ year: 1769, title: "Cugnot", coverageState: "authored" }];
+  const journeys = [{ year: 1886, title: "Benz", coverageState: "connected" }];
+  assert.equal(storyForYear(1769, chapters, journeys).title, "Cugnot");
+  const gap = storyForYear(1770, chapters, journeys);
+  assert.equal(gap.coverageState, "editorial-gap");
+  assert.match(gap.copy, /sem deslocar.*1769/);
 });
