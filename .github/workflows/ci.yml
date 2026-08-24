@@ -35,6 +35,7 @@ jobs:
       - run: python scripts/validate_brand_timeline.py
       - run: python scripts/validate_brand_relations.py
       - run: python scripts/validate_annual_chapters.py
+      - run: python scripts/audit_editorial_coverage.py --check
       - run: python scripts/migrate_sqlite.py
       - run: python scripts/validate_migration.py
       - name: Assert deterministic migration

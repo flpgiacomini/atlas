@@ -26,6 +26,7 @@ python scripts/check_determinism.py
 python scripts/build_bundles.py
 python scripts/validate_bundles.py
 python scripts/check_bundles_determinism.py
+python scripts/audit_editorial_coverage.py --check
 ```
 
 `migrate_sqlite.py` lê o SQLite v1 somente em modo read-only e recria
@@ -52,3 +53,10 @@ meio de `npm run sync:data`.
 
 O comando valida IDs, referências, fontes, estrutura editorial, geografia e o
 round-trip JSON determinístico dos exemplos.
+
+## Auditoria editorial transversal
+
+`audit_editorial_coverage.py` mede todos os capítulos anuais contra entidades,
+claims, fontes, mídia e geografia canônicas. O relatório determinístico em
+`reports/editorial-coverage.json` separa integridade estrutural de completude
+editorial e mantém os gaps como backlog explícito no CI.
