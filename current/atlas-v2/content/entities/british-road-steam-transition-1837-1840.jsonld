@@ -1,0 +1,16 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:british-road-steam-transition-1837-1840",
+  "type": "Event",
+  "name": "Recuo do vapor rodoviário britânico",
+  "aliases": ["Transição após os serviços de Hancock"],
+  "description": "Período em que a experiência acumulada pelos serviços de passageiros a vapor não se converteu em uma rede duradoura e perdeu impulso diante de pedágios e outras barreiras.",
+  "claims": [{
+    "id":"atlas:claim:road-steam-lost-momentum-by-1840","type":"Claim","subject":"atlas:event:british-road-steam-transition-1837-1840","predicate":"ended-on",
+    "object":{"type":"date","value":"1840","precision":"year"},"sources":["atlas:source:science-museum-group-walter-hancock"],
+    "evidence":["atlas:evidence:science-museum-group-road-steam-decline"],"confidence":"high","validity":{"from":"1837","until":"1840","precision":"range"}
+  }],
+  "sources": [{"id":"atlas:source:science-museum-group-walter-hancock","type":"Source","title":"Hancock, Walter","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/ap22900/hancock-walter","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence": [{"id":"atlas:evidence:science-museum-group-road-steam-decline","type":"Evidence","source":"atlas:source:science-museum-group-walter-hancock","evidenceType":"collection-biography","locator":{"year":"1840"},"notes":"O perfil institucional afirma que, por volta de 1840, o vapor rodoviário havia perdido impulso, em parte devido aos altos pedágios das turnpikes."}],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-03","region_cluster":"Europa 1769-1885"}
+}

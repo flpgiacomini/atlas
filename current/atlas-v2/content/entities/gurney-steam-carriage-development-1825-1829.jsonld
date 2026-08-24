@@ -1,0 +1,35 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:gurney-steam-carriage-development-1825-1829",
+  "type": "Event",
+  "name": "Desenvolvimento das carruagens a vapor de Gurney",
+  "aliases": ["Experimentos rodoviários de Goldsworthy Gurney"],
+  "description": "Ciclo de patente, construção e demonstração de carruagens rodoviárias a vapor conduzido por Goldsworthy Gurney entre 1825 e 1829.",
+  "claims": [
+    {
+      "id": "atlas:claim:gurney-steam-carriage-patent-1825", "type": "Claim",
+      "subject": "atlas:event:gurney-steam-carriage-development-1825-1829", "predicate": "began-on",
+      "object": {"type":"date","value":"1825","precision":"year"},
+      "sources": ["atlas:source:science-museum-group-goldsworthy-gurney"],
+      "evidence": ["atlas:evidence:science-museum-group-gurney-patent"], "confidence": "high",
+      "validity": {"from":"1825","until":"1825","precision":"year"}
+    },
+    {
+      "id": "atlas:claim:gurney-steam-carriages-1828-1829", "type": "Claim",
+      "subject": "atlas:event:gurney-steam-carriage-development-1825-1829", "predicate": "ended-on",
+      "object": {"type":"date","value":"1829","precision":"year"},
+      "sources": ["atlas:source:science-museum-group-steam-road-vehicles"],
+      "evidence": ["atlas:evidence:science-museum-group-gurney-carriages"], "confidence": "high",
+      "validity": {"from":"1828","until":"1829","precision":"range"}
+    }
+  ],
+  "sources": [
+    {"id":"atlas:source:science-museum-group-goldsworthy-gurney","type":"Source","title":"Goldsworthy Gurney","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/cp31639/goldsworthy-gurney","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:science-museum-group-steam-road-vehicles","type":"Source","title":"Steam road vehicle collection","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/search/object_type/steam-road-vehicle","trust":"institutional","verifiedAt":"2026-08-24"}
+  ],
+  "evidence": [
+    {"id":"atlas:evidence:science-museum-group-gurney-patent","type":"Evidence","source":"atlas:source:science-museum-group-goldsworthy-gurney","evidenceType":"collection-biography","locator":{"year":"1825"},"notes":"O perfil institucional registra a patente de Gurney para uma carruagem a vapor em 1825."},
+    {"id":"atlas:evidence:science-museum-group-gurney-carriages","type":"Evidence","source":"atlas:source:science-museum-group-steam-road-vehicles","evidenceType":"collection-records","locator":{"years":"1828-1829"},"notes":"A coleção registra desenhos, modelos e uma carruagem associados aos ensaios rodoviários de Gurney."}
+  ],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-03","region_cluster":"Europa 1769-1885"}
+}

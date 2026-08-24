@@ -39,9 +39,9 @@ def validate() -> dict:
         if copy in copies:
             errors.append(f"{year}: duplicated narrative")
         copies.add(copy)
-    missing_first_span = set(range(1769, 1801)) - years
+    missing_first_span = set(range(1769, 1841)) - years
     if missing_first_span:
-        errors.append(f"missing years in first continuity span: {sorted(missing_first_span)}")
+        errors.append(f"missing years in continuous precursor span: {sorted(missing_first_span)}")
     if errors:
         raise SystemExit("\n".join(errors))
     return {"status": "PASS", "chapters": len(years), "from": min(years), "until": max(years)}

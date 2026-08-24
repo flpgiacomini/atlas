@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:hancock-steam-services-1829-1836",
+  "type": "Event",
+  "name": "Serviços rodoviários a vapor de Walter Hancock",
+  "aliases": ["Infant, Enterprise e Automaton"],
+  "description": "Sequência de carruagens e serviços regulares de passageiros a vapor desenvolvidos por Walter Hancock entre 1829 e 1836.",
+  "claims": [
+    {
+      "id":"atlas:claim:hancock-first-carriage-1829","type":"Claim","subject":"atlas:event:hancock-steam-services-1829-1836","predicate":"began-on",
+      "object":{"type":"date","value":"1829","precision":"year"},"sources":["atlas:source:science-museum-group-walter-hancock"],
+      "evidence":["atlas:evidence:science-museum-group-hancock-services"],"confidence":"high","validity":{"from":"1829","until":"1829","precision":"year"}
+    },
+    {
+      "id":"atlas:claim:hancock-automaton-1836","type":"Claim","subject":"atlas:event:hancock-steam-services-1829-1836","predicate":"ended-on",
+      "object":{"type":"date","value":"1836","precision":"year"},"sources":["atlas:source:science-museum-group-walter-hancock"],
+      "evidence":["atlas:evidence:science-museum-group-hancock-services"],"confidence":"high","validity":{"from":"1831","until":"1836","precision":"range"}
+    }
+  ],
+  "sources": [{"id":"atlas:source:science-museum-group-walter-hancock","type":"Source","title":"Hancock, Walter","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/ap22900/hancock-walter","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence": [{"id":"atlas:evidence:science-museum-group-hancock-services","type":"Evidence","source":"atlas:source:science-museum-group-walter-hancock","evidenceType":"collection-biography","locator":{"years":"1829-1836"},"notes":"O perfil registra a carruagem de 1829, o serviço do Infant em 1831, o Enterprise em 1833 e as 700 viagens do Automaton em 1836."}],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-03","region_cluster":"Europa 1769-1885"}
+}
