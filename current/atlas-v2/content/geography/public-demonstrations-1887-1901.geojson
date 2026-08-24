@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:benz-mannheim-public-demonstration-1887",
+      "properties": {
+        "entity": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
+        "label": "Mannheim — demonstração e consolidação do Patent-Motorwagen",
+        "validity": {"from": "1887", "until": "1887", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-1886-1894",
+        "purpose": "public-demonstration-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [8.466, 49.487]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ford-quadricycle-detroit-1896",
+      "properties": {
+        "entity": "atlas:event:first-drive-of-ford-quadricycle",
+        "label": "Detroit — primeira condução do Quadricycle",
+        "validity": {"from": "1896", "until": "1896", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:the-henry-ford-1896-ford-quadricycle-runabout",
+        "purpose": "first-drive-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [-83.0458, 42.3314]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:renault-rue-lepic-1898",
+      "properties": {
+        "entity": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
+        "label": "Rue Lepic, Paris — demonstração do Renault Type A",
+        "validity": {"from": "1898", "until": "1898", "precision": "year"},
+        "precision": "approximate",
+        "confidence": "verified",
+        "source": "atlas:source:renault-group-bespoke-mobility-designed-with-you-in-mind",
+        "purpose": "urban-demonstration"
+      },
+      "geometry": {"type": "Point", "coordinates": [2.337, 48.886]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:mercedes-cannstatt-jellinek-1900",
+      "properties": {
+        "entity": "atlas:event:first-mercedes-35-hp-supplied-to-emil-jellinek",
+        "label": "Cannstatt — origem industrial do Mercedes 35 hp",
+        "validity": {"from": "1900", "until": "1900", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:mercedes-benz-public-archive-emil-jellinek",
+        "purpose": "vehicle-supply-origin"
+      },
+      "geometry": {"type": "Point", "coordinates": [9.214, 48.807]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:mercedes-nice-race-week-1901",
+      "properties": {
+        "entity": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
+        "label": "Nice — semana de corridas de 1901",
+        "validity": {"from": "1901", "until": "1901", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:mercedes-benz-public-archive-35-hp-mercedes-shows-its-superiority-in-nice-race-week",
+        "purpose": "motorsport-event"
+      },
+      "geometry": {"type": "Point", "coordinates": [7.262, 43.710]}
+    }
+  ]
+}

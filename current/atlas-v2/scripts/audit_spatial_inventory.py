@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +20,11 @@ def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def parsed_year(value: object) -> int | None:
+    match = re.match(r"^(\d{4})", str(value or ""))
+    return int(match.group(1)) if match else None
+
+
 def audit() -> dict:
     inventory = load(INVENTORY)
     chapters = load(ROOT / "content" / "annual-chapters.json")["chapters"]
@@ -28,17 +34,19 @@ def audit() -> dict:
     if expected != actual or len(actual) != 258:
         errors.append("inventory must classify each annual chapter exactly once")
 
-    geometry_by_entity: dict[str, list[dict]] = {}
+    geometry_by_entity: dict[str, list[tuple[int, int]]] = {}
     features = 0
     for path in sorted((ROOT / "content" / "geography").glob("*.geojson")):
         for feature in load(path).get("features", []):
             features += 1
             props = feature.get("properties", {})
             entity = props.get("entity", "")
-            geometry_by_entity.setdefault(entity, []).append(feature)
             validity = props.get("validity", {})
             if not validity.get("from") or not validity.get("until") or not validity.get("precision"):
                 errors.append(f"{feature.get('id')}: incomplete temporal validity")
+            start, end = parsed_year(validity.get("from")), parsed_year(validity.get("until"))
+            if start is not None and end is not None:
+                geometry_by_entity.setdefault(entity, []).append((start, end))
             if props.get("precision") not in PRECISIONS:
                 errors.append(f"{feature.get('id')}: invalid precision")
             if props.get("confidence") not in CONFIDENCES:
@@ -50,7 +58,8 @@ def audit() -> dict:
     for item in items:
         if item.get("mode") not in MODES or len(item.get("rationale", "")) < 20:
             errors.append(f"{item.get('year')}: invalid spatial classification")
-        has_geometry = bool(geometry_by_entity.get(item.get("geometryEntity", item.get("entity", ""))))
+        geometry_entity = item.get("geometryEntity", item.get("entity", ""))
+        has_geometry = any(start <= item["year"] <= end for start, end in geometry_by_entity.get(geometry_entity, []))
         expected_status = "covered" if has_geometry else ("pending" if item.get("mode") == "interactive-required" else "not-required")
         if item.get("geometryStatus") != expected_status:
             errors.append(f"{item.get('year')}: stale geometry status")

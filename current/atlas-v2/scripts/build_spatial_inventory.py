@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,13 +20,21 @@ def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def mapped_entities() -> set[str]:
-    result: set[str] = set()
+def parsed_year(value: object) -> int | None:
+    match = re.match(r"^(\d{4})", str(value or ""))
+    return int(match.group(1)) if match else None
+
+
+def mapped_intervals() -> dict[str, list[tuple[int, int]]]:
+    result: dict[str, list[tuple[int, int]]] = {}
     for path in sorted((ROOT / "content" / "geography").glob("*.geojson")):
         for feature in load(path).get("features", []):
             entity = feature.get("properties", {}).get("entity")
-            if entity:
-                result.add(entity)
+            validity = feature.get("properties", {}).get("validity", {})
+            start = parsed_year(validity.get("from"))
+            end = parsed_year(validity.get("until"))
+            if entity and start is not None and end is not None:
+                result.setdefault(entity, []).append((start, end))
     return result
 
 
@@ -50,12 +59,12 @@ def build() -> dict:
     journeys = load(ROOT / "content" / "journeys.json")["journeys"]
     journey_entities = {item["year"]: item["entity"] for item in journeys}
     journey_years = set(journey_entities)
-    mapped = mapped_entities()
+    mapped = mapped_intervals()
     items = []
     for chapter in chapters:
         mode, rationale = classify(chapter, journey_years)
         geometry_entity = journey_entities.get(chapter["year"], chapter["entity"])
-        covered = geometry_entity in mapped
+        covered = any(start <= chapter["year"] <= end for start, end in mapped.get(geometry_entity, []))
         items.append({
             "year": chapter["year"],
             "entity": chapter["entity"],

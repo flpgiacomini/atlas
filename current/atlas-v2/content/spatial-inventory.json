@@ -1002,7 +1002,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "covered",
+      "geometryStatus": "not-required",
       "mode": "static-sufficient",
       "place": "Manchester",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1011,7 +1011,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "covered",
+      "geometryStatus": "not-required",
       "mode": "static-sufficient",
       "place": "Europa",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1020,7 +1020,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "covered",
+      "geometryStatus": "not-required",
       "mode": "static-sufficient",
       "place": "Manchester",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1029,7 +1029,7 @@
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "geometryEntity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "geometryStatus": "covered",
+      "geometryStatus": "not-required",
       "mode": "static-sufficient",
       "place": "Manchester",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1065,7 +1065,7 @@
     {
       "entity": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
       "geometryEntity": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Alemanha",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1128,7 +1128,7 @@
     {
       "entity": "atlas:event:parisrouen-reliability-trial-1894",
       "geometryEntity": "atlas:event:parisrouen-reliability-trial-1894",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Paris · Rouen",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1146,7 +1146,7 @@
     {
       "entity": "atlas:event:first-drive-of-ford-quadricycle",
       "geometryEntity": "atlas:event:first-drive-of-ford-quadricycle",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Detroit · Paris · Londres",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1164,7 +1164,7 @@
     {
       "entity": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
       "geometryEntity": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Paris",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1182,7 +1182,7 @@
     {
       "entity": "atlas:event:first-mercedes-35-hp-supplied-to-emil-jellinek",
       "geometryEntity": "atlas:event:first-mercedes-35-hp-supplied-to-emil-jellinek",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Cannstatt · Nice",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1191,7 +1191,7 @@
     {
       "entity": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
       "geometryEntity": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Nice · Detroit",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1218,7 +1218,7 @@
     {
       "entity": "atlas:event:1904-vanderbilt-cup",
       "geometryEntity": "atlas:event:1904-vanderbilt-cup",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Long Island · Manchester",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1236,7 +1236,7 @@
     {
       "entity": "atlas:event:1906-grand-prix-de-l-a-c-f",
       "geometryEntity": "atlas:event:1906-grand-prix-de-l-a-c-f",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Le Mans · Manchester · Detroit · Turim",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1272,7 +1272,7 @@
     {
       "entity": "atlas:event:model-t-production-moved-to-highland-park",
       "geometryEntity": "atlas:event:model-t-production-moved-to-highland-park",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Highland Park",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1308,7 +1308,7 @@
     {
       "entity": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
       "geometryEntity": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Paris · Europa",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1317,7 +1317,7 @@
     {
       "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
       "geometryEntity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Alemanha",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1326,7 +1326,7 @@
     {
       "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
       "geometryEntity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Europa",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1335,7 +1335,7 @@
     {
       "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
       "geometryEntity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1389,7 +1389,7 @@
     {
       "entity": "atlas:event:first-le-mans-24-hours-1923",
       "geometryEntity": "atlas:event:first-le-mans-24-hours-1923",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Le Mans",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1425,7 +1425,7 @@
     {
       "entity": "atlas:event:end-of-ford-model-t-production",
       "geometryEntity": "atlas:event:end-of-ford-model-t-production",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Detroit · Nürburg",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1434,7 +1434,7 @@
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
       "geometryEntity": "atlas:event:nurburgring-opening-weekend",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Nürburg",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -2330,8 +2330,8 @@
   },
   "summary": {
     "chapters": 258,
-    "interactiveCovered": 15,
-    "interactivePending": 83,
+    "interactiveCovered": 29,
+    "interactivePending": 69,
     "interactiveRequired": 98,
     "notSpatial": 0,
     "staticSufficient": 160

@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:paris-rouen-trial-1894",
+      "properties": {
+        "entity": "atlas:event:parisrouen-reliability-trial-1894",
+        "label": "Paris–Rouen — concurso de confiabilidade",
+        "validity": {"from": "1894", "until": "1894", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:mercedes-benz-public-archive-peugeot-18941896",
+        "purpose": "competition-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[2.3522, 48.8566], [1.0993, 49.4432]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:vanderbilt-cup-long-island-1904",
+      "properties": {
+        "entity": "atlas:event:1904-vanderbilt-cup",
+        "label": "Long Island — circuito rodoviário editorial da Vanderbilt Cup",
+        "validity": {"from": "1904", "until": "1904", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
+        "purpose": "competition-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[-73.64, 40.73], [-73.52, 40.77], [-73.59, 40.82], [-73.64, 40.73]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:french-grand-prix-le-mans-1906",
+      "properties": {
+        "entity": "atlas:event:1906-grand-prix-de-l-a-c-f",
+        "label": "Sarthe — circuito rodoviário editorial do Grand Prix de 1906",
+        "validity": {"from": "1906", "until": "1906", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
+        "purpose": "competition-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[0.1996, 48.0061], [0.745, 47.922], [0.654, 48.186], [0.1996, 48.0061]]}
+    }
+  ]
+}

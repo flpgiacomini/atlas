@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:first-le-mans-24-hours-1923",
+      "properties": {
+        "entity": "atlas:event:first-le-mans-24-hours-1923",
+        "label": "Circuit de la Sarthe — primeiras 24 Horas",
+        "validity": {"from": "1923", "until": "1923", "precision": "year"},
+        "precision": "facility",
+        "confidence": "verified",
+        "source": "atlas:source:aco-le-mans-history-1923",
+        "purpose": "motorsport-event"
+      },
+      "geometry": {"type": "Point", "coordinates": [0.207, 47.956]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:model-t-production-end-highland-park-1927",
+      "properties": {
+        "entity": "atlas:event:end-of-ford-model-t-production",
+        "label": "Highland Park — encerramento do ciclo do Model T",
+        "validity": {"from": "1927", "until": "1927", "precision": "year"},
+        "precision": "facility-approximate",
+        "confidence": "verified",
+        "source": "atlas:source:ford-motor-company-the-ford-model-t",
+        "purpose": "production-end"
+      },
+      "geometry": {"type": "Point", "coordinates": [-83.097, 42.405]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:nurburgring-opening-1927-1928",
+      "properties": {
+        "entity": "atlas:event:nurburgring-opening-weekend",
+        "label": "Nürburgring — abertura e consolidação do circuito",
+        "validity": {"from": "1927", "until": "1928", "precision": "range"},
+        "precision": "facility",
+        "confidence": "verified",
+        "source": "atlas:source:nurburgring-the-history",
+        "purpose": "circuit-opening"
+      },
+      "geometry": {"type": "Point", "coordinates": [6.9475, 50.3356]}
+    }
+  ]
+}

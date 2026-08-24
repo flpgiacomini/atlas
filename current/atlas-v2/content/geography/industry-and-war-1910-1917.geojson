@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ford-highland-park-1910",
+      "properties": {
+        "entity": "atlas:event:model-t-production-moved-to-highland-park",
+        "label": "Highland Park — nova planta do Model T",
+        "validity": {"from": "1910", "until": "1910", "precision": "year"},
+        "precision": "facility-approximate",
+        "confidence": "verified",
+        "source": "atlas:source:ford-motor-company-highland-park",
+        "purpose": "factory-relocation"
+      },
+      "geometry": {"type": "Point", "coordinates": [-83.097, 42.405]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:renault-taxis-marne-1914",
+      "properties": {
+        "entity": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
+        "label": "Paris–Marne — deslocamento editorial dos táxis mobilizados",
+        "validity": {"from": "1914", "until": "1914", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:renault-group-autoworld-fete-les-120-ans-de-renault",
+        "purpose": "wartime-mobilization-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[2.3522, 48.8566], [2.878, 48.96]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:daimler-marienfelde-wartime-1917",
+      "properties": {
+        "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
+        "label": "Marienfelde — produção Daimler em contexto de guerra",
+        "validity": {"from": "1914", "until": "1926", "precision": "range"},
+        "precision": "facility-approximate",
+        "confidence": "verified",
+        "source": "atlas:source:mercedes-benz-public-archive-daimler-marienfelde-series-dc-trucks-and-buses-19141926",
+        "purpose": "wartime-production-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [13.387, 52.424]}
+    }
+  ]
+}

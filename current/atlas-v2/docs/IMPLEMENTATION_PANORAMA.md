@@ -168,10 +168,12 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    [`JOURNEYS_CHECKPOINT_16_COMPLETE.md`](JOURNEYS_CHECKPOINT_16_COMPLETE.md).
 3. **CP17 — Inventário cartográfico: em andamento.** Os 258 capítulos estão
    classificados: 98 exigem interação e 160 aceitam representação estática;
-   15/98 interativos têm geometria e 83 permanecem no backlog. O inventário
+   29/98 interativos têm geometria temporal válida e 69 permanecem no backlog. O inventário
    está em [`CARTOGRAPHY_CHECKPOINT_17_INVENTORY.md`](CARTOGRAPHY_CHECKPOINT_17_INVENTORY.md)
    e o primeiro lote em
-   [`CARTOGRAPHY_CHECKPOINT_17_PROGRESS_01.md`](CARTOGRAPHY_CHECKPOINT_17_PROGRESS_01.md).
+   [`CARTOGRAPHY_CHECKPOINT_17_PROGRESS_01.md`](CARTOGRAPHY_CHECKPOINT_17_PROGRESS_01.md)
+   e o segundo em
+   [`CARTOGRAPHY_CHECKPOINT_17_PROGRESS_02.md`](CARTOGRAPHY_CHECKPOINT_17_PROGRESS_02.md).
 4. **CP18 — Mídia editorial:** manifesto, arquivos locais e licenças por história.
 5. **CP19 — Curadoria canônica:** resolver 522 registros catalográficos.
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
