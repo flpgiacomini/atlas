@@ -91,6 +91,9 @@ def audit() -> dict:
 
     if len(journeys) != 6:
         errors.append(f"expected six journeys, found {len(journeys)}")
+    incomplete = [item["entity"] for item in items if not item["complete"]]
+    if incomplete:
+        errors.append(f"incomplete required journeys: {', '.join(incomplete)}")
     report = {
         "version": "1.0.0",
         "status": "PASS" if not errors else "FAIL",

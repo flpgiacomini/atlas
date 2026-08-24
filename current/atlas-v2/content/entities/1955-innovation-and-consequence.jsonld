@@ -4,7 +4,7 @@
   "type": "Event",
   "name": "1955: inovação e consequência",
   "aliases": ["1955 no automóvel e no automobilismo"],
-  "description": "A estreia do Citroën DS em Paris e a temporada marcada pelo desastre de Le Mans expõem, no mesmo ano, a potência transformadora e a responsabilidade pública da engenharia automotiva.",
+  "description": "Le Mans e a estreia do Citroën DS expõem, no mesmo ano, a potência transformadora e a responsabilidade pública da engenharia automotiva.",
   "metadata": {
     "editorial_level": "editorial",
     "editorial_batch": "V2-FOUNDATION",
@@ -13,62 +13,88 @@
   },
   "claims": [
     {
-      "id": "atlas:claim:ds-19-debuted-paris-1955",
+      "id": "atlas:claim:le-mans-race-date-1955",
       "type": "Claim",
       "subject": "atlas:event:1955-innovation-and-consequence",
       "predicate": "involved",
-      "object": "O DS 19 estreou no Salão do Automóvel de Paris em 6 de outubro de 1955.",
-      "sources": ["atlas:source:ds-70-year-history"],
-      "evidence": ["atlas:evidence:ds-1955-paris-debut"],
+      "object": "A edição de 1955 das 24 Horas de Le Mans começou em 11 de junho.",
+      "sources": ["atlas:source:aco-le-mans-1955-sixty-years"],
+      "evidence": ["atlas:evidence:aco-le-mans-1955-date"],
       "confidence": "single-source",
-      "validity": {"from": "1955-10-06", "until": "1955-10-06", "precision": "day"}
+      "validity": {"from": "1955-06-11", "until": "1955-06-11", "precision": "day"}
     },
     {
       "id": "atlas:claim:le-mans-disaster-1955",
       "type": "Claim",
       "subject": "atlas:event:1955-innovation-and-consequence",
       "predicate": "involved",
-      "object": "O desastre de Le Mans de junho de 1955 matou 83 pessoas, incluindo o piloto de fábrica Pierre Levegh.",
-      "sources": ["atlas:source:mercedes-motorsport-newsletter-2025"],
-      "evidence": ["atlas:evidence:mercedes-le-mans-1955-summary"],
+      "object": "Mercedes-Benz e FIA registram 83 mortos, incluindo Pierre Levegh; páginas históricas do ACO também publicam a contagem de 82 vítimas, divergência preservada pelo Atlas.",
+      "sources": ["atlas:source:mercedes-motorsport-newsletter-2025", "atlas:source:fia-pioneering-spirit", "atlas:source:aco-le-mans-1955-sixty-years"],
+      "evidence": ["atlas:evidence:mercedes-le-mans-1955-summary", "atlas:evidence:fia-le-mans-1955-summary", "atlas:evidence:aco-le-mans-1955-count"],
+      "confidence": "conflicted-count",
+      "validity": {"from": "1955-06-11", "until": "1955-06-11", "precision": "day"}
+    },
+    {
+      "id": "atlas:claim:mercedes-withdrawal-le-mans-1955",
+      "type": "Claim",
+      "subject": "atlas:event:1955-innovation-and-consequence",
+      "predicate": "involved",
+      "object": "A Mercedes-Benz retirou seus carros da prova depois da meia-noite; sua saída das competições ao fim de 1955 já havia sido planejada antes do desastre.",
+      "sources": ["atlas:source:mercedes-le-mans-1955-detailed"],
+      "evidence": ["atlas:evidence:mercedes-race-withdrawal-and-season-plan"],
       "confidence": "single-source",
-      "validity": {"from": "1955-06", "until": "1955-06", "precision": "month"}
+      "validity": {"from": "1955-06-12", "until": "1955-12-31", "precision": "day"}
+    },
+    {
+      "id": "atlas:claim:le-mans-rebuilt-for-1956",
+      "type": "Claim",
+      "subject": "atlas:event:1955-innovation-and-consequence",
+      "predicate": "involved",
+      "object": "Obras posteriores modificaram o circuito, e a edição de 1956 foi deslocada para julho para permitir sua conclusão.",
+      "sources": ["atlas:source:aco-le-mans-1956-rebuild"],
+      "evidence": ["atlas:evidence:aco-1956-circuit-work"],
+      "confidence": "single-source",
+      "validity": {"from": "1955-06-12", "until": "1956-07-29", "precision": "day"}
+    },
+    {
+      "id": "atlas:claim:ds-19-debuted-paris-1955",
+      "type": "Claim",
+      "subject": "atlas:event:1955-innovation-and-consequence",
+      "predicate": "involved",
+      "object": "O DS 19 estreou no Salão do Automóvel de Paris, no Grand Palais, em 6 de outubro de 1955.",
+      "sources": ["atlas:source:ds-70-year-history"],
+      "evidence": ["atlas:evidence:ds-1955-paris-debut"],
+      "confidence": "single-source",
+      "validity": {"from": "1955-10-06", "until": "1955-10-06", "precision": "day"}
+    },
+    {
+      "id": "atlas:claim:ds-production-javel-1955",
+      "type": "Claim",
+      "subject": "atlas:event:1955-innovation-and-consequence",
+      "predicate": "involved",
+      "object": "A produção do DS começou no dia seguinte à apresentação, na fábrica do Quai de Javel.",
+      "sources": ["atlas:source:ds-70-year-history"],
+      "evidence": ["atlas:evidence:ds-1955-javel-production"],
+      "confidence": "single-source",
+      "validity": {"from": "1955-10-07", "until": "1955-10-07", "precision": "day"}
     }
   ],
   "sources": [
-    {
-      "id": "atlas:source:ds-70-year-history",
-      "type": "Source",
-      "title": "DS, A 70-Year History",
-      "publisher": "DS Automobiles — Stellantis Media",
-      "url": "https://www.media.stellantis.com/em-en/ds/press/ds-a-70-year-history",
-      "trust": "institutional",
-      "verifiedAt": "2026-08-21"
-    },
-    {
-      "id": "atlas:source:mercedes-motorsport-newsletter-2025",
-      "type": "Source",
-      "title": "Mercedes-Benz Classic Motorsport-Newsletter 1/2025",
-      "publisher": "Mercedes-Benz Media",
-      "url": "https://media.mercedes-benz.com/article/c2365d76-269f-4e1b-acc8-2a626a9f5cdc",
-      "trust": "institutional",
-      "verifiedAt": "2026-08-21"
-    }
+    {"id": "atlas:source:ds-70-year-history", "type": "Source", "title": "DS, A 70-Year History", "publisher": "DS Automobiles — Stellantis Media", "url": "https://www.media.stellantis.com/em-en/ds/press/ds-a-70-year-history", "trust": "institutional", "verifiedAt": "2026-08-24"},
+    {"id": "atlas:source:mercedes-motorsport-newsletter-2025", "type": "Source", "title": "Mercedes-Benz Classic Motorsport-Newsletter 1/2025", "publisher": "Mercedes-Benz Media", "url": "https://media.mercedes-benz.com/article/c2365d76-269f-4e1b-acc8-2a626a9f5cdc", "trust": "institutional", "verifiedAt": "2026-08-24"},
+    {"id": "atlas:source:mercedes-le-mans-1955-detailed", "type": "Source", "title": "The 1955 motorsport season", "publisher": "Mercedes-Benz Media", "url": "https://media.mercedes-benz.com/article/0ee71ec7-80ea-46c6-a0d4-c41b3f168a96", "trust": "institutional", "verifiedAt": "2026-08-24"},
+    {"id": "atlas:source:fia-pioneering-spirit", "type": "Source", "title": "Pioneering spirit", "publisher": "FIA", "url": "https://www.fia.com/news/pioneering-spirit", "trust": "institutional", "verifiedAt": "2026-08-24"},
+    {"id": "atlas:source:aco-le-mans-1955-sixty-years", "type": "Source", "title": "Il y a 60 ans, les 24 Heures du Mans 1955", "publisher": "Automobile Club de l'Ouest", "url": "https://www.24h-lemans.com/fr/actualites/il-y-a-60-ans-les-24-heures-du-mans-1955-20597", "trust": "institutional", "verifiedAt": "2026-08-24"},
+    {"id": "atlas:source:aco-le-mans-1956-rebuild", "type": "Source", "title": "The 1956 24 Hours of Le Mans — a look back", "publisher": "Automobile Club de l'Ouest", "url": "https://www.24h-lemans.com/en/news/the-1956-24-hours-of-le-mans-a-look-back-at-the-24th-edition-47314", "trust": "institutional", "verifiedAt": "2026-08-24"}
   ],
   "evidence": [
-    {
-      "id": "atlas:evidence:ds-1955-paris-debut",
-      "type": "Evidence",
-      "source": "atlas:source:ds-70-year-history",
-      "evidenceType": "explicit-statement",
-      "locator": {"section": "1955 Motor Show: The DS makes its debut in Paris"}
-    },
-    {
-      "id": "atlas:evidence:mercedes-le-mans-1955-summary",
-      "type": "Evidence",
-      "source": "atlas:source:mercedes-motorsport-newsletter-2025",
-      "evidenceType": "explicit-statement",
-      "locator": {"section": "1 May 1955 — 70 years ago"}
-    }
+    {"id": "atlas:evidence:aco-le-mans-1955-date", "type": "Evidence", "source": "atlas:source:aco-le-mans-1955-sixty-years", "evidenceType": "explicit-statement", "locator": {"section": "Samedi 11 juin 1955"}},
+    {"id": "atlas:evidence:mercedes-le-mans-1955-summary", "type": "Evidence", "source": "atlas:source:mercedes-motorsport-newsletter-2025", "evidenceType": "explicit-statement", "locator": {"section": "The disaster at Le Mans"}},
+    {"id": "atlas:evidence:fia-le-mans-1955-summary", "type": "Evidence", "source": "atlas:source:fia-pioneering-spirit", "evidenceType": "explicit-statement", "locator": {"section": "1955 Le Mans disaster"}},
+    {"id": "atlas:evidence:aco-le-mans-1955-count", "type": "Evidence", "source": "atlas:source:aco-le-mans-1955-sixty-years", "evidenceType": "explicit-statement", "locator": {"section": "82 morts"}},
+    {"id": "atlas:evidence:mercedes-race-withdrawal-and-season-plan", "type": "Evidence", "source": "atlas:source:mercedes-le-mans-1955-detailed", "evidenceType": "explicit-statement", "locator": {"section": "Withdrawal from the race and season planning"}},
+    {"id": "atlas:evidence:aco-1956-circuit-work", "type": "Evidence", "source": "atlas:source:aco-le-mans-1956-rebuild", "evidenceType": "explicit-statement", "locator": {"section": "Circuit construction and July race date"}},
+    {"id": "atlas:evidence:ds-1955-paris-debut", "type": "Evidence", "source": "atlas:source:ds-70-year-history", "evidenceType": "explicit-statement", "locator": {"section": "1955 Motor Show: The DS makes its debut in Paris"}},
+    {"id": "atlas:evidence:ds-1955-javel-production", "type": "Evidence", "source": "atlas:source:ds-70-year-history", "evidenceType": "explicit-statement", "locator": {"section": "Production begins on 7 October at Quai de Javel"}}
   ]
 }

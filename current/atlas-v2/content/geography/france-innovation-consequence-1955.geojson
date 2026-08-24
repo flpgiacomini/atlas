@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:le-mans-circuit-1955",
+      "properties": {
+        "entity": "atlas:event:1955-innovation-and-consequence",
+        "label": "Circuit de la Sarthe",
+        "validity": {"from": "1955-06-11", "until": "1955-06-12", "precision": "day"},
+        "precision": "facility",
+        "confidence": "high",
+        "source": "atlas:source:aco-le-mans-1955-sixty-years",
+        "purpose": "motorsport-event"
+      },
+      "geometry": {"type": "Point", "coordinates": [0.207, 47.956]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:grand-palais-ds-1955",
+      "properties": {
+        "entity": "atlas:event:1955-innovation-and-consequence",
+        "label": "Grand Palais, Paris",
+        "validity": {"from": "1955-10-06", "until": "1955-10-06", "precision": "day"},
+        "precision": "facility",
+        "confidence": "high",
+        "source": "atlas:source:ds-70-year-history",
+        "purpose": "vehicle-debut"
+      },
+      "geometry": {"type": "Point", "coordinates": [2.3138, 48.8661]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:quai-de-javel-ds-1955",
+      "properties": {
+        "entity": "atlas:event:1955-innovation-and-consequence",
+        "label": "Fábrica do Quai de Javel, Paris",
+        "validity": {"from": "1955-10-07", "until": "1955-12-31", "precision": "day"},
+        "precision": "facility-approximate",
+        "confidence": "approximate",
+        "source": "atlas:source:ds-70-year-history",
+        "purpose": "production-start"
+      },
+      "geometry": {"type": "Point", "coordinates": [2.276, 48.841]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:le-mans-paris-1955-editorial",
+      "properties": {
+        "entity": "atlas:event:1955-innovation-and-consequence",
+        "label": "De Le Mans a Paris: duas faces da engenharia",
+        "validity": {"from": "1955-06-11", "until": "1955-10-07", "precision": "day"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:aco-le-mans-1955-sixty-years",
+        "purpose": "editorial-transition"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[0.207, 47.956], [2.3138, 48.8661], [2.276, 48.841]]}
+    }
+  ]
+}

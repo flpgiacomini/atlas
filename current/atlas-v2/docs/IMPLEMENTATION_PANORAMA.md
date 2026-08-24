@@ -162,10 +162,10 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 ## Caminho crítico e checkpoints seguintes
 
 1. **CP15 — Evidência temporal: concluído**, com 258/258 e zero gaps.
-2. **CP16 — Seis percursos completos: em andamento (5/6).** Benz / 1886,
-   Model T / 1908, Volvo PV544 / 1958, Porsche 911 / 1963 e Porsche 917 / 1969
-   estão completos; falta apenas Origens do Motorsport / 1955. Ver
-   [`JOURNEYS_CHECKPOINT_16_PROGRESS_05.md`](JOURNEYS_CHECKPOINT_16_PROGRESS_05.md).
+2. **CP16 — Seis percursos completos: concluído (6/6).** Benz / 1886,
+   Model T / 1908, Origens do Motorsport / 1955, Volvo PV544 / 1958,
+   Porsche 911 / 1963 e Porsche 917 / 1969 estão completos. Ver
+   [`JOURNEYS_CHECKPOINT_16_COMPLETE.md`](JOURNEYS_CHECKPOINT_16_COMPLETE.md).
 3. **CP17 — Inventário cartográfico:** classificar os 258 capítulos e fechar
    geometria para 100% do subconjunto espacial.
 4. **CP18 — Mídia editorial:** manifesto, arquivos locais e licenças por história.
@@ -173,6 +173,6 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
-O caminho crítico agora é seis percursos → cartografia e mídia → QA. A
-infraestrutura publica; falta converter cobertura ampla em história
+O caminho crítico agora é cartografia e mídia → curadoria canônica → QA. A
+infraestrutura publica e os seis percursos estão fechados; falta converter cobertura ampla em história
 verificável, visualmente específica e espacialmente coerente.

@@ -24,14 +24,14 @@
       "year": 1908
     },
     {
-      "authoredStory": false,
+      "authoredStory": true,
       "canonicalEvidence": true,
-      "complete": false,
+      "complete": true,
       "entity": "atlas:event:1955-innovation-and-consequence",
       "label": "Origens do Motorsport",
-      "licensedMedia": 0,
+      "licensedMedia": 1,
       "presentationAsset": true,
-      "temporalGeography": false,
+      "temporalGeography": true,
       "year": 1955
     },
     {
@@ -68,15 +68,15 @@
       "year": 1969
     }
   ],
-  "reportSha256": "b4351a9e8b48c5400aced24153b51bf690448a2ca4c6d5fa9ba2708e8b599398",
+  "reportSha256": "4bee86fd59f98e7376258722bafdcdfefe7fe0b1544ae2e1c350d50949447263",
   "status": "PASS",
   "summary": {
-    "authoredStories": 5,
+    "authoredStories": 6,
     "canonicalEvidence": 6,
-    "completeJourneys": 5,
+    "completeJourneys": 6,
     "journeys": 6,
-    "journeysWithLicensedMedia": 5,
-    "journeysWithTemporalGeography": 5,
+    "journeysWithLicensedMedia": 6,
+    "journeysWithTemporalGeography": 6,
     "presentationAssets": 6
   },
   "version": "1.0.0"
