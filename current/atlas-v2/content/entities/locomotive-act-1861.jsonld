@@ -1,0 +1,16 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:locomotive-act-1861",
+  "type": "Event",
+  "name": "Locomotive Act de 1861",
+  "aliases": ["Locomotives on Turnpike and Other Roads Act 1861"],
+  "description": "Lei britânica que estabeleceu regras nacionais para locomotivas rodoviárias, incluindo pedágios, dimensões, peso e largura das rodas.",
+  "claims": [{
+    "id":"atlas:claim:locomotive-act-enacted-1861","type":"Claim","subject":"atlas:event:locomotive-act-1861","predicate":"occurred-on",
+    "object":{"type":"date","value":"1861","precision":"year"},"sources":["atlas:source:uk-legislation-locomotive-act-1861"],
+    "evidence":["atlas:evidence:uk-legislation-locomotive-act-1861-provisions"],"confidence":"high","validity":{"from":"1861","until":"1861","precision":"year"}
+  }],
+  "sources": [{"id":"atlas:source:uk-legislation-locomotive-act-1861","type":"Source","title":"Locomotives on Turnpike and Other Roads Act 1861","publisher":"The National Archives — legislation.gov.uk","url":"https://www.legislation.gov.uk/ukpga/1861/70/pdfs/ukpga_18610070_en.pdf","trust":"primary","verifiedAt":"2026-08-24"}],
+  "evidence": [{"id":"atlas:evidence:uk-legislation-locomotive-act-1861-provisions","type":"Evidence","source":"atlas:source:uk-legislation-locomotive-act-1861","evidenceType":"legislation","locator":{"sections":"3-5"},"notes":"O texto legal estabelece disposições sobre pedágios, dimensões, peso e rodas para locomotivas em turnpikes e outras estradas."}],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-04","region_cluster":"Europa 1769-1885"}
+}

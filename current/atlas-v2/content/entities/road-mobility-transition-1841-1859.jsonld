@@ -1,0 +1,29 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:road-mobility-transition-1841-1859",
+  "type": "Event",
+  "name": "Transição entre o vapor rodoviário e a combustão prática",
+  "aliases": ["Intervalo rodoviário de 1841 a 1859"],
+  "description": "Intervalo editorial entre a perda de impulso das carruagens a vapor britânicas e a apresentação do motor a gás comercial de Étienne Lenoir em 1860.",
+  "claims": [
+    {
+      "id":"atlas:claim:road-steam-momentum-lost-before-transition","type":"Claim","subject":"atlas:event:road-mobility-transition-1841-1859","predicate":"began-on",
+      "object":{"type":"date","value":"1841","precision":"year"},"sources":["atlas:source:science-museum-group-walter-hancock"],
+      "evidence":["atlas:evidence:science-museum-group-transition-after-road-steam"],"confidence":"medium","validity":{"from":"1841","until":"1841","precision":"year"}
+    },
+    {
+      "id":"atlas:claim:transition-precedes-lenoir-engine","type":"Claim","subject":"atlas:event:road-mobility-transition-1841-1859","predicate":"ended-on",
+      "object":{"type":"date","value":"1859","precision":"year"},"sources":["atlas:source:arts-et-metiers-lenoir-engine"],
+      "evidence":["atlas:evidence:arts-et-metiers-transition-to-lenoir"],"confidence":"medium","validity":{"from":"1859","until":"1859","precision":"year"}
+    }
+  ],
+  "sources": [
+    {"id":"atlas:source:science-museum-group-walter-hancock","type":"Source","title":"Hancock, Walter","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/ap22900/hancock-walter","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:arts-et-metiers-lenoir-engine","type":"Source","title":"Moteur à gaz du premier type de Lenoir","publisher":"Musée des Arts et Métiers — Cnam","url":"https://www.arts-et-metiers.net/musee/moteur-gaz-du-premier-type-de-lenoir","trust":"institutional","verifiedAt":"2026-08-24"}
+  ],
+  "evidence": [
+    {"id":"atlas:evidence:science-museum-group-transition-after-road-steam","type":"Evidence","source":"atlas:source:science-museum-group-walter-hancock","evidenceType":"collection-biography","locator":{"year":"1840"},"notes":"O perfil registra que o vapor rodoviário havia perdido impulso por volta de 1840; 1841 marca aqui o início editorial do intervalo posterior, não um evento independente."},
+    {"id":"atlas:evidence:arts-et-metiers-transition-to-lenoir","type":"Evidence","source":"atlas:source:arts-et-metiers-lenoir-engine","evidenceType":"collection-record","locator":{"period":"before 1860"},"notes":"O motor de Lenoir apresentado em 1860 encerra o intervalo editorial; 1859 não é tratado como invenção ou demonstração autônoma."}
+  ],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-04","region_cluster":"Europa 1769-1885","inference":"bounded-editorial-interval"}
+}

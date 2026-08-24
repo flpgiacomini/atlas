@@ -1,0 +1,23 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:technology:lenoir-gas-engine-1860",
+  "type": "Technology",
+  "name": "Motor a gás de Lenoir",
+  "aliases": ["Moteur à gaz du premier type de Lenoir"],
+  "description": "Motor de combustão interna a gás e ignição elétrica apresentado por Étienne Lenoir em 1860, comercialmente utilizável embora ainda ineficiente.",
+  "claims": [
+    {
+      "id":"atlas:claim:lenoir-gas-engine-presented-1860","type":"Claim","subject":"atlas:technology:lenoir-gas-engine-1860","predicate":"occurred-on",
+      "object":{"type":"date","value":"1860","precision":"year"},"sources":["atlas:source:arts-et-metiers-lenoir-engine"],
+      "evidence":["atlas:evidence:arts-et-metiers-lenoir-engine-operation"],"confidence":"high","validity":{"from":"1860","until":"1860","precision":"year"}
+    },
+    {
+      "id":"atlas:claim:lenoir-gas-engine-internal-combustion","type":"Claim","subject":"atlas:technology:lenoir-gas-engine-1860","predicate":"involves",
+      "object":{"type":"EntityReference","id":"atlas:technology:motor-de-combustao-interna"},"sources":["atlas:source:arts-et-metiers-lenoir-engine"],
+      "evidence":["atlas:evidence:arts-et-metiers-lenoir-engine-operation"],"confidence":"high","validity":{"from":"1860","precision":"year"}
+    }
+  ],
+  "sources": [{"id":"atlas:source:arts-et-metiers-lenoir-engine","type":"Source","title":"Moteur à gaz du premier type de Lenoir","publisher":"Musée des Arts et Métiers — Cnam","url":"https://www.arts-et-metiers.net/musee/moteur-gaz-du-premier-type-de-lenoir","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence": [{"id":"atlas:evidence:arts-et-metiers-lenoir-engine-operation","type":"Evidence","source":"atlas:source:arts-et-metiers-lenoir-engine","evidenceType":"collection-record","locator":{"section":"Description"},"notes":"O museu descreve combustão no cilindro, mistura de gás e ar, ignição elétrica e as limitações de rendimento e consumo do primeiro tipo de motor de Lenoir."}],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-04","region_cluster":"Europa 1769-1885"}
+}

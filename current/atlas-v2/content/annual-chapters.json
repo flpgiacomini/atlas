@@ -859,5 +859,237 @@
   "asset": "/assets/people-industry.webp",
   "chapterKind": "milestone"
 }
+    ,
+{
+  "year": 1841,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A estrada volta a parecer vazia",
+  "eyebrow": "Depois do auge",
+  "title": "A estrada volta a parecer vazia",
+  "copy": "Em 1841, o ciclo de serviços regulares de Hancock já não mantém o impulso da década anterior. A capacidade técnica demonstrada sobrevive, mas sem uma rede comercial que a reproduza.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1842,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Operar não significou multiplicar",
+  "eyebrow": "Conhecimento sem escala",
+  "title": "Operar não significou multiplicar",
+  "copy": "Em 1842, as lições sobre caldeiras, direção e transporte de passageiros permanecem disponíveis. O que falta é uma combinação durável de capital, rotas e regras favoráveis.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1843,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A estrada favorece o sistema existente",
+  "eyebrow": "A infraestrutura escolhe",
+  "title": "A estrada favorece o sistema existente",
+  "copy": "Em 1843, estradas, oficinas e abastecimento continuam organizados para cavalos. Uma tecnologia nova precisa competir também com essa infraestrutura acumulada.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1844,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Cada viagem ainda exige especialistas",
+  "eyebrow": "O custo da exceção",
+  "title": "Cada viagem ainda exige especialistas",
+  "copy": "Em 1844, a carruagem a vapor continua dependente de operação especializada. Sem padronização, manutenção e combustível pesam sobre qualquer tentativa de serviço.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1845,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A ferrovia concentra o investimento",
+  "eyebrow": "O trilho avança",
+  "title": "A ferrovia concentra o investimento",
+  "copy": "Em 1845, a expansão ferroviária oferece ao vapor um caminho guiado, previsível e escalável. O mesmo princípio energético encontra no trilho condições mais favoráveis que na estrada.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1846,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A máquina prospera fora da estrada",
+  "eyebrow": "Dois destinos para o vapor",
+  "title": "A máquina prospera fora da estrada",
+  "copy": "Em 1846, o contraste torna-se histórico: o vapor transforma transporte e indústria, mas sua aplicação rodoviária permanece marginal. Tecnologia e ambiente precisam evoluir juntos.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1847,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Os passageiros provaram uma possibilidade",
+  "eyebrow": "A memória dos serviços",
+  "title": "Os passageiros provaram uma possibilidade",
+  "copy": "Em 1847, as milhares de viagens de Hancock continuam importantes como evidência. Elas impedem que o recuo comercial seja confundido com impossibilidade mecânica.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1848,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Circular também é uma questão política",
+  "eyebrow": "Mobilidade e ordem pública",
+  "title": "Circular também é uma questão política",
+  "copy": "Em 1848, pensar uma carruagem sem cavalos envolve mais que engenharia: pedágios, segurança, responsabilidade e convivência nas estradas entram no problema.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1849,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Protótipos não formam um mercado",
+  "eyebrow": "Sem uma linhagem industrial",
+  "title": "Protótipos não formam um mercado",
+  "copy": "Em 1849, os veículos a vapor anteriores ainda não produziram uma linhagem contínua de fabricantes e compradores. O automóvel permanece uma possibilidade fragmentada.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1850,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A carruagem ainda define a estrada",
+  "eyebrow": "O meio do século",
+  "title": "A carruagem ainda define a estrada",
+  "copy": "Em 1850, a mobilidade rodoviária continua centrada na tração animal, embora décadas de experiências já tenham demonstrado alternativas. A ruptura exige um sistema mais leve e repetível.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1851,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A indústria aprende a se mostrar",
+  "eyebrow": "Máquinas em exposição",
+  "title": "A indústria aprende a se mostrar",
+  "copy": "Em 1851, a cultura de exposições industriais torna máquinas e invenções visíveis a um público internacional. A mobilidade mecânica passa a integrar um imaginário mais amplo de progresso.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1852,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "O motor ainda não encontra sua forma",
+  "eyebrow": "Energia disponível, veículo ausente",
+  "title": "O motor ainda não encontra sua forma",
+  "copy": "Em 1852, múltiplas fontes de energia são conhecidas, mas nenhuma combinação oferece ao veículo rodoviário leveza, autonomia, controle e custo em equilíbrio.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1853,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A inovação permanece artesanal",
+  "eyebrow": "Oficina antes da fábrica",
+  "title": "A inovação permanece artesanal",
+  "copy": "Em 1853, construir uma máquina rodoviária continua sendo trabalho de inventor e oficina. Ainda não existe uma cadeia industrial dedicada ao automóvel.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1854,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Mover-se exige levar energia",
+  "eyebrow": "Combustível e alcance",
+  "title": "Mover-se exige levar energia",
+  "copy": "Em 1854, autonomia continua no centro do problema. Água e combustível limitam o vapor; gases e misturas de combustão ainda procuram motores confiáveis.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1855,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "A combustão precisa ser comandada",
+  "eyebrow": "Ignição e controle",
+  "title": "A combustão precisa ser comandada",
+  "copy": "Em 1855, a promessa de queimar combustível dentro do cilindro depende de dosar mistura e ignição. Sem controle repetível, não há motor prático para uma estrada.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1856,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Uma ideia só muda a história quando opera",
+  "eyebrow": "Entre teoria e uso",
+  "title": "Uma ideia só muda a história quando opera",
+  "copy": "Em 1856, princípios mecânicos e experiências isoladas ainda precisam convergir em máquinas utilizáveis. O próximo salto virá de um motor capaz de trabalhar fora do laboratório.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1857,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Menos massa, mais regularidade",
+  "eyebrow": "A busca por compactação",
+  "title": "Menos massa, mais regularidade",
+  "copy": "Em 1857, o problema automotivo pode ser resumido em uma relação difícil: produzir trabalho suficiente com uma máquina menor, mais regular e menos exigente que a caldeira rodoviária.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1858,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "O cilindro torna-se o lugar da mudança",
+  "eyebrow": "A combustão se aproxima",
+  "title": "O cilindro torna-se o lugar da mudança",
+  "copy": "Em 1858, experiências com gases, mistura e ignição aproximam a combustão interna de uma aplicação comercial. Ainda não é o automóvel, mas uma peça central começa a amadurecer.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1859,
+  "entity": "atlas:event:road-mobility-transition-1841-1859",
+  "label": "Uma nova máquina está prestes a operar",
+  "eyebrow": "Às vésperas de Lenoir",
+  "title": "Uma nova máquina está prestes a operar",
+  "copy": "Em 1859, o intervalo iniciado após o recuo do vapor rodoviário chega ao limite editorial. No ano seguinte, Lenoir apresentará um motor a gás utilizável e abrirá outra etapa.",
+  "place": "Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1860,
+  "entity": "atlas:technology:lenoir-gas-engine-1860",
+  "label": "O motor a gás de Lenoir",
+  "eyebrow": "Combustão comercial",
+  "title": "A combustão interna começa a trabalhar",
+  "copy": "Étienne Lenoir apresenta um motor a gás no qual a combustão ocorre dentro do cilindro e a ignição é elétrica. Ineficiente e consumidor, ele ainda assim transforma experimentação em máquina comercial utilizável.",
+  "place": "Paris",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1861,
+  "entity": "atlas:event:locomotive-act-1861",
+  "label": "A estrada ganha uma lei nacional",
+  "eyebrow": "Regulação da mobilidade mecânica",
+  "title": "Peso, rodas e pedágios entram no código",
+  "copy": "O Parlamento britânico aprova uma lei específica para locomotivas em turnpikes e outras estradas. Dimensões, peso, rodas e pedágios mostram que a máquina rodoviária já é também um objeto jurídico.",
+  "place": "Reino Unido",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+}
   ]
 }
