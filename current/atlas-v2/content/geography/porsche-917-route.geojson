@@ -9,7 +9,7 @@
         "validity": { "from": "1969", "until": "1969", "precision": "year" },
         "precision": "route",
         "confidence": "approximate",
-        "source": "atlas:source:porsche-917-archive",
+        "source": "atlas:source:porsche-917-fifty-years",
         "purpose": "editorial-route"
       },
       "geometry": {

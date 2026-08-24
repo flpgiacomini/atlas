@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "items": [
+    {
+      "id": "atlas:media:porsche-917-editorial-hero",
+      "journeyEntity": "atlas:vehicle:porsche-917",
+      "file": "/assets/porsche-917-1969-hero.png",
+      "mediaType": "illustration",
+      "author": "Projeto Atlas",
+      "originalSource": "Produção editorial local do Atlas",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração editorial: Projeto Atlas, CC BY 4.0",
+      "alt": "Ilustração editorial de um Porsche 917 em movimento, usada para apresentar o capítulo de 1969.",
+      "verifiedAt": "2026-08-24",
+      "nature": "illustrative",
+      "historicalDocument": false
+    },
+    {
+      "id": "atlas:media:zuffenhausen-le-mans-editorial-map",
+      "journeyEntity": "atlas:vehicle:porsche-917",
+      "file": "/assets/zuffenhausen-le-mans-map.png",
+      "mediaType": "map",
+      "author": "Projeto Atlas",
+      "originalSource": "Produção cartográfica editorial local do Atlas",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Mapa editorial aproximado: Projeto Atlas, CC BY 4.0",
+      "alt": "Mapa editorial aproximado ligando Zuffenhausen a Le Mans para contextualizar o percurso do Porsche 917.",
+      "verifiedAt": "2026-08-24",
+      "nature": "illustrative",
+      "historicalDocument": false
+    }
+  ]
+}

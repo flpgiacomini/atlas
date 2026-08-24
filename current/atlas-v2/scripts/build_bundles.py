@@ -115,6 +115,9 @@ def build(output: Path) -> dict:
             files.append({"path": relative, "kind": family_kind[family], "key": key, "count": len(items)})
 
     journey_config = load(ROOT / "content/journeys.json")["journeys"]
+    media_by_entity: dict[str, list[dict]] = defaultdict(list)
+    for media in load(ROOT / "content" / "media-manifest.json")["items"]:
+        media_by_entity[media["journeyEntity"]].append(media)
     journey_items = []
     for journey in journey_config:
         entity = by_id.get(journey.get("entity"))
@@ -124,6 +127,7 @@ def build(output: Path) -> dict:
             "record": summary(entity) if entity else None,
             "claims": (entity or {}).get("claims", []),
             "sources": [source_by_id[source] for source in source_ids],
+            "media": sorted(media_by_entity.get(journey["entity"], []), key=lambda item: item["id"]),
             "coverageState": "connected" if entity else "editorial-gap",
         })
     dump(temp / "journeys.json", {"version": "2.0.0", "count": len(journey_items), "items": journey_items})

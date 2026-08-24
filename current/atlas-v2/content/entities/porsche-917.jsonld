@@ -3,38 +3,48 @@
   "id": "atlas:vehicle:porsche-917",
   "type": "Vehicle",
   "name": "Porsche 917",
-  "aliases": ["917"],
+  "aliases": ["917", "Porsche 917-001"],
+  "description": "Protótipo de competição desenvolvido para a categoria Group 4 e apresentado em 1969. O programa reuniu projeto de doze cilindros, construção acelerada de 25 exemplares para homologação e desenvolvimento aerodinâmico voltado ao Campeonato Mundial de Marcas e às 24 Horas de Le Mans.",
   "claims": [
     {
-      "id": "atlas:claim:porsche-917-introduced-1969",
-      "type": "Claim",
-      "subject": "atlas:vehicle:porsche-917",
-      "predicate": "introduced-in",
-      "object": 1969,
-      "sources": ["atlas:source:porsche-917-archive"],
-      "evidence": ["atlas:evidence:porsche-917-archive-introduction"],
-      "confidence": "single-source",
-      "validity": { "from": "1969", "until": null, "precision": "year" }
+      "id": "atlas:claim:porsche-917-001-completed-1969-03-10", "type": "Claim",
+      "subject": "atlas:vehicle:porsche-917", "predicate": "completed-on",
+      "object": {"type":"date","value":"1969-03-10","precision":"day"},
+      "sources": ["atlas:source:porsche-trailblazer-returns"],
+      "evidence": ["atlas:evidence:porsche-917-completion"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:porsche-917-presented-geneva-1969-03-12", "type": "Claim",
+      "subject": "atlas:vehicle:porsche-917", "predicate": "introduced-on",
+      "object": {"type":"date","value":"1969-03-12","precision":"day"},
+      "sources": ["atlas:source:porsche-917-fifty-years"],
+      "evidence": ["atlas:evidence:porsche-917-geneva"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:porsche-917-homologated-1969-04-21", "type": "Claim",
+      "subject": "atlas:vehicle:porsche-917", "predicate": "homologated-on",
+      "object": {"type":"date","value":"1969-04-21","precision":"day"},
+      "sources": ["atlas:source:porsche-trailblazer-returns"],
+      "evidence": ["atlas:evidence:porsche-917-homologation"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:porsche-917-first-race-victory-1969", "type": "Claim",
+      "subject": "atlas:vehicle:porsche-917", "predicate": "achieved-first-victory-on",
+      "object": {"type":"date","value":"1969-08","precision":"month"},
+      "sources": ["atlas:source:porsche-917-forty-years"],
+      "evidence": ["atlas:evidence:porsche-917-oesterreichring-victory"], "confidence": "high"
     }
   ],
   "sources": [
-    {
-      "id": "atlas:source:porsche-917-archive",
-      "type": "Source",
-      "title": "Porsche 917 — archive overview",
-      "publisher": "Porsche Newsroom",
-      "url": "https://newsroom.porsche.com/",
-      "trust": "institutional",
-      "verifiedAt": "2026-08-20"
-    }
+    {"id":"atlas:source:porsche-trailblazer-returns","type":"Source","title":"The trailblazer returns","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/2019/history/porsche-917-001-disassembling-restoration-museum-17525.html","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:porsche-917-fifty-years","type":"Source","title":"Porsche celebrates 50 years of the 917","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/2019/history/porsche-museum-50-years-917-special-exhibition-17184.html","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:porsche-917-forty-years","type":"Source","title":"Greatest racing car in history celebrates its birthday","publisher":"Porsche AG","url":"https://www.porsche.com/usa/aboutporsche/pressreleases/pag/?id=2009-03-09&pool=international-de","trust":"institutional","verifiedAt":"2026-08-24"}
   ],
   "evidence": [
-    {
-      "id": "atlas:evidence:porsche-917-archive-introduction",
-      "type": "Evidence",
-      "source": "atlas:source:porsche-917-archive",
-      "evidenceType": "explicit-statement",
-      "locator": { "section": "History" }
-    }
-  ]
+    {"id":"atlas:evidence:porsche-917-completion","type":"Evidence","source":"atlas:source:porsche-trailblazer-returns","evidenceType":"manufacturer-archive","locator":{"date":"1969-03-10"},"notes":"A Porsche registra a conclusão do chassi 917-001 em 10 de março de 1969."},
+    {"id":"atlas:evidence:porsche-917-geneva","type":"Evidence","source":"atlas:source:porsche-917-fifty-years","evidenceType":"manufacturer-archive","locator":{"date":"1969-03-12"},"notes":"A Porsche registra a estreia pública do 917 no Salão de Genebra em 12 de março de 1969."},
+    {"id":"atlas:evidence:porsche-917-homologation","type":"Evidence","source":"atlas:source:porsche-trailblazer-returns","evidenceType":"manufacturer-archive","locator":{"date":"1969-04-21"},"notes":"A fonte registra a conclusão dos 25 exemplares exigidos e a homologação em 21 de abril de 1969."},
+    {"id":"atlas:evidence:porsche-917-oesterreichring-victory","type":"Evidence","source":"atlas:source:porsche-917-forty-years","evidenceType":"manufacturer-archive","locator":{"month":"1969-08"},"notes":"A Porsche situa a primeira vitória do 917 na prova de 1.000 km do Österreichring, com Jo Siffert e Kurt Ahrens."}
+  ],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"CP16-01","region_cluster":"Europa 1960-1979"}
 }

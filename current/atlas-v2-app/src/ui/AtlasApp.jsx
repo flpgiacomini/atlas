@@ -4,7 +4,7 @@ import SpecializedView from "./SpecializedView.jsx";
 
 const MODES = ["História", "Mapa/Globo", "Marcas", "Veículos", "Competições", "Tecnologias"];
 const CATEGORY = { Marcas: "brand", Veículos: "vehicle", Competições: "series", Tecnologias: "technology" };
-const LAYERS = ["Narrativa", "Cronologia", "Relações", "Fontes"];
+const LAYERS = ["Narrativa", "Cronologia", "Relações", "Mídia", "Fontes"];
 const FALLBACK = { year: 1969, label: "Atlas v2", eyebrow: "Acervo em carregamento", title: "A história está sendo conectada", copy: "Preparando documentos, fontes e relações.", place: "Atlas", asset: "/assets/porsche-917-1969-hero.png", claims: [], sources: [], coverageState: "loading" };
 
 function objectText(object) {
@@ -17,6 +17,7 @@ function objectText(object) {
 function ChapterLayer({ layer, story, year }) {
   if (layer === "Cronologia") return <div className="chapter-body"><div><strong>{story.claims?.length || 0} afirmações conectadas</strong>{story.claims?.map((claim) => <p key={claim.id}>{claim.validity?.from || year} · {objectText(claim.object)}</p>)}</div></div>;
   if (layer === "Relações") return <div className="chapter-body"><p><strong>{story.record?.name || story.label}</strong> · {story.record?.type || "Story"}<br />{story.record?.claimCount || 0} claims · {story.record?.sourceCount || story.sources?.length || 0} fontes</p><blockquote>{story.record?.id || "atlas:story:editorial"}</blockquote></div>;
+  if (layer === "Mídia") return <div className="chapter-body media-layer">{story.media?.length ? story.media.map((item) => <figure key={item.id}><img src={publicUrl(item.file)} alt={item.alt} /><figcaption>{item.credit} · <a href={item.licenseUrl} target="_blank" rel="noreferrer">{item.license}</a>{item.historicalDocument ? " · documento histórico" : " · apresentação ilustrativa"}</figcaption></figure>) : <p>Este percurso ainda não possui mídia licenciada no manifesto editorial.</p>}</div>;
   if (layer === "Fontes") return <div className="chapter-body"><div><strong>Fontes recuperáveis</strong>{story.sources?.length ? story.sources.map((source) => <p key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><br /><small>{source.publisher || source.trust}</small></p>) : <p>Nenhuma fonte disponível neste recorte.</p>}</div></div>;
   return <div className="chapter-body"><p>{story.copy}</p><blockquote>“{story.place}” funciona como ponto de partida para conectar pessoas, indústria, técnica e competição dentro do conhecimento disponível em {year}.</blockquote></div>;
 }

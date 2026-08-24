@@ -74,6 +74,7 @@ def audit() -> dict:
     bracketed_continuity_years: list[int] = []
     temporal_gaps: list[dict] = []
     mapped_years: list[int] = []
+    licensed_media_years: list[int] = []
     asset_usage: Counter[str] = Counter()
     asset_missing: list[dict] = []
     chapter_source_counts: list[int] = []
@@ -160,6 +161,12 @@ def audit() -> dict:
         ROOT / "content" / "media-manifest.jsonld",
     ]
     media_manifest = next((path for path in manifest_candidates if path.is_file()), None)
+    media_entities = {
+        item["journeyEntity"]
+        for item in (load(media_manifest).get("items", []) if media_manifest else [])
+        if item.get("journeyEntity")
+    }
+    licensed_media_years = [chapter["year"] for chapter in chapters if chapter.get("entity") in media_entities]
     report = {
         "version": "1.0.0",
         "status": "PASS" if not errors else "FAIL",
@@ -175,6 +182,7 @@ def audit() -> dict:
             "uniquePresentationAssets": len(asset_usage),
             "chaptersWithExistingAsset": len(chapters) - len(asset_missing),
             "licensedStoryMediaManifest": media_manifest is not None,
+            "chaptersWithLicensedMedia": len(licensed_media_years),
             "minimumSourcesPerChapter": min(chapter_source_counts, default=0),
         },
         "coverage": {
@@ -182,12 +190,13 @@ def audit() -> dict:
             "bracketedContinuityYears": bracketed_continuity_years,
             "temporalGapYears": temporal_gaps,
             "mappedYears": mapped_years,
+            "licensedMediaYears": licensed_media_years,
             "assetUsage": dict(sorted(asset_usage.items())),
             "missingAssets": asset_missing,
         },
         "backlog": {
             "temporalClaims": len(temporal_gaps),
-            "storyMediaManifest": 0 if media_manifest else 258,
+            "storyMediaManifest": len(chapters) - len(licensed_media_years),
             "spatialStoriesPendingInventory": len(chapters) - len(mapped_years),
             "note": "Spatial backlog is an upper bound until chapters are classified as spatial or non-spatial.",
         },

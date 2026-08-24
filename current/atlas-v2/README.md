@@ -27,6 +27,7 @@ python scripts/build_bundles.py
 python scripts/validate_bundles.py
 python scripts/check_bundles_determinism.py
 python scripts/audit_editorial_coverage.py --check
+python scripts/audit_journey_coverage.py --check
 ```
 
 `migrate_sqlite.py` lê o SQLite v1 somente em modo read-only e recria
@@ -60,3 +61,8 @@ round-trip JSON determinístico dos exemplos.
 claims, fontes, mídia e geografia canônicas. O relatório determinístico em
 `reports/editorial-coverage.json` separa integridade estrutural de completude
 editorial e mantém os gaps como backlog explícito no CI.
+
+`audit_journey_coverage.py` acompanha os seis percursos obrigatórios e valida
+evidência, narrativa completa, mídia licenciada, geometria temporal e ativos
+de apresentação. O relatório `reports/journey-coverage.json` distingue um
+estado estruturalmente íntegro da conclusão editorial dos seis pacotes.

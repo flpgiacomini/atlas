@@ -125,8 +125,13 @@ Checkpoint de saída: cada história com mídia licenciada ou decisão explícit
 apresentação sem imagem; autoria, origem, licença, crédito, alt e verificação;
 nenhum hotlink.
 
-Restante: manifesto, pacote dos seis percursos e expansão por lotes anuais.
-Reutilização temática não conta como cobertura histórica individual.
+Entregue adicionalmente no CP16: manifesto versionado e primeiro pacote
+completo, **Porsche 917 / 1969**, com arquivo local, licença, crédito, alt e
+distinção explícita entre ilustração editorial e documento histórico.
+
+Restante: cinco pacotes dos percursos e expansão por lotes anuais. A cobertura
+específica atual é 1/258; reutilização temática não conta como cobertura
+histórica individual.
 
 ## Fase 8 — Automação e qualidade documental
 
@@ -157,7 +162,10 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 ## Caminho crítico e checkpoints seguintes
 
 1. **CP15 — Evidência temporal: concluído**, com 258/258 e zero gaps.
-2. **CP16 — Seis percursos completos:** narrativa, mídia, geometria e modos.
+2. **CP16 — Seis percursos completos: em andamento (1/6).** Porsche 917 / 1969
+   fecha o pacote de referência; faltam Porsche 911, Benz, Model T, Volvo PV544
+   e origens do Motorsport. Ver
+   [`JOURNEYS_CHECKPOINT_16_PROGRESS_01.md`](JOURNEYS_CHECKPOINT_16_PROGRESS_01.md).
 3. **CP17 — Inventário cartográfico:** classificar os 258 capítulos e fechar
    geometria para 100% do subconjunto espacial.
 4. **CP18 — Mídia editorial:** manifesto, arquivos locais e licenças por história.

@@ -1,0 +1,83 @@
+{
+  "errors": [],
+  "items": [
+    {
+      "authoredStory": false,
+      "canonicalEvidence": true,
+      "complete": false,
+      "entity": "atlas:vehicle:benz-patent-motor-car",
+      "label": "Benz Patent-Motorwagen",
+      "licensedMedia": 0,
+      "presentationAsset": true,
+      "temporalGeography": false,
+      "year": 1886
+    },
+    {
+      "authoredStory": false,
+      "canonicalEvidence": true,
+      "complete": false,
+      "entity": "atlas:vehicle:ford-model-t",
+      "label": "Ford Model T",
+      "licensedMedia": 0,
+      "presentationAsset": true,
+      "temporalGeography": false,
+      "year": 1908
+    },
+    {
+      "authoredStory": false,
+      "canonicalEvidence": true,
+      "complete": false,
+      "entity": "atlas:event:1955-innovation-and-consequence",
+      "label": "Origens do Motorsport",
+      "licensedMedia": 0,
+      "presentationAsset": true,
+      "temporalGeography": false,
+      "year": 1955
+    },
+    {
+      "authoredStory": false,
+      "canonicalEvidence": true,
+      "complete": false,
+      "entity": "atlas:vehicle:volvo-pv544",
+      "label": "Volvo PV544",
+      "licensedMedia": 0,
+      "presentationAsset": true,
+      "temporalGeography": false,
+      "year": 1958
+    },
+    {
+      "authoredStory": false,
+      "canonicalEvidence": true,
+      "complete": false,
+      "entity": "atlas:vehicle:porsche-911",
+      "label": "Porsche 911",
+      "licensedMedia": 0,
+      "presentationAsset": true,
+      "temporalGeography": false,
+      "year": 1963
+    },
+    {
+      "authoredStory": true,
+      "canonicalEvidence": true,
+      "complete": true,
+      "entity": "atlas:vehicle:porsche-917",
+      "label": "Porsche 917",
+      "licensedMedia": 2,
+      "presentationAsset": true,
+      "temporalGeography": true,
+      "year": 1969
+    }
+  ],
+  "reportSha256": "ca5d2ab3354d52a3fad083642950180454bf1ccc5e4227426f4793a9e1d998eb",
+  "status": "PASS",
+  "summary": {
+    "authoredStories": 1,
+    "canonicalEvidence": 6,
+    "completeJourneys": 1,
+    "journeys": 6,
+    "journeysWithLicensedMedia": 1,
+    "journeysWithTemporalGeography": 1,
+    "presentationAssets": 6
+  },
+  "version": "1.0.0"
+}
