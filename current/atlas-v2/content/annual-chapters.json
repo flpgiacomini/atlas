@@ -2314,6 +2314,226 @@
   "place": "Mundo",
   "asset": "/assets/people-industry.webp",
   "chapterKind": "continuity"
+},
+{
+  "year": 1980,
+  "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "label": "O Audi quattro leva quatro rodas motrizes à performance",
+  "eyebrow": "Genebra",
+  "title": "Tração deixa de ser apenas ferramenta para terreno difícil",
+  "copy": "A Audi apresenta um cupê turbo com tração integral permanente compacta. Estrada e rali demonstrarão que distribuir força entre quatro rodas também transforma estabilidade e velocidade.",
+  "place": "Genebra · Ingolstadt",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1981,
+  "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "label": "O airbag chega ao mercado",
+  "eyebrow": "Mercedes-Benz Classe S",
+  "title": "O cinto ganha um sistema suplementar",
+  "copy": "Airbag do motorista e tensionador do cinto passam da pesquisa à produção. Sensores, propelente e estruturas de retenção tornam a colisão um evento tratado em milissegundos.",
+  "place": "Stuttgart",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1982,
+  "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "label": "Honda começa a fabricar Accord em Ohio",
+  "eyebrow": "Produção localizada",
+  "title": "Uma montadora japonesa passa a produzir dentro dos Estados Unidos",
+  "copy": "O primeiro Accord de Marysville combina métodos japoneses, trabalhadores, materiais e fornecedores locais. Globalização deixa de significar apenas exportar carros prontos.",
+  "place": "Marysville",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1983,
+  "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "label": "Eletrônica passa a coordenar mais funções",
+  "eyebrow": "Automóvel como sistema",
+  "title": "Controle já não cabe em componentes isolados",
+  "copy": "Em 1983, ignição, injeção, frenagem e diagnóstico dependem cada vez mais de sensores e módulos. Integrar informações torna-se tão importante quanto aperfeiçoar a mecânica.",
+  "place": "Indústria global",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1984,
+  "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "label": "Performance e produção aprendem a distribuir controle",
+  "eyebrow": "Quattro e fábricas globais",
+  "title": "A vantagem nasce da coordenação",
+  "copy": "Tração integral se fortalece nos ralis, enquanto fábricas transnacionais ajustam qualidade e fornecedores. Produto e produção passam a depender de sistemas coordenados.",
+  "place": "Europa · América do Norte · Japão",
+  "asset": "/assets/motorsport.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1985,
+  "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
+  "label": "A operadora assume o nome AUDI AG",
+  "eyebrow": "Identidade dos quatro anéis",
+  "title": "Uma história de fusões passa a falar com uma só marca",
+  "copy": "Audi NSU Auto Union torna-se AUDI AG. O nome corporativo aproxima empresa, produtos e a imagem tecnológica construída por aerodinâmica, turbo e quattro.",
+  "place": "Ingolstadt",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1986,
+  "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
+  "label": "A Acura abre outro degrau para fabricantes japoneses",
+  "eyebrow": "Marca e segmento",
+  "title": "Qualidade japonesa também disputa o luxo",
+  "copy": "A Honda cria a Acura nos Estados Unidos. Uma marca própria permite combinar engenharia japonesa, produto local e experiência comercial específica para o segmento premium.",
+  "place": "Estados Unidos · Japão",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1987,
+  "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
+  "label": "A produção localizada começa a exportar",
+  "eyebrow": "Fluxos invertidos",
+  "title": "Uma fábrica estrangeira torna-se origem global",
+  "copy": "A Honda inicia exportações de automóveis produzidos nos Estados Unidos. O mapa industrial deixa de seguir uma via simples entre matriz e mercado externo.",
+  "place": "Ohio · mercados externos",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1988,
+  "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
+  "label": "Um Honda americano retorna ao Japão",
+  "eyebrow": "Globalização produtiva",
+  "title": "Origem industrial já não coincide com origem da marca",
+  "copy": "O Accord Coupé feito em Ohio é exportado ao Japão. Projeto, marca, capital, peças, trabalho e destino passam a compor geografias diferentes no mesmo automóvel.",
+  "place": "Ohio · Japão",
+  "asset": "/assets/geography.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1989,
+  "entity": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
+  "label": "O Mazda MX-5 recupera o esportivo leve",
+  "eyebrow": "Chicago · Hiroshima",
+  "title": "Tecnologia moderna devolve simplicidade ao prazer de dirigir",
+  "copy": "O MX-5 combina baixo peso, tração traseira e produção confiável. Seu sucesso prova que um conceito histórico pode renascer quando custo, qualidade e usabilidade são resolvidos.",
+  "place": "Chicago · Hiroshima",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1990,
+  "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+  "label": "O Honda NSX redefine o supercarro",
+  "eyebrow": "Alumínio e usabilidade",
+  "title": "Alto desempenho não precisa punir o motorista",
+  "copy": "O NSX entra em produção com motor central, monocoque integral de alumínio, ABS e controle de tração. Desempenho extremo passa a conviver com visibilidade, ergonomia e confiabilidade.",
+  "place": "Tochigi · mercados globais",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1991,
+  "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+  "label": "Airbags entram num cronograma obrigatório",
+  "eyebrow": "Segurança passiva",
+  "title": "Proteção dianteira deixa de depender do segmento",
+  "copy": "A legislação norte-americana estabelece o caminho para airbags dianteiros em automóveis e veículos leves. Uma tecnologia de luxo começa a tornar-se infraestrutura comum.",
+  "place": "Estados Unidos · indústria global",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1992,
+  "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+  "label": "O NSX-R retira massa sem retirar controle",
+  "eyebrow": "Performance refinada",
+  "title": "Evoluir pode significar selecionar, não apenas adicionar",
+  "copy": "A Honda desenvolve o NSX-R a partir do retorno de proprietários e da experiência em pista. A versão mostra como uma plataforma eletrônica e confortável também admite especialização radical.",
+  "place": "Japão",
+  "asset": "/assets/motorsport.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1993,
+  "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+  "label": "O passageiro recebe proteção suplementar",
+  "eyebrow": "NSX e segurança",
+  "title": "A cabine passa a ser tratada como conjunto",
+  "copy": "O NSX adiciona airbag para o passageiro, refletindo a expansão dos sistemas de retenção. Segurança passiva deixa de se concentrar apenas no motorista.",
+  "place": "Japão · mercados globais",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1994,
+  "entity": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
+  "label": "O Odyssey coloca as pessoas no centro do formato",
+  "eyebrow": "Creative Mover",
+  "title": "O espaço interno torna-se argumento principal",
+  "copy": "A Honda lança o Odyssey como alternativa aos sedãs e minivans convencionais. Flexibilidade, acesso e uso familiar tornam a arquitetura da cabine uma inovação de produto.",
+  "place": "Japão · América do Norte",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1995,
+  "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+  "label": "O Civic LEV antecipa emissões mais baixas",
+  "eyebrow": "Califórnia",
+  "title": "O motor convencional ainda pode responder",
+  "copy": "A Honda comercializa um Civic de baixa emissão na Califórnia. Controle mais preciso de combustão e catalisador mostra que reduzir poluentes será também uma disputa de produto.",
+  "place": "Califórnia · Japão",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1996,
+  "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+  "label": "Projetos híbridos saem da pesquisa abstrata",
+  "eyebrow": "Eletrificação prática",
+  "title": "Motor, bateria e controle precisam funcionar como um sistema",
+  "copy": "Toyota e Honda aceleram programas híbridos com metas de consumo e produção. O desafio não é apenas mover um protótipo, mas torná-lo fabricável, reparável e confiável.",
+  "place": "Japão",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1997,
+  "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+  "label": "O Prius coloca o híbrido em produção",
+  "eyebrow": "Toyota Hybrid System",
+  "title": "Duas fontes de energia passam a dividir a condução",
+  "copy": "A Toyota lança o primeiro automóvel de passageiros híbrido produzido em massa. Motor, gerador, bateria e divisão de potência tornam a eletrificação uma experiência de uso real.",
+  "place": "Japão",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1998,
+  "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+  "label": "Airbags duplos tornam-se obrigatórios",
+  "eyebrow": "Ano-modelo 1998",
+  "title": "A segurança suplementar chega ao piso regulatório",
+  "copy": "Automóveis novos de passageiros nos Estados Unidos passam a exigir airbags para motorista e passageiro. A inovação de 1981 torna-se expectativa básica de mercado.",
+  "place": "Estados Unidos · indústria global",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1999,
+  "entity": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
+  "label": "O Insight oferece outra arquitetura híbrida",
+  "eyebrow": "Honda IMA",
+  "title": "Leveza, aerodinâmica e assistência elétrica perseguem eficiência máxima",
+  "copy": "A Honda lança o Insight com estrutura de alumínio, motor elétrico auxiliar e recuperação de energia. O fim do século já apresenta duas respostas híbridas distintas.",
+  "place": "Japão · Estados Unidos · Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
 }
   ]
 }
