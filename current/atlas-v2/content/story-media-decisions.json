@@ -2,937 +2,1171 @@
   "decisions": [
     {
       "entity": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1769
     },
     {
       "entity": "atlas:event:fardier-full-scale-tests-1770",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1770
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1771
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1772
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1773
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1774
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1775
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1776
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1777
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1778
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1779
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1780
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1781
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1782
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1783
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1784
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1785
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1786
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1787
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1788
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1789
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1790
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1791
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1792
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1793
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1794
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1795
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1796
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1797
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1798
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1799
     },
     {
       "entity": "atlas:event:fardier-preservation-1771-1800",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-cugnot-1769-1800-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1800
     },
     {
       "entity": "atlas:vehicle:puffing-devil",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1801
     },
     {
       "entity": "atlas:vehicle:puffing-devil",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1802
     },
     {
       "entity": "atlas:vehicle:london-steam-carriage",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1803
     },
     {
       "entity": "atlas:vehicle:london-steam-carriage",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1804
     },
     {
       "entity": "atlas:vehicle:london-steam-carriage",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1805
     },
     {
       "entity": "atlas:vehicle:london-steam-carriage",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1806
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1807
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1808
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1809
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1810
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1811
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1812
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1813
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1814
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1815
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1816
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1817
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1818
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1819
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1820
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1821
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1822
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1823
     },
     {
       "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1824
     },
     {
       "entity": "atlas:event:gurney-steam-carriage-development-1825-1829",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1825
     },
     {
       "entity": "atlas:event:gurney-steam-carriage-development-1825-1829",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1826
     },
     {
       "entity": "atlas:event:gurney-steam-carriage-development-1825-1829",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1827
     },
     {
       "entity": "atlas:event:gurney-steam-carriage-development-1825-1829",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1828
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1829
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1830
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1831
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1832
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1833
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-steam-road-1801-1834-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1834
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1835
     },
     {
       "entity": "atlas:event:hancock-steam-services-1829-1836",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1836
     },
     {
       "entity": "atlas:event:british-road-steam-transition-1837-1840",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1837
     },
     {
       "entity": "atlas:event:british-road-steam-transition-1837-1840",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1838
     },
     {
       "entity": "atlas:event:british-road-steam-transition-1837-1840",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1839
     },
     {
       "entity": "atlas:event:british-road-steam-transition-1837-1840",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1840
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1841
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1842
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1843
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1844
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1845
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1846
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1847
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1848
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1849
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1850
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1851
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1852
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1853
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1854
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1855
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1856
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1857
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1858
     },
     {
       "entity": "atlas:event:road-mobility-transition-1841-1859",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-electric-experiments-1835-1859-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1859
     },
     {
       "entity": "atlas:technology:lenoir-gas-engine-1860",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1860
     },
     {
       "entity": "atlas:event:locomotive-act-1861",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1861
     },
     {
       "entity": "atlas:technology:ciclo-de-quatro-tempos",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1862
     },
     {
       "entity": "atlas:vehicle:hippomobile-de-lenoir",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1863
     },
     {
       "entity": "atlas:event:post-lenoir-transition-1864",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1864
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1865
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1866
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1867
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1868
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1869
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1870
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1871
     },
     {
       "entity": "atlas:event:locomotive-act-1865-regime",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1872
     },
     {
       "entity": "atlas:vehicle:lobeissante",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1873
     },
     {
       "entity": "atlas:vehicle:lobeissante",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1874
     },
     {
       "entity": "atlas:event:viagem-de-lobeissante-a-paris",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-combustion-1860-1875-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1875
     },
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1876
     },
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1877
     },
     {
       "entity": "atlas:technology:ciclo-de-dois-tempos",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1878
     },
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1879
     },
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1880
     },
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1881
     },
     {
       "entity": "atlas:event:otto-four-stroke-industrialization-1876-1882",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1882
     },
     {
       "entity": "atlas:event:vehicle-convergence-1883",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1883
     },
     {
       "entity": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1884
     },
     {
       "entity": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v01-convergence-1876-1885-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1885
     },

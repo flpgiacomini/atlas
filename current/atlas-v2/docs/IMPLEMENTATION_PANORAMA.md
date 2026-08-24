@@ -135,7 +135,13 @@ anuais. A linha de base honesta é **6/258** capítulos com mídia específica e
 **252/258** composições textuais temporárias; nenhuma reutilização temática é
 contada como cobertura individual.
 
-Restante: executar os lotes visuais V01–V06, priorizando evidência histórica,
+Lote V01 concluído: **117/117** capítulos de 1769–1885 receberam cinco quadros
+editoriais originais de período. A cobertura total avançou para **123/258** e o
+backlog caiu para **135** capítulos. Os ativos específicos passam a controlar o
+hero anual; sobreposições cartográficas só aparecem quando classificadas como
+mapa no manifesto.
+
+Restante: executar os lotes visuais V02–V06, priorizando evidência histórica,
 mapas explicativos e ilustrações originais onde houver função narrativa.
 
 ## Fase 8 — Automação e qualidade documental

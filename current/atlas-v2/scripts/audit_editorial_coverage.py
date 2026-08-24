@@ -166,15 +166,14 @@ def audit() -> dict:
         ROOT / "content" / "media-manifest.jsonld",
     ]
     media_manifest = next((path for path in manifest_candidates if path.is_file()), None)
-    media_entities = {
-        item["journeyEntity"]
-        for item in (load(media_manifest).get("items", []) if media_manifest else [])
-        if item.get("journeyEntity")
-    }
+    media_decisions_path = ROOT / "content" / "story-media-decisions.json"
+    media_decisions = (
+        {item["year"]: item for item in load(media_decisions_path).get("decisions", [])}
+        if media_decisions_path.is_file() else {}
+    )
     licensed_media_years = [
-        chapter["year"]
-        for chapter in chapters
-        if {chapter.get("entity"), journey_entities_by_year.get(chapter["year"])} & media_entities
+        chapter["year"] for chapter in chapters
+        if media_decisions.get(chapter["year"], {}).get("mediaIds")
     ]
     report = {
         "version": "1.0.0",

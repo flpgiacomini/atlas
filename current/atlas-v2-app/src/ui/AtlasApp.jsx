@@ -43,6 +43,7 @@ export default function AtlasApp({ initialYear }) {
   const searchInput = useRef(null);
 
   const story = useMemo(() => annualChapters.length || journeys.length ? storyForYear(year, annualChapters, journeys) : FALLBACK, [year, annualChapters, journeys]);
+  const mapMedia = story.media?.find((item) => item.mediaType === "map");
   const results = useMemo(() => searchEntities(searchIndex, query, year), [searchIndex, query, year]);
 
   const setYear = (next, { history = "push" } = {}) => {
@@ -108,7 +109,7 @@ export default function AtlasApp({ initialYear }) {
     </header>
 
     <section className="hero">
-      <div className="hero-shade" /><img className="map-trace" src={publicUrl("assets/zuffenhausen-le-mans-map.png")} alt="" />
+      <div className="hero-shade" />{mapMedia && <img className="map-trace" src={publicUrl(mapMedia.file)} alt="" />}
       <article className="story-copy" aria-live="polite"><p className="story-year">{year}</p><div className="ornament" /><p className="eyebrow">{story.eyebrow}</p><h1>{story.title}</h1><p className="dek">{story.copy}</p><div className="story-actions"><button className="primary" onClick={() => { setLayer("Narrativa"); setChapterOpen(true); }}>ABRIR CAPÍTULO {year}</button><button className="secondary" onClick={() => setMode("Mapa/Globo")}>VER NO MAPA HISTÓRICO</button></div></article>
       <div className="map-switch" aria-label="Tipo de visualização geográfica">{["Mapa", "Globo"].map((item) => <button key={item} className={mapKind === item ? "active" : ""} onClick={() => { setMapKind(item); setMode("Mapa/Globo"); }}>{item.toUpperCase()}</button>)}</div>
       {mode !== "História" && <aside className="mode-context"><SpecializedView mode={mode} year={year} modeItems={modeItems} periodItems={periodItems} brandMilestones={brandMilestones} brandRelations={brandRelations} story={story} mapKind={mapKind} /></aside>}

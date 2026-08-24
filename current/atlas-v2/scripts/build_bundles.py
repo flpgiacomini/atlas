@@ -145,13 +145,15 @@ def build(output: Path) -> dict:
         entity = by_id.get(chapter["entity"])
         source_ids = sorted({source for claim in entity.get("claims", []) for source in claim.get("sources", [])})
         media_decision = media_decisions[chapter["year"]]
+        resolved_media = [media_by_id[item] for item in media_decision["mediaIds"]]
         annual_items.append({
             **chapter,
+            "asset": resolved_media[0]["file"] if resolved_media else chapter["asset"],
             "record": summary(entity),
             "claims": entity.get("claims", []),
             "sources": [source_by_id[source] for source in source_ids],
             "mediaDecision": media_decision,
-            "media": [media_by_id[item] for item in media_decision["mediaIds"]],
+            "media": resolved_media,
             "coverageState": "authored",
         })
     annual_items.sort(key=lambda item: item["year"])

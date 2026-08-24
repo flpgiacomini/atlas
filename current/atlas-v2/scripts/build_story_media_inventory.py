@@ -7,6 +7,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "content" / "story-media-decisions.json"
+PERIOD_MEDIA = (
+    (1769, 1800, "atlas:media:v01-cugnot-1769-1800-editorial"),
+    (1801, 1834, "atlas:media:v01-steam-road-1801-1834-editorial"),
+    (1835, 1859, "atlas:media:v01-electric-experiments-1835-1859-editorial"),
+    (1860, 1875, "atlas:media:v01-combustion-1860-1875-editorial"),
+    (1876, 1885, "atlas:media:v01-convergence-1876-1885-editorial"),
+)
 
 
 def load(path: Path) -> dict:
@@ -25,6 +32,10 @@ def main() -> None:
     for chapter in sorted(chapters, key=lambda item: item["year"]):
         candidates = {chapter["entity"], journeys.get(chapter["year"])}
         media_ids = sorted({media_id for entity in candidates if entity for media_id in media_by_entity.get(entity, [])})
+        media_ids.extend(
+            media_id for start, end, media_id in PERIOD_MEDIA
+            if start <= chapter["year"] <= end and media_id not in media_ids
+        )
         has_media = bool(media_ids)
         decisions.append({
             "year": chapter["year"],
