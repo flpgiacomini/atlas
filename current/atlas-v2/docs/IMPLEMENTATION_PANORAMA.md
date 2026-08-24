@@ -110,8 +110,8 @@ expandir para os demais capítulos.
 
 ## Fase 6 — Expansão editorial anual
 
-Estado: rotas completas; 241 capítulos publicados, com cobertura contínua e
-integral de 1769 a 2009.
+Estado: rotas completas; 251 capítulos publicados, com cobertura contínua e
+integral de 1769 a 2019.
 
 Passos:
 
@@ -125,8 +125,8 @@ Passos:
 Checkpoint: 258/258 anos contam uma história verificável e nenhum capítulo é
 apenas rótulo, lista de fatos ou texto genérico.
 
-Próximo passo: iniciar a continuidade editorial de 2010–2019, preservando a
-revisão de cobertura e a rastreabilidade factual ao final de cada período.
+Próximo passo: concluir 2020–2026, com tratamento explícito de fatos confirmados,
+anúncios e planos, e então revisar a coerência narrativa dos 258 anos.
 
 ## Fase 7 — Mídia e direção visual
 
