@@ -2754,6 +2754,83 @@
       "place": "Frankfurt · Zwickau · Wolfsburg",
       "asset": "/assets/vehicles.webp",
       "chapterKind": "milestone"
+    },
+    {
+      "year": 2020,
+      "entity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
+      "label": "A pandemia paralisa fábricas e deslocamentos",
+      "eyebrow": "Ruptura global",
+      "title": "A cadeia automotiva descobre o custo da interrupção simultânea",
+      "copy": "Lockdowns fecham plantas, interrompem fornecedores e derrubam vendas mundiais. Mesmo nesse mercado contraído, automóveis elétricos ultrapassam três milhões de unidades, mostrando uma resiliência inesperada.",
+      "place": "Mundo · fábricas e cadeias logísticas",
+      "asset": "/assets/people-industry.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2021,
+      "entity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
+      "label": "As vendas elétricas dobram apesar dos gargalos",
+      "eyebrow": "6,6 milhões",
+      "title": "Escassez de componentes não interrompe a mudança de mercado",
+      "copy": "Semicondutores e logística limitam a produção, mas as vendas de elétricos chegam a 6,6 milhões e quase 10% do mercado mundial. China e Europa concentram a aceleração.",
+      "place": "China · Europa · Estados Unidos",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2022,
+      "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
+      "label": "A Europa acorda a trajetória para 2035",
+      "eyebrow": "Acordo político · Fit for 55",
+      "title": "A data futura começa a governar projetos presentes",
+      "copy": "Conselho e Parlamento Europeu alcançam acordo político provisório para reduzir em 100% as emissões de CO₂ de automóveis e vans novos em 2035. Ainda não era a adoção formal, mas já orientava ciclos industriais.",
+      "place": "União Europeia",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2023,
+      "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
+      "label": "Quase 14 milhões de elétricos entram nas ruas",
+      "eyebrow": "18% do mercado mundial",
+      "title": "A transição deixa de caber na categoria de nicho",
+      "copy": "Registros globais crescem 35% e chegam perto de 14 milhões. China produz mais da metade dos elétricos vendidos, enquanto preço, bateria e política industrial passam a definir competitividade entre regiões.",
+      "place": "China · Europa · Estados Unidos · mercados emergentes",
+      "asset": "/assets/geography.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2024,
+      "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
+      "label": "Escala elétrica transforma-se em disputa comercial",
+      "eyebrow": "17 milhões · direitos compensatórios",
+      "title": "Preço e origem tornam-se tão estratégicos quanto autonomia",
+      "copy": "Mais de 17 milhões de elétricos são vendidos no mundo. A União Europeia impõe direitos compensatórios definitivos a importações chinesas após investigação de subsídios, tornando a cadeia de valor tema de política comercial.",
+      "place": "China · União Europeia · mercado global",
+      "asset": "/assets/people-industry.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2025,
+      "entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
+      "label": "Um em cada quatro automóveis novos é elétrico",
+      "eyebrow": "Mais de 20 milhões",
+      "title": "A maioria futura já aparece em alguns mercados presentes",
+      "copy": "Vendas globais superam 20 milhões e alcançam 25% do mercado. Na China, elétricos passam da metade das vendas anuais; em outras regiões, ritmos distintos revelam que a transição é global, mas não uniforme.",
+      "place": "Mundo · liderança chinesa",
+      "asset": "/assets/geography.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2026,
+      "entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
+      "label": "A transição avança por geografias divergentes",
+      "eyebrow": "Revisado em 24 de agosto de 2026",
+      "title": "O presente ainda está sendo escrito",
+      "copy": "No primeiro semestre, elétricos representam cerca de 24% das vendas globais: Europa, América Latina e partes da Ásia crescem, enquanto mudanças de política alteram China e Estados Unidos. A projeção da IEA de 29% no ano permanece identificada como projeção, não como resultado concluído.",
+      "place": "Mundo · dados do primeiro semestre",
+      "asset": "/assets/geography.webp",
+      "chapterKind": "current"
     }
   ]
 }

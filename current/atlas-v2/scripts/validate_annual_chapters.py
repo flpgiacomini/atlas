@@ -28,7 +28,7 @@ def validate() -> dict:
             errors.append(f"duplicate year: {year}")
         years.add(year)
         kind = chapter.get("chapterKind", "milestone")
-        if kind not in {"milestone", "continuity"}:
+        if kind not in {"milestone", "continuity", "current"}:
             errors.append(f"{year}: invalid chapterKind {kind!r}")
         if chapter.get("entity") not in entity_ids:
             errors.append(f"{year}: unresolved entity {chapter.get('entity')}")
@@ -39,9 +39,9 @@ def validate() -> dict:
         if copy in copies:
             errors.append(f"{year}: duplicated narrative")
         copies.add(copy)
-    missing_first_span = set(range(1769, 2020)) - years
+    missing_first_span = set(range(1769, 2027)) - years
     if missing_first_span:
-        errors.append(f"missing years in continuous precursor span: {sorted(missing_first_span)}")
+        errors.append(f"missing years in continuous publication span: {sorted(missing_first_span)}")
     if errors:
         raise SystemExit("\n".join(errors))
     return {"status": "PASS", "chapters": len(years), "from": min(years), "until": max(years)}
