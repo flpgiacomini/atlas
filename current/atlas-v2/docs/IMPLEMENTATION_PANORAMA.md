@@ -110,8 +110,8 @@ expandir para os demais capítulos.
 
 ## Fase 6 — Expansão editorial anual
 
-Estado: rotas completas; 42 capítulos precursores publicados, com cobertura
-contínua de 1769 a 1800, e capítulos substantivos dos demais anos incompletos.
+Estado: rotas completas; 79 capítulos precursores publicados, com cobertura
+contínua de 1769 a 1840, e capítulos substantivos dos demais anos incompletos.
 
 Passos:
 
@@ -126,7 +126,7 @@ Checkpoint: 258/258 anos contam uma história verificável e nenhum capítulo é
 apenas rótulo, lista de fatos ou texto genérico.
 
 para 1886–1918, com revisão de cobertura ao final de cada período.
-Próximo passo: completar os 75 anos restantes de 1801–1885 e depois avançar
+Próximo passo: completar os 45 anos restantes de 1841–1885 e depois avançar
 para 1886–1918, com revisão de cobertura ao final de cada período.
 para 1886–1918, com revisão de cobertura ao final de cada período.
 
