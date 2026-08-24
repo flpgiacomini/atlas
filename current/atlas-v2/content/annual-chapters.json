@@ -455,6 +455,7 @@
 {
   "year": 1802,
   "entity": "atlas:vehicle:puffing-devil",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "A alta pressão procura uma segunda estrada",
   "eyebrow": "Entre duas experiências",
   "title": "A alta pressão procura uma segunda estrada",
@@ -466,6 +467,7 @@
 {
   "year": 1804,
   "entity": "atlas:vehicle:london-steam-carriage",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "A cidade ainda pertence ao cavalo",
   "eyebrow": "Depois da demonstração",
   "title": "A cidade ainda pertence ao cavalo",
@@ -477,6 +479,7 @@
 {
   "year": 1805,
   "entity": "atlas:vehicle:london-steam-carriage",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "A cidade ainda pertence ao cavalo",
   "eyebrow": "Depois da demonstração",
   "title": "A cidade ainda pertence ao cavalo",
@@ -488,6 +491,7 @@
 {
   "year": 1806,
   "entity": "atlas:vehicle:london-steam-carriage",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "A cidade ainda pertence ao cavalo",
   "eyebrow": "Depois da demonstração",
   "title": "A cidade ainda pertence ao cavalo",
@@ -499,6 +503,7 @@
 {
   "year": 1808,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -510,6 +515,7 @@
 {
   "year": 1809,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -521,6 +527,7 @@
 {
   "year": 1810,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -532,6 +539,7 @@
 {
   "year": 1811,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -543,6 +551,7 @@
 {
   "year": 1812,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -554,6 +563,7 @@
 {
   "year": 1813,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -565,6 +575,7 @@
 {
   "year": 1814,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -576,6 +587,7 @@
 {
   "year": 1815,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -587,6 +599,7 @@
 {
   "year": 1816,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -598,6 +611,7 @@
 {
   "year": 1817,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -609,6 +623,7 @@
 {
   "year": 1818,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -620,6 +635,7 @@
 {
   "year": 1819,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -631,6 +647,7 @@
 {
   "year": 1820,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -642,6 +659,7 @@
 {
   "year": 1821,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -653,6 +671,7 @@
 {
   "year": 1822,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -664,6 +683,7 @@
 {
   "year": 1823,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",
@@ -675,6 +695,7 @@
 {
   "year": 1824,
   "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
+  "temporalContext": "atlas:event:early-road-propulsion-experiments-1801-1825",
   "label": "Vapor e combustão aguardam um sistema",
   "eyebrow": "Dois caminhos sem indústria",
   "title": "Vapor e combustão aguardam um sistema",

@@ -1,0 +1,50 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:early-road-propulsion-experiments-1801-1825",
+  "type": "Event",
+  "name": "Experimentos de propulsão rodoviária entre 1801 e 1825",
+  "aliases": ["Transição entre Trevithick, Rivaz e Gurney"],
+  "description": "Período editorial delimitado por quatro marcos documentados: os veículos rodoviários a vapor de Richard Trevithick em 1801 e 1803, o experimento de combustão de François Isaac de Rivaz em 1807 e a patente de carruagem a vapor de Goldsworthy Gurney em 1825. O intervalo organiza capítulos de continuidade e não presume um evento independente em cada ano.",
+  "claims": [
+    {
+      "id": "atlas:claim:early-road-propulsion-puffing-devil-1801", "type": "Claim",
+      "subject": "atlas:event:early-road-propulsion-experiments-1801-1825", "predicate": "began-on",
+      "object": {"type":"date","value":"1801","precision":"year"},
+      "sources": ["atlas:source:science-museum-group-collection-richard-trevithick"],
+      "evidence": ["atlas:evidence:early-road-propulsion-puffing-devil"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:early-road-propulsion-london-carriage-1803", "type": "Claim",
+      "subject": "atlas:event:early-road-propulsion-experiments-1801-1825", "predicate": "involved",
+      "object": {"type":"date","value":"1803","precision":"year"},
+      "sources": ["atlas:source:science-museum-group-collection-richard-trevithick"],
+      "evidence": ["atlas:evidence:early-road-propulsion-london-carriage"], "confidence": "high"
+    },
+    {
+      "id": "atlas:claim:early-road-propulsion-rivaz-1807", "type": "Claim",
+      "subject": "atlas:event:early-road-propulsion-experiments-1801-1825", "predicate": "involved",
+      "object": {"type":"date","value":"1807","precision":"year"},
+      "sources": ["atlas:source:inpi-francois-isaac-de-rivaz"],
+      "evidence": ["atlas:evidence:early-road-propulsion-rivaz"], "confidence": "medium"
+    },
+    {
+      "id": "atlas:claim:early-road-propulsion-gurney-patent-1825", "type": "Claim",
+      "subject": "atlas:event:early-road-propulsion-experiments-1801-1825", "predicate": "ended-on",
+      "object": {"type":"date","value":"1825","precision":"year"},
+      "sources": ["atlas:source:science-museum-group-goldsworthy-gurney"],
+      "evidence": ["atlas:evidence:early-road-propulsion-gurney-patent"], "confidence": "high"
+    }
+  ],
+  "sources": [
+    {"id":"atlas:source:science-museum-group-collection-richard-trevithick","type":"Source","title":"Richard Trevithick","publisher":"Science Museum Group Collection","url":"https://collection.sciencemuseumgroup.org.uk/people/ap269/trevithick-richard","trust":"primary","verifiedAt":"2026-08-18"},
+    {"id":"atlas:source:inpi-francois-isaac-de-rivaz","type":"Source","title":"Le moteur à combustion — François Isaac de Rivaz","publisher":"Institut national de la propriété industrielle","url":"https://artsandculture.google.com/asset/le-moteur-%C3%A0-combustion-fran%C3%A7ois-isaac-de-rivaz-brevet-d-invention-d%C3%A9pos%C3%A9-le-16-05-1805-pour-des-machines-dont-le-principe-moteur-est-l-explosion-des-gaz-et-autres-substances-a%C3%A9riformes-1ba544/VQFCB5DXRKDDmg?hl=fr","trust":"primary","verifiedAt":"2026-08-18"},
+    {"id":"atlas:source:science-museum-group-goldsworthy-gurney","type":"Source","title":"Goldsworthy Gurney","publisher":"Science Museum Group","url":"https://collection.sciencemuseumgroup.org.uk/people/cp31639/goldsworthy-gurney","trust":"institutional","verifiedAt":"2026-08-24"}
+  ],
+  "evidence": [
+    {"id":"atlas:evidence:early-road-propulsion-puffing-devil","type":"Evidence","source":"atlas:source:science-museum-group-collection-richard-trevithick","evidenceType":"collection-biography","locator":{"year":"1801","subject":"Puffing Devil"},"notes":"O registro institucional situa o veículo rodoviário de Trevithick em 1801."},
+    {"id":"atlas:evidence:early-road-propulsion-london-carriage","type":"Evidence","source":"atlas:source:science-museum-group-collection-richard-trevithick","evidenceType":"collection-biography","locator":{"year":"1803","subject":"London Steam Carriage"},"notes":"O registro institucional situa a carruagem rodoviária de Trevithick em 1803."},
+    {"id":"atlas:evidence:early-road-propulsion-rivaz","type":"Evidence","source":"atlas:source:inpi-francois-isaac-de-rivaz","evidenceType":"patent-record","locator":{"year":"1807","subject":"Veículo experimental de Rivaz"},"notes":"A fonte institucional sustenta o marco experimental atribuído a Rivaz; alegações de prioridade permanecem qualificadas."},
+    {"id":"atlas:evidence:early-road-propulsion-gurney-patent","type":"Evidence","source":"atlas:source:science-museum-group-goldsworthy-gurney","evidenceType":"collection-biography","locator":{"year":"1825"},"notes":"O perfil institucional registra a patente de Gurney para uma carruagem a vapor em 1825."}
+  ],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"CP15-02","region_cluster":"Europa 1769-1885"}
+}
