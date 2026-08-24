@@ -2094,6 +2094,226 @@
   "place": "Reino Unido · Suécia",
   "asset": "/assets/technology.webp",
   "chapterKind": "milestone"
+},
+{
+  "year": 1960,
+  "entity": "atlas:event:design-performance-expansion-1960-1965",
+  "label": "A nova década quer forma e velocidade",
+  "eyebrow": "Depois da reconstrução",
+  "title": "O automóvel passa a expressar identidade",
+  "copy": "Em 1960, mercados já motorizados procuram mais que transporte básico. Design, desempenho e segmentação preparam uma década em que o carro será produto cultural e símbolo geracional.",
+  "place": "Europa · Estados Unidos",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1961,
+  "entity": "atlas:event:design-performance-expansion-1960-1965",
+  "label": "O Jaguar E-Type chega a Genebra",
+  "eyebrow": "Aerodinâmica acessível",
+  "title": "A experiência de Le Mans ganha placas de rua",
+  "copy": "O E-Type combina forma aerodinâmica, desempenho de 150 mph e preço inferior ao de rivais equivalentes. A tecnologia de competição torna-se um objeto de desejo produzido em escala.",
+  "place": "Coventry · Genebra",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1962,
+  "entity": "atlas:event:design-performance-expansion-1960-1965",
+  "label": "O esportivo torna-se linguagem",
+  "eyebrow": "Forma e mercado",
+  "title": "Desempenho já não pertence apenas às pistas",
+  "copy": "Em 1962, esportivos europeus consolidam a ligação entre engenharia, competição e imagem. A carroceria passa a comunicar velocidade antes mesmo de o motor funcionar.",
+  "place": "Europa",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1963,
+  "entity": "atlas:vehicle:porsche-911",
+  "label": "A Porsche apresenta o sucessor do 356",
+  "eyebrow": "Nasce uma linhagem",
+  "title": "Uma silhueta aprende a evoluir sem desaparecer",
+  "copy": "Apresentado como 901 e logo renomeado 911, o novo Porsche organiza motor traseiro, uso cotidiano e competição numa arquitetura destinada a evoluir por décadas.",
+  "place": "Frankfurt · Stuttgart",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1964,
+  "entity": "atlas:event:design-performance-expansion-1960-1965",
+  "label": "O Mustang cria um novo público",
+  "eyebrow": "Feira Mundial de Nova York",
+  "title": "Performance encontra preço, escolha e juventude",
+  "copy": "A Ford apresenta o Mustang com preço acessível e ampla personalização. Mais de 418 mil vendas no primeiro ano mostram que identidade esportiva também pode ser produto de massa.",
+  "place": "Nova York · Dearborn",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1965,
+  "entity": "atlas:event:design-performance-expansion-1960-1965",
+  "label": "A potência escala rapidamente",
+  "eyebrow": "Mustang e Shelby",
+  "title": "A fábrica transforma estilo em competição",
+  "copy": "O Shelby GT350 leva o Mustang para uma expressão mais extrema. Versões de alto desempenho aproximam concessionária, cultura jovem e homologação esportiva.",
+  "place": "Estados Unidos",
+  "asset": "/assets/motorsport.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1966,
+  "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
+  "label": "Segurança torna-se obrigação pública",
+  "eyebrow": "Lei federal norte-americana",
+  "title": "O risco deixa de ser apenas escolha do fabricante",
+  "copy": "A National Traffic and Motor Vehicle Safety Act determina a criação de padrões federais. Reduzir mortes e lesões passa a ser uma responsabilidade regulada do sistema automotivo.",
+  "place": "Estados Unidos",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1967,
+  "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
+  "label": "O Mazda Cosmo aposta no rotativo",
+  "eyebrow": "Outra arquitetura de motor",
+  "title": "A combustão interna ainda admite caminhos divergentes",
+  "copy": "O Cosmo Sport inaugura a linhagem Mazda de dois rotores em produção. Compacidade e suavidade mantêm viva uma alternativa ao motor de pistões convencional.",
+  "place": "Hiroshima",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1968,
+  "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
+  "label": "Padrões começam a redesenhar o produto",
+  "eyebrow": "Segurança federal",
+  "title": "Equipamentos e testes entram no projeto",
+  "copy": "A aplicação dos padrões federais norte-americanos transforma segurança em requisito verificável. Projeto, documentação e conformidade passam a acompanhar estilo e desempenho.",
+  "place": "Estados Unidos · indústria global",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1969,
+  "entity": "atlas:vehicle:porsche-917",
+  "label": "O Porsche 917 aparece em Genebra",
+  "eyebrow": "Ambição de Le Mans",
+  "title": "Velocidade exige aprender a controlar o ar",
+  "copy": "A Porsche apresenta o 917 para atacar a resistência no mais alto nível. Potência e leveza revelam problemas aerodinâmicos que o desenvolvimento terá de resolver antes das vitórias.",
+  "place": "Genebra · Zuffenhausen",
+  "asset": "/assets/porsche-917-1969-hero.png",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1970,
+  "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
+  "label": "O Clean Air Act impõe outra medida de desempenho",
+  "eyebrow": "Emissões",
+  "title": "O escapamento passa a definir o futuro do motor",
+  "copy": "A lei norte-americana exige forte redução das emissões de automóveis novos. Potência já não basta: combustão, combustível e tratamento de gases tornam-se campos centrais da engenharia.",
+  "place": "Estados Unidos · indústria global",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1971,
+  "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "label": "A indústria procura respostas para as emissões",
+  "eyebrow": "Depois do Clean Air Act",
+  "title": "Cada fabricante precisa escolher uma estratégia",
+  "copy": "Em 1971, laboratórios investigam combustão pobre, recirculação e pós-tratamento. A regulação transforma emissões em prazo tecnológico e risco empresarial.",
+  "place": "Estados Unidos · Japão · Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1972,
+  "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "label": "Honda apresenta Civic e CVCC",
+  "eyebrow": "Combustão limpa",
+  "title": "Um fabricante pequeno responde a uma regra grande",
+  "copy": "A Honda lança o Civic e revela o motor CVCC, cuja pré-câmara permite atender às exigências de emissões por combustão. Regulação abre espaço para uma nova vantagem japonesa.",
+  "place": "Tóquio · Ann Arbor",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1973,
+  "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "label": "O petróleo muda a medida do automóvel",
+  "eyebrow": "Primeiro choque energético",
+  "title": "Consumo deixa de ser detalhe econômico",
+  "copy": "A crise do petróleo multiplica preços e expõe a dependência de carros grandes e pesados. Eficiência, compactação e tração dianteira ganham urgência industrial e política.",
+  "place": "Mundo",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1974,
+  "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "label": "O Golf substitui a lógica do Fusca",
+  "eyebrow": "Volkswagen",
+  "title": "Motor dianteiro e hatchback tornam-se o novo centro",
+  "copy": "O Golf entra em produção com motor transversal, tração dianteira e grande aproveitamento interno. A Volkswagen abandona conscientemente a arquitetura que havia definido sua ascensão.",
+  "place": "Wolfsburg",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1975,
+  "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "label": "Emissões alteram carro e combustível",
+  "eyebrow": "Ano regulatório",
+  "title": "Catalisadores, gasolina sem chumbo e CVCC chegam ao mercado",
+  "copy": "As exigências norte-americanas entram em vigor. Catalisadores pedem combustível sem chumbo, enquanto o Civic CVCC demonstra uma rota de combustão capaz de atender aos limites sem o mesmo pós-tratamento.",
+  "place": "Estados Unidos · Japão",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1976,
+  "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "label": "O Accord transforma resposta em produto global",
+  "eyebrow": "Honda",
+  "title": "Economia, conforto e emissões cabem no mesmo hatchback",
+  "copy": "A Honda lança o Accord CVCC e inicia exportações aos Estados Unidos. O carro combina eficiência, baixa emissão e equipamentos antes associados a segmentos maiores.",
+  "place": "Japão · Estados Unidos",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1977,
+  "entity": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
+  "label": "O turbodiesel chega ao automóvel de série",
+  "eyebrow": "Mercedes-Benz 300 SD",
+  "title": "Eficiência e sobrealimentação entram no luxo",
+  "copy": "O 300 SD introduz o turbodiesel produzido em série para automóveis de passageiros. A busca por menor consumo começa a atravessar também os segmentos superiores.",
+  "place": "Stuttgart · América do Norte",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1978,
+  "entity": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
+  "label": "ABS digital estreia na Classe S",
+  "eyebrow": "Mercedes-Benz e Bosch",
+  "title": "Eletrônica ajuda o motorista a continuar dirigindo durante a frenagem",
+  "copy": "O ABS digital controla o bloqueio das rodas e preserva dirigibilidade em frenagens intensas. Sensores e controle eletrônico entram no automóvel como sistema ativo de segurança.",
+  "place": "Untertürkheim",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1979,
+  "entity": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
+  "label": "Outro choque confirma a mudança",
+  "eyebrow": "Energia e indústria",
+  "title": "Eficiência deixa de parecer uma resposta temporária",
+  "copy": "O segundo choque do petróleo reforça compactos, motores menores e tecnologias de consumo. Ao fim da década, segurança, emissões e energia já reorganizam produto e mercado.",
+  "place": "Mundo",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
 }
   ]
 }
