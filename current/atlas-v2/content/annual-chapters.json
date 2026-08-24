@@ -1874,6 +1874,226 @@
   "place": "Europa · Ásia",
   "asset": "/assets/people-industry.webp",
   "chapterKind": "continuity"
+},
+{
+  "year": 1940,
+  "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "label": "O automóvel entra na mobilização total",
+  "eyebrow": "Indústria em guerra",
+  "title": "Fábricas mudam de produto e propósito",
+  "copy": "Em 1940, a expansão do conflito subordina materiais, engenharia e capacidade fabril à mobilização. O automóvel civil perde prioridade enquanto a indústria aprende a produzir sob comando estatal.",
+  "place": "Europa · América do Norte · Ásia",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1941,
+  "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "label": "A cadeia automotiva torna-se estratégica",
+  "eyebrow": "Escala e logística",
+  "title": "Motores, aço e linhas passam a servir outra mobilidade",
+  "copy": "Em 1941, fornecedores e montadoras convertem competências civis para veículos, motores e componentes militares. A escala criada pelo automóvel torna-se infraestrutura de guerra.",
+  "place": "Mundo industrializado",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1942,
+  "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "label": "A produção civil é interrompida",
+  "eyebrow": "Ford Rouge",
+  "title": "O carro de passageiros sai da linha",
+  "copy": "A produção civil no complexo Rouge é suspensa durante a Segunda Guerra. O marco torna visível uma transformação mais ampla: instalações automotivas passam a atender prioridades militares.",
+  "place": "Dearborn",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1943,
+  "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "label": "Produzir sem mercado civil",
+  "eyebrow": "Economia dirigida",
+  "title": "A inovação responde à urgência",
+  "copy": "Em 1943, a demanda militar define volume, materiais e prazos. Conhecimento de produção seriada cresce, mas o desenvolvimento de novos automóveis civis permanece comprimido.",
+  "place": "Europa · Estados Unidos · Japão",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1944,
+  "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "label": "A reconversão começa a ser imaginada",
+  "eyebrow": "Antes da paz",
+  "title": "Capacidade não significa normalidade",
+  "copy": "Em 1944, a indústria possui enorme capacidade técnica, mas enfrenta destruição, escassez e mercados desorganizados. Retomar o automóvel exigirá reconstruir fábricas, fornecedores e demanda.",
+  "place": "Mundo industrializado",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1945,
+  "entity": "atlas:event:civilian-reconstruction-1945-1949",
+  "label": "A produção civil recomeça",
+  "eyebrow": "Wolfsburg e Rouge",
+  "title": "O primeiro carro do pós-guerra sai entre ruínas",
+  "copy": "Ford retoma veículos civis e o Volkswagen Type 1 entra em produção seriada sob tutela britânica. O automóvel reaparece primeiro como necessidade de transporte e sinal de reconstrução.",
+  "place": "Dearborn · Wolfsburg",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1946,
+  "entity": "atlas:event:civilian-reconstruction-1945-1949",
+  "label": "Escassez define o recomeço",
+  "eyebrow": "Produção limitada",
+  "title": "Mil carros por mês ainda são uma vitória",
+  "copy": "Em Wolfsburg, materiais, energia, alimento e pessoal limitam a produção. Mesmo assim, o Type 1 alcança dez mil unidades e demonstra que a reconstrução industrial pode avançar antes da abundância.",
+  "place": "Wolfsburg",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1947,
+  "entity": "atlas:event:ferrari-125-s-debut-1947",
+  "label": "Ferrari e Saab apresentam novos caminhos",
+  "eyebrow": "Esporte e racionalidade",
+  "title": "O pós-guerra produz identidades opostas",
+  "copy": "A Ferrari 125 S estreia a marca nas pistas enquanto a Saab apresenta seu primeiro automóvel na Suécia. Performance artesanal e eficiência aerodinâmica nascem do mesmo ambiente de reconstrução.",
+  "place": "Maranello · Linköping",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1948,
+  "entity": "atlas:brand:porsche",
+  "label": "356, 2CV e novas empresas",
+  "eyebrow": "Reconstrução plural",
+  "title": "O automóvel volta como desejo e necessidade",
+  "copy": "O Porsche 356 No. 1 inaugura uma marca esportiva; o Citroën 2CV apresenta uma resposta popular; a Honda inicia sua trajetória industrial. O pós-guerra não terá um único automóvel ideal.",
+  "place": "Gmünd · Paris · Hamamatsu",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1949,
+  "entity": "atlas:event:civilian-reconstruction-1945-1949",
+  "label": "A tutela dá lugar a uma empresa reconstruída",
+  "eyebrow": "Volkswagen",
+  "title": "Fábrica, rede e mercado voltam a formar um sistema",
+  "copy": "A administração britânica devolve a Volkswagen ao controle alemão após estruturar produção, qualidade, vendas, serviço e exportação. Reconstruir uma marca exige mais do que reabrir sua linha.",
+  "place": "Wolfsburg",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1950,
+  "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+  "label": "A década começa entre demanda e reorganização",
+  "eyebrow": "Mercados do pós-guerra",
+  "title": "Produzir volta a significar competir",
+  "copy": "Em 1950, procura reprimida, novas redes comerciais e fabricantes reorganizados devolvem variedade ao mercado. A competição técnica volta a influenciar o automóvel de passageiros.",
+  "place": "Europa · Estados Unidos · Japão",
+  "asset": "/assets/people-industry.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1951,
+  "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+  "label": "O Jaguar C-Type vence em sua estreia",
+  "eyebrow": "Le Mans",
+  "title": "Aerodinâmica e leveza vencem por 24 horas",
+  "copy": "Projetado em poucos meses, o Jaguar C-Type vence Le Mans na primeira participação. A resistência volta a funcionar como laboratório de estruturas leves, forma e confiabilidade.",
+  "place": "Coventry · Le Mans",
+  "asset": "/assets/motorsport.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1952,
+  "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+  "label": "Freios a disco enfrentam a estrada",
+  "eyebrow": "Jaguar e Mercedes-Benz",
+  "title": "A pista testa o que a rua ainda não conhece",
+  "copy": "A Jaguar leva freios a disco protótipos à Mille Miglia, enquanto o Mercedes-Benz 300 SL compete com estrutura tubular. Corridas transformam novas soluções em experiência mensurável.",
+  "place": "Itália · Europa",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1953,
+  "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+  "label": "O freio a disco domina Le Mans",
+  "eyebrow": "Transferência tecnológica",
+  "title": "Parar melhor também significa correr mais",
+  "copy": "Jaguar C-Types com freios a disco terminam em primeiro, segundo e quarto. A vitória acima de 100 mph de média acelera a adoção de uma tecnologia destinada a chegar às ruas.",
+  "place": "Le Mans",
+  "asset": "/assets/motorsport.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1954,
+  "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+  "label": "O 300 SL leva a corrida a Nova York",
+  "eyebrow": "Mercedes-Benz",
+  "title": "Estrutura tubular e injeção tornam-se produto",
+  "copy": "A Mercedes-Benz apresenta o 300 SL de série, derivado do carro de competição de 1952. Portas asa-de-gaivota, estrutura tubular e injeção mostram a transferência seletiva das pistas.",
+  "place": "Nova York · Stuttgart",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1955,
+  "entity": "atlas:event:1955-innovation-and-consequence",
+  "label": "O DS encanta; Le Mans exige respostas",
+  "eyebrow": "Inovação e consequência",
+  "title": "Progresso técnico e responsabilidade se encontram",
+  "copy": "O Citroën DS estreia em Paris como síntese de arquitetura, suspensão e forma. Meses antes, o desastre de Le Mans evidencia que desempenho, público e segurança não podem ser tratados separadamente.",
+  "place": "Paris · Le Mans",
+  "asset": "/assets/motorsport.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1956,
+  "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+  "label": "O carro popular volta ao centro",
+  "eyebrow": "Japão e Europa",
+  "title": "A indústria busca caber na vida cotidiana",
+  "copy": "Em 1956, debates japoneses sobre um carro do povo e a pressão europeia por economia aproximam tamanho, consumo e preço. A próxima expansão será construída por automóveis menores.",
+  "place": "Japão · Europa",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "continuity"
+},
+{
+  "year": 1957,
+  "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+  "label": "O Fiat 500 ocupa pouco espaço",
+  "eyebrow": "Motorização italiana",
+  "title": "Menos de três metros ampliam a liberdade",
+  "copy": "Apresentado em Turim, o Fiat 500 combina dimensões mínimas, motor econômico e preço acessível. A reconstrução italiana ganha uma imagem móvel e popular.",
+  "place": "Turim",
+  "asset": "/assets/vehicles.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1958,
+  "entity": "atlas:vehicle:volvo-pv544",
+  "label": "Japão exporta; Volvo prepara outra segurança",
+  "eyebrow": "Crown e PV544",
+  "title": "Internacionalização e proteção avançam juntas",
+  "copy": "O Toyota Crown chega aos Estados Unidos como primeiro automóvel de passageiros japonês naquele mercado. Na Volvo, o PV544 torna-se a plataforma para uma nova abordagem de retenção dos ocupantes.",
+  "place": "Japão · Estados Unidos · Gotemburgo",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
+},
+{
+  "year": 1959,
+  "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+  "label": "Mini e cinto de três pontos redefinem o essencial",
+  "eyebrow": "Espaço e segurança",
+  "title": "O carro moderno aprende a caber e proteger",
+  "copy": "BMC apresenta o Mini com motor transversal e máximo aproveitamento interno; a Volvo introduz o cinto de três pontos. Eficiência espacial e segurança passam a orientar o progresso cotidiano.",
+  "place": "Reino Unido · Suécia",
+  "asset": "/assets/technology.webp",
+  "chapterKind": "milestone"
 }
   ]
 }
