@@ -7,7 +7,7 @@
       "complete": true,
       "entity": "atlas:vehicle:benz-patent-motor-car",
       "label": "Benz Patent-Motorwagen",
-      "licensedMedia": 1,
+      "licensedMedia": 2,
       "presentationAsset": true,
       "temporalGeography": true,
       "year": 1886
@@ -68,7 +68,7 @@
       "year": 1969
     }
   ],
-  "reportSha256": "4bee86fd59f98e7376258722bafdcdfefe7fe0b1544ae2e1c350d50949447263",
+  "reportSha256": "a2c8de8146dff480c5cd4b29f714bf7315f7f76aed0b3fbd95e94c98dffa342a",
   "status": "PASS",
   "summary": {
     "authoredStories": 6,

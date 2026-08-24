@@ -141,7 +141,11 @@ backlog caiu para **135** capítulos. Os ativos específicos passam a controlar 
 hero anual; sobreposições cartográficas só aparecem quando classificadas como
 mapa no manifesto.
 
-Restante: executar os lotes visuais V02–V06, priorizando evidência histórica,
+Lote V02 concluído: **33/33** capítulos de 1886–1918 receberam cinco novos
+quadros editoriais, preservando as mídias específicas de 1886 e 1908. A
+cobertura total avançou para **154/258** e o backlog caiu para **104**.
+
+Restante: executar os lotes visuais V03–V06, priorizando evidência histórica,
 mapas explicativos e ilustrações originais onde houver função narrativa.
 
 ## Fase 8 — Automação e qualidade documental

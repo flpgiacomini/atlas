@@ -1173,7 +1173,8 @@
     {
       "entity": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
       "mediaIds": [
-        "atlas:media:benz-patent-motorwagen-1886-editorial-hero"
+        "atlas:media:benz-patent-motorwagen-1886-editorial-hero",
+        "atlas:media:v02-birth-1886-1895-editorial"
       ],
       "mode": "licensed-media",
       "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
@@ -1182,169 +1183,211 @@
     },
     {
       "entity": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1887
     },
     {
       "entity": "atlas:vehicle:segundo-automovel-de-marcus",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1888
     },
     {
       "entity": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1889
     },
     {
       "entity": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1890
     },
     {
       "entity": "atlas:event:benz-velo-enters-sales-range",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1891
     },
     {
       "entity": "atlas:event:benz-velo-enters-sales-range",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1892
     },
     {
       "entity": "atlas:event:benz-velo-enters-sales-range",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1893
     },
     {
       "entity": "atlas:event:parisrouen-reliability-trial-1894",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1894
     },
     {
       "entity": "atlas:event:de-dion-bouton-single-cylinder-engine-developed",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-birth-1886-1895-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1895
     },
     {
       "entity": "atlas:event:first-drive-of-ford-quadricycle",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1896
     },
     {
       "entity": "atlas:event:first-drive-of-ford-quadricycle",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1897
     },
     {
       "entity": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1898
     },
     {
       "entity": "atlas:event:fiat-founded-in-turin",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1899
     },
     {
       "entity": "atlas:event:first-mercedes-35-hp-supplied-to-emil-jellinek",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1900
     },
     {
       "entity": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1901
     },
     {
       "entity": "atlas:event:oldsmobile-curved-dash-enters-large-scale-american-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1902
     },
     {
       "entity": "atlas:event:ford-model-a-production-introduction",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-plurality-racing-1896-1903-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1903
     },
     {
       "entity": "atlas:event:1904-vanderbilt-cup",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-industry-1904-1907-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1904
     },
     {
       "entity": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-industry-1904-1907-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1905
     },
     {
       "entity": "atlas:event:1906-grand-prix-de-l-a-c-f",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-industry-1904-1907-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1906
     },
     {
       "entity": "atlas:event:1907-scottish-reliability-trial-silver-ghost",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-industry-1904-1907-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1907
     },
@@ -1360,81 +1403,101 @@
     },
     {
       "entity": "atlas:event:ford-model-t-first-customer-delivery",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-mass-production-1909-1913-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1909
     },
     {
       "entity": "atlas:event:model-t-production-moved-to-highland-park",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-mass-production-1909-1913-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1910
     },
     {
       "entity": "atlas:event:model-t-production-moved-to-highland-park",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-mass-production-1909-1913-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1911
     },
     {
       "entity": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-mass-production-1909-1913-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1912
     },
     {
       "entity": "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-mass-production-1909-1913-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1913
     },
     {
       "entity": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-war-mobilization-1914-1918-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1914
     },
     {
       "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-war-mobilization-1914-1918-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1915
     },
     {
       "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-war-mobilization-1914-1918-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1916
     },
     {
       "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-war-mobilization-1914-1918-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1917
     },
     {
       "entity": "atlas:event:world-war-i-constrains-mercedes-28-95-hp-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v02-war-mobilization-1914-1918-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1918
     },

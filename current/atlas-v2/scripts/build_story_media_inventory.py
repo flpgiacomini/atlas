@@ -13,6 +13,11 @@ PERIOD_MEDIA = (
     (1835, 1859, "atlas:media:v01-electric-experiments-1835-1859-editorial"),
     (1860, 1875, "atlas:media:v01-combustion-1860-1875-editorial"),
     (1876, 1885, "atlas:media:v01-convergence-1876-1885-editorial"),
+    (1886, 1895, "atlas:media:v02-birth-1886-1895-editorial"),
+    (1896, 1903, "atlas:media:v02-plurality-racing-1896-1903-editorial"),
+    (1904, 1907, "atlas:media:v02-industry-1904-1907-editorial"),
+    (1909, 1913, "atlas:media:v02-mass-production-1909-1913-editorial"),
+    (1914, 1918, "atlas:media:v02-war-mobilization-1914-1918-editorial"),
 )
 
 
