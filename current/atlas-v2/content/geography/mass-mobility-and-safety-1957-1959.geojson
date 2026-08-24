@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:toyota-crown-japan-united-states-1957",
+      "properties": {
+        "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+        "label": "Japão–Estados Unidos — exportação inicial do Toyota Crown",
+        "validity": {"from": "1957", "until": "1957", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:toyota-crown-60",
+        "purpose": "passenger-car-export"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[139.6503, 35.6762], [-118.2437, 34.0522]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:longbridge-mini-1959",
+      "properties": {
+        "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+        "label": "Longbridge — produção do Mini em 1959",
+        "validity": {"from": "1959", "until": "1959", "precision": "year"},
+        "precision": "facility-approximate",
+        "confidence": "verified",
+        "source": "atlas:source:bmw-mini-fifty-years",
+        "purpose": "compact-car-production"
+      },
+      "geometry": {"type": "Point", "coordinates": [-1.99, 52.45]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:gothenburg-three-point-belt-1959",
+      "properties": {
+        "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+        "label": "Gotemburgo — difusão do cinto de três pontos em 1959",
+        "validity": {"from": "1959", "until": "1959", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:volvo-three-point-belt",
+        "purpose": "safety-technology-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [11.9746, 57.7089]}
+    }
+  ]
+}

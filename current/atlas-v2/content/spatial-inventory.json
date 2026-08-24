@@ -1497,7 +1497,7 @@
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
       "geometryEntity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Japão",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1515,7 +1515,7 @@
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
       "geometryEntity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Japão",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1524,7 +1524,7 @@
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
       "geometryEntity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Koromo",
       "rationale": "capítulo explicitamente estruturado pela geografia",
@@ -1533,7 +1533,7 @@
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
       "geometryEntity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa · Ásia",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1542,7 +1542,7 @@
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
       "geometryEntity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa · América do Norte · Ásia",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1551,7 +1551,7 @@
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
       "geometryEntity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Mundo industrializado",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1560,7 +1560,7 @@
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
       "geometryEntity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Dearborn",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1569,7 +1569,7 @@
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
       "geometryEntity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Europa · Estados Unidos · Japão",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1578,7 +1578,7 @@
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
       "geometryEntity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Mundo industrializado",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1587,7 +1587,7 @@
     {
       "entity": "atlas:event:civilian-reconstruction-1945-1949",
       "geometryEntity": "atlas:event:civilian-reconstruction-1945-1949",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Dearborn · Wolfsburg",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1596,7 +1596,7 @@
     {
       "entity": "atlas:event:holden-prototype-no-1-hand-built-in-detroit",
       "geometryEntity": "atlas:event:holden-prototype-no-1-hand-built-in-detroit",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Detroit · Austrália",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1605,7 +1605,7 @@
     {
       "entity": "atlas:event:ferrari-125-s-debut-1947",
       "geometryEntity": "atlas:event:ferrari-125-s-debut-1947",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Maranello · Linköping",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1614,7 +1614,7 @@
     {
       "entity": "atlas:brand:porsche",
       "geometryEntity": "atlas:brand:porsche",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Gmünd · Paris · Hamamatsu",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1623,7 +1623,7 @@
     {
       "entity": "atlas:event:civilian-reconstruction-1945-1949",
       "geometryEntity": "atlas:event:civilian-reconstruction-1945-1949",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Wolfsburg",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1641,7 +1641,7 @@
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
       "geometryEntity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Coventry · Le Mans",
       "rationale": "competição depende de circuito, etapa ou deslocamento",
@@ -1650,7 +1650,7 @@
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
       "geometryEntity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Itália · Europa",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1659,7 +1659,7 @@
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
       "geometryEntity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Le Mans",
       "rationale": "competição depende de circuito, etapa ou deslocamento",
@@ -1668,7 +1668,7 @@
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
       "geometryEntity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Nova York · Stuttgart",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1695,7 +1695,7 @@
     {
       "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
       "geometryEntity": "atlas:event:mass-mobility-and-safety-1956-1959",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Turim",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1713,7 +1713,7 @@
     {
       "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
       "geometryEntity": "atlas:event:mass-mobility-and-safety-1956-1959",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Reino Unido · Suécia",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1731,7 +1731,7 @@
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
       "geometryEntity": "atlas:event:design-performance-expansion-1960-1965",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Coventry · Genebra",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1758,7 +1758,7 @@
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
       "geometryEntity": "atlas:event:design-performance-expansion-1960-1965",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Nova York · Dearborn",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1767,7 +1767,7 @@
     {
       "entity": "atlas:event:presentation-of-first-porsche-911-targa",
       "geometryEntity": "atlas:event:presentation-of-first-porsche-911-targa",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Frankfurt",
       "rationale": "competição depende de circuito, etapa ou deslocamento",
@@ -1776,7 +1776,7 @@
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
       "geometryEntity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Estados Unidos",
       "rationale": "escala regional ou global pede contexto editorial, não navegação de precisão",
@@ -1785,7 +1785,7 @@
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
       "geometryEntity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "geometryStatus": "not-required",
+      "geometryStatus": "covered",
       "mode": "static-sufficient",
       "place": "Hiroshima",
       "rationale": "um lugar contextual pode ser representado por mapa editorial ou cartão ancorado",
@@ -1794,7 +1794,7 @@
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
       "geometryEntity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · indústria global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -1812,7 +1812,7 @@
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
       "geometryEntity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "geometryStatus": "pending",
+      "geometryStatus": "covered",
       "mode": "interactive-required",
       "place": "Estados Unidos · indústria global",
       "rationale": "múltiplos lugares formam uma relação ou deslocamento histórico",
@@ -2330,8 +2330,8 @@
   },
   "summary": {
     "chapters": 258,
-    "interactiveCovered": 29,
-    "interactivePending": 69,
+    "interactiveCovered": 47,
+    "interactivePending": 51,
     "interactiveRequired": 98,
     "notSpatial": 0,
     "staticSufficient": 160

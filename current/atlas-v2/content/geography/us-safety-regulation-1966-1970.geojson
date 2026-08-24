@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:us-federal-safety-regulation-1966-1970",
+      "properties": {
+        "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
+        "label": "Washington — marco regulatório federal de emissões",
+        "validity": {"from": "1966", "until": "1970", "precision": "range"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:epa-transportation-timeline",
+        "purpose": "emissions-regulation-anchor"
+      },
+      "geometry": {"type": "Point", "coordinates": [-77.0369, 38.9072]}
+    }
+  ]
+}

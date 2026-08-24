@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:jaguar-coventry-geneva-e-type-1961",
+      "properties": {
+        "entity": "atlas:event:design-performance-expansion-1960-1965",
+        "label": "Coventry–Genebra — apresentação do Jaguar E-Type",
+        "validity": {"from": "1961", "until": "1961", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:jaguar-e-type-50",
+        "purpose": "vehicle-debut-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[-1.5106, 52.4068], [6.1432, 46.2044]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ford-dearborn-new-york-mustang-1964",
+      "properties": {
+        "entity": "atlas:event:design-performance-expansion-1960-1965",
+        "label": "Dearborn–Nova York — lançamento do Ford Mustang",
+        "validity": {"from": "1964", "until": "1964", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:ford-mustang-60",
+        "purpose": "vehicle-debut-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[-83.1763, 42.3223], [-74.006, 40.7128]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:porsche-911-targa-frankfurt-1965",
+      "properties": {
+        "entity": "atlas:event:presentation-of-first-porsche-911-targa",
+        "label": "Frankfurt — apresentação do primeiro Porsche 911 Targa",
+        "validity": {"from": "1965", "until": "1965", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:porsche-ag-the-innovations-of-the-911",
+        "purpose": "vehicle-debut"
+      },
+      "geometry": {"type": "Point", "coordinates": [8.6821, 50.1109]}
+    }
+  ]
+}

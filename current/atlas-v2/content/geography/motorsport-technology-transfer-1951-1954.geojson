@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:jaguar-coventry-le-mans-1951-1953",
+      "properties": {
+        "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+        "label": "Coventry–Le Mans — desenvolvimento e validação do Jaguar C-Type",
+        "validity": {"from": "1951", "until": "1953", "precision": "range"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:jaguar-c-type-history",
+        "purpose": "motorsport-technology-transfer"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[-1.5106, 52.4068], [0.207, 47.956]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:mercedes-stuttgart-new-york-300sl-1954",
+      "properties": {
+        "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+        "label": "Stuttgart–Nova York — transferência do 300 SL para o automóvel de estrada",
+        "validity": {"from": "1954", "until": "1954", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:mercedes-300sl-archive",
+        "purpose": "road-car-technology-transfer"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[9.1829, 48.7758], [-74.006, 40.7128]]}
+    }
+  ]
+}

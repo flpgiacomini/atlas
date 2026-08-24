@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:toyota-koromo-industrial-foundation-1935-1939",
+      "properties": {
+        "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
+        "label": "Koromo — formação da base industrial da Toyota",
+        "validity": {"from": "1935", "until": "1939", "precision": "range"},
+        "precision": "city",
+        "confidence": "probable",
+        "source": "atlas:source:toyota-75-years-milestones",
+        "purpose": "industrial-foundation-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [137.156, 35.083]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ford-rouge-wartime-conversion-1940-1945",
+      "properties": {
+        "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+        "label": "Dearborn — conversão industrial do complexo Rouge",
+        "validity": {"from": "1940", "until": "1945", "precision": "range"},
+        "precision": "facility-approximate",
+        "confidence": "verified",
+        "source": "atlas:source:henry-ford-rouge-timeline",
+        "purpose": "wartime-industrial-conversion"
+      },
+      "geometry": {"type": "Point", "coordinates": [-83.164, 42.307]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:wolfsburg-civilian-production-restart-1945",
+      "properties": {
+        "entity": "atlas:event:civilian-reconstruction-1945-1949",
+        "label": "Wolfsburg — retomada da produção civil do Type 1",
+        "validity": {"from": "1945", "until": "1949", "precision": "range"},
+        "precision": "facility-approximate",
+        "confidence": "verified",
+        "source": "atlas:source:volkswagen-beetle-production-1945",
+        "purpose": "civilian-production-restart"
+      },
+      "geometry": {"type": "Point", "coordinates": [10.786, 52.423]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:holden-prototype-detroit-australia-1946",
+      "properties": {
+        "entity": "atlas:event:holden-prototype-no-1-hand-built-in-detroit",
+        "label": "Detroit–Melbourne — percurso editorial do Holden Prototype No. 1",
+        "validity": {"from": "1946", "until": "1946", "precision": "year"},
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:national-museum-of-australia-holden-prototype-no-1",
+        "purpose": "prototype-transfer-editorial-route"
+      },
+      "geometry": {"type": "LineString", "coordinates": [[-83.0458, 42.3314], [144.9631, -37.8136]]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:ferrari-maranello-125-s-1947",
+      "properties": {
+        "entity": "atlas:event:ferrari-125-s-debut-1947",
+        "label": "Maranello — estreia do Ferrari 125 S",
+        "validity": {"from": "1947", "until": "1947", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:ferrari-125-s-anniversary",
+        "purpose": "manufacturer-debut-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [10.866, 44.526]}
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:porsche-gmund-356-no-1-1948",
+      "properties": {
+        "entity": "atlas:brand:porsche",
+        "label": "Gmünd — Porsche 356 No. 1 Roadster",
+        "validity": {"from": "1948", "until": "1948", "precision": "year"},
+        "precision": "city",
+        "confidence": "verified",
+        "source": "atlas:source:porsche-70-years-sports-cars",
+        "purpose": "first-sports-car-context"
+      },
+      "geometry": {"type": "Point", "coordinates": [13.536, 46.907]}
+    }
+  ]
+}
