@@ -84,9 +84,15 @@ def audit() -> dict:
         if entity is None:
             errors.append(f"{chapter_year}: unresolved entity {chapter.get('entity')}")
             continue
+        temporal_entity = entities.get(chapter.get("temporalContext"), entity)
+        if temporal_entity is None:
+            errors.append(f"{chapter_year}: unresolved temporal context {chapter.get('temporalContext')}")
+            continue
         claims = entity.get("claims", [])
-        source_ids = {ref for claim in claims for ref in claim.get("sources", [])}
-        evidence_ids = {ref for claim in claims for ref in claim.get("evidence", [])}
+        temporal_claims = temporal_entity.get("claims", [])
+        support_claims = claims + ([] if temporal_entity is entity else temporal_claims)
+        source_ids = {ref for claim in support_claims for ref in claim.get("sources", [])}
+        evidence_ids = {ref for claim in support_claims for ref in claim.get("evidence", [])}
         chapter_source_counts.append(len(source_ids))
         if not claims or not source_ids or not evidence_ids:
             errors.append(f"{chapter_year}: entity lacks claims, sources or evidence")
@@ -108,7 +114,7 @@ def audit() -> dict:
         exact = False
         interval = False
         all_points: set[int] = set()
-        for claim in claims:
+        for claim in temporal_claims:
             points, span = claim_years(claim)
             all_points.update(points)
             exact = exact or chapter_year in points

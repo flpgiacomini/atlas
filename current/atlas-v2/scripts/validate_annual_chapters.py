@@ -32,6 +32,9 @@ def validate() -> dict:
             errors.append(f"{year}: invalid chapterKind {kind!r}")
         if chapter.get("entity") not in entity_ids:
             errors.append(f"{year}: unresolved entity {chapter.get('entity')}")
+        temporal_context = chapter.get("temporalContext")
+        if temporal_context is not None and temporal_context not in entity_ids:
+            errors.append(f"{year}: unresolved temporalContext {temporal_context}")
         for field in ("label", "eyebrow", "title", "copy", "place", "asset"):
             if not isinstance(chapter.get(field), str) or not chapter[field].strip():
                 errors.append(f"{year}: missing {field}")

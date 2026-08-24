@@ -3,7 +3,7 @@
     "note": "Spatial backlog is an upper bound until chapters are classified as spatial or non-spatial.",
     "spatialStoriesPendingInventory": 257,
     "storyMediaManifest": 258,
-    "temporalClaims": 53
+    "temporalClaims": 32
   },
   "coverage": {
     "assetUsage": {
@@ -15,6 +15,27 @@
       "/assets/vehicles.webp": 41
     },
     "bracketedContinuityYears": [
+      1802,
+      1804,
+      1805,
+      1806,
+      1808,
+      1809,
+      1810,
+      1811,
+      1812,
+      1813,
+      1814,
+      1815,
+      1816,
+      1817,
+      1818,
+      1819,
+      1820,
+      1821,
+      1822,
+      1823,
+      1824,
       1826,
       1827,
       1830,
@@ -185,90 +206,6 @@
     "missingAssets": [],
     "temporalGapYears": [
       {
-        "entity": "atlas:vehicle:puffing-devil",
-        "year": 1802
-      },
-      {
-        "entity": "atlas:vehicle:london-steam-carriage",
-        "year": 1804
-      },
-      {
-        "entity": "atlas:vehicle:london-steam-carriage",
-        "year": 1805
-      },
-      {
-        "entity": "atlas:vehicle:london-steam-carriage",
-        "year": 1806
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1808
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1809
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1810
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1811
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1812
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1813
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1814
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1815
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1816
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1817
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1818
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1819
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1820
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1821
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1822
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1823
-      },
-      {
-        "entity": "atlas:vehicle:veiculo-experimental-de-rivaz",
-        "year": 1824
-      },
-      {
         "entity": "atlas:vehicle:lobeissante",
         "year": 1874
       },
@@ -399,16 +336,16 @@
     ]
   },
   "errors": [],
-  "reportSha256": "403a60292028cd3f881ac1d57572ce8b6ecce0986e898cb55ef1def9993ddc0d",
+  "reportSha256": "6b617def77f800bf1e79ddbf38a963619ee1cf967ace5be20405226eb5147cb6",
   "status": "PASS",
   "summary": {
     "chapters": 258,
-    "chaptersWithBracketedContinuity": 28,
+    "chaptersWithBracketedContinuity": 49,
     "chaptersWithExactYearClaim": 133,
     "chaptersWithExistingAsset": 258,
     "chaptersWithMappedEntity": 1,
-    "chaptersWithTemporalSupport": 205,
-    "chaptersWithoutTemporalSupport": 53,
+    "chaptersWithTemporalSupport": 226,
+    "chaptersWithoutTemporalSupport": 32,
     "entitiesReferenced": 88,
     "geographyFeatures": 1,
     "licensedStoryMediaManifest": false,
