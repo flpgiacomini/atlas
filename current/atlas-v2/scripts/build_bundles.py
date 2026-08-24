@@ -116,7 +116,9 @@ def build(output: Path) -> dict:
 
     journey_config = load(ROOT / "content/journeys.json")["journeys"]
     media_by_entity: dict[str, list[dict]] = defaultdict(list)
-    for media in load(ROOT / "content" / "media-manifest.json")["items"]:
+    media_items = load(ROOT / "content" / "media-manifest.json")["items"]
+    media_by_id = {item["id"]: item for item in media_items}
+    for media in media_items:
         media_by_entity[media["journeyEntity"]].append(media)
     journey_items = []
     for journey in journey_config:
@@ -134,15 +136,22 @@ def build(output: Path) -> dict:
     files.append({"path": "journeys.json", "kind": "journeys", "key": "required-six", "count": len(journey_items)})
 
     annual_config = load(ROOT / "content/annual-chapters.json")
+    media_decisions = {
+        item["year"]: item
+        for item in load(ROOT / "content/story-media-decisions.json")["decisions"]
+    }
     annual_items = []
     for chapter in annual_config["chapters"]:
         entity = by_id.get(chapter["entity"])
         source_ids = sorted({source for claim in entity.get("claims", []) for source in claim.get("sources", [])})
+        media_decision = media_decisions[chapter["year"]]
         annual_items.append({
             **chapter,
             "record": summary(entity),
             "claims": entity.get("claims", []),
             "sources": [source_by_id[source] for source in source_ids],
+            "mediaDecision": media_decision,
+            "media": [media_by_id[item] for item in media_decision["mediaIds"]],
             "coverageState": "authored",
         })
     annual_items.sort(key=lambda item: item["year"])

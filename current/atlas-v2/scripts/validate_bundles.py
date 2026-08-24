@@ -46,6 +46,14 @@ def validate(root: Path) -> dict:
         raise ValueError("annual chapters must fully cover 1769-2026")
     if any(item["coverageState"] != "authored" or not item.get("sources") for item in annual["items"]):
         raise ValueError("annual chapters must be authored and source-backed")
+    if any(not item.get("mediaDecision") or "media" not in item for item in annual["items"]):
+        raise ValueError("annual chapters must expose media decisions and resolved media")
+    if any(
+        item["mediaDecision"]["mode"] == "text-led" and item["media"]
+        or item["mediaDecision"]["mode"] != "text-led" and not item["media"]
+        for item in annual["items"]
+    ):
+        raise ValueError("annual media decisions do not match resolved media")
     return {
         "status": "PASS", "entities": index["count"], "bundles": len(manifest["files"]),
         "periods": len(period_keys), "journeys": journeys["count"],

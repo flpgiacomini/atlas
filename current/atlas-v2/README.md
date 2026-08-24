@@ -28,6 +28,7 @@ python scripts/validate_bundles.py
 python scripts/check_bundles_determinism.py
 python scripts/audit_editorial_coverage.py --check
 python scripts/audit_journey_coverage.py --check
+python scripts/audit_story_media.py --check
 ```
 
 `migrate_sqlite.py` lê o SQLite v1 somente em modo read-only e recria
@@ -66,3 +67,10 @@ editorial e mantém os gaps como backlog explícito no CI.
 evidência, narrativa completa, mídia licenciada, geometria temporal e ativos
 de apresentação. O relatório `reports/journey-coverage.json` distingue um
 estado estruturalmente íntegro da conclusão editorial dos seis pacotes.
+
+`story-media-decisions.json` registra uma decisão editorial para cada um dos
+258 capítulos. `audit_story_media.py` bloqueia referências ausentes, hotlinks,
+licenças não permitidas, créditos ou textos alternativos incompletos e anos sem
+decisão. Uma composição `text-led` é explícita e continua contabilizada como
+backlog de mídia específica, sem transformar os seis fundos temáticos em falsa
+cobertura histórica individual.

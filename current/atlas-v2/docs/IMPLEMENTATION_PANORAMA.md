@@ -116,7 +116,7 @@ narrativa–evidência bloco a bloco.
 
 ## Fase 7 — Mídia e direção visual
 
-Estado: **direção prototipada; cobertura editorial não iniciada em escala**.
+Estado: **fundação concluída; cobertura editorial em expansão por lotes**.
 
 Entregue: linguagem de revista automotiva e cobertura técnica de imagem para
 todos os capítulos por seis ativos temáticos.
@@ -129,9 +129,14 @@ Entregue adicionalmente no CP16: manifesto versionado e primeiro pacote
 completo, **Porsche 917 / 1969**, com arquivo local, licença, crédito, alt e
 distinção explícita entre ilustração editorial e documento histórico.
 
-Restante: cinco pacotes dos percursos e expansão por lotes anuais. A cobertura
-específica atual é 1/258; reutilização temática não conta como cobertura
-histórica individual.
+Entregue no início do CP18: decisões versionadas para **258/258** histórias,
+auditoria de direitos e arquivos integrada ao CI e mídia conectada aos bundles
+anuais. A linha de base honesta é **6/258** capítulos com mídia específica e
+**252/258** composições textuais temporárias; nenhuma reutilização temática é
+contada como cobertura individual.
+
+Restante: executar os lotes visuais V01–V06, priorizando evidência histórica,
+mapas explicativos e ilustrações originais onde houver função narrativa.
 
 ## Fase 8 — Automação e qualidade documental
 
