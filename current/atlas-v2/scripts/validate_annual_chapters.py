@@ -39,7 +39,7 @@ def validate() -> dict:
         if copy in copies:
             errors.append(f"{year}: duplicated narrative")
         copies.add(copy)
-    missing_first_span = set(range(1769, 2010)) - years
+    missing_first_span = set(range(1769, 2020)) - years
     if missing_first_span:
         errors.append(f"missing years in continuous precursor span: {sorted(missing_first_span)}")
     if errors:

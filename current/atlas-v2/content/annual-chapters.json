@@ -2644,6 +2644,116 @@
       "place": "Estados Unidos · Canadá · Itália",
       "asset": "/assets/people-industry.webp",
       "chapterKind": "milestone"
+    },
+    {
+      "year": 2010,
+      "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
+      "label": "O Nissan LEAF chega aos primeiros mercados",
+      "eyebrow": "Elétrico de produção",
+      "title": "A bateria passa a mover um automóvel familiar sem motor de apoio",
+      "copy": "As vendas do LEAF começam no Japão e na América do Norte. Um hatch elétrico produzido em série leva autonomia, recarga e degradação da bateria para a rotina de proprietários comuns.",
+      "place": "Japão · América do Norte",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2011,
+      "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
+      "label": "A BMW cria a submarca i",
+      "eyebrow": "Veículos e serviços",
+      "title": "Eletrificação deixa de ser apenas uma versão de motor",
+      "copy": "A BMW i reúne automóveis dedicados, materiais leves, investimento e serviços urbanos. A transição energética começa a exigir arquitetura, marca e modelo de negócio próprios.",
+      "place": "Munique · Leipzig · cidades globais",
+      "asset": "/assets/people-industry.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2012,
+      "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
+      "label": "Model S e MQB mostram duas formas de escala",
+      "eyebrow": "Fremont · Wolfsburg",
+      "title": "Uma plataforma elétrica nasce dedicada; outra multiplica variações",
+      "copy": "A Tesla inicia entregas do Model S, sedã concebido ao redor da bateria. No mesmo ano, a MQB da Volkswagen padroniza dimensões e processos para sustentar muitos modelos, marcas e sistemas de propulsão.",
+      "place": "Fremont · Wolfsburg",
+      "asset": "/assets/vehicles.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2013,
+      "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
+      "label": "O BMW i3 transforma material e arquitetura",
+      "eyebrow": "LifeDrive",
+      "title": "Compensar a bateria exige repensar o corpo do automóvel",
+      "copy": "O i3 combina chassi de alumínio, célula de passageiros em compósito de fibra de carbono e tração elétrica. Produção, materiais e uso urbano tornam-se partes inseparáveis do projeto.",
+      "place": "Leipzig · mercados urbanos",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2014,
+      "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
+      "label": "O Golf também se eletrifica",
+      "eyebrow": "e-Golf e GTE",
+      "title": "A plataforma modular acolhe diferentes transições",
+      "copy": "A família Golf recebe versões elétrica e híbrida plug-in. Em vez de uma carroceria exclusiva, a eletrificação passa a compartilhar forma, fábrica e identidade com um dos compactos mais difundidos do mundo.",
+      "place": "Wolfsburg · Europa",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2015,
+      "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
+      "label": "O Dieselgate rompe a confiança no teste",
+      "eyebrow": "EPA · software de emissões",
+      "title": "O código do automóvel também pode ocultar seu impacto",
+      "copy": "A EPA acusa Volkswagen e Audi de usar software para reconhecer ensaios e alterar o controle de emissões. A distância entre laboratório e rua torna transparência, fiscalização e software questões centrais da engenharia.",
+      "place": "Estados Unidos · Alemanha · mercado global",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2016,
+      "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
+      "label": "O Chevrolet Bolt combina alcance e preço",
+      "eyebrow": "Orion Assembly",
+      "title": "A autonomia elétrica aproxima-se do automóvel cotidiano",
+      "copy": "O Bolt EV chega no fim do ano com 238 milhas de autonomia estimada pela EPA. Bateria de grande capacidade, carroceria compacta e produção convencional perseguem um mercado além do luxo.",
+      "place": "Michigan · Estados Unidos",
+      "asset": "/assets/vehicles.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2017,
+      "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
+      "label": "O Model 3 inicia produção e entregas",
+      "eyebrow": "Escala em Fremont",
+      "title": "A promessa do elétrico de maior volume encontra a fábrica",
+      "copy": "A Tesla começa a produzir e entregar o Model 3 em julho. O desafio muda de demonstrar desempenho para fabricar, entregar e atender um sedã elétrico em volumes muito superiores aos modelos anteriores.",
+      "place": "Fremont · Nevada · mercado global",
+      "asset": "/assets/people-industry.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2018,
+      "entity": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
+      "label": "WLTP e RDE chegam a todos os veículos novos",
+      "eyebrow": "Europa",
+      "title": "Medir melhor torna-se parte da reconstrução da confiança",
+      "copy": "Testes de laboratório mais representativos e medições em condução real passam a abranger todos os veículos novos na Europa. Consumo e emissões deixam de depender apenas de um ciclo antigo e previsível.",
+      "place": "União Europeia",
+      "asset": "/assets/technology.webp",
+      "chapterKind": "milestone"
+    },
+    {
+      "year": 2019,
+      "entity": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
+      "label": "O ID.3 materializa o realinhamento da Volkswagen",
+      "eyebrow": "MEB · Frankfurt",
+      "title": "Depois da crise, uma nova matriz industrial nasce elétrica",
+      "copy": "A Volkswagen apresenta o ID.3, primeiro modelo de sua nova geração baseada na plataforma elétrica MEB. Produto, fábrica, cadeia de baterias, conectividade e identidade visual são reorganizados ao redor da transição.",
+      "place": "Frankfurt · Zwickau · Wolfsburg",
+      "asset": "/assets/vehicles.webp",
+      "chapterKind": "milestone"
     }
   ]
 }
