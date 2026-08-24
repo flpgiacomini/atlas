@@ -46,14 +46,14 @@
       "year": 1958
     },
     {
-      "authoredStory": false,
+      "authoredStory": true,
       "canonicalEvidence": true,
-      "complete": false,
+      "complete": true,
       "entity": "atlas:vehicle:porsche-911",
       "label": "Porsche 911",
-      "licensedMedia": 0,
+      "licensedMedia": 1,
       "presentationAsset": true,
-      "temporalGeography": false,
+      "temporalGeography": true,
       "year": 1963
     },
     {
@@ -68,15 +68,15 @@
       "year": 1969
     }
   ],
-  "reportSha256": "ca5d2ab3354d52a3fad083642950180454bf1ccc5e4227426f4793a9e1d998eb",
+  "reportSha256": "3ed0fa955d8e16e0902c74573283367d9a8c31be22fe85b2ace90fb03cd1279a",
   "status": "PASS",
   "summary": {
-    "authoredStories": 1,
+    "authoredStories": 2,
     "canonicalEvidence": 6,
-    "completeJourneys": 1,
+    "completeJourneys": 2,
     "journeys": 6,
-    "journeysWithLicensedMedia": 1,
-    "journeysWithTemporalGeography": 1,
+    "journeysWithLicensedMedia": 2,
+    "journeysWithTemporalGeography": 2,
     "presentationAssets": 6
   },
   "version": "1.0.0"

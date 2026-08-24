@@ -162,10 +162,10 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 ## Caminho crítico e checkpoints seguintes
 
 1. **CP15 — Evidência temporal: concluído**, com 258/258 e zero gaps.
-2. **CP16 — Seis percursos completos: em andamento (1/6).** Porsche 917 / 1969
-   fecha o pacote de referência; faltam Porsche 911, Benz, Model T, Volvo PV544
-   e origens do Motorsport. Ver
-   [`JOURNEYS_CHECKPOINT_16_PROGRESS_01.md`](JOURNEYS_CHECKPOINT_16_PROGRESS_01.md).
+2. **CP16 — Seis percursos completos: em andamento (2/6).** Porsche 917 / 1969
+   e Porsche 911 / 1963 fecham os dois primeiros pacotes; faltam Benz, Model T,
+   Volvo PV544 e origens do Motorsport. Ver
+   [`JOURNEYS_CHECKPOINT_16_PROGRESS_02.md`](JOURNEYS_CHECKPOINT_16_PROGRESS_02.md).
 3. **CP17 — Inventário cartográfico:** classificar os 258 capítulos e fechar
    geometria para 100% do subconjunto espacial.
 4. **CP18 — Mídia editorial:** manifesto, arquivos locais e licenças por história.

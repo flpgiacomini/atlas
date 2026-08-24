@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:porsche-901-zuffenhausen-1963",
+      "properties": {
+        "entity": "atlas:vehicle:porsche-911",
+        "label": "Zuffenhausen",
+        "validity": { "from": "1963", "until": "1963", "precision": "year" },
+        "precision": "locality",
+        "confidence": "high",
+        "source": "atlas:source:porsche-i-am-legend",
+        "purpose": "development-context"
+      },
+      "geometry": { "type": "Point", "coordinates": [9.177, 48.835] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:porsche-901-frankfurt-iaa-1963",
+      "properties": {
+        "entity": "atlas:vehicle:porsche-911",
+        "label": "IAA Frankfurt",
+        "validity": { "from": "1963-09-12", "until": "1963-09-12", "precision": "day" },
+        "precision": "city",
+        "confidence": "high",
+        "source": "atlas:source:porsche-original-911-masterpiece",
+        "purpose": "public-debut"
+      },
+      "geometry": { "type": "Point", "coordinates": [8.652, 50.112] }
+    },
+    {
+      "type": "Feature",
+      "id": "atlas:geometry:zuffenhausen-frankfurt-editorial-1963",
+      "properties": {
+        "entity": "atlas:vehicle:porsche-911",
+        "label": "Do desenvolvimento à apresentação pública",
+        "validity": { "from": "1963", "until": "1963", "precision": "year" },
+        "precision": "route",
+        "confidence": "approximate",
+        "source": "atlas:source:porsche-original-911-masterpiece",
+        "purpose": "editorial-route"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[9.177, 48.835], [8.652, 50.112]]
+      }
+    }
+  ]
+}

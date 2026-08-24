@@ -46,6 +46,10 @@ def claim_years(claim: dict) -> tuple[set[int], tuple[int, int] | None]:
 
 def audit() -> dict:
     chapters = load(ROOT / "content" / "annual-chapters.json")["chapters"]
+    journey_entities_by_year = {
+        item["year"]: item["entity"]
+        for item in load(ROOT / "content" / "journeys.json")["journeys"]
+    }
     entities: dict[str, dict] = {}
     for directory in (ROOT / "migration" / "entities", ROOT / "content" / "entities"):
         for path in sorted(directory.glob("*.jsonld")):
@@ -137,7 +141,8 @@ def audit() -> dict:
         else:
             temporal_gaps.append({"year": chapter_year, "entity": entity["id"]})
 
-        if entity["id"] in geometry_entities:
+        spatial_entities = {entity["id"], journey_entities_by_year.get(chapter_year)}
+        if spatial_entities & geometry_entities:
             mapped_years.append(chapter_year)
         asset = chapter.get("asset", "")
         asset_usage[asset] += 1
@@ -166,7 +171,11 @@ def audit() -> dict:
         for item in (load(media_manifest).get("items", []) if media_manifest else [])
         if item.get("journeyEntity")
     }
-    licensed_media_years = [chapter["year"] for chapter in chapters if chapter.get("entity") in media_entities]
+    licensed_media_years = [
+        chapter["year"]
+        for chapter in chapters
+        if {chapter.get("entity"), journey_entities_by_year.get(chapter["year"])} & media_entities
+    ]
     report = {
         "version": "1.0.0",
         "status": "PASS" if not errors else "FAIL",

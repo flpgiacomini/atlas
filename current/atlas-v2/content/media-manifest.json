@@ -30,6 +30,21 @@
       "verifiedAt": "2026-08-24",
       "nature": "illustrative",
       "historicalDocument": false
+    },
+    {
+      "id": "atlas:media:porsche-901-frankfurt-editorial-hero",
+      "journeyEntity": "atlas:vehicle:porsche-911",
+      "file": "/assets/porsche-901-1963-editorial.png",
+      "mediaType": "illustration",
+      "author": "Projeto Atlas com geração assistida por IA",
+      "originalSource": "Produção editorial original do Atlas; não deriva de fotografia histórica específica",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração editorial original: Projeto Atlas, CC BY 4.0",
+      "alt": "Ilustração editorial de um cupê esportivo prateado inspirado no Porsche 901, apresentado sob luzes de um salão automotivo europeu de 1963.",
+      "verifiedAt": "2026-08-24",
+      "nature": "illustrative",
+      "historicalDocument": false
     }
   ]
 }
