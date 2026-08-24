@@ -1215,6 +1215,7 @@
 {
   "year": 1874,
   "entity": "atlas:vehicle:lobeissante",
+  "temporalContext": ["atlas:vehicle:lobeissante", "atlas:event:viagem-de-lobeissante-a-paris"],
   "label": "Preparar uma viagem pública",
   "eyebrow": "L’Obéissante entre construção e estrada",
   "title": "Capacidade precisa tornar-se alcance",
@@ -1315,6 +1316,7 @@
 {
   "year": 1887,
   "entity": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
+  "temporalContext": ["atlas:event:carl-benz-patent-application-for-gas-engine-motor-car", "atlas:vehicle:segundo-automovel-de-marcus"],
   "label": "Da patente à confiança pública",
   "eyebrow": "Primeiros usos",
   "title": "O veículo precisa deixar a oficina",
@@ -1348,6 +1350,7 @@
 {
   "year": 1890,
   "entity": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
+  "temporalContext": ["atlas:event:peugeot-type-1-shown-at-paris-world-fair", "atlas:event:parisrouen-reliability-trial-1894"],
   "label": "Da exposição à fabricação",
   "eyebrow": "Uma indústria em formação",
   "title": "Mostrar precisa tornar-se produzir",
@@ -1359,6 +1362,7 @@
 {
   "year": 1891,
   "entity": "atlas:event:benz-velo-enters-sales-range",
+  "temporalContext": ["atlas:event:peugeot-type-1-shown-at-paris-world-fair", "atlas:event:parisrouen-reliability-trial-1894"],
   "label": "O produto começa a tomar forma",
   "eyebrow": "Entre protótipo e catálogo",
   "title": "Repetir é mais difícil que inventar",
@@ -1370,6 +1374,7 @@
 {
   "year": 1892,
   "entity": "atlas:event:benz-velo-enters-sales-range",
+  "temporalContext": ["atlas:event:peugeot-type-1-shown-at-paris-world-fair", "atlas:event:parisrouen-reliability-trial-1894"],
   "label": "Mercado antes da escala",
   "eyebrow": "Compradores pioneiros",
   "title": "Cada venda cria infraestrutura",
@@ -1381,6 +1386,7 @@
 {
   "year": 1893,
   "entity": "atlas:event:benz-velo-enters-sales-range",
+  "temporalContext": ["atlas:event:peugeot-type-1-shown-at-paris-world-fair", "atlas:event:parisrouen-reliability-trial-1894"],
   "label": "Às vésperas do Velo",
   "eyebrow": "Automóvel comercial",
   "title": "Leveza prepara uma clientela maior",
@@ -1425,6 +1431,7 @@
 {
   "year": 1897,
   "entity": "atlas:event:first-drive-of-ford-quadricycle",
+  "temporalContext": ["atlas:event:first-drive-of-ford-quadricycle", "atlas:event:louis-renault-drives-type-a-up-rue-lepic"],
   "label": "Empreender após experimentar",
   "eyebrow": "Indústria norte-americana",
   "title": "Um protótipo procura capital",
@@ -1480,6 +1487,7 @@
 {
   "year": 1902,
   "entity": "atlas:event:oldsmobile-curved-dash-enters-large-scale-american-production",
+  "temporalContext": ["atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough", "atlas:event:ford-model-a-production-introduction"],
   "label": "A escala muda a oficina",
   "eyebrow": "Produção norte-americana",
   "title": "Mais carros exigem processos",
@@ -1513,6 +1521,7 @@
 {
   "year": 1905,
   "entity": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
+  "temporalContext": ["atlas:event:1904-vanderbilt-cup", "atlas:event:1906-grand-prix-de-l-a-c-f"],
   "label": "Reputação antes da marca",
   "eyebrow": "Rolls e Royce",
   "title": "Qualidade torna-se estratégia",
@@ -1557,6 +1566,7 @@
 {
   "year": 1909,
   "entity": "atlas:event:ford-model-t-first-customer-delivery",
+  "temporalContext": ["atlas:event:ford-model-t-first-customer-delivery", "atlas:event:model-t-production-moved-to-highland-park"],
   "label": "O Model T encontra seu mercado",
   "eyebrow": "Expansão comercial",
   "title": "Vender mais revela novos gargalos",
@@ -1579,6 +1589,7 @@
 {
   "year": 1911,
   "entity": "atlas:event:model-t-production-moved-to-highland-park",
+  "temporalContext": ["atlas:event:model-t-production-moved-to-highland-park", "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park"],
   "label": "Aprender dentro da fábrica",
   "eyebrow": "Highland Park",
   "title": "O volume expõe cada espera",
@@ -1590,6 +1601,7 @@
 {
   "year": 1912,
   "entity": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
+  "temporalContext": ["atlas:event:model-t-production-moved-to-highland-park", "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park"],
   "label": "Preparar o movimento",
   "eyebrow": "Antes da linha móvel",
   "title": "A montagem é decomposta em etapas",
@@ -1634,6 +1646,7 @@
 {
   "year": 1916,
   "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
+  "temporalContext": ["atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production", "atlas:event:citroen-type-a-expansion-1919-1925"],
   "label": "Mobilidade sob comando",
   "eyebrow": "Guerra industrial",
   "title": "Produção e circulação são administradas",
@@ -1645,6 +1658,7 @@
 {
   "year": 1917,
   "entity": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
+  "temporalContext": ["atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production", "atlas:event:citroen-type-a-expansion-1919-1925"],
   "label": "Escala sem normalidade",
   "eyebrow": "Logística de guerra",
   "title": "A indústria aprende sob escassez",
@@ -1656,6 +1670,7 @@
 {
   "year": 1918,
   "entity": "atlas:event:world-war-i-constrains-mercedes-28-95-hp-production",
+  "temporalContext": ["atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production", "atlas:event:citroen-type-a-expansion-1919-1925"],
   "label": "O fim da guerra não restaura o passado",
   "eyebrow": "Transição para a paz",
   "title": "A indústria precisa ser reconvertida",
@@ -1745,6 +1760,7 @@
 {
   "year": 1926,
   "entity": "atlas:event:end-of-ford-model-t-production",
+  "temporalContext": ["atlas:event:citroen-type-a-expansion-1919-1925", "atlas:event:end-of-ford-model-t-production"],
   "label": "O sucesso também envelhece",
   "eyebrow": "Model T no fim do ciclo",
   "title": "Padronização precisa aceitar mudança",
@@ -1767,6 +1783,7 @@
 {
   "year": 1928,
   "entity": "atlas:event:nurburgring-opening-weekend",
+  "temporalContext": ["atlas:event:end-of-ford-model-t-production", "atlas:event:citroen-traction-avant-presentation"],
   "label": "Circuitos aceleram o aprendizado",
   "eyebrow": "Nürburgring",
   "title": "A pista liga competição e desenvolvimento",
@@ -1778,6 +1795,7 @@
 {
   "year": 1929,
   "entity": "atlas:event:nurburgring-opening-weekend",
+  "temporalContext": ["atlas:event:end-of-ford-model-t-production", "atlas:event:citroen-traction-avant-presentation"],
   "label": "A expansão encontra a crise",
   "eyebrow": "Mercado e competição",
   "title": "O automóvel entra numa economia instável",
@@ -1789,6 +1807,7 @@
 {
   "year": 1930,
   "entity": "atlas:event:nurburgring-opening-weekend",
+  "temporalContext": ["atlas:event:end-of-ford-model-t-production", "atlas:event:citroen-traction-avant-presentation"],
   "label": "Engenharia sob pressão",
   "eyebrow": "Depois do choque",
   "title": "Eficiência deixa de ser opção",
@@ -1800,6 +1819,7 @@
 {
   "year": 1931,
   "entity": "atlas:event:nurburgring-opening-weekend",
+  "temporalContext": ["atlas:event:end-of-ford-model-t-production", "atlas:event:citroen-traction-avant-presentation"],
   "label": "Forma e função se aproximam",
   "eyebrow": "Design moderno",
   "title": "A carroceria começa a enfrentar o ar",
@@ -1811,6 +1831,7 @@
 {
   "year": 1932,
   "entity": "atlas:event:citroen-traction-avant-presentation",
+  "temporalContext": ["atlas:event:end-of-ford-model-t-production", "atlas:event:citroen-traction-avant-presentation"],
   "label": "Conforto vira engenharia",
   "eyebrow": "Motores e vibração",
   "title": "Isolar a mecânica muda a experiência",
@@ -1822,6 +1843,7 @@
 {
   "year": 1933,
   "entity": "atlas:event:citroen-traction-avant-presentation",
+  "temporalContext": ["atlas:event:end-of-ford-model-t-production", "atlas:event:citroen-traction-avant-presentation"],
   "label": "Preparar uma ruptura construtiva",
   "eyebrow": "Às vésperas da Traction",
   "title": "Chassi, tração e carroceria serão revistos juntos",
@@ -1888,6 +1910,7 @@
 {
   "year": 1939,
   "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
+  "temporalContext": ["atlas:event:toyota-industrial-foundation-1935-1939", "atlas:event:wartime-industrial-conversion-1940-1945"],
   "label": "A guerra interrompe outra expansão",
   "eyebrow": "Fim do entre-guerras",
   "title": "A indústria volta a servir ao conflito",
@@ -1899,6 +1922,7 @@
 {
   "year": 1940,
   "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "temporalContext": ["atlas:event:toyota-industrial-foundation-1935-1939", "atlas:event:wartime-industrial-conversion-1940-1945"],
   "label": "O automóvel entra na mobilização total",
   "eyebrow": "Indústria em guerra",
   "title": "Fábricas mudam de produto e propósito",
@@ -1910,6 +1934,7 @@
 {
   "year": 1941,
   "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
+  "temporalContext": ["atlas:event:toyota-industrial-foundation-1935-1939", "atlas:event:wartime-industrial-conversion-1940-1945"],
   "label": "A cadeia automotiva torna-se estratégica",
   "eyebrow": "Escala e logística",
   "title": "Motores, aço e linhas passam a servir outra mobilidade",
@@ -2009,6 +2034,7 @@
 {
   "year": 1950,
   "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
+  "temporalContext": ["atlas:event:civilian-reconstruction-1945-1949", "atlas:event:motorsport-technology-transfer-1951-1954"],
   "label": "A década começa entre demanda e reorganização",
   "eyebrow": "Mercados do pós-guerra",
   "title": "Produzir volta a significar competir",
@@ -2075,6 +2101,7 @@
 {
   "year": 1956,
   "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
+  "temporalContext": ["atlas:event:1955-innovation-and-consequence", "atlas:event:mass-mobility-and-safety-1956-1959"],
   "label": "O carro popular volta ao centro",
   "eyebrow": "Japão e Europa",
   "title": "A indústria busca caber na vida cotidiana",
@@ -2119,6 +2146,7 @@
 {
   "year": 1960,
   "entity": "atlas:event:design-performance-expansion-1960-1965",
+  "temporalContext": ["atlas:event:mass-mobility-and-safety-1956-1959", "atlas:event:design-performance-expansion-1960-1965"],
   "label": "A nova década quer forma e velocidade",
   "eyebrow": "Depois da reconstrução",
   "title": "O automóvel passa a expressar identidade",
@@ -2240,6 +2268,7 @@
 {
   "year": 1971,
   "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
+  "temporalContext": ["atlas:event:safety-regulation-and-innovation-1966-1970", "atlas:event:emissions-energy-and-compact-cars-1971-1976"],
   "label": "A indústria procura respostas para as emissões",
   "eyebrow": "Depois do Clean Air Act",
   "title": "Cada fabricante precisa escolher uma estratégia",
@@ -2328,6 +2357,7 @@
 {
   "year": 1979,
   "entity": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
+  "temporalContext": ["atlas:event:digital-safety-and-second-oil-shock-1977-1979", "atlas:event:traction-safety-and-global-production-1980-1984"],
   "label": "Outro choque confirma a mudança",
   "eyebrow": "Energia e indústria",
   "title": "Eficiência deixa de parecer uma resposta temporária",
@@ -2372,6 +2402,7 @@
 {
   "year": 1983,
   "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "temporalContext": ["atlas:event:traction-safety-and-global-production-1980-1984", "atlas:event:brands-localization-and-roadster-revival-1985-1989"],
   "label": "Eletrônica passa a coordenar mais funções",
   "eyebrow": "Automóvel como sistema",
   "title": "Controle já não cabe em componentes isolados",
@@ -2383,6 +2414,7 @@
 {
   "year": 1984,
   "entity": "atlas:event:traction-safety-and-global-production-1980-1984",
+  "temporalContext": ["atlas:event:traction-safety-and-global-production-1980-1984", "atlas:event:brands-localization-and-roadster-revival-1985-1989"],
   "label": "Performance e produção aprendem a distribuir controle",
   "eyebrow": "Quattro e fábricas globais",
   "title": "A vantagem nasce da coordenação",
