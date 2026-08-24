@@ -1,0 +1,49 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:fardier-preservation-1771-1800",
+  "type": "Event",
+  "name": "Abandono e preservação do fardier de Cugnot",
+  "aliases": ["Sobrevida material do fardier"],
+  "description": "Intervalo entre o abandono do projeto em 1771, a conservação do veículo no Arsenal e sua transferência ao Conservatoire des Arts et Métiers no fim do século XVIII.",
+  "claims": [
+    {
+      "id": "atlas:claim:fardier-project-abandoned-1771",
+      "type": "Claim",
+      "subject": "atlas:event:fardier-preservation-1771-1800",
+      "predicate": "began-on",
+      "object": {"type":"date","value":"1771","precision":"year"},
+      "sources": ["atlas:source:arts-et-metiers-fardier-cugnot-1770-1771"],
+      "evidence": ["atlas:evidence:arts-et-metiers-fardier-abandoned"],
+      "confidence": "high",
+      "validity": {"from":"1771","until":"1771","precision":"year"}
+    },
+    {
+      "id": "atlas:claim:fardier-entered-conservatoire-1799",
+      "type": "Claim",
+      "subject": "atlas:event:fardier-preservation-1771-1800",
+      "predicate": "ended-on",
+      "object": {"type":"date","value":"1799","precision":"year"},
+      "sources": ["atlas:source:arts-et-metiers-fardier-cugnot-1770-1771"],
+      "evidence": ["atlas:evidence:arts-et-metiers-fardier-preserved"],
+      "confidence": "high",
+      "validity": {"from":"1799","until":"1800","precision":"range"}
+    },
+    {
+      "id": "atlas:claim:fardier-preserved-vehicle-reference",
+      "type": "Claim",
+      "subject": "atlas:event:fardier-preservation-1771-1800",
+      "predicate": "involves",
+      "object": {"type":"EntityReference","id":"atlas:vehicle:fardier-a-vapeur-de-cugnot"},
+      "sources": ["atlas:source:arts-et-metiers-fardier-cugnot-1770-1771"],
+      "evidence": ["atlas:evidence:arts-et-metiers-fardier-preserved"],
+      "confidence": "high",
+      "validity": {"from":"1771","until":"1800","precision":"range"}
+    }
+  ],
+  "sources": [{"id":"atlas:source:arts-et-metiers-fardier-cugnot-1770-1771","type":"Source","title":"Fardier à vapeur","publisher":"Musée des Arts et Métiers — Cnam","url":"https://www.arts-et-metiers.net/musee/fardier-vapeur","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence": [
+    {"id":"atlas:evidence:arts-et-metiers-fardier-abandoned","type":"Evidence","source":"atlas:source:arts-et-metiers-fardier-cugnot-1770-1771","evidenceType":"collection-record","locator":{"section":"Historique","year":"1771"},"notes":"O museu registra o abandono do projeto em 1771."},
+    {"id":"atlas:evidence:arts-et-metiers-fardier-preserved","type":"Evidence","source":"atlas:source:arts-et-metiers-fardier-cugnot-1770-1771","evidenceType":"collection-record","locator":{"field":"Date d'entrée","value":"1799"},"notes":"O registro do objeto informa entrada em 1799; material institucional complementar descreve sua instalação no Conservatoire em 1800."}
+  ],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-02","region_cluster":"Europa 1769-1885"}
+}

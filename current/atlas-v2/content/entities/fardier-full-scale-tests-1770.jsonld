@@ -1,0 +1,35 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "id": "atlas:event:fardier-full-scale-tests-1770",
+  "type": "Event",
+  "name": "Ensaios do fardier em escala real",
+  "aliases": ["Ensaios de Vanves do fardier de Cugnot"],
+  "description": "Ensaios realizados em Vanves em 1770 com o segundo fardier de Cugnot, construído em escala real após os resultados do primeiro protótipo.",
+  "claims": [
+    {
+      "id": "atlas:claim:fardier-full-scale-tested-1770",
+      "type": "Claim",
+      "subject": "atlas:event:fardier-full-scale-tests-1770",
+      "predicate": "occurred-on",
+      "object": {"type":"date","value":"1770","precision":"year"},
+      "sources": ["atlas:source:arts-et-metiers-fardier-cugnot-1770-1771"],
+      "evidence": ["atlas:evidence:arts-et-metiers-fardier-full-scale-test"],
+      "confidence": "high",
+      "validity": {"from":"1770","until":"1770","precision":"year"}
+    },
+    {
+      "id": "atlas:claim:fardier-full-scale-vehicle-reference",
+      "type": "Claim",
+      "subject": "atlas:event:fardier-full-scale-tests-1770",
+      "predicate": "involves",
+      "object": {"type":"EntityReference","id":"atlas:vehicle:fardier-a-vapeur-de-cugnot"},
+      "sources": ["atlas:source:arts-et-metiers-fardier-cugnot-1770-1771"],
+      "evidence": ["atlas:evidence:arts-et-metiers-fardier-full-scale-test"],
+      "confidence": "high",
+      "validity": {"from":"1770","until":"1770","precision":"year"}
+    }
+  ],
+  "sources": [{"id":"atlas:source:arts-et-metiers-fardier-cugnot-1770-1771","type":"Source","title":"Fardier à vapeur","publisher":"Musée des Arts et Métiers — Cnam","url":"https://www.arts-et-metiers.net/musee/fardier-vapeur","trust":"institutional","verifiedAt":"2026-08-24"}],
+  "evidence": [{"id":"atlas:evidence:arts-et-metiers-fardier-full-scale-test","type":"Evidence","source":"atlas:source:arts-et-metiers-fardier-cugnot-1770-1771","evidenceType":"collection-record","locator":{"section":"Description historique"},"notes":"O registro data o objeto em 1770–1771, descreve o segundo fardier em escala real e o abandono do projeto em 1771."}],
+  "metadata": {"editorial_level":"editorial","editorial_batch":"V2-PRECURSOR-02","region_cluster":"Europa 1769-1885"}
+}
