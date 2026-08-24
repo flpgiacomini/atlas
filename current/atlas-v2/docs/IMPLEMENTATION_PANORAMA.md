@@ -12,7 +12,7 @@ os 920 registros da v1; 46 entidades editoriais adicionais foram incorporadas,
 com uma sobreposição de identidade resolvida no índice final.
 
 A cobertura anual ainda não equivale à completude histórica. A auditoria atual
-confirma 169 capítulos com suporte temporal canônico e aponta 89 para alinhamento
+confirma 205 capítulos com suporte temporal canônico e aponta 53 para alinhamento
 de claims. Os capítulos usam seis ativos visuais de apresentação, somente uma
 geometria temporal está publicada e não há manifesto licenciado de mídia por
 história. A v2 permanece paralela à v1 e não está autorizada para o corte.
@@ -21,10 +21,11 @@ história. A v2 permanece paralela à v1 e não está autorizada para o corte.
 
 - Anos com capítulo: 258/258.
 - Entidades no índice: 965 (443 editoriais e 522 catalográficas).
-- Entidades referenciadas pelos capítulos: 82.
-- Capítulos com claim no ano exato: 125/258.
-- Capítulos com claim no ano ou intervalo aplicável: 169/258.
-- Capítulos a alinhar temporalmente: 89/258.
+- Entidades referenciadas pelos capítulos: 88.
+- Capítulos com claim no ano exato: 133/258.
+- Capítulos com continuidade entre marcos documentados: 28/258.
+- Capítulos com suporte temporal total: 205/258.
+- Capítulos a alinhar temporalmente: 53/258.
 - Capítulos com arquivo visual existente: 258/258; ativos únicos: 6.
 - Capítulos ligados à geometria publicada: 1/258; inventário espacial pendente: 257.
 - Marcos de marcas: 46; relações corporativas temporais: 17.
@@ -60,7 +61,7 @@ Checkpoint de saída: cada entidade catalográfica com decisão versionada —
 aprofundar, manter como contexto, fundir ou retirar — e justificativa/fonte ao
 ser promovida.
 
-Próximo lote: entidades necessárias aos 89 gaps temporais e aos seis percursos.
+Próximo lote: entidades necessárias aos 53 gaps temporais e aos seis percursos.
 
 ## Fase 3 — Núcleo da experiência temporal
 
@@ -110,7 +111,7 @@ contínua. O capítulo de 2026 distingue fatos confirmados de projeções.
 Checkpoint de saída: 258/258 capítulos com afirmação recuperável no ano ou
 intervalo correspondente, conflitos preservados e sem extrapolação não marcada.
 
-Restante: resolver 89 gaps, aprofundar anos de baixa densidade e revisar a
+Restante: resolver 53 gaps, aprofundar anos de baixa densidade e revisar a
 correspondência narrativa–evidência bloco a bloco.
 
 ## Fase 7 — Mídia e direção visual
@@ -155,7 +156,7 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 
 ## Caminho crítico e checkpoints seguintes
 
-1. **CP15 — Evidência temporal:** fechar 89/89 gaps e alcançar 258/258.
+1. **CP15 — Evidência temporal:** fechar os 53 gaps restantes e alcançar 258/258.
 2. **CP16 — Seis percursos completos:** narrativa, mídia, geometria e modos.
 3. **CP17 — Inventário cartográfico:** classificar os 258 capítulos e fechar
    geometria para 100% do subconjunto espacial.

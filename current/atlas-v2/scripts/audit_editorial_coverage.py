@@ -71,6 +71,7 @@ def audit() -> dict:
     errors: list[str] = []
     exact_years: list[int] = []
     interval_years: list[int] = []
+    bracketed_continuity_years: list[int] = []
     temporal_gaps: list[dict] = []
     mapped_years: list[int] = []
     asset_usage: Counter[str] = Counter()
@@ -106,13 +107,22 @@ def audit() -> dict:
 
         exact = False
         interval = False
+        all_points: set[int] = set()
         for claim in claims:
             points, span = claim_years(claim)
+            all_points.update(points)
             exact = exact or chapter_year in points
             interval = interval or bool(span and span[0] <= chapter_year <= span[1])
+        bracketed_continuity = (
+            chapter.get("chapterKind") == "continuity"
+            and len(all_points) >= 2
+            and min(all_points) <= chapter_year <= max(all_points)
+        )
         if exact:
             exact_years.append(chapter_year)
-        if exact or interval:
+        if bracketed_continuity and not (exact or interval):
+            bracketed_continuity_years.append(chapter_year)
+        if exact or interval or bracketed_continuity:
             interval_years.append(chapter_year)
         else:
             temporal_gaps.append({"year": chapter_year, "entity": entity["id"]})
@@ -147,6 +157,7 @@ def audit() -> dict:
             "entitiesReferenced": len({item["entity"] for item in chapters}),
             "chaptersWithExactYearClaim": len(exact_years),
             "chaptersWithTemporalSupport": len(interval_years),
+            "chaptersWithBracketedContinuity": len(bracketed_continuity_years),
             "chaptersWithoutTemporalSupport": len(temporal_gaps),
             "chaptersWithMappedEntity": len(mapped_years),
             "geographyFeatures": geometry_features,
@@ -157,6 +168,7 @@ def audit() -> dict:
         },
         "coverage": {
             "exactYearClaimYears": exact_years,
+            "bracketedContinuityYears": bracketed_continuity_years,
             "temporalGapYears": temporal_gaps,
             "mappedYears": mapped_years,
             "assetUsage": dict(sorted(asset_usage.items())),
