@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Mercedes-Benz F 100 (1991), selecionado pelo Atlas por sua possível contribuição histórica em SEG, TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Veículo de pesquisa apresentado em Detroit em 1991 que reorganizou o habitáculo em torno da segurança e reuniu sistemas eletrônicos posteriormente associados à produção Mercedes-Benz.",
   "externalIds": [
     {
       "id": "995a33a6-40e3-7e15-911d-7067f24910a7",
@@ -26,10 +26,19 @@
       "TEC",
       "GEN"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-mercedes-benz-f-100",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "8086d9f2-dd89-7359-9b44-1d4a6aa7fb80"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Mercedes-Benz F 100",
   "names": [],

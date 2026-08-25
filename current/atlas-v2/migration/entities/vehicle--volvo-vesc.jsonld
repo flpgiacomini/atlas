@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Volvo VESC (1972), selecionado pelo Atlas por sua possível contribuição histórica em SEG, TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Experimental Safety Car de 1972 que reuniu soluções de proteção, visibilidade e emissões. A Volvo o identifica como precursor direto do programa de segurança materializado no 240.",
   "externalIds": [
     {
       "id": "2146a4bf-ebc8-7000-81a0-9d51c3f92def",
@@ -26,10 +26,19 @@
       "TEC",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-volvo-vesc",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "775c6b03-55bb-7e0d-b093-9f31217e58c1"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Volvo VESC",
   "names": [],

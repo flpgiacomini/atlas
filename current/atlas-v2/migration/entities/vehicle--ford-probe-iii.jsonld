@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Ford Probe III (1981), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Conceito europeu de 1981 mantido no catálogo. A revisão não localizou no arquivo institucional consultado uma ficha individual capaz de sustentar, sem fonte secundária, a influência historicamente atribuída ao Sierra.",
   "externalIds": [
     {
       "id": "d04d71c4-e53a-73c2-ad75-1da2834d3b59",
@@ -26,10 +26,19 @@
       "TEC",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "retain-catalog",
+    "curation_review": "atlas:curation-review:c04-ford-probe-iii",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "91f093b3-dc91-79d9-825f-3f8fee3dc837"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "retained_catalog_after_review",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Ford Probe III",
   "names": [],

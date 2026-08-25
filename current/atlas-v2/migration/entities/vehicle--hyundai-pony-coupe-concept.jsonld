@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Hyundai Pony Coupe Concept (1974), selecionado pelo Atlas por sua possível contribuição histórica em DES, GEO, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Conceito desenhado por Giorgetto Giugiaro e apresentado em Turim em 1974. Documenta a formação de uma linguagem própria para o primeiro programa automotivo independente da Hyundai e sua recuperação posterior pela marca.",
   "externalIds": [
     {
       "id": "157c85f1-8753-7a76-b28b-68e15f15000e",
@@ -26,10 +26,19 @@
       "GEO",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-hyundai-pony-coupe-concept",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "fa883e6d-251f-716b-bb9b-b815e2b1ef22"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Hyundai Pony Coupe Concept",
   "names": [],

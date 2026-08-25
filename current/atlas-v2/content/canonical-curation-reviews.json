@@ -7,10 +7,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Protótipo único relevante como programa de engenharia e como demonstração tardia, verificável, da meta original de desempenho.",
-      "sourceIds": ["atlas:source:aston-martin-heritage-trust-bulldog-200"],
+      "sourceIds": [
+        "atlas:source:aston-martin-heritage-trust-bulldog-200"
+      ],
       "assertions": [
-        {"locator": "linhas 65–67", "text": "O Bulldog foi concebido como automóvel rodoviário, construído entre 1978 e 1980 e atingiu 191 mph nos ensaios de época."},
-        {"locator": "linhas 68–76", "text": "Após restauração, o protótipo registrou 205,4 mph em 2023; a fonte ressalva que isso não constitui recorde de automóvel de produção."}
+        {
+          "locator": "linhas 65–67",
+          "text": "O Bulldog foi concebido como automóvel rodoviário, construído entre 1978 e 1980 e atingiu 191 mph nos ensaios de época."
+        },
+        {
+          "locator": "linhas 68–76",
+          "text": "Após restauração, o protótipo registrou 205,4 mph em 2023; a fonte ressalva que isso não constitui recorde de automóvel de produção."
+        }
       ]
     },
     {
@@ -19,10 +27,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Programa de uso público raro e bem documentado que conecta experimentação de propulsão, design e avaliação por consumidores.",
-      "sourceIds": ["atlas:source:smithsonian-national-museum-of-american-history-1964-chrysler-turbine-car"],
+      "sourceIds": [
+        "atlas:source:smithsonian-national-museum-of-american-history-1964-chrysler-turbine-car"
+      ],
       "assertions": [
-        {"locator": "descrição do objeto", "text": "A Chrysler montou 50 automóveis com turbina em 1963–1964 para testes com consumidores; as carrocerias foram feitas pela Ghia em Turim."},
-        {"locator": "descrição do objeto", "text": "Suavidade e simplicidade foram contrapostas a baixa eficiência, emissões elevadas e atraso de resposta, impedindo a produção em massa."}
+        {
+          "locator": "descrição do objeto",
+          "text": "A Chrysler montou 50 automóveis com turbina em 1963–1964 para testes com consumidores; as carrocerias foram feitas pela Ghia em Turim."
+        },
+        {
+          "locator": "descrição do objeto",
+          "text": "Suavidade e simplicidade foram contrapostas a baixa eficiência, emissões elevadas e atraso de resposta, impedindo a produção em massa."
+        }
       ]
     },
     {
@@ -31,10 +47,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Caso verificável de coachbuilding contemporâneo que liga encomenda individual, engenharia especial e memória dos protótipos Ferrari P.",
-      "sourceIds": ["atlas:source:paolo-garella-passion-for-speed-ferrari-p4-5-by-pininfarina"],
+      "sourceIds": [
+        "atlas:source:paolo-garella-passion-for-speed-ferrari-p4-5-by-pininfarina"
+      ],
       "assertions": [
-        {"locator": "página 2", "text": "James Glickenhaus encomendou à Pininfarina em 2005 um one-off em homenagem aos automóveis de endurance da série Ferrari P."},
-        {"locator": "página 2", "text": "Mais de 200 componentes foram desenvolvidos especificamente e a carroceria foi construída integralmente em carbono."}
+        {
+          "locator": "página 2",
+          "text": "James Glickenhaus encomendou à Pininfarina em 2005 um one-off em homenagem aos automóveis de endurance da série Ferrari P."
+        },
+        {
+          "locator": "página 2",
+          "text": "Mais de 200 componentes foram desenvolvidos especificamente e a carroceria foi construída integralmente em carbono."
+        }
       ]
     },
     {
@@ -43,10 +67,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Demonstração técnica singular na relação entre fornecedor de pneus, fabricante de luxo, ensaio de alta velocidade e comunicação industrial.",
-      "sourceIds": ["atlas:source:fulda-fulda-history"],
+      "sourceIds": [
+        "atlas:source:fulda-fulda-history"
+      ],
       "assertions": [
-        {"locator": "seção 2000s", "text": "O Exelero foi construído como embaixador do pneu Fulda Carat Exelero e retomou a parceria de projeto com a Maybach."},
-        {"locator": "seção 2000s", "text": "A Fulda registra mais de 700 cv e 351,45 km/h alcançados em 1º de maio de 2005."}
+        {
+          "locator": "seção 2000s",
+          "text": "O Exelero foi construído como embaixador do pneu Fulda Carat Exelero e retomou a parceria de projeto com a Maybach."
+        },
+        {
+          "locator": "seção 2000s",
+          "text": "A Fulda registra mais de 700 cv e 351,45 km/h alcançados em 1º de maio de 2005."
+        }
       ]
     },
     {
@@ -55,10 +87,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Programa experimental central para compreender pesquisa de materiais, motor rotativo, aerodinâmica, diesel e recordes na Mercedes-Benz.",
-      "sourceIds": ["atlas:source:mercedes-benz-classic-50-jahre-markenlegende-c-111"],
+      "sourceIds": [
+        "atlas:source:mercedes-benz-classic-50-jahre-markenlegende-c-111"
+      ],
       "assertions": [
-        {"locator": "seção C 111 de 1969", "text": "A Mercedes-Benz apresentou o C 111 na IAA de Frankfurt de 1969 com carroceria de plástico reforçado e motor Wankel de três rotores."},
-        {"locator": "histórico do programa", "text": "O veículo permaneceu experimental e sua base deu origem a variantes diesel e a automóveis de recorde posteriores."}
+        {
+          "locator": "seção C 111 de 1969",
+          "text": "A Mercedes-Benz apresentou o C 111 na IAA de Frankfurt de 1969 com carroceria de plástico reforçado e motor Wankel de três rotores."
+        },
+        {
+          "locator": "histórico do programa",
+          "text": "O veículo permaneceu experimental e sua base deu origem a variantes diesel e a automóveis de recorde posteriores."
+        }
       ]
     },
     {
@@ -67,10 +107,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Demonstrador tecnicamente consequente da arquitetura W12 e plataforma de recordes de longa duração, não apenas exercício estilístico.",
-      "sourceIds": ["atlas:source:volkswagen-classic-mission-maximum-records-and-superlatives-from-the-world-of-volkswagen"],
+      "sourceIds": [
+        "atlas:source:volkswagen-classic-mission-maximum-records-and-superlatives-from-the-world-of-volkswagen"
+      ],
       "assertions": [
-        {"locator": "páginas 20–24", "text": "O W12 Nardò empregava motor W de 5.998 cm³ e 600 PS em um programa dedicado a recordes de alta velocidade."},
-        {"locator": "páginas 20–24", "text": "A segunda campanha registrou média de 322,891 km/h em 24 horas e ampliou a série de recordes internacionais."}
+        {
+          "locator": "páginas 20–24",
+          "text": "O W12 Nardò empregava motor W de 5.998 cm³ e 600 PS em um programa dedicado a recordes de alta velocidade."
+        },
+        {
+          "locator": "páginas 20–24",
+          "text": "A segunda campanha registrou média de 322,891 km/h em 24 horas e ampliou a série de recordes internacionais."
+        }
       ]
     },
     {
@@ -79,10 +127,18 @@
       "decision": "retain-catalog",
       "reviewedAt": "2026-08-25",
       "rationale": "O exemplar e sua autoria estão documentados institucionalmente, mas a fonte localizada não demonstra transferência técnica ou influência histórica suficiente para promoção editorial.",
-      "sourceIds": ["atlas:source:national-automobile-museum-vehicle-inventory-1938-phantom-corsair-experimental"],
+      "sourceIds": [
+        "atlas:source:national-automobile-museum-vehicle-inventory-1938-phantom-corsair-experimental"
+      ],
       "assertions": [
-        {"locator": "Vehicle Inventory", "text": "O National Automobile Museum identifica o objeto como 1938 Phantom Corsair Experimental, cupê de seis passageiros."},
-        {"locator": "Vehicle Inventory", "text": "O inventário associa o automóvel a Bohman & Schwartz e Heinz, mas não documenta impacto técnico posterior."}
+        {
+          "locator": "Vehicle Inventory",
+          "text": "O National Automobile Museum identifica o objeto como 1938 Phantom Corsair Experimental, cupê de seis passageiros."
+        },
+        {
+          "locator": "Vehicle Inventory",
+          "text": "O inventário associa o automóvel a Bohman & Schwartz e Heinz, mas não documenta impacto técnico posterior."
+        }
       ]
     },
     {
@@ -91,10 +147,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Experimento aerodinâmico documentado pela instituição sucessora da AVA, relevante para narrar eficiência, forma veicular e os limites de estabilidade lateral.",
-      "sourceIds": ["atlas:source:german-aerospace-center-dlr-getting-the-gottingen-egg-rolling"],
+      "sourceIds": [
+        "atlas:source:german-aerospace-center-dlr-getting-the-gottingen-egg-rolling"
+      ],
       "assertions": [
-        {"locator": "Getting the Göttingen Egg rolling", "text": "A AVA encarregou Karl Schlör e Ludewig do protótipo, transferido ao instituto no fim de 1938."},
-        {"locator": "Getting the Göttingen Egg rolling", "text": "O modelo em escala integral registrou coeficiente aerodinâmico 0,186, enquanto a suscetibilidade a vento lateral permaneceu uma limitação importante."}
+        {
+          "locator": "Getting the Göttingen Egg rolling",
+          "text": "A AVA encarregou Karl Schlör e Ludewig do protótipo, transferido ao instituto no fim de 1938."
+        },
+        {
+          "locator": "Getting the Göttingen Egg rolling",
+          "text": "O modelo em escala integral registrou coeficiente aerodinâmico 0,186, enquanto a suscetibilidade a vento lateral permaneceu uma limitação importante."
+        }
       ]
     },
     {
@@ -103,10 +167,18 @@
       "decision": "retain-catalog",
       "reviewedAt": "2026-08-25",
       "rationale": "A fonte museológica confirma autoria e natureza do one-off, porém data o automóvel em 1947, em conflito com o registro legado de 1948; a promoção aguarda resolução documental explícita.",
-      "sourceIds": ["atlas:source:newfields-indianapolis-museum-of-art-newfields-annual-report-20142015-dream-cars"],
+      "sourceIds": [
+        "atlas:source:newfields-indianapolis-museum-of-art-newfields-annual-report-20142015-dream-cars"
+      ],
       "assertions": [
-        {"locator": "Dream Cars", "text": "O relatório Newfields identifica o Norman Timbs Special como automóvel de 1947 projetado e construído por Timbs para uso pessoal."},
-        {"locator": "registro legado Atlas", "text": "O candidato legado registra 1948; a divergência de data foi preservada, sem escolha silenciosa."}
+        {
+          "locator": "Dream Cars",
+          "text": "O relatório Newfields identifica o Norman Timbs Special como automóvel de 1947 projetado e construído por Timbs para uso pessoal."
+        },
+        {
+          "locator": "registro legado Atlas",
+          "text": "O candidato legado registra 1948; a divergência de data foi preservada, sem escolha silenciosa."
+        }
       ]
     },
     {
@@ -115,10 +187,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "One-off de competição com arquitetura assimétrica e cadeia autoral bem documentadas, capaz de sustentar narrativa sobre experimentação nas 24 Horas de Le Mans.",
-      "sourceIds": ["atlas:source:museo-nazionale-scienza-e-tecnologia-leonardo-da-vinci-bisiluro-damolnar-1955"],
+      "sourceIds": [
+        "atlas:source:museo-nazionale-scienza-e-tecnologia-leonardo-da-vinci-bisiluro-damolnar-1955"
+      ],
       "assertions": [
-        {"locator": "BISILURO DaMolNar 1955", "text": "Mario Damonte, Carlo Mollino e Enrico Nardi conceberam o Bisiluro para as 24 Horas de Le Mans de 1955."},
-        {"locator": "BISILURO DaMolNar 1955", "text": "A carroceria de dois volumes foi executada por Motto, com motor Giannini de 734 cm³; o veículo foi doado ao museu em 1965."}
+        {
+          "locator": "BISILURO DaMolNar 1955",
+          "text": "Mario Damonte, Carlo Mollino e Enrico Nardi conceberam o Bisiluro para as 24 Horas de Le Mans de 1955."
+        },
+        {
+          "locator": "BISILURO DaMolNar 1955",
+          "text": "A carroceria de dois volumes foi executada por Motto, com motor Giannini de 734 cm³; o veículo foi doado ao museu em 1965."
+        }
       ]
     },
     {
@@ -127,10 +207,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Plataforma demonstradora relevante para a história de interfaces eletrônicas, sensores e pneus translúcidos iluminados, descrita sem anacronismo como autonomia moderna.",
-      "sourceIds": ["atlas:source:goodyear-world-premiere-of-restored-golden-sahara-ii"],
+      "sourceIds": [
+        "atlas:source:goodyear-world-premiere-of-restored-golden-sahara-ii"
+      ],
       "assertions": [
-        {"locator": "World premiere of restored Golden Sahara II", "text": "Jim Street e George Barris desenvolveram o Golden Sahara II como plataforma de sistemas eletrônicos, com comandos inspirados em aeronaves."},
-        {"locator": "World premiere of restored Golden Sahara II", "text": "A Goodyear documenta pneus translúcidos iluminados e frenagem automática acionada por sensores, além da restauração apresentada em 2019."}
+        {
+          "locator": "World premiere of restored Golden Sahara II",
+          "text": "Jim Street e George Barris desenvolveram o Golden Sahara II como plataforma de sistemas eletrônicos, com comandos inspirados em aeronaves."
+        },
+        {
+          "locator": "World premiere of restored Golden Sahara II",
+          "text": "A Goodyear documenta pneus translúcidos iluminados e frenagem automática acionada por sensores, além da restauração apresentada em 2019."
+        }
       ]
     },
     {
@@ -139,10 +227,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "A ligação explicitamente documentada com o Espada demonstra consequência em um modelo de produção e supera o valor meramente expositivo do protótipo.",
-      "sourceIds": ["atlas:source:automobili-lamborghini-lamborghini-history-espada"],
+      "sourceIds": [
+        "atlas:source:automobili-lamborghini-lamborghini-history-espada"
+      ],
       "assertions": [
-        {"locator": "Lamborghini History — Espada", "text": "A Lamborghini registra que o Espada derivou do protótipo Marzal apresentado em 1967."},
-        {"locator": "Lamborghini History — Espada", "text": "A derivação fornece uma conexão recuperável entre o estudo de quatro lugares e o gran turismo levado à produção."}
+        {
+          "locator": "Lamborghini History — Espada",
+          "text": "A Lamborghini registra que o Espada derivou do protótipo Marzal apresentado em 1967."
+        },
+        {
+          "locator": "Lamborghini History — Espada",
+          "text": "A derivação fornece uma conexão recuperável entre o estudo de quatro lugares e o gran turismo levado à produção."
+        }
       ]
     },
     {
@@ -151,10 +247,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Marco documentado da transição para a forma em cunha e para portas de abertura vertical, sustentado pelo arquivo histórico da própria fabricante.",
-      "sourceIds": ["atlas:source:fca-heritage-stellantis-the-carabo-concept-car-on-parade-at-chantilly-arts-elegance"],
+      "sourceIds": [
+        "atlas:source:fca-heritage-stellantis-the-carabo-concept-car-on-parade-at-chantilly-arts-elegance"
+      ],
       "assertions": [
-        {"locator": "The Carabo concept car on parade", "text": "Marcello Gandini desenhou o Carabo para a Bertone sobre o chassi do Alfa Romeo 33 Stradale, com estreia em Paris em 1968."},
-        {"locator": "The Carabo concept car on parade", "text": "A fonte descreve a cunha extrema, 99 centímetros de altura e portas verticais com comando hidropneumático."}
+        {
+          "locator": "The Carabo concept car on parade",
+          "text": "Marcello Gandini desenhou o Carabo para a Bertone sobre o chassi do Alfa Romeo 33 Stradale, com estreia em Paris em 1968."
+        },
+        {
+          "locator": "The Carabo concept car on parade",
+          "text": "A fonte descreve a cunha extrema, 99 centímetros de altura e portas verticais com comando hidropneumático."
+        }
       ]
     },
     {
@@ -163,10 +267,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Documento museológico situa o RD-001 como evidência da formação de capacidade australiana própria de pesquisa, design e engenharia automotiva.",
-      "sourceIds": ["atlas:source:national-gallery-of-victoria-ngv-magazine-julaug-2022-holden-hurricane"],
+      "sourceIds": [
+        "atlas:source:national-gallery-of-victoria-ngv-magazine-julaug-2022-holden-hurricane"
+      ],
       "assertions": [
-        {"locator": "NGV Magazine, páginas 18–19", "text": "O Hurricane foi o primeiro concept car projetado e produzido pelo departamento de P&D da Holden em cooperação com o Advanced Styling Group."},
-        {"locator": "NGV Magazine, páginas 18–19", "text": "O RD-001 saiu do centro técnico de Fishermans Bend em 4 de março de 1969 e não foi concebido para produção comercial."}
+        {
+          "locator": "NGV Magazine, páginas 18–19",
+          "text": "O Hurricane foi o primeiro concept car projetado e produzido pelo departamento de P&D da Holden em cooperação com o Advanced Styling Group."
+        },
+        {
+          "locator": "NGV Magazine, páginas 18–19",
+          "text": "O RD-001 saiu do centro técnico de Fishermans Bend em 4 de março de 1969 e não foi concebido para produção comercial."
+        }
       ]
     },
     {
@@ -175,10 +287,18 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "A fonte da Lancia demonstra continuidade direta entre o protótipo radical de 1970 e o Stratos posterior, com consequência em competição e linguagem de marca.",
-      "sourceIds": ["atlas:source:lancia-stellantis-the-journey-towards-the-lancia-design-day-brutal-design"],
+      "sourceIds": [
+        "atlas:source:lancia-stellantis-the-journey-towards-the-lancia-design-day-brutal-design"
+      ],
       "assertions": [
-        {"locator": "The journey towards the Lancia Design Day", "text": "O Stratos Zero de 1970 foi construído pela Bertone a partir de desenho de Marcello Gandini."},
-        {"locator": "The journey towards the Lancia Design Day", "text": "A Lancia identifica o protótipo como inspiração do Stratos apresentado em 1971."}
+        {
+          "locator": "The journey towards the Lancia Design Day",
+          "text": "O Stratos Zero de 1970 foi construído pela Bertone a partir de desenho de Marcello Gandini."
+        },
+        {
+          "locator": "The journey towards the Lancia Design Day",
+          "text": "A Lancia identifica o protótipo como inspiração do Stratos apresentado em 1971."
+        }
       ]
     },
     {
@@ -187,10 +307,498 @@
       "decision": "promote-editorial",
       "reviewedAt": "2026-08-25",
       "rationale": "Experimento operacional de Giugiaro e Italdesign que documenta a passagem da maquete de salão à execução funcional sobre base Maserati Bora.",
-      "sourceIds": ["atlas:source:maserati-stellantis-maserati-boomerang-turns-50"],
+      "sourceIds": [
+        "atlas:source:maserati-stellantis-maserati-boomerang-turns-50"
+      ],
       "assertions": [
-        {"locator": "Maserati Boomerang turns 50", "text": "Uma maquete apareceu em Turim em 1971 e o automóvel funcional e registrável estreou em Genebra em 1972."},
-        {"locator": "Maserati Boomerang turns 50", "text": "O exemplar único foi criado por Giorgetto Giugiaro, produzido pela Italdesign e utilizou chassi e mecânica completos do Maserati Bora."}
+        {
+          "locator": "Maserati Boomerang turns 50",
+          "text": "Uma maquete apareceu em Turim em 1971 e o automóvel funcional e registrável estreou em Genebra em 1972."
+        },
+        {
+          "locator": "Maserati Boomerang turns 50",
+          "text": "O exemplar único foi criado por Giorgetto Giugiaro, produzido pela Italdesign e utilizou chassi e mecânica completos do Maserati Bora."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-bmw-turbo",
+      "candidateId": "atlas:vehicle:bmw-turbo",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:bmw-group-bmw-design-concept-cars"
+      ],
+      "assertions": [
+        {
+          "locator": "BMW Design concept cars",
+          "text": "Primeiro concept car da BMW, apresentado em 1972 como laboratório de segurança, aerodinâmica e ergonomia para um esportivo. Sua relevância editorial está na transferência declarada de soluções para modelos posteriores."
+        },
+        {
+          "locator": "BMW Design concept cars",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-volvo-vesc",
+      "candidateId": "atlas:vehicle:volvo-vesc",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:volvo-cars-volvo-experimental-safety-car-vesc-1972"
+      ],
+      "assertions": [
+        {
+          "locator": "Volvo Experimental Safety Car (VESC), 1972",
+          "text": "Experimental Safety Car de 1972 que reuniu soluções de proteção, visibilidade e emissões. A Volvo o identifica como precursor direto do programa de segurança materializado no 240."
+        },
+        {
+          "locator": "Volvo Experimental Safety Car (VESC), 1972",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-hyundai-pony-coupe-concept",
+      "candidateId": "atlas:vehicle:hyundai-pony-coupe-concept",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:hyundai-motor-company-hyundai-motor-and-giorgetto-giugiaro-collaborate-to-rebuild-original-1974-pony-coupe-concept"
+      ],
+      "assertions": [
+        {
+          "locator": "Hyundai Motor and Giorgetto Giugiaro collaborate to rebuild original 1974 Pony Coupe Concept",
+          "text": "Conceito desenhado por Giorgetto Giugiaro e apresentado em Turim em 1974. Documenta a formação de uma linguagem própria para o primeiro programa automotivo independente da Hyundai e sua recuperação posterior pela marca."
+        },
+        {
+          "locator": "Hyundai Motor and Giorgetto Giugiaro collaborate to rebuild original 1974 Pony Coupe Concept",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-italdesign-megagamma",
+      "candidateId": "atlas:vehicle:italdesign-megagamma",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:italdesign-megagamma"
+      ],
+      "assertions": [
+        {
+          "locator": "Megagamma",
+          "text": "Estudo de 1978 sobre base Lancia Gamma que reorganizou altura, espaço interno e embalagem mecânica em um monovolume compacto concebido como proposta industrial realizável."
+        },
+        {
+          "locator": "Megagamma",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-ford-probe-iii",
+      "candidateId": "atlas:vehicle:ford-probe-iii",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A identidade permanece pesquisável, mas a fonte institucional consultada não oferece evidência individual suficiente para promoção editorial.",
+      "sourceIds": [
+        "atlas:source:ford-motor-company-ford-heritage-vault"
+      ],
+      "assertions": [
+        {
+          "locator": "Ford Heritage Vault",
+          "text": "Conceito europeu de 1981 mantido no catálogo. A revisão não localizou no arquivo institucional consultado uma ficha individual capaz de sustentar, sem fonte secundária, a influência historicamente atribuída ao Sierra."
+        },
+        {
+          "locator": "Ford Heritage Vault",
+          "text": "A ausência de demonstração individual impede inferir transferência tecnológica, derivação ou influência posterior."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-peugeot-quasar",
+      "candidateId": "atlas:vehicle:peugeot-quasar",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:peugeot-stellantis-1984-peugeot-lancia-la-205-e-sogna-con-la-quasar"
+      ],
+      "assertions": [
+        {
+          "locator": "1984: Peugeot, Lancia, la 205 e sogna con la Quasar",
+          "text": "Primeiro grande concept car da Peugeot, revelado em 1984 como demonstração conjunta de desenho, eletrônica embarcada e mecânica derivada da competição."
+        },
+        {
+          "locator": "1984: Peugeot, Lancia, la 205 e sogna con la Quasar",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-nissan-mid4",
+      "candidateId": "atlas:vehicle:nissan-mid4",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:nissan-motor-corporation-nissan-mid4-type-ii"
+      ],
+      "assertions": [
+        {
+          "locator": "Nissan MID4 Type II",
+          "text": "Programa experimental iniciado em 1985 para motor central e tração integral. O arquivo Nissan registra a transferência de tecnologias desenvolvidas no MID4 para o 300ZX Z32 e o Skyline GT-R R32."
+        },
+        {
+          "locator": "Nissan MID4 Type II",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-peugeot-proxima",
+      "candidateId": "atlas:vehicle:peugeot-proxima",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A identidade permanece pesquisável, mas a fonte institucional consultada não oferece evidência individual suficiente para promoção editorial.",
+      "sourceIds": [
+        "atlas:source:l-aventure-peugeot-citroen-ds-the-collection-of-l-aventure-peugeot"
+      ],
+      "assertions": [
+        {
+          "locator": "The collection of L'Aventure Peugeot",
+          "text": "Conceito de 1986 preservado no catálogo. A coleção institucional confirma a preservação do patrimônio conceitual, mas a revisão não encontrou uma ficha individual suficiente para demonstrar consequência histórica específica."
+        },
+        {
+          "locator": "The collection of L'Aventure Peugeot",
+          "text": "A ausência de demonstração individual impede inferir transferência tecnológica, derivação ou influência posterior."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-peugeot-oxia",
+      "candidateId": "atlas:vehicle:peugeot-oxia",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A identidade permanece pesquisável, mas a fonte institucional consultada não oferece evidência individual suficiente para promoção editorial.",
+      "sourceIds": [
+        "atlas:source:l-aventure-peugeot-citroen-ds-the-collection-of-l-aventure-peugeot"
+      ],
+      "assertions": [
+        {
+          "locator": "The collection of L'Aventure Peugeot",
+          "text": "Conceito de 1988 preservado no catálogo. Sem uma ficha institucional individual que documente transferência, adoção ou linhagem posterior, a notoriedade do exemplar não basta para promoção editorial."
+        },
+        {
+          "locator": "The collection of L'Aventure Peugeot",
+          "text": "A ausência de demonstração individual impede inferir transferência tecnológica, derivação ou influência posterior."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-porsche-989",
+      "candidateId": "atlas:vehicle:porsche-989",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:porsche-newsroom-four-wins-sports-car-with-four-seats"
+      ],
+      "assertions": [
+        {
+          "locator": "Four wins – sports car with four seats",
+          "text": "Protótipo de sedã esportivo de quatro portas desenvolvido a partir de 1988 e cancelado por razões econômicas. O arquivo Porsche o situa na genealogia de estudos que antecederam o Panamera."
+        },
+        {
+          "locator": "Four wins – sports car with four seats",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-gm-impact",
+      "candidateId": "atlas:vehicle:gm-impact",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:general-motors-heritage-collection-1990-impact-experimental"
+      ],
+      "assertions": [
+        {
+          "locator": "1990 Impact Experimental",
+          "text": "Demonstrador elétrico apresentado em 1990 cuja tecnologia e resposta pública deram origem ao programa de produção GM EV1."
+        },
+        {
+          "locator": "1990 Impact Experimental",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c04-audi-avus-quattro",
+      "candidateId": "atlas:vehicle:audi-avus-quattro",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:audi-mediacenter-audi-anniversary-dates-2021"
+      ],
+      "assertions": [
+        {
+          "locator": "Audi anniversary dates 2021",
+          "text": "Superesportivo conceitual apresentado em Tóquio em 1991 para demonstrar a construção leve em alumínio e uma arquitetura W12, consolidando publicamente tecnologias centrais da Audi dos anos 1990."
+        },
+        {
+          "locator": "Audi anniversary dates 2021",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-bmw-e1",
+      "candidateId": "atlas:vehicle:bmw-e1",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:bmw-group-80-years-of-bmw-car-production-the-origins-of-efficientdynamics"
+      ],
+      "assertions": [
+        {
+          "locator": "80 years of BMW car production: the origins of EfficientDynamics",
+          "text": "Automóvel elétrico experimental apresentado em 1991 que combinou propulsão sem emissões locais, baixo peso e materiais recicláveis como programa integrado de eficiência."
+        },
+        {
+          "locator": "80 years of BMW car production: the origins of EfficientDynamics",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-mercedes-benz-f-100",
+      "candidateId": "atlas:vehicle:mercedes-benz-f-100",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:mercedes-benz-public-archive-1991-f-100-research-vehicle"
+      ],
+      "assertions": [
+        {
+          "locator": "1991: F 100 research vehicle",
+          "text": "Veículo de pesquisa apresentado em Detroit em 1991 que reorganizou o habitáculo em torno da segurança e reuniu sistemas eletrônicos posteriormente associados à produção Mercedes-Benz."
+        },
+        {
+          "locator": "1991: F 100 research vehicle",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-renault-scénic-concept",
+      "candidateId": "atlas:vehicle:renault-scenic-concept",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:renault-group-renault-and-family-cars-50-years-of-history-since-the-renault-16"
+      ],
+      "assertions": [
+        {
+          "locator": "Renault and family cars: 50 years of history since the Renault 16",
+          "text": "Conceito familiar apresentado em 1991 cuja organização espacial e denominação foram levadas ao Scénic de produção em 1996, marco do monovolume compacto europeu."
+        },
+        {
+          "locator": "Renault and family cars: 50 years of history since the Renault 16",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-chrysler-atlantic",
+      "candidateId": "atlas:vehicle:chrysler-atlantic",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A identidade permanece pesquisável, mas a fonte institucional consultada não oferece evidência individual suficiente para promoção editorial.",
+      "sourceIds": [
+        "atlas:source:stellantis-north-america-chrysler-heritage"
+      ],
+      "assertions": [
+        {
+          "locator": "Chrysler heritage",
+          "text": "Show car de 1995 preservado no catálogo. A revisão não encontrou no acervo institucional consultado uma ficha individual que demonstre transferência tecnológica ou derivação de produção."
+        },
+        {
+          "locator": "Chrysler heritage",
+          "text": "A ausência de demonstração individual impede inferir transferência tecnológica, derivação ou influência posterior."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-ford-gt90",
+      "candidateId": "atlas:vehicle:ford-gt90",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A identidade permanece pesquisável, mas a fonte institucional consultada não oferece evidência individual suficiente para promoção editorial.",
+      "sourceIds": [
+        "atlas:source:ford-motor-company-ford-heritage-vault"
+      ],
+      "assertions": [
+        {
+          "locator": "Ford Heritage Vault",
+          "text": "Superesportivo conceitual de 1995 mantido no catálogo. A notoriedade e a experimentação formal não substituem uma fonte institucional individual que comprove consequência histórica posterior."
+        },
+        {
+          "locator": "Ford Heritage Vault",
+          "text": "A ausência de demonstração individual impede inferir transferência tecnológica, derivação ou influência posterior."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-toyota-prius-concept",
+      "candidateId": "atlas:vehicle:toyota-prius-concept",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:toyota-motor-corporation-prius-concept-evolution"
+      ],
+      "assertions": [
+        {
+          "locator": "Prius Concept – evolution",
+          "text": "Conceito híbrido apresentado em 1995 como precursor direto do Prius lançado em 1997, documentando a passagem de um programa experimental à produção em série."
+        },
+        {
+          "locator": "Prius Concept – evolution",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-audi-al2",
+      "candidateId": "atlas:vehicle:audi-al2",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:audi-mediacenter-leading-light-the-audi-a2-launched-25-years-ago"
+      ],
+      "assertions": [
+        {
+          "locator": "Leading light: the Audi A2 launched 25 years ago",
+          "text": "Estudo de alumínio apresentado em 1997 que antecipou o Audi A2 de produção e estendeu a construção leve Audi Space Frame a um automóvel compacto de grande volume interno."
+        },
+        {
+          "locator": "Leading light: the Audi A2 launched 25 years ago",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-volkswagen-1-litre-car",
+      "candidateId": "atlas:vehicle:volkswagen-1-litre-car",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:volkswagen-newsroom-the-xl1-the-car"
+      ],
+      "assertions": [
+        {
+          "locator": "The XL1 – the car",
+          "text": "Protótipo de 2002 construído para demonstrar consumo de um litro por 100 quilômetros. A Volkswagen documenta sua continuidade no L1 de 2009 e no XL1 de pequena série."
+        },
+        {
+          "locator": "The XL1 – the car",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-bmw-gina-light-visionary-model",
+      "candidateId": "atlas:vehicle:bmw-gina-light-visionary-model",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:bmw-group-the-bmw-gina-light-visionary-model"
+      ],
+      "assertions": [
+        {
+          "locator": "The BMW GINA Light Visionary Model",
+          "text": "Estudo revelado em 2008 que substituiu painéis convencionais por uma pele têxtil flexível sobre estrutura móvel, investigando forma adaptável e novos limites entre material, função e superfície."
+        },
+        {
+          "locator": "The BMW GINA Light Visionary Model",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-bmw-vision-efficientdynamics",
+      "candidateId": "atlas:vehicle:bmw-vision-efficientdynamics",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:bmw-group-bmw-vision-efficientdynamics"
+      ],
+      "assertions": [
+        {
+          "locator": "BMW Vision EfficientDynamics",
+          "text": "Conceito híbrido plug-in apresentado em 2009 como integração de desempenho esportivo, aerodinâmica, construção leve e eletrificação no programa EfficientDynamics."
+        },
+        {
+          "locator": "BMW Vision EfficientDynamics",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-porsche-918-spyder-concept",
+      "candidateId": "atlas:vehicle:porsche-918-spyder-concept",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:porsche-newsroom-10-years-of-the-porsche-918-spyder"
+      ],
+      "assertions": [
+        {
+          "locator": "10 years of the Porsche 918 Spyder",
+          "text": "Conceito híbrido plug-in apresentado em 2010 e desenvolvido até o 918 Spyder de série limitada, combinando desempenho de superesportivo e estratégias de eletrificação."
+        },
+        {
+          "locator": "10 years of the Porsche 918 Spyder",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c05-porsche-mission-e",
+      "candidateId": "atlas:vehicle:porsche-mission-e",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional individual demonstra uma consequência recuperável além da notoriedade do protótipo.",
+      "sourceIds": [
+        "atlas:source:porsche-newsroom-mission-e-becomes-taycan"
+      ],
+      "assertions": [
+        {
+          "locator": "Mission E becomes Taycan",
+          "text": "Conceito elétrico revelado em 2015 que foi aprovado para desenvolvimento e tornou-se o Taycan, estabelecendo uma linhagem nominal e industrial verificável entre estudo e produção."
+        },
+        {
+          "locator": "Mission E becomes Taycan",
+          "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
+        }
       ]
     }
   ]

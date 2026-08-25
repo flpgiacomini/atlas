@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Audi AL2 (1997), selecionado pelo Atlas por sua possível contribuição histórica em TEC, DES, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Estudo de alumínio apresentado em 1997 que antecipou o Audi A2 de produção e estendeu a construção leve Audi Space Frame a um automóvel compacto de grande volume interno.",
   "externalIds": [
     {
       "id": "76f7869d-da75-7445-8e8f-3080f4407d56",
@@ -26,10 +26,19 @@
       "DES",
       "GEN"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-audi-al2",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "db1a5aba-30a6-7681-867f-8b54fa6af9ac"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Audi AL2",
   "names": [],

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Porsche Mission E (2015), selecionado pelo Atlas por sua possível contribuição histórica em TEC, GEN, IND. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Conceito elétrico revelado em 2015 que foi aprovado para desenvolvimento e tornou-se o Taycan, estabelecendo uma linhagem nominal e industrial verificável entre estudo e produção.",
   "externalIds": [
     {
       "id": "eec59013-a6d1-7bde-be8d-474ac56762ae",
@@ -26,10 +26,19 @@
       "GEN",
       "IND"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-porsche-mission-e",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "391beffc-2655-7dea-949e-394a00f722c4"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Porsche Mission E",
   "names": [],

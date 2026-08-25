@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de GM Impact (1990), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Demonstrador elétrico apresentado em 1990 cuja tecnologia e resposta pública deram origem ao programa de produção GM EV1.",
   "externalIds": [
     {
       "id": "dd3771f3-a8d0-71c7-868e-ca1130ebe3ca",
@@ -26,10 +26,19 @@
       "SEG",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-gm-impact",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "6c950db3-71e3-7a21-8b5c-0cb9e8c077af"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "GM Impact",
   "names": [],

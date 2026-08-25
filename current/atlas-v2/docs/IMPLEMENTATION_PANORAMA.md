@@ -221,15 +221,17 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    local licenciada, com cobertura contínua de 1769 a 2026 e backlog zero. Ver
    [`MEDIA_CHECKPOINT_18_V06_COMPLETE.md`](MEDIA_CHECKPOINT_18_V06_COMPLETE.md).
 5. **CP19 — Curadoria canônica: em execução.** A fila foi reconciliada como 482
-   marcas e 40 candidatos históricos. C01 promoveu seis itens; C02 revisou os
-   cinco históricos mais antigos, promovendo três e mantendo dois no catálogo;
-   C03 promoveu cinco conceitos de 1967–1971 com consequência documentada.
-   O progresso é **16/522**, restando **506**: 24 históricos e 482 marcas. Não
+   marcas e 40 candidatos históricos. C01–C03 resolveram os primeiros 16 itens;
+   C04 e C05 encerraram os 24 restantes. Os **40/40 candidatos históricos**
+   estão resolvidos: 33 promovidos e sete preservados no catálogo. O progresso
+   é **40/522**, restando exclusivamente **482 marcas**. Não
    há IDs duplicados nem entidades migradas ausentes. Ver
    [`CURATION_CHECKPOINT_19_INVENTORY.md`](CURATION_CHECKPOINT_19_INVENTORY.md),
    [`CURATION_CHECKPOINT_19_C01.md`](CURATION_CHECKPOINT_19_C01.md),
-   [`CURATION_CHECKPOINT_19_C02.md`](CURATION_CHECKPOINT_19_C02.md) e
-   [`CURATION_CHECKPOINT_19_C03.md`](CURATION_CHECKPOINT_19_C03.md).
+   [`CURATION_CHECKPOINT_19_C02.md`](CURATION_CHECKPOINT_19_C02.md),
+   [`CURATION_CHECKPOINT_19_C03.md`](CURATION_CHECKPOINT_19_C03.md),
+   [`CURATION_CHECKPOINT_19_C04.md`](CURATION_CHECKPOINT_19_C04.md) e
+   [`CURATION_CHECKPOINT_19_C05.md`](CURATION_CHECKPOINT_19_C05.md).
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 

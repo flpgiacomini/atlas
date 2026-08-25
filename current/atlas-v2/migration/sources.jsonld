@@ -1541,6 +1541,19 @@
       "verifiedAt": "2026-08-17T18:20:00+00:00"
     },
     {
+      "id": "atlas:source:renault-group-renault-and-family-cars-50-years-of-history-since-the-renault-16",
+      "language": "en",
+      "legacyId": "079d4942-2ebf-7277-a698-6fd59af86680",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Renault Group",
+      "sourceType": "manufacturer_archive",
+      "title": "Renault and family cars: 50 years of history since the Renault 16",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.renaultgroup.com/en/magazine/our-group-news/renault-and-the-familiy-cars-50-years-of-history-since-the-renault-16/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:smithsonian-national-museum-of-american-history-1964-chrysler-turbine-car",
       "language": "en",
       "legacyId": "187dbf8a-b9a1-729a-a309-366eee1dd7e3",
@@ -1649,6 +1662,19 @@
       "verifiedAt": "2026-08-19"
     },
     {
+      "id": "atlas:source:porsche-newsroom-mission-e-becomes-taycan",
+      "language": "en",
+      "legacyId": "391beffc-2655-7dea-949e-394a00f722c4",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Porsche Newsroom",
+      "sourceType": "manufacturer_archive",
+      "title": "Mission E becomes Taycan",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://newsroom.porsche.com/en/products/porsche-taycan-mission-e-name-of-series-production-electric-sports-car-electromobility-concept-study-70-years-sportscar-15602.html",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:maserati-stellantis-maserati-boomerang-turns-50",
       "language": "en",
       "legacyId": "3b870194-ffe9-7224-96a7-77b0ff0d3edd",
@@ -1659,6 +1685,19 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://www.media.stellantis.com/uk-en/maserati/press/maserati-boomerang-turns-50",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:porsche-newsroom-four-wins-sports-car-with-four-seats",
+      "language": "en",
+      "legacyId": "3fe83c43-b55f-7dae-997f-e2dfc00e4b68",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Porsche Newsroom",
+      "sourceType": "manufacturer_archive",
+      "title": "Four wins – sports car with four seats",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://newsroom.porsche.com/en/2019/history/porsche-four-wins-sports-car-four-seats-18908.html",
       "verifiedAt": "2026-08-25"
     },
     {
@@ -1673,6 +1712,32 @@
       "type": "Source",
       "url": "https://www.paologarella.com/img_press/file/1374001168_Brochure_P45_Dimomedia_web.pdf",
       "verifiedAt": "2026-08-20"
+    },
+    {
+      "id": "atlas:source:bmw-group-bmw-design-concept-cars",
+      "language": "en",
+      "legacyId": "4572c4d3-7e25-76e0-bed8-00ff67aa78ff",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "BMW Group",
+      "sourceType": "manufacturer_archive",
+      "title": "BMW Design concept cars",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0135428EN/bmw-design-concept-cars",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:volkswagen-newsroom-the-xl1-the-car",
+      "language": "en",
+      "legacyId": "47f5bfe4-13ab-75c7-8918-0d091b89692b",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Volkswagen Newsroom",
+      "sourceType": "manufacturer_archive",
+      "title": "The XL1 – the car",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.volkswagen-newsroom.com/en/the-xl1-3163/the-xl1-the-car-3178",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:musee-des-arts-et-metiers-fardier-a-vapeur-de-joseph-cugnot",
@@ -1700,6 +1765,19 @@
       "type": "Source",
       "url": "https://amht.org.uk/bulldog-200/",
       "verifiedAt": "2026-08-20"
+    },
+    {
+      "id": "atlas:source:nissan-motor-corporation-nissan-mid4-type-ii",
+      "language": "en",
+      "legacyId": "495b02f5-75d0-7ac4-acd7-e1305e63e974",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Nissan Motor Corporation",
+      "sourceType": "manufacturer_archive",
+      "title": "Nissan MID4 Type II",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/nissan_mid_4_type_ii.html",
+      "verifiedAt": "2026-08-25"
     },
     {
       "author": "Conservatoire national des arts et métiers",
@@ -1757,6 +1835,32 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:bmw-group-the-bmw-gina-light-visionary-model",
+      "language": "en",
+      "legacyId": "58f6e840-ec15-753d-89ec-a177592d57e0",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "BMW Group",
+      "sourceType": "manufacturer_archive",
+      "title": "The BMW GINA Light Visionary Model",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.press.bmwgroup.com/asia/article/detail/T0046588EN/the-bmw-gina-light-visionary-model-innovative-approach-and-optical-expression-of-creative-freedom?language=en",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:audi-mediacenter-audi-anniversary-dates-2021",
+      "language": "en",
+      "legacyId": "598c2b76-cedf-7f12-a525-5ceaae6e9615",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Audi MediaCenter",
+      "sourceType": "manufacturer_archive",
+      "title": "Audi anniversary dates 2021",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.audi-mediacenter.com/en/publications/more/audi-anniversary-dates-2021-1016/download",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "externalIds": {
         "wikidata": "Q457634"
       },
@@ -1771,6 +1875,19 @@
       "type": "Source",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q457634.json",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:italdesign-megagamma",
+      "language": "en",
+      "legacyId": "6858ab1b-44b9-7b12-8c19-0124ef35d918",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Italdesign",
+      "sourceType": "manufacturer_archive",
+      "title": "Megagamma",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.italdesign.it/en/project/megagamma/",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:musee-des-arts-et-metiers-automobile-panhard-levassor-type-m2e",
@@ -1815,6 +1932,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:general-motors-heritage-collection-1990-impact-experimental",
+      "language": "en",
+      "legacyId": "6c950db3-71e3-7a21-8b5c-0cb9e8c077af",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "General Motors Heritage Collection",
+      "sourceType": "manufacturer_archive",
+      "title": "1990 Impact Experimental",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.gm.com/heritage/collection/gm-concept/1990-impact-experimental",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:general-motors-1938-buick-y-job-concept",
       "language": "en",
       "legacyId": "6e0e3f60-3a38-7193-892d-e4a9e65bd56d",
@@ -1851,6 +1981,19 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://www.goodyear.co.jp/press/2019/0318-213702.html",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:volvo-cars-volvo-experimental-safety-car-vesc-1972",
+      "language": "en",
+      "legacyId": "775c6b03-55bb-7e0d-b093-9f31217e58c1",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Volvo Cars",
+      "sourceType": "manufacturer_archive",
+      "title": "Volvo Experimental Safety Car (VESC), 1972",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.volvocars.com/intl/media/models/vesc/1972/",
       "verifiedAt": "2026-08-25"
     },
     {
@@ -1897,6 +2040,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:mercedes-benz-public-archive-1991-f-100-research-vehicle",
+      "language": "en",
+      "legacyId": "8086d9f2-dd89-7359-9b44-1d4a6aa7fb80",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Mercedes-Benz Public Archive",
+      "sourceType": "manufacturer_archive",
+      "title": "1991: F 100 research vehicle",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/1991.xhtml?oid=4912515",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "externalIds": {
         "wikidata": "Q1388558"
       },
@@ -1911,6 +2067,19 @@
       "type": "Source",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1388558.json",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:ford-motor-company-ford-heritage-vault",
+      "language": "en",
+      "legacyId": "91f093b3-dc91-79d9-825f-3f8fee3dc837",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Ford Motor Company",
+      "sourceType": "manufacturer_archive",
+      "title": "Ford Heritage Vault",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.fordheritagevault.com/",
+      "verifiedAt": "2026-08-25"
     },
     {
       "externalIds": {
@@ -2067,6 +2236,45 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:l-aventure-peugeot-citroen-ds-the-collection-of-l-aventure-peugeot",
+      "language": "en",
+      "legacyId": "ba13c606-8d2c-707a-a834-c0aa853da932",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "L'Aventure Peugeot Citroën DS",
+      "sourceType": "manufacturer_archive",
+      "title": "The collection of L'Aventure Peugeot",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://laventure-association.com/en/the-collection-of-laventure-peugeot/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:peugeot-stellantis-1984-peugeot-lancia-la-205-e-sogna-con-la-quasar",
+      "language": "en",
+      "legacyId": "bbdf2473-a954-7ee9-a6f8-30120f736cf9",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Peugeot / Stellantis",
+      "sourceType": "manufacturer_archive",
+      "title": "1984: Peugeot, Lancia, la 205 e sogna con la Quasar",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.media.stellantis.com/it-it/peugeot/press/1984-peugeot-lancia-la-205-e-sogna-con-la-quasar",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:bmw-group-bmw-vision-efficientdynamics",
+      "language": "en",
+      "legacyId": "be7859b9-8c40-7793-be5f-1f0d1640f91e",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "BMW Group",
+      "sourceType": "manufacturer_archive",
+      "title": "BMW Vision EfficientDynamics",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0039554EN/bmw-vision-efficientdynamics?language=en",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:lancia-stellantis-the-journey-towards-the-lancia-design-day-brutal-design",
       "language": "en",
       "legacyId": "c5591ca9-fde4-7cc6-ae3a-2b2e4cab879e",
@@ -2091,6 +2299,19 @@
       "type": "Source",
       "url": "https://www.technischesmuseum.at/",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:porsche-newsroom-10-years-of-the-porsche-918-spyder",
+      "language": "en",
+      "legacyId": "c95c591e-f4ec-7dee-a072-1cda0d85b7a1",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Porsche Newsroom",
+      "sourceType": "manufacturer_archive",
+      "title": "10 years of the Porsche 918 Spyder",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://newsroom.porsche.com/en/press-kits/Media-Drive-Cayenne-E-Performance/10-Jahre-Porsche-918-Spyder.html",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:encyclopaedia-britannica-history-of-the-automobile",
@@ -2159,6 +2380,19 @@
       "verifiedAt": "2026-08-19"
     },
     {
+      "id": "atlas:source:audi-mediacenter-leading-light-the-audi-a2-launched-25-years-ago",
+      "language": "en",
+      "legacyId": "db1a5aba-30a6-7681-867f-8b54fa6af9ac",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Audi MediaCenter",
+      "sourceType": "manufacturer_archive",
+      "title": "Leading light: the Audi A2 launched 25 years ago",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.audi-mediacenter.com/en/press-releases/leading-light-the-audi-a2-launched-25-years-ago-16857/download",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:lincoln-ford-motor-company-lincoln-en-los-comics-el-primer-batimovil",
       "language": "es",
       "legacyId": "e2c9e127-6978-7237-b2a4-bc6aeccbf4d0",
@@ -2171,6 +2405,32 @@
       "type": "Source",
       "url": "https://media.ford.com/content/lincolnmedia/lna/mx/es/news/2022/08/03/lincoln-en-los-comics--el-primer-batimovil.html",
       "verifiedAt": "2026-08-19"
+    },
+    {
+      "id": "atlas:source:bmw-group-80-years-of-bmw-car-production-the-origins-of-efficientdynamics",
+      "language": "en",
+      "legacyId": "ee174e56-cceb-71a7-8ba1-a766fa07b199",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "BMW Group",
+      "sourceType": "manufacturer_archive",
+      "title": "80 years of BMW car production: the origins of EfficientDynamics",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0022917EN/80-years-of-bmw-car-production-the-origins-of-efficientdynamics",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:stellantis-north-america-chrysler-heritage",
+      "language": "en",
+      "legacyId": "f09746db-cfb8-7586-8fd8-c9e9826a989f",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Stellantis North America",
+      "sourceType": "manufacturer_archive",
+      "title": "Chrysler heritage",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.stellantisnorthamerica.com/heritage/",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:volkswagen-classic-mission-maximum-records-and-superlatives-from-the-world-of-volkswagen",
@@ -2212,6 +2472,32 @@
       "type": "Source",
       "url": "https://newsroom.porsche.com/en_PAP/2025/history/porsche-ferdinand-alexander-90-years-41290.html",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:hyundai-motor-company-hyundai-motor-and-giorgetto-giugiaro-collaborate-to-rebuild-original-1974-pony-coupe-concept",
+      "language": "en",
+      "legacyId": "fa883e6d-251f-716b-bb9b-b815e2b1ef22",
+      "notes": "Fonte da revisão CP19 C04.",
+      "publisher": "Hyundai Motor Company",
+      "sourceType": "manufacturer_archive",
+      "title": "Hyundai Motor and Giorgetto Giugiaro collaborate to rebuild original 1974 Pony Coupe Concept",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.hyundai.com/content/hyundai/ww/data/news/data/2022/0000016922/attach/%28Press%20Release%29%20Hyundai%20Motor%20and%20Legendary%20Designer%20Giorgetto%20Giugiaro%20Collaborate%20to%20Rebuild%20Original%201974%20Pony%20Coupe%20Concept.pdf",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:toyota-motor-corporation-prius-concept-evolution",
+      "language": "en",
+      "legacyId": "facff4c0-06b7-75a1-b8c8-0dd939603e5a",
+      "notes": "Fonte da revisão CP19 C05.",
+      "publisher": "Toyota Motor Corporation",
+      "sourceType": "manufacturer_archive",
+      "title": "Prius Concept – evolution",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://global.toyota/en/prius20th/evolution/concept/",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:the-henry-ford-henry-ford-biography",

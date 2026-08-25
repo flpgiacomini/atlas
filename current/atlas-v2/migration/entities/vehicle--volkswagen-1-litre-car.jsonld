@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Volkswagen 1-Litre Car (2002), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Protótipo de 2002 construído para demonstrar consumo de um litro por 100 quilômetros. A Volkswagen documenta sua continuidade no L1 de 2009 e no XL1 de pequena série.",
   "externalIds": [
     {
       "id": "8579a023-ced8-7907-83d5-4cd12cc08cd0",
@@ -26,10 +26,19 @@
       "SEG",
       "GEN"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-volkswagen-1-litre-car",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "47f5bfe4-13ab-75c7-8918-0d091b89692b"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Volkswagen 1-Litre Car",
   "names": [],

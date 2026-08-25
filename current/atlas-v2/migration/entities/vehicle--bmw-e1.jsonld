@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de BMW E1 (1991), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Automóvel elétrico experimental apresentado em 1991 que combinou propulsão sem emissões locais, baixo peso e materiais recicláveis como programa integrado de eficiência.",
   "externalIds": [
     {
       "id": "8387ef9a-4409-7bb5-884a-3df1337e0420",
@@ -26,10 +26,19 @@
       "SEG",
       "GEN"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-bmw-e1",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "ee174e56-cceb-71a7-8ba1-a766fa07b199"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "BMW E1",
   "names": [],

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Porsche 989 (1988), selecionado pelo Atlas por sua possível contribuição histórica em GEN, DES, IND. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Protótipo de sedã esportivo de quatro portas desenvolvido a partir de 1988 e cancelado por razões econômicas. O arquivo Porsche o situa na genealogia de estudos que antecederam o Panamera.",
   "externalIds": [
     {
       "id": "c7803570-6eda-7f37-9c7c-6bf4393003d3",
@@ -26,10 +26,19 @@
       "DES",
       "IND"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-porsche-989",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "3fe83c43-b55f-7dae-997f-e2dfc00e4b68"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Porsche 989",
   "names": [],

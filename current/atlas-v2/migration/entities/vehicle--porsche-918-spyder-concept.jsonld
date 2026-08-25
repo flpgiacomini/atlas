@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Porsche 918 Spyder Concept (2010), selecionado pelo Atlas por sua possível contribuição histórica em TEC, ESP, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Conceito híbrido plug-in apresentado em 2010 e desenvolvido até o 918 Spyder de série limitada, combinando desempenho de superesportivo e estratégias de eletrificação.",
   "externalIds": [
     {
       "id": "74d73e66-14c3-77d3-8532-4defd17a0d65",
@@ -26,10 +26,19 @@
       "ESP",
       "GEN"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-porsche-918-spyder-concept",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "c95c591e-f4ec-7dee-a072-1cda0d85b7a1"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Porsche 918 Spyder Concept",
   "names": [],

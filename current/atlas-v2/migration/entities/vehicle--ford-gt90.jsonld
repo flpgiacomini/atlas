@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Ford GT90 (1995), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Superesportivo conceitual de 1995 mantido no catálogo. A notoriedade e a experimentação formal não substituem uma fonte institucional individual que comprove consequência histórica posterior.",
   "externalIds": [
     {
       "id": "110d3501-5345-79ba-87bb-9ed21aee0c21",
@@ -26,10 +26,19 @@
       "TEC",
       "SOC"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "retain-catalog",
+    "curation_review": "atlas:curation-review:c05-ford-gt90",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "91f093b3-dc91-79d9-825f-3f8fee3dc837"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "retained_catalog_after_review",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Ford GT90",
   "names": [],

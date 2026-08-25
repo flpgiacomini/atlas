@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Italdesign Megagamma (1978), selecionado pelo Atlas por sua possível contribuição histórica em DES, SOC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Estudo de 1978 sobre base Lancia Gamma que reorganizou altura, espaço interno e embalagem mecânica em um monovolume compacto concebido como proposta industrial realizável.",
   "externalIds": [
     {
       "id": "08057c4e-c33c-754b-b020-40d6b88f9b3f",
@@ -26,10 +26,19 @@
       "SOC",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-italdesign-megagamma",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "6858ab1b-44b9-7b12-8c19-0124ef35d918"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Italdesign Megagamma",
   "names": [],

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de BMW Turbo (1972), selecionado pelo Atlas por sua possível contribuição histórica em DES, SEG, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Primeiro concept car da BMW, apresentado em 1972 como laboratório de segurança, aerodinâmica e ergonomia para um esportivo. Sua relevância editorial está na transferência declarada de soluções para modelos posteriores.",
   "externalIds": [
     {
       "id": "c0e583c3-c803-7285-b0b4-c92afb45ae09",
@@ -26,10 +26,19 @@
       "SEG",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-bmw-turbo",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "4572c4d3-7e25-76e0-bed8-00ff67aa78ff"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "BMW Turbo",
   "names": [],

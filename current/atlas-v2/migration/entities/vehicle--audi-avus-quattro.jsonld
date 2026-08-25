@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Audi Avus quattro (1991), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Superesportivo conceitual apresentado em Tóquio em 1991 para demonstrar a construção leve em alumínio e uma arquitetura W12, consolidando publicamente tecnologias centrais da Audi dos anos 1990.",
   "externalIds": [
     {
       "id": "c03312c7-28a5-7302-9592-6633cc26b41c",
@@ -26,10 +26,19 @@
       "TEC",
       "GEN"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-audi-avus-quattro",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "598c2b76-cedf-7f12-a525-5ceaae6e9615"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Audi Avus quattro",
   "names": [],

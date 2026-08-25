@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de BMW GINA Light Visionary Model (2008), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Estudo revelado em 2008 que substituiu painéis convencionais por uma pele têxtil flexível sobre estrutura móvel, investigando forma adaptável e novos limites entre material, função e superfície.",
   "externalIds": [
     {
       "id": "72052152-6bde-7cba-896e-b8424c1c9310",
@@ -25,10 +25,19 @@
       "DES",
       "TEC"
     ],
+    "curation_batch": "C05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c05-bmw-gina-light-visionary-model",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "58f6e840-ec15-753d-89ec-a177592d57e0"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 60
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 60,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "BMW GINA Light Visionary Model",
   "names": [],

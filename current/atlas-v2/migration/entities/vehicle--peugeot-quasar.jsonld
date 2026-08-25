@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Peugeot Quasar (1984), selecionado pelo Atlas por sua possível contribuição histórica em DES, TEC, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Primeiro grande concept car da Peugeot, revelado em 1984 como demonstração conjunta de desenho, eletrônica embarcada e mecânica derivada da competição.",
   "externalIds": [
     {
       "id": "08960584-92a1-7bec-aae2-44ef8979ba9d",
@@ -26,10 +26,19 @@
       "TEC",
       "SOC"
     ],
+    "curation_batch": "C04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c04-peugeot-quasar",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "bbdf2473-a954-7ee9-a6f8-30120f736cf9"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 70
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 70,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Peugeot Quasar",
   "names": [],
