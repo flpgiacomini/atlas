@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Maserati Boomerang (1971), selecionado pelo Atlas por sua possível contribuição histórica em DES, SOC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Conceito criado por Giorgetto Giugiaro e produzido pela Italdesign, exibido inicialmente como maquete em Turim em 1971 e como automóvel funcional em Genebra em 1972. Construído em exemplar único sobre chassi e mecânica do Maserati Bora, condensou a fase experimental do desenho em cunha em um veículo registrável e operacional.",
   "externalIds": [
     {
       "id": "d1c96750-e369-77ed-b863-e7eb44ca7e7a",
@@ -25,10 +25,19 @@
       "DES",
       "SOC"
     ],
+    "curation_batch": "C03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c03-maserati-boomerang",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "3b870194-ffe9-7224-96a7-77b0ff0d3edd"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 60
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 60,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Maserati Boomerang",
   "names": [],

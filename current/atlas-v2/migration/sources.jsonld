@@ -1649,6 +1649,19 @@
       "verifiedAt": "2026-08-19"
     },
     {
+      "id": "atlas:source:maserati-stellantis-maserati-boomerang-turns-50",
+      "language": "en",
+      "legacyId": "3b870194-ffe9-7224-96a7-77b0ff0d3edd",
+      "notes": "Fonte individual da revisão CP19 C03.",
+      "publisher": "Maserati / Stellantis",
+      "sourceType": "manufacturer_archive",
+      "title": "Maserati Boomerang turns 50",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.media.stellantis.com/uk-en/maserati/press/maserati-boomerang-turns-50",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:paolo-garella-passion-for-speed-ferrari-p4-5-by-pininfarina",
       "language": "en",
       "legacyId": "43020a20-89c3-763d-a859-eb0f5c8f9116",
@@ -1716,6 +1729,19 @@
       "type": "Source",
       "url": "https://media.mercedes-benz.com/article/945bbb64-f554-4fa3-8d9d-6b8f417610b4",
       "verifiedAt": "2026-08-20"
+    },
+    {
+      "id": "atlas:source:fca-heritage-stellantis-the-carabo-concept-car-on-parade-at-chantilly-arts-elegance",
+      "language": "en",
+      "legacyId": "55f854c2-9613-7ad2-aef6-7e15ebfdec4b",
+      "notes": "Fonte individual da revisão CP19 C03.",
+      "publisher": "FCA Heritage / Stellantis",
+      "sourceType": "manufacturer_archive",
+      "title": "The Carabo concept car on parade at Chantilly Arts & Elegance",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.media.stellantis.com/nl-nl/heritage-hub-italy/press/the-carabo-concept-car-on-parade-at-the-chantilly-arts-elegance-richard-mille-concours-d-elegance",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:national-automobile-museum-vehicle-inventory-1938-phantom-corsair-experimental",
@@ -1844,6 +1870,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:national-gallery-of-victoria-ngv-magazine-julaug-2022-holden-hurricane",
+      "language": "en",
+      "legacyId": "78621e97-29f7-740a-b023-c41d278702ed",
+      "notes": "Fonte individual da revisão CP19 C03.",
+      "publisher": "National Gallery of Victoria",
+      "sourceType": "museum_publication",
+      "title": "NGV Magazine Jul–Aug 2022 — Holden Hurricane",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.ngv.vic.gov.au/wp-content/uploads/2022/07/NGVMAG_JULAUG_35.pdf",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:porsche-newsroom-porsche-mourns-the-death-of-ferdinand-piech",
       "language": "en",
       "legacyId": "7bebfaa3-4a1c-7114-ba6e-86e1498e4fcf",
@@ -1946,6 +1985,19 @@
       "verifiedAt": "2026-08-19"
     },
     {
+      "id": "atlas:source:automobili-lamborghini-lamborghini-history-espada",
+      "language": "en",
+      "legacyId": "a883f2da-afd6-7f35-9501-5c3a927af990",
+      "notes": "Fonte individual da revisão CP19 C03.",
+      "publisher": "Automobili Lamborghini",
+      "sourceType": "manufacturer_archive",
+      "title": "Lamborghini History — Espada",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.lamborghini.com/en-en/history/espada",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8",
       "language": "en",
       "legacyId": "ab48d4f8-0383-7e38-939a-5b94be13fbbf",
@@ -2012,6 +2064,19 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://www.museoscienza.org/besrv/sites/default/files/2025-06/Cartrella_Stampa_fatte_misura.pdf",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:lancia-stellantis-the-journey-towards-the-lancia-design-day-brutal-design",
+      "language": "en",
+      "legacyId": "c5591ca9-fde4-7cc6-ae3a-2b2e4cab879e",
+      "notes": "Fonte individual da revisão CP19 C03.",
+      "publisher": "Lancia / Stellantis",
+      "sourceType": "manufacturer_archive",
+      "title": "The journey towards the Lancia Design Day — brutal design",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.media.stellantis.com/em-en/lancia/press/the-journey-towards-the-lancia-design-day-the-brutal-design-of-stratos-rally-037-and-delta",
       "verifiedAt": "2026-08-25"
     },
     {

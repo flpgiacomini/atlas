@@ -776,7 +776,7 @@ P2,substantial,91.2,4309b524-9bd8-7654-89b3-8738e6203099,vehicle,Alfa Romeo 1900
 P3,complete,100.0,39b1a09b-3fb6-79a5-914f-f42bda2d7e48,vehicle,Alfa Romeo BAT 5,42,4,4,4,
 P3,complete,100.0,f4e11b3b-409c-7f26-b373-c0de0f49e62d,vehicle,Alfa Romeo BAT 7,46,4,4,4,
 P3,complete,100.0,d2107c43-c15f-7218-8782-0c8c5b11e688,vehicle,Alfa Romeo BAT 9,43,4,4,4,
-P4,catalog,0,a56d5840-72a1-7e5a-8217-79ac8b470a48,vehicle,Alfa Romeo Carabo,27,0,4,0,editorial_promotion_required
+P4,catalog,0,a56d5840-72a1-7e5a-8217-79ac8b470a48,vehicle,Alfa Romeo Carabo,49,0,4,0,editorial_promotion_required
 P4,catalog,0,b6fea8f4-7152-7594-95de-85db64485e62,vehicle,Aston Martin Bulldog,53,1,4,1,editorial_promotion_required
 P4,catalog,0,596e9441-8d33-74cf-8a07-edf80bc4963e,vehicle,Audi AL2,27,0,4,0,editorial_promotion_required
 P4,catalog,0,8472b4ea-71df-7a2f-8806-62159d39b3e1,vehicle,Audi Avus quattro,28,0,4,0,editorial_promotion_required
@@ -826,22 +826,22 @@ P2,substantial,82.5,01a01016-ea4d-7d20-929c-5ce568072960,vehicle,Gurgel Supermin
 P3,complete,100.0,06506223-7aac-7b53-927e-2834b286a38d,vehicle,Hippomobile de Lenoir,34,4,4,4,
 P2,substantial,91.2,01a01028-5455-759c-a6a7-06375500cf5d,vehicle,Holden 48-215,66,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5455-79eb-bb6a-6af32b686684,vehicle,Holden 48-215 prototype programme,60,2,4,2,connected_statements<4
-P4,catalog,0,e8b73f49-9821-72c0-a9b8-ba96e4595d91,vehicle,Holden Hurricane,27,0,4,0,editorial_promotion_required
+P4,catalog,0,e8b73f49-9821-72c0-a9b8-ba96e4595d91,vehicle,Holden Hurricane,45,0,4,0,editorial_promotion_required
 P2,substantial,91.2,01a01028-544c-7d5d-a535-4d8e2484786a,vehicle,Honda N360,67,3,4,3,connected_statements<4
 P2,substantial,91.2,01a01028-544c-74aa-9028-ab50f0240e42,vehicle,Honda N360 AT,65,3,4,3,connected_statements<4
 P2,substantial,91.2,01a01028-5447-722b-9de2-da7e0db03af9,vehicle,Hongqi CA72,62,3,4,3,connected_statements<4
 P2,substantial,91.2,01a01028-5445-78c3-bf00-45481baaba69,vehicle,Hyundai Pony,64,3,4,3,connected_statements<4
 P4,catalog,0,85caaf96-474a-7499-8490-87c4bc1af433,vehicle,Hyundai Pony Coupe Concept,29,0,4,0,editorial_promotion_required
 P4,catalog,0,b06fa63b-cfc8-7d31-95a3-dfd889f5b318,vehicle,Italdesign Megagamma,27,0,4,0,editorial_promotion_required
-P4,catalog,0,ace5fdfa-7c88-729f-b9a4-d5ba9aabc118,vehicle,Lamborghini Marzal,26,0,4,0,editorial_promotion_required
+P4,catalog,0,ace5fdfa-7c88-729f-b9a4-d5ba9aabc118,vehicle,Lamborghini Marzal,39,0,4,0,editorial_promotion_required
 P3,complete,100,01a010d9-28c6-72db-9da6-6b38a676cf71,vehicle,Lamborghini Miura,88,5,4,5,
 P2,substantial,91.2,01a01030-3313-7bef-8e4d-63573101fdc7,vehicle,Lancia 12 HP,64,3,4,3,connected_statements<4
-P4,catalog,0,a7585a27-a886-7db7-a12a-57cb344873b2,vehicle,Lancia Stratos Zero,28,0,4,0,editorial_promotion_required
+P4,catalog,0,a7585a27-a886-7db7-a12a-57cb344873b2,vehicle,Lancia Stratos Zero,49,0,4,0,editorial_promotion_required
 P3,complete,100.0,01a010d9-28c4-7374-b925-54a7bfff62c8,vehicle,Land Rover Series I,84,4,4,4,
 P3,complete,100,20efc162-ac4a-7f15-998e-a44a4d7019a2,vehicle,Lincoln Futura,56,5,4,5,
 P3,complete,100.0,52365406-b98c-703b-a0a3-1b23c6150823,vehicle,London Steam Carriage,39,4,4,4,
 P3,complete,100.0,dc714de0-9370-77b6-b99a-c30dac584f9d,vehicle,L’Obéissante,37,4,4,4,
-P4,catalog,0,37cb57fa-b494-7394-ba52-e012a8783b37,vehicle,Maserati Boomerang,26,0,4,0,editorial_promotion_required
+P4,catalog,0,37cb57fa-b494-7394-ba52-e012a8783b37,vehicle,Maserati Boomerang,50,0,4,0,editorial_promotion_required
 P4,catalog,0,6a3b83de-1150-7ff2-8871-6af7b5f04251,vehicle,Maybach Exelero,54,1,4,1,editorial_promotion_required
 P3,complete,100.0,01a010d9-28c7-745f-a0e1-27cf05392aeb,vehicle,Mazda Cosmo Sport / 110S,84,4,4,4,
 P2,substantial,91.2,01a010d9-28c9-74c5-9eff-79795673f004,vehicle,McLaren F1,69,3,4,3,connected_statements<4

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Alfa Romeo Carabo (1968), selecionado pelo Atlas por sua possível contribuição histórica em DES, GEN. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Protótipo desenhado por Marcello Gandini para a Bertone sobre a base mecânica do Alfa Romeo 33 Stradale e apresentado no Salão de Paris de 1968. A forma em cunha, a altura de 99 centímetros e as portas de abertura vertical materializaram uma ruptura documentada com o desenho curvilíneo anterior.",
   "externalIds": [
     {
       "id": "cb9d1319-5c7a-78ea-bf1b-58645ab828d0",
@@ -25,10 +25,19 @@
       "DES",
       "GEN"
     ],
+    "curation_batch": "C03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c03-alfa-romeo-carabo",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "55f854c2-9613-7ad2-aef6-7e15ebfdec4b"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 60
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 60,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Alfa Romeo Carabo",
   "names": [],

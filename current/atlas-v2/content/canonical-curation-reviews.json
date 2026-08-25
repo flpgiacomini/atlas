@@ -132,6 +132,66 @@
         {"locator": "World premiere of restored Golden Sahara II", "text": "Jim Street e George Barris desenvolveram o Golden Sahara II como plataforma de sistemas eletrônicos, com comandos inspirados em aeronaves."},
         {"locator": "World premiere of restored Golden Sahara II", "text": "A Goodyear documenta pneus translúcidos iluminados e frenagem automática acionada por sensores, além da restauração apresentada em 2019."}
       ]
+    },
+    {
+      "id": "atlas:curation-review:c03-lamborghini-marzal",
+      "candidateId": "atlas:vehicle:lamborghini-marzal",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A ligação explicitamente documentada com o Espada demonstra consequência em um modelo de produção e supera o valor meramente expositivo do protótipo.",
+      "sourceIds": ["atlas:source:automobili-lamborghini-lamborghini-history-espada"],
+      "assertions": [
+        {"locator": "Lamborghini History — Espada", "text": "A Lamborghini registra que o Espada derivou do protótipo Marzal apresentado em 1967."},
+        {"locator": "Lamborghini History — Espada", "text": "A derivação fornece uma conexão recuperável entre o estudo de quatro lugares e o gran turismo levado à produção."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c03-alfa-romeo-carabo",
+      "candidateId": "atlas:vehicle:alfa-romeo-carabo",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Marco documentado da transição para a forma em cunha e para portas de abertura vertical, sustentado pelo arquivo histórico da própria fabricante.",
+      "sourceIds": ["atlas:source:fca-heritage-stellantis-the-carabo-concept-car-on-parade-at-chantilly-arts-elegance"],
+      "assertions": [
+        {"locator": "The Carabo concept car on parade", "text": "Marcello Gandini desenhou o Carabo para a Bertone sobre o chassi do Alfa Romeo 33 Stradale, com estreia em Paris em 1968."},
+        {"locator": "The Carabo concept car on parade", "text": "A fonte descreve a cunha extrema, 99 centímetros de altura e portas verticais com comando hidropneumático."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c03-holden-hurricane",
+      "candidateId": "atlas:vehicle:holden-hurricane",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Documento museológico situa o RD-001 como evidência da formação de capacidade australiana própria de pesquisa, design e engenharia automotiva.",
+      "sourceIds": ["atlas:source:national-gallery-of-victoria-ngv-magazine-julaug-2022-holden-hurricane"],
+      "assertions": [
+        {"locator": "NGV Magazine, páginas 18–19", "text": "O Hurricane foi o primeiro concept car projetado e produzido pelo departamento de P&D da Holden em cooperação com o Advanced Styling Group."},
+        {"locator": "NGV Magazine, páginas 18–19", "text": "O RD-001 saiu do centro técnico de Fishermans Bend em 4 de março de 1969 e não foi concebido para produção comercial."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c03-lancia-stratos-zero",
+      "candidateId": "atlas:vehicle:lancia-stratos-zero",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte da Lancia demonstra continuidade direta entre o protótipo radical de 1970 e o Stratos posterior, com consequência em competição e linguagem de marca.",
+      "sourceIds": ["atlas:source:lancia-stellantis-the-journey-towards-the-lancia-design-day-brutal-design"],
+      "assertions": [
+        {"locator": "The journey towards the Lancia Design Day", "text": "O Stratos Zero de 1970 foi construído pela Bertone a partir de desenho de Marcello Gandini."},
+        {"locator": "The journey towards the Lancia Design Day", "text": "A Lancia identifica o protótipo como inspiração do Stratos apresentado em 1971."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c03-maserati-boomerang",
+      "candidateId": "atlas:vehicle:maserati-boomerang",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Experimento operacional de Giugiaro e Italdesign que documenta a passagem da maquete de salão à execução funcional sobre base Maserati Bora.",
+      "sourceIds": ["atlas:source:maserati-stellantis-maserati-boomerang-turns-50"],
+      "assertions": [
+        {"locator": "Maserati Boomerang turns 50", "text": "Uma maquete apareceu em Turim em 1971 e o automóvel funcional e registrável estreou em Genebra em 1972."},
+        {"locator": "Maserati Boomerang turns 50", "text": "O exemplar único foi criado por Giorgetto Giugiaro, produzido pela Italdesign e utilizou chassi e mecânica completos do Maserati Bora."}
+      ]
     }
   ]
 }
