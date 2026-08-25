@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 LEGACY_DATA = ROOT.parent / "atlas-web" / "data"
 DECISIONS = ROOT / "content" / "canonical-curation-decisions.json"
 REPORT = ROOT / "reports" / "canonical-curation.json"
+REVIEWS = ROOT / "content" / "canonical-curation-reviews.json"
 
 
 def load(path: Path) -> dict:
@@ -32,6 +33,20 @@ def build() -> tuple[dict, dict]:
     brands = read_csv(LEGACY_DATA / "brand.candidates.csv")
     historical = read_csv(LEGACY_DATA / "historical-significance.candidates.csv")
     entity_docs = [load(path) for path in sorted((ROOT / "migration" / "entities").glob("*.jsonld"))]
+    source_ids = {item["id"] for item in load(ROOT / "migration" / "sources.jsonld")["items"]}
+    reviews = load(REVIEWS).get("reviews", []) if REVIEWS.exists() else []
+    review_by_candidate: dict[str, dict] = {}
+    for review in reviews:
+        candidate_id = review.get("candidateId")
+        if candidate_id in review_by_candidate:
+            raise ValueError(f"duplicate curation review: {candidate_id}")
+        if review.get("decision") not in {"promote-editorial", "retain-catalog", "context-only", "hold"}:
+            raise ValueError(f"invalid curation decision: {review.get('id')}")
+        if len(review.get("assertions", [])) < 2 or not review.get("rationale"):
+            raise ValueError(f"incomplete curation review: {review.get('id')}")
+        if not review.get("sourceIds") or any(source not in source_ids for source in review["sourceIds"]):
+            raise ValueError(f"unresolved curation source: {review.get('id')}")
+        review_by_candidate[candidate_id] = review
     by_legacy = {
         entity.get("legacy", {}).get("id"): entity
         for entity in entity_docs
@@ -71,13 +86,25 @@ def build() -> tuple[dict, dict]:
             "editorialLevel": metadata.get("editorial_level", "unmigrated"),
             "evidenceState": "source-backed" if source_backed else "identity-only",
         }
+        review = review_by_candidate.get(item["canonicalId"])
+        if review:
+            item["reviewId"] = review["id"]
+            item["reviewDecision"] = review["decision"]
         if row["candidateClass"] == "brand":
             item.update({"wave": row["wave"], "scopeLevel": row["scope_level"], "region": row["region_cluster"]})
         else:
             item.update({"year": int(row["year"]), "kind": row["kind"], "associatedBrand": row["associated_brand"]})
 
         if row["decision"] == "cataloged":
-            item["curationState"] = "ready-for-editorial-review" if source_backed else "needs-individual-source"
+            if review:
+                item["curationState"] = "resolved-" + review["decision"]
+                expected_level = "editorial" if review["decision"] == "promote-editorial" else "catalog"
+                if item["editorialLevel"] != expected_level:
+                    raise ValueError(f"review/entity level mismatch: {item['canonicalId']}")
+                if metadata.get("curation_review") != review["id"]:
+                    raise ValueError(f"review/entity trace mismatch: {item['canonicalId']}")
+            else:
+                item["curationState"] = "ready-for-editorial-review" if source_backed else "needs-individual-source"
             queue.append(item)
         else:
             item["curationState"] = "legacy-decision-preserved"
@@ -87,6 +114,10 @@ def build() -> tuple[dict, dict]:
         raise ValueError(f"canonical queue drift: expected 522, got {len(queue)}")
     if duplicate_ids or missing_entities:
         raise ValueError(f"candidate identity failure: duplicates={duplicate_ids}, missing={missing_entities}")
+    queue_ids = {item["canonicalId"] for item in queue}
+    orphan_reviews = sorted(set(review_by_candidate) - queue_ids)
+    if orphan_reviews:
+        raise ValueError(f"curation reviews outside canonical queue: {orphan_reviews}")
 
     queue_counts = Counter(item["curationState"] for item in queue)
     class_counts = Counter(item["candidateClass"] for item in queue)
@@ -107,6 +138,8 @@ def build() -> tuple[dict, dict]:
         "status": "PASS",
         "candidateInputs": len(inputs),
         "canonicalQueue": len(queue),
+        "resolvedQueue": sum(item["curationState"].startswith("resolved-") for item in queue),
+        "remainingQueue": sum(not item["curationState"].startswith("resolved-") for item in queue),
         "queueByClass": dict(sorted(class_counts.items())),
         "queueByState": dict(sorted(queue_counts.items())),
         "terminalLegacyDecisions": dict(sorted(terminal_counts.items())),

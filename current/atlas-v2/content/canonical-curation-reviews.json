@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "reviews": [
+    {
+      "id": "atlas:curation-review:c01-aston-martin-bulldog",
+      "candidateId": "atlas:vehicle:aston-martin-bulldog",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Protótipo único relevante como programa de engenharia e como demonstração tardia, verificável, da meta original de desempenho.",
+      "sourceIds": ["atlas:source:aston-martin-heritage-trust-bulldog-200"],
+      "assertions": [
+        {"locator": "linhas 65–67", "text": "O Bulldog foi concebido como automóvel rodoviário, construído entre 1978 e 1980 e atingiu 191 mph nos ensaios de época."},
+        {"locator": "linhas 68–76", "text": "Após restauração, o protótipo registrou 205,4 mph em 2023; a fonte ressalva que isso não constitui recorde de automóvel de produção."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c01-chrysler-turbine-car",
+      "candidateId": "atlas:vehicle:chrysler-turbine-car",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Programa de uso público raro e bem documentado que conecta experimentação de propulsão, design e avaliação por consumidores.",
+      "sourceIds": ["atlas:source:smithsonian-national-museum-of-american-history-1964-chrysler-turbine-car"],
+      "assertions": [
+        {"locator": "descrição do objeto", "text": "A Chrysler montou 50 automóveis com turbina em 1963–1964 para testes com consumidores; as carrocerias foram feitas pela Ghia em Turim."},
+        {"locator": "descrição do objeto", "text": "Suavidade e simplicidade foram contrapostas a baixa eficiência, emissões elevadas e atraso de resposta, impedindo a produção em massa."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c01-ferrari-p4-5",
+      "candidateId": "atlas:vehicle:ferrari-p4-5-by-pininfarina",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Caso verificável de coachbuilding contemporâneo que liga encomenda individual, engenharia especial e memória dos protótipos Ferrari P.",
+      "sourceIds": ["atlas:source:paolo-garella-passion-for-speed-ferrari-p4-5-by-pininfarina"],
+      "assertions": [
+        {"locator": "página 2", "text": "James Glickenhaus encomendou à Pininfarina em 2005 um one-off em homenagem aos automóveis de endurance da série Ferrari P."},
+        {"locator": "página 2", "text": "Mais de 200 componentes foram desenvolvidos especificamente e a carroceria foi construída integralmente em carbono."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c01-maybach-exelero",
+      "candidateId": "atlas:vehicle:maybach-exelero",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Demonstração técnica singular na relação entre fornecedor de pneus, fabricante de luxo, ensaio de alta velocidade e comunicação industrial.",
+      "sourceIds": ["atlas:source:fulda-fulda-history"],
+      "assertions": [
+        {"locator": "seção 2000s", "text": "O Exelero foi construído como embaixador do pneu Fulda Carat Exelero e retomou a parceria de projeto com a Maybach."},
+        {"locator": "seção 2000s", "text": "A Fulda registra mais de 700 cv e 351,45 km/h alcançados em 1º de maio de 2005."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c01-mercedes-benz-c-111",
+      "candidateId": "atlas:vehicle:mercedes-benz-c-111",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Programa experimental central para compreender pesquisa de materiais, motor rotativo, aerodinâmica, diesel e recordes na Mercedes-Benz.",
+      "sourceIds": ["atlas:source:mercedes-benz-classic-50-jahre-markenlegende-c-111"],
+      "assertions": [
+        {"locator": "seção C 111 de 1969", "text": "A Mercedes-Benz apresentou o C 111 na IAA de Frankfurt de 1969 com carroceria de plástico reforçado e motor Wankel de três rotores."},
+        {"locator": "histórico do programa", "text": "O veículo permaneceu experimental e sua base deu origem a variantes diesel e a automóveis de recorde posteriores."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c01-volkswagen-w12",
+      "candidateId": "atlas:vehicle:volkswagen-w12",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Demonstrador tecnicamente consequente da arquitetura W12 e plataforma de recordes de longa duração, não apenas exercício estilístico.",
+      "sourceIds": ["atlas:source:volkswagen-classic-mission-maximum-records-and-superlatives-from-the-world-of-volkswagen"],
+      "assertions": [
+        {"locator": "páginas 20–24", "text": "O W12 Nardò empregava motor W de 5.998 cm³ e 600 PS em um programa dedicado a recordes de alta velocidade."},
+        {"locator": "páginas 20–24", "text": "A segunda campanha registrou média de 322,891 km/h em 24 horas e ampliou a série de recordes internacionais."}
+      ]
+    }
+  ]
+}

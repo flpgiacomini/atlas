@@ -54,12 +54,15 @@
       "TEC",
       "SOC"
     ],
+    "curation_batch": "C01",
+    "curation_review": "atlas:curation-review:c01-aston-martin-bulldog",
+    "curation_reviewed_at": "2026-08-25",
     "description_basis_statement_ids": [
       "a1ebe088-37c5-73ef-bd7c-99ba71f5e571"
     ],
     "editorial_batch": "MASS01",
-    "editorial_level": "catalog",
-    "promotion_state": "waiting_media_and_second_source",
+    "editorial_level": "editorial",
+    "promotion_state": "approved",
     "relevance_score": 75,
     "verification_batch": "R01",
     "verification_state": "source_backed",
