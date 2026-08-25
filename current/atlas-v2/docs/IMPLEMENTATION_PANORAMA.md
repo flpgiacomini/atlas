@@ -223,15 +223,18 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 5. **CP19 — Curadoria canônica: em execução.** A fila foi reconciliada como 482
    marcas e 40 candidatos históricos. C01–C03 resolveram os primeiros 16 itens;
    C04 e C05 encerraram os 24 restantes. Os **40/40 candidatos históricos**
-   estão resolvidos: 33 promovidos e sete preservados no catálogo. O progresso
-   é **40/522**, restando exclusivamente **482 marcas**. Não
+   estão resolvidos: 33 promovidos e sete preservados no catálogo. O primeiro
+   sublote de marcas, C06/M01A, promoveu Benz, Daimler, Mercedes-Benz, Ford,
+   De Dion-Bouton e Panhard & Levassor. O progresso é **46/522**, restando
+   exclusivamente **476 marcas**. Não
    há IDs duplicados nem entidades migradas ausentes. Ver
    [`CURATION_CHECKPOINT_19_INVENTORY.md`](CURATION_CHECKPOINT_19_INVENTORY.md),
    [`CURATION_CHECKPOINT_19_C01.md`](CURATION_CHECKPOINT_19_C01.md),
    [`CURATION_CHECKPOINT_19_C02.md`](CURATION_CHECKPOINT_19_C02.md),
    [`CURATION_CHECKPOINT_19_C03.md`](CURATION_CHECKPOINT_19_C03.md),
    [`CURATION_CHECKPOINT_19_C04.md`](CURATION_CHECKPOINT_19_C04.md) e
-   [`CURATION_CHECKPOINT_19_C05.md`](CURATION_CHECKPOINT_19_C05.md).
+   [`CURATION_CHECKPOINT_19_C05.md`](CURATION_CHECKPOINT_19_C05.md) e
+   [`CURATION_CHECKPOINT_19_C06_M01A.md`](CURATION_CHECKPOINT_19_C06_M01A.md).
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de De Dion-Bouton, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Fabricante pioneira fundada no ciclo do vapor e depois decisiva na difusão de pequenos motores de combustão e do eixo De Dion. O museu registra sua escala mundial por volta de 1900 e o encerramento em 1933.",
   "externalIds": [
     {
       "id": "4fb1e9e9-581f-7f8e-badb-8269ed44806c",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01A",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-de-dion-bouton",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "e91d4848-5c32-79c7-b29c-b5f0004bd035"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "De Dion-Bouton",

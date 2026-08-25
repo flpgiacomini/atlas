@@ -1649,6 +1649,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:ford-motor-company-ford-company-timeline",
+      "language": "en",
+      "legacyId": "34f2bac0-7403-733d-86c6-e434e85f47c4",
+      "notes": "Fonte da revisão CP19 C06/M01A.",
+      "publisher": "Ford Motor Company",
+      "sourceType": "institutional",
+      "title": "Ford Company Timeline",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://corporate.ford.com/about/history/company-timeline/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:general-motors-firebird-iii",
       "language": "en",
       "legacyId": "36ec4497-9851-7882-89d4-aaf3d7260897",
@@ -2353,6 +2366,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:science-museum-group-panhard-and-levassor",
+      "language": "en",
+      "legacyId": "cdac42bd-f4b5-7a71-8251-dd797d2d8a5a",
+      "notes": "Fonte da revisão CP19 C06/M01A.",
+      "publisher": "Science Museum Group",
+      "sourceType": "institutional",
+      "title": "Panhard and Levassor",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp61124/panhard-and-levassor",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:general-motors-firebird-i",
       "language": "en",
       "legacyId": "cdc07b9d-0f9f-76ba-bf43-dc17f8d1ea5d",
@@ -2393,6 +2419,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:mercedes-benz-group-beginnings-of-the-automobile-the-predecessor-companies-18861920",
+      "language": "en",
+      "legacyId": "de448ee8-fd9a-78cd-af49-a0f9a2862d89",
+      "notes": "Fonte da revisão CP19 C06/M01A.",
+      "publisher": "Mercedes-Benz Group",
+      "sourceType": "institutional",
+      "title": "Beginnings of the automobile: The predecessor companies (1886–1920)",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://group.mercedes-benz.com/company/tradition/company-history/1886-1920.html",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:lincoln-ford-motor-company-lincoln-en-los-comics-el-primer-batimovil",
       "language": "es",
       "legacyId": "e2c9e127-6978-7237-b2a4-bc6aeccbf4d0",
@@ -2405,6 +2444,32 @@
       "type": "Source",
       "url": "https://media.ford.com/content/lincolnmedia/lna/mx/es/news/2022/08/03/lincoln-en-los-comics--el-primer-batimovil.html",
       "verifiedAt": "2026-08-19"
+    },
+    {
+      "id": "atlas:source:mercedes-benz-group-tradition-transformation-and-technology-leadership-100-years-of-mercedes-benz",
+      "language": "en",
+      "legacyId": "e7703d4f-2b47-7011-b077-1db00b6d98d5",
+      "notes": "Fonte da revisão CP19 C06/M01A.",
+      "publisher": "Mercedes-Benz Group",
+      "sourceType": "institutional",
+      "title": "Tradition, transformation and technology leadership: 100 years of Mercedes-Benz",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://group.mercedes-benz.com/unternehmen/tradition/geschichte/100-jahre-marke-mb.html",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:museo-nazionale-dell-automobile-storia-della-de-dion-bouton",
+      "language": "en",
+      "legacyId": "e91d4848-5c32-79c7-b29c-b5f0004bd035",
+      "notes": "Fonte da revisão CP19 C06/M01A.",
+      "publisher": "Museo Nazionale dell'Automobile",
+      "sourceType": "institutional",
+      "title": "Storia della De Dion Bouton",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.museoauto.com/qrcode/storia-della-de-dion-bouton/",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:bmw-group-80-years-of-bmw-car-production-the-origins-of-efficientdynamics",

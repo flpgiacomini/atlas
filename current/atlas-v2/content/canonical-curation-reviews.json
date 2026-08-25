@@ -800,6 +800,126 @@
           "text": "A decisão de promoção limita-se à consequência declarada pela fonte, sem atribuir influências adicionais."
         }
       ]
+    },
+    {
+      "id": "atlas:curation-review:c06-benz",
+      "candidateId": "atlas:brand:benz",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional demonstra papel estrutural na formação, industrialização ou consolidação genealógica do automóvel.",
+      "sourceIds": [
+        "atlas:source:mercedes-benz-group-beginnings-of-the-automobile-the-predecessor-companies-18861920"
+      ],
+      "assertions": [
+        {
+          "locator": "Beginnings of the automobile: The predecessor companies (1886–1920)",
+          "text": "Marca ligada à empresa fundada por Carl Benz em Mannheim e à exploração industrial do automóvel patenteado em 1886. Sua trajetória desemboca na fusão com a Daimler-Motoren-Gesellschaft em 1926."
+        },
+        {
+          "locator": "Beginnings of the automobile: The predecessor companies (1886–1920)",
+          "text": "A promoção registra somente relações e consequências expressamente sustentadas pela fonte institucional."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c06-daimler",
+      "candidateId": "atlas:brand:daimler",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional demonstra papel estrutural na formação, industrialização ou consolidação genealógica do automóvel.",
+      "sourceIds": [
+        "atlas:source:mercedes-benz-group-beginnings-of-the-automobile-the-predecessor-companies-18861920"
+      ],
+      "assertions": [
+        {
+          "locator": "Beginnings of the automobile: The predecessor companies (1886–1920)",
+          "text": "Marca e linhagem industrial associadas a Gottlieb Daimler, Wilhelm Maybach e à Daimler-Motoren-Gesellschaft. A documentação registra sua origem independente e a convergência posterior com Benz."
+        },
+        {
+          "locator": "Beginnings of the automobile: The predecessor companies (1886–1920)",
+          "text": "A promoção registra somente relações e consequências expressamente sustentadas pela fonte institucional."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c06-mercedes-benz",
+      "candidateId": "atlas:brand:mercedes-benz",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional demonstra papel estrutural na formação, industrialização ou consolidação genealógica do automóvel.",
+      "sourceIds": [
+        "atlas:source:mercedes-benz-group-tradition-transformation-and-technology-leadership-100-years-of-mercedes-benz"
+      ],
+      "assertions": [
+        {
+          "locator": "Tradition, transformation and technology leadership: 100 years of Mercedes-Benz",
+          "text": "Marca formada em 1926 pela reunião das tradições Daimler e Benz. O nome, o emblema e o primeiro programa comum documentam uma das principais consolidações da indústria automotiva."
+        },
+        {
+          "locator": "Tradition, transformation and technology leadership: 100 years of Mercedes-Benz",
+          "text": "A promoção registra somente relações e consequências expressamente sustentadas pela fonte institucional."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c06-ford",
+      "candidateId": "atlas:brand:ford",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional demonstra papel estrutural na formação, industrialização ou consolidação genealógica do automóvel.",
+      "sourceIds": [
+        "atlas:source:ford-motor-company-ford-company-timeline"
+      ],
+      "assertions": [
+        {
+          "locator": "Ford Company Timeline",
+          "text": "Marca fundada em 1903 cuja história conecta o Model T, a expansão internacional e a linha de montagem móvel. Sua contribuição central é a reorganização industrial e econômica da produção em massa."
+        },
+        {
+          "locator": "Ford Company Timeline",
+          "text": "A promoção registra somente relações e consequências expressamente sustentadas pela fonte institucional."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c06-de-dion-bouton",
+      "candidateId": "atlas:brand:de-dion-bouton",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional demonstra papel estrutural na formação, industrialização ou consolidação genealógica do automóvel.",
+      "sourceIds": [
+        "atlas:source:museo-nazionale-dell-automobile-storia-della-de-dion-bouton"
+      ],
+      "assertions": [
+        {
+          "locator": "Storia della De Dion Bouton",
+          "text": "Fabricante pioneira fundada no ciclo do vapor e depois decisiva na difusão de pequenos motores de combustão e do eixo De Dion. O museu registra sua escala mundial por volta de 1900 e o encerramento em 1933."
+        },
+        {
+          "locator": "Storia della De Dion Bouton",
+          "text": "A promoção registra somente relações e consequências expressamente sustentadas pela fonte institucional."
+        }
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c06-panhard-and-levassor",
+      "candidateId": "atlas:brand:panhard-levassor",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte institucional demonstra papel estrutural na formação, industrialização ou consolidação genealógica do automóvel.",
+      "sourceIds": [
+        "atlas:source:science-museum-group-panhard-and-levassor"
+      ],
+      "assertions": [
+        {
+          "locator": "Panhard and Levassor",
+          "text": "Fabricante francesa pioneira que produziu motores Daimler sob licença e participou da definição do automóvel de motor dianteiro e tração traseira. Sua produção inicial e atividade esportiva ajudam a explicar a consolidação do carro prático."
+        },
+        {
+          "locator": "Panhard and Levassor",
+          "text": "A promoção registra somente relações e consequências expressamente sustentadas pela fonte institucional."
+        }
+      ]
     }
   ]
 }

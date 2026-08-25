@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Benz, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ligada à empresa fundada por Carl Benz em Mannheim e à exploração industrial do automóvel patenteado em 1886. Sua trajetória desemboca na fusão com a Daimler-Motoren-Gesellschaft em 1926.",
   "externalIds": [
     {
       "id": "4b7a679e-a755-7d84-aaf3-07f4c9df65ec",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01A",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-benz",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "de448ee8-fd9a-78cd-af49-a0f9a2862d89"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Benz",

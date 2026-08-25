@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Mercedes-Benz, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca formada em 1926 pela reunião das tradições Daimler e Benz. O nome, o emblema e o primeiro programa comum documentam uma das principais consolidações da indústria automotiva.",
   "externalIds": [
     {
       "id": "24d2b823-f2d4-7d13-8f41-517db2b6de46",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01A",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-mercedes-benz",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "e7703d4f-2b47-7011-b077-1db00b6d98d5"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Mercedes-Benz",

@@ -122,12 +122,12 @@ P4,catalog,0,447a9766-0d4b-7a1d-83ed-ae69be77b838,brand,Dacia,29,0,3,0,editorial
 P4,catalog,0,60a988af-35df-7508-bc64-dbc61e641476,brand,Dacon,29,0,3,0,editorial_promotion_required
 P4,catalog,0,e70a1b13-322e-7455-a7d9-945876cbffc8,brand,Daewoo,29,0,3,0,editorial_promotion_required
 P4,catalog,0,ee177876-ac4a-7c60-b4da-5711afe95288,brand,Daihatsu,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bc32818f-7bb5-7197-95ae-7d96987c2c9c,brand,Daimler,29,0,3,0,editorial_promotion_required
+P4,catalog,0,bc32818f-7bb5-7197-95ae-7d96987c2c9c,brand,Daimler,25,0,3,0,editorial_promotion_required
 P4,catalog,0,03ad8907-fe54-76da-be71-473097c6be1c,brand,Daimler (British marque),31,0,3,0,editorial_promotion_required
 P4,catalog,0,72891abb-4a20-7156-a0dd-cccba04da483,brand,Dallara,29,0,3,0,editorial_promotion_required
 P4,catalog,0,c81b913e-b099-70b9-96f6-4788e4783012,brand,Darracq,29,0,3,0,editorial_promotion_required
 P4,catalog,0,d19ebe24-ad21-79f2-a953-94c6a0e58cb6,brand,Datsun,29,0,3,0,editorial_promotion_required
-P4,catalog,0,fd9318e3-a142-732e-b351-26d544388d65,brand,De Dion-Bouton,30,0,3,0,editorial_promotion_required
+P4,catalog,0,fd9318e3-a142-732e-b351-26d544388d65,brand,De Dion-Bouton,37,0,3,0,editorial_promotion_required
 P4,catalog,0,daf3612d-a486-7034-b8bc-edd390f21d34,brand,De Tomaso,30,0,3,0,editorial_promotion_required
 P4,catalog,0,99d50fcf-3884-7eb8-85af-43eee8d517b1,brand,DeLorean,29,0,3,0,editorial_promotion_required
 P4,catalog,0,6ee19e23-2050-7d28-b4df-76d644055cf7,brand,DeSoto,29,0,3,0,editorial_promotion_required
@@ -171,7 +171,7 @@ P4,catalog,0,cb6b6fa9-1587-78b3-824d-88b683998f65,brand,Finch,29,0,3,0,editorial
 P4,catalog,0,bf829f94-fcb2-73d8-8548-231f3073aeac,brand,Firefly,29,0,3,0,editorial_promotion_required
 P4,catalog,0,08d1dc4d-2cfb-7912-afdf-af71e89da124,brand,Fisker,29,0,3,0,editorial_promotion_required
 P4,catalog,0,2c4fd14a-290c-7b1c-826d-0399b5457232,brand,Force Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,fb160519-0c1a-74c0-9561-8d77061975d8,brand,Ford,29,0,3,0,editorial_promotion_required
+P4,catalog,0,fb160519-0c1a-74c0-9561-8d77061975d8,brand,Ford,32,0,3,0,editorial_promotion_required
 P4,catalog,0,d00acc98-bb83-79f2-b362-f1273bdb706f,brand,Fornasari,29,0,3,0,editorial_promotion_required
 P4,catalog,0,5cd36ca4-acb0-79b7-8ca4-8518d14646e6,brand,Franklin,29,0,3,0,editorial_promotion_required
 P4,catalog,0,7bcca833-4184-7c49-a4c1-84990f1ae892,brand,Frazer,29,0,3,0,editorial_promotion_required
@@ -301,7 +301,7 @@ P4,catalog,0,23aaf8d5-cb55-7850-8265-5467643ec388,brand,McLaughlin,29,0,3,0,edit
 P4,catalog,0,101b9bb6-2638-7f67-923e-7db231aa484a,brand,Mean Metal Motors,31,0,3,0,editorial_promotion_required
 P4,catalog,0,7cff6c9e-df5b-734e-b043-07a3f2d1ac47,brand,Melkus,29,0,3,0,editorial_promotion_required
 P4,catalog,0,9ec8c90a-3cbf-7576-ac6c-5c984fa3a5f7,brand,Menara,29,0,3,0,editorial_promotion_required
-P4,catalog,0,eb0a0e51-2d35-7599-b005-c1c0e0ebcdff,brand,Mercedes-Benz,29,1,3,1,editorial_promotion_required
+P4,catalog,0,eb0a0e51-2d35-7599-b005-c1c0e0ebcdff,brand,Mercedes-Benz,28,1,3,1,editorial_promotion_required
 P4,catalog,0,71228398-a534-7074-b97d-665345b5295f,brand,Mercury,29,0,3,0,editorial_promotion_required
 P4,catalog,0,65b450e5-9f93-7b61-9c1f-140ab319d780,brand,Minerva,29,0,3,0,editorial_promotion_required
 P4,catalog,0,4c51f5e7-f68c-7808-826d-167d64930735,brand,Mini,29,0,3,0,editorial_promotion_required
@@ -344,7 +344,7 @@ P4,catalog,0,8c6bf04e-c9da-7938-8d00-1635b34179af,brand,Ora,29,0,3,0,editorial_p
 P4,catalog,0,87d3834b-f7ce-7285-af82-3528b731217e,brand,Packard,29,0,3,0,editorial_promotion_required
 P4,catalog,0,fda0f19f-544d-77f7-99b8-8bb3f73fe507,brand,Pagani,29,0,3,0,editorial_promotion_required
 P4,catalog,0,5d46af91-6b22-781c-a073-6094e99adc23,brand,Panhard,29,0,3,0,editorial_promotion_required
-P4,catalog,0,01caa476-f14c-705a-a2c1-fc1bb65de34d,brand,Panhard & Levassor,31,0,3,0,editorial_promotion_required
+P4,catalog,0,01caa476-f14c-705a-a2c1-fc1bb65de34d,brand,Panhard & Levassor,35,0,3,0,editorial_promotion_required
 P4,catalog,0,a78a8660-8fb5-7225-98bb-250ef7632bfe,brand,Panoz,29,0,3,0,editorial_promotion_required
 P4,catalog,0,770f9ea4-40ff-73aa-a0e5-0d88918d5bc9,brand,Panther,29,0,3,0,editorial_promotion_required
 P4,catalog,0,d7019bf8-4782-7431-9d3c-6a915d69bdac,brand,Pars Khodro,30,0,3,0,editorial_promotion_required

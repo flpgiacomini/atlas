@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Daimler, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca e linhagem industrial associadas a Gottlieb Daimler, Wilhelm Maybach e à Daimler-Motoren-Gesellschaft. A documentação registra sua origem independente e a convergência posterior com Benz.",
   "externalIds": [
     {
       "id": "a33950d3-dbcd-73c6-b8ab-db5052b88d8e",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01A",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-daimler",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "de448ee8-fd9a-78cd-af49-a0f9a2862d89"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Daimler",

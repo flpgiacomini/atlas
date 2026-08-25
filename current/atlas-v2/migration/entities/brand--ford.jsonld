@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Ford, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca fundada em 1903 cuja história conecta o Model T, a expansão internacional e a linha de montagem móvel. Sua contribuição central é a reorganização industrial e econômica da produção em massa.",
   "externalIds": [
     {
       "id": "159a3c1b-770f-745a-829a-64a66f137162",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01A",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-ford",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "34f2bac0-7403-733d-86c6-e434e85f47c4"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Ford",
