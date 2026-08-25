@@ -1,9 +1,12 @@
 # ATLAS — estado atual
 
-**Data:** 25/08/2026  
-**Fase:** Atlas v2.0.0 publicado; manutenção editorial contínua  
-**Aplicação vigente:** `current/atlas-v2-app/`  
-**Autoridade canônica:** `current/atlas-v2/`  
+**Data:** 25/08/2026
+
+**Fase:** Atlas v2.0.0 publicado; manutenção editorial contínua
+
+**Aplicação vigente:** `current/atlas-v2-app/`
+
+**Autoridade canônica:** `current/atlas-v2/`
 **URL:** <https://flpgiacomini.github.io/atlas/>
 
 ## Source of truth
