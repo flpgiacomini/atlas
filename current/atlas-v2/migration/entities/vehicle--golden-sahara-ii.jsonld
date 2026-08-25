@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Golden Sahara II (1956), selecionado pelo Atlas por sua possível contribuição histórica em TEC, SOC, DES. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Custom car experimental desenvolvido por Jim Street e George Barris como plataforma para sistemas eletrônicos, com comandos inspirados em aeronaves, frenagem automática por sensores e pneus translúcidos iluminados da Goodyear. Sua relevância está na apresentação pública de automação e interfaces, não em autonomia equivalente à atual.",
   "externalIds": [
     {
       "id": "97e53383-d5c3-7cf9-933e-f4e07deeff64",
@@ -26,10 +26,19 @@
       "SOC",
       "DES"
     ],
+    "curation_batch": "C02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c02-golden-sahara-ii",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "700d401c-e835-7999-8618-9153ed28efa7"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 75
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 75,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Golden Sahara II",
   "names": [],

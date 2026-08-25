@@ -72,6 +72,66 @@
         {"locator": "páginas 20–24", "text": "O W12 Nardò empregava motor W de 5.998 cm³ e 600 PS em um programa dedicado a recordes de alta velocidade."},
         {"locator": "páginas 20–24", "text": "A segunda campanha registrou média de 322,891 km/h em 24 horas e ampliou a série de recordes internacionais."}
       ]
+    },
+    {
+      "id": "atlas:curation-review:c02-phantom-corsair",
+      "candidateId": "atlas:vehicle:phantom-corsair",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "O exemplar e sua autoria estão documentados institucionalmente, mas a fonte localizada não demonstra transferência técnica ou influência histórica suficiente para promoção editorial.",
+      "sourceIds": ["atlas:source:national-automobile-museum-vehicle-inventory-1938-phantom-corsair-experimental"],
+      "assertions": [
+        {"locator": "Vehicle Inventory", "text": "O National Automobile Museum identifica o objeto como 1938 Phantom Corsair Experimental, cupê de seis passageiros."},
+        {"locator": "Vehicle Inventory", "text": "O inventário associa o automóvel a Bohman & Schwartz e Heinz, mas não documenta impacto técnico posterior."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c02-schlorwagen",
+      "candidateId": "atlas:vehicle:schlorwagen",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Experimento aerodinâmico documentado pela instituição sucessora da AVA, relevante para narrar eficiência, forma veicular e os limites de estabilidade lateral.",
+      "sourceIds": ["atlas:source:german-aerospace-center-dlr-getting-the-gottingen-egg-rolling"],
+      "assertions": [
+        {"locator": "Getting the Göttingen Egg rolling", "text": "A AVA encarregou Karl Schlör e Ludewig do protótipo, transferido ao instituto no fim de 1938."},
+        {"locator": "Getting the Göttingen Egg rolling", "text": "O modelo em escala integral registrou coeficiente aerodinâmico 0,186, enquanto a suscetibilidade a vento lateral permaneceu uma limitação importante."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c02-norman-timbs-special",
+      "candidateId": "atlas:vehicle:norman-timbs-special",
+      "decision": "retain-catalog",
+      "reviewedAt": "2026-08-25",
+      "rationale": "A fonte museológica confirma autoria e natureza do one-off, porém data o automóvel em 1947, em conflito com o registro legado de 1948; a promoção aguarda resolução documental explícita.",
+      "sourceIds": ["atlas:source:newfields-indianapolis-museum-of-art-newfields-annual-report-20142015-dream-cars"],
+      "assertions": [
+        {"locator": "Dream Cars", "text": "O relatório Newfields identifica o Norman Timbs Special como automóvel de 1947 projetado e construído por Timbs para uso pessoal."},
+        {"locator": "registro legado Atlas", "text": "O candidato legado registra 1948; a divergência de data foi preservada, sem escolha silenciosa."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c02-nardi-bisiluro",
+      "candidateId": "atlas:vehicle:nardi-bisiluro",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "One-off de competição com arquitetura assimétrica e cadeia autoral bem documentadas, capaz de sustentar narrativa sobre experimentação nas 24 Horas de Le Mans.",
+      "sourceIds": ["atlas:source:museo-nazionale-scienza-e-tecnologia-leonardo-da-vinci-bisiluro-damolnar-1955"],
+      "assertions": [
+        {"locator": "BISILURO DaMolNar 1955", "text": "Mario Damonte, Carlo Mollino e Enrico Nardi conceberam o Bisiluro para as 24 Horas de Le Mans de 1955."},
+        {"locator": "BISILURO DaMolNar 1955", "text": "A carroceria de dois volumes foi executada por Motto, com motor Giannini de 734 cm³; o veículo foi doado ao museu em 1965."}
+      ]
+    },
+    {
+      "id": "atlas:curation-review:c02-golden-sahara-ii",
+      "candidateId": "atlas:vehicle:golden-sahara-ii",
+      "decision": "promote-editorial",
+      "reviewedAt": "2026-08-25",
+      "rationale": "Plataforma demonstradora relevante para a história de interfaces eletrônicas, sensores e pneus translúcidos iluminados, descrita sem anacronismo como autonomia moderna.",
+      "sourceIds": ["atlas:source:goodyear-world-premiere-of-restored-golden-sahara-ii"],
+      "assertions": [
+        {"locator": "World premiere of restored Golden Sahara II", "text": "Jim Street e George Barris desenvolveram o Golden Sahara II como plataforma de sistemas eletrônicos, com comandos inspirados em aeronaves."},
+        {"locator": "World premiere of restored Golden Sahara II", "text": "A Goodyear documenta pneus translúcidos iluminados e frenagem automática acionada por sensores, além da restauração apresentada em 2019."}
+      ]
     }
   ]
 }

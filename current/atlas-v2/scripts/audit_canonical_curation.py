@@ -105,8 +105,15 @@ def build() -> tuple[dict, dict]:
                     raise ValueError(f"review/entity level mismatch: {item['canonicalId']}")
                 if metadata.get("curation_review") != review["id"]:
                     raise ValueError(f"review/entity trace mismatch: {item['canonicalId']}")
-                if review["decision"] == "promote-editorial" and metadata.get("promotion_state") != "approved_pending_v2_cut":
-                    raise ValueError(f"review/entity promotion mismatch: {item['canonicalId']}")
+                expected_state = (
+                    "approved_pending_v2_cut"
+                    if review["decision"] == "promote-editorial"
+                    else "retained_catalog_after_review"
+                )
+                if metadata.get("promotion_state") != expected_state:
+                    raise ValueError(f"review/entity state mismatch: {item['canonicalId']}")
+                if metadata.get("curation_decision") != review["decision"]:
+                    raise ValueError(f"review/entity decision mismatch: {item['canonicalId']}")
             else:
                 item["curationState"] = "ready-for-editorial-review" if source_backed else "needs-individual-source"
             queue.append(item)

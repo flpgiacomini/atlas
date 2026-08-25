@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Schlörwagen (1939), selecionado pelo Atlas por sua possível contribuição histórica em TEC, DES. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Protótipo aerodinâmico desenvolvido na Aerodynamische Versuchsanstalt de Göttingen por Karl Schlör e construído pela Gebrüder Ludewig sobre base Mercedes-Benz 170 H. Medições registraram coeficiente de arrasto médio de 0,186, mas a sensibilidade a ventos laterais expôs o conflito entre eficiência aerodinâmica e estabilidade.",
   "externalIds": [
     {
       "id": "ecb634c1-ff90-7a30-bb35-36d04711b5f5",
@@ -25,10 +25,19 @@
       "TEC",
       "DES"
     ],
+    "curation_batch": "C02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c02-schlorwagen",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "cd355973-4d32-7836-b880-806afc2a9217"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 60
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 60,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Schlörwagen",
   "names": [],

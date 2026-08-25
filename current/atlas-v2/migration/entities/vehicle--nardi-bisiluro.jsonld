@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Nardi Bisiluro (1955), selecionado pelo Atlas por sua possível contribuição histórica em ESP, DES, TEC. O verbete aguarda documentação individual antes da promoção editorial.",
+  "description": "Protótipo assimétrico criado para as 24 Horas de Le Mans de 1955 por Mario Damonte, Carlo Mollino e Enrico Nardi. Dois volumes separados organizavam motor e transmissão de um lado e piloto e combustível do outro; o experimento competiu, abandonou após incidente aerodinâmico e foi doado ao museu em 1965.",
   "externalIds": [
     {
       "id": "ce1ae27a-106e-712b-88c6-bccb7704ffd0",
@@ -26,10 +26,19 @@
       "DES",
       "TEC"
     ],
+    "curation_batch": "C02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c02-nardi-bisiluro",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "b81afe17-ccda-73c9-9ace-6a9a03754986"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "priority_editorial",
-    "relevance_score": 75
+    "promotion_state": "approved_pending_v2_cut",
+    "relevance_score": 75,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25"
   },
   "name": "Nardi Bisiluro",
   "names": [],

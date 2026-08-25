@@ -1718,6 +1718,19 @@
       "verifiedAt": "2026-08-20"
     },
     {
+      "id": "atlas:source:national-automobile-museum-vehicle-inventory-1938-phantom-corsair-experimental",
+      "language": "en",
+      "legacyId": "560ffa90-6bd0-7fb3-bbc7-57781e5cdc1f",
+      "notes": "Fonte individual da revisão CP19 C02.",
+      "publisher": "National Automobile Museum",
+      "sourceType": "museum_inventory",
+      "title": "Vehicle Inventory — 1938 Phantom Corsair Experimental",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://automuseum.org/vehicle-inventory/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "externalIds": {
         "wikidata": "Q457634"
       },
@@ -1800,6 +1813,19 @@
       "type": "Source",
       "url": "https://www.fulda.com/en_gb/consumer/about-us/history.html",
       "verifiedAt": "2026-08-20"
+    },
+    {
+      "id": "atlas:source:goodyear-world-premiere-of-restored-golden-sahara-ii",
+      "language": "ja",
+      "legacyId": "700d401c-e835-7999-8618-9153ed28efa7",
+      "notes": "Fonte individual da revisão CP19 C02.",
+      "publisher": "Goodyear",
+      "sourceType": "corporate_archive",
+      "title": "World premiere of restored Golden Sahara II",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.goodyear.co.jp/press/2019/0318-213702.html",
+      "verifiedAt": "2026-08-25"
     },
     {
       "externalIds": {
@@ -1933,6 +1959,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:newfields-indianapolis-museum-of-art-newfields-annual-report-20142015-dream-cars",
+      "language": "en",
+      "legacyId": "aded6503-3d84-7d2e-8be1-830154c928c4",
+      "notes": "Fonte individual da revisão CP19 C02.",
+      "publisher": "Newfields / Indianapolis Museum of Art",
+      "sourceType": "museum_report",
+      "title": "Newfields Annual Report 2014–2015 — Dream Cars",
+      "trust": "institutional",
+      "type": "Source",
+      "url": "https://discovernewfields.org/application/files/5715/0811/4381/MAR_AnnualReport_2014-2015.pdf",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:porsche-newsroom-porsche-congratulates-richard-attwood-on-his-85th-birthday",
       "language": "en",
       "legacyId": "af6ace3b-6c72-7398-849e-41c6f8a23e69",
@@ -1961,6 +2000,19 @@
       "type": "Source",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5546759.json",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:museo-nazionale-scienza-e-tecnologia-leonardo-da-vinci-bisiluro-damolnar-1955",
+      "language": "it",
+      "legacyId": "b81afe17-ccda-73c9-9ace-6a9a03754986",
+      "notes": "Fonte individual da revisão CP19 C02.",
+      "publisher": "Museo Nazionale Scienza e Tecnologia Leonardo da Vinci",
+      "sourceType": "museum_catalog",
+      "title": "BISILURO DaMolNar 1955",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.museoscienza.org/besrv/sites/default/files/2025-06/Cartrella_Stampa_fatte_misura.pdf",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:technisches-museum-wien-the-second-marcus-car",
@@ -2000,6 +2052,19 @@
       "type": "Source",
       "url": "https://www.cadillac.com/collectors-showcase/heritage",
       "verifiedAt": "2026-08-19"
+    },
+    {
+      "id": "atlas:source:german-aerospace-center-dlr-getting-the-gottingen-egg-rolling",
+      "language": "en",
+      "legacyId": "cd355973-4d32-7836-b880-806afc2a9217",
+      "notes": "Fonte individual da revisão CP19 C02.",
+      "publisher": "German Aerospace Center (DLR)",
+      "sourceType": "research_archive",
+      "title": "Getting the Göttingen Egg rolling",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.dlr.de/en/media/publications/magazines/all-digital-magazines/dlr-magazine-173/getting-the-gottingen-egg-rolling",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:general-motors-firebird-i",

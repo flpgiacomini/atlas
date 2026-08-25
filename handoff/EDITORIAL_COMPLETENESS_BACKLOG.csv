@@ -820,7 +820,7 @@ P3,complete,100,bb1d2bc3-35c8-72bf-9fea-2d4dbab26aff,vehicle,General Motors Fire
 P3,complete,100,35068d25-95de-78fb-b9fc-d1fc330ae7de,vehicle,General Motors Firebird II,39,5,4,5,
 P3,complete,100.0,c1838100-cf70-7b21-af9b-c7f3b4d0c87f,vehicle,General Motors Firebird III,44,4,4,4,
 P3,complete,100,1bbc16a8-8105-7a30-935d-f7de85c2a64d,vehicle,General Motors Le Sabre,49,5,4,5,
-P4,catalog,0,89059f3f-ef61-7779-9a0c-fafd1348acde,vehicle,Golden Sahara II,28,0,4,0,editorial_promotion_required
+P4,catalog,0,89059f3f-ef61-7779-9a0c-fafd1348acde,vehicle,Golden Sahara II,46,0,4,0,editorial_promotion_required
 P3,complete,100,01a01016-ea4d-7042-b42b-c2bb234aaefa,vehicle,Gurgel BR-800,80,6,4,6,
 P2,substantial,82.5,01a01016-ea4d-7d20-929c-5ce568072960,vehicle,Gurgel Supermini,41,2,4,2,connected_statements<4
 P3,complete,100.0,06506223-7aac-7b53-927e-2834b286a38d,vehicle,Hippomobile de Lenoir,34,4,4,4,
@@ -849,10 +849,10 @@ P2,substantial,82.5,01a01031-ec59-7d90-8c59-f5743880a8e0,vehicle,Mercedes 28/95 
 P2,substantial,91.2,01a0102f-074e-745f-bc7b-ac0ea2e96217,vehicle,Mercedes 35 hp,79,3,4,3,connected_statements<4
 P4,catalog,0,ee49f8c4-ccde-7b75-95b2-cf4e03ff54a6,vehicle,Mercedes-Benz C 111,55,1,4,1,editorial_promotion_required
 P4,catalog,0,d03fd2c7-45fc-7319-bb11-7d70baa55cae,vehicle,Mercedes-Benz F 100,28,0,4,0,editorial_promotion_required
-P4,catalog,0,b2685b96-30f6-7d38-8422-2ebae3777f92,vehicle,Nardi Bisiluro,27,0,4,0,editorial_promotion_required
+P4,catalog,0,b2685b96-30f6-7d38-8422-2ebae3777f92,vehicle,Nardi Bisiluro,50,0,4,0,editorial_promotion_required
 P3,complete,100.0,01a01028-544f-762b-99d2-dfb915467c7a,vehicle,Nissan LEAF — First Generation,80,4,4,4,
 P4,catalog,0,4f25d8e6-31a3-7095-a2fb-6a9d1a69a605,vehicle,Nissan MID4,26,0,4,0,editorial_promotion_required
-P4,catalog,0,c28a7c39-b7d9-7b55-95d0-eb3f015c694f,vehicle,Norman Timbs Special,27,0,4,0,editorial_promotion_required
+P4,catalog,0,c28a7c39-b7d9-7b55-95d0-eb3f015c694f,vehicle,Norman Timbs Special,52,0,4,0,editorial_promotion_required
 P3,complete,100.0,01a0102a-57ec-75f6-9e5f-339e8aeb29d7,vehicle,Oldsmobile Curved Dash,78,4,4,4,
 P2,substantial,82.5,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,57,2,4,2,connected_statements<4
 P3,complete,100.0,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,40,4,4,4,
@@ -862,7 +862,7 @@ P4,catalog,0,ad9b826c-e9fd-7eb2-a099-8e8c87161edf,vehicle,Peugeot Quasar,27,0,4,
 P3,complete,100,01a0102a-57e7-7769-9156-f74a67742b6a,vehicle,Peugeot Type 1,86,5,4,5,
 P2,substantial,82.5,01a0102a-57e7-72af-aff7-faa78d8ea08c,vehicle,Peugeot Type 2,55,2,4,2,connected_statements<4
 P2,substantial,82.5,01a0102a-57e7-76fd-b8d0-8018ce990f8a,vehicle,Peugeot Type 3,43,2,4,2,connected_statements<4
-P4,catalog,0,605dad95-756c-7a8a-ab23-6dca93e9fc1d,vehicle,Phantom Corsair,26,0,4,0,editorial_promotion_required
+P4,catalog,0,605dad95-756c-7a8a-ab23-6dca93e9fc1d,vehicle,Phantom Corsair,46,0,4,0,editorial_promotion_required
 P2,substantial,82.5,01a01016-ea4d-748e-b4e3-a3da0660676a,vehicle,Porsche 356,45,2,4,2,connected_statements<4
 P3,complete,100,01a01016-ea4d-7c5e-960d-4d958efad5e7,vehicle,Porsche 911,39,12,4,12,
 P3,complete,100.0,01a01016-ea4d-7b71-98b3-3f71f2a0da5b,vehicle,Porsche 911 G-Series,79,4,4,4,
@@ -893,7 +893,7 @@ P2,substantial,82.5,01a01031-ec56-74ed-85cd-19f117781c2c,vehicle,Renault Type AK
 P2,substantial,82.5,01a0102a-57ea-763a-bea0-28163288f550,vehicle,Rolls-Royce 10 H.P.,49,2,4,2,connected_statements<4
 P3,complete,100.0,01a01030-3316-7ce0-8ad2-168f6bfb1f42,vehicle,Rolls-Royce 40/50 H.P.,79,4,4,4,
 P2,substantial,82.5,01a0102a-57ea-7e52-9674-4056cba82d9b,vehicle,Royce 10 H.P.,56,2,4,2,connected_statements<4
-P4,catalog,0,5e36e5a4-f8dc-7523-b795-1129725b31f5,vehicle,Schlörwagen,25,0,4,0,editorial_promotion_required
+P4,catalog,0,5e36e5a4-f8dc-7523-b795-1129725b31f5,vehicle,Schlörwagen,43,0,4,0,editorial_promotion_required
 P2,substantial,91.2,573faa70-3562-7632-b052-8b85bd262412,vehicle,Segundo automóvel de Marcus,33,3,4,3,connected_statements<4
 P3,complete,100.0,01a01028-5459-7ef2-af1e-84a6202bba0a,vehicle,Subaru BRZ,80,4,4,4,
 P3,complete,100,01a01028-5448-7307-a972-6d98594b95a7,vehicle,Tata Nano,84,5,4,5,
