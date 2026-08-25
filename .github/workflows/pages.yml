@@ -20,25 +20,20 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: current/atlas-web
+        working-directory: current/atlas-v2-app
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
-          cache-dependency-path: current/atlas-web/package-lock.json
+          cache-dependency-path: current/atlas-v2-app/package-lock.json
       - run: npm ci
-      - run: npm run build
-      - run: python scripts/validate_dist.py
-      - run: python scripts/validate_links.py
+      - run: npm run verify
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: current/atlas-web/dist
+          path: current/atlas-v2-app/dist
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4

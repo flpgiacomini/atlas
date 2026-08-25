@@ -1,7 +1,7 @@
-# Atlas v2 — workspace paralelo
+# Atlas v2 — autoridade canônica
 
-Este diretório contém a nova autoridade documental do Atlas. O site público em
-`current/atlas-web` permanece intocado até o corte formal da v2.
+Este diretório contém a autoridade documental do Atlas v2. A aplicação pública
+é construída por `current/atlas-v2-app` e publicada pelo workflow de Pages.
 
 O estado de cada fase, seus passos e checkpoints estão consolidados em
 [`docs/IMPLEMENTATION_PANORAMA.md`](docs/IMPLEMENTATION_PANORAMA.md).
@@ -41,9 +41,8 @@ em `current/atlas-web` é modificado.
 perda de entidades, nomes, identificadores externos, statements, claims,
 fontes, evidências, predicates, redirects ou identificadores legados.
 
-O resultado atual é um **candidato de migração**. A v1 continua pública e o
-SQLite só poderá ser retirado depois da revisão editorial e do gate formal de
-corte da v2.
+O resultado é a migração canônica aprovada no CP20. O SQLite da v1 permanece
+somente como legado rastreável e não participa do build público da v2.
 
 ## Bundles de publicação
 
