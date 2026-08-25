@@ -186,7 +186,7 @@ inventário geográfico.
 
 ## Fase 9 — QA, corte e lançamento
 
-Estado: **CP20 concluído; corte público CP21 pendente**.
+Estado: **concluída; v2 publicada**.
 
 Entregue: build em `/atlas/`, deploy automatizado e validação Chrome desktop do
 protótipo. A v1 continua preservada.
@@ -195,8 +195,8 @@ Checkpoint final: seis percursos aprovados, busca, links, performance, SEO,
 Chrome e smoke mobile verdes; mídia, cartografia e evidência sem bloqueios; URL
 pública verificada após deploy.
 
-Restante: publicar o candidato v2, executar smoke público, registrar o relatório,
-criar tag e release.
+Restante: nenhum gate de lançamento. A continuidade passa a ser manutenção e
+expansão editorial versionada.
 
 ## Caminho crítico e checkpoints seguintes
 
@@ -243,14 +243,16 @@ criar tag e release.
 6. **CP20 — QA candidato: concluído.** Semântica, visualizações, Chrome,
    mobile, carregamento progressivo e orçamento inicial passaram. Ver
    [`CANDIDATE_CHECKPOINT_20_COMPLETE.md`](CANDIDATE_CHECKPOINT_20_COMPLETE.md).
-7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
+7. **CP21 — Corte v2: concluído.** Pages, smoke público, relatório, tag e
+   release v2.0.0. Ver
+   [`RELEASE_CHECKPOINT_21_COMPLETE.md`](RELEASE_CHECKPOINT_21_COMPLETE.md).
 
 O **C18 está concluído**: 522/522 decisões passaram pela auditoria transversal,
 sem colisões ou falhas, e cada entidade agora declara o limite narrativo que a
 evidência permite. Ver
 [`CURATION_CHECKPOINT_19_C18_COMPLETE.md`](CURATION_CHECKPOINT_19_C18_COMPLETE.md).
 
-O caminho crítico agora é somente **CP21 — corte v2**. Infraestrutura, seis
+O caminho crítico de lançamento está **encerrado**. Infraestrutura, seis
 percursos, cartografia, mídia e curadoria canônica estão congelados. A próxima
 fase pode enriquecer narrativas e visualizações, mas não pode converter
 identidade de catálogo em fato histórico sem nova evidência versionada.

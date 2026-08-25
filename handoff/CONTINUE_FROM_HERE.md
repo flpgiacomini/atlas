@@ -1,20 +1,22 @@
-# ATLAS — continuidade após v1.0.0
+# ATLAS — continuidade após v2.0.0
 
-> Plano corrente: `handoff/ATLAS_COMPLETION_MASTER_PLAN.md`. Este arquivo é apenas um resumo de continuidade; contagens e checkpoints devem seguir o plano mestre e `CURRENT_STATUS.md`.
-
-O A9.7 está concluído. A continuidade é manutenção de produto e conteúdo, sem reabrir a arquitetura static-first.
+O ciclo de lançamento da v2 está concluído. A continuidade é manutenção e
+expansão editorial sem reabrir silenciosamente os contratos aprovados.
 
 ## Fluxo normal
 
-1. Editar o SQLite canônico em `current/atlas-web/data/atlas.sqlite` por processo reproduzível.
-2. Executar `npm ci` e `npm run verify` em `current/atlas-web/`.
-3. Confirmar cobertura de mídia, geografia e links.
-4. Fazer pull request; o GitHub Actions valida e publica o Pages a partir de `main`.
+1. Alterar documentos em `current/atlas-v2/content/` com fonte e evidência.
+2. Regenerar e validar migração/bundles pelos scripts de `current/atlas-v2/`.
+3. Executar `npm ci` e `npm run verify` em `current/atlas-v2-app/`.
+4. Revisar mídia, geografia, narrativa e comportamento temporal afetados.
+5. Enviar ao `main`; CI valida e Pages publica automaticamente.
 
-## Próximas versões
+## Regras preservadas
 
-- `v1.x`: novas informações históricas, fontes, correções editoriais e qualidade.
-- Alterações no modelo semântico congelado exigem change control.
-- Não introduzir backend, banco paralelo, graph database ou autenticação sem novo gate arquitetural.
+- Não recolocar SQLite no build público.
+- Não inferir geografia ou fatos em runtime.
+- Não publicar afirmações ou mídia sem fonte/licença.
+- Preservar conflitos documentais como conflitos.
+- Mudanças incompatíveis nos schemas exigem ADR e nova versão principal.
 
 URL pública: <https://flpgiacomini.github.io/atlas/>
