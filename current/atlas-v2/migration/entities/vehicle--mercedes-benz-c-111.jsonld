@@ -55,14 +55,15 @@
       "GEN"
     ],
     "curation_batch": "C01",
+    "curation_decision": "promote-editorial",
     "curation_review": "atlas:curation-review:c01-mercedes-benz-c-111",
     "curation_reviewed_at": "2026-08-25",
     "description_basis_statement_ids": [
       "0a139040-fdf9-744c-bb18-cbb49dcf9313"
     ],
     "editorial_batch": "MASS01",
-    "editorial_level": "editorial",
-    "promotion_state": "approved",
+    "editorial_level": "catalog",
+    "promotion_state": "approved_pending_v2_cut",
     "relevance_score": 75,
     "verification_batch": "R01",
     "verification_state": "source_backed",

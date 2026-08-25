@@ -32,8 +32,9 @@ def main() -> None:
             if metadata.get("verification_state") != "source_backed":
                 raise ValueError(f"candidate lacks source-backed verification: {name}")
             metadata.update({
-                "editorial_level": "editorial",
-                "promotion_state": "approved",
+                "editorial_level": "catalog",
+                "promotion_state": "approved_pending_v2_cut",
+                "curation_decision": "promote-editorial",
                 "curation_review": review,
                 "curation_batch": "C01",
                 "curation_reviewed_at": "2026-08-25",

@@ -98,11 +98,15 @@ def build() -> tuple[dict, dict]:
         if row["decision"] == "cataloged":
             if review:
                 item["curationState"] = "resolved-" + review["decision"]
-                expected_level = "editorial" if review["decision"] == "promote-editorial" else "catalog"
+                # The public v1 reads the same transitional SQLite database. Approved
+                # v2 promotions remain catalog-level there until the single v2 cut.
+                expected_level = "catalog"
                 if item["editorialLevel"] != expected_level:
                     raise ValueError(f"review/entity level mismatch: {item['canonicalId']}")
                 if metadata.get("curation_review") != review["id"]:
                     raise ValueError(f"review/entity trace mismatch: {item['canonicalId']}")
+                if review["decision"] == "promote-editorial" and metadata.get("promotion_state") != "approved_pending_v2_cut":
+                    raise ValueError(f"review/entity promotion mismatch: {item['canonicalId']}")
             else:
                 item["curationState"] = "ready-for-editorial-review" if source_backed else "needs-individual-source"
             queue.append(item)

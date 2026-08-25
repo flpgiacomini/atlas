@@ -3,7 +3,7 @@
 ## Resultado
 
 Os seis candidatos que entraram no CP19 com fonte individual e evidência mínima
-foram revisados e promovidos ao nível editorial:
+foram revisados e aprovados para promoção editorial na v2:
 
 1. Aston Martin Bulldog;
 2. Chrysler Turbine Car;
@@ -40,7 +40,8 @@ não elimina a exibição do nível de corroboração nem autoriza extrapolaçõ
 - `scripts/audit_canonical_curation.py`: valida decisão, fontes, afirmações,
   identidade, estado editorial e ausência de revisão órfã;
 - `current/atlas-web/scripts/promote_catalog_c01.py`: promoção reproduzível no
-  banco canônico legado durante a transição;
+  banco canônico legado durante a transição. O nível permanece `catalog` e o
+  estado é `approved_pending_v2_cut`, preservando a v1 até o corte único;
 - migração JSON-LD, checksums e bundles regenerados deterministicamente.
 
 ## Métricas
