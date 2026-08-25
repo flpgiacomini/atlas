@@ -155,7 +155,12 @@ editoriais, complementando os percursos específicos já existentes. A cobertura
 é agora contínua de 1769 a 1973, totaliza **205/258** e deixa **53** capítulos
 no backlog.
 
-Restante: executar os lotes visuais V05–V06, priorizando evidência histórica,
+Lote V05 concluído: **26/26** capítulos de 1974–1999 receberam cinco quadros
+editoriais sobre eficiência, eletrônica, segurança, globalização e hibridização.
+A cobertura é contínua de 1769 a 1999, totaliza **231/258** e deixa **27**
+capítulos no backlog.
+
+Restante: executar o lote visual V06, priorizando evidência histórica,
 mapas explicativos e ilustrações originais onde houver função narrativa.
 
 ## Fase 8 — Automação e qualidade documental

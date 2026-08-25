@@ -28,6 +28,11 @@ PERIOD_MEDIA = (
     (1958, 1963, "atlas:media:v04-safety-globalization-1958-1963-editorial"),
     (1964, 1969, "atlas:media:v04-performance-1964-1969-editorial"),
     (1970, 1973, "atlas:media:v04-regulation-energy-1970-1973-editorial"),
+    (1974, 1979, "atlas:media:v05-efficiency-1974-1979-editorial"),
+    (1980, 1985, "atlas:media:v05-electronics-aero-1980-1985-editorial"),
+    (1986, 1990, "atlas:media:v05-safety-awd-1986-1990-editorial"),
+    (1991, 1995, "atlas:media:v05-global-platforms-1991-1995-editorial"),
+    (1996, 1999, "atlas:media:v05-hybrid-digital-1996-1999-editorial"),
 )
 
 
