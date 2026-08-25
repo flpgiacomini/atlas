@@ -23,6 +23,11 @@ PERIOD_MEDIA = (
     (1930, 1934, "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"),
     (1935, 1939, "atlas:media:v03-popular-modernity-1935-1939-editorial"),
     (1940, 1945, "atlas:media:v03-war-disruption-1940-1945-editorial"),
+    (1946, 1951, "atlas:media:v04-reconstruction-1946-1951-editorial"),
+    (1952, 1957, "atlas:media:v04-export-racing-1952-1957-editorial"),
+    (1958, 1963, "atlas:media:v04-safety-globalization-1958-1963-editorial"),
+    (1964, 1969, "atlas:media:v04-performance-1964-1969-editorial"),
+    (1970, 1973, "atlas:media:v04-regulation-energy-1970-1973-editorial"),
 )
 
 

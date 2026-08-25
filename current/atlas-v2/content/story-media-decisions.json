@@ -1773,80 +1773,99 @@
     },
     {
       "entity": "atlas:event:holden-prototype-no-1-hand-built-in-detroit",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-reconstruction-1946-1951-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1946
     },
     {
       "entity": "atlas:event:ferrari-125-s-debut-1947",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-reconstruction-1946-1951-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1947
     },
     {
       "entity": "atlas:brand:porsche",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-reconstruction-1946-1951-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1948
     },
     {
       "entity": "atlas:event:civilian-reconstruction-1945-1949",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-reconstruction-1946-1951-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1949
     },
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-reconstruction-1946-1951-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1950
     },
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-reconstruction-1946-1951-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1951
     },
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-export-racing-1952-1957-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1952
     },
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-export-racing-1952-1957-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1953
     },
     {
       "entity": "atlas:event:motorsport-technology-transfer-1951-1954",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-export-racing-1952-1957-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1954
     },
     {
       "entity": "atlas:event:1955-innovation-and-consequence",
       "mediaIds": [
-        "atlas:media:motorsport-1955-editorial-hero"
+        "atlas:media:motorsport-1955-editorial-hero",
+        "atlas:media:v04-export-racing-1952-1957-editorial"
       ],
       "mode": "licensed-media",
       "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
@@ -1855,24 +1874,29 @@
     },
     {
       "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-export-racing-1952-1957-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1956
     },
     {
       "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-export-racing-1952-1957-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1957
     },
     {
       "entity": "atlas:event:first-hongqi-sedan-completed",
       "mediaIds": [
-        "atlas:media:volvo-pv544-1958-editorial-hero"
+        "atlas:media:volvo-pv544-1958-editorial-hero",
+        "atlas:media:v04-safety-globalization-1958-1963-editorial"
       ],
       "mode": "licensed-media",
       "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
@@ -1881,40 +1905,49 @@
     },
     {
       "entity": "atlas:event:mass-mobility-and-safety-1956-1959",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-safety-globalization-1958-1963-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1959
     },
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-safety-globalization-1958-1963-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1960
     },
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-safety-globalization-1958-1963-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1961
     },
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-safety-globalization-1958-1963-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1962
     },
     {
       "entity": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
       "mediaIds": [
-        "atlas:media:porsche-901-frankfurt-editorial-hero"
+        "atlas:media:porsche-901-frankfurt-editorial-hero",
+        "atlas:media:v04-safety-globalization-1958-1963-editorial"
       ],
       "mode": "licensed-media",
       "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
@@ -1923,41 +1956,51 @@
     },
     {
       "entity": "atlas:event:design-performance-expansion-1960-1965",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-performance-1964-1969-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1964
     },
     {
       "entity": "atlas:event:presentation-of-first-porsche-911-targa",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-performance-1964-1969-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1965
     },
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-performance-1964-1969-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1966
     },
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-performance-1964-1969-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1967
     },
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-performance-1964-1969-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1968
     },
@@ -1965,7 +2008,8 @@
       "entity": "atlas:vehicle:porsche-917",
       "mediaIds": [
         "atlas:media:porsche-917-editorial-hero",
-        "atlas:media:zuffenhausen-le-mans-editorial-map"
+        "atlas:media:zuffenhausen-le-mans-editorial-map",
+        "atlas:media:v04-performance-1964-1969-editorial"
       ],
       "mode": "licensed-media",
       "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
@@ -1974,33 +2018,41 @@
     },
     {
       "entity": "atlas:event:safety-regulation-and-innovation-1966-1970",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-regulation-energy-1970-1973-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1970
     },
     {
       "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-regulation-energy-1970-1973-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1971
     },
     {
       "entity": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-regulation-energy-1970-1973-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1972
     },
     {
       "entity": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v04-regulation-energy-1970-1973-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1973
     },

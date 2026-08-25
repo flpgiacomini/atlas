@@ -150,7 +150,12 @@ editoriais sobre reconstrução, design, crise, mobilidade popular e interrupç�
 da produção civil. A cobertura total avançou para **181/258** e o backlog caiu
 para **77**.
 
-Restante: executar os lotes visuais V04–V06, priorizando evidência histórica,
+Lote V04 concluído: **28/28** capítulos de 1946–1973 receberam cinco quadros
+editoriais, complementando os percursos específicos já existentes. A cobertura
+é agora contínua de 1769 a 1973, totaliza **205/258** e deixa **53** capítulos
+no backlog.
+
+Restante: executar os lotes visuais V05–V06, priorizando evidência histórica,
 mapas explicativos e ilustrações originais onde houver função narrativa.
 
 ## Fase 8 — Automação e qualidade documental
