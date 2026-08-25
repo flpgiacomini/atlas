@@ -33,6 +33,12 @@ PERIOD_MEDIA = (
     (1986, 1990, "atlas:media:v05-safety-awd-1986-1990-editorial"),
     (1991, 1995, "atlas:media:v05-global-platforms-1991-1995-editorial"),
     (1996, 1999, "atlas:media:v05-hybrid-digital-1996-1999-editorial"),
+    (2000, 2004, "atlas:media:v06-hybrid-interfaces-2000-2004-editorial"),
+    (2005, 2009, "atlas:media:v06-crisis-restructuring-2005-2009-editorial"),
+    (2010, 2014, "atlas:media:v06-electric-scale-2010-2014-editorial"),
+    (2015, 2019, "atlas:media:v06-software-platforms-2015-2019-editorial"),
+    (2020, 2024, "atlas:media:v06-pandemic-policy-2020-2024-editorial"),
+    (2025, 2026, "atlas:media:v06-market-uncertainty-2025-2026-editorial"),
 )
 
 

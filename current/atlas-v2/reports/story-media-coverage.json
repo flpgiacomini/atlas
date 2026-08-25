@@ -1,6 +1,6 @@
 {
   "backlog": {
-    "specificStoryMedia": 27
+    "specificStoryMedia": 0
   },
   "coverage": {
     "missingDecisionYears": [],
@@ -235,9 +235,7 @@
       1996,
       1997,
       1998,
-      1999
-    ],
-    "textLedYears": [
+      1999,
       2000,
       2001,
       2002,
@@ -265,19 +263,20 @@
       2024,
       2025,
       2026
-    ]
+    ],
+    "textLedYears": []
   },
   "errors": [],
-  "reportSha256": "fc3eddceedc125781129626de7d1a5b24e419ec3f88e9ed7d87762e606ed10fb",
+  "reportSha256": "7801d58198c1fcdbd0790ed74d14574d0e7fe7c3e914963546bedaf326e7fa75",
   "status": "PASS",
   "summary": {
     "chapters": 258,
-    "chaptersTextLed": 27,
+    "chaptersTextLed": 0,
     "chaptersWithDecision": 258,
-    "chaptersWithSpecificMedia": 231,
+    "chaptersWithSpecificMedia": 258,
     "chaptersWithoutDecision": 0,
     "externalHotlinks": 0,
-    "mediaItems": 32
+    "mediaItems": 38
   },
   "version": "1.0.0"
 }

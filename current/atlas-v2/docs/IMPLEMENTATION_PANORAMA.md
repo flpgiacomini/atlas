@@ -116,7 +116,7 @@ narrativa–evidência bloco a bloco.
 
 ## Fase 7 — Mídia e direção visual
 
-Estado: **fundação concluída; cobertura editorial em expansão por lotes**.
+Estado: **concluída — cobertura editorial contínua de 1769 a 2026**.
 
 Entregue: linguagem de revista automotiva e cobertura técnica de imagem para
 todos os capítulos por seis ativos temáticos.
@@ -160,8 +160,15 @@ editoriais sobre eficiência, eletrônica, segurança, globalização e hibridiz
 A cobertura é contínua de 1769 a 1999, totaliza **231/258** e deixa **27**
 capítulos no backlog.
 
-Restante: executar o lote visual V06, priorizando evidência histórica,
-mapas explicativos e ilustrações originais onde houver função narrativa.
+Lote V06 concluído: **27/27** capítulos de 2000–2026 receberam seis quadros
+editoriais sobre hibridização, crise, eletrificação, software, pandemia,
+política industrial e o cenário contemporâneo. A cobertura agora é contínua
+de 1769 a 2026, totaliza **258/258**, com **38** itens licenciados no manifesto,
+zero hotlinks e **nenhum capítulo no backlog**. Ver
+[`MEDIA_CHECKPOINT_18_V06_COMPLETE.md`](MEDIA_CHECKPOINT_18_V06_COMPLETE.md).
+
+Restante nesta fase: **nenhum gate de cobertura**. O refinamento visual futuro
+é incremental e não reabre o CP18.
 
 ## Fase 8 — Automação e qualidade documental
 
@@ -210,11 +217,13 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    [`CARTOGRAPHY_CHECKPOINT_17_PROGRESS_04.md`](CARTOGRAPHY_CHECKPOINT_17_PROGRESS_04.md).
    O encerramento está em
    [`CARTOGRAPHY_CHECKPOINT_17_COMPLETE.md`](CARTOGRAPHY_CHECKPOINT_17_COMPLETE.md).
-4. **CP18 — Mídia editorial:** manifesto, arquivos locais e licenças por história.
+4. **CP18 — Mídia editorial: concluído.** As 258 histórias têm decisão e mídia
+   local licenciada, com cobertura contínua de 1769 a 2026 e backlog zero. Ver
+   [`MEDIA_CHECKPOINT_18_V06_COMPLETE.md`](MEDIA_CHECKPOINT_18_V06_COMPLETE.md).
 5. **CP19 — Curadoria canônica:** resolver 522 registros catalográficos.
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
-O caminho crítico agora é cartografia e mídia → curadoria canônica → QA. A
-infraestrutura publica e os seis percursos estão fechados; falta converter cobertura ampla em história
-verificável, visualmente específica e espacialmente coerente.
+O caminho crítico agora é **curadoria canônica → QA → corte v2**. Infraestrutura,
+seis percursos, cartografia e cobertura de mídia estão fechados; falta resolver
+os candidatos catalográficos e elevar a verificação semântica antes do candidato.

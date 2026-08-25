@@ -2318,217 +2318,271 @@
     },
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-hybrid-interfaces-2000-2004-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2000
     },
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-hybrid-interfaces-2000-2004-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2001
     },
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-hybrid-interfaces-2000-2004-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2002
     },
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-hybrid-interfaces-2000-2004-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2003
     },
     {
       "entity": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-hybrid-interfaces-2000-2004-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2004
     },
     {
       "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-crisis-restructuring-2005-2009-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2005
     },
     {
       "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-crisis-restructuring-2005-2009-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2006
     },
     {
       "entity": "atlas:event:performance-control-and-electric-strategy-2005-2007",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-crisis-restructuring-2005-2009-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2007
     },
     {
       "entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-crisis-restructuring-2005-2009-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2008
     },
     {
       "entity": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-crisis-restructuring-2005-2009-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2009
     },
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-electric-scale-2010-2014-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2010
     },
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-electric-scale-2010-2014-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2011
     },
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-electric-scale-2010-2014-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2012
     },
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-electric-scale-2010-2014-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2013
     },
     {
       "entity": "atlas:event:electric-scale-and-modular-industry-2010-2014",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-electric-scale-2010-2014-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2014
     },
     {
       "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-software-platforms-2015-2019-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2015
     },
     {
       "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-software-platforms-2015-2019-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2016
     },
     {
       "entity": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-software-platforms-2015-2019-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2017
     },
     {
       "entity": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-software-platforms-2015-2019-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2018
     },
     {
       "entity": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-software-platforms-2015-2019-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2019
     },
     {
       "entity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-pandemic-policy-2020-2024-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2020
     },
     {
       "entity": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-pandemic-policy-2020-2024-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2021
     },
     {
       "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-pandemic-policy-2020-2024-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2022
     },
     {
       "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-pandemic-policy-2020-2024-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2023
     },
     {
       "entity": "atlas:event:policy-scale-and-electric-trade-2022-2024",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-pandemic-policy-2020-2024-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2024
     },
     {
       "entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-market-uncertainty-2025-2026-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2025
     },
     {
       "entity": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v06-market-uncertainty-2025-2026-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 2026
     }
