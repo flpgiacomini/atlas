@@ -1,6 +1,6 @@
 {
   "backlog": {
-    "specificStoryMedia": 104
+    "specificStoryMedia": 77
   },
   "coverage": {
     "missingDecisionYears": [],
@@ -155,12 +155,6 @@
       1916,
       1917,
       1918,
-      1955,
-      1958,
-      1963,
-      1969
-    ],
-    "textLedYears": [
       1919,
       1920,
       1921,
@@ -188,6 +182,12 @@
       1943,
       1944,
       1945,
+      1955,
+      1958,
+      1963,
+      1969
+    ],
+    "textLedYears": [
       1946,
       1947,
       1948,
@@ -268,16 +268,16 @@
     ]
   },
   "errors": [],
-  "reportSha256": "ffd8672628aff3efe41896b823fce3f115ae250b28f04257c5bfe6f92c69a560",
+  "reportSha256": "cc8cb0965fcc86ffcff7f7f45660262a23646a158c6897a56d4a07aca80c62f5",
   "status": "PASS",
   "summary": {
     "chapters": 258,
-    "chaptersTextLed": 104,
+    "chaptersTextLed": 77,
     "chaptersWithDecision": 258,
-    "chaptersWithSpecificMedia": 154,
+    "chaptersWithSpecificMedia": 181,
     "chaptersWithoutDecision": 0,
     "externalHotlinks": 0,
-    "mediaItems": 17
+    "mediaItems": 22
   },
   "version": "1.0.0"
 }

@@ -145,7 +145,12 @@ Lote V02 concluído: **33/33** capítulos de 1886–1918 receberam cinco novos
 quadros editoriais, preservando as mídias específicas de 1886 e 1908. A
 cobertura total avançou para **154/258** e o backlog caiu para **104**.
 
-Restante: executar os lotes visuais V03–V06, priorizando evidência histórica,
+Lote V03 concluído: **27/27** capítulos de 1919–1945 receberam cinco quadros
+editoriais sobre reconstrução, design, crise, mobilidade popular e interrupção
+da produção civil. A cobertura total avançou para **181/258** e o backlog caiu
+para **77**.
+
+Restante: executar os lotes visuais V04–V06, priorizando evidência histórica,
 mapas explicativos e ilustrações originais onde houver função narrativa.
 
 ## Fase 8 — Automação e qualidade documental

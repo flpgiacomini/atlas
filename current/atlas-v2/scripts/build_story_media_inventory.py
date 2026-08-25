@@ -18,6 +18,11 @@ PERIOD_MEDIA = (
     (1904, 1907, "atlas:media:v02-industry-1904-1907-editorial"),
     (1909, 1913, "atlas:media:v02-mass-production-1909-1913-editorial"),
     (1914, 1918, "atlas:media:v02-war-mobilization-1914-1918-editorial"),
+    (1919, 1924, "atlas:media:v03-reconstruction-1919-1924-editorial"),
+    (1925, 1929, "atlas:media:v03-design-racing-1925-1929-editorial"),
+    (1930, 1934, "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"),
+    (1935, 1939, "atlas:media:v03-popular-modernity-1935-1939-editorial"),
+    (1940, 1945, "atlas:media:v03-war-disruption-1940-1945-editorial"),
 )
 
 

@@ -1503,217 +1503,271 @@
     },
     {
       "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-reconstruction-1919-1924-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1919
     },
     {
       "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-reconstruction-1919-1924-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1920
     },
     {
       "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-reconstruction-1919-1924-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1921
     },
     {
       "entity": "atlas:event:austin-seven-mass-motoring-1922",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-reconstruction-1919-1924-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1922
     },
     {
       "entity": "atlas:event:first-le-mans-24-hours-1923",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-reconstruction-1919-1924-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1923
     },
     {
       "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-reconstruction-1919-1924-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1924
     },
     {
       "entity": "atlas:event:citroen-type-a-expansion-1919-1925",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-design-racing-1925-1929-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1925
     },
     {
       "entity": "atlas:event:end-of-ford-model-t-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-design-racing-1925-1929-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1926
     },
     {
       "entity": "atlas:event:end-of-ford-model-t-production",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-design-racing-1925-1929-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1927
     },
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-design-racing-1925-1929-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1928
     },
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-design-racing-1925-1929-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1929
     },
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1930
     },
     {
       "entity": "atlas:event:nurburgring-opening-weekend",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1931
     },
     {
       "entity": "atlas:event:citroen-traction-avant-presentation",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1932
     },
     {
       "entity": "atlas:event:citroen-traction-avant-presentation",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1933
     },
     {
       "entity": "atlas:event:citroen-traction-avant-presentation",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-crisis-aerodynamics-1930-1934-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1934
     },
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-popular-modernity-1935-1939-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1935
     },
     {
       "entity": "atlas:event:toyoda-model-aa-debut",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-popular-modernity-1935-1939-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1936
     },
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-popular-modernity-1935-1939-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1937
     },
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-popular-modernity-1935-1939-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1938
     },
     {
       "entity": "atlas:event:toyota-industrial-foundation-1935-1939",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-popular-modernity-1935-1939-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1939
     },
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-war-disruption-1940-1945-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1940
     },
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-war-disruption-1940-1945-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1941
     },
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-war-disruption-1940-1945-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1942
     },
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-war-disruption-1940-1945-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1943
     },
     {
       "entity": "atlas:event:wartime-industrial-conversion-1940-1945",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-war-disruption-1940-1945-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1944
     },
     {
       "entity": "atlas:event:civilian-reconstruction-1945-1949",
-      "mediaIds": [],
-      "mode": "text-led",
-      "rationale": "Composição textual temporária; mídia específica ainda exige seleção, licença e revisão editorial.",
+      "mediaIds": [
+        "atlas:media:v03-war-disruption-1940-1945-editorial"
+      ],
+      "mode": "licensed-media",
+      "rationale": "Mídia editorial específica, local e licenciada disponível para esta história.",
       "reviewedAt": "2026-08-24",
       "year": 1945
     },
