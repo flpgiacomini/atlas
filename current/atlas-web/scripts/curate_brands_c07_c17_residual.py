@@ -69,15 +69,15 @@ def main() -> None:
             else:
                 source_id = audit_source_id
                 description = (f"Marca preservada no catálogo do recorte {metadata.get('region_cluster', 'regional')}. "
-                               "A campanha C07–C17 não obteve correspondência individual inequívoca; nenhuma contribuição "
-                               "histórica adicional é publicada até nova evidência.")
+                               "A campanha C07–C17 não obteve evidência individual suficiente para demonstrar sua "
+                               "contribuição histórica; nenhuma alegação adicional é publicada até nova evidência.")
                 decision, state = "retain-catalog", "retained_catalog_after_review"
                 retained += 1
             metadata.update({
                 "curation_batch": batch, "curation_review": f"atlas:curation-review:{batch.lower()}-{slug(name)}",
                 "curation_reviewed_at": "2026-08-26", "curation_decision": decision,
                 "curation_source_ids": [source_id], "editorial_level": "catalog", "promotion_state": state,
-                "verification_state": "source_backed" if decision == "promote-editorial" else "identity_unresolved_retained",
+                "verification_state": "source_backed" if decision == "promote-editorial" else "contribution_unverified_retained",
                 "verified_at": "2026-08-26", "research_match_method": "manual-wikidata" if name in MANUAL else "unresolved-retention",
             })
             db.execute("UPDATE entity SET description=?,metadata_json=?,updated_at=? WHERE id=?",

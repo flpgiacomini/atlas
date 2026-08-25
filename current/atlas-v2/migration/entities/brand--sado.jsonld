@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Marca preservada no catálogo do recorte Escandinávia Benelux Ibéria. A campanha C07–C17 não obteve correspondência individual inequívoca; nenhuma contribuição histórica adicional é publicada até nova evidência.",
+  "description": "Marca preservada no catálogo do recorte Escandinávia Benelux Ibéria. A campanha C07–C17 não obteve evidência individual suficiente para demonstrar sua contribuição histórica; nenhuma alegação adicional é publicada até nova evidência.",
   "externalIds": [
     {
       "id": "6e22d2fe-9970-7374-8361-86b1cb6a86eb",
@@ -32,7 +32,7 @@
     "region_cluster": "Escandinávia Benelux Ibéria",
     "relevance_score": 35,
     "research_match_method": "unresolved-retention",
-    "verification_state": "identity_unresolved_retained",
+    "verification_state": "contribution_unverified_retained",
     "verified_at": "2026-08-26",
     "wave": "M10"
   },

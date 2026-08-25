@@ -42,7 +42,7 @@ def main() -> None:
             "decision": decision, "reviewedAt": metadata["curation_reviewed_at"],
             "rationale": ("A triagem de relevância é confirmada por uma correspondência automotiva individual; a promoção não autoriza extrapolar além da fonte."
                           if decision == "promote-editorial" else
-                          "A pesquisa não obteve correspondência individual inequívoca. O registro é preservado no catálogo sem publicar novas alegações históricas."),
+                          "A pesquisa não obteve evidência individual suficiente da contribuição histórica. O registro é preservado no catálogo sem publicar novas alegações."),
             "sourceIds": [source["id"]],
             "assertions": [
                 {"locator": locator, "text": assertion},

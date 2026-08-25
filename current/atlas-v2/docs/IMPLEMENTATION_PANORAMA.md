@@ -241,6 +241,12 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
-O caminho crítico agora é **C18 → QA → corte v2**. Infraestrutura,
-seis percursos, cartografia e cobertura de mídia estão fechados; falta resolver
-os candidatos catalográficos e elevar a verificação semântica antes do candidato.
+O **C18 está concluído**: 522/522 decisões passaram pela auditoria transversal,
+sem colisões ou falhas, e cada entidade agora declara o limite narrativo que a
+evidência permite. Ver
+[`CURATION_CHECKPOINT_19_C18_COMPLETE.md`](CURATION_CHECKPOINT_19_C18_COMPLETE.md).
+
+O caminho crítico agora é **CP20 → QA → corte v2**. Infraestrutura, seis
+percursos, cartografia, mídia e curadoria canônica estão congelados. A próxima
+fase pode enriquecer narrativas e visualizações, mas não pode converter
+identidade de catálogo em fato histórico sem nova evidência versionada.

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Marca preservada no catálogo do recorte Itália esportiva e artesanal. A campanha C07–C17 não obteve correspondência individual inequívoca; nenhuma contribuição histórica adicional é publicada até nova evidência.",
+  "description": "Marca preservada no catálogo do recorte Itália esportiva e artesanal. A campanha C07–C17 não obteve evidência individual suficiente para demonstrar sua contribuição histórica; nenhuma alegação adicional é publicada até nova evidência.",
   "externalIds": [
     {
       "id": "8b4ce243-8a95-7a29-8b25-a389d7d2e7fe",
@@ -32,7 +32,7 @@
     "region_cluster": "Itália esportiva e artesanal",
     "relevance_score": 35,
     "research_match_method": "unresolved-retention",
-    "verification_state": "identity_unresolved_retained",
+    "verification_state": "contribution_unverified_retained",
     "verified_at": "2026-08-26",
     "wave": "M04"
   },
