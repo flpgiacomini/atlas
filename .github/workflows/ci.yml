@@ -39,6 +39,7 @@ jobs:
       - run: python scripts/audit_journey_coverage.py --check
       - run: python scripts/audit_story_media.py --check
       - run: python scripts/audit_spatial_inventory.py --check
+      - run: python scripts/audit_canonical_curation.py --check
       - run: python scripts/migrate_sqlite.py
       - run: python scripts/validate_migration.py
       - name: Assert deterministic migration

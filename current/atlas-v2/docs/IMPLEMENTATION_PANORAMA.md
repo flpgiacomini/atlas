@@ -220,7 +220,11 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 4. **CP18 — Mídia editorial: concluído.** As 258 histórias têm decisão e mídia
    local licenciada, com cobertura contínua de 1769 a 2026 e backlog zero. Ver
    [`MEDIA_CHECKPOINT_18_V06_COMPLETE.md`](MEDIA_CHECKPOINT_18_V06_COMPLETE.md).
-5. **CP19 — Curadoria canônica:** resolver 522 registros catalográficos.
+5. **CP19 — Curadoria canônica: inventário concluído.** A fila foi reconciliada
+   como 482 marcas e 40 candidatos históricos: 6 estão prontos para revisão
+   editorial e 516 ainda exigem fonte individual. Não há IDs duplicados nem
+   entidades migradas ausentes. Ver
+   [`CURATION_CHECKPOINT_19_INVENTORY.md`](CURATION_CHECKPOINT_19_INVENTORY.md).
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
