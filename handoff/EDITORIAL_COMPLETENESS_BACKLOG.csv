@@ -1,507 +1,507 @@
 priority,status,score,entity_id,entity_type,canonical_name,description_words,connected_statements,required_statements,evidenced_statements,gaps
-P4,catalog,0,6d5e318e-3832-7ae2-abaa-c5866fff8e17,brand,AC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,48c22476-ce51-78e5-8367-47b4460f5c1b,brand,ACE EV,30,0,3,0,editorial_promotion_required
-P4,catalog,0,588f2614-edf1-7c8e-862a-af900aea1175,brand,AMC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e05504e5-c761-738a-b9c2-3299f1594917,brand,ASA,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6ae5b2ad-4c19-71b6-8ca4-46a942f53b00,brand,ASA Argentina,30,0,3,0,editorial_promotion_required
-P4,catalog,0,4cb0b60d-0cc7-76e3-97ea-5722f2745466,brand,ATS,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1d291b9a-fa72-7216-8eab-6c4c2200cdfb,brand,Abarth,29,0,3,0,editorial_promotion_required
-P4,catalog,0,01dd24a4-4e9a-7ec6-bdba-f8f3d163177f,brand,Acadian,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6e4fe7d3-5da3-7561-ae49-6911b4878d26,brand,Acura,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d0f8cc33-fb34-7978-84fc-e3d9a42e745e,brand,Adamastor,29,0,3,0,editorial_promotion_required
-P4,catalog,0,909634e0-4b6d-760b-9c54-34baa32f6108,brand,Adamo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,15a34202-09d4-7e1b-ac97-f72605b04b8f,brand,Adler,29,0,3,0,editorial_promotion_required
-P4,catalog,0,311f415e-b5cb-71f9-a033-4787bfea33f9,brand,Aero,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b3254f50-2e17-72a8-901e-5834d8a224a6,brand,Africar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c2a04dac-dd58-73af-ada2-de2acc4d33e9,brand,Agrale,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f1f17920-3b07-71df-9e55-d200545afee9,brand,Aichi Machine Industry,31,0,3,0,editorial_promotion_required
-P4,catalog,0,c148a737-225f-7e11-913d-01a196cf1e00,brand,Aion,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b16bf2fc-cc2d-77b2-9a6a-592732b71359,brand,Aito,29,0,3,0,editorial_promotion_required
-P4,catalog,0,145e4590-c5e2-784f-9650-46b8673e4089,brand,Aiways,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3fd5f098-11e6-7de8-904e-42c5a09945c5,brand,Aleko,29,0,3,0,editorial_promotion_required
+P4,catalog,0,6d5e318e-3832-7ae2-abaa-c5866fff8e17,brand,AC,38,0,3,0,editorial_promotion_required
+P4,catalog,0,48c22476-ce51-78e5-8367-47b4460f5c1b,brand,ACE EV,39,0,3,0,editorial_promotion_required
+P4,catalog,0,588f2614-edf1-7c8e-862a-af900aea1175,brand,AMC,37,0,3,0,editorial_promotion_required
+P4,catalog,0,e05504e5-c761-738a-b9c2-3299f1594917,brand,ASA,40,0,3,0,editorial_promotion_required
+P4,catalog,0,6ae5b2ad-4c19-71b6-8ca4-46a942f53b00,brand,ASA Argentina,25,0,3,0,editorial_promotion_required
+P4,catalog,0,4cb0b60d-0cc7-76e3-97ea-5722f2745466,brand,ATS,40,0,3,0,editorial_promotion_required
+P4,catalog,0,1d291b9a-fa72-7216-8eab-6c4c2200cdfb,brand,Abarth,40,0,3,0,editorial_promotion_required
+P4,catalog,0,01dd24a4-4e9a-7ec6-bdba-f8f3d163177f,brand,Acadian,37,0,3,0,editorial_promotion_required
+P4,catalog,0,6e4fe7d3-5da3-7561-ae49-6911b4878d26,brand,Acura,37,0,3,0,editorial_promotion_required
+P4,catalog,0,d0f8cc33-fb34-7978-84fc-e3d9a42e745e,brand,Adamastor,26,0,3,0,editorial_promotion_required
+P4,catalog,0,909634e0-4b6d-760b-9c54-34baa32f6108,brand,Adamo,25,0,3,0,editorial_promotion_required
+P4,catalog,0,15a34202-09d4-7e1b-ac97-f72605b04b8f,brand,Adler,38,0,3,0,editorial_promotion_required
+P4,catalog,0,311f415e-b5cb-71f9-a033-4787bfea33f9,brand,Aero,38,0,3,0,editorial_promotion_required
+P4,catalog,0,b3254f50-2e17-72a8-901e-5834d8a224a6,brand,Africar,39,0,3,0,editorial_promotion_required
+P4,catalog,0,c2a04dac-dd58-73af-ada2-de2acc4d33e9,brand,Agrale,38,0,3,0,editorial_promotion_required
+P4,catalog,0,f1f17920-3b07-71df-9e55-d200545afee9,brand,Aichi Machine Industry,24,0,3,0,editorial_promotion_required
+P4,catalog,0,c148a737-225f-7e11-913d-01a196cf1e00,brand,Aion,39,0,3,0,editorial_promotion_required
+P4,catalog,0,b16bf2fc-cc2d-77b2-9a6a-592732b71359,brand,Aito,39,0,3,0,editorial_promotion_required
+P4,catalog,0,145e4590-c5e2-784f-9650-46b8673e4089,brand,Aiways,39,0,3,0,editorial_promotion_required
+P4,catalog,0,3fd5f098-11e6-7de8-904e-42c5a09945c5,brand,Aleko,40,0,3,0,editorial_promotion_required
 P3,complete,100.0,4adad7ab-dbca-706a-a9a6-4189d43e3753,brand,Alfa Romeo,37,3,3,3,
-P4,catalog,0,d9e7dcf7-803c-75ee-80ed-c3b6d170f2e9,brand,Allard,29,0,3,0,editorial_promotion_required
-P4,catalog,0,15d6c1b3-ef3f-765b-96b9-df562f9cb580,brand,Almac,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e9f3d5a4-d10e-713a-bf7c-fba1fbd38a76,brand,Alvis,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0879cf3c-b32f-7714-9568-528dd441cdb7,brand,Amilcar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,df3c902e-8931-76fc-ac9a-f76e1b57b3b1,brand,Anasagasti,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1644f252-3442-7c4f-a2b9-9e5427e7cdcc,brand,Anziel,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3de169f8-251d-729f-b431-1e462fb90926,brand,Apal,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1165cdd4-a423-72d7-a30e-f12638959b09,brand,Aptera,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d7e33c43-598d-7ba0-9a43-f4be0241d762,brand,Arcfox,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1510c3a4-b9a8-7860-8361-ff33465bfebb,brand,Ariel,29,0,3,0,editorial_promotion_required
-P4,catalog,0,45ab78f7-6618-74be-b6ba-653791dfa090,brand,Armstrong Siddeley,30,0,3,0,editorial_promotion_required
-P4,catalog,0,e8471690-b9ba-7f7d-8f55-447f71191d0b,brand,Arrival,29,0,3,0,editorial_promotion_required
-P4,catalog,0,df0e4464-fc69-7528-96b1-ddddc06bec1c,brand,Asia Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,c04c5641-b3fb-7b23-9934-a6ce4093b62d,brand,Aspark,29,0,3,0,editorial_promotion_required
-P4,catalog,0,93481707-6265-771f-bdbf-a94d2ffb95f2,brand,Aspid,29,0,3,0,editorial_promotion_required
-P4,catalog,0,546a6134-978a-76c2-9089-9a04fd4e77b7,brand,Aston Martin,30,1,3,1,editorial_promotion_required
-P4,catalog,0,a697eb32-1d8f-76a0-a296-afc127e98025,brand,Ather,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e77d8a98-06cb-76e0-b7a4-818b4ff269bf,brand,Auburn,29,0,3,0,editorial_promotion_required
+P4,catalog,0,d9e7dcf7-803c-75ee-80ed-c3b6d170f2e9,brand,Allard,38,0,3,0,editorial_promotion_required
+P4,catalog,0,15d6c1b3-ef3f-765b-96b9-df562f9cb580,brand,Almac,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e9f3d5a4-d10e-713a-bf7c-fba1fbd38a76,brand,Alvis,38,0,3,0,editorial_promotion_required
+P4,catalog,0,0879cf3c-b32f-7714-9568-528dd441cdb7,brand,Amilcar,38,0,3,0,editorial_promotion_required
+P4,catalog,0,df3c902e-8931-76fc-ac9a-f76e1b57b3b1,brand,Anasagasti,38,0,3,0,editorial_promotion_required
+P4,catalog,0,1644f252-3442-7c4f-a2b9-9e5427e7cdcc,brand,Anziel,26,0,3,0,editorial_promotion_required
+P4,catalog,0,3de169f8-251d-729f-b431-1e462fb90926,brand,Apal,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1165cdd4-a423-72d7-a30e-f12638959b09,brand,Aptera,37,0,3,0,editorial_promotion_required
+P4,catalog,0,d7e33c43-598d-7ba0-9a43-f4be0241d762,brand,Arcfox,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1510c3a4-b9a8-7860-8361-ff33465bfebb,brand,Ariel,38,0,3,0,editorial_promotion_required
+P4,catalog,0,45ab78f7-6618-74be-b6ba-653791dfa090,brand,Armstrong Siddeley,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e8471690-b9ba-7f7d-8f55-447f71191d0b,brand,Arrival,38,0,3,0,editorial_promotion_required
+P4,catalog,0,df0e4464-fc69-7528-96b1-ddddc06bec1c,brand,Asia Motors,39,0,3,0,editorial_promotion_required
+P4,catalog,0,c04c5641-b3fb-7b23-9934-a6ce4093b62d,brand,Aspark,37,0,3,0,editorial_promotion_required
+P4,catalog,0,93481707-6265-771f-bdbf-a94d2ffb95f2,brand,Aspid,39,0,3,0,editorial_promotion_required
+P4,catalog,0,546a6134-978a-76c2-9089-9a04fd4e77b7,brand,Aston Martin,38,1,3,1,editorial_promotion_required
+P4,catalog,0,a697eb32-1d8f-76a0-a296-afc127e98025,brand,Ather,41,0,3,0,editorial_promotion_required
+P4,catalog,0,e77d8a98-06cb-76e0-b7a4-818b4ff269bf,brand,Auburn,37,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a01028-5452-7d2d-8df1-441ee5876d0f,brand,Audi,45,1,3,1,connected_statements<3
-P4,catalog,0,6414a9ad-3980-78c2-9f5c-927fc3d3dc54,brand,Aurus,29,0,3,0,editorial_promotion_required
+P4,catalog,0,6414a9ad-3980-78c2-9f5c-927fc3d3dc54,brand,Aurus,40,0,3,0,editorial_promotion_required
 P4,catalog,0,7ba9461a-6da8-7346-b030-cd7e97d9f1fa,brand,Austin,24,0,3,0,editorial_promotion_required
-P4,catalog,0,c8358283-6e88-766e-9ab5-0b6763afc0d2,brand,Austin-Healey,29,0,3,0,editorial_promotion_required
-P4,catalog,0,62611458-1c6c-7e2b-875e-8a5ec0c0b775,brand,Austro-Daimler,29,0,3,0,editorial_promotion_required
-P4,catalog,0,36208b5a-ed16-7622-b673-3d691deb2795,brand,Autech,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c103820b-7fe0-7eb8-becf-8c52552a3391,brand,Authi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4fa1fa2b-3a33-76df-840a-5f4e0437f62f,brand,Auto Union,30,0,3,0,editorial_promotion_required
-P4,catalog,0,30a402f0-027f-7110-b7b4-c3a95b9dfbd3,brand,Autoar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ce5cae62-0412-7b7c-98f0-431d3fe5f5ca,brand,Autobianchi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3d138a11-b437-7df5-9233-0be77a5ee5d2,brand,Autozam,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0e5a19d4-754e-7207-8567-5753ab2534be,brand,Avanti,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5db607bb-ca69-7a5e-9334-e26e7473e4fe,brand,Avatr,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4c8bf8d4-77a2-7a87-a2b9-2625664e4e09,brand,Avia,29,0,3,0,editorial_promotion_required
-P4,catalog,0,66f6198a-cf5f-73c6-8101-a3102bc80d38,brand,BAC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e3692289-1361-7cba-9ced-b973d120018f,brand,BAIC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,595117cd-7b25-705e-97ac-aa22a18bc53c,brand,BMW,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4c00601f-1cf8-7187-99b3-5a0cc366e70e,brand,BYD,29,0,3,0,editorial_promotion_required
-P4,catalog,0,cc7bef3a-6372-7b72-9397-7b187c194175,brand,Bahman,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f99ca332-d439-75a7-a376-530b8001f88d,brand,Bailey,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1ffc234c-ff14-7f5c-84a9-082c987e9a83,brand,Bajaj,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ed8b5282-24ac-7e46-9518-78072f653da4,brand,Ballot,29,0,3,0,editorial_promotion_required
-P4,catalog,0,65042210-404c-7b6c-b17e-67a54b82488c,brand,Bandini,29,0,3,0,editorial_promotion_required
-P4,catalog,0,86520623-11fb-70c5-bbdf-009e76b96fff,brand,Baojun,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ae6eab0c-a17e-76d6-8d8f-8173dae9fc8c,brand,Barkas,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ab732c4c-c9be-7b58-9f92-cdbeb201b6cf,brand,Bentley,29,0,3,0,editorial_promotion_required
+P4,catalog,0,c8358283-6e88-766e-9ab5-0b6763afc0d2,brand,Austin-Healey,38,0,3,0,editorial_promotion_required
+P4,catalog,0,62611458-1c6c-7e2b-875e-8a5ec0c0b775,brand,Austro-Daimler,38,0,3,0,editorial_promotion_required
+P4,catalog,0,36208b5a-ed16-7622-b673-3d691deb2795,brand,Autech,37,0,3,0,editorial_promotion_required
+P4,catalog,0,c103820b-7fe0-7eb8-becf-8c52552a3391,brand,Authi,39,0,3,0,editorial_promotion_required
+P4,catalog,0,4fa1fa2b-3a33-76df-840a-5f4e0437f62f,brand,Auto Union,38,0,3,0,editorial_promotion_required
+P4,catalog,0,30a402f0-027f-7110-b7b4-c3a95b9dfbd3,brand,Autoar,25,0,3,0,editorial_promotion_required
+P4,catalog,0,ce5cae62-0412-7b7c-98f0-431d3fe5f5ca,brand,Autobianchi,40,0,3,0,editorial_promotion_required
+P4,catalog,0,3d138a11-b437-7df5-9233-0be77a5ee5d2,brand,Autozam,37,0,3,0,editorial_promotion_required
+P4,catalog,0,0e5a19d4-754e-7207-8567-5753ab2534be,brand,Avanti,37,0,3,0,editorial_promotion_required
+P4,catalog,0,5db607bb-ca69-7a5e-9334-e26e7473e4fe,brand,Avatr,39,0,3,0,editorial_promotion_required
+P4,catalog,0,4c8bf8d4-77a2-7a87-a2b9-2625664e4e09,brand,Avia,40,0,3,0,editorial_promotion_required
+P4,catalog,0,66f6198a-cf5f-73c6-8101-a3102bc80d38,brand,BAC,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e3692289-1361-7cba-9ced-b973d120018f,brand,BAIC,39,0,3,0,editorial_promotion_required
+P4,catalog,0,595117cd-7b25-705e-97ac-aa22a18bc53c,brand,BMW,38,0,3,0,editorial_promotion_required
+P4,catalog,0,4c00601f-1cf8-7187-99b3-5a0cc366e70e,brand,BYD,39,0,3,0,editorial_promotion_required
+P4,catalog,0,cc7bef3a-6372-7b72-9397-7b187c194175,brand,Bahman,41,0,3,0,editorial_promotion_required
+P4,catalog,0,f99ca332-d439-75a7-a376-530b8001f88d,brand,Bailey,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1ffc234c-ff14-7f5c-84a9-082c987e9a83,brand,Bajaj,41,0,3,0,editorial_promotion_required
+P4,catalog,0,ed8b5282-24ac-7e46-9518-78072f653da4,brand,Ballot,38,0,3,0,editorial_promotion_required
+P4,catalog,0,65042210-404c-7b6c-b17e-67a54b82488c,brand,Bandini,40,0,3,0,editorial_promotion_required
+P4,catalog,0,86520623-11fb-70c5-bbdf-009e76b96fff,brand,Baojun,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ae6eab0c-a17e-76d6-8d8f-8173dae9fc8c,brand,Barkas,40,0,3,0,editorial_promotion_required
+P4,catalog,0,ab732c4c-c9be-7b58-9f92-cdbeb201b6cf,brand,Bentley,38,0,3,0,editorial_promotion_required
 P4,catalog,0,992b1a6f-6c76-7307-b2ee-2b15f38d95f8,brand,Benz,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2ec1f810-7827-715b-a56f-6d5379f3912d,brand,Berkeley,29,0,3,0,editorial_promotion_required
-P4,catalog,0,be240501-ae3f-710e-aaa8-c9af896183ff,brand,Bertone,29,0,3,0,editorial_promotion_required
-P4,catalog,0,67e5d433-b96c-7fa4-9cdc-aa42ad799a79,brand,Bestune,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e7b822ff-4d62-7b8f-aee3-26a36693a899,brand,Birkin,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6efe17bf-63d0-70e5-8365-cd3566c49951,brand,Biscúter,29,0,3,0,editorial_promotion_required
-P4,catalog,0,fc290f3e-d411-753c-9843-a877a2d93a2d,brand,Bizzarrini,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a1b7ee76-dcbd-7683-b73b-0f1d63be0ab0,brand,Bognor,29,0,3,0,editorial_promotion_required
-P4,catalog,0,72b3967e-aa3c-77a9-a5a2-dab051f02b89,brand,Bolwell,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b925657e-81d3-7546-a134-a19bcfb39333,brand,Bond,29,0,3,0,editorial_promotion_required
-P4,catalog,0,01409b9a-d3c4-7375-a0a5-3d8cc4d57b9a,brand,Borgward,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3c1ca735-a031-75db-992d-f172bc6b5d23,brand,Brabham Automotive,30,0,3,0,editorial_promotion_required
-P4,catalog,0,c63ba633-f1c3-73b8-ac11-5f439b6eb13f,brand,Brasinca,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bbf3469b-a97c-7bf0-bc9a-f0792bfbf8fa,brand,Bricklin,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1223e264-22d0-7752-b6ce-01fdbaaf330f,brand,Brilliance,29,0,3,0,editorial_promotion_required
-P4,catalog,0,95414431-a227-7c9f-b45b-3d64f8e5dbd9,brand,Bristol,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f22587f3-39e8-73ee-a0da-cb37165ce30f,brand,Bucci,29,0,3,0,editorial_promotion_required
-P4,catalog,0,82091a18-6aec-7d57-9241-1f68321f9fa4,brand,Buddy,29,0,3,0,editorial_promotion_required
-P4,catalog,0,69432b6a-dc21-71ce-9563-0a57780adbce,brand,Buddy Electric,30,0,3,0,editorial_promotion_required
-P4,catalog,0,ad344e68-b765-77d2-ba1f-db5a74874ef8,brand,Bufori,29,0,3,0,editorial_promotion_required
+P4,catalog,0,2ec1f810-7827-715b-a56f-6d5379f3912d,brand,Berkeley,38,0,3,0,editorial_promotion_required
+P4,catalog,0,be240501-ae3f-710e-aaa8-c9af896183ff,brand,Bertone,40,0,3,0,editorial_promotion_required
+P4,catalog,0,67e5d433-b96c-7fa4-9cdc-aa42ad799a79,brand,Bestune,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e7b822ff-4d62-7b8f-aee3-26a36693a899,brand,Birkin,8,0,3,0,editorial_promotion_required
+P4,catalog,0,6efe17bf-63d0-70e5-8365-cd3566c49951,brand,Biscúter,39,0,3,0,editorial_promotion_required
+P4,catalog,0,fc290f3e-d411-753c-9843-a877a2d93a2d,brand,Bizzarrini,40,0,3,0,editorial_promotion_required
+P4,catalog,0,a1b7ee76-dcbd-7683-b73b-0f1d63be0ab0,brand,Bognor,7,0,3,0,editorial_promotion_required
+P4,catalog,0,72b3967e-aa3c-77a9-a5a2-dab051f02b89,brand,Bolwell,39,0,3,0,editorial_promotion_required
+P4,catalog,0,b925657e-81d3-7546-a134-a19bcfb39333,brand,Bond,38,0,3,0,editorial_promotion_required
+P4,catalog,0,01409b9a-d3c4-7375-a0a5-3d8cc4d57b9a,brand,Borgward,38,0,3,0,editorial_promotion_required
+P4,catalog,0,3c1ca735-a031-75db-992d-f172bc6b5d23,brand,Brabham Automotive,39,0,3,0,editorial_promotion_required
+P4,catalog,0,c63ba633-f1c3-73b8-ac11-5f439b6eb13f,brand,Brasinca,25,0,3,0,editorial_promotion_required
+P4,catalog,0,bbf3469b-a97c-7bf0-bc9a-f0792bfbf8fa,brand,Bricklin,37,0,3,0,editorial_promotion_required
+P4,catalog,0,1223e264-22d0-7752-b6ce-01fdbaaf330f,brand,Brilliance,39,0,3,0,editorial_promotion_required
+P4,catalog,0,95414431-a227-7c9f-b45b-3d64f8e5dbd9,brand,Bristol,38,0,3,0,editorial_promotion_required
+P4,catalog,0,f22587f3-39e8-73ee-a0da-cb37165ce30f,brand,Bucci,25,0,3,0,editorial_promotion_required
+P4,catalog,0,82091a18-6aec-7d57-9241-1f68321f9fa4,brand,Buddy,37,0,3,0,editorial_promotion_required
+P4,catalog,0,69432b6a-dc21-71ce-9563-0a57780adbce,brand,Buddy Electric,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ad344e68-b765-77d2-ba1f-db5a74874ef8,brand,Bufori,41,0,3,0,editorial_promotion_required
 P3,complete,100,01a01028-5456-74cd-8e02-ff30dece0237,brand,Bugatti,94,5,3,5,
 P2,substantial,76.7,ab6e603d-e65c-7ce3-8501-2be111f36e20,brand,Buick,39,1,3,1,connected_statements<3
-P4,catalog,0,2228501a-49a9-71ca-ace4-c8a3788fdd35,brand,Burton,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a2b681a8-3c0b-746d-978b-442d896d9255,brand,CBT,29,0,3,0,editorial_promotion_required
+P4,catalog,0,2228501a-49a9-71ca-ace4-c8a3788fdd35,brand,Burton,7,0,3,0,editorial_promotion_required
+P4,catalog,0,a2b681a8-3c0b-746d-978b-442d896d9255,brand,CBT,25,0,3,0,editorial_promotion_required
 P2,substantial,88.3,01a01030-3319-7f50-a974-c3181fd95e9c,brand,Cadillac,46,2,3,2,connected_statements<3
-P4,catalog,0,14b7410a-23ed-7cbe-be6e-4a43e8c6a8fd,brand,Canoo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a466d4de-e967-70a8-88f9-b36fb1802159,brand,Caresto,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3c91a71a-c0cb-74df-b4cb-96ce6ba55b0a,brand,Carver,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ca5f9b29-3af0-74a3-8fe6-672c0e3f9b5d,brand,Caterham,29,0,3,0,editorial_promotion_required
-P4,catalog,0,467eb086-499d-7c61-a8b2-db5f862f000f,brand,Chamonix,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2a2fb4b6-e2b3-75f6-a058-1a3dffd3a81f,brand,Changan,29,0,3,0,editorial_promotion_required
-P4,catalog,0,81321c60-08ec-73cb-97c8-cffc426b4285,brand,Checker,29,0,3,0,editorial_promotion_required
-P4,catalog,0,db29f510-3226-7f43-9558-35cd0049211c,brand,Chenard-Walcker,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e99d00e2-f550-7fa4-bb70-786f87a9954a,brand,Chery,29,0,3,0,editorial_promotion_required
+P4,catalog,0,14b7410a-23ed-7cbe-be6e-4a43e8c6a8fd,brand,Canoo,37,0,3,0,editorial_promotion_required
+P4,catalog,0,a466d4de-e967-70a8-88f9-b36fb1802159,brand,Caresto,39,0,3,0,editorial_promotion_required
+P4,catalog,0,3c91a71a-c0cb-74df-b4cb-96ce6ba55b0a,brand,Carver,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ca5f9b29-3af0-74a3-8fe6-672c0e3f9b5d,brand,Caterham,38,0,3,0,editorial_promotion_required
+P4,catalog,0,467eb086-499d-7c61-a8b2-db5f862f000f,brand,Chamonix,38,0,3,0,editorial_promotion_required
+P4,catalog,0,2a2fb4b6-e2b3-75f6-a058-1a3dffd3a81f,brand,Changan,39,0,3,0,editorial_promotion_required
+P4,catalog,0,81321c60-08ec-73cb-97c8-cffc426b4285,brand,Checker,37,0,3,0,editorial_promotion_required
+P4,catalog,0,db29f510-3226-7f43-9558-35cd0049211c,brand,Chenard-Walcker,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e99d00e2-f550-7fa4-bb70-786f87a9954a,brand,Chery,39,0,3,0,editorial_promotion_required
 P2,substantial,76.7,04964a08-0f19-7d5d-9170-66fc7de2c8f1,brand,Chevrolet,39,1,3,1,connected_statements<3
-P4,catalog,0,7317aea1-0a9c-7bc0-ad55-af252d50e553,brand,Chinkara,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4a4d3296-5b86-73c9-af61-e3850ed9579e,brand,Chrysler,29,1,3,1,editorial_promotion_required
-P4,catalog,0,eefb410d-ec1c-7493-b14b-d57d417ffd18,brand,Cisitalia,29,0,3,0,editorial_promotion_required
+P4,catalog,0,7317aea1-0a9c-7bc0-ad55-af252d50e553,brand,Chinkara,41,0,3,0,editorial_promotion_required
+P4,catalog,0,4a4d3296-5b86-73c9-af61-e3850ed9579e,brand,Chrysler,37,1,3,1,editorial_promotion_required
+P4,catalog,0,eefb410d-ec1c-7493-b14b-d57d417ffd18,brand,Cisitalia,40,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a010d9-28c2-7096-b44e-46cb4d0c6ad7,brand,Citroën,46,1,3,1,connected_statements<3
-P4,catalog,0,6a9fd106-4dde-77cd-aa97-a63298517851,brand,Cizeta,29,0,3,0,editorial_promotion_required
+P4,catalog,0,6a9fd106-4dde-77cd-aa97-a63298517851,brand,Cizeta,40,0,3,0,editorial_promotion_required
 P4,catalog,0,cda95ce3-b714-71ce-9604-d99063fc8bde,brand,Clément-Bayard,23,0,3,0,editorial_promotion_required
-P4,catalog,0,d0537ec7-fb5e-7ac6-ac99-7fb30302135c,brand,Comarth,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e0d80250-ac3e-7af6-b64a-8a1655907428,brand,Continental,29,0,3,0,editorial_promotion_required
-P4,catalog,0,449dec8c-2c6d-7d78-8e7f-fc0af2fa09fe,brand,Cony,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a97bc884-184e-7603-94b0-3b409f4ca258,brand,Cord,29,0,3,0,editorial_promotion_required
-P4,catalog,0,91d1f974-9f5a-7558-a670-292b645b04a9,brand,Corre La Licorne,31,0,3,0,editorial_promotion_required
-P4,catalog,0,645aed31-df67-76f9-bc2c-d8ebbd644a8b,brand,Crespi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,eeb81324-3491-7ebb-81eb-5d45dce59950,brand,Crosley,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d7aac2e7-d986-7003-bafa-958d7b88f9ea,brand,Cupra,29,0,3,0,editorial_promotion_required
-P4,catalog,0,028a329e-24bc-757f-96f7-9359aa0fe9d7,brand,Czinger,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d31acfb1-1b0d-71aa-b5c0-0d3c7b4576a5,brand,DAF,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f08ccedb-40a5-7eab-9072-adc80f3f20ca,brand,DC Avanti,30,0,3,0,editorial_promotion_required
-P4,catalog,0,a43a244f-7176-7535-9a2c-06025e0daa81,brand,DKW,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c794a29e-99d2-7998-bfd5-160bcc0cbca8,brand,DR Automobiles,30,0,3,0,editorial_promotion_required
-P4,catalog,0,447a9766-0d4b-7a1d-83ed-ae69be77b838,brand,Dacia,29,0,3,0,editorial_promotion_required
-P4,catalog,0,60a988af-35df-7508-bc64-dbc61e641476,brand,Dacon,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e70a1b13-322e-7455-a7d9-945876cbffc8,brand,Daewoo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ee177876-ac4a-7c60-b4da-5711afe95288,brand,Daihatsu,29,0,3,0,editorial_promotion_required
+P4,catalog,0,d0537ec7-fb5e-7ac6-ac99-7fb30302135c,brand,Comarth,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e0d80250-ac3e-7af6-b64a-8a1655907428,brand,Continental,37,0,3,0,editorial_promotion_required
+P4,catalog,0,449dec8c-2c6d-7d78-8e7f-fc0af2fa09fe,brand,Cony,24,0,3,0,editorial_promotion_required
+P4,catalog,0,a97bc884-184e-7603-94b0-3b409f4ca258,brand,Cord,37,0,3,0,editorial_promotion_required
+P4,catalog,0,91d1f974-9f5a-7558-a670-292b645b04a9,brand,Corre La Licorne,38,0,3,0,editorial_promotion_required
+P4,catalog,0,645aed31-df67-76f9-bc2c-d8ebbd644a8b,brand,Crespi,38,0,3,0,editorial_promotion_required
+P4,catalog,0,eeb81324-3491-7ebb-81eb-5d45dce59950,brand,Crosley,37,0,3,0,editorial_promotion_required
+P4,catalog,0,d7aac2e7-d986-7003-bafa-958d7b88f9ea,brand,Cupra,39,0,3,0,editorial_promotion_required
+P4,catalog,0,028a329e-24bc-757f-96f7-9359aa0fe9d7,brand,Czinger,37,0,3,0,editorial_promotion_required
+P4,catalog,0,d31acfb1-1b0d-71aa-b5c0-0d3c7b4576a5,brand,DAF,39,0,3,0,editorial_promotion_required
+P4,catalog,0,f08ccedb-40a5-7eab-9072-adc80f3f20ca,brand,DC Avanti,41,0,3,0,editorial_promotion_required
+P4,catalog,0,a43a244f-7176-7535-9a2c-06025e0daa81,brand,DKW,38,0,3,0,editorial_promotion_required
+P4,catalog,0,c794a29e-99d2-7998-bfd5-160bcc0cbca8,brand,DR Automobiles,40,0,3,0,editorial_promotion_required
+P4,catalog,0,447a9766-0d4b-7a1d-83ed-ae69be77b838,brand,Dacia,40,0,3,0,editorial_promotion_required
+P4,catalog,0,60a988af-35df-7508-bc64-dbc61e641476,brand,Dacon,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e70a1b13-322e-7455-a7d9-945876cbffc8,brand,Daewoo,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ee177876-ac4a-7c60-b4da-5711afe95288,brand,Daihatsu,37,0,3,0,editorial_promotion_required
 P4,catalog,0,bc32818f-7bb5-7197-95ae-7d96987c2c9c,brand,Daimler,25,0,3,0,editorial_promotion_required
-P4,catalog,0,03ad8907-fe54-76da-be71-473097c6be1c,brand,Daimler (British marque),31,0,3,0,editorial_promotion_required
-P4,catalog,0,72891abb-4a20-7156-a0dd-cccba04da483,brand,Dallara,29,0,3,0,editorial_promotion_required
+P4,catalog,0,03ad8907-fe54-76da-be71-473097c6be1c,brand,Daimler (British marque),38,0,3,0,editorial_promotion_required
+P4,catalog,0,72891abb-4a20-7156-a0dd-cccba04da483,brand,Dallara,40,0,3,0,editorial_promotion_required
 P4,catalog,0,c81b913e-b099-70b9-96f6-4788e4783012,brand,Darracq,20,0,3,0,editorial_promotion_required
-P4,catalog,0,d19ebe24-ad21-79f2-a953-94c6a0e58cb6,brand,Datsun,29,0,3,0,editorial_promotion_required
+P4,catalog,0,d19ebe24-ad21-79f2-a953-94c6a0e58cb6,brand,Datsun,37,0,3,0,editorial_promotion_required
 P4,catalog,0,fd9318e3-a142-732e-b351-26d544388d65,brand,De Dion-Bouton,37,0,3,0,editorial_promotion_required
-P4,catalog,0,daf3612d-a486-7034-b8bc-edd390f21d34,brand,De Tomaso,30,0,3,0,editorial_promotion_required
-P4,catalog,0,99d50fcf-3884-7eb8-85af-43eee8d517b1,brand,DeLorean,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6ee19e23-2050-7d28-b4df-76d644055cf7,brand,DeSoto,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4e64cbff-927b-770b-90e0-f50eb674b62a,brand,Deepal,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4f75022d-739b-72bf-a8f3-e2c93c5f907a,brand,Delage,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8c887ebb-33cd-77c0-a4ab-09f03cac8b6b,brand,Delahaye,29,0,3,0,editorial_promotion_required
-P4,catalog,0,90a7c59e-c142-7aa5-ac6d-0765f294ca54,brand,Denza,29,0,3,0,editorial_promotion_required
-P4,catalog,0,82710884-1543-72c9-9294-c819604c1813,brand,Devaux,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ede661ce-cddb-77b4-a13e-6c68c52f1911,brand,Dezzi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2f616290-0fd0-7808-bb3c-c1c9292da533,brand,Dodge,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3deea547-4b88-71ce-9529-eeb313819a74,brand,Dome,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2230baff-024e-739b-b451-45de6a31dd08,brand,Dongfeng,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e85641aa-2000-753c-b285-de235446671a,brand,Doninvest,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d205a1cd-0539-7ead-80ea-ac1cfb558b29,brand,Donkervoort,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c88e1fbb-6232-703e-b120-ced13ea3f2af,brand,Donnet,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c39b1de7-5897-74c0-ad64-16113ae6ce5d,brand,Duesenberg,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8afc0e76-97d1-771b-87b6-a3feba2132f5,brand,Durant,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4d2ead26-b35f-78f9-9960-6d16e7954945,brand,Eagle,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3428bbd0-1c71-7f0d-84e6-15658abdf390,brand,Edran,29,0,3,0,editorial_promotion_required
-P4,catalog,0,32057d6c-fe9c-765e-9cb0-b8764e51dfbc,brand,Edsel,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e8121814-9a82-77f1-8b08-5ae07e7510de,brand,Effa,29,0,3,0,editorial_promotion_required
-P4,catalog,0,76fe83f4-87d4-7e56-96ed-08fa4523cbeb,brand,Eicher,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a69b5d58-4a1c-763b-8f0b-b6ec62d42b38,brand,Elfin,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1d867f62-4f8b-7bec-9d20-ea46482fb001,brand,Engesa,29,0,3,0,editorial_promotion_required
-P4,catalog,0,de8f277b-9493-7b63-8d47-1a83bb820875,brand,Envemo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f141a8ea-3836-7189-a345-2adf469375f7,brand,Ermini,29,0,3,0,editorial_promotion_required
-P4,catalog,0,72317cfc-4cff-7828-bf88-9b6168d9b80c,brand,Esemka,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bdeded2c-ef65-7612-967a-95bb5915e285,brand,Eunos,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5ccb1c63-8b2c-7197-a78c-daf1a4351fdf,brand,Exeed,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ddc72757-7b16-752d-936d-41f19c49d0c3,brand,FAW,29,0,3,0,editorial_promotion_required
+P4,catalog,0,daf3612d-a486-7034-b8bc-edd390f21d34,brand,De Tomaso,40,0,3,0,editorial_promotion_required
+P4,catalog,0,99d50fcf-3884-7eb8-85af-43eee8d517b1,brand,DeLorean,37,0,3,0,editorial_promotion_required
+P4,catalog,0,6ee19e23-2050-7d28-b4df-76d644055cf7,brand,DeSoto,37,0,3,0,editorial_promotion_required
+P4,catalog,0,4e64cbff-927b-770b-90e0-f50eb674b62a,brand,Deepal,7,0,3,0,editorial_promotion_required
+P4,catalog,0,4f75022d-739b-72bf-a8f3-e2c93c5f907a,brand,Delage,38,0,3,0,editorial_promotion_required
+P4,catalog,0,8c887ebb-33cd-77c0-a4ab-09f03cac8b6b,brand,Delahaye,38,0,3,0,editorial_promotion_required
+P4,catalog,0,90a7c59e-c142-7aa5-ac6d-0765f294ca54,brand,Denza,39,0,3,0,editorial_promotion_required
+P4,catalog,0,82710884-1543-72c9-9294-c819604c1813,brand,Devaux,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ede661ce-cddb-77b4-a13e-6c68c52f1911,brand,Dezzi,26,0,3,0,editorial_promotion_required
+P4,catalog,0,2f616290-0fd0-7808-bb3c-c1c9292da533,brand,Dodge,37,0,3,0,editorial_promotion_required
+P4,catalog,0,3deea547-4b88-71ce-9529-eeb313819a74,brand,Dome,37,0,3,0,editorial_promotion_required
+P4,catalog,0,2230baff-024e-739b-b451-45de6a31dd08,brand,Dongfeng,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e85641aa-2000-753c-b285-de235446671a,brand,Doninvest,40,0,3,0,editorial_promotion_required
+P4,catalog,0,d205a1cd-0539-7ead-80ea-ac1cfb558b29,brand,Donkervoort,39,0,3,0,editorial_promotion_required
+P4,catalog,0,c88e1fbb-6232-703e-b120-ced13ea3f2af,brand,Donnet,38,0,3,0,editorial_promotion_required
+P4,catalog,0,c39b1de7-5897-74c0-ad64-16113ae6ce5d,brand,Duesenberg,37,0,3,0,editorial_promotion_required
+P4,catalog,0,8afc0e76-97d1-771b-87b6-a3feba2132f5,brand,Durant,37,0,3,0,editorial_promotion_required
+P4,catalog,0,4d2ead26-b35f-78f9-9960-6d16e7954945,brand,Eagle,37,0,3,0,editorial_promotion_required
+P4,catalog,0,3428bbd0-1c71-7f0d-84e6-15658abdf390,brand,Edran,39,0,3,0,editorial_promotion_required
+P4,catalog,0,32057d6c-fe9c-765e-9cb0-b8764e51dfbc,brand,Edsel,37,0,3,0,editorial_promotion_required
+P4,catalog,0,e8121814-9a82-77f1-8b08-5ae07e7510de,brand,Effa,38,0,3,0,editorial_promotion_required
+P4,catalog,0,76fe83f4-87d4-7e56-96ed-08fa4523cbeb,brand,Eicher,41,0,3,0,editorial_promotion_required
+P4,catalog,0,a69b5d58-4a1c-763b-8f0b-b6ec62d42b38,brand,Elfin,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1d867f62-4f8b-7bec-9d20-ea46482fb001,brand,Engesa,38,0,3,0,editorial_promotion_required
+P4,catalog,0,de8f277b-9493-7b63-8d47-1a83bb820875,brand,Envemo,25,0,3,0,editorial_promotion_required
+P4,catalog,0,f141a8ea-3836-7189-a345-2adf469375f7,brand,Ermini,27,0,3,0,editorial_promotion_required
+P4,catalog,0,72317cfc-4cff-7828-bf88-9b6168d9b80c,brand,Esemka,41,0,3,0,editorial_promotion_required
+P4,catalog,0,bdeded2c-ef65-7612-967a-95bb5915e285,brand,Eunos,24,0,3,0,editorial_promotion_required
+P4,catalog,0,5ccb1c63-8b2c-7197-a78c-daf1a4351fdf,brand,Exeed,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ddc72757-7b16-752d-936d-41f19c49d0c3,brand,FAW,39,0,3,0,editorial_promotion_required
 P2,substantial,88.3,01a0102a-57e9-79e4-82b2-6aa9183b80e1,brand,FIAT,59,2,3,2,connected_statements<3
-P4,catalog,0,38de6636-4d87-7739-9769-40124b5d09a9,brand,FN,29,0,3,0,editorial_promotion_required
-P4,catalog,0,beefde06-11b5-734f-b6b8-48315ec69ce4,brand,FNM,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6744db1d-63f9-7881-bb29-cc67c7ce00f6,brand,FPV,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6bb3aa7f-6bb9-7888-8640-7658d220b5d6,brand,FSO,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d3cd822d-fd10-721c-b24c-2b5b963be9ad,brand,Fangchengbao,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e4b3ad04-0386-7805-937f-21d2f190e152,brand,Faraday Future,30,0,3,0,editorial_promotion_required
-P4,catalog,0,a3dcfbf2-05f0-7fd3-a821-6912705ccf8a,brand,Farus,29,0,3,0,editorial_promotion_required
+P4,catalog,0,38de6636-4d87-7739-9769-40124b5d09a9,brand,FN,39,0,3,0,editorial_promotion_required
+P4,catalog,0,beefde06-11b5-734f-b6b8-48315ec69ce4,brand,FNM,25,0,3,0,editorial_promotion_required
+P4,catalog,0,6744db1d-63f9-7881-bb29-cc67c7ce00f6,brand,FPV,39,0,3,0,editorial_promotion_required
+P4,catalog,0,6bb3aa7f-6bb9-7888-8640-7658d220b5d6,brand,FSO,40,0,3,0,editorial_promotion_required
+P4,catalog,0,d3cd822d-fd10-721c-b24c-2b5b963be9ad,brand,Fangchengbao,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e4b3ad04-0386-7805-937f-21d2f190e152,brand,Faraday Future,37,0,3,0,editorial_promotion_required
+P4,catalog,0,a3dcfbf2-05f0-7fd3-a821-6912705ccf8a,brand,Farus,38,0,3,0,editorial_promotion_required
 P2,substantial,88.3,01a010d9-28c4-766e-a135-aaa1e07de128,brand,Ferrari,46,2,3,2,connected_statements<3
-P4,catalog,0,cb6b6fa9-1587-78b3-824d-88b683998f65,brand,Finch,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bf829f94-fcb2-73d8-8548-231f3073aeac,brand,Firefly,29,0,3,0,editorial_promotion_required
-P4,catalog,0,08d1dc4d-2cfb-7912-afdf-af71e89da124,brand,Fisker,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2c4fd14a-290c-7b1c-826d-0399b5457232,brand,Force Motors,30,0,3,0,editorial_promotion_required
+P4,catalog,0,cb6b6fa9-1587-78b3-824d-88b683998f65,brand,Finch,39,0,3,0,editorial_promotion_required
+P4,catalog,0,bf829f94-fcb2-73d8-8548-231f3073aeac,brand,Firefly,8,0,3,0,editorial_promotion_required
+P4,catalog,0,08d1dc4d-2cfb-7912-afdf-af71e89da124,brand,Fisker,37,0,3,0,editorial_promotion_required
+P4,catalog,0,2c4fd14a-290c-7b1c-826d-0399b5457232,brand,Force Motors,41,0,3,0,editorial_promotion_required
 P4,catalog,0,fb160519-0c1a-74c0-9561-8d77061975d8,brand,Ford,32,0,3,0,editorial_promotion_required
-P4,catalog,0,d00acc98-bb83-79f2-b362-f1273bdb706f,brand,Fornasari,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5cd36ca4-acb0-79b7-8ca4-8518d14646e6,brand,Franklin,29,0,3,0,editorial_promotion_required
-P4,catalog,0,7bcca833-4184-7c49-a4c1-84990f1ae892,brand,Frazer,29,0,3,0,editorial_promotion_required
-P4,catalog,0,aec58d08-99cb-7d5c-abe9-bc83d957b82c,brand,Frazer Nash,30,0,3,0,editorial_promotion_required
-P4,catalog,0,b87454c3-d71a-7a57-a2c3-fc9e8761c0b0,brand,GAC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2e7cde30-0f4f-70dd-a93e-aed02d025e88,brand,GAZ,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e30e5605-5a43-794d-a536-89ca4c282430,brand,GSM,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d17a6182-45d8-79ba-8921-7f46e99a350b,brand,Geely,29,0,3,0,editorial_promotion_required
-P4,catalog,0,78ec717e-5f29-7159-a76c-2ae02c5f6067,brand,Genesis,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8a3ef0cc-3334-79a4-8950-1cad03bbbd4f,brand,Geo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,19e4cc7d-1349-7118-ade6-e3fed804a5ca,brand,Giannini,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9eaca1df-6a84-7529-bbb2-cfd44d0749e4,brand,Gilbern,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d3482580-29a2-7a22-82a6-0010f8aa41f3,brand,Gillet,29,0,3,0,editorial_promotion_required
-P4,catalog,0,56b39093-f79c-7de1-91ae-fe0c3722addf,brand,Ginetta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,84530e40-81e8-7220-8900-49ed9247bcd2,brand,Giocattolo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,195686a1-f425-7b1b-abf6-913df9382e24,brand,Gordon-Keeble,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3e7d6a75-9fd9-70fe-aab1-3ab870efa492,brand,Graham,29,0,3,0,editorial_promotion_required
-P4,catalog,0,db686f13-fc13-7282-ae27-995a8b499622,brand,Great Wall,30,0,3,0,editorial_promotion_required
-P4,catalog,0,3fe38a6a-3512-7f5e-a4d8-ab776bab0437,brand,Grumett,29,0,3,0,editorial_promotion_required
+P4,catalog,0,d00acc98-bb83-79f2-b362-f1273bdb706f,brand,Fornasari,40,0,3,0,editorial_promotion_required
+P4,catalog,0,5cd36ca4-acb0-79b7-8ca4-8518d14646e6,brand,Franklin,37,0,3,0,editorial_promotion_required
+P4,catalog,0,7bcca833-4184-7c49-a4c1-84990f1ae892,brand,Frazer,37,0,3,0,editorial_promotion_required
+P4,catalog,0,aec58d08-99cb-7d5c-abe9-bc83d957b82c,brand,Frazer Nash,38,0,3,0,editorial_promotion_required
+P4,catalog,0,b87454c3-d71a-7a57-a2c3-fc9e8761c0b0,brand,GAC,39,0,3,0,editorial_promotion_required
+P4,catalog,0,2e7cde30-0f4f-70dd-a93e-aed02d025e88,brand,GAZ,40,0,3,0,editorial_promotion_required
+P4,catalog,0,e30e5605-5a43-794d-a536-89ca4c282430,brand,GSM,26,0,3,0,editorial_promotion_required
+P4,catalog,0,d17a6182-45d8-79ba-8921-7f46e99a350b,brand,Geely,39,0,3,0,editorial_promotion_required
+P4,catalog,0,78ec717e-5f29-7159-a76c-2ae02c5f6067,brand,Genesis,26,0,3,0,editorial_promotion_required
+P4,catalog,0,8a3ef0cc-3334-79a4-8950-1cad03bbbd4f,brand,Geo,37,0,3,0,editorial_promotion_required
+P4,catalog,0,19e4cc7d-1349-7118-ade6-e3fed804a5ca,brand,Giannini,27,0,3,0,editorial_promotion_required
+P4,catalog,0,9eaca1df-6a84-7529-bbb2-cfd44d0749e4,brand,Gilbern,38,0,3,0,editorial_promotion_required
+P4,catalog,0,d3482580-29a2-7a22-82a6-0010f8aa41f3,brand,Gillet,39,0,3,0,editorial_promotion_required
+P4,catalog,0,56b39093-f79c-7de1-91ae-fe0c3722addf,brand,Ginetta,38,0,3,0,editorial_promotion_required
+P4,catalog,0,84530e40-81e8-7220-8900-49ed9247bcd2,brand,Giocattolo,39,0,3,0,editorial_promotion_required
+P4,catalog,0,195686a1-f425-7b1b-abf6-913df9382e24,brand,Gordon-Keeble,38,0,3,0,editorial_promotion_required
+P4,catalog,0,3e7d6a75-9fd9-70fe-aab1-3ab870efa492,brand,Graham,37,0,3,0,editorial_promotion_required
+P4,catalog,0,db686f13-fc13-7282-ae27-995a8b499622,brand,Great Wall,39,0,3,0,editorial_promotion_required
+P4,catalog,0,3fe38a6a-3512-7f5e-a4d8-ab776bab0437,brand,Grumett,38,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a01016-ea4c-766d-827a-d7a4341a454d,brand,Gurgel,45,1,3,1,connected_statements<3
-P4,catalog,0,1ed463c3-a7c9-7233-aa35-397d58db9e52,brand,HSV,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1366e403-4de3-7652-9dc0-139ce8b494a3,brand,Hafei,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b37e2eac-2e70-717e-a358-6f51f7739203,brand,Haima,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8fe0c70a-c286-769b-8264-b7b1174a862e,brand,Hanomag,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6eeb68c8-0614-7bef-a2ff-b2fe95ceb2df,brand,Harper Sports Cars,31,0,3,0,editorial_promotion_required
-P4,catalog,0,09c5f428-f2de-7905-95da-ed8436fedf6c,brand,Hartnett,29,0,3,0,editorial_promotion_required
-P4,catalog,0,739ee703-760d-7d68-ac15-814f8d042b6a,brand,Haval,29,0,3,0,editorial_promotion_required
-P4,catalog,0,eb391d9a-a52e-75dc-9b1c-cd9e791d6aa2,brand,Healey,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6bf9a3c0-742e-7886-a700-6a9b02b712e1,brand,Hillman,29,0,3,0,editorial_promotion_required
-P4,catalog,0,55f8ed3f-8aec-775f-a57d-f5242f46c4b0,brand,Hindustan,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8c410e59-18d8-762e-a89f-910ffe82d73a,brand,Hino,29,0,3,0,editorial_promotion_required
+P4,catalog,0,1ed463c3-a7c9-7233-aa35-397d58db9e52,brand,HSV,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1366e403-4de3-7652-9dc0-139ce8b494a3,brand,Hafei,39,0,3,0,editorial_promotion_required
+P4,catalog,0,b37e2eac-2e70-717e-a358-6f51f7739203,brand,Haima,39,0,3,0,editorial_promotion_required
+P4,catalog,0,8fe0c70a-c286-769b-8264-b7b1174a862e,brand,Hanomag,38,0,3,0,editorial_promotion_required
+P4,catalog,0,6eeb68c8-0614-7bef-a2ff-b2fe95ceb2df,brand,Harper Sports Cars,6,0,3,0,editorial_promotion_required
+P4,catalog,0,09c5f428-f2de-7905-95da-ed8436fedf6c,brand,Hartnett,39,0,3,0,editorial_promotion_required
+P4,catalog,0,739ee703-760d-7d68-ac15-814f8d042b6a,brand,Haval,39,0,3,0,editorial_promotion_required
+P4,catalog,0,eb391d9a-a52e-75dc-9b1c-cd9e791d6aa2,brand,Healey,38,0,3,0,editorial_promotion_required
+P4,catalog,0,6bf9a3c0-742e-7886-a700-6a9b02b712e1,brand,Hillman,38,0,3,0,editorial_promotion_required
+P4,catalog,0,55f8ed3f-8aec-775f-a57d-f5242f46c4b0,brand,Hindustan,41,0,3,0,editorial_promotion_required
+P4,catalog,0,8c410e59-18d8-762e-a89f-910ffe82d73a,brand,Hino,37,0,3,0,editorial_promotion_required
 P4,catalog,0,8bd11bc1-73f1-720c-ab9a-c8c15ed3c432,brand,Hispano-Suiza,26,0,3,0,editorial_promotion_required
-P4,catalog,0,ccb47504-1d8e-79b0-8b77-a2c024b94182,brand,Hofstetter,29,0,3,0,editorial_promotion_required
+P4,catalog,0,ccb47504-1d8e-79b0-8b77-a2c024b94182,brand,Hofstetter,25,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a01028-5455-7a84-b0d2-ee6fb10c31b8,brand,Holden,45,1,3,1,connected_statements<3
-P4,catalog,0,d46f96f5-6150-78a6-9e6c-1d9982d239dc,brand,Honda,29,0,3,0,editorial_promotion_required
+P4,catalog,0,d46f96f5-6150-78a6-9e6c-1d9982d239dc,brand,Honda,37,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a01028-5447-779e-8317-57316b628d02,brand,Hongqi,45,1,3,1,connected_statements<3
-P4,catalog,0,a1d27127-5c28-7135-b5c8-e675435cc7c3,brand,Horch,29,0,3,0,editorial_promotion_required
-P4,catalog,0,40188aa0-3557-7f6a-bd17-161f69e6cd49,brand,Hotchkiss,29,0,3,0,editorial_promotion_required
-P4,catalog,0,aadc76c1-17b1-7d10-95c1-988968a792cd,brand,Hudson,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e47cfdf4-4281-762e-808d-b137443fd21d,brand,Hulme,29,0,3,0,editorial_promotion_required
+P4,catalog,0,a1d27127-5c28-7135-b5c8-e675435cc7c3,brand,Horch,38,0,3,0,editorial_promotion_required
+P4,catalog,0,40188aa0-3557-7f6a-bd17-161f69e6cd49,brand,Hotchkiss,38,0,3,0,editorial_promotion_required
+P4,catalog,0,aadc76c1-17b1-7d10-95c1-988968a792cd,brand,Hudson,37,0,3,0,editorial_promotion_required
+P4,catalog,0,e47cfdf4-4281-762e-808d-b137443fd21d,brand,Hulme,26,0,3,0,editorial_promotion_required
 P4,catalog,0,ee52c393-326f-7077-9128-ffd3ddf5eb9e,brand,Humber,24,0,3,0,editorial_promotion_required
-P4,catalog,0,606b373f-977b-7673-883e-e9590243a760,brand,Hummer,29,0,3,0,editorial_promotion_required
-P4,catalog,0,80de0957-1c57-700f-a830-e208ad9ab3e4,brand,Hupmobile,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f1db0c82-b1b5-73da-a83c-509e46702c0a,brand,Hurtan,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c0fc7e39-3ccc-7a68-8122-11be44159607,brand,Hyundai,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e7f68ccd-65a5-78b0-9ba0-7ff9fbefe208,brand,IKA,29,0,3,0,editorial_promotion_required
-P4,catalog,0,68c91c11-8df1-7594-b194-41f804d3f038,brand,IM Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,12b282b3-1ac4-77a8-98a7-43de78a1c72d,brand,IVEMA,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b2ebb808-13b2-779f-bdd6-8ff09c72f7a9,brand,IZh,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c73bccc0-2fa1-7643-8ff1-84a943346fb5,brand,Imperia,29,0,3,0,editorial_promotion_required
-P4,catalog,0,86561742-51f0-7da9-ae8b-9622e8c9bb49,brand,Imperial,29,0,3,0,editorial_promotion_required
-P4,catalog,0,712449f1-e3bf-7afe-ab2f-552643e50f79,brand,Indio,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ffc71753-9b27-7e7f-8cf9-d89dd3a6e0b8,brand,Ineos,29,0,3,0,editorial_promotion_required
-P4,catalog,0,40e34b59-a12b-7914-a704-dc41691b611b,brand,Infiniti,29,0,3,0,editorial_promotion_required
-P4,catalog,0,423d0a7d-53dc-756a-a4a4-8e02dacd157d,brand,Innocenti,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c5a461cf-97f7-7f3f-9a78-a7c7e28b7d84,brand,Innoson,29,0,3,0,editorial_promotion_required
-P4,catalog,0,7edcb429-fde6-7aca-b3d7-d55acab3b67a,brand,Intermeccanica,29,0,3,0,editorial_promotion_required
-P4,catalog,0,71bb527c-cf1c-7dca-850e-3db081cac48e,brand,Invicta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,42811071-1737-7ba9-8422-a10849754062,brand,Iran Khodro,30,0,3,0,editorial_promotion_required
-P4,catalog,0,32b67207-185e-7f01-93b3-4bb319889633,brand,Iso,29,0,3,0,editorial_promotion_required
+P4,catalog,0,606b373f-977b-7673-883e-e9590243a760,brand,Hummer,37,0,3,0,editorial_promotion_required
+P4,catalog,0,80de0957-1c57-700f-a830-e208ad9ab3e4,brand,Hupmobile,37,0,3,0,editorial_promotion_required
+P4,catalog,0,f1db0c82-b1b5-73da-a83c-509e46702c0a,brand,Hurtan,39,0,3,0,editorial_promotion_required
+P4,catalog,0,c0fc7e39-3ccc-7a68-8122-11be44159607,brand,Hyundai,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e7f68ccd-65a5-78b0-9ba0-7ff9fbefe208,brand,IKA,38,0,3,0,editorial_promotion_required
+P4,catalog,0,68c91c11-8df1-7594-b194-41f804d3f038,brand,IM Motors,39,0,3,0,editorial_promotion_required
+P4,catalog,0,12b282b3-1ac4-77a8-98a7-43de78a1c72d,brand,IVEMA,26,0,3,0,editorial_promotion_required
+P4,catalog,0,b2ebb808-13b2-779f-bdd6-8ff09c72f7a9,brand,IZh,40,0,3,0,editorial_promotion_required
+P4,catalog,0,c73bccc0-2fa1-7643-8ff1-84a943346fb5,brand,Imperia,39,0,3,0,editorial_promotion_required
+P4,catalog,0,86561742-51f0-7da9-ae8b-9622e8c9bb49,brand,Imperial,37,0,3,0,editorial_promotion_required
+P4,catalog,0,712449f1-e3bf-7afe-ab2f-552643e50f79,brand,Indio,25,0,3,0,editorial_promotion_required
+P4,catalog,0,ffc71753-9b27-7e7f-8cf9-d89dd3a6e0b8,brand,Ineos,38,0,3,0,editorial_promotion_required
+P4,catalog,0,40e34b59-a12b-7914-a704-dc41691b611b,brand,Infiniti,37,0,3,0,editorial_promotion_required
+P4,catalog,0,423d0a7d-53dc-756a-a4a4-8e02dacd157d,brand,Innocenti,40,0,3,0,editorial_promotion_required
+P4,catalog,0,c5a461cf-97f7-7f3f-9a78-a7c7e28b7d84,brand,Innoson,39,0,3,0,editorial_promotion_required
+P4,catalog,0,7edcb429-fde6-7aca-b3d7-d55acab3b67a,brand,Intermeccanica,40,0,3,0,editorial_promotion_required
+P4,catalog,0,71bb527c-cf1c-7dca-850e-3db081cac48e,brand,Invicta,38,0,3,0,editorial_promotion_required
+P4,catalog,0,42811071-1737-7ba9-8422-a10849754062,brand,Iran Khodro,41,0,3,0,editorial_promotion_required
+P4,catalog,0,32b67207-185e-7f01-93b3-4bb319889633,brand,Iso,40,0,3,0,editorial_promotion_required
 P4,catalog,0,77742aeb-6444-7926-b3d5-6f4dfa496bb8,brand,Isotta Fraschini,23,0,3,0,editorial_promotion_required
-P4,catalog,0,0f172eb4-d628-71cd-945e-8281e7dcfeca,brand,Isuzu,29,0,3,0,editorial_promotion_required
+P4,catalog,0,0f172eb4-d628-71cd-945e-8281e7dcfeca,brand,Isuzu,37,0,3,0,editorial_promotion_required
 P4,catalog,0,4cfdd534-ae93-7e46-b8ec-dfcce245d8dd,brand,Itala,26,0,3,0,editorial_promotion_required
-P4,catalog,0,5619e133-7125-73a6-8e84-a57dad55da72,brand,JAC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9f21639b-0569-71dd-9e92-8e9de511e0b2,brand,JPX,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c5589bf9-237e-7938-b5e5-b94781bd91e9,brand,Jaecoo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4646bf8b-ad4d-7f6c-b974-e40b60c62d02,brand,Jaguar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3d77fe1c-0c08-7368-a6b9-4d68167b0816,brand,Jawa,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d493565d-ff9a-7cde-835b-99542fb7a965,brand,Jeep,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4ebc4a54-a565-74e2-8710-cfd33b0249ac,brand,Jensen,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ac42c622-3dd8-70f1-a01b-46ae094acc1d,brand,Jetour,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5af9a0c1-0ade-76a2-a504-6d7a01be8c06,brand,Joss,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4b91b344-e822-7837-bc46-9954af9c77a3,brand,Justicialista,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0e77605e-8176-7960-abc5-ae1cc7a57413,brand,KGM,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a901e938-785a-768d-8c78-8437ed6619b0,brand,KTM X-Bow,30,0,3,0,editorial_promotion_required
-P4,catalog,0,3fdfbff2-7e5c-7339-b215-4c10b9fe7088,brand,Kaiser,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ec79712c-7712-792b-accc-5caf25334098,brand,Kantanka,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ee89ff4f-6cfa-7119-9f57-74638a97acf8,brand,Karma,29,0,3,0,editorial_promotion_required
-P4,catalog,0,897472c5-6fb3-7993-ae85-bb6c6035e1c7,brand,Kia,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1c9bc5fd-1a73-7e43-bb5c-3125708a848a,brand,Kiira,29,0,3,0,editorial_promotion_required
-P4,catalog,0,43a7dfb8-bf3e-7453-b225-d3e4c22adb1b,brand,Koenigsegg,29,0,3,0,editorial_promotion_required
-P4,catalog,0,fff92131-5928-7cf6-9090-c8dfb1b35b2d,brand,LEVC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,24e21a3e-7559-76e6-a870-5a5a7efc8b3e,brand,LaSalle,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a110e5dc-a566-70dc-8cba-17629908bdeb,brand,Lada,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8f6ec2e8-f8ba-7666-83e7-de5bca286f07,brand,Lafer,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e24066a0-3cb3-7d48-9560-4095621f261e,brand,Lagonda,29,0,3,0,editorial_promotion_required
+P4,catalog,0,5619e133-7125-73a6-8e84-a57dad55da72,brand,JAC,39,0,3,0,editorial_promotion_required
+P4,catalog,0,9f21639b-0569-71dd-9e92-8e9de511e0b2,brand,JPX,38,0,3,0,editorial_promotion_required
+P4,catalog,0,c5589bf9-237e-7938-b5e5-b94781bd91e9,brand,Jaecoo,39,0,3,0,editorial_promotion_required
+P4,catalog,0,4646bf8b-ad4d-7f6c-b974-e40b60c62d02,brand,Jaguar,38,0,3,0,editorial_promotion_required
+P4,catalog,0,3d77fe1c-0c08-7368-a6b9-4d68167b0816,brand,Jawa,38,0,3,0,editorial_promotion_required
+P4,catalog,0,d493565d-ff9a-7cde-835b-99542fb7a965,brand,Jeep,37,0,3,0,editorial_promotion_required
+P4,catalog,0,4ebc4a54-a565-74e2-8710-cfd33b0249ac,brand,Jensen,38,0,3,0,editorial_promotion_required
+P4,catalog,0,ac42c622-3dd8-70f1-a01b-46ae094acc1d,brand,Jetour,39,0,3,0,editorial_promotion_required
+P4,catalog,0,5af9a0c1-0ade-76a2-a504-6d7a01be8c06,brand,Joss,26,0,3,0,editorial_promotion_required
+P4,catalog,0,4b91b344-e822-7837-bc46-9954af9c77a3,brand,Justicialista,38,0,3,0,editorial_promotion_required
+P4,catalog,0,0e77605e-8176-7960-abc5-ae1cc7a57413,brand,KGM,39,0,3,0,editorial_promotion_required
+P4,catalog,0,a901e938-785a-768d-8c78-8437ed6619b0,brand,KTM X-Bow,40,0,3,0,editorial_promotion_required
+P4,catalog,0,3fdfbff2-7e5c-7339-b215-4c10b9fe7088,brand,Kaiser,37,0,3,0,editorial_promotion_required
+P4,catalog,0,ec79712c-7712-792b-accc-5caf25334098,brand,Kantanka,39,0,3,0,editorial_promotion_required
+P4,catalog,0,ee89ff4f-6cfa-7119-9f57-74638a97acf8,brand,Karma,37,0,3,0,editorial_promotion_required
+P4,catalog,0,897472c5-6fb3-7993-ae85-bb6c6035e1c7,brand,Kia,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1c9bc5fd-1a73-7e43-bb5c-3125708a848a,brand,Kiira,39,0,3,0,editorial_promotion_required
+P4,catalog,0,43a7dfb8-bf3e-7453-b225-d3e4c22adb1b,brand,Koenigsegg,39,0,3,0,editorial_promotion_required
+P4,catalog,0,fff92131-5928-7cf6-9090-c8dfb1b35b2d,brand,LEVC,38,0,3,0,editorial_promotion_required
+P4,catalog,0,24e21a3e-7559-76e6-a870-5a5a7efc8b3e,brand,LaSalle,37,0,3,0,editorial_promotion_required
+P4,catalog,0,a110e5dc-a566-70dc-8cba-17629908bdeb,brand,Lada,40,0,3,0,editorial_promotion_required
+P4,catalog,0,8f6ec2e8-f8ba-7666-83e7-de5bca286f07,brand,Lafer,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e24066a0-3cb3-7d48-9560-4095621f261e,brand,Lagonda,38,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a010d9-28c6-75ce-9e74-78e287675339,brand,Lamborghini,45,1,3,1,connected_statements<3
-P4,catalog,0,b5b98ae6-87a0-7d3b-99d4-5b290ce9da22,brand,Lanchester,29,0,3,0,editorial_promotion_required
+P4,catalog,0,b5b98ae6-87a0-7d3b-99d4-5b290ce9da22,brand,Lanchester,38,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a01030-3312-7d84-9a7e-34630d64f2b9,brand,Lancia,46,1,3,1,connected_statements<3
 P2,substantial,76.7,01a010d9-28c4-7348-b3c2-bb473308aff8,brand,Land Rover,48,1,3,1,connected_statements<3
-P4,catalog,0,0586008e-3ca6-7013-aede-44199bb93eaa,brand,Laraki,29,0,3,0,editorial_promotion_required
+P4,catalog,0,0586008e-3ca6-7013-aede-44199bb93eaa,brand,Laraki,39,0,3,0,editorial_promotion_required
 P4,catalog,0,f7341027-45ad-7af8-bfdc-f957857a517e,brand,Laurin & Klement,25,0,3,0,editorial_promotion_required
-P4,catalog,0,9ac6b546-d4c4-70db-ab47-e6c77f577a57,brand,Leapmotor,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d700c8c2-b71c-7125-b73c-6d892921c8d9,brand,Lexus,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8f11aa64-60c6-701a-848d-d1f95ed9523c,brand,Leyland Australia,30,0,3,0,editorial_promotion_required
-P4,catalog,0,f5a2ac23-168d-7aae-bd68-6392d0d4a92a,brand,Li Auto,30,0,3,0,editorial_promotion_required
-P4,catalog,0,83135716-a6d7-7e14-8720-41dc54651ac8,brand,Lifan,29,0,3,0,editorial_promotion_required
-P4,catalog,0,63aaf628-8388-79b4-8f09-f1e894b4c6b5,brand,Lightburn,29,0,3,0,editorial_promotion_required
-P4,catalog,0,13dbd5cf-8c6f-7d0f-9161-e73da74c8686,brand,Lightyear,29,0,3,0,editorial_promotion_required
+P4,catalog,0,9ac6b546-d4c4-70db-ab47-e6c77f577a57,brand,Leapmotor,39,0,3,0,editorial_promotion_required
+P4,catalog,0,d700c8c2-b71c-7125-b73c-6d892921c8d9,brand,Lexus,37,0,3,0,editorial_promotion_required
+P4,catalog,0,8f11aa64-60c6-701a-848d-d1f95ed9523c,brand,Leyland Australia,39,0,3,0,editorial_promotion_required
+P4,catalog,0,f5a2ac23-168d-7aae-bd68-6392d0d4a92a,brand,Li Auto,39,0,3,0,editorial_promotion_required
+P4,catalog,0,83135716-a6d7-7e14-8720-41dc54651ac8,brand,Lifan,39,0,3,0,editorial_promotion_required
+P4,catalog,0,63aaf628-8388-79b4-8f09-f1e894b4c6b5,brand,Lightburn,39,0,3,0,editorial_promotion_required
+P4,catalog,0,13dbd5cf-8c6f-7d0f-9161-e73da74c8686,brand,Lightyear,39,0,3,0,editorial_promotion_required
 P2,substantial,76.7,df74636c-86e5-7fc1-a589-5068a6884195,brand,Lincoln,42,1,3,1,connected_statements<3
-P4,catalog,0,08a708ec-5ec6-7a90-8f6e-b67a10aa619a,brand,Lobini,29,0,3,0,editorial_promotion_required
+P4,catalog,0,08a708ec-5ec6-7a90-8f6e-b67a10aa619a,brand,Lobini,38,0,3,0,editorial_promotion_required
 P4,catalog,0,f6c0cc8a-6ecd-7a35-be51-6579e14fece6,brand,Locomobile,27,0,3,0,editorial_promotion_required
-P4,catalog,0,821b1ab8-28d4-7ac2-92a0-ce4b14fa8613,brand,Lordstown,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5e57105e-1b7c-79da-8d56-520dac4defa4,brand,Lorraine-Dietrich,29,0,3,0,editorial_promotion_required
-P4,catalog,0,81007761-33f5-770e-8be1-07ea48e783a3,brand,Lotus,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3a138495-ca2e-7e05-89c3-d0bd1e06d8f5,brand,LuAZ,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ba909757-a4d3-7945-ad2d-2e28bb5b906b,brand,Lucid,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f249aa01-706a-79fe-95e7-744f840847ad,brand,Luxgen,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f1237a54-0b5f-71ac-a1bb-8a004ee779f6,brand,Lynk & Co,31,0,3,0,editorial_promotion_required
-P4,catalog,0,8d481a35-05cd-72ce-b094-580ff8e3302d,brand,MG,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3a6845de-e938-7aec-b64a-23c0cb8b745b,brand,MVM,29,0,3,0,editorial_promotion_required
-P4,catalog,0,53e2aa3d-661b-75b7-a543-f7e7fff99b70,brand,Mahindra,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d95a861d-5b80-7d65-b2c1-bb986f33ecba,brand,Marcos,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ad6f678c-8833-79cc-b201-c4a9e95c1122,brand,Marmon,29,0,3,0,editorial_promotion_required
-P4,catalog,0,646838e9-9b80-727b-beda-fbbe57072b72,brand,Marussia,29,0,3,0,editorial_promotion_required
-P4,catalog,0,7fad4ad7-3360-754d-b55e-42399fb1d3e6,brand,Maruti Suzuki,30,0,3,0,editorial_promotion_required
-P4,catalog,0,55952030-c3ee-7407-9cd3-51a580a4492e,brand,Maserati,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c5941604-d5c2-7e08-bab2-951c381af1cc,brand,Mastretta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,13c8ba7e-d9b8-726b-9cf4-94ef7cededee,brand,Mathis,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b8ae024d-4f32-7b0c-8091-326b2714dd57,brand,Maxus,29,0,3,0,editorial_promotion_required
+P4,catalog,0,821b1ab8-28d4-7ac2-92a0-ce4b14fa8613,brand,Lordstown,24,0,3,0,editorial_promotion_required
+P4,catalog,0,5e57105e-1b7c-79da-8d56-520dac4defa4,brand,Lorraine-Dietrich,38,0,3,0,editorial_promotion_required
+P4,catalog,0,81007761-33f5-770e-8be1-07ea48e783a3,brand,Lotus,38,0,3,0,editorial_promotion_required
+P4,catalog,0,3a138495-ca2e-7e05-89c3-d0bd1e06d8f5,brand,LuAZ,40,0,3,0,editorial_promotion_required
+P4,catalog,0,ba909757-a4d3-7945-ad2d-2e28bb5b906b,brand,Lucid,37,0,3,0,editorial_promotion_required
+P4,catalog,0,f249aa01-706a-79fe-95e7-744f840847ad,brand,Luxgen,39,0,3,0,editorial_promotion_required
+P4,catalog,0,f1237a54-0b5f-71ac-a1bb-8a004ee779f6,brand,Lynk & Co,39,0,3,0,editorial_promotion_required
+P4,catalog,0,8d481a35-05cd-72ce-b094-580ff8e3302d,brand,MG,38,0,3,0,editorial_promotion_required
+P4,catalog,0,3a6845de-e938-7aec-b64a-23c0cb8b745b,brand,MVM,28,0,3,0,editorial_promotion_required
+P4,catalog,0,53e2aa3d-661b-75b7-a543-f7e7fff99b70,brand,Mahindra,41,0,3,0,editorial_promotion_required
+P4,catalog,0,d95a861d-5b80-7d65-b2c1-bb986f33ecba,brand,Marcos,38,0,3,0,editorial_promotion_required
+P4,catalog,0,ad6f678c-8833-79cc-b201-c4a9e95c1122,brand,Marmon,37,0,3,0,editorial_promotion_required
+P4,catalog,0,646838e9-9b80-727b-beda-fbbe57072b72,brand,Marussia,40,0,3,0,editorial_promotion_required
+P4,catalog,0,7fad4ad7-3360-754d-b55e-42399fb1d3e6,brand,Maruti Suzuki,41,0,3,0,editorial_promotion_required
+P4,catalog,0,55952030-c3ee-7407-9cd3-51a580a4492e,brand,Maserati,40,0,3,0,editorial_promotion_required
+P4,catalog,0,c5941604-d5c2-7e08-bab2-951c381af1cc,brand,Mastretta,37,0,3,0,editorial_promotion_required
+P4,catalog,0,13c8ba7e-d9b8-726b-9cf4-94ef7cededee,brand,Mathis,38,0,3,0,editorial_promotion_required
+P4,catalog,0,b8ae024d-4f32-7b0c-8091-326b2714dd57,brand,Maxus,39,0,3,0,editorial_promotion_required
 P4,catalog,0,224c7c19-fce8-74d1-9a8a-81c907338801,brand,Maxwell,17,0,3,0,editorial_promotion_required
-P4,catalog,0,11e12eda-2f47-7622-af68-60b27044a09a,brand,Maybach,29,1,3,1,editorial_promotion_required
-P4,catalog,0,ef2c5fdd-bbbd-7ca5-8706-25b50e8ad905,brand,Mazda,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9b23f73d-adb4-7839-96ab-4fc8eb116502,brand,Mazzanti,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1bdbcf50-2bb7-79c2-92db-e17afad4b49b,brand,McLaren,29,0,3,0,editorial_promotion_required
-P4,catalog,0,23aaf8d5-cb55-7850-8265-5467643ec388,brand,McLaughlin,29,0,3,0,editorial_promotion_required
-P4,catalog,0,101b9bb6-2638-7f67-923e-7db231aa484a,brand,Mean Metal Motors,31,0,3,0,editorial_promotion_required
-P4,catalog,0,7cff6c9e-df5b-734e-b043-07a3f2d1ac47,brand,Melkus,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9ec8c90a-3cbf-7576-ac6c-5c984fa3a5f7,brand,Menara,29,0,3,0,editorial_promotion_required
+P4,catalog,0,11e12eda-2f47-7622-af68-60b27044a09a,brand,Maybach,38,1,3,1,editorial_promotion_required
+P4,catalog,0,ef2c5fdd-bbbd-7ca5-8706-25b50e8ad905,brand,Mazda,37,0,3,0,editorial_promotion_required
+P4,catalog,0,9b23f73d-adb4-7839-96ab-4fc8eb116502,brand,Mazzanti,40,0,3,0,editorial_promotion_required
+P4,catalog,0,1bdbcf50-2bb7-79c2-92db-e17afad4b49b,brand,McLaren,38,0,3,0,editorial_promotion_required
+P4,catalog,0,23aaf8d5-cb55-7850-8265-5467643ec388,brand,McLaughlin,37,0,3,0,editorial_promotion_required
+P4,catalog,0,101b9bb6-2638-7f67-923e-7db231aa484a,brand,Mean Metal Motors,28,0,3,0,editorial_promotion_required
+P4,catalog,0,7cff6c9e-df5b-734e-b043-07a3f2d1ac47,brand,Melkus,40,0,3,0,editorial_promotion_required
+P4,catalog,0,9ec8c90a-3cbf-7576-ac6c-5c984fa3a5f7,brand,Menara,26,0,3,0,editorial_promotion_required
 P4,catalog,0,eb0a0e51-2d35-7599-b005-c1c0e0ebcdff,brand,Mercedes-Benz,28,1,3,1,editorial_promotion_required
-P4,catalog,0,71228398-a534-7074-b97d-665345b5295f,brand,Mercury,29,0,3,0,editorial_promotion_required
-P4,catalog,0,65b450e5-9f93-7b61-9c1f-140ab319d780,brand,Minerva,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4c51f5e7-f68c-7808-826d-167d64930735,brand,Mini,29,0,3,0,editorial_promotion_required
-P4,catalog,0,adb6495f-3804-7961-a486-d3140c6c783b,brand,Mitsubishi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9e157947-2bd4-70bc-b779-41f59b2cb8f9,brand,Mitsuoka,29,0,3,0,editorial_promotion_required
-P4,catalog,0,96cf5f47-2555-77e4-a6a0-6839a49376d6,brand,Miura,29,0,3,0,editorial_promotion_required
-P4,catalog,0,adac9c92-6ef1-7f4d-95b8-8c2c4fac939c,brand,Mobius,29,0,3,0,editorial_promotion_required
-P4,catalog,0,90f1701d-3d74-768d-870c-f54a7eebea92,brand,Monteverdi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bddc5134-2616-7f0a-852c-f95f81ba1908,brand,Moon,29,0,3,0,editorial_promotion_required
-P4,catalog,0,17f61a60-348f-7951-8103-1c9a128bd033,brand,Moretti,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1030d10f-c641-7de7-b141-d710a5cf37f1,brand,Morgan,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ad91fe9b-3718-7aac-ba95-50c45c76a113,brand,Morris,29,0,3,0,editorial_promotion_required
+P4,catalog,0,71228398-a534-7074-b97d-665345b5295f,brand,Mercury,37,0,3,0,editorial_promotion_required
+P4,catalog,0,65b450e5-9f93-7b61-9c1f-140ab319d780,brand,Minerva,39,0,3,0,editorial_promotion_required
+P4,catalog,0,4c51f5e7-f68c-7808-826d-167d64930735,brand,Mini,38,0,3,0,editorial_promotion_required
+P4,catalog,0,adb6495f-3804-7961-a486-d3140c6c783b,brand,Mitsubishi,37,0,3,0,editorial_promotion_required
+P4,catalog,0,9e157947-2bd4-70bc-b779-41f59b2cb8f9,brand,Mitsuoka,37,0,3,0,editorial_promotion_required
+P4,catalog,0,96cf5f47-2555-77e4-a6a0-6839a49376d6,brand,Miura,25,0,3,0,editorial_promotion_required
+P4,catalog,0,adac9c92-6ef1-7f4d-95b8-8c2c4fac939c,brand,Mobius,39,0,3,0,editorial_promotion_required
+P4,catalog,0,90f1701d-3d74-768d-870c-f54a7eebea92,brand,Monteverdi,40,0,3,0,editorial_promotion_required
+P4,catalog,0,bddc5134-2616-7f0a-852c-f95f81ba1908,brand,Moon,37,0,3,0,editorial_promotion_required
+P4,catalog,0,17f61a60-348f-7951-8103-1c9a128bd033,brand,Moretti,40,0,3,0,editorial_promotion_required
+P4,catalog,0,1030d10f-c641-7de7-b141-d710a5cf37f1,brand,Morgan,38,0,3,0,editorial_promotion_required
+P4,catalog,0,ad91fe9b-3718-7aac-ba95-50c45c76a113,brand,Morris,38,0,3,0,editorial_promotion_required
 P4,catalog,0,9e587890-d69b-7455-b6f3-ecca1dd97775,brand,Mors,28,0,3,0,editorial_promotion_required
-P4,catalog,0,2f6449b7-d701-7569-9c53-63f6244f0dfd,brand,Moskvitch,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9a97bc18-0270-7994-b671-3eeb918a80eb,brand,Mosler,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2be9223a-95de-71a4-bdec-b1e542fd6607,brand,NEVS,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0a707596-1329-79f1-acd1-cae3bba60156,brand,NSU,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e774b9ca-9331-7c36-ae66-8bea53f19d41,brand,Nanjing,29,0,3,0,editorial_promotion_required
+P4,catalog,0,2f6449b7-d701-7569-9c53-63f6244f0dfd,brand,Moskvitch,40,0,3,0,editorial_promotion_required
+P4,catalog,0,9a97bc18-0270-7994-b671-3eeb918a80eb,brand,Mosler,37,0,3,0,editorial_promotion_required
+P4,catalog,0,2be9223a-95de-71a4-bdec-b1e542fd6607,brand,NEVS,39,0,3,0,editorial_promotion_required
+P4,catalog,0,0a707596-1329-79f1-acd1-cae3bba60156,brand,NSU,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e774b9ca-9331-7c36-ae66-8bea53f19d41,brand,Nanjing,39,0,3,0,editorial_promotion_required
 P4,catalog,0,4c084fd0-1235-797b-92a3-1de8b84b18e5,brand,Napier,21,0,3,0,editorial_promotion_required
-P4,catalog,0,b4273c6c-7c82-7d41-8531-0873a161bb97,brand,Nardi,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ec72cb45-0ef9-7a25-9df4-d4006e245595,brand,Nash,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6bfee86e-d5b9-7d6f-97eb-25e3bfd73ac0,brand,Neta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,82d25b2d-9629-79ec-93e5-e5a62515a8ee,brand,Nio,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d0a21da7-5fc5-737d-85f3-ce621f037132,brand,Nissan,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f45d11e3-1e44-7611-a63a-616e83b8b114,brand,Noble,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6c2131c1-b404-7b78-841e-7c25e357e8e6,brand,Nota,29,0,3,0,editorial_promotion_required
-P4,catalog,0,698ef6d4-39b3-7a67-8483-1e6baa045cf3,brand,OM,29,0,3,0,editorial_promotion_required
-P4,catalog,0,abb65a05-2300-741b-a0cb-210c7dd0b7d4,brand,OSCA,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b9a7c0a4-aa09-776c-9969-9acce8a863f1,brand,Oakland,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0f3dfad5-3d06-7acf-b6ef-0bb9c865a2c1,brand,Obvio!,29,0,3,0,editorial_promotion_required
-P4,catalog,0,42272c80-3b0c-717d-8e93-7d39e818ca4d,brand,Ohta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1178bc00-98c9-742d-b6b6-b8f57d53ad2f,brand,Ola Electric,30,0,3,0,editorial_promotion_required
+P4,catalog,0,b4273c6c-7c82-7d41-8531-0873a161bb97,brand,Nardi,40,0,3,0,editorial_promotion_required
+P4,catalog,0,ec72cb45-0ef9-7a25-9df4-d4006e245595,brand,Nash,37,0,3,0,editorial_promotion_required
+P4,catalog,0,6bfee86e-d5b9-7d6f-97eb-25e3bfd73ac0,brand,Neta,39,0,3,0,editorial_promotion_required
+P4,catalog,0,82d25b2d-9629-79ec-93e5-e5a62515a8ee,brand,Nio,39,0,3,0,editorial_promotion_required
+P4,catalog,0,d0a21da7-5fc5-737d-85f3-ce621f037132,brand,Nissan,37,0,3,0,editorial_promotion_required
+P4,catalog,0,f45d11e3-1e44-7611-a63a-616e83b8b114,brand,Noble,38,0,3,0,editorial_promotion_required
+P4,catalog,0,6c2131c1-b404-7b78-841e-7c25e357e8e6,brand,Nota,39,0,3,0,editorial_promotion_required
+P4,catalog,0,698ef6d4-39b3-7a67-8483-1e6baa045cf3,brand,OM,40,0,3,0,editorial_promotion_required
+P4,catalog,0,abb65a05-2300-741b-a0cb-210c7dd0b7d4,brand,OSCA,40,0,3,0,editorial_promotion_required
+P4,catalog,0,b9a7c0a4-aa09-776c-9969-9acce8a863f1,brand,Oakland,37,0,3,0,editorial_promotion_required
+P4,catalog,0,0f3dfad5-3d06-7acf-b6ef-0bb9c865a2c1,brand,Obvio!,38,0,3,0,editorial_promotion_required
+P4,catalog,0,42272c80-3b0c-717d-8e93-7d39e818ca4d,brand,Ohta,37,0,3,0,editorial_promotion_required
+P4,catalog,0,1178bc00-98c9-742d-b6b6-b8f57d53ad2f,brand,Ola Electric,41,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a0102a-57eb-7517-bd03-02951e02850f,brand,Oldsmobile,46,1,3,1,connected_statements<3
-P4,catalog,0,cd5e4b3c-3d33-7fb4-816e-761e3928db07,brand,Oltcit,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5b19bda4-a243-7671-a6a8-269acf0dae71,brand,Omoda,29,0,3,0,editorial_promotion_required
-P4,catalog,0,070affde-54e7-7158-b8a9-f4e91ac46582,brand,Onvo,29,0,3,0,editorial_promotion_required
+P4,catalog,0,cd5e4b3c-3d33-7fb4-816e-761e3928db07,brand,Oltcit,40,0,3,0,editorial_promotion_required
+P4,catalog,0,5b19bda4-a243-7671-a6a8-269acf0dae71,brand,Omoda,39,0,3,0,editorial_promotion_required
+P4,catalog,0,070affde-54e7-7158-b8a9-f4e91ac46582,brand,Onvo,8,0,3,0,editorial_promotion_required
 P4,catalog,0,abb50118-b0ea-75a8-92e7-3c7c992319cb,brand,Opel,24,0,3,0,editorial_promotion_required
-P4,catalog,0,715ad2f5-cca1-7423-9aa8-98d8b14fd320,brand,Optimal Energy,30,0,3,0,editorial_promotion_required
-P4,catalog,0,8c6bf04e-c9da-7938-8d00-1635b34179af,brand,Ora,29,0,3,0,editorial_promotion_required
+P4,catalog,0,715ad2f5-cca1-7423-9aa8-98d8b14fd320,brand,Optimal Energy,39,0,3,0,editorial_promotion_required
+P4,catalog,0,8c6bf04e-c9da-7938-8d00-1635b34179af,brand,Ora,39,0,3,0,editorial_promotion_required
 P4,catalog,0,87d3834b-f7ce-7285-af82-3528b731217e,brand,Packard,23,0,3,0,editorial_promotion_required
-P4,catalog,0,fda0f19f-544d-77f7-99b8-8bb3f73fe507,brand,Pagani,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5d46af91-6b22-781c-a073-6094e99adc23,brand,Panhard,29,0,3,0,editorial_promotion_required
+P4,catalog,0,fda0f19f-544d-77f7-99b8-8bb3f73fe507,brand,Pagani,40,0,3,0,editorial_promotion_required
+P4,catalog,0,5d46af91-6b22-781c-a073-6094e99adc23,brand,Panhard,38,0,3,0,editorial_promotion_required
 P4,catalog,0,01caa476-f14c-705a-a2c1-fc1bb65de34d,brand,Panhard & Levassor,35,0,3,0,editorial_promotion_required
-P4,catalog,0,a78a8660-8fb5-7225-98bb-250ef7632bfe,brand,Panoz,29,0,3,0,editorial_promotion_required
-P4,catalog,0,770f9ea4-40ff-73aa-a0e5-0d88918d5bc9,brand,Panther,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d7019bf8-4782-7431-9d3c-6a915d69bdac,brand,Pars Khodro,30,0,3,0,editorial_promotion_required
-P4,catalog,0,288ac4ce-ee61-7460-8104-1290be959326,brand,Paykan,29,0,3,0,editorial_promotion_required
+P4,catalog,0,a78a8660-8fb5-7225-98bb-250ef7632bfe,brand,Panoz,37,0,3,0,editorial_promotion_required
+P4,catalog,0,770f9ea4-40ff-73aa-a0e5-0d88918d5bc9,brand,Panther,38,0,3,0,editorial_promotion_required
+P4,catalog,0,d7019bf8-4782-7431-9d3c-6a915d69bdac,brand,Pars Khodro,41,0,3,0,editorial_promotion_required
+P4,catalog,0,288ac4ce-ee61-7460-8104-1290be959326,brand,Paykan,41,0,3,0,editorial_promotion_required
 P4,catalog,0,973fa4c1-2812-7f01-af49-7f422d133eb5,brand,Peerless,30,0,3,0,editorial_promotion_required
-P4,catalog,0,e925a72e-72c4-7ed6-a813-1fc2de305be8,brand,Peerless GT,30,0,3,0,editorial_promotion_required
-P4,catalog,0,36038ca4-0218-72d8-853c-76345635859f,brand,Pegaso,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8b1db449-3566-7704-9256-1b81813ada7b,brand,Perana,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c4a7442f-5f4d-7072-b581-769fb27e1f99,brand,Perodua,29,0,3,0,editorial_promotion_required
+P4,catalog,0,e925a72e-72c4-7ed6-a813-1fc2de305be8,brand,Peerless GT,38,0,3,0,editorial_promotion_required
+P4,catalog,0,36038ca4-0218-72d8-853c-76345635859f,brand,Pegaso,39,0,3,0,editorial_promotion_required
+P4,catalog,0,8b1db449-3566-7704-9256-1b81813ada7b,brand,Perana,26,0,3,0,editorial_promotion_required
+P4,catalog,0,c4a7442f-5f4d-7072-b581-769fb27e1f99,brand,Perodua,41,0,3,0,editorial_promotion_required
 P3,complete,100.0,01a0102a-57e7-7f2b-bebc-fd556c26e81f,brand,Peugeot,59,3,3,3,
 P4,catalog,0,186655b7-5751-77d0-8e50-83ee391b4ac9,brand,Pierce-Arrow,22,0,3,0,editorial_promotion_required
-P4,catalog,0,d6032db8-bbd0-7f65-bd94-4b645c56bba9,brand,Pindad,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a66dc7cf-b732-7640-9dc4-aaf82c28523a,brand,Pininfarina,29,0,3,0,editorial_promotion_required
-P4,catalog,0,abccb2ce-0124-7145-8f82-e87909fadc81,brand,Plymouth,29,0,3,0,editorial_promotion_required
-P4,catalog,0,78f40c70-1687-7701-85aa-215a23aacf87,brand,Polestar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,af702364-754d-70d4-95b5-25ac214173c0,brand,Pontiac,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d66bf8e2-9eb0-734c-9bc8-26da620814f3,brand,Portaro,29,0,3,0,editorial_promotion_required
-P4,catalog,0,7db80a89-2d91-7fa1-a6c3-ff5aebeac381,brand,Praga,29,0,3,0,editorial_promotion_required
-P4,catalog,0,959133ad-8db3-7656-a647-d30048337238,brand,Pravaig,29,0,3,0,editorial_promotion_required
-P4,catalog,0,730d5835-bb8a-7ae2-95c6-303c27409185,brand,Premier,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2a8c9fa8-8d04-7b2b-8906-b4feaff7e1d5,brand,Prince,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b746aafd-1c99-740e-ac1b-840d358053e9,brand,Princess,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2e06f3af-078c-78d9-97a1-92832cdab09c,brand,Proto Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,a9f49f6a-cf9d-7e98-a2d9-c6372b68c388,brand,Proton,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a4374f7d-c377-7177-9eb7-8af6119503fc,brand,Puma,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2a2af513-32aa-79f5-928e-4a1aa769a67a,brand,Pur Sang,30,0,3,0,editorial_promotion_required
-P4,catalog,0,926742b5-542e-7aa8-8528-e72dd028a4b8,brand,Purvis,29,0,3,0,editorial_promotion_required
-P4,catalog,0,956d737a-3586-7fc4-9aa5-cf2402bf1c6b,brand,Qoros,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5afb3e9f-b7a8-7e79-b7e7-cdb8ac0194f1,brand,Qvale,29,0,3,0,editorial_promotion_required
+P4,catalog,0,d6032db8-bbd0-7f65-bd94-4b645c56bba9,brand,Pindad,28,0,3,0,editorial_promotion_required
+P4,catalog,0,a66dc7cf-b732-7640-9dc4-aaf82c28523a,brand,Pininfarina,40,0,3,0,editorial_promotion_required
+P4,catalog,0,abccb2ce-0124-7145-8f82-e87909fadc81,brand,Plymouth,37,0,3,0,editorial_promotion_required
+P4,catalog,0,78f40c70-1687-7701-85aa-215a23aacf87,brand,Polestar,39,0,3,0,editorial_promotion_required
+P4,catalog,0,af702364-754d-70d4-95b5-25ac214173c0,brand,Pontiac,37,0,3,0,editorial_promotion_required
+P4,catalog,0,d66bf8e2-9eb0-734c-9bc8-26da620814f3,brand,Portaro,39,0,3,0,editorial_promotion_required
+P4,catalog,0,7db80a89-2d91-7fa1-a6c3-ff5aebeac381,brand,Praga,38,0,3,0,editorial_promotion_required
+P4,catalog,0,959133ad-8db3-7656-a647-d30048337238,brand,Pravaig,28,0,3,0,editorial_promotion_required
+P4,catalog,0,730d5835-bb8a-7ae2-95c6-303c27409185,brand,Premier,41,0,3,0,editorial_promotion_required
+P4,catalog,0,2a8c9fa8-8d04-7b2b-8906-b4feaff7e1d5,brand,Prince,37,0,3,0,editorial_promotion_required
+P4,catalog,0,b746aafd-1c99-740e-ac1b-840d358053e9,brand,Princess,38,0,3,0,editorial_promotion_required
+P4,catalog,0,2e06f3af-078c-78d9-97a1-92832cdab09c,brand,Proto Motors,39,0,3,0,editorial_promotion_required
+P4,catalog,0,a9f49f6a-cf9d-7e98-a2d9-c6372b68c388,brand,Proton,41,0,3,0,editorial_promotion_required
+P4,catalog,0,a4374f7d-c377-7177-9eb7-8af6119503fc,brand,Puma,38,0,3,0,editorial_promotion_required
+P4,catalog,0,2a2af513-32aa-79f5-928e-4a1aa769a67a,brand,Pur Sang,25,0,3,0,editorial_promotion_required
+P4,catalog,0,926742b5-542e-7aa8-8528-e72dd028a4b8,brand,Purvis,39,0,3,0,editorial_promotion_required
+P4,catalog,0,956d737a-3586-7fc4-9aa5-cf2402bf1c6b,brand,Qoros,39,0,3,0,editorial_promotion_required
+P4,catalog,0,5afb3e9f-b7a8-7e79-b7e7-cdb8ac0194f1,brand,Qvale,40,0,3,0,editorial_promotion_required
 P4,catalog,0,d184d514-6e6e-7e45-a2e7-e9c0eec315cd,brand,REO,25,0,3,0,editorial_promotion_required
-P4,catalog,0,9218f294-f21f-760d-9383-1fee95930abe,brand,Radical,29,0,3,0,editorial_promotion_required
+P4,catalog,0,9218f294-f21f-760d-9383-1fee95930abe,brand,Radical,38,0,3,0,editorial_promotion_required
 P4,catalog,0,1fd97734-4c52-7ef3-86eb-449e70ce91b6,brand,Rambler,27,0,3,0,editorial_promotion_required
-P4,catalog,0,b3c2cf0b-5936-7190-8874-639198e10162,brand,Range Rover,30,0,3,0,editorial_promotion_required
-P4,catalog,0,939df878-33a6-7083-be94-16f6973e8232,brand,Rastrojero,29,0,3,0,editorial_promotion_required
-P4,catalog,0,666d6c1b-5b93-771d-a6f4-59e02e367588,brand,Reliant,29,0,3,0,editorial_promotion_required
+P4,catalog,0,b3c2cf0b-5936-7190-8874-639198e10162,brand,Range Rover,38,0,3,0,editorial_promotion_required
+P4,catalog,0,939df878-33a6-7083-be94-16f6973e8232,brand,Rastrojero,38,0,3,0,editorial_promotion_required
+P4,catalog,0,666d6c1b-5b93-771d-a6f4-59e02e367588,brand,Reliant,38,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a010d9-28c8-734b-8208-0888551089ec,brand,Renault,48,1,3,1,connected_statements<3
-P4,catalog,0,ac780554-3adc-749c-a2cd-b3769f096384,brand,Renault Korea,30,0,3,0,editorial_promotion_required
-P4,catalog,0,a0aee1e0-75f5-78b1-8219-c7bf68cb2f31,brand,Reva,29,0,3,0,editorial_promotion_required
-P4,catalog,0,cb74b581-4337-772a-9bbd-cf9bf3ee6de0,brand,Riley,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ef7a7276-dc14-72c6-993d-5df3d7a4396f,brand,Rimac,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1b7bc783-98d8-7fde-ba6d-632e1e2e3ba3,brand,Rivian,29,0,3,0,editorial_promotion_required
+P4,catalog,0,ac780554-3adc-749c-a2cd-b3769f096384,brand,Renault Korea,39,0,3,0,editorial_promotion_required
+P4,catalog,0,a0aee1e0-75f5-78b1-8219-c7bf68cb2f31,brand,Reva,28,0,3,0,editorial_promotion_required
+P4,catalog,0,cb74b581-4337-772a-9bbd-cf9bf3ee6de0,brand,Riley,38,0,3,0,editorial_promotion_required
+P4,catalog,0,ef7a7276-dc14-72c6-993d-5df3d7a4396f,brand,Rimac,40,0,3,0,editorial_promotion_required
+P4,catalog,0,1b7bc783-98d8-7fde-ba6d-632e1e2e3ba3,brand,Rivian,37,0,3,0,editorial_promotion_required
 P4,catalog,0,c479a0d9-719a-7309-a134-e686f8f15db0,brand,Rochet-Schneider,21,0,3,0,editorial_promotion_required
-P4,catalog,0,e9565139-993e-7f77-a66d-745f56559437,brand,Roewe,29,0,3,0,editorial_promotion_required
+P4,catalog,0,e9565139-993e-7f77-a66d-745f56559437,brand,Roewe,39,0,3,0,editorial_promotion_required
 P2,substantial,88.3,01a0102a-57e9-7402-b40c-17fe692810ec,brand,Rolls-Royce,58,2,3,2,connected_statements<3
-P4,catalog,0,ff3c4b26-cc0a-70c0-9161-4abf23357290,brand,Rootes Australia,30,0,3,0,editorial_promotion_required
-P4,catalog,0,00c2209a-47dc-7802-98c6-8c71a71d3662,brand,Rosengart,29,0,3,0,editorial_promotion_required
-P4,catalog,0,604771a0-1e39-7c8b-b0cc-fc016a944994,brand,Rover,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3252f82f-a0c6-7a4c-a84b-4ead11515ad1,brand,Ruxton,29,0,3,0,editorial_promotion_required
-P4,catalog,0,745a337a-1cfa-70ba-8962-a40c2161d957,brand,Rába,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a8704304-70fc-761a-82ed-1c9308a60acd,brand,SAIC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1412b255-52d8-74df-9e4c-d23f43cac98b,brand,SEAT,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5aae295b-d6f6-79cb-a4f9-35e1e270126a,brand,SMZ,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9259a918-61a2-7a60-b592-d4b4d097e13b,brand,SS Cars,30,0,3,0,editorial_promotion_required
-P4,catalog,0,1e1bafc3-5e2e-7ff2-9d79-a09296fbb89c,brand,SSC North America,31,0,3,0,editorial_promotion_required
-P4,catalog,0,e12d2891-609c-72c9-bd51-0a10bab7e146,brand,Saab,29,0,3,0,editorial_promotion_required
-P4,catalog,0,69ad6dc1-135d-757d-97e4-2bf2654c2d7b,brand,Sachsenring,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b341dece-4f9e-767c-8e3e-6ec8222e4173,brand,Sado,29,0,3,0,editorial_promotion_required
-P4,catalog,0,512bb56f-120d-784d-9b0d-9f08d3fe837e,brand,Saipa,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0649e989-daf9-7a99-a82d-6dba1eec72fb,brand,Saker,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e34f4d98-33bc-7f4c-8633-0971e358374b,brand,Saleen,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a75b31ec-90c0-7801-a9e9-dcd23223f60e,brand,Salmson,29,0,3,0,editorial_promotion_required
-P4,catalog,0,327ba5c2-283a-7fad-92e1-2549184a00e7,brand,Samsung Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,d934ad20-f1d6-73c9-9ed8-cdb0e6e9ea9c,brand,San Storm,30,0,3,0,editorial_promotion_required
-P4,catalog,0,26cb46db-2c2e-7176-bd7a-9ee7c704019c,brand,Santa Matilde,30,0,3,0,editorial_promotion_required
-P4,catalog,0,996da123-23c8-79bc-aaa4-a238b8f44cee,brand,Santana,29,0,3,0,editorial_promotion_required
-P4,catalog,0,aeadee91-3ac0-7aef-b783-267d7d9af69c,brand,Saturn,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5bfcc921-cab8-77ed-973d-857dc0aa1314,brand,Scion,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bda45b5b-71fe-73af-8ffe-f13f82125e7b,brand,Serenissima,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c45812b9-d719-7fe1-9294-97682af6a421,brand,Seres,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e0b30932-acf2-7f52-befb-c61cd7259182,brand,Shelby,29,0,3,0,editorial_promotion_required
-P4,catalog,0,34cbc671-9bc2-7fe2-bda2-c011c85ff7bd,brand,Siam Di Tella,31,0,3,0,editorial_promotion_required
-P4,catalog,0,9fe026b3-6b6c-75f3-b9d0-e7b045f53daf,brand,Siata,29,0,3,0,editorial_promotion_required
-P4,catalog,0,de3c3626-b58a-707c-bffb-b9bc95a7a5b0,brand,Simca,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d15612ee-c3ae-72dd-8fc3-7e1f59fb3463,brand,Singer,29,0,3,0,editorial_promotion_required
-P4,catalog,0,51ef9c67-7a3a-73fa-893d-5a33640cd02d,brand,Sipani,29,0,3,0,editorial_promotion_required
-P4,catalog,0,fa187b30-f3c5-7832-8100-3cf693db864e,brand,Skelta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,cea484f3-d2c3-78ec-8146-0d9aa58b246e,brand,Skywell,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8df80d06-8f66-7c69-b368-6c5dc88e8fe5,brand,Sollers,29,0,3,0,editorial_promotion_required
-P4,catalog,0,51e3cca0-c289-722e-bf25-6bc50b3cd445,brand,Soueast,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8b9f0d23-33ba-72b6-a18b-c991e30aa503,brand,Southern Cross,30,0,3,0,editorial_promotion_required
-P4,catalog,0,8eee703b-f4af-7852-b731-bb1769d65619,brand,Spania GTA,30,0,3,0,editorial_promotion_required
-P4,catalog,0,d22d92f3-41c8-72a2-914e-5cd6d8897f90,brand,Spyker,29,0,3,0,editorial_promotion_required
-P4,catalog,0,227dd5de-7464-7c60-aa66-b04a7fe13c81,brand,SsangYong,29,0,3,0,editorial_promotion_required
-P4,catalog,0,98066147-1e2e-74ca-b7fd-df78b41eb750,brand,Standard,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a94e37b8-7689-78e9-adc8-f48e124f7411,brand,Standard India,30,0,3,0,editorial_promotion_required
-P4,catalog,0,5cd91f7c-3287-7c9e-ad2d-b60169cbff85,brand,Stanguellini,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ef6d0af2-f97f-7c0a-a1d2-8a38c5474df7,brand,Star,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6362bf56-9070-78e3-9906-70de83a29108,brand,Steyr,29,0,3,0,editorial_promotion_required
+P4,catalog,0,ff3c4b26-cc0a-70c0-9161-4abf23357290,brand,Rootes Australia,39,0,3,0,editorial_promotion_required
+P4,catalog,0,00c2209a-47dc-7802-98c6-8c71a71d3662,brand,Rosengart,38,0,3,0,editorial_promotion_required
+P4,catalog,0,604771a0-1e39-7c8b-b0cc-fc016a944994,brand,Rover,38,0,3,0,editorial_promotion_required
+P4,catalog,0,3252f82f-a0c6-7a4c-a84b-4ead11515ad1,brand,Ruxton,37,0,3,0,editorial_promotion_required
+P4,catalog,0,745a337a-1cfa-70ba-8962-a40c2161d957,brand,Rába,40,0,3,0,editorial_promotion_required
+P4,catalog,0,a8704304-70fc-761a-82ed-1c9308a60acd,brand,SAIC,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1412b255-52d8-74df-9e4c-d23f43cac98b,brand,SEAT,39,0,3,0,editorial_promotion_required
+P4,catalog,0,5aae295b-d6f6-79cb-a4f9-35e1e270126a,brand,SMZ,27,0,3,0,editorial_promotion_required
+P4,catalog,0,9259a918-61a2-7a60-b592-d4b4d097e13b,brand,SS Cars,38,0,3,0,editorial_promotion_required
+P4,catalog,0,1e1bafc3-5e2e-7ff2-9d79-a09296fbb89c,brand,SSC North America,37,0,3,0,editorial_promotion_required
+P4,catalog,0,e12d2891-609c-72c9-bd51-0a10bab7e146,brand,Saab,39,0,3,0,editorial_promotion_required
+P4,catalog,0,69ad6dc1-135d-757d-97e4-2bf2654c2d7b,brand,Sachsenring,40,0,3,0,editorial_promotion_required
+P4,catalog,0,b341dece-4f9e-767c-8e3e-6ec8222e4173,brand,Sado,26,0,3,0,editorial_promotion_required
+P4,catalog,0,512bb56f-120d-784d-9b0d-9f08d3fe837e,brand,Saipa,41,0,3,0,editorial_promotion_required
+P4,catalog,0,0649e989-daf9-7a99-a82d-6dba1eec72fb,brand,Saker,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e34f4d98-33bc-7f4c-8633-0971e358374b,brand,Saleen,37,0,3,0,editorial_promotion_required
+P4,catalog,0,a75b31ec-90c0-7801-a9e9-dcd23223f60e,brand,Salmson,38,0,3,0,editorial_promotion_required
+P4,catalog,0,327ba5c2-283a-7fad-92e1-2549184a00e7,brand,Samsung Motors,39,0,3,0,editorial_promotion_required
+P4,catalog,0,d934ad20-f1d6-73c9-9ed8-cdb0e6e9ea9c,brand,San Storm,41,0,3,0,editorial_promotion_required
+P4,catalog,0,26cb46db-2c2e-7176-bd7a-9ee7c704019c,brand,Santa Matilde,38,0,3,0,editorial_promotion_required
+P4,catalog,0,996da123-23c8-79bc-aaa4-a238b8f44cee,brand,Santana,39,0,3,0,editorial_promotion_required
+P4,catalog,0,aeadee91-3ac0-7aef-b783-267d7d9af69c,brand,Saturn,37,0,3,0,editorial_promotion_required
+P4,catalog,0,5bfcc921-cab8-77ed-973d-857dc0aa1314,brand,Scion,37,0,3,0,editorial_promotion_required
+P4,catalog,0,bda45b5b-71fe-73af-8ffe-f13f82125e7b,brand,Serenissima,40,0,3,0,editorial_promotion_required
+P4,catalog,0,c45812b9-d719-7fe1-9294-97682af6a421,brand,Seres,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e0b30932-acf2-7f52-befb-c61cd7259182,brand,Shelby,37,0,3,0,editorial_promotion_required
+P4,catalog,0,34cbc671-9bc2-7fe2-bda2-c011c85ff7bd,brand,Siam Di Tella,38,0,3,0,editorial_promotion_required
+P4,catalog,0,9fe026b3-6b6c-75f3-b9d0-e7b045f53daf,brand,Siata,40,0,3,0,editorial_promotion_required
+P4,catalog,0,de3c3626-b58a-707c-bffb-b9bc95a7a5b0,brand,Simca,38,0,3,0,editorial_promotion_required
+P4,catalog,0,d15612ee-c3ae-72dd-8fc3-7e1f59fb3463,brand,Singer,38,0,3,0,editorial_promotion_required
+P4,catalog,0,51ef9c67-7a3a-73fa-893d-5a33640cd02d,brand,Sipani,41,0,3,0,editorial_promotion_required
+P4,catalog,0,fa187b30-f3c5-7832-8100-3cf693db864e,brand,Skelta,26,0,3,0,editorial_promotion_required
+P4,catalog,0,cea484f3-d2c3-78ec-8146-0d9aa58b246e,brand,Skywell,26,0,3,0,editorial_promotion_required
+P4,catalog,0,8df80d06-8f66-7c69-b368-6c5dc88e8fe5,brand,Sollers,40,0,3,0,editorial_promotion_required
+P4,catalog,0,51e3cca0-c289-722e-bf25-6bc50b3cd445,brand,Soueast,39,0,3,0,editorial_promotion_required
+P4,catalog,0,8b9f0d23-33ba-72b6-a18b-c991e30aa503,brand,Southern Cross,5,0,3,0,editorial_promotion_required
+P4,catalog,0,8eee703b-f4af-7852-b731-bb1769d65619,brand,Spania GTA,39,0,3,0,editorial_promotion_required
+P4,catalog,0,d22d92f3-41c8-72a2-914e-5cd6d8897f90,brand,Spyker,39,0,3,0,editorial_promotion_required
+P4,catalog,0,227dd5de-7464-7c60-aa66-b04a7fe13c81,brand,SsangYong,39,0,3,0,editorial_promotion_required
+P4,catalog,0,98066147-1e2e-74ca-b7fd-df78b41eb750,brand,Standard,38,0,3,0,editorial_promotion_required
+P4,catalog,0,a94e37b8-7689-78e9-adc8-f48e124f7411,brand,Standard India,28,0,3,0,editorial_promotion_required
+P4,catalog,0,5cd91f7c-3287-7c9e-ad2d-b60169cbff85,brand,Stanguellini,40,0,3,0,editorial_promotion_required
+P4,catalog,0,ef6d0af2-f97f-7c0a-a1d2-8a38c5474df7,brand,Star,37,0,3,0,editorial_promotion_required
+P4,catalog,0,6362bf56-9070-78e3-9906-70de83a29108,brand,Steyr,38,0,3,0,editorial_promotion_required
 P4,catalog,0,b48953d8-f1e7-767a-95b2-9a37a003c764,brand,Studebaker,26,0,3,0,editorial_promotion_required
-P4,catalog,0,22405feb-647b-732f-82be-493445996d0a,brand,Stutz,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6c93da37-a355-72be-9fea-9c8c7ae87d13,brand,Subaru,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6a186f83-5376-7ed6-a81d-03bc59402323,brand,Suminoe,29,0,3,0,editorial_promotion_required
-P4,catalog,0,306a5b05-cd84-7f11-99f0-25ebdbab84be,brand,Sunbeam,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e1a0bfef-53ae-7f7f-a1f5-9cb3beba87aa,brand,Suzuki,29,0,3,0,editorial_promotion_required
-P4,catalog,0,caeafe60-9e1a-7dd9-b2af-68da8fa0a1a0,brand,Syrena,29,0,3,0,editorial_promotion_required
-P4,catalog,0,652ca296-63e5-7bc9-b49a-85b50775aa27,brand,TVR,29,0,3,0,editorial_promotion_required
-P4,catalog,0,85d7828e-4ec1-7268-a7eb-731109734a78,brand,Tac Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,7ccb6ac1-cbf8-7b13-bfe2-cb79d6f80cb9,brand,TagAZ,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9b347ff2-fd81-71e9-8b59-464d6d105994,brand,Takeoka,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9abd2b9d-b534-7b8d-91bd-a30b5368b900,brand,Talbot,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f6df7fe2-3972-72c7-a28e-4436c5f5b9b5,brand,Tama,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4ce8eb27-e506-7cd6-96f5-b0d1fc45f56a,brand,Tata,29,0,3,0,editorial_promotion_required
+P4,catalog,0,22405feb-647b-732f-82be-493445996d0a,brand,Stutz,37,0,3,0,editorial_promotion_required
+P4,catalog,0,6c93da37-a355-72be-9fea-9c8c7ae87d13,brand,Subaru,37,0,3,0,editorial_promotion_required
+P4,catalog,0,6a186f83-5376-7ed6-a81d-03bc59402323,brand,Suminoe,24,0,3,0,editorial_promotion_required
+P4,catalog,0,306a5b05-cd84-7f11-99f0-25ebdbab84be,brand,Sunbeam,38,0,3,0,editorial_promotion_required
+P4,catalog,0,e1a0bfef-53ae-7f7f-a1f5-9cb3beba87aa,brand,Suzuki,37,0,3,0,editorial_promotion_required
+P4,catalog,0,caeafe60-9e1a-7dd9-b2af-68da8fa0a1a0,brand,Syrena,40,0,3,0,editorial_promotion_required
+P4,catalog,0,652ca296-63e5-7bc9-b49a-85b50775aa27,brand,TVR,38,0,3,0,editorial_promotion_required
+P4,catalog,0,85d7828e-4ec1-7268-a7eb-731109734a78,brand,Tac Motors,25,0,3,0,editorial_promotion_required
+P4,catalog,0,7ccb6ac1-cbf8-7b13-bfe2-cb79d6f80cb9,brand,TagAZ,40,0,3,0,editorial_promotion_required
+P4,catalog,0,9b347ff2-fd81-71e9-8b59-464d6d105994,brand,Takeoka,37,0,3,0,editorial_promotion_required
+P4,catalog,0,9abd2b9d-b534-7b8d-91bd-a30b5368b900,brand,Talbot,38,0,3,0,editorial_promotion_required
+P4,catalog,0,f6df7fe2-3972-72c7-a28e-4436c5f5b9b5,brand,Tama,24,0,3,0,editorial_promotion_required
+P4,catalog,0,4ce8eb27-e506-7cd6-96f5-b0d1fc45f56a,brand,Tata,41,0,3,0,editorial_promotion_required
 P4,catalog,0,bc46843e-80e6-7cef-87ea-facbb1c4e96d,brand,Tatra,28,0,3,0,editorial_promotion_required
-P4,catalog,0,05eb52af-27b8-70e0-8b00-5f5b8801774a,brand,Tesla,29,0,3,0,editorial_promotion_required
-P4,catalog,0,ccbb4e7a-fffa-75d6-be32-7606582f5e9d,brand,Thai Rung,30,0,3,0,editorial_promotion_required
-P4,catalog,0,714c105e-e83e-7d41-91bf-b1b2cfbd2204,brand,Think,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e51a5d28-7233-7980-963f-260870a6e200,brand,Timor,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a51650d1-7ee7-7715-bbe1-7414fb7cabef,brand,Tomcar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,42f0aeb0-9815-76a2-8404-4801104737e0,brand,Tommykaira,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d2269802-1308-75b1-a8f6-b3eff3152b6d,brand,Toyopet,29,0,3,0,editorial_promotion_required
-P4,catalog,0,c07143ed-efee-7d47-b0b1-c696a6e5a468,brand,Toyota,29,0,3,0,editorial_promotion_required
-P4,catalog,0,5a406283-119c-76de-b61e-3ff77b98c90e,brand,Trabant,29,0,3,0,editorial_promotion_required
-P4,catalog,0,b0ec4931-7984-74b8-b702-d272a0feefc5,brand,Tramontana,29,0,3,0,editorial_promotion_required
-P4,catalog,0,48a8eb75-a625-7c28-a846-ae49066f2c2b,brand,Trekka,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a035a344-9177-7d75-919e-fba65df60922,brand,Triumph,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f923119a-8332-7195-b7f4-bb38f0d84945,brand,Troller,29,0,3,0,editorial_promotion_required
-P4,catalog,0,2bb2a287-08f3-7e22-8c20-403d3884521e,brand,Tucker,29,0,3,0,editorial_promotion_required
-P4,catalog,0,481ccb57-9766-73b9-a838-053f2452aacb,brand,Turner,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9cbac31f-a1b0-78d9-a987-73012e4c5abd,brand,Tushek,29,0,3,0,editorial_promotion_required
-P4,catalog,0,45856902-2544-7d2c-96c7-ef677ced037a,brand,UMM,29,0,3,0,editorial_promotion_required
-P4,catalog,0,f0cd661a-3806-7bf8-8b20-589bc6ac3ddd,brand,UNIC,29,0,3,0,editorial_promotion_required
-P4,catalog,0,fe60c35b-b12a-7e78-b6c9-287809edb2c9,brand,Ultima,29,0,3,0,editorial_promotion_required
-P4,catalog,0,9ea0a822-767b-7dc5-a667-9c0f68e2dfaa,brand,Uri,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bc4dda6b-a966-78cc-90a8-1ac2c7d1bfb9,brand,VUHL,29,0,3,0,editorial_promotion_required
-P4,catalog,0,bd1260c9-715e-70ad-81fa-f271b2d566e1,brand,Vanden Plas,30,0,3,0,editorial_promotion_required
+P4,catalog,0,05eb52af-27b8-70e0-8b00-5f5b8801774a,brand,Tesla,37,0,3,0,editorial_promotion_required
+P4,catalog,0,ccbb4e7a-fffa-75d6-be32-7606582f5e9d,brand,Thai Rung,41,0,3,0,editorial_promotion_required
+P4,catalog,0,714c105e-e83e-7d41-91bf-b1b2cfbd2204,brand,Think,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e51a5d28-7233-7980-963f-260870a6e200,brand,Timor,41,0,3,0,editorial_promotion_required
+P4,catalog,0,a51650d1-7ee7-7715-bbe1-7414fb7cabef,brand,Tomcar,39,0,3,0,editorial_promotion_required
+P4,catalog,0,42f0aeb0-9815-76a2-8404-4801104737e0,brand,Tommykaira,37,0,3,0,editorial_promotion_required
+P4,catalog,0,d2269802-1308-75b1-a8f6-b3eff3152b6d,brand,Toyopet,37,0,3,0,editorial_promotion_required
+P4,catalog,0,c07143ed-efee-7d47-b0b1-c696a6e5a468,brand,Toyota,37,0,3,0,editorial_promotion_required
+P4,catalog,0,5a406283-119c-76de-b61e-3ff77b98c90e,brand,Trabant,40,0,3,0,editorial_promotion_required
+P4,catalog,0,b0ec4931-7984-74b8-b702-d272a0feefc5,brand,Tramontana,39,0,3,0,editorial_promotion_required
+P4,catalog,0,48a8eb75-a625-7c28-a846-ae49066f2c2b,brand,Trekka,39,0,3,0,editorial_promotion_required
+P4,catalog,0,a035a344-9177-7d75-919e-fba65df60922,brand,Triumph,38,0,3,0,editorial_promotion_required
+P4,catalog,0,f923119a-8332-7195-b7f4-bb38f0d84945,brand,Troller,38,0,3,0,editorial_promotion_required
+P4,catalog,0,2bb2a287-08f3-7e22-8c20-403d3884521e,brand,Tucker,37,0,3,0,editorial_promotion_required
+P4,catalog,0,481ccb57-9766-73b9-a838-053f2452aacb,brand,Turner,38,0,3,0,editorial_promotion_required
+P4,catalog,0,9cbac31f-a1b0-78d9-a987-73012e4c5abd,brand,Tushek,40,0,3,0,editorial_promotion_required
+P4,catalog,0,45856902-2544-7d2c-96c7-ef677ced037a,brand,UMM,6,0,3,0,editorial_promotion_required
+P4,catalog,0,f0cd661a-3806-7bf8-8b20-589bc6ac3ddd,brand,UNIC,38,0,3,0,editorial_promotion_required
+P4,catalog,0,fe60c35b-b12a-7e78-b6c9-287809edb2c9,brand,Ultima,38,0,3,0,editorial_promotion_required
+P4,catalog,0,9ea0a822-767b-7dc5-a667-9c0f68e2dfaa,brand,Uri,39,0,3,0,editorial_promotion_required
+P4,catalog,0,bc4dda6b-a966-78cc-90a8-1ac2c7d1bfb9,brand,VUHL,37,0,3,0,editorial_promotion_required
+P4,catalog,0,bd1260c9-715e-70ad-81fa-f271b2d566e1,brand,Vanden Plas,38,0,3,0,editorial_promotion_required
 P4,catalog,0,0c73f8c8-671e-7d27-ae67-965572b5c56b,brand,Vauxhall,19,0,3,0,editorial_promotion_required
-P4,catalog,0,cc8d36f2-072d-7f50-b617-dfd475be3b2f,brand,Vayve Mobility,30,0,3,0,editorial_promotion_required
-P4,catalog,0,14388b3f-4303-7ad1-9a9b-e3c0d4d8cb9d,brand,Vector,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8cf0784c-3335-77b2-b0e6-9dc9ea3be5ee,brand,Velorex,29,0,3,0,editorial_promotion_required
-P4,catalog,0,61542797-b9b0-73b2-8a78-5e7c38afe22d,brand,Vemag,29,0,3,0,editorial_promotion_required
-P4,catalog,0,3a78c737-e45b-7772-a873-87303cb604f6,brand,Vencer,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e9192936-23a3-7070-8575-6b8ca0b28fde,brand,VinFast,29,0,3,0,editorial_promotion_required
-P4,catalog,0,509fd791-ea2b-7730-80bd-72d1a2368048,brand,Voisin,29,0,3,0,editorial_promotion_required
+P4,catalog,0,cc8d36f2-072d-7f50-b617-dfd475be3b2f,brand,Vayve Mobility,28,0,3,0,editorial_promotion_required
+P4,catalog,0,14388b3f-4303-7ad1-9a9b-e3c0d4d8cb9d,brand,Vector,37,0,3,0,editorial_promotion_required
+P4,catalog,0,8cf0784c-3335-77b2-b0e6-9dc9ea3be5ee,brand,Velorex,40,0,3,0,editorial_promotion_required
+P4,catalog,0,61542797-b9b0-73b2-8a78-5e7c38afe22d,brand,Vemag,4,0,3,0,editorial_promotion_required
+P4,catalog,0,3a78c737-e45b-7772-a873-87303cb604f6,brand,Vencer,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e9192936-23a3-7070-8575-6b8ca0b28fde,brand,VinFast,3,0,3,0,editorial_promotion_required
+P4,catalog,0,509fd791-ea2b-7730-80bd-72d1a2368048,brand,Voisin,38,0,3,0,editorial_promotion_required
 P3,complete,100.0,01a010d9-28c3-7fc4-9f3a-3e300e1d1b76,brand,Volkswagen,62,3,3,3,
-P4,catalog,0,b6256d7a-7231-7226-97b2-0dc0fdc59327,brand,Volvo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0d96dd0a-0665-771c-b610-1612e001e1f7,brand,Voyah,29,0,3,0,editorial_promotion_required
-P4,catalog,0,66a07734-0f81-7f54-a34e-e68f977b78db,brand,W Motors,30,0,3,0,editorial_promotion_required
-P4,catalog,0,88be998a-c96a-714f-b4e8-4f8e3afd94e2,brand,Wallyscar,29,0,3,0,editorial_promotion_required
-P4,catalog,0,1d300558-3899-7791-8b17-343fc6e4bf75,brand,Wanderer,29,0,3,0,editorial_promotion_required
-P4,catalog,0,14cbd1f9-f7c3-7be6-aa74-7df07304b4ea,brand,Wartburg,29,0,3,0,editorial_promotion_required
-P4,catalog,0,881d4843-085b-7c17-be61-eb7599fcfa84,brand,Warwick,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6194f306-ff2e-7b2d-9bf8-41f7775be531,brand,Wey,29,0,3,0,editorial_promotion_required
-P4,catalog,0,4b6637a6-4e5d-7478-b629-5b55a7ba262b,brand,Willys,29,0,3,0,editorial_promotion_required
+P4,catalog,0,b6256d7a-7231-7226-97b2-0dc0fdc59327,brand,Volvo,39,0,3,0,editorial_promotion_required
+P4,catalog,0,0d96dd0a-0665-771c-b610-1612e001e1f7,brand,Voyah,39,0,3,0,editorial_promotion_required
+P4,catalog,0,66a07734-0f81-7f54-a34e-e68f977b78db,brand,W Motors,41,0,3,0,editorial_promotion_required
+P4,catalog,0,88be998a-c96a-714f-b4e8-4f8e3afd94e2,brand,Wallyscar,39,0,3,0,editorial_promotion_required
+P4,catalog,0,1d300558-3899-7791-8b17-343fc6e4bf75,brand,Wanderer,38,0,3,0,editorial_promotion_required
+P4,catalog,0,14cbd1f9-f7c3-7be6-aa74-7df07304b4ea,brand,Wartburg,40,0,3,0,editorial_promotion_required
+P4,catalog,0,881d4843-085b-7c17-be61-eb7599fcfa84,brand,Warwick,38,0,3,0,editorial_promotion_required
+P4,catalog,0,6194f306-ff2e-7b2d-9bf8-41f7775be531,brand,Wey,39,0,3,0,editorial_promotion_required
+P4,catalog,0,4b6637a6-4e5d-7478-b629-5b55a7ba262b,brand,Willys,37,0,3,0,editorial_promotion_required
 P4,catalog,0,e70c59c9-e1bb-795d-abfd-f9c573aff0c1,brand,Wolseley,24,0,3,0,editorial_promotion_required
-P4,catalog,0,8c4587be-b30f-768e-9035-0d0f216149d4,brand,Wuling,29,0,3,0,editorial_promotion_required
-P4,catalog,0,8afe26d4-de69-7ddd-bc64-4d407bd98034,brand,XPeng,29,0,3,0,editorial_promotion_required
-P4,catalog,0,843c3456-ede9-7241-8c4a-0ea06ef10b7a,brand,Xiaomi Auto,30,0,3,0,editorial_promotion_required
-P4,catalog,0,209f3cdb-19d0-7426-9773-3632377ffbbf,brand,Yangwang,29,0,3,0,editorial_promotion_required
-P4,catalog,0,e335376e-b78d-705e-8d6b-a5555b122811,brand,Yugo,29,0,3,0,editorial_promotion_required
-P4,catalog,0,de26ef47-a3ea-7a83-8413-8e669dfdd329,brand,Yulon,29,0,3,0,editorial_promotion_required
-P4,catalog,0,d4df7643-63c5-7321-b302-2c54769ecb71,brand,ZAZ,29,0,3,0,editorial_promotion_required
-P4,catalog,0,a9180aab-3b19-71d0-bac4-46c86011b14e,brand,ZIL,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6672beac-ed06-7ad5-8882-c4d26518e44a,brand,Zanella,29,0,3,0,editorial_promotion_required
-P4,catalog,0,44fdaabf-5a75-700b-b76e-8f55b39a8223,brand,Zastava,29,0,3,0,editorial_promotion_required
-P4,catalog,0,0d752890-f19b-79c5-8ef2-b5532b273a4b,brand,Zeekr,29,0,3,0,editorial_promotion_required
-P4,catalog,0,6e105af3-d98b-7090-a17d-c6b334b240ac,brand,Zeta,29,0,3,0,editorial_promotion_required
-P4,catalog,0,333eb565-ffaa-7eb3-b936-b78516ab8425,brand,Zotye,29,0,3,0,editorial_promotion_required
+P4,catalog,0,8c4587be-b30f-768e-9035-0d0f216149d4,brand,Wuling,39,0,3,0,editorial_promotion_required
+P4,catalog,0,8afe26d4-de69-7ddd-bc64-4d407bd98034,brand,XPeng,39,0,3,0,editorial_promotion_required
+P4,catalog,0,843c3456-ede9-7241-8c4a-0ea06ef10b7a,brand,Xiaomi Auto,39,0,3,0,editorial_promotion_required
+P4,catalog,0,209f3cdb-19d0-7426-9773-3632377ffbbf,brand,Yangwang,39,0,3,0,editorial_promotion_required
+P4,catalog,0,e335376e-b78d-705e-8d6b-a5555b122811,brand,Yugo,40,0,3,0,editorial_promotion_required
+P4,catalog,0,de26ef47-a3ea-7a83-8413-8e669dfdd329,brand,Yulon,39,0,3,0,editorial_promotion_required
+P4,catalog,0,d4df7643-63c5-7321-b302-2c54769ecb71,brand,ZAZ,40,0,3,0,editorial_promotion_required
+P4,catalog,0,a9180aab-3b19-71d0-bac4-46c86011b14e,brand,ZIL,40,0,3,0,editorial_promotion_required
+P4,catalog,0,6672beac-ed06-7ad5-8882-c4d26518e44a,brand,Zanella,38,0,3,0,editorial_promotion_required
+P4,catalog,0,44fdaabf-5a75-700b-b76e-8f55b39a8223,brand,Zastava,40,0,3,0,editorial_promotion_required
+P4,catalog,0,0d752890-f19b-79c5-8ef2-b5532b273a4b,brand,Zeekr,39,0,3,0,editorial_promotion_required
+P4,catalog,0,6e105af3-d98b-7090-a17d-c6b334b240ac,brand,Zeta,39,0,3,0,editorial_promotion_required
+P4,catalog,0,333eb565-ffaa-7eb3-b936-b78516ab8425,brand,Zotye,39,0,3,0,editorial_promotion_required
 P2,substantial,76.7,01a01028-5453-7cda-9d69-1cfa772774a4,brand,ŠKODA,46,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01016-ea4d-7b16-b9c2-81254d105884,circuit,Circuit de la Sarthe,51,1,3,1,connected_statements<3
 P2,substantial,76.7,01a01031-ec56-7026-8f42-c95dbfb5b8ef,circuit,Circuit de la Sarthe — A.C.F. 1906 triangular road circuit,56,1,3,1,connected_statements<3

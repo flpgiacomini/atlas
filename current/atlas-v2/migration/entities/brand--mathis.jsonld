@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Mathis, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa 1919-1945. A revisão C07-M02 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "b8887ad3-682a-75d7-807b-1f60c5db2c09",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C07-M02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c07-m02-mathis",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "55e5b739-77d3-7d2a-8887-d527865acfac"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa 1919-1945",
     "relevance_score": 35,
+    "research_extract_sha256": "3d7b6d8eda3a078de5da6e38b1d7eaeb82c0f23f853b1cbf497eaea68a2d79ec",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q35971",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M02"
   },
   "name": "Mathis",

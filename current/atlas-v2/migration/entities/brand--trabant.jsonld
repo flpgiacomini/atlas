@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Trabant, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa Central e Oriental. A revisão C14-M09 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "c5c72d17-2a75-7108-988a-6d689df829cc",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C14-M09",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c14-m09-trabant",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "eaabfdea-c5d6-796e-84d9-bb8a4b2273ec"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa Central e Oriental",
     "relevance_score": 35,
+    "research_extract_sha256": "2d93c43ec828e404902a646990a5b6c31b27497c61c425b616e64b686dabdef5",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q153681",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M09"
   },
   "name": "Trabant",

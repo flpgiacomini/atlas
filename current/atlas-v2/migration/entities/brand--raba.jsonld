@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Rába, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa Central e Oriental. A revisão C14-M09 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "638e40e3-9910-76e3-b396-348f27fa3f20",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C14-M09",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c14-m09-raba",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "f9ec4324-9f71-79de-8aa7-a9f61d7ad282"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa Central e Oriental",
     "relevance_score": 35,
+    "research_extract_sha256": "0d5c3115d0de671dff80c6577e20e4b63a569af15c7a324ddf89b7f88f399cd5",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q18510094",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M09"
   },
   "name": "Rába",

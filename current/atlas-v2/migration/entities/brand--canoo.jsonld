@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Canoo, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Américas. A revisão C08-M03 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "52c0af13-4f90-7129-a7f4-42954c3dfb4d",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C08-M03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c08-m03-canoo",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "38aa1683-c94b-70f3-ad5e-4ceeb47badcb"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Américas",
     "relevance_score": 35,
+    "research_extract_sha256": "1204ed227a632939e9bde5864f9e0ba0464dc3c94987c23938d9a439914d1f85",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q99482082",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M03"
   },
   "name": "Canoo",

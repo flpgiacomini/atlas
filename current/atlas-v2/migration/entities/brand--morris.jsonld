@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Morris, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa 1919-1945. A revisão C07-M02 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "ad43f43d-3cdc-7483-b161-d20bfeca5858",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C07-M02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c07-m02-morris",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "3ac4bf8e-8e1a-747d-93f5-3433adc974f3"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa 1919-1945",
     "relevance_score": 35,
+    "research_extract_sha256": "5bdb929c46ef8e9b708ecb52d76b71f91265372742f0e6322df38a98ec05da5b",
+    "research_match_method": "reviewed-title-override",
+    "research_wikidata_id": "Q776997",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M02"
   },
   "name": "Morris",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Hanomag, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa 1919-1945. A revisão C07-M02 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "5691d2c7-f680-7744-82c8-91d9f0e93560",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C07-M02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c07-m02-hanomag",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "bf495218-545d-7912-a211-5375007ce12d"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa 1919-1945",
     "relevance_score": 35,
+    "research_extract_sha256": "59eed7689918b1d175d5e952276f7138d2ae1af75ce337cbe3dee47383a4c2bb",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q29041",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M02"
   },
   "name": "Hanomag",

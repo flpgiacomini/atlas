@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Lafer, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte América Latina. A revisão C16-M11 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "c206cd4a-9529-7da3-81b8-7776798ef872",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C16-M11",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c16-m11-lafer",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "b62ac474-9c59-74d4-a9d3-0803e252ea58"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "América Latina",
     "relevance_score": 35,
+    "research_extract_sha256": "9697422ae1d8498eadce7d09e962048be70a97a673e0e83aefb0a89f3734a730",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q6717369",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M11"
   },
   "name": "Lafer",

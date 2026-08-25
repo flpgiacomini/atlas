@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Justicialista, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte América Latina. A revisão C16-M11 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "c1dfa8d9-3e0c-709c-b360-0a84e149eacf",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C16-M11",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c16-m11-justicialista",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "f4b399f3-8f1f-7bbf-ab04-9f4e38837233"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "América Latina",
     "relevance_score": 35,
+    "research_extract_sha256": "7983a1fb680c7a2503fe0bd4942107436a1c0f8ddbf21354e60b0c1643007b36",
+    "research_match_method": "reviewed-title-override",
+    "research_wikidata_id": "Q1714148",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M11"
   },
   "name": "Justicialista",

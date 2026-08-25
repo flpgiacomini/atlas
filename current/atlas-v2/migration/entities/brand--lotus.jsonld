@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Lotus, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Reino Unido. A revisão C10-M05 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "4521b952-f2a4-73d1-addb-f3fde372e6b0",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C10-M05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c10-m05-lotus",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "60d773ae-d01d-729f-b865-77234ee0e035"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Reino Unido",
     "relevance_score": 35,
+    "research_extract_sha256": "b27ad5cdb1ec813cc8c7b8e2891c1794aae43c7fcf1640b2895e175f4b6e42bb",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q1424429",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M05"
   },
   "name": "Lotus",

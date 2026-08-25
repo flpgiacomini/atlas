@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de OM, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Itália esportiva e artesanal. A revisão C09-M04 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "79c7dc3e-e4ea-71ea-8994-80bc1bf87ea5",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C09-M04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c09-m04-om",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "e389a64b-8dc1-7ca2-8996-b9efa6a74f69"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Itália esportiva e artesanal",
     "relevance_score": 35,
+    "research_extract_sha256": "bda1a24356a9aabf14d403f592e404924d92773136b1f8201e848953fa0ac092",
+    "research_match_method": "reviewed-title-override",
+    "research_wikidata_id": "Q765583",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M04"
   },
   "name": "OM",

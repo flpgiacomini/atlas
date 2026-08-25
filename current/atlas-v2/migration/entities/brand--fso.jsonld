@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de FSO, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa Central e Oriental. A revisão C14-M09 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "c7e265d8-b15a-72da-83c3-1a94265edd36",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C14-M09",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c14-m09-fso",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "2703e41c-44c1-7dc7-b84d-553496587d1f"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa Central e Oriental",
     "relevance_score": 35,
+    "research_extract_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research_match_method": "reviewed-title-override",
+    "research_wikidata_id": "Q27786",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M09"
   },
   "name": "FSO",

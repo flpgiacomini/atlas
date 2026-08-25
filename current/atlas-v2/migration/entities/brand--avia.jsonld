@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Avia, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa Central e Oriental. A revisão C14-M09 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "4c7d922d-9aa0-7589-b260-dc353b332042",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C14-M09",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c14-m09-avia",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "410190e5-2be5-7e2c-b89f-9de408dded7e"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa Central e Oriental",
     "relevance_score": 35,
+    "research_extract_sha256": "3e7de7d76552dee5962214e7155652a940ed737bd27809dab216396f8bb82ade",
+    "research_match_method": "reviewed-title-override",
+    "research_wikidata_id": "Q27143",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M09"
   },
   "name": "Avia",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Dacia, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa Central e Oriental. A revisão C14-M09 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "e89e0e40-0932-7e01-9357-ea690938955d",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C14-M09",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c14-m09-dacia",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "9bdcf197-b90d-7b2d-b20f-cce2e7ea3f0d"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa Central e Oriental",
     "relevance_score": 35,
+    "research_extract_sha256": "fc678b743076aefbc43b6506b0f156bb9e15bbe8489ad49159b2b8679289501c",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q27460",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M09"
   },
   "name": "Dacia",

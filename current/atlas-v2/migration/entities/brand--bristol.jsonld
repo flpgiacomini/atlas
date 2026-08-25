@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Bristol, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Reino Unido. A revisão C10-M05 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "4d60eeaf-a707-7d48-ae27-1145a040527c",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C10-M05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c10-m05-bristol",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "26724e26-e944-7752-9c8b-70694cf8aaa5"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Reino Unido",
     "relevance_score": 35,
+    "research_extract_sha256": "a8f37ec280c39fbb4962e50d44129af2c4a8e6b2f5924483075a07fd4f80f354",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q27392",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M05"
   },
   "name": "Bristol",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Elfin, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Oceania e África. A revisão C17-M12 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "094ae01e-7946-7020-8f90-78d8ae4f4474",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C17-M12",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c17-m12-elfin",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "9e02cba4-b8da-79a6-9cfb-b2c130ea974b"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Oceania e África",
     "relevance_score": 35,
+    "research_extract_sha256": "2b371a3b163e28c9215ddd89a553a37f9d32a3bcaa2c1d24f33a967b3f934ff2",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q264831",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M12"
   },
   "name": "Elfin",

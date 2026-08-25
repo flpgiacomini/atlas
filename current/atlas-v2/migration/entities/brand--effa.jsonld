@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Effa, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte América Latina. A revisão C16-M11 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "0bf83440-3c57-76c5-af01-f1ac2029e851",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C16-M11",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c16-m11-effa",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "932f4b66-f13b-77d6-a11a-c04a324554f2"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "América Latina",
     "relevance_score": 35,
+    "research_extract_sha256": "8e1a305f050206a6f91a92692b960f92f4330da588bfb1531d9a9afa4e4474a4",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q13530143",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M11"
   },
   "name": "Effa",

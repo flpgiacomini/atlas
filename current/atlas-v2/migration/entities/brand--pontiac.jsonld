@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Pontiac, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Américas. A revisão C08-M03 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "d7c8ff95-d754-7cda-be0a-a4cc11225aea",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C08-M03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c08-m03-pontiac",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "c7bf7203-de89-731e-a1af-1bce254204ee"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Américas",
     "relevance_score": 35,
+    "research_extract_sha256": "abda9358ec27172bbe1e2dc0ed92b7dcd886c417c17b159d7e2e70c9e1254198",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q40990",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M03"
   },
   "name": "Pontiac",

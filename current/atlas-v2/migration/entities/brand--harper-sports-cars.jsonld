@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Harper Sports Cars, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Fabricante de automóveis esportivos identificado individualmente.",
   "externalIds": [
     {
       "id": "0e3a7ec4-bbd5-7906-9c3b-f283e7ae5304",
@@ -19,11 +19,21 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C17-M12",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c17-m12-harper-sports-cars",
+    "curation_reviewed_at": "2026-08-26",
+    "curation_source_ids": [
+      "e99c0849-7bb0-76df-8cab-c37746882800"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Oceania e África",
     "relevance_score": 35,
+    "research_match_method": "manual-wikidata",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-26",
     "wave": "M12"
   },
   "name": "Harper Sports Cars",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Polestar, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Escandinávia Benelux Ibéria. A revisão C15-M10 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "f75ee72b-9981-7f8c-a322-4e914ccdb05f",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C15-M10",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c15-m10-polestar",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "111900f7-a686-7cc7-8afc-99aef3c866f2"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Escandinávia Benelux Ibéria",
     "relevance_score": 35,
+    "research_extract_sha256": "877a9bc18c020fa3f2b0479064b1bcefe34b71e3b3a499f1da0f7791d5a82aa7",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q4047174",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M10"
   },
   "name": "Polestar",

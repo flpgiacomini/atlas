@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de DeLorean, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Américas. A revisão C08-M03 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "97a72b6c-03eb-73cb-aeed-3095185fa86c",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C08-M03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c08-m03-delorean",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "f69c184f-9c75-7d49-a86c-0e287161c8d8"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Américas",
     "relevance_score": 35,
+    "research_extract_sha256": "d29464aa47fa924a4f908fc52c23032e7e63381663df4975c69e3d5a0ad17500",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q1241608",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M03"
   },
   "name": "DeLorean",

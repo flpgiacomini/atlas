@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Proto Motors, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Coreia China Taiwan. A revisão C12-M07 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "4cb4550c-ffe8-7ccf-aea6-e4f1ad4e6dcf",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C12-M07",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c12-m07-proto-motors",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "f95871b9-96d1-7994-ad43-e4c740c813f1"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Coreia China Taiwan",
     "relevance_score": 35,
+    "research_extract_sha256": "c73016b11cb9c7d2922266208b57f3b82b38e23b7dde3473db629ad8bf5ae0e8",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q562686",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M07"
   },
   "name": "Proto Motors",

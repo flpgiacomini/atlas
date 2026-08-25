@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Grumett, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte América Latina. A revisão C16-M11 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "ed19020f-42e4-7fea-9efa-01c59ef8e6e8",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C16-M11",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c16-m11-grumett",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "ea318d5b-0bb7-7b0b-8823-22d839571b40"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "América Latina",
     "relevance_score": 35,
+    "research_extract_sha256": "d8e67e75154499e1830a64b8ec96ad7e294802d9ba950c6105b64a843e20c3d8",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q26791739",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M11"
   },
   "name": "Grumett",

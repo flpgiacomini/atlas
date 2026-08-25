@@ -220,25 +220,27 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
 4. **CP18 — Mídia editorial: concluído.** As 258 histórias têm decisão e mídia
    local licenciada, com cobertura contínua de 1769 a 2026 e backlog zero. Ver
    [`MEDIA_CHECKPOINT_18_V06_COMPLETE.md`](MEDIA_CHECKPOINT_18_V06_COMPLETE.md).
-5. **CP19 — Curadoria canônica: em execução.** A fila foi reconciliada como 482
+5. **CP19 — Curadoria canônica: concluído.** A fila foi reconciliada como 482
    marcas e 40 candidatos históricos. C01–C03 resolveram os primeiros 16 itens;
    C04 e C05 encerraram os 24 restantes. Os **40/40 candidatos históricos**
-   estão resolvidos: 33 promovidos e sete preservados no catálogo. O primeiro
-   O C06 encerrou integralmente a onda M01: **29/29** candidatos receberam
+   estão resolvidos: 33 promovidos e sete preservados no catálogo. O C06
+   encerrou integralmente a onda M01: **29/29** candidatos receberam
    decisão e **41/41** marcas do universo pioneiro estão cobertas na genealogia
-   temporal. Foram **27 promoções** e **2 retenções**. O progresso é **69/522**,
-   restando exclusivamente **453 marcas**. Não
-   há IDs duplicados nem entidades migradas ausentes. Ver
+   temporal, com **27 promoções** e **2 retenções**.
+   C07–C17 resolveram as 453 marcas restantes. O resultado final é **522/522**:
+   **471 promoções**, **51 retenções** e fila restante zero. Não há IDs
+   duplicados nem entidades migradas ausentes. Ver
    [`CURATION_CHECKPOINT_19_INVENTORY.md`](CURATION_CHECKPOINT_19_INVENTORY.md),
    [`CURATION_CHECKPOINT_19_C01.md`](CURATION_CHECKPOINT_19_C01.md),
    [`CURATION_CHECKPOINT_19_C02.md`](CURATION_CHECKPOINT_19_C02.md),
    [`CURATION_CHECKPOINT_19_C03.md`](CURATION_CHECKPOINT_19_C03.md),
    [`CURATION_CHECKPOINT_19_C04.md`](CURATION_CHECKPOINT_19_C04.md) e
    [`CURATION_CHECKPOINT_19_C05.md`](CURATION_CHECKPOINT_19_C05.md) e
-   [`CURATION_CHECKPOINT_19_C06_COMPLETE.md`](CURATION_CHECKPOINT_19_C06_COMPLETE.md).
+   [`CURATION_CHECKPOINT_19_C06_COMPLETE.md`](CURATION_CHECKPOINT_19_C06_COMPLETE.md) e
+   [`CURATION_CHECKPOINT_19_C07_C17_COMPLETE.md`](CURATION_CHECKPOINT_19_C07_C17_COMPLETE.md).
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
-O caminho crítico agora é **curadoria canônica → QA → corte v2**. Infraestrutura,
+O caminho crítico agora é **C18 → QA → corte v2**. Infraestrutura,
 seis percursos, cartografia e cobertura de mídia estão fechados; falta resolver
 os candidatos catalográficos e elevar a verificação semântica antes do candidato.

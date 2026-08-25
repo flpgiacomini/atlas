@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de VinFast, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Fabricante automotivo vietnamita.",
   "externalIds": [
     {
       "id": "d7b57161-db70-71cb-bcda-303ba6d1ac93",
@@ -19,11 +19,21 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C13-M08",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c13-m08-vinfast",
+    "curation_reviewed_at": "2026-08-26",
+    "curation_source_ids": [
+      "0f44ffdc-bf4b-7774-a359-e20098f24aac"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Índia Sudeste Asiático Oriente Médio",
     "relevance_score": 35,
+    "research_match_method": "manual-wikidata",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-26",
     "wave": "M08"
   },
   "name": "VinFast",

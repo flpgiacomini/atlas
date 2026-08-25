@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Czinger, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Américas. A revisão C08-M03 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "2d69eacb-ff9c-7ccc-aeb1-4c83816e32fd",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C08-M03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c08-m03-czinger",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "bfc390dd-61e3-7216-ae5c-0c18ee998f39"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Américas",
     "relevance_score": 35,
+    "research_extract_sha256": "6c024def6ffe231a568ceb5a0e452f3ec454997578703d769f4747221002df5d",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q99670567",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M03"
   },
   "name": "Czinger",

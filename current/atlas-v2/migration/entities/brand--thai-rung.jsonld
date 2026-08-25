@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Thai Rung, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Índia Sudeste Asiático Oriente Médio. A revisão C13-M08 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "bfacc5ef-6eee-726a-91c3-989a5969949b",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C13-M08",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c13-m08-thai-rung",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "cf86c99e-889b-7389-b921-114df1d632d1"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Índia Sudeste Asiático Oriente Médio",
     "relevance_score": 35,
+    "research_extract_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q543925",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M08"
   },
   "name": "Thai Rung",

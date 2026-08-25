@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Zanella, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte América Latina. A revisão C16-M11 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "fee9577f-7396-7b32-a1bc-09b0cb15548c",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C16-M11",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c16-m11-zanella",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "e59bf396-e934-7d66-bcd5-43265bd4a8a6"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "América Latina",
     "relevance_score": 35,
+    "research_extract_sha256": "b29df2dd9068e9719d1a870800868ee851a3a4a356bfb5f9645c2abc895e8c95",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q146784",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M11"
   },
   "name": "Zanella",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Mazzanti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Itália esportiva e artesanal. A revisão C09-M04 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "c3402233-2e6c-75f3-8dd5-b2be7470644c",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C09-M04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c09-m04-mazzanti",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "98ac5054-1a88-781e-b3b4-d960e93cfec4"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Itália esportiva e artesanal",
     "relevance_score": 35,
+    "research_extract_sha256": "065c5b9cfaefb8b287f9fd3bb3d96d32d022ff0034088856432130db1c2802cf",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q3739513",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M04"
   },
   "name": "Mazzanti",

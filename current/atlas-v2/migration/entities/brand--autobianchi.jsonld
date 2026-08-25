@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Autobianchi, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Itália esportiva e artesanal. A revisão C09-M04 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "af827f4e-8759-78f6-abfd-21183019b9e2",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C09-M04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c09-m04-autobianchi",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "cb68f122-7b69-7825-9ad6-aa05a419de74"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Itália esportiva e artesanal",
     "relevance_score": 35,
+    "research_extract_sha256": "891cd11781208540fab3f00c9e3bc38aafb16bd2f9367eb9fd6b093417c43ade",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q27110",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M04"
   },
   "name": "Autobianchi",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Duesenberg, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Américas. A revisão C08-M03 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "13612c32-efd0-78b8-b8e8-1238f925e3db",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C08-M03",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c08-m03-duesenberg",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "d393d92f-6ac9-7b62-ad50-6de1a9af46fa"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Américas",
     "relevance_score": 35,
+    "research_extract_sha256": "1c12acfdc36bedb33f1f7bbc95594795848e23e5b2cc4e5c094ac762e428bb27",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q27582",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M03"
   },
   "name": "Duesenberg",

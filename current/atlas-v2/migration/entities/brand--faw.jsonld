@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de FAW, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Coreia China Taiwan. A revisão C12-M07 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "ec6d5fae-b138-75f6-a829-3dff8d9c3b08",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C12-M07",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c12-m07-faw",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "bc3e4b23-91f5-7d23-8b58-d60edeb6c443"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Coreia China Taiwan",
     "relevance_score": 35,
+    "research_extract_sha256": "4932dd6f0982b8d82880e4a617f52f477615d35ec2fdf39eb5ff37aa87405079",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q1124351",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M07"
   },
   "name": "FAW",

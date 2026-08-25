@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Spyker, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Escandinávia Benelux Ibéria. A revisão C15-M10 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "c1a5b323-c65d-7f88-86d7-bff43f4aa480",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C15-M10",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c15-m10-spyker",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "bce8a0e0-878c-7c68-bf8e-d33151a6ea25"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Escandinávia Benelux Ibéria",
     "relevance_score": 35,
+    "research_extract_sha256": "bc0317378744afc38ee3c2d1cb9b773539ab8eafdee954342f0bdb092b11c836",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q257815",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M10"
   },
   "name": "Spyker",

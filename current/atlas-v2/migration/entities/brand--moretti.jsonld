@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Moretti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Itália esportiva e artesanal. A revisão C09-M04 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "8aeda949-b2bb-7bd8-8f06-970d78d0aec8",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C09-M04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c09-m04-moretti",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "1bf656d3-e6fb-7a8f-b73d-cc105d120d13"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Itália esportiva e artesanal",
     "relevance_score": 35,
+    "research_extract_sha256": "592299d5df4d31f38afef05d1f896a6658f4fae19285795683ddd889b328b312",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q1628610",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M04"
   },
   "name": "Moretti",

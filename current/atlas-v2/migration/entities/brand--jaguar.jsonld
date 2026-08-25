@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Jaguar, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa 1919-1945. A revisão C07-M02 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "016e4040-5a88-709b-9cc2-73060bb81f5e",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C07-M02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c07-m02-jaguar",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "8dc1617f-76f2-7507-a4e9-b2ad7fdb4213"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa 1919-1945",
     "relevance_score": 35,
+    "research_extract_sha256": "018369ec2c6faf8e7a5059aea1d50fe179bfcef1d0bb15c76dad2b76ca1c6b82",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q30055",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M02"
   },
   "name": "Jaguar",

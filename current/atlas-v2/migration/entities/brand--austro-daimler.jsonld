@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Austro-Daimler, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Europa 1919-1945. A revisão C07-M02 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "f6a1cd20-f289-7d34-91f5-23365e0e12a6",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C07-M02",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c07-m02-austro-daimler",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "ae3b36a6-5976-7bfc-a877-d3fb2f11287d"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Europa 1919-1945",
     "relevance_score": 35,
+    "research_extract_sha256": "af94530e906fe67c9bab9721951f1d1e4ba37b03a1f6dd3acb1dc6699f45d488",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q27091",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M02"
   },
   "name": "Austro-Daimler",

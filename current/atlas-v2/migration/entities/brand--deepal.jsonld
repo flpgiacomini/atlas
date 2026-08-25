@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Deepal, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca chinesa de veículos de nova energia.",
   "externalIds": [
     {
       "id": "865d5b8a-bee5-72f4-b072-a7a70a5c60ae",
@@ -19,11 +19,21 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C12-M07",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c12-m07-deepal",
+    "curation_reviewed_at": "2026-08-26",
+    "curation_source_ids": [
+      "360083d9-8980-743e-8f10-f4bb151b44ff"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Coreia China Taiwan",
     "relevance_score": 35,
+    "research_match_method": "manual-wikidata",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-26",
     "wave": "M07"
   },
   "name": "Deepal",

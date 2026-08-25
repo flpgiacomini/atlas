@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Leapmotor, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Coreia China Taiwan. A revisão C12-M07 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "b93e8671-1bd2-7c3a-8086-16ae0558b3e8",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C12-M07",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c12-m07-leapmotor",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "3ff7e891-ef0c-7b6b-8049-7c55e75c7165"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Coreia China Taiwan",
     "relevance_score": 35,
+    "research_extract_sha256": "30c0f95befc97cab6935b85aeb15ccb10a91f38e9a29f2d24aed0c85a09963da",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q99510294",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M07"
   },
   "name": "Leapmotor",

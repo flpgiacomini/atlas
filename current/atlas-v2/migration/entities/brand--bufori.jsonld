@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Bufori, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Índia Sudeste Asiático Oriente Médio. A revisão C13-M08 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "452162d0-c813-79b1-b1fd-b1bfef9669c9",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C13-M08",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c13-m08-bufori",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "ecbf3b66-1c3a-7819-a3da-463ae7f78407"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Índia Sudeste Asiático Oriente Médio",
     "relevance_score": 35,
+    "research_extract_sha256": "68d7d874339fc1cd6e92415d646c7ad6d4c6a47b16171744a4948c2163dfa915",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q1002164",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M08"
   },
   "name": "Bufori",

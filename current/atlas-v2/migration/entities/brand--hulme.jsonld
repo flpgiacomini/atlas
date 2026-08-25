@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Hulme, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca preservada no catálogo do recorte Oceania e África. A campanha C07–C17 não obteve correspondência individual inequívoca; nenhuma contribuição histórica adicional é publicada até nova evidência.",
   "externalIds": [
     {
       "id": "e0f54d98-20ee-700b-ba89-ba8143db2f0c",
@@ -19,11 +19,21 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C17-M12",
+    "curation_decision": "retain-catalog",
+    "curation_review": "atlas:curation-review:c17-m12-hulme",
+    "curation_reviewed_at": "2026-08-26",
+    "curation_source_ids": [
+      "f501b0fa-9200-7e36-9e46-aa395f1cf322"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "retained_catalog_after_review",
     "region_cluster": "Oceania e África",
     "relevance_score": 35,
+    "research_match_method": "unresolved-retention",
+    "verification_state": "identity_unresolved_retained",
+    "verified_at": "2026-08-26",
     "wave": "M12"
   },
   "name": "Hulme",

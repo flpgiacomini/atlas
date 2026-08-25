@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de OSCA, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Itália esportiva e artesanal. A revisão C09-M04 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "77303272-10ca-76e6-89c0-61d9effee9a3",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C09-M04",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c09-m04-osca",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "c93b28f2-ea6e-7b5f-b844-9df41f793092"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Itália esportiva e artesanal",
     "relevance_score": 35,
+    "research_extract_sha256": "5cf5d59fc804bb261fcedfa64bad6e734367cb60b51e38f83eda83c13fd64358",
+    "research_match_method": "reviewed-title-override",
+    "research_wikidata_id": "Q936574",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M04"
   },
   "name": "OSCA",

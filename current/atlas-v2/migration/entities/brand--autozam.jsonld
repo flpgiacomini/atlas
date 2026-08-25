@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Autozam, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Japão. A revisão C11-M06 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "87ac0c23-2c40-7a4f-b1b7-7e120edb6a76",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C11-M06",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c11-m06-autozam",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "8396ffa8-67c9-7690-b10c-adafa9639201"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Japão",
     "relevance_score": 35,
+    "research_extract_sha256": "023fe7cc9383cded9669aa4200f71d3a15dd40fa07ec674c9aaa80445e2e4e0a",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q789333",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M06"
   },
   "name": "Autozam",

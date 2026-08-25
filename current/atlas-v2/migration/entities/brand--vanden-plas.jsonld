@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Vanden Plas, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Reino Unido. A revisão C10-M05 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "e31eeeaa-37fa-7c42-90b8-3d54b7900001",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C10-M05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c10-m05-vanden-plas",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "aacb2b77-67e9-7513-98e8-e502ff0fa574"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Reino Unido",
     "relevance_score": 35,
+    "research_extract_sha256": "ec2e8a6606621a058c67c2d35b246a1c6768b7e67430897da0820f933e949220",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q1563878",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M05"
   },
   "name": "Vanden Plas",

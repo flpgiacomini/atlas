@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Prince, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Japão. A revisão C11-M06 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "88d50376-9135-7bad-b2c7-04aa6c460f35",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C11-M06",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c11-m06-prince",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "907bcc60-290d-794a-a481-55d8ae5cb277"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Japão",
     "relevance_score": 35,
+    "research_extract_sha256": "e7d92c4141c7ddc1fd1f837119515eb9b8abeac4992af9dab5b696bf4b4bfce0",
+    "research_match_method": "automotive-search",
+    "research_wikidata_id": "Q2110378",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M06"
   },
   "name": "Prince",

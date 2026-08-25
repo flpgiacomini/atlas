@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Infiniti, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Japão. A revisão C11-M06 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "731e19ec-4c71-7225-8c7c-dd5441596eff",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C11-M06",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c11-m06-infiniti",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "e8f415bf-f082-71d6-8b2c-392a050a7ad2"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Japão",
     "relevance_score": 35,
+    "research_extract_sha256": "e599eef83e7cc4c6848e1a4d74528349b0da9ccc8e00cb875d7d32ffab1ce672",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q29714",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M06"
   },
   "name": "Infiniti",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Frazer Nash, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca ou fabricante automotivo do recorte Reino Unido. A revisão C10-M05 confirmou sua identidade em fonte individual e preservou sua incorporação editorial ao Atlas; afirmações históricas mais específicas permanecem limitadas ao resumo e às referências da fonte registrada.",
   "externalIds": [
     {
       "id": "2ddc3c87-29ef-7ab2-a478-63c7da42fbc6",
@@ -19,11 +19,23 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C10-M05",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c10-m05-frazer-nash",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "8544a863-5154-7588-b3ca-64bebc4d0ec8"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Reino Unido",
     "relevance_score": 35,
+    "research_extract_sha256": "bf2ccc0e2af92c6427cfe2dada56fabee1ebb5fa7447b77f1b327577fc1219a2",
+    "research_match_method": "direct-title",
+    "research_wikidata_id": "Q1452093",
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M05"
   },
   "name": "Frazer Nash",
