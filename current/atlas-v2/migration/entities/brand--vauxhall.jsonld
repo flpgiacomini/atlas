@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Vauxhall, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Fabricante britânica de veículos desde 1903, transferida para Luton em 1905 e importante na industrialização automotiva do Reino Unido.",
   "externalIds": [
     {
       "id": "7c01c41a-e6d3-7032-8e30-4b487b525d26",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-vauxhall",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "8f394518-d8e3-729d-8194-dc65910fe19c"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Vauxhall",

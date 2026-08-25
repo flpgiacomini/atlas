@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Humber, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca britânica originada na indústria de ciclos, fabricante de automóveis desde 1897 e depois parte do grupo Rootes, representativa da consolidação industrial de Coventry.",
   "externalIds": [
     {
       "id": "e151a193-6a68-78cc-90e8-fe6baeaa2f4a",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-humber",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "7706345a-1b43-7212-a75e-333f511e4f96"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Humber",

@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Peerless, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca de luxo do polo industrial de Cleveland. Permanece no catálogo: a fonte regional confirma o contexto, mas o C06 não encontrou documentação institucional específica suficiente para promoção editorial autônoma.",
   "externalIds": [
     {
       "id": "5c7570c0-0700-7e34-8594-a5946f20d7f7",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "retain-catalog",
+    "curation_review": "atlas:curation-review:c06-peerless",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "7b98eb37-bca6-7315-94f1-b8dc56eb3afe"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "retained_catalog_after_review",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Peerless",

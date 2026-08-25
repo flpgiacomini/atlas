@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Studebaker, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Empresa norte-americana fundada em 1852 na era das carruagens, produtora de automóveis elétricos desde 1902 e participante de uma das mais longas transições industriais da mobilidade.",
   "externalIds": [
     {
       "id": "4f638d42-7da2-7d2e-b4a7-2c10d2764df5",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-studebaker",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "a9945543-ad89-7e68-b3e2-088f7903a342"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Studebaker",

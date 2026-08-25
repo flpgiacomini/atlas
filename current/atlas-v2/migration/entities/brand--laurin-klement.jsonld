@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Laurin & Klement, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Empresa fundada em 1895 por Václav Laurin e Václav Klement: começou com bicicletas, passou a motocicletas e automóveis e foi integrada à Škoda em 1925.",
   "externalIds": [
     {
       "id": "073955c5-bea6-795c-bb7f-3f06342b2151",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-laurin-klement",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "a1506060-f61e-731b-852b-6c7cf04bbecb"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Laurin & Klement",

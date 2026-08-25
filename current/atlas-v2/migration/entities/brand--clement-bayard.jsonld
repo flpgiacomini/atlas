@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Clément-Bayard, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Marca francesa de Adolphe Clément, importante na passagem das bicicletas e triciclos para automóveis, motores e produção industrial no início do século XX.",
   "externalIds": [
     {
       "id": "e2979dcc-efbc-7012-bc80-4b4d1111056d",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-clement-bayard",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "1512cf89-cb5b-79f0-9e70-fa2b262425e9"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Clément-Bayard",

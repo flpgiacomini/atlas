@@ -1541,6 +1541,19 @@
       "verifiedAt": "2026-08-17T18:20:00+00:00"
     },
     {
+      "id": "atlas:source:museo-nazionale-dell-automobile-storia-della-itala",
+      "language": "en",
+      "legacyId": "01edf122-1cc9-7830-9aa0-61183b445780",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Museo Nazionale dell'Automobile",
+      "sourceType": "institutional",
+      "title": "Storia della Itala",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.museoauto.com/fr/qrcode/storia-della-itala/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:renault-group-renault-and-family-cars-50-years-of-history-since-the-renault-16",
       "language": "en",
       "legacyId": "079d4942-2ebf-7277-a698-6fd59af86680",
@@ -1551,6 +1564,32 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://www.renaultgroup.com/en/magazine/our-group-news/renault-and-the-familiy-cars-50-years-of-history-since-the-renault-16/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:pierce-arrow-museum-pierce-arrow-125th-anniversary",
+      "language": "en",
+      "legacyId": "141b1144-2263-7ef7-9b5a-52872d9134b4",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Pierce-Arrow Museum",
+      "sourceType": "institutional",
+      "title": "Pierce-Arrow 125th Anniversary",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.pierce-arrow.com/events/pierce-arrow-125th-anniversary/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:museo-nazionale-dell-automobile-adolphe-clement",
+      "language": "en",
+      "legacyId": "1512cf89-cb5b-79f0-9e70-fa2b262425e9",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Museo Nazionale dell'Automobile",
+      "sourceType": "institutional",
+      "title": "Adolphe Clément",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.museoauto.com/en/qrcode/adolphe-clement/",
       "verifiedAt": "2026-08-25"
     },
     {
@@ -1578,6 +1617,32 @@
       "type": "Source",
       "url": "https://artsandculture.google.com/asset/le-moteur-%C3%A0-combustion-fran%C3%A7ois-isaac-de-rivaz-brevet-d-invention-d%C3%A9pos%C3%A9-le-16-05-1805-pour-des-machines-dont-le-principe-moteur-est-l-explosion-des-gaz-et-autres-substances-a%C3%A9riformes-1ba544/VQFCB5DXRKDDmg?hl=fr",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:wisconsin-historical-society-thomas-b-jeffery-company",
+      "language": "en",
+      "legacyId": "1e005665-ce26-75cb-b7dd-8771463a1b4b",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Wisconsin Historical Society",
+      "sourceType": "institutional",
+      "title": "Thomas B. Jeffery Company",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.wisconsinhistory.org/Records/Article/CS344",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:museu-do-caramulo-darracq-12-cv-open-tourer",
+      "language": "en",
+      "legacyId": "21608b13-f829-7818-9042-0afa8db96584",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Museu do Caramulo",
+      "sourceType": "institutional",
+      "title": "Darracq 12 CV Open Tourer",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://museudocaramulo.pt/en/colecoes/darracq-12-cv-open-tourer-2/",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:science-museum-group-collection-richard-trevithick",
@@ -1793,6 +1858,32 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:musee-de-l-automobile-henri-malartre-rochet-schneider",
+      "language": "en",
+      "legacyId": "4cb2b90f-01fb-7197-a81a-f717d81280c5",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Musée de l'Automobile Henri Malartre",
+      "sourceType": "institutional",
+      "title": "Rochet-Schneider",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.musee-malartre.com/en/node/375",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:stellantis-opel-21-january-1899-opel-starts-the-automobile-age",
+      "language": "en",
+      "legacyId": "514eb07e-3ee8-73b5-a708-49b686635dba",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Stellantis / Opel",
+      "sourceType": "institutional",
+      "title": "21 January 1899: Opel starts the automobile age",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.media.stellantis.com/de-de/opel/press/21-januar-1899-vor-125-jahren-startet-opel-ins-automobilzeitalter",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "author": "Conservatoire national des arts et métiers",
       "id": "atlas:source:conservatoire-national-des-arts-et-metiers-catalogue-du-musee-section-da-transports-sur-route",
       "language": "fr",
@@ -1848,6 +1939,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:smithsonian-national-museum-of-american-history-locomobile-steam-car",
+      "language": "en",
+      "legacyId": "56ca0ccc-99cd-7e63-bf3c-947c691c0670",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Smithsonian National Museum of American History",
+      "sourceType": "institutional",
+      "title": "Locomobile steam car",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_840131",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:bmw-group-the-bmw-gina-light-visionary-model",
       "language": "en",
       "legacyId": "58f6e840-ec15-753d-89ec-a177592d57e0",
@@ -1874,6 +1978,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:british-motor-museum-longbridge-factory",
+      "language": "en",
+      "legacyId": "5a120230-a758-728c-a483-04f9087375e4",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "British Motor Museum",
+      "sourceType": "institutional",
+      "title": "Longbridge factory",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.britishmotormuseum.co.uk/explore/museum-blog/factor-us-in-longbridge-factory",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "externalIds": {
         "wikidata": "Q457634"
       },
@@ -1888,6 +2005,19 @@
       "type": "Source",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q457634.json",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:british-motor-museum-wolseley-6hp",
+      "language": "en",
+      "legacyId": "637a5891-47cb-7f02-9720-b70c1aa61ae3",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "British Motor Museum",
+      "sourceType": "institutional",
+      "title": "Wolseley 6hp",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.britishmotormuseum.co.uk/online-collections/details-page?row_id=76417800473",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:italdesign-megagamma",
@@ -1927,6 +2057,19 @@
       "type": "Source",
       "url": "https://group.mercedes-benz.com/company/tradition/founders-pioneers/carl-benz.html",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:detroit-historical-society-packard-motor-car-company",
+      "language": "en",
+      "legacyId": "6a29acc1-af84-7e9b-863a-357363eacf86",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Detroit Historical Society",
+      "sourceType": "institutional",
+      "title": "Packard Motor Car Company",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/packard-motor-car-company",
+      "verifiedAt": "2026-08-25"
     },
     {
       "externalIds": {
@@ -1997,6 +2140,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:coventry-transport-museum-conserving-a-car-humber-16-50-tourer",
+      "language": "en",
+      "legacyId": "7706345a-1b43-7212-a75e-333f511e4f96",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Coventry Transport Museum",
+      "sourceType": "institutional",
+      "title": "Conserving a car: Humber 16/50 Tourer",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://transport-museum.com/news/1490/conserving-a-car-humber-1650-tourer",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:volvo-cars-volvo-experimental-safety-car-vesc-1972",
       "language": "en",
       "legacyId": "775c6b03-55bb-7e0d-b093-9f31217e58c1",
@@ -2039,6 +2195,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:western-reserve-historical-society-cleveland-automotive-history",
+      "language": "en",
+      "legacyId": "7b98eb37-bca6-7315-94f1-b8dc56eb3afe",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Western Reserve Historical Society",
+      "sourceType": "institutional",
+      "title": "Cleveland automotive history",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.wrhs.org/files/assets/westsidedrivingtourofautomotivehistory.pdf",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:porsche-newsroom-porsche-mourns-the-death-of-ferdinand-piech",
       "language": "en",
       "legacyId": "7bebfaa3-4a1c-7114-ba6e-86e1498e4fcf",
@@ -2053,6 +2222,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:science-museum-group-mors-1902",
+      "language": "en",
+      "legacyId": "7db94a14-252b-7469-98a2-3ec7cf86a115",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Science Museum Group",
+      "sourceType": "institutional",
+      "title": "Mors, 1902",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co478031/mors-1902",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:mercedes-benz-public-archive-1991-f-100-research-vehicle",
       "language": "en",
       "legacyId": "8086d9f2-dd89-7359-9b44-1d4a6aa7fb80",
@@ -2063,6 +2245,19 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://mercedes-benz-archive.com/marsClassic/en/instance/ko/1991.xhtml?oid=4912515",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:detroit-historical-society-chrysler-corporation",
+      "language": "en",
+      "legacyId": "80ceccdf-2e0d-7626-9628-2027157f6441",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Detroit Historical Society",
+      "sourceType": "institutional",
+      "title": "Chrysler Corporation",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/chrysler-corporation",
       "verifiedAt": "2026-08-25"
     },
     {
@@ -2080,6 +2275,45 @@
       "type": "Source",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1388558.json",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "id": "atlas:source:r-e-olds-transportation-museum-r-e-olds-transportation-museum",
+      "language": "en",
+      "legacyId": "8a11468d-28e6-7a14-800f-e4e4dfa46303",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "R. E. Olds Transportation Museum",
+      "sourceType": "institutional",
+      "title": "R. E. Olds Transportation Museum",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.reoldsmuseum.org/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:hispano-suiza-cars-our-history",
+      "language": "en",
+      "legacyId": "8cfcf501-1d60-7a0d-95f4-bad7396f864c",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Hispano Suiza Cars",
+      "sourceType": "institutional",
+      "title": "Our history",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.hispanosuizacars.com/our-history/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:stellantis-vauxhall-vauxhall-celebrates-60-years-of-vehicle-production-at-ellesmere-port",
+      "language": "en",
+      "legacyId": "8f394518-d8e3-729d-8194-dc65910fe19c",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Stellantis / Vauxhall",
+      "sourceType": "institutional",
+      "title": "Vauxhall celebrates 60 years of vehicle production at Ellesmere Port",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.media.stellantis.com/uk-en/vauxhall/press/vauxhall-celebrates-60-years-of-vehicle-production-at-ellesmere-port",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:ford-motor-company-ford-heritage-vault",
@@ -2154,6 +2388,19 @@
       "verifiedAt": "2026-08-19"
     },
     {
+      "id": "atlas:source:skoda-auto-125-years-ago-laurin-and-klement-laid-the-foundation-stone-for-skoda-auto",
+      "language": "en",
+      "legacyId": "a1506060-f61e-731b-852b-6c7cf04bbecb",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Škoda Auto",
+      "sourceType": "institutional",
+      "title": "125 years ago Laurin and Klement laid the foundation stone for ŠKODA AUTO",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://cdn.skoda-storyboard.com/2020/12/201221-125-years-ago-Vaclav-Laurin-and-Vaclav-Klement-laid-the-foundation-stone-for-SKODA-AUTO.pdf",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:general-motors-heritage-collection-1962-chevrolet-corvair-monza-gt-concept",
       "language": "en",
       "legacyId": "a5b5a3b1-2c59-7929-83ef-1315f4dd5812",
@@ -2177,6 +2424,19 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://www.lamborghini.com/en-en/history/espada",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:studebaker-national-museum-the-studebaker-history",
+      "language": "en",
+      "legacyId": "a9945543-ad89-7e68-b3e2-088f7903a342",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Studebaker National Museum",
+      "sourceType": "institutional",
+      "title": "The Studebaker history",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://studebakermuseum.org/archives-and-education/the-studebaker-history/",
       "verifiedAt": "2026-08-25"
     },
     {
@@ -2353,6 +2613,19 @@
       "verifiedAt": "2026-08-19"
     },
     {
+      "id": "atlas:source:museo-nazionale-dell-automobile-storia-della-isotta-fraschini",
+      "language": "en",
+      "legacyId": "cccab165-deeb-7189-8058-f5909682068e",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Museo Nazionale dell'Automobile",
+      "sourceType": "institutional",
+      "title": "Storia della Isotta Fraschini",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.museoauto.com/fr/qrcode/storia-della-isotta-fraschini/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
       "id": "atlas:source:german-aerospace-center-dlr-getting-the-gottingen-egg-rolling",
       "language": "en",
       "legacyId": "cd355973-4d32-7836-b880-806afc2a9217",
@@ -2390,6 +2663,19 @@
       "type": "Source",
       "url": "https://www.gm.com/heritage/collection/gm-concept/1954-firebird-I",
       "verifiedAt": "2026-08-19"
+    },
+    {
+      "id": "atlas:source:science-museum-group-d-napier-son-ltd",
+      "language": "en",
+      "legacyId": "d6b6bca1-c15d-757a-866e-58782327b3fa",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Science Museum Group",
+      "sourceType": "institutional",
+      "title": "D. Napier & Son Ltd",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/ap26897/d-napier-and-son-ltd",
+      "verifiedAt": "2026-08-25"
     },
     {
       "id": "atlas:source:taubman-museum-of-art-1959-cadillac-cyclone-xp-74",
@@ -2469,6 +2755,19 @@
       "trust": "primary",
       "type": "Source",
       "url": "https://www.museoauto.com/qrcode/storia-della-de-dion-bouton/",
+      "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:tatra-trucks-tatra-trucks-company-profile",
+      "language": "en",
+      "legacyId": "ec9126b9-e60b-7540-88e7-7c0ab8a7180b",
+      "notes": "Fonte da revisão CP19 C06/M01B.",
+      "publisher": "Tatra Trucks",
+      "sourceType": "institutional",
+      "title": "TATRA TRUCKS company profile",
+      "trust": "primary",
+      "type": "Source",
+      "url": "https://www.tatra.cz/data/files/TATRA-TRUCKS-company-profile-web-CZ-1.pdf",
       "verifiedAt": "2026-08-25"
     },
     {

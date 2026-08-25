@@ -1,6 +1,6 @@
 # Panorama de implementação — Atlas v2
 
-Atualizado em: 2026-08-24
+Atualizado em: 2026-08-25
 
 ## Estado executivo
 
@@ -224,9 +224,10 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    marcas e 40 candidatos históricos. C01–C03 resolveram os primeiros 16 itens;
    C04 e C05 encerraram os 24 restantes. Os **40/40 candidatos históricos**
    estão resolvidos: 33 promovidos e sete preservados no catálogo. O primeiro
-   sublote de marcas, C06/M01A, promoveu Benz, Daimler, Mercedes-Benz, Ford,
-   De Dion-Bouton e Panhard & Levassor. O progresso é **46/522**, restando
-   exclusivamente **476 marcas**. Não
+   O C06 encerrou integralmente a onda M01: **29/29** candidatos receberam
+   decisão e **41/41** marcas do universo pioneiro estão cobertas na genealogia
+   temporal. Foram **27 promoções** e **2 retenções**. O progresso é **69/522**,
+   restando exclusivamente **453 marcas**. Não
    há IDs duplicados nem entidades migradas ausentes. Ver
    [`CURATION_CHECKPOINT_19_INVENTORY.md`](CURATION_CHECKPOINT_19_INVENTORY.md),
    [`CURATION_CHECKPOINT_19_C01.md`](CURATION_CHECKPOINT_19_C01.md),
@@ -234,7 +235,7 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    [`CURATION_CHECKPOINT_19_C03.md`](CURATION_CHECKPOINT_19_C03.md),
    [`CURATION_CHECKPOINT_19_C04.md`](CURATION_CHECKPOINT_19_C04.md) e
    [`CURATION_CHECKPOINT_19_C05.md`](CURATION_CHECKPOINT_19_C05.md) e
-   [`CURATION_CHECKPOINT_19_C06_M01A.md`](CURATION_CHECKPOINT_19_C06_M01A.md).
+   [`CURATION_CHECKPOINT_19_C06_COMPLETE.md`](CURATION_CHECKPOINT_19_C06_COMPLETE.md).
 6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 

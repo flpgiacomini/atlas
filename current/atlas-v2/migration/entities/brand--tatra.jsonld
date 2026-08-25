@@ -2,7 +2,7 @@
   "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
   "aliases": [],
   "claims": [],
-  "description": "Registro catalográfico de Tatra, incluído no censo global M01–M12 do Atlas. A história corporativa, os períodos de atividade e os modelos associados ainda aguardam aprofundamento editorial e fontes individuais.",
+  "description": "Linhagem da fabricante de Kopřivnice, uma das mais antigas do mundo automotivo. O nome Tatra, adotado em 1919, conecta automóveis pioneiros e uma tradição técnica de longa duração.",
   "externalIds": [
     {
       "id": "b313ffc6-45a0-70bb-a844-9a8743a3f7a6",
@@ -19,11 +19,20 @@
   "metadata": {
     "brand_status": "em pesquisa",
     "catalog_source": "atlas-brand-census",
+    "curation_batch": "C06-M01B",
+    "curation_decision": "promote-editorial",
+    "curation_review": "atlas:curation-review:c06-tatra",
+    "curation_reviewed_at": "2026-08-25",
+    "curation_source_ids": [
+      "ec9126b9-e60b-7540-88e7-7c0ab8a7180b"
+    ],
     "editorial_batch": "MASS01",
     "editorial_level": "catalog",
-    "promotion_state": "queued",
+    "promotion_state": "approved_pending_v2_cut",
     "region_cluster": "Pioneiras globais",
     "relevance_score": 35,
+    "verification_state": "source_backed",
+    "verified_at": "2026-08-25",
     "wave": "M01"
   },
   "name": "Tatra",

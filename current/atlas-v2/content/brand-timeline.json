@@ -2,6 +2,32 @@
   "version": "2.0.0",
   "milestones": [
     {
+      "id": "atlas:brand-milestone:c06-de-dion-bouton-1883",
+      "brand": "atlas:brand:de-dion-bouton",
+      "year": 1883,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "De Dion-Bouton inicia sua trajetória no ciclo do vapor",
+      "sourceRefs": [
+        "atlas:source:museo-nazionale-dell-automobile-storia-della-de-dion-bouton"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-benz-1886",
+      "brand": "atlas:brand:benz",
+      "year": 1886,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Benz transforma o automóvel patenteado em atividade industrial",
+      "sourceRefs": [
+        "atlas:source:mercedes-benz-group-beginnings-of-the-automobile-the-predecessor-companies-18861920"
+      ],
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:peugeot-first-automobile-1889",
       "brand": "atlas:brand:peugeot",
       "year": 1889,
@@ -9,7 +35,100 @@
       "kind": "launched",
       "scope": "brand-identity",
       "label": "Peugeot apresenta seu primeiro modelo de automóvel",
-      "sourceRefs": ["atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"],
+      "sourceRefs": [
+        "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-daimler-1890",
+      "brand": "atlas:brand:daimler",
+      "year": 1890,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Daimler-Motoren-Gesellschaft organiza a linhagem Daimler",
+      "sourceRefs": [
+        "atlas:source:mercedes-benz-group-beginnings-of-the-automobile-the-predecessor-companies-18861920"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-panhard-levassor-1890",
+      "brand": "atlas:brand:panhard-levassor",
+      "year": 1890,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Panhard & Levassor inicia a produção automotiva",
+      "sourceRefs": [
+        "atlas:source:science-museum-group-panhard-and-levassor"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-rochet-schneider-1894",
+      "brand": "atlas:brand:rochet-schneider",
+      "year": 1894,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Rochet-Schneider inicia sua trajetória em Lyon",
+      "sourceRefs": [
+        "atlas:source:musee-de-l-automobile-henri-malartre-rochet-schneider"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-laurin-klement-1895",
+      "brand": "atlas:brand:laurin-klement",
+      "year": 1895,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Laurin & Klement inicia a linhagem da Škoda",
+      "sourceRefs": [
+        "atlas:source:skoda-auto-125-years-ago-laurin-and-klement-laid-the-foundation-stone-for-skoda-auto"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-audit-oldsmobile-1897",
+      "brand": "atlas:brand:oldsmobile",
+      "year": 1897,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Olds Motor Vehicle Company é organizada",
+      "confidence": "medium",
+      "sourceRefs": [
+        "atlas:source:the-henry-ford-the-curved-dash-oldsmobile"
+      ]
+    },
+    {
+      "id": "atlas:brand-milestone:c06-darracq-1897",
+      "brand": "atlas:brand:darracq",
+      "year": 1897,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Darracq ingressa na fabricação de automóveis",
+      "sourceRefs": [
+        "atlas:source:museu-do-caramulo-darracq-12-cv-open-tourer"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-humber-1897",
+      "brand": "atlas:brand:humber",
+      "year": 1897,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Humber produz seu primeiro automóvel",
+      "sourceRefs": [
+        "atlas:source:coventry-transport-museum-conserving-a-car-humber-16-50-tourer"
+      ],
       "confidence": "high"
     },
     {
@@ -21,7 +140,63 @@
       "scope": "operator",
       "label": "Renault Frères é constituída",
       "event": "atlas:event:renault-freres-founded",
-      "sourceRefs": ["atlas:source:renault-group-120-years-of-brand-identity"],
+      "sourceRefs": [
+        "atlas:source:renault-group-120-years-of-brand-identity"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-locomobile-1899",
+      "brand": "atlas:brand:locomobile",
+      "year": 1899,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Locomobile inicia a produção de carros a vapor",
+      "sourceRefs": [
+        "atlas:source:smithsonian-national-museum-of-american-history-locomobile-steam-car"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-opel-1899",
+      "brand": "atlas:brand:opel",
+      "year": 1899,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Opel inicia oficialmente a produção de automóveis",
+      "sourceRefs": [
+        "atlas:source:stellantis-opel-21-january-1899-opel-starts-the-automobile-age"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-packard-1899",
+      "brand": "atlas:brand:packard",
+      "year": 1899,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "O primeiro Packard é construído",
+      "sourceRefs": [
+        "atlas:source:detroit-historical-society-packard-motor-car-company"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:fiat-founded-1899",
+      "brand": "atlas:brand:fiat",
+      "year": 1899,
+      "date": "1899-07-11",
+      "precision": "day",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "FIAT é fundada em Turim",
+      "event": "atlas:event:fiat-founded-in-turin",
+      "sourceRefs": [
+        "atlas:source:stellantis-fiat-fiat-celebrates-its-first-125-years"
+      ],
       "confidence": "high"
     },
     {
@@ -43,34 +218,107 @@
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:fiat-founded-1899",
-      "brand": "atlas:brand:fiat",
-      "year": 1899,
-      "date": "1899-07-11",
-      "precision": "day",
+      "id": "atlas:brand-milestone:c06-isotta-fraschini-1900",
+      "brand": "atlas:brand:isotta-fraschini",
+      "year": 1900,
+      "precision": "year",
       "kind": "founded",
       "scope": "brand-identity",
-      "label": "FIAT é fundada em Turim",
-      "event": "atlas:event:fiat-founded-in-turin",
-      "sourceRefs": ["atlas:source:stellantis-fiat-fiat-celebrates-its-first-125-years"],
+      "label": "Isotta Fraschini é fundada em Milão",
+      "sourceRefs": [
+        "atlas:source:museo-nazionale-dell-automobile-storia-della-isotta-fraschini"
+      ],
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:ford-operator-founded-1903",
-      "brand": "atlas:brand:ford",
-      "year": 1903,
-      "date": "1903-06-16",
-      "precision": "day",
-      "kind": "operator-founded",
-      "scope": "operator",
-      "label": "Ford Motor Company é constituída",
-      "source": {
-        "title": "Life of Henry Ford",
-        "publisher": "Ford Motor Company",
-        "url": "https://corporate.ford.com/corporate/corporate/articles/history/henry-ford-biography/",
-        "trust": "primary",
-        "verifiedAt": "2026-08-21"
-      },
+      "id": "atlas:brand-milestone:c06-napier-1900",
+      "brand": "atlas:brand:napier",
+      "year": 1900,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Napier produz um automóvel de seis cilindros",
+      "sourceRefs": [
+        "atlas:source:science-museum-group-d-napier-son-ltd"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-peerless-1900",
+      "brand": "atlas:brand:peerless",
+      "year": 1900,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Peerless integra o polo automotivo de Cleveland",
+      "sourceRefs": [
+        "atlas:source:western-reserve-historical-society-cleveland-automotive-history"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-pierce-arrow-1901",
+      "brand": "atlas:brand:pierce-arrow",
+      "year": 1901,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Pierce produz seu primeiro automóvel",
+      "sourceRefs": [
+        "atlas:source:pierce-arrow-museum-pierce-arrow-125th-anniversary"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-wolseley-1901",
+      "brand": "atlas:brand:wolseley",
+      "year": 1901,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Wolseley inicia a produção comercial de automóveis",
+      "sourceRefs": [
+        "atlas:source:british-motor-museum-wolseley-6hp"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-mors-1902",
+      "brand": "atlas:brand:mors",
+      "year": 1902,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Mors leva a velocidade ao centro da narrativa automotiva",
+      "sourceRefs": [
+        "atlas:source:science-museum-group-mors-1902"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-rambler-1902",
+      "brand": "atlas:brand:rambler",
+      "year": 1902,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Rambler estabelece uma linhagem industrial em Wisconsin",
+      "sourceRefs": [
+        "atlas:source:wisconsin-historical-society-thomas-b-jeffery-company"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-studebaker-1902",
+      "brand": "atlas:brand:studebaker",
+      "year": 1902,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Studebaker passa das carruagens ao automóvel elétrico",
+      "sourceRefs": [
+        "atlas:source:studebaker-national-museum-the-studebaker-history"
+      ],
       "confidence": "high"
     },
     {
@@ -108,6 +356,115 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:c06-clement-bayard-1903",
+      "brand": "atlas:brand:clement-bayard",
+      "year": 1903,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Clément-Bayard consolida sua identidade automotiva",
+      "sourceRefs": [
+        "atlas:source:museo-nazionale-dell-automobile-adolphe-clement"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-ford-1903",
+      "brand": "atlas:brand:ford",
+      "year": 1903,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Ford Motor Company é constituída",
+      "sourceRefs": [
+        "atlas:source:ford-motor-company-ford-company-timeline"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-vauxhall-1903",
+      "brand": "atlas:brand:vauxhall",
+      "year": 1903,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Vauxhall inicia a produção de automóveis",
+      "sourceRefs": [
+        "atlas:source:stellantis-vauxhall-vauxhall-celebrates-60-years-of-vehicle-production-at-ellesmere-port"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:ford-operator-founded-1903",
+      "brand": "atlas:brand:ford",
+      "year": 1903,
+      "date": "1903-06-16",
+      "precision": "day",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Ford Motor Company é constituída",
+      "source": {
+        "title": "Life of Henry Ford",
+        "publisher": "Ford Motor Company",
+        "url": "https://corporate.ford.com/corporate/corporate/articles/history/henry-ford-biography/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-hispano-suiza-1904",
+      "brand": "atlas:brand:hispano-suiza",
+      "year": 1904,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Hispano-Suiza é fundada em Barcelona",
+      "sourceRefs": [
+        "atlas:source:hispano-suiza-cars-our-history"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-itala-1904",
+      "brand": "atlas:brand:itala",
+      "year": 1904,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Itala nasce em Turim",
+      "sourceRefs": [
+        "atlas:source:museo-nazionale-dell-automobile-storia-della-itala"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-maxwell-1904",
+      "brand": "atlas:brand:maxwell",
+      "year": 1904,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Maxwell entra no mercado norte-americano",
+      "sourceRefs": [
+        "atlas:source:detroit-historical-society-chrysler-corporation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-reo-1904",
+      "brand": "atlas:brand:reo",
+      "year": 1904,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "REO surge no polo industrial de Lansing",
+      "sourceRefs": [
+        "atlas:source:r-e-olds-transportation-museum-r-e-olds-transportation-museum"
+      ],
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:rolls-royce-name-agreement-1904",
       "brand": "atlas:brand:rolls-royce",
       "year": 1904,
@@ -116,7 +473,22 @@
       "kind": "launched",
       "scope": "brand-identity",
       "label": "Rolls e Royce acordam vender automóveis sob o nome Rolls-Royce",
-      "sourceRefs": ["atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"],
+      "sourceRefs": [
+        "atlas:source:rolls-royce-motor-cars-how-rolls-met-royce"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-austin-1905",
+      "brand": "atlas:brand:austin",
+      "year": 1905,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Austin estabelece sua fábrica em Longbridge",
+      "sourceRefs": [
+        "atlas:source:british-motor-museum-longbridge-factory"
+      ],
       "confidence": "high"
     },
     {
@@ -129,7 +501,9 @@
       "scope": "operator",
       "label": "Lancia & C. é constituída em Turim",
       "event": "atlas:event:lancia-founded-in-turin",
-      "sourceRefs": ["atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"],
+      "sourceRefs": [
+        "atlas:source:lancia-stellantis-happy-birthday-lancia-118-years-of-italian-elegance"
+      ],
       "confidence": "high"
     },
     {
@@ -169,21 +543,21 @@
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:citroen-automobile-production-1919",
-      "brand": "atlas:brand:citroen",
-      "year": 1919,
+      "id": "atlas:brand-milestone:c06-audit-lincoln-1917",
+      "brand": "atlas:brand:lincoln",
+      "year": 1917,
       "precision": "year",
-      "kind": "launched",
+      "kind": "founded",
       "scope": "brand-identity",
-      "label": "Citroën inicia sua história automobilística",
+      "label": "Lincoln Motor Company é fundada",
+      "confidence": "medium",
       "source": {
-        "title": "90 anos do Traction Avant",
-        "publisher": "Stellantis / Citroën",
-        "url": "https://www.media.stellantis.com/uploads/pt/attachment/4248/90anosdotractionavant-662b7fb61a1bc.pdf",
+        "title": "História institucional de Lincoln",
+        "publisher": "Lincoln",
+        "url": "https://corporate.ford.com/about/brands/lincoln.html",
         "trust": "primary",
-        "verifiedAt": "2026-08-21"
-      },
-      "confidence": "high"
+        "verifiedAt": "2026-08-25"
+      }
     },
     {
       "id": "atlas:brand-milestone:bentley-founded-1919",
@@ -197,6 +571,36 @@
         "title": "Bentley history",
         "publisher": "Bentley Motors",
         "url": "https://www.bentleymedia.com/en/company/heritage",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-tatra-1919",
+      "brand": "atlas:brand:tatra",
+      "year": 1919,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "O nome Tatra passa a identificar a linhagem da Nesselsdorfer",
+      "sourceRefs": [
+        "atlas:source:tatra-trucks-tatra-trucks-company-profile"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:citroen-automobile-production-1919",
+      "brand": "atlas:brand:citroen",
+      "year": 1919,
+      "precision": "year",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Citroën inicia sua história automobilística",
+      "source": {
+        "title": "90 anos do Traction Avant",
+        "publisher": "Stellantis / Citroën",
+        "url": "https://www.media.stellantis.com/uploads/pt/attachment/4248/90anosdotractionavant-662b7fb61a1bc.pdf",
         "trust": "primary",
         "verifiedAt": "2026-08-21"
       },
@@ -221,6 +625,23 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:borgward-first-vehicle-1924",
+      "brand": "atlas:brand:borgward",
+      "year": 1924,
+      "precision": "year",
+      "kind": "launched",
+      "scope": "brand-identity",
+      "label": "Carl Borgward constrói o Blitzkarren, primeiro veículo de sua linhagem industrial",
+      "source": {
+        "title": "Stadtgeschichte im Überblick",
+        "publisher": "Freie Hansestadt Bremen",
+        "url": "https://www.bremen.de/tourismus/stadt-leute/geschichte",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:mg-first-model-1924",
       "brand": "atlas:brand:mg",
       "year": 1924,
@@ -228,8 +649,27 @@
       "kind": "launched",
       "scope": "brand-identity",
       "label": "O MG 14/28 inaugura a identidade automotiva MG",
-      "source": {"title":"Los 10 coches más importantes de MG en sus 100 años de historia","publisher":"MG Motor Europe","url":"https://news.mgmotor.eu/es/press/10-modelos-mg-historia/","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "Los 10 coches más importantes de MG en sus 100 años de historia",
+        "publisher": "MG Motor Europe",
+        "url": "https://news.mgmotor.eu/es/press/10-modelos-mg-historia/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-audit-skoda-1925",
+      "brand": "atlas:brand:skoda",
+      "year": 1925,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Laurin & Klement integra-se à Škoda",
+      "confidence": "medium",
+      "sourceRefs": [
+        "atlas:source:skoda-auto-125-years-ago-laurin-and-klement-laid-the-foundation-stone-for-skoda-auto"
+      ]
     },
     {
       "id": "atlas:brand-milestone:mercedes-benz-trademark-1925",
@@ -247,6 +687,19 @@
         "trust": "primary",
         "verifiedAt": "2026-08-21"
       },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:c06-mercedes-benz-1926",
+      "brand": "atlas:brand:mercedes-benz",
+      "year": 1926,
+      "precision": "year",
+      "kind": "founded",
+      "scope": "brand-identity",
+      "label": "Mercedes-Benz reúne as linhagens Daimler e Benz",
+      "sourceRefs": [
+        "atlas:source:mercedes-benz-group-tradition-transformation-and-technology-leadership-100-years-of-mercedes-benz"
+      ],
       "confidence": "high"
     },
     {
@@ -276,35 +729,9 @@
       "kind": "launched",
       "scope": "brand-identity",
       "label": "O primeiro automóvel Volvo deixa a fábrica em Gotemburgo",
-      "sourceRefs": ["atlas:source:volvo-cars-volvo-cars-heritage"],
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:toyota-logo-established-1936",
-      "brand": "atlas:brand:toyota",
-      "year": 1936,
-      "precision": "year",
-      "kind": "trademark-registered",
-      "scope": "brand-identity",
-      "label": "A identidade Toyota e seu logotipo são estabelecidos",
-      "sourceRefs": ["atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"],
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:volkswagenwerk-founded-1937",
-      "brand": "atlas:brand:volkswagen",
-      "year": 1937,
-      "precision": "year",
-      "kind": "operator-founded",
-      "scope": "operator",
-      "label": "Volkswagenwerk GmbH é fundada sob a Frente Alemã para o Trabalho",
-      "source": {
-        "title": "History",
-        "publisher": "Volkswagen Group",
-        "url": "https://www.volkswagen-group.com/en/history-15914",
-        "trust": "primary",
-        "verifiedAt": "2026-08-21"
-      },
+      "sourceRefs": [
+        "atlas:source:volvo-cars-volvo-cars-heritage"
+      ],
       "confidence": "high"
     },
     {
@@ -326,6 +753,19 @@
       "confidence": "high"
     },
     {
+      "id": "atlas:brand-milestone:toyota-logo-established-1936",
+      "brand": "atlas:brand:toyota",
+      "year": 1936,
+      "precision": "year",
+      "kind": "trademark-registered",
+      "scope": "brand-identity",
+      "label": "A identidade Toyota e seu logotipo são estabelecidos",
+      "sourceRefs": [
+        "atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"
+      ],
+      "confidence": "high"
+    },
+    {
       "id": "atlas:brand-milestone:toyota-motor-founded-1937",
       "brand": "atlas:brand:toyota",
       "year": 1937,
@@ -333,7 +773,26 @@
       "kind": "operator-founded",
       "scope": "operator",
       "label": "Toyota Motor Co., Ltd. é estabelecida",
-      "sourceRefs": ["atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"],
+      "sourceRefs": [
+        "atlas:source:toyota-motor-corporation-the-beginnings-history-of-toyota"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:volkswagenwerk-founded-1937",
+      "brand": "atlas:brand:volkswagen",
+      "year": 1937,
+      "precision": "year",
+      "kind": "operator-founded",
+      "scope": "operator",
+      "label": "Volkswagenwerk GmbH é fundada sob a Frente Alemã para o Trabalho",
+      "source": {
+        "title": "History",
+        "publisher": "Volkswagen Group",
+        "url": "https://www.volkswagen-group.com/en/history-15914",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -345,22 +804,24 @@
       "kind": "launched",
       "scope": "brand-identity",
       "label": "O motor da Ferrari 125 S funciona pela primeira vez",
-      "sourceRefs": ["atlas:source:ferrari-ferrari-125-s"],
+      "sourceRefs": [
+        "atlas:source:ferrari-ferrari-125-s"
+      ],
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:porsche-brand-born-1948",
-      "brand": "atlas:brand:porsche",
-      "year": 1948,
-      "date": "1948-06-08",
-      "precision": "day",
+      "id": "atlas:brand-milestone:saab-first-car-unveiled-1947",
+      "brand": "atlas:brand:saab",
+      "year": 1947,
+      "date": "1947-06",
+      "precision": "month",
       "kind": "launched",
       "scope": "brand-identity",
-      "label": "O Porsche 356 No. 1 é registrado e inaugura a marca automotiva",
+      "label": "Saab apresenta publicamente seu primeiro automóvel em Linköping",
       "source": {
-        "title": "70 years of sports cars at Porsche",
-        "publisher": "Porsche AG",
-        "url": "https://newsroom.porsche.com/en/company/porsche-70-years-sports-car-new-year-reception-anniversary-356-no-1-roadster-ferry-porsche-ferdinand-alexander-porsche-tradition-future-mission-e-oliver-blume-14750.html",
+        "title": "The cars: Saab's little green car",
+        "publisher": "Saab AB",
+        "url": "https://www.saab.com/newsroom/stories/2016/february/the-cars-saabs-little-green-car---a-classic-in-swedens-welfare-state",
         "trust": "primary",
         "verifiedAt": "2026-08-21"
       },
@@ -384,15 +845,21 @@
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:mini-public-debut-1959",
-      "brand": "atlas:brand:mini",
-      "year": 1959,
-      "date": "1959-08-26",
+      "id": "atlas:brand-milestone:porsche-brand-born-1948",
+      "brand": "atlas:brand:porsche",
+      "year": 1948,
+      "date": "1948-06-08",
       "precision": "day",
       "kind": "launched",
       "scope": "brand-identity",
-      "label": "BMC apresenta publicamente o Morris Mini-Minor e o Austin Seven",
-      "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
+      "label": "O Porsche 356 No. 1 é registrado e inaugura a marca automotiva",
+      "source": {
+        "title": "70 years of sports cars at Porsche",
+        "publisher": "Porsche AG",
+        "url": "https://newsroom.porsche.com/en/company/porsche-70-years-sports-car-new-year-reception-anniversary-356-no-1-roadster-ferry-porsche-ferdinand-alexander-porsche-tradition-future-mission-e-oliver-blume-14750.html",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -404,146 +871,31 @@
       "kind": "founded",
       "scope": "brand-identity",
       "label": "Jean Rédélé constitui a Société des Automobiles Alpine",
-      "source": {"title":"Alpine avec passion à Rétromobile","publisher":"Renault Group Media","url":"https://be.media.renaultgroup.com/alpine-avec-passion-a-retromobile/","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "Alpine avec passion à Rétromobile",
+        "publisher": "Renault Group Media",
+        "url": "https://be.media.renaultgroup.com/alpine-avec-passion-a-retromobile/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:nissan-worldwide-identity-1981",
-      "brand": "atlas:brand:nissan",
-      "year": 1981,
-      "date": "1981-07",
-      "precision": "month",
-      "kind": "renamed",
-      "scope": "brand-identity",
-      "label": "Nissan inicia a identidade mundial de seus veículos sob o nome corporativo",
-      "source": {"title":"1980's — Company Heritage","publisher":"Nissan Motor Corporation","url":"https://www.nissan-global.com/EN/COMPANY/PROFILE/HERITAGE/1980_copy/","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:audi-ag-name-1985",
-      "brand": "atlas:brand:audi",
-      "year": 1985,
-      "date": "1985-01-01",
-      "precision": "day",
-      "kind": "renamed",
-      "scope": "operator",
-      "label": "Audi NSU Auto Union AG passa a chamar-se AUDI AG",
-      "source": {"title":"History of the Four Rings","publisher":"Audi MediaCenter","url":"https://www.audi-mediacenter.com/en/press-releases/history-of-the-four-rings-4093","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:bugatti-revival-1987",
-      "brand": "atlas:brand:bugatti",
-      "year": 1987,
-      "precision": "year",
-      "kind": "revived",
-      "scope": "brand-identity",
-      "label": "Romano Artioli inicia o renascimento da Bugatti",
-      "event": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
-      "sourceRefs": ["atlas:source:bugatti-automobiles-s-a-s-romano-artioli-at-90-a-visionary-and-bugatti-savior"],
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:bugatti-vw-revival-1998",
-      "brand": "atlas:brand:bugatti",
-      "year": 1998,
-      "precision": "year",
-      "kind": "revived",
-      "scope": "brand-identity",
-      "label": "A Bugatti renasce sob o Volkswagen Group",
-      "event": "atlas:event:bugatti-revival-under-volkswagen-group",
-      "sourceRefs": ["atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"],
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:classic-mini-production-ended-2000",
+      "id": "atlas:brand-milestone:mini-public-debut-1959",
       "brand": "atlas:brand:mini",
-      "year": 2000,
-      "date": "2000-10-04",
+      "year": 1959,
+      "date": "1959-08-26",
       "precision": "day",
-      "kind": "discontinued",
-      "scope": "brand-identity",
-      "label": "O último Mini clássico deixa a fábrica de Longbridge",
-      "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:modern-mini-relaunched-2001",
-      "brand": "atlas:brand:mini",
-      "year": 2001,
-      "precision": "year",
-      "kind": "revived",
-      "scope": "brand-identity",
-      "label": "BMW Group relança a marca MINI e inicia a produção moderna em Oxford",
-      "source": {"title":"1959–2009. Fifty Years of MINI","publisher":"BMW Group","url":"https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:maybach-revived-2002",
-      "brand": "atlas:brand:maybach",
-      "year": 2002,
-      "precision": "year",
-      "kind": "revived",
-      "scope": "brand-identity",
-      "label": "Maybach retorna ao mercado após seis décadas",
-      "source": {"title":"DaimlerChrysler Annual Report 2002","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimlerchrysler/daimler-ir-annualreport-2002.pdf","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:maybach-production-discontinued-2013",
-      "brand": "atlas:brand:maybach",
-      "year": 2013,
-      "precision": "year",
-      "kind": "discontinued",
-      "scope": "brand-identity",
-      "label": "A produção da gama Maybach autônoma é encerrada",
-      "source": {"title":"Daimler Annual Report 2011","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annualreport-2011.pdf","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "medium"
-    },
-    {
-      "id": "atlas:brand-milestone:mercedes-maybach-subbrand-2014",
-      "brand": "atlas:brand:maybach",
-      "year": 2014,
-      "date": "2014-11",
-      "precision": "month",
-      "kind": "revived",
-      "scope": "brand-identity",
-      "label": "O nome retorna como submarca Mercedes-Maybach",
-      "source": {"title":"Daimler Annual Report 2015","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annual-report-2015.pdf","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:alpine-commercial-return-2017",
-      "brand": "atlas:brand:alpine",
-      "year": 2017,
-      "precision": "year",
-      "kind": "revived",
-      "scope": "brand-identity",
-      "label": "Alpine retorna comercialmente com a nova geração A110",
-      "source": {"title":"Alpine avec passion à Rétromobile","publisher":"Renault Group Media","url":"https://be.media.renaultgroup.com/alpine-avec-passion-a-retromobile/","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:borgward-first-vehicle-1924",
-      "brand": "atlas:brand:borgward",
-      "year": 1924,
-      "precision": "year",
       "kind": "launched",
       "scope": "brand-identity",
-      "label": "Carl Borgward constrói o Blitzkarren, primeiro veículo de sua linhagem industrial",
-      "source": {"title":"Stadtgeschichte im Überblick","publisher":"Freie Hansestadt Bremen","url":"https://www.bremen.de/tourismus/stadt-leute/geschichte","trust":"primary","verifiedAt":"2026-08-21"},
-      "confidence": "high"
-    },
-    {
-      "id": "atlas:brand-milestone:saab-first-car-unveiled-1947",
-      "brand": "atlas:brand:saab",
-      "year": 1947,
-      "date": "1947-06",
-      "precision": "month",
-      "kind": "launched",
-      "scope": "brand-identity",
-      "label": "Saab apresenta publicamente seu primeiro automóvel em Linköping",
-      "source": {"title":"The cars: Saab's little green car","publisher":"Saab AB","url":"https://www.saab.com/newsroom/stories/2016/february/the-cars-saabs-little-green-car---a-classic-in-swedens-welfare-state","trust":"primary","verifiedAt":"2026-08-21"},
+      "label": "BMC apresenta publicamente o Morris Mini-Minor e o Austin Seven",
+      "source": {
+        "title": "1959–2009. Fifty Years of MINI",
+        "publisher": "BMW Group",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -554,7 +906,13 @@
       "kind": "discontinued",
       "scope": "operator",
       "label": "A crise da Borgward termina em falência e encerra sua operação industrial em Bremen",
-      "source": {"title":"Automotive","publisher":"Freie Hansestadt Bremen","url":"https://www.bremen.de/wirtschaft/standortinformationen/automotive","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "Automotive",
+        "publisher": "Freie Hansestadt Bremen",
+        "url": "https://www.bremen.de/wirtschaft/standortinformationen/automotive",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -566,7 +924,31 @@
       "kind": "launched",
       "scope": "brand-identity",
       "label": "O primeiro DeLorean de produção é concluído em Dunmurry",
-      "source": {"title":"The First DeLorean — SCEDT26T8BD000500","publisher":"DeLorean Motor Company (Texas)","url":"https://support.delorean.com/kb/a119/the-first-delorean-scedt26t8bd000500.aspx","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "The First DeLorean — SCEDT26T8BD000500",
+        "publisher": "DeLorean Motor Company (Texas)",
+        "url": "https://support.delorean.com/kb/a119/the-first-delorean-scedt26t8bd000500.aspx",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:nissan-worldwide-identity-1981",
+      "brand": "atlas:brand:nissan",
+      "year": 1981,
+      "date": "1981-07",
+      "precision": "month",
+      "kind": "renamed",
+      "scope": "brand-identity",
+      "label": "Nissan inicia a identidade mundial de seus veículos sob o nome corporativo",
+      "source": {
+        "title": "1980's — Company Heritage",
+        "publisher": "Nissan Motor Corporation",
+        "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/HERITAGE/1980_copy/",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -578,7 +960,45 @@
       "kind": "discontinued",
       "scope": "operator",
       "label": "Termina a produção original do DeLorean após dois anos",
-      "source": {"title":"DeLorean Model Years","publisher":"DeLorean Motor Company (Texas)","url":"https://support.delorean.com/kb/a11/delorean-model-years.aspx","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "DeLorean Model Years",
+        "publisher": "DeLorean Motor Company (Texas)",
+        "url": "https://support.delorean.com/kb/a11/delorean-model-years.aspx",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:audi-ag-name-1985",
+      "brand": "atlas:brand:audi",
+      "year": 1985,
+      "date": "1985-01-01",
+      "precision": "day",
+      "kind": "renamed",
+      "scope": "operator",
+      "label": "Audi NSU Auto Union AG passa a chamar-se AUDI AG",
+      "source": {
+        "title": "History of the Four Rings",
+        "publisher": "Audi MediaCenter",
+        "url": "https://www.audi-mediacenter.com/en/press-releases/history-of-the-four-rings-4093",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:bugatti-revival-1987",
+      "brand": "atlas:brand:bugatti",
+      "year": 1987,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "Romano Artioli inicia o renascimento da Bugatti",
+      "event": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
+      "sourceRefs": [
+        "atlas:source:bugatti-automobiles-s-a-s-romano-artioli-at-90-a-visionary-and-bugatti-savior"
+      ],
       "confidence": "high"
     },
     {
@@ -589,7 +1009,45 @@
       "kind": "acquired",
       "scope": "ownership",
       "label": "Saab Automobile torna-se companhia separada e a GM adquire participação de 50%",
-      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "History",
+        "publisher": "Saab AB",
+        "url": "https://www.saab.com/about/company-in-brief/history",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:bugatti-vw-revival-1998",
+      "brand": "atlas:brand:bugatti",
+      "year": 1998,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "A Bugatti renasce sob o Volkswagen Group",
+      "event": "atlas:event:bugatti-revival-under-volkswagen-group",
+      "sourceRefs": [
+        "atlas:source:bugatti-automobiles-s-a-s-les-110-ans-de-bugatti"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:classic-mini-production-ended-2000",
+      "brand": "atlas:brand:mini",
+      "year": 2000,
+      "date": "2000-10-04",
+      "precision": "day",
+      "kind": "discontinued",
+      "scope": "brand-identity",
+      "label": "O último Mini clássico deixa a fábrica de Longbridge",
+      "source": {
+        "title": "1959–2009. Fifty Years of MINI",
+        "publisher": "BMW Group",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -600,18 +1058,47 @@
       "kind": "acquired",
       "scope": "ownership",
       "label": "General Motors assume integralmente a operação automobilística Saab",
-      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "source": {
+        "title": "History",
+        "publisher": "Saab AB",
+        "url": "https://www.saab.com/about/company-in-brief/history",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
-      "id": "atlas:brand-milestone:saab-automobile-bankruptcy-2011",
-      "brand": "atlas:brand:saab",
-      "year": 2011,
+      "id": "atlas:brand-milestone:modern-mini-relaunched-2001",
+      "brand": "atlas:brand:mini",
+      "year": 2001,
       "precision": "year",
-      "kind": "discontinued",
-      "scope": "operator",
-      "label": "Saab Automobile entra em falência e encerra a atividade automotiva da marca",
-      "source": {"title":"History","publisher":"Saab AB","url":"https://www.saab.com/about/company-in-brief/history","trust":"primary","verifiedAt":"2026-08-21"},
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "BMW Group relança a marca MINI e inicia a produção moderna em Oxford",
+      "source": {
+        "title": "1959–2009. Fifty Years of MINI",
+        "publisher": "BMW Group",
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0012284EN/1959-%E2%80%93-2009-fifty-years-of-mini",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:maybach-revived-2002",
+      "brand": "atlas:brand:maybach",
+      "year": 2002,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "Maybach retorna ao mercado após seis décadas",
+      "source": {
+        "title": "DaimlerChrysler Annual Report 2002",
+        "publisher": "Mercedes-Benz Group",
+        "url": "https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimlerchrysler/daimler-ir-annualreport-2002.pdf",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
       "confidence": "high"
     },
     {
@@ -627,6 +1114,75 @@
         "title": "Investor FAQs",
         "publisher": "Tesla Investor Relations",
         "url": "https://ir.tesla.com/node/16",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:saab-automobile-bankruptcy-2011",
+      "brand": "atlas:brand:saab",
+      "year": 2011,
+      "precision": "year",
+      "kind": "discontinued",
+      "scope": "operator",
+      "label": "Saab Automobile entra em falência e encerra a atividade automotiva da marca",
+      "source": {
+        "title": "History",
+        "publisher": "Saab AB",
+        "url": "https://www.saab.com/about/company-in-brief/history",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:maybach-production-discontinued-2013",
+      "brand": "atlas:brand:maybach",
+      "year": 2013,
+      "precision": "year",
+      "kind": "discontinued",
+      "scope": "brand-identity",
+      "label": "A produção da gama Maybach autônoma é encerrada",
+      "source": {
+        "title": "Daimler Annual Report 2011",
+        "publisher": "Mercedes-Benz Group",
+        "url": "https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annualreport-2011.pdf",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "atlas:brand-milestone:mercedes-maybach-subbrand-2014",
+      "brand": "atlas:brand:maybach",
+      "year": 2014,
+      "date": "2014-11",
+      "precision": "month",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "O nome retorna como submarca Mercedes-Maybach",
+      "source": {
+        "title": "Daimler Annual Report 2015",
+        "publisher": "Mercedes-Benz Group",
+        "url": "https://group.mercedes-benz.com/documents/investors/berichte/geschaeftsberichte/daimler/daimler-ir-annual-report-2015.pdf",
+        "trust": "primary",
+        "verifiedAt": "2026-08-21"
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "atlas:brand-milestone:alpine-commercial-return-2017",
+      "brand": "atlas:brand:alpine",
+      "year": 2017,
+      "precision": "year",
+      "kind": "revived",
+      "scope": "brand-identity",
+      "label": "Alpine retorna comercialmente com a nova geração A110",
+      "source": {
+        "title": "Alpine avec passion à Rétromobile",
+        "publisher": "Renault Group Media",
+        "url": "https://be.media.renaultgroup.com/alpine-avec-passion-a-retromobile/",
         "trust": "primary",
         "verifiedAt": "2026-08-21"
       },
