@@ -26,9 +26,9 @@ export function searchEntities(items, query, year, limit = 18) {
   const needle = normalizeSearch(query);
   if (!needle) return [];
   return items.filter((item) => {
-    // An undated record cannot be proven to belong to the selected historical
-    // horizon, so it stays discoverable through connected dated records only.
-    const temporal = item.yearStart != null && item.yearStart <= year;
+    // Undated identities stay discoverable, but the UI labels them as "s/d"
+    // and must not place them inside the selected historical horizon.
+    const temporal = item.yearStart == null || item.yearStart <= year;
     const haystack = normalizeSearch([item.name, ...(item.aliases || []), item.type, item.description, item.region].join(" "));
     return temporal && haystack.includes(needle);
   }).slice(0, limit);

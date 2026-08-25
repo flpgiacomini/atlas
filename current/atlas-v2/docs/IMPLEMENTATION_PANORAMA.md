@@ -5,30 +5,30 @@ Atualizado em: 2026-08-25
 ## Estado executivo
 
 O Atlas v2 possui uma cadeia reproduzível de documentos canônicos para bundles
-e aplicação Astro/React. São **966 entidades publicáveis**, **52 bundles**,
+e aplicação Astro/React. São **966 entidades publicáveis**, **53 bundles**,
 **258 capítulos anuais** cobrindo 1769–2026, seis percursos editoriais, timeline
 global, modal, busca e cinco visualizações especializadas. A migração preserva
 os 920 registros da v1; 47 entidades editoriais adicionais foram incorporadas,
 com uma sobreposição de identidade resolvida no índice final.
 
-A cobertura anual ainda não equivale à completude histórica. A auditoria atual
-confirma 258 capítulos com suporte temporal canônico e nenhum gap de alinhamento
-de claims. Os capítulos usam seis ativos visuais de apresentação, somente uma
-geometria temporal está publicada e não há manifesto licenciado de mídia por
-história. A v2 permanece paralela à v1 e não está autorizada para o corte.
+A cobertura anual ainda não equivale a uma enciclopédia exaustiva, mas todos os
+gates definidos para o candidato estão fechados: 258 capítulos com suporte
+temporal, 258 decisões de mídia licenciada, 97 geometrias e zero pendências nos
+95 capítulos que exigem interação espacial. A v2 permanece paralela à v1 até o
+corte controlado do CP21.
 
 ## Indicadores verificáveis
 
 - Anos com capítulo: 258/258.
 - Entidades no índice: 966 (444 editoriais e 522 catalográficas).
 - Entidades referenciadas pelos capítulos: 88.
-- Capítulos com claim no ano exato: 133/258.
-- Capítulos com continuidade entre marcos documentados: 81/258.
+- Capítulos com claim no ano exato: 134/258.
+- Capítulos com continuidade entre marcos documentados: 80/258.
 - Capítulos com suporte temporal total: 258/258.
 - Capítulos a alinhar temporalmente: 0/258.
-- Capítulos com arquivo visual existente: 258/258; ativos únicos: 6.
-- Capítulos ligados à geometria publicada: 1/258; inventário espacial pendente: 257.
-- Marcos de marcas: 46; relações corporativas temporais: 17.
+- Capítulos com arquivo visual existente e licença: 258/258; itens de mídia: 38.
+- Geometrias temporais: 97; cobertura interativa: 95/95; pendências: 0.
+- Marcos de marcas: 78 em 61 marcas; relações corporativas temporais: 17.
 - Percursos editoriais obrigatórios: 6/6 estruturados.
 - Migração legada: 920/920 documentos rastreáveis.
 
@@ -50,7 +50,7 @@ novas geometrias conforme os acervos deixarem o protótipo.
 
 ## Fase 2 — Migração e revisão canônica
 
-Estado: **migração concluída; curadoria parcial**.
+Estado: **migração e curadoria C01–C18 concluídas**.
 
 Entregue: 920 documentos migrados sem perda silenciosa e índice final com 966
 entidades. O catálogo contém 522 registros no nível `catalog`; os candidatos da
@@ -65,7 +65,7 @@ Próximo lote: entidades necessárias aos seis percursos completos.
 
 ## Fase 3 — Núcleo da experiência temporal
 
-Estado: **protótipo funcional concluído; QA profundo pendente**.
+Estado: **concluída e aprovada no QA do CP20**.
 
 Entregue: 258 rotas, ano global, histórico do navegador, timeline por
 clique/teclado/arraste, modal sem rota própria e central de descoberta.
@@ -73,11 +73,11 @@ clique/teclado/arraste, modal sem rota própria e central de descoberta.
 Checkpoint de saída: navegação direta, voltar/avançar, transições longas,
 teclado e viewport móvel aprovados nos seis percursos e anos-limite.
 
-Restante: testes sistemáticos de interação e acabamento responsivo.
+Restante: refinamento incremental após o lançamento; nenhum gate aberto.
 
 ## Fase 4 — Visualizações especializadas
 
-Estado: **cinco modos prototipados; densidade documental incompleta**.
+Estado: **cinco modos funcionais e aprovados no candidato**.
 
 Entregue: projeções de marcas, veículos, competições, eventos e tecnologias,
 conectadas ao ano global e ao modal. O rio de marcas possui 46 marcos e 17
@@ -90,20 +90,21 @@ Restante: completar linhagens, temporadas, agentes e fluxos; validar transiçõe
 
 ## Fase 5 — Cartografia histórica
 
-Estado: **prova de conceito; gate crítico aberto**.
+Estado: **concluída para o universo espacial publicado**.
 
-Entregue: contrato GeoJSON temporal, uma rota narrativa da Porsche 917 e
-componente de mapa/globo com carregamento progressivo.
+Entregue: contrato e bundle GeoJSON temporal com 97 geometrias, inventário dos
+258 capítulos, cobertura 95/95 do subconjunto interativo e mapa/globo com
+MapLibre, Cesium local, carregamento progressivo e alternativa textual.
 
 Checkpoint de saída: inventário explícito de histórias espaciais e 100% desse
 subconjunto com geometria, validade, precisão, confiança e fonte; MapLibre,
 Cesium e fallback estático verificados sem geocoding em runtime.
 
-Restante: classificar os 258 capítulos e cartografar os seis percursos primeiro.
+Restante: refinamento cartográfico incremental; nenhum gate aberto.
 
 ## Fase 6 — Expansão editorial anual
 
-Estado: **cobertura e gate temporal concluídos; revisão semântica em andamento**.
+Estado: **cobertura, gate temporal e revisão semântica concluídos**.
 
 Entregue: 258/258 capítulos com título, narrativa, fontes, entidades e navegação
 contínua. O capítulo de 2026 distingue fatos confirmados de projeções.
@@ -172,7 +173,7 @@ Restante nesta fase: **nenhum gate de cobertura**. O refinamento visual futuro
 
 ## Fase 8 — Automação e qualidade documental
 
-Estado: **validação estrutural forte; validação semântica parcial**.
+Estado: **validação estrutural e semântica do escopo publicado concluídas**.
 
 Entregue: validações de contratos, migração, capítulos, marcas, bundles,
 referências, arquivos, determinismo e auditoria transversal no CI.
@@ -185,7 +186,7 @@ inventário geográfico.
 
 ## Fase 9 — QA, corte e lançamento
 
-Estado: **CI e Pages verdes no checkpoint anterior; gate final não autorizado**.
+Estado: **CP20 concluído; corte público CP21 pendente**.
 
 Entregue: build em `/atlas/`, deploy automatizado e validação Chrome desktop do
 protótipo. A v1 continua preservada.
@@ -194,7 +195,8 @@ Checkpoint final: seis percursos aprovados, busca, links, performance, SEO,
 Chrome e smoke mobile verdes; mídia, cartografia e evidência sem bloqueios; URL
 pública verificada após deploy.
 
-Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release.
+Restante: publicar o candidato v2, executar smoke público, registrar o relatório,
+criar tag e release.
 
 ## Caminho crítico e checkpoints seguintes
 
@@ -238,7 +240,9 @@ Restante: repetir QA após conteúdo, publicar candidato, cortar e criar release
    [`CURATION_CHECKPOINT_19_C05.md`](CURATION_CHECKPOINT_19_C05.md) e
    [`CURATION_CHECKPOINT_19_C06_COMPLETE.md`](CURATION_CHECKPOINT_19_C06_COMPLETE.md) e
    [`CURATION_CHECKPOINT_19_C07_C17_COMPLETE.md`](CURATION_CHECKPOINT_19_C07_C17_COMPLETE.md).
-6. **CP20 — QA candidato:** semântica, visualizações, Chrome, mobile e performance.
+6. **CP20 — QA candidato: concluído.** Semântica, visualizações, Chrome,
+   mobile, carregamento progressivo e orçamento inicial passaram. Ver
+   [`CANDIDATE_CHECKPOINT_20_COMPLETE.md`](CANDIDATE_CHECKPOINT_20_COMPLETE.md).
 7. **CP21 — Corte v2:** Pages, smoke público, relatório, tag e release.
 
 O **C18 está concluído**: 522/522 decisões passaram pela auditoria transversal,
@@ -246,7 +250,7 @@ sem colisões ou falhas, e cada entidade agora declara o limite narrativo que a
 evidência permite. Ver
 [`CURATION_CHECKPOINT_19_C18_COMPLETE.md`](CURATION_CHECKPOINT_19_C18_COMPLETE.md).
 
-O caminho crítico agora é **CP20 → QA → corte v2**. Infraestrutura, seis
+O caminho crítico agora é somente **CP21 — corte v2**. Infraestrutura, seis
 percursos, cartografia, mídia e curadoria canônica estão congelados. A próxima
 fase pode enriquecer narrativas e visualizações, mas não pode converter
 identidade de catálogo em fato histórico sem nova evidência versionada.

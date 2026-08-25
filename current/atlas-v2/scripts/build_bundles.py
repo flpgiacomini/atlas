@@ -170,6 +170,16 @@ def build(output: Path) -> dict:
     dump(temp / "brand-relations.json", {"version": brand_relations["version"], "count": len(relations), "items": relations})
     files.append({"path": "brand-relations.json", "kind": "brand-relations", "key": "corporate-relations", "count": len(relations)})
 
+    geography_features = []
+    for path in sorted((ROOT / "content/geography").glob("*.geojson")):
+        collection = load(path)
+        for feature in collection.get("features", []):
+            geography_features.append({**feature, "properties": {**feature.get("properties", {}), "dataset": path.name}})
+    geography_features.sort(key=lambda item: str(item.get("id", "")))
+    geography = {"type": "FeatureCollection", "version": "2.0.0", "count": len(geography_features), "features": geography_features}
+    dump(temp / "geography.json", geography)
+    files.append({"path": "geography.json", "kind": "geography", "key": "temporal-features", "count": len(geography_features)})
+
     dump(temp / "index.json", {"version": "2.0.0", "count": len(summaries), "items": summaries})
     files.append({"path": "index.json", "kind": "index", "key": "entities", "count": len(summaries)})
     for item in files:

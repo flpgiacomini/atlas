@@ -8,6 +8,8 @@ const requiredYears = [1769, 1886, 1908, 1955, 1958, 1963, 1969, 1997, 2026];
 await access(resolve(dist, "index.html"));
 await access(resolve(dist, "404.html"));
 await access(resolve(dist, "data/v2/manifest.json"));
+await access(resolve(dist, "data/v2/geography.json"));
+await access(resolve(dist, "cesium/Workers"));
 for (const year of requiredYears) await access(resolve(dist, String(year), "index.html"));
 
 const yearDirectories = (await readdir(dist, { withFileTypes: true }))

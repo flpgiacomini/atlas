@@ -76,14 +76,11 @@ function TechnologyFlow({ items, periodItems, year }) {
   </section>;
 }
 
-function GeographicPreview({ mapKind, story, year }) {
-  return <section className="projection geography-preview" aria-labelledby="geography-title"><header><p>CARTOGRAFIA TEMPORAL</p><h2 id="geography-title">{mapKind} histórico · {year}</h2><span>{story.place}</span></header><div className="geo-orbit" aria-hidden="true"><i /><b /><span>{mapKind === "Globo" ? "VISÃO MUNDIAL" : "ROTEIRO EDITORIAL"}</span></div><EmptyEvidence>Esta prévia usa somente o roteiro editorial. MapLibre, Cesium e as geometrias temporais validadas entram no checkpoint cartográfico.</EmptyEvidence></section>;
-}
-
-export default function SpecializedView({ mode, year, modeItems, periodItems, brandMilestones, brandRelations, story, mapKind }) {
+export default function SpecializedView({ mode, year, modeItems, periodItems, brandMilestones, brandRelations, story, mapKind, geographyFeatures }) {
   if (mode === "Marcas") return <BrandRiver items={modeItems} milestones={brandMilestones} relations={brandRelations} year={year} />;
   if (mode === "Veículos") return <VehicleLineage items={modeItems} year={year} />;
   if (mode === "Competições") return <CompetitionSeason items={modeItems} periodItems={periodItems} year={year} />;
   if (mode === "Tecnologias") return <TechnologyFlow items={modeItems} periodItems={periodItems} year={year} />;
-  return <GeographicPreview mapKind={mapKind} story={story} year={year} />;
+  return <GeographicView mapKind={mapKind} story={story} year={year} features={geographyFeatures} />;
 }
+import GeographicView from "./GeographicView.jsx";

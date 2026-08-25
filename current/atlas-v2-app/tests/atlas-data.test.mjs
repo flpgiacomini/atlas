@@ -10,10 +10,12 @@ test("searches names, aliases and respects selected year", () => {
   const items = [
     { id: "1", name: "Citroën DS", aliases: ["DS 19"], type: "Vehicle", region: "França", yearStart: 1955 },
     { id: "2", name: "Toyota Prius", aliases: [], type: "Vehicle", region: "Japão", yearStart: 1997 },
+    { id: "3", name: "Marca sem cronologia", aliases: [], type: "Brand", region: "Global", yearStart: null },
   ];
   assert.deepEqual(searchEntities(items, "citroen", 1960).map((item) => item.id), ["1"]);
   assert.deepEqual(searchEntities(items, "prius", 1960), []);
   assert.deepEqual(searchEntities(items, "japao", 2000).map((item) => item.id), ["2"]);
+  assert.deepEqual(searchEntities(items, "sem cronologia", 1769).map((item) => item.id), ["3"]);
 });
 
 test("maps every boundary year to its publication period", () => {

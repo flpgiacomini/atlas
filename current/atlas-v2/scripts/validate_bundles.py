@@ -21,6 +21,7 @@ def validate(root: Path) -> dict:
     index = load(root / "index.json")
     journeys = load(root / "journeys.json")
     annual = load(root / "annual-chapters.json")
+    geography = load(root / "geography.json")
     if manifest["entityCount"] != index["count"] or index["count"] < 920:
         raise ValueError("entity index does not cover the migrated corpus")
     ids = [item["id"] for item in index["items"]]
@@ -54,10 +55,14 @@ def validate(root: Path) -> dict:
         for item in annual["items"]
     ):
         raise ValueError("annual media decisions do not match resolved media")
+    if geography.get("type") != "FeatureCollection" or geography.get("count") != len(geography.get("features", [])) or geography.get("count") < 97:
+        raise ValueError("temporal geography bundle must cover the validated inventory")
+    if any(not item.get("id") or not item.get("properties", {}).get("validity") for item in geography["features"]):
+        raise ValueError("geography feature lacks identity or temporal validity")
     return {
         "status": "PASS", "entities": index["count"], "bundles": len(manifest["files"]),
         "periods": len(period_keys), "journeys": journeys["count"],
-        "annualChapters": annual["count"],
+        "annualChapters": annual["count"], "geographyFeatures": geography["count"],
         "undated": next(item["count"] for item in manifest["files"] if item["kind"] == "period" and item["key"] == "undated"),
     }
 
