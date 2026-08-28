@@ -22,7 +22,24 @@ export function normalizeSearch(value) {
   return String(value || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 }
 
-export function searchEntities(items, query, year, limit = 18) {
+export function editorialLevel(item) {
+  const value = item?.editorialLevel;
+  return value === "editorial" || value === "catalog" ? value : "unknown";
+}
+
+export function isCatalogOnly(item) {
+  return editorialLevel(item) === "catalog";
+}
+
+// Three situations the UI used to collapse into a single "no data": an identity
+// that is only catalogued, an editorial entity with no recoverable claim yet,
+// and an entity with connected evidence. They authorize different narratives.
+export function evidenceState(item) {
+  if ((item?.claimCount || 0) > 0) return "evidenced";
+  return isCatalogOnly(item) ? "catalog" : "unevidenced";
+}
+
+export function matchEntities(items, query, year) {
   const needle = normalizeSearch(query);
   if (!needle) return [];
   return items.filter((item) => {
@@ -31,7 +48,15 @@ export function searchEntities(items, query, year, limit = 18) {
     const temporal = item.yearStart == null || item.yearStart <= year;
     const haystack = normalizeSearch([item.name, ...(item.aliases || []), item.type, item.description, item.region].join(" "));
     return temporal && haystack.includes(needle);
-  }).slice(0, limit);
+  }).sort((a, b) => Number(isCatalogOnly(a)) - Number(isCatalogOnly(b))
+    || (b.claimCount || 0) - (a.claimCount || 0)
+    || (b.sourceCount || 0) - (a.sourceCount || 0)
+    || String(a.name).localeCompare(String(b.name), "pt-BR"));
+}
+
+export function searchEntities(items, query, year, { limit = 18, includeCatalog = true } = {}) {
+  const matches = matchEntities(items, query, year);
+  return (includeCatalog ? matches : matches.filter((item) => !isCatalogOnly(item))).slice(0, limit);
 }
 
 export function periodForYear(year) {

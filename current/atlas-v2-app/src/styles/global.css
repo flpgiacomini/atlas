@@ -109,6 +109,13 @@ a { color: #9b302b; }
 .media-layer img { display: block; width: 100%; max-height: 360px; object-fit: cover; background: #171715; }
 .media-layer figcaption { margin-top: 9px; color: #675f55; font-size: 12px; line-height: 1.5; }
 .media-layer a { color: #8f211e; }
+.level-tag { display: inline-block; margin-right: 8px; padding: 1px 6px; border: 1px solid currentColor; border-radius: 2px; font: 600 9px/1.6 Arial, sans-serif; font-style: normal; letter-spacing: .1em; vertical-align: 1px; }
+.level-tag[data-level="editorial"] { color: #2f5a44; }
+.level-tag[data-level="catalog"] { color: #6b5a38; }
+.level-tag[data-level="unknown"] { color: #5c564c; }
+.search-filter { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 18px; margin-top: 16px; color: #675f55; font-size: 12px; }
+.search-filter label { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; }
+.search-filter input[type="checkbox"] { width: 15px; height: 15px; accent-color: #a72a25; }
 .journey-list, .search-results { display: grid; margin-top: 28px; border-top: 1px solid #c9c0b1; }
 .journey-list { grid-template-columns: repeat(2, 1fr); }
 .journey-list button, .search-results button { display: grid; grid-template-columns: 70px 1fr; gap: 5px 15px; border: 0; border-bottom: 1px solid #c9c0b1; background: transparent; padding: 18px 8px; text-align: left; cursor: pointer; color: #171715; }

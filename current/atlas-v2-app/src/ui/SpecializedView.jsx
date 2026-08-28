@@ -1,3 +1,5 @@
+import { isCatalogOnly } from "../lib/atlas-data.js";
+
 const COMPETITION_PATTERN = /prix|rally|rali|race|racing|le mans|zeltweg|motorsport|championship|corrida|prova/i;
 const TECHNOLOGY_PATTERN = /turbo|hybrid|h[ií]brid|electric|el[eé]tric|motor|engine|radar|safety|seguran|aero|battery|bateria|fuel|combust|transmission|tra[cç][aã]o/i;
 const RELATION_LABELS = {
@@ -28,7 +30,7 @@ function AccessibleRecords({ title, items }) {
 }
 
 function BrandRiver({ items, milestones, relations, year }) {
-  const catalog = items.filter((item) => item.yearStart == null);
+  const catalog = items.filter(isCatalogOnly);
   const regions = [...new Set(catalog.map((item) => item.region))].sort((a, b) => a.localeCompare(b, "pt-BR")).slice(0, 6);
   const names = new Map(items.map((item) => [item.id, item.name]));
   const lifecycle = milestones.filter((item) => item.year <= year);
@@ -39,7 +41,7 @@ function BrandRiver({ items, milestones, relations, year }) {
   const activeRelations = relations.filter((item) => Number(item.validFrom.slice(0, 4)) <= year).slice(-6);
   const relationEvidence = activeRelations.map((item) => ({ id: item.id, yearStart: Number(item.validFrom.slice(0, 4)), name: `${item.fromLabel} → ${item.toLabel}: ${item.label}` }));
   return <section className="projection brand-river" aria-labelledby="brand-river-title">
-    <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos documentados · exibindo {visibleLifecycle.length} recentes · {undocumentedCount} marcas sem marco</span></header>
+    <header><p>RIO GENEALÓGICO</p><h2 id="brand-river-title">Marcas conhecidas até {year}</h2><span>{lifecycle.length} marcos documentados · exibindo {visibleLifecycle.length} recentes · {items.length - catalog.length} com trabalho editorial · {catalog.length} apenas catalogadas · {undocumentedCount} sem marco</span></header>
     <div className="river-canvas" aria-hidden="true">{regions.map((region, index) => <div className="river-lane" key={region} style={{ "--lane": index }}><i /><span>{region}</span><b>{catalog.filter((item) => item.region === region).length}</b></div>)}</div>
     {visibleLifecycle.length ? <div className="projection-cards">{visibleLifecycle.map((item) => <article key={item.id}><time>{item.year}</time><strong>{names.get(item.brand) || item.brand}</strong><small>{item.label} · {item.scope === "operator" ? "organização operadora" : "identidade da marca"}</small></article>)}</div> : <EmptyEvidence>A genealogia não pode ser desenhada ainda: nenhum marco com fonte ocorre antes deste ano.</EmptyEvidence>}
     {activeRelations.length ? <div className="projection-cards brand-relations" aria-label="Relações corporativas conhecidas"><h3>Conexões corporativas</h3>{activeRelations.map((item) => <article key={item.id} data-kind={item.kind}><time>{item.validFrom.slice(0, 4)} · {RELATION_LABELS[item.kind] || item.kind}</time><strong>{item.fromLabel} → {item.toLabel}</strong><small>{item.label}</small></article>)}</div> : null}
