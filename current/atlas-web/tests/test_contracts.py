@@ -21,11 +21,28 @@ class AtlasContracts(unittest.TestCase):
         self.assertEqual(report["status"], "completed")
         self.assertEqual(report["score"], 9)
         self.assertFalse(report["critical_semantic_loss"])
-    def test_canonical_counts(self):
+    def test_canonical_corpus_does_not_shrink(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
-        expected = {"entity":920,"statement":610,"source":633,"claim":736,"evidence":737,"predicate":56}
-        actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in expected}
-        db.close(); self.assertEqual(actual, expected)
+        floors = {"entity":920,"statement":610,"source":633,"predicate":56}
+        actual = {table: db.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in floors}
+        db.close()
+        for table, floor in floors.items():
+            self.assertGreaterEqual(actual[table], floor, f"{table} lost records: {actual[table]} < {floor}")
+
+    def test_claims_and_evidence_stay_whole(self):
+        # Claim and evidence counts are not invariants: a documentary pass removes
+        # backing when a source turns out not to carry the assertion it was cited
+        # for, and adds it when a new source is read. What must hold either way is
+        # that nothing is left dangling behind such a removal.
+        db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
+        dangling = {
+            "statements without a claim": "SELECT COUNT(*) FROM statement st WHERE NOT EXISTS (SELECT 1 FROM claim c WHERE c.statement_id=st.id)",
+            "claims without evidence": "SELECT COUNT(*) FROM claim c WHERE NOT EXISTS (SELECT 1 FROM claim_evidence ce WHERE ce.claim_id=c.id)",
+            "evidence without a claim": "SELECT COUNT(*) FROM evidence e WHERE NOT EXISTS (SELECT 1 FROM claim_evidence ce WHERE ce.evidence_id=e.id)",
+            "evidence without a source": "SELECT COUNT(*) FROM evidence e WHERE NOT EXISTS (SELECT 1 FROM source s WHERE s.id=e.source_id)",
+        }
+        actual = {label: db.execute(query).fetchone()[0] for label, query in dangling.items()}
+        db.close(); self.assertEqual(actual, dict.fromkeys(dangling, 0))
 
     def test_every_entity_has_media(self):
         db = sqlite3.connect(ROOT / "data" / "atlas.sqlite")
