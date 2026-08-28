@@ -1,11 +1,5 @@
 {
-  "version": "1.0.0",
-  "note": "Distingue evidência documental de evidência apenas declarada. Todo claim do Atlas tem evidência e fonte — nenhum é órfão. A questão que esta política mede é outra: se alguém consegue ir até a fonte e encontrar a afirmação. Um localizador que repete o sujeito e o predicado da claim não permite isso, e um que anuncia a própria ausência muito menos.",
-  "policy": {
-    "documentary": "O localizador identifica uma posição recuperável dentro da fonte: seção, página, parágrafo, citação, número de inventário, processo. Alguém com a fonte em mãos chega à afirmação.",
-    "deferred": "O localizador declara que ainda não existe. São marcadores deixados pelos lotes de importação para uma curadoria profunda que não ocorreu.",
-    "nominal": "O localizador repete o que a claim já afirma — sujeito, predicado, ano — em vez de dizer onde aquilo aparece na fonte."
-  },
+  "deferredLocatorPattern": "refine|to be refined|deep curation|during curation|a refinar",
   "documentaryLocatorKeys": [
     "article",
     "catalogue_page",
@@ -26,5 +20,12 @@
     "table",
     "timestamp"
   ],
-  "deferredLocatorPattern": "refine|to be refined|deep curation|during curation|a refinar"
+  "excerptIsDocumentary": true,
+  "note": "Distingue evidência documental de evidência apenas declarada. Todo claim do Atlas tem evidência e fonte — nenhum é órfão. A questão que esta política mede é outra: se alguém consegue ir até a fonte e encontrar a afirmação. Um localizador que repete o sujeito e o predicado da claim não permite isso, e um que anuncia a própria ausência muito menos. Um excerpt não vazio conta como documental por si só: reproduzir o trecho que sustenta a afirmação é a forma mais forte de localizá-la.",
+  "policy": {
+    "deferred": "O localizador declara que ainda não existe. São marcadores deixados pelos lotes de importação para uma curadoria profunda que não ocorreu.",
+    "documentary": "O localizador identifica uma posição recuperável dentro da fonte — seção, página, parágrafo, citação, número de inventário, processo — ou a evidência traz um excerpt: o trecho literal da fonte que sustenta a afirmação. Alguém com a fonte em mãos chega à afirmação.",
+    "nominal": "O localizador repete o que a claim já afirma — sujeito, predicado, ano — em vez de dizer onde aquilo aparece na fonte."
+  },
+  "version": "1.0.0"
 }

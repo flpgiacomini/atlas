@@ -74,8 +74,11 @@ def evidence_index() -> dict[str, dict]:
     return index
 
 
-def grade(item: dict, documentary_keys: set[str], deferred: re.Pattern[str]) -> str:
+def grade(item: dict, documentary_keys: set[str], deferred: re.Pattern[str], excerpt_counts: bool) -> str:
     locator = item.get("locator") or {}
+    # A verbatim excerpt locates the assertion more strongly than any key can.
+    if excerpt_counts and str(item.get("excerpt") or "").strip():
+        return "documentary"
     if set(locator) & documentary_keys:
         return "documentary"
     if any(deferred.search(str(value)) for value in locator.values() if isinstance(value, str)):
@@ -88,7 +91,8 @@ def audit() -> dict:
     documentary_keys = set(policy["documentaryLocatorKeys"])
     deferred = re.compile(policy["deferredLocatorPattern"], re.IGNORECASE)
     evidence = evidence_index()
-    grades = {item_id: grade(item, documentary_keys, deferred) for item_id, item in evidence.items()}
+    excerpt_counts = bool(policy.get("excerptIsDocumentary"))
+    grades = {item_id: grade(item, documentary_keys, deferred, excerpt_counts) for item_id, item in evidence.items()}
 
     documented: list[str] = []
     queue: list[dict] = []

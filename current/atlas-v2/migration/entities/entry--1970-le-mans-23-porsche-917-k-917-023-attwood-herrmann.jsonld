@@ -513,7 +513,7 @@
       "type": "Claim"
     }
   ],
-  "description": "1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann é registrado no Atlas como inscrição esportiva, dentro da história global do automóvel. A documentação registra condução por Richard Attwood. A documentação registra condução por Hans Herrmann. A documentação registra participação no evento 1970 24 Hours of Le Mans. A documentação registra situação na prova classified. A documentação registra posição final 1.0. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Inscrição número 23 das 24 Horas de Le Mans de 14 de junho de 1970: o Porsche 917 KH de chassi 023, conduzido por Hans Herrmann e Richard Attwood pela Porsche Konstruktionen Salzburg. Classificada em 14º no grid entre as sete unidades do 917 inscritas, aproveitou o desgaste provocado pela chuva e cruzou a linha de chegada em primeiro, dando à Porsche sua primeira vitória geral em Le Mans.",
   "id": "atlas:entry:1970-le-mans-23-porsche-917-k-917-023-attwood-herrmann",
   "legacy": {
     "id": "01a01016-ea4d-7cd5-8a06-6def3265e1cf",
@@ -528,6 +528,7 @@
       "01a01016-ea53-7775-a0ae-fb3f856a4f15",
       "01a01016-ea53-781c-8cb2-a866c6e63144"
     ],
+    "documentary_batch": "D01",
     "editorial_batch": "E21",
     "editorial_level": "editorial",
     "entry_type": "motorsport_entry"

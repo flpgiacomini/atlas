@@ -1113,11 +1113,14 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "entailed_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea56703c94c803bb14c354be",
       "legacyId": "01a01016-ea56-703c-94c8-03bb14c354be",
-      "locator": {},
-      "notes": "Evidence supporting stm_000043; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
@@ -1149,11 +1152,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea5670d7925b70f51b0bd14a",
       "legacyId": "01a01016-ea56-70d7-925b-70f51b0bd14a",
-      "locator": {},
-      "notes": "Evidence supporting stm_000043; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1177,11 +1185,14 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "entailed_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea56716d94844e0c03142491",
       "legacyId": "01a01016-ea56-716d-9484-4e0c03142491",
-      "locator": {},
-      "notes": "Evidence supporting stm_000043; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
@@ -1224,10 +1235,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea5671ff817687b55b8cb02e",
       "legacyId": "01a01016-ea56-71ff-8176-87b55b8cb02e",
-      "locator": {},
-      "notes": "Evidence supporting stm_000039; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
@@ -1250,11 +1264,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea56726b9c7b3802fe9fc8c3",
       "legacyId": "01a01016-ea56-726b-9c7b-3802fe9fc8c3",
-      "locator": {},
-      "notes": "Evidence supporting stm_000037; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1277,20 +1296,28 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567285bf64a352d25ddae6",
       "legacyId": "01a01016-ea56-7285-bf64-a352d25ddae6",
-      "locator": {},
-      "notes": "Evidence supporting stm_000035; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea5672ae8243ec01e6082ad8",
       "legacyId": "01a01016-ea56-72ae-8243-ec01e6082ad8",
-      "locator": {},
-      "notes": "Evidence supporting stm_000042; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
@@ -1406,19 +1433,25 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea5674219b630d281235e8e6",
       "legacyId": "01a01016-ea56-7421-9b63-0d281235e8e6",
-      "locator": {},
-      "notes": "Evidence supporting stm_000035; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea5674889dc970be55d33922",
       "legacyId": "01a01016-ea56-7488-9dc9-70be55d33922",
-      "locator": {},
-      "notes": "Evidence supporting stm_000038; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
@@ -1432,11 +1465,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea56757e8a3b0d0a2cfbd01d",
       "legacyId": "01a01016-ea56-757e-8a3b-0d0a2cfbd01d",
-      "locator": {},
-      "notes": "Evidence supporting stm_000041; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1516,10 +1554,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea56771aab20336550e93d8a",
       "legacyId": "01a01016-ea56-771a-ab20-336550e93d8a",
-      "locator": {},
-      "notes": "Evidence supporting stm_000040; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
@@ -1543,11 +1584,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea56779fba5430d7e89935de",
       "legacyId": "01a01016-ea56-779f-ba54-30d7e89935de",
-      "locator": {},
-      "notes": "Evidence supporting stm_000040; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1561,11 +1607,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567821b4e55ef5d8ae5413",
       "legacyId": "01a01016-ea56-7821-b4e5-5ef5d8ae5413",
-      "locator": {},
-      "notes": "Evidence supporting stm_000039; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1599,10 +1650,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea567912aecf059980b8afa7",
       "legacyId": "01a01016-ea56-7912-aecf-059980b8afa7",
-      "locator": {},
-      "notes": "Evidence supporting stm_000041; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
@@ -1617,10 +1671,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea56799bbf5cb0e8d9cb7583",
       "legacyId": "01a01016-ea56-799b-bf5c-b0e8d9cb7583",
-      "locator": {},
-      "notes": "Evidence supporting stm_000036; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
@@ -1680,47 +1737,66 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567b878d5bc2510351724f",
       "legacyId": "01a01016-ea56-7b87-8d5b-c2510351724f",
-      "locator": {},
-      "notes": "Evidence supporting stm_000042; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea567b8cb3cbaa7369eac80d",
       "legacyId": "01a01016-ea56-7b8c-b3cb-aa7369eac80d",
-      "locator": {},
-      "notes": "Evidence supporting stm_000036; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567b908ca3f5697f1b278c",
       "legacyId": "01a01016-ea56-7b90-8ca3-f5697f1b278c",
-      "locator": {},
-      "notes": "Evidence supporting stm_000036; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "23 | #023 | Attwood / Herrmann | Porsche Konstruktionen K.G. | 1st",
+        "section": "Year: 1970",
+        "table": "14.6.1970 — Le Mans 24 Hours"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Hans Herrmann and Richard Attwood crossed the finishing line first in the Porsche 917 KH from Porsche Salzburg with the start number 23.",
       "id": "atlas:evidence:legacy-01a01016ea567bad947a9251ce3d3096",
       "legacyId": "01a01016-ea56-7bad-947a-9251ce3d3096",
-      "locator": {},
-      "notes": "Evidence supporting stm_000042; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Hans Herrmann and Richard Attwood reminisce about the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea567bc48bbbd85e48d7de97",
       "legacyId": "01a01016-ea56-7bc4-8bbb-d85e48d7de97",
-      "locator": {},
-      "notes": "Evidence supporting stm_000038; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
@@ -1744,10 +1820,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea567c4882b2caa4f186f0e8",
       "legacyId": "01a01016-ea56-7c48-82b2-caa4f186f0e8",
-      "locator": {},
-      "notes": "Evidence supporting stm_000039; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
@@ -1762,10 +1841,14 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "the winning car in 1970 (#23)",
       "id": "atlas:evidence:legacy-01a01016ea567c7eb8ddd0c46f7c3fd5",
       "legacyId": "01a01016-ea56-7c7e-b8dd-d0c46f7c3fd5",
-      "locator": {},
-      "notes": "Evidence supporting stm_000041; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "figure": "photo caption",
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
@@ -1826,10 +1909,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Driving the last of the seven 917s (qualified in 14th position), Richard Attwood and Hans Herrmann (Porsche Konstruktionen Salzburg) took advantage of the carnage caused by the wet weather.",
       "id": "atlas:evidence:legacy-01a01016ea567edf8e956a6c26a8ec1e",
       "legacyId": "01a01016-ea56-7edf-8e95-6a6c26a8ec1e",
-      "locator": {},
-      "notes": "Evidence supporting stm_000040; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "1970 | The last two of seven 917s win the race"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:automobile-club-de-l-ouest-24-hours-of-le-mans-24-hours-of-le-mans-centenary-the-record-breaking-porsche-917",
       "type": "Evidence"
     },
@@ -1900,10 +1986,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "On 14 June 1970, Porsche achieved its first overall victory there with the 580 hp 917 KH sports car.",
       "id": "atlas:evidence:legacy-01a01016ea567ffd824b4e871d7fe38a",
       "legacyId": "01a01016-ea56-7ffd-824b-4e871d7fe38a",
-      "locator": {},
-      "notes": "Evidence supporting stm_000035; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "opening paragraph"
+      },
+      "notes": "Passagem documental D01; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-achieved-the-first-overall-victory-at-le-mans-50-years-ago",
       "type": "Evidence"
     },
