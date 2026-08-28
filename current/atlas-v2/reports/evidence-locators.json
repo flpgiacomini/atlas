@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 43,
-    "withoutDocumentaryCeiling": 258
+    "documentedFloor": 46,
+    "withoutDocumentaryCeiling": 255
   },
   "errors": [],
   "queue": [
@@ -11,6 +11,7 @@
       "id": "atlas:brand:bugatti",
       "name": "Bugatti",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Brand"
     },
     {
@@ -19,6 +20,7 @@
       "id": "atlas:circuit-layout:nurburgring-gesamtstrecke-1927",
       "name": "Nürburgring Gesamtstrecke (1927)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "CircuitLayout"
     },
     {
@@ -27,6 +29,7 @@
       "id": "atlas:circuit-layout:nurburgring-grand-prix-circuit-1984",
       "name": "Nürburgring Grand Prix Circuit (1984)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "CircuitLayout"
     },
     {
@@ -35,6 +38,7 @@
       "id": "atlas:circuit-layout:nurburgring-grand-prix-circuit-with-amg-arena-2002",
       "name": "Nürburgring Grand Prix Circuit with AMG Arena (2002)",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "CircuitLayout"
     },
     {
@@ -43,6 +47,7 @@
       "id": "atlas:circuit-layout:nurburgring-nordschleife-1927-configuration",
       "name": "Nürburgring Nordschleife (1927 configuration)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "CircuitLayout"
     },
     {
@@ -51,6 +56,7 @@
       "id": "atlas:circuit-layout:nurburgring-nordschleife-current-20-832-km-configuration",
       "name": "Nürburgring Nordschleife (current 20.832 km configuration)",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "CircuitLayout"
     },
     {
@@ -59,6 +65,7 @@
       "id": "atlas:circuit-layout:nurburgring-sudschleife-1927-configuration",
       "name": "Nürburgring Südschleife (1927 configuration)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "CircuitLayout"
     },
     {
@@ -67,6 +74,7 @@
       "id": "atlas:component:de-dion-bouton-single-cylinder-petroleum-engine-1895",
       "name": "De Dion-Bouton single-cylinder petroleum engine (1895)",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Component"
     },
     {
@@ -75,6 +83,7 @@
       "id": "atlas:component:ferrari-125-s-1-5-litre-v12",
       "name": "Ferrari 125 S 1.5-litre V12",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Component"
     },
     {
@@ -83,6 +92,7 @@
       "id": "atlas:component:mercedes-df-100-aeroengine",
       "name": "Mercedes DF 100 aeroengine",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Component"
     },
     {
@@ -91,31 +101,8 @@
       "id": "atlas:component:porsche-type-912-twelve-cylinder-engine",
       "name": "Porsche Type 912 twelve-cylinder engine",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Component"
-    },
-    {
-      "claimCount": 10,
-      "deferredLocators": 10,
-      "id": "atlas:entry:1904-vanderbilt-cup-7-george-heath-panhard",
-      "name": "1904 Vanderbilt Cup #7 — George Heath / Panhard",
-      "nominalLocators": 0,
-      "type": "Entry"
-    },
-    {
-      "claimCount": 11,
-      "deferredLocators": 11,
-      "id": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
-      "name": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault",
-      "nominalLocators": 0,
-      "type": "Entry"
-    },
-    {
-      "claimCount": 11,
-      "deferredLocators": 0,
-      "id": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
-      "name": "1969 Zeltweg — Porsche 917 — Siffert/Ahrens",
-      "nominalLocators": 11,
-      "type": "Entry"
     },
     {
       "claimCount": 2,
@@ -123,6 +110,7 @@
       "id": "atlas:event:1903-cadillac-runabout-production",
       "name": "1903 Cadillac Runabout production",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -131,6 +119,7 @@
       "id": "atlas:event:1904-vanderbilt-cup",
       "name": "1904 Vanderbilt Cup",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -139,6 +128,7 @@
       "id": "atlas:event:1906-grand-prix-de-l-a-c-f",
       "name": "1906 Grand Prix de l'A.C.F.",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -147,6 +137,7 @@
       "id": "atlas:event:1907-scottish-reliability-trial-silver-ghost",
       "name": "1907 Scottish Reliability Trial — Silver Ghost",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -155,6 +146,7 @@
       "id": "atlas:event:1969-1000-km-zeltweg",
       "name": "1969 1000 km Zeltweg",
       "nominalLocators": 4,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -163,6 +155,7 @@
       "id": "atlas:event:1970-24-hours-of-le-mans",
       "name": "1970 24 Hours of Le Mans",
       "nominalLocators": 6,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -171,6 +164,7 @@
       "id": "atlas:event:audi-quattro-geneva-motor-show-debut",
       "name": "Audi quattro Geneva Motor Show debut",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -179,6 +173,7 @@
       "id": "atlas:event:audi-quattro-motorsport-debut-at-janner-rally",
       "name": "Audi quattro motorsport debut at Jänner Rally",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -187,6 +182,7 @@
       "id": "atlas:event:automotive-assembly-begins-at-rosslyn-site",
       "name": "Automotive assembly begins at Rosslyn site",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -195,6 +191,7 @@
       "id": "atlas:event:benz-velo-enters-sales-range",
       "name": "Benz Velo enters sales range",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -203,6 +200,7 @@
       "id": "atlas:event:bmw-establishes-full-manufacturing-presence-at-rosslyn",
       "name": "BMW establishes full manufacturing presence at Rosslyn",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -211,6 +209,7 @@
       "id": "atlas:event:brands-localization-and-roadster-revival-1985-1989",
       "name": "Marcas, localização e renascimento do roadster: 1985–1989",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -219,6 +218,7 @@
       "id": "atlas:event:british-road-steam-transition-1837-1840",
       "name": "Recuo do vapor rodoviário britânico",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Event"
     },
     {
@@ -227,6 +227,7 @@
       "id": "atlas:event:bugatti-eb110-unveiling-in-paris",
       "name": "Bugatti EB110 unveiling in Paris",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -235,6 +236,7 @@
       "id": "atlas:event:bugatti-revival-under-volkswagen-group",
       "name": "Bugatti revival under Volkswagen Group",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -243,6 +245,7 @@
       "id": "atlas:event:byd-f3dm-market-launch-in-shenzhen",
       "name": "BYD F3DM market launch in Shenzhen",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -251,6 +254,7 @@
       "id": "atlas:event:cadillac-receives-1908-dewar-trophy-for-interchangeable-parts",
       "name": "Cadillac receives 1908 Dewar Trophy for interchangeable parts",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -259,6 +263,7 @@
       "id": "atlas:event:carl-benz-patent-application-for-gas-engine-motor-car",
       "name": "Carl Benz patent application for gas-engine motor car",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -267,6 +272,7 @@
       "id": "atlas:event:charles-rolls-and-henry-royce-first-meeting",
       "name": "Charles Rolls and Henry Royce first meeting",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -275,6 +281,7 @@
       "id": "atlas:event:chassis-60551-presented-as-the-silver-ghost",
       "name": "Chassis 60551 presented as 'The Silver Ghost'",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -283,6 +290,7 @@
       "id": "atlas:event:citroen-traction-avant-presentation",
       "name": "Citroën Traction Avant presentation",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -291,6 +299,7 @@
       "id": "atlas:event:citroen-type-a-expansion-1919-1925",
       "name": "Citroën Type A e a produção europeia em série",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -299,6 +308,7 @@
       "id": "atlas:event:civilian-reconstruction-1945-1949",
       "name": "Reconstrução civil e retorno do automóvel",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -307,6 +317,7 @@
       "id": "atlas:event:classic-mini-public-unveiling",
       "name": "Classic Mini public unveiling",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -315,6 +326,7 @@
       "id": "atlas:event:completion-of-porsche-917-001",
       "name": "Completion of Porsche 917-001",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -323,6 +335,7 @@
       "id": "atlas:event:daimler-grants-french-engine-manufacturing-rights-to-panhard-levassor",
       "name": "Daimler grants French engine manufacturing rights to Panhard & Levassor",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -331,6 +344,7 @@
       "id": "atlas:event:daimler-motorized-carriage-completed",
       "name": "Daimler Motorized Carriage completed",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -339,6 +353,7 @@
       "id": "atlas:event:de-dion-bouton-single-cylinder-engine-developed",
       "name": "De Dion-Bouton single-cylinder engine developed",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -347,6 +362,7 @@
       "id": "atlas:event:design-performance-expansion-1960-1965",
       "name": "Design, performance e novos públicos: 1960–1965",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -355,6 +371,7 @@
       "id": "atlas:event:digital-safety-and-second-oil-shock-1977-1979",
       "name": "Segurança digital e o segundo choque do petróleo",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -363,6 +380,7 @@
       "id": "atlas:event:dmg-dc-commercial-vehicle-range-altered-for-wartime-production",
       "name": "DMG DC commercial vehicle range altered for wartime production",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -371,6 +389,7 @@
       "id": "atlas:event:early-road-propulsion-experiments-1801-1825",
       "name": "Experimentos de propulsão rodoviária entre 1801 e 1825",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Event"
     },
     {
@@ -379,6 +398,7 @@
       "id": "atlas:event:electric-scale-and-modular-industry-2010-2014",
       "name": "Escala elétrica e indústria modular: 2010–2014",
       "nominalLocators": 6,
+      "statementCount": 6,
       "type": "Event"
     },
     {
@@ -387,6 +407,7 @@
       "id": "atlas:event:emissions-energy-and-compact-cars-1971-1976",
       "name": "Emissões, energia e o novo compacto: 1971–1976",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -395,6 +416,7 @@
       "id": "atlas:event:emissions-trust-and-affordable-range-2015-2017",
       "name": "Emissões, confiança e autonomia acessível: 2015–2017",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -403,6 +425,7 @@
       "id": "atlas:event:end-of-br-800-production",
       "name": "End of BR-800 production",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -411,6 +434,7 @@
       "id": "atlas:event:end-of-ford-model-t-production",
       "name": "End of Ford Model T production",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -419,6 +443,7 @@
       "id": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
       "name": "Ensaios do Benz Patent-Motorwagen em 1885",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -427,6 +452,7 @@
       "id": "atlas:event:ferrari-125-s-debut-1947",
       "name": "Ferrari 125 S: nasce uma marca nas pistas",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Event"
     },
     {
@@ -435,6 +461,7 @@
       "id": "atlas:event:ferrari-125-s-debut-year",
       "name": "Ferrari 125 S debut year",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -443,6 +470,7 @@
       "id": "atlas:event:fiat-founded-in-turin",
       "name": "FIAT founded in Turin",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -451,6 +479,7 @@
       "id": "atlas:event:financial-crisis-and-industrial-restructuring-2008-2009",
       "name": "Crise financeira e reestruturação industrial: 2008–2009",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -459,6 +488,7 @@
       "id": "atlas:event:first-daimler-motorized-truck-delivered-to-london",
       "name": "First Daimler motorized truck delivered to London",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -467,6 +497,7 @@
       "id": "atlas:event:first-drive-of-ford-quadricycle",
       "name": "First drive of Ford Quadricycle",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -475,6 +506,7 @@
       "id": "atlas:event:first-generation-toyota-prius-launch",
       "name": "First-generation Toyota Prius launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -483,6 +515,7 @@
       "id": "atlas:event:first-hongqi-sedan-completed",
       "name": "First Hongqi sedan completed",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -491,6 +524,7 @@
       "id": "atlas:event:first-le-mans-24-hours-1923",
       "name": "Primeiras 24 Horas de Le Mans",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Event"
     },
     {
@@ -499,6 +533,7 @@
       "id": "atlas:event:first-mercedes-35-hp-supplied-to-emil-jellinek",
       "name": "First Mercedes 35 hp supplied to Emil Jellinek",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -507,6 +542,7 @@
       "id": "atlas:event:first-model-t-customer-delivery",
       "name": "First Model T customer delivery",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -515,6 +551,7 @@
       "id": "atlas:event:first-production-holden-48-215-rolled-off-assembly-line",
       "name": "First production Holden 48-215 rolled off assembly line",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -523,6 +560,7 @@
       "id": "atlas:event:first-production-lamborghini-miura-delivered",
       "name": "First production Lamborghini Miura delivered",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -531,6 +569,7 @@
       "id": "atlas:event:ford-model-a-production-introduction",
       "name": "Ford Model A production introduction",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -539,6 +578,7 @@
       "id": "atlas:event:ford-model-n-reaches-u-s-bestseller-status",
       "name": "Ford Model N reaches U.S. bestseller status",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -547,6 +587,7 @@
       "id": "atlas:event:ford-model-t-first-customer-delivery",
       "name": "Ford Model T first customer delivery",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -555,6 +596,7 @@
       "id": "atlas:event:ford-moving-assembly-line-adopted-at-highland-park",
       "name": "Ford moving assembly line adopted at Highland Park",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -563,6 +605,7 @@
       "id": "atlas:event:ford-mustang-public-debut-at-new-york-world-s-fair",
       "name": "Ford Mustang public debut at New York World's Fair",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -571,6 +614,7 @@
       "id": "atlas:event:geneva-presentation-of-porsche-917",
       "name": "Geneva presentation of Porsche 917",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -579,6 +623,7 @@
       "id": "atlas:event:grand-prix-circuit-extended-with-amg-arena",
       "name": "Grand Prix Circuit extended with AMG Arena",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -587,6 +632,7 @@
       "id": "atlas:event:gurgel-bankruptcy",
       "name": "Gurgel bankruptcy",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -595,6 +641,7 @@
       "id": "atlas:event:gurgel-concordata-request",
       "name": "Gurgel concordata request",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -603,6 +650,7 @@
       "id": "atlas:event:gurgel-operations-closure-reported-by-rio-claro",
       "name": "Gurgel operations closure reported by Rio Claro",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -611,6 +659,7 @@
       "id": "atlas:event:gurney-steam-carriage-development-1825-1829",
       "name": "Desenvolvimento das carruagens a vapor de Gurney",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -619,6 +668,7 @@
       "id": "atlas:event:hancock-steam-services-1829-1836",
       "name": "Serviços rodoviários a vapor de Walter Hancock",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -627,6 +677,7 @@
       "id": "atlas:event:holden-prototype-no-1-hand-built-in-detroit",
       "name": "Holden Prototype No. 1 hand-built in Detroit",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -635,6 +686,7 @@
       "id": "atlas:event:honda-n360-at-hondamatic-debut",
       "name": "Honda N360 AT Hondamatic debut",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -643,6 +695,7 @@
       "id": "atlas:event:honda-n360-market-launch",
       "name": "Honda N360 market launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -651,6 +704,7 @@
       "id": "atlas:event:human-centered-performance-and-new-formats-1990-1994",
       "name": "Performance humana e novos formatos: 1990–1994",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -659,6 +713,7 @@
       "id": "atlas:event:hybrids-interfaces-and-new-formats-2000-2004",
       "name": "Híbridos, interfaces e novos formatos: 2000–2004",
       "nominalLocators": 5,
+      "statementCount": 5,
       "type": "Event"
     },
     {
@@ -667,6 +722,7 @@
       "id": "atlas:event:hyundai-pony-market-introduction",
       "name": "Hyundai Pony market introduction",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -675,6 +731,7 @@
       "id": "atlas:event:introduction-of-turbocharger-in-porsche-911",
       "name": "Introduction of turbocharger in Porsche 911",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -683,6 +740,7 @@
       "id": "atlas:event:lamborghini-miura-presentation-at-geneva-motor-show",
       "name": "Lamborghini Miura presentation at Geneva Motor Show",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -691,6 +749,7 @@
       "id": "atlas:event:lancia-12-hp-first-production-model",
       "name": "Lancia 12 HP first production model",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -699,6 +758,7 @@
       "id": "atlas:event:lancia-founded-in-turin",
       "name": "Lancia founded in Turin",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -707,6 +767,7 @@
       "id": "atlas:event:louis-renault-drives-type-a-up-rue-lepic",
       "name": "Louis Renault drives Type A up rue Lepic",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -715,6 +776,7 @@
       "id": "atlas:event:low-emissions-safety-and-hybrid-transition-1995-1999",
       "name": "Baixas emissões, segurança e transição híbrida: 1995–1999",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Event"
     },
     {
@@ -723,6 +785,7 @@
       "id": "atlas:event:mass-market-electricity-and-uncertain-transition-2025-2026",
       "name": "Eletrificação de massa e transição incerta: 2025–2026",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -731,6 +794,7 @@
       "id": "atlas:event:mass-mobility-and-safety-1956-1959",
       "name": "Mobilidade compacta, internacionalização e segurança",
       "nominalLocators": 4,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -739,6 +803,7 @@
       "id": "atlas:event:mazda-cosmo-sport-prototype-public-unveiling",
       "name": "Mazda Cosmo Sport prototype public unveiling",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -747,6 +812,7 @@
       "id": "atlas:event:mazda-cosmo-sport-sales-begin",
       "name": "Mazda Cosmo Sport sales begin",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -755,6 +821,7 @@
       "id": "atlas:event:mclaren-f1-concept-conceived",
       "name": "McLaren F1 concept conceived",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -763,6 +830,7 @@
       "id": "atlas:event:mclaren-f1-realised-as-road-car",
       "name": "McLaren F1 realised as road car",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -771,6 +839,7 @@
       "id": "atlas:event:mercedes-df-100-aeroengine-enters-large-scale-production",
       "name": "Mercedes DF 100 aeroengine enters large-scale production",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -779,6 +848,7 @@
       "id": "atlas:event:model-t-production-moved-to-highland-park",
       "name": "Model T production moved to Highland Park",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -787,6 +857,7 @@
       "id": "atlas:event:motorsport-technology-transfer-1951-1954",
       "name": "Das pistas para a estrada: 1951–1954",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -795,6 +866,7 @@
       "id": "atlas:event:moving-assembly-line-first-operated-for-automobiles-at-highland-park",
       "name": "Moving assembly line first operated for automobiles at Highland Park",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -803,6 +875,7 @@
       "id": "atlas:event:nice-race-week-1901-mercedes-35-hp-breakthrough",
       "name": "Nice Race Week 1901 — Mercedes 35 hp breakthrough",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -811,6 +884,7 @@
       "id": "atlas:event:nissan-leaf-japan-market-launch",
       "name": "Nissan LEAF Japan market launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -819,6 +893,7 @@
       "id": "atlas:event:nissan-leaf-unveiling",
       "name": "Nissan LEAF unveiling",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -827,6 +902,7 @@
       "id": "atlas:event:nurburgring-grand-prix-circuit-reconstruction-begins",
       "name": "Nürburgring Grand Prix circuit reconstruction begins",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -835,6 +911,7 @@
       "id": "atlas:event:nurburgring-opening-weekend",
       "name": "Nürburgring opening weekend",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -843,6 +920,7 @@
       "id": "atlas:event:oldsmobile-curved-dash-enters-large-scale-american-production",
       "name": "Oldsmobile Curved Dash enters large-scale American production",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -851,6 +929,7 @@
       "id": "atlas:event:oldsmobile-curved-dash-introduction",
       "name": "Oldsmobile Curved Dash introduction",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -859,6 +938,7 @@
       "id": "atlas:event:opening-of-new-nurburgring-grand-prix-circuit",
       "name": "Opening of new Nürburgring Grand Prix Circuit",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -867,6 +947,7 @@
       "id": "atlas:event:otto-four-stroke-industrialization-1876-1882",
       "name": "Industrialização do motor Otto de quatro tempos",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -875,6 +956,7 @@
       "id": "atlas:event:pandemic-disruption-and-electric-resilience-2020-2021",
       "name": "Ruptura pandêmica e resiliência elétrica: 2020–2021",
       "nominalLocators": 3,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -883,6 +965,7 @@
       "id": "atlas:event:parisrouen-reliability-trial-1894",
       "name": "Paris–Rouen reliability trial 1894",
       "nominalLocators": 0,
+      "statementCount": 4,
       "type": "Event"
     },
     {
@@ -891,6 +974,7 @@
       "id": "atlas:event:peugeot-type-1-shown-at-paris-world-fair",
       "name": "Peugeot Type 1 shown at Paris World Fair",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -899,6 +983,7 @@
       "id": "atlas:event:policy-scale-and-electric-trade-2022-2024",
       "name": "Política, escala e comércio elétrico: 2022–2024",
       "nominalLocators": 4,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -907,6 +992,7 @@
       "id": "atlas:event:porsche-901-renamed-porsche-911",
       "name": "Porsche 901 renamed Porsche 911",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -915,6 +1001,7 @@
       "id": "atlas:event:porsche-917-homologation",
       "name": "Porsche 917 homologation",
       "nominalLocators": 6,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -923,6 +1010,7 @@
       "id": "atlas:event:presentation-of-first-porsche-911-targa",
       "name": "Presentation of first Porsche 911 Targa",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -931,6 +1019,7 @@
       "id": "atlas:event:presentation-of-porsche-911-type-992",
       "name": "Presentation of Porsche 911 Type 992",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -939,6 +1028,7 @@
       "id": "atlas:event:presentation-of-porsche-911-type-996",
       "name": "Presentation of Porsche 911 Type 996",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -947,6 +1037,7 @@
       "id": "atlas:event:prius-concept-exhibited-at-tokyo-motor-show",
       "name": "Prius concept exhibited at Tokyo Motor Show",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -955,6 +1046,7 @@
       "id": "atlas:event:prussian-war-ministry-commissions-benz-cie-aeroengines",
       "name": "Prussian War Ministry commissions Benz & Cie. aeroengines",
       "nominalLocators": 0,
+      "statementCount": 4,
       "type": "Event"
     },
     {
@@ -963,6 +1055,7 @@
       "id": "atlas:event:real-world-testing-and-electric-realignment-2018-2019",
       "name": "Testes reais e realinhamento elétrico: 2018–2019",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -971,6 +1064,7 @@
       "id": "atlas:event:renault-espace-first-generation-launch",
       "name": "Renault Espace first-generation launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -979,6 +1073,7 @@
       "id": "atlas:event:renault-freres-founded",
       "name": "Renault Frères founded",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -987,6 +1082,7 @@
       "id": "atlas:event:renault-taxis-de-la-marne-wartime-mobilization",
       "name": "Renault 'Taxis de la Marne' wartime mobilization",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -995,6 +1091,7 @@
       "id": "atlas:event:road-mobility-transition-1841-1859",
       "name": "Transição entre o vapor rodoviário e a combustão prática",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1003,6 +1100,7 @@
       "id": "atlas:event:rolls-royce-40-50-h-p-launched",
       "name": "Rolls-Royce 40/50 H.P. launched",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1011,6 +1109,7 @@
       "id": "atlas:event:romano-artioli-revival-of-bugatti-automotive-activity",
       "name": "Romano Artioli revival of Bugatti automotive activity",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -1019,6 +1118,7 @@
       "id": "atlas:event:safety-regulation-and-innovation-1966-1970",
       "name": "Segurança regulada e inovação: 1966–1970",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -1027,6 +1127,7 @@
       "id": "atlas:event:series-production-start-of-porsche-901",
       "name": "Series production start of Porsche 901",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1035,6 +1136,7 @@
       "id": "atlas:event:skoda-1000-mb-production-start",
       "name": "ŠKODA 1000 MB production start",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1043,6 +1145,7 @@
       "id": "atlas:event:start-of-br-800-production",
       "name": "Start of BR-800 production",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1051,6 +1154,7 @@
       "id": "atlas:event:tata-motors-sanand-plant-established",
       "name": "Tata Motors Sanand plant established",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1059,6 +1163,7 @@
       "id": "atlas:event:tata-nano-commercial-launch",
       "name": "Tata Nano commercial launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1067,6 +1172,7 @@
       "id": "atlas:event:tata-nano-unveiling",
       "name": "Tata Nano unveiling",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1075,6 +1181,7 @@
       "id": "atlas:event:tesla-roadster-prototype-unveiling",
       "name": "Tesla Roadster prototype unveiling",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1083,6 +1190,7 @@
       "id": "atlas:event:tesla-roadster-regular-production-begins",
       "name": "Tesla Roadster regular production begins",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1091,6 +1199,7 @@
       "id": "atlas:event:toyoda-model-aa-debut",
       "name": "Toyoda Model AA debut",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1099,6 +1208,7 @@
       "id": "atlas:event:toyota-86-and-subaru-brz-sales-start",
       "name": "Toyota 86 and Subaru BRZ sales start",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -1107,6 +1217,7 @@
       "id": "atlas:event:toyota-bj-launch",
       "name": "Toyota BJ launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1115,6 +1226,7 @@
       "id": "atlas:event:toyota-industrial-foundation-1935-1939",
       "name": "Fundação industrial automotiva da Toyota",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1123,6 +1235,7 @@
       "id": "atlas:event:toyota-mirai-japan-market-launch",
       "name": "Toyota Mirai Japan market launch",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1131,6 +1244,7 @@
       "id": "atlas:event:traction-safety-and-global-production-1980-1984",
       "name": "Tração, segurança e produção global: 1980–1984",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -1139,6 +1253,7 @@
       "id": "atlas:event:vehicle-convergence-1883",
       "name": "Convergência veicular às vésperas de 1884",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Event"
     },
     {
@@ -1147,6 +1262,7 @@
       "id": "atlas:event:viagem-de-lobeissante-a-paris",
       "name": "Viagem de L’Obéissante a Paris",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Event"
     },
     {
@@ -1155,6 +1271,7 @@
       "id": "atlas:event:volkswagen-golf-series-production-begins",
       "name": "Volkswagen Golf series production begins",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1163,6 +1280,7 @@
       "id": "atlas:event:volkswagen-type-1-series-production-begins-after-world-war-ii",
       "name": "Volkswagen Type 1 series production begins after World War II",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1171,6 +1289,7 @@
       "id": "atlas:event:wartime-industrial-conversion-1940-1945",
       "name": "A indústria automotiva convertida para a guerra",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1179,6 +1298,7 @@
       "id": "atlas:event:world-premiere-of-porsche-901-at-iaa-frankfurt-1963",
       "name": "World premiere of Porsche 901 at IAA Frankfurt 1963",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1187,6 +1307,7 @@
       "id": "atlas:event:world-war-i-constrains-mercedes-28-95-hp-production",
       "name": "World War I constrains Mercedes 28/95 hp production",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Event"
     },
     {
@@ -1195,6 +1316,7 @@
       "id": "atlas:facility:bmw-group-plant-rosslyn",
       "name": "BMW Group Plant Rosslyn",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Facility"
     },
     {
@@ -1203,6 +1325,7 @@
       "id": "atlas:facility:ford-highland-park-plant",
       "name": "Ford Highland Park Plant",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Facility"
     },
     {
@@ -1211,6 +1334,7 @@
       "id": "atlas:organization:gurgel-motores-s-a",
       "name": "Gurgel Motores S/A",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Organization"
     },
     {
@@ -1219,6 +1343,7 @@
       "id": "atlas:organization:hyundai-motor-company",
       "name": "Hyundai Motor Company",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Organization"
     },
     {
@@ -1227,6 +1352,7 @@
       "id": "atlas:organization:lancia-c",
       "name": "Lancia & C.",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Organization"
     },
     {
@@ -1235,6 +1361,7 @@
       "id": "atlas:organization:renault-freres",
       "name": "Renault Frères",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Organization"
     },
     {
@@ -1243,6 +1370,7 @@
       "id": "atlas:person:alphonse-beau-de-rochas",
       "name": "Alphonse Beau de Rochas",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1251,6 +1379,7 @@
       "id": "atlas:person:amedee-bollee",
       "name": "Amédée Bollée",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Person"
     },
     {
@@ -1259,6 +1388,7 @@
       "id": "atlas:person:dugald-clerk",
       "name": "Dugald Clerk",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1267,6 +1397,7 @@
       "id": "atlas:person:edouard-delamare-deboutteville",
       "name": "Édouard Delamare-Deboutteville",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1275,6 +1406,7 @@
       "id": "atlas:person:etienne-lenoir",
       "name": "Étienne Lenoir",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1283,6 +1415,7 @@
       "id": "atlas:person:francois-isaac-de-rivaz",
       "name": "François Isaac de Rivaz",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1291,6 +1424,7 @@
       "id": "atlas:person:gottlieb-daimler",
       "name": "Gottlieb Daimler",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Person"
     },
     {
@@ -1299,6 +1433,7 @@
       "id": "atlas:person:leon-malandin",
       "name": "Léon Malandin",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Person"
     },
     {
@@ -1307,6 +1442,7 @@
       "id": "atlas:person:nicolas-joseph-cugnot",
       "name": "Nicolas-Joseph Cugnot",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1315,6 +1451,7 @@
       "id": "atlas:person:nikolaus-august-otto",
       "name": "Nikolaus August Otto",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1323,6 +1460,7 @@
       "id": "atlas:person:richard-trevithick",
       "name": "Richard Trevithick",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1331,6 +1469,7 @@
       "id": "atlas:person:siegfried-marcus",
       "name": "Siegfried Marcus",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Person"
     },
     {
@@ -1339,6 +1478,7 @@
       "id": "atlas:place:rio-claro",
       "name": "Rio Claro",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Place"
     },
     {
@@ -1347,6 +1487,7 @@
       "id": "atlas:technology:ciclo-de-dois-tempos",
       "name": "Ciclo de dois tempos",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Technology"
     },
     {
@@ -1355,6 +1496,7 @@
       "id": "atlas:technology:ciclo-de-quatro-tempos",
       "name": "Ciclo de quatro tempos",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Technology"
     },
     {
@@ -1363,6 +1505,7 @@
       "id": "atlas:vehicle-instance:holden-prototype-no-1",
       "name": "Holden Prototype No. 1",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "VehicleInstance"
     },
     {
@@ -1371,6 +1514,7 @@
       "id": "atlas:vehicle-instance:land-rover-pre-production-hue-166",
       "name": "Land Rover pre-production HUE 166",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "VehicleInstance"
     },
     {
@@ -1379,6 +1523,7 @@
       "id": "atlas:vehicle-instance:porsche-917-001",
       "name": "Porsche 917-001",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "VehicleInstance"
     },
     {
@@ -1387,6 +1532,7 @@
       "id": "atlas:vehicle-instance:porsche-917-023",
       "name": "Porsche 917-023",
       "nominalLocators": 5,
+      "statementCount": 2,
       "type": "VehicleInstance"
     },
     {
@@ -1395,6 +1541,7 @@
       "id": "atlas:vehicle-instance:rolls-royce-40-50-h-p-chassis-60551-silver-ghost",
       "name": "Rolls-Royce 40/50 H.P. chassis 60551 'Silver Ghost'",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "VehicleInstance"
     },
     {
@@ -1403,6 +1550,7 @@
       "id": "atlas:vehicle:alfa-romeo-bat-5",
       "name": "Alfa Romeo BAT 5",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1411,6 +1559,7 @@
       "id": "atlas:vehicle:alfa-romeo-bat-7",
       "name": "Alfa Romeo BAT 7",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1419,6 +1568,7 @@
       "id": "atlas:vehicle:alfa-romeo-bat-9",
       "name": "Alfa Romeo BAT 9",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1427,6 +1577,7 @@
       "id": "atlas:vehicle:audi-quattro",
       "name": "Audi quattro",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1435,6 +1586,7 @@
       "id": "atlas:vehicle:benz-velo",
       "name": "Benz Velo",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1443,6 +1595,7 @@
       "id": "atlas:vehicle:bugatti-eb110",
       "name": "Bugatti EB110",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1451,6 +1604,7 @@
       "id": "atlas:vehicle:bugatti-veyron-16-4",
       "name": "Bugatti Veyron 16.4",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1459,6 +1613,7 @@
       "id": "atlas:vehicle:buick-y-job",
       "name": "Buick Y-Job",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1467,6 +1622,7 @@
       "id": "atlas:vehicle:byd-f3dm",
       "name": "BYD F3DM",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1475,6 +1631,7 @@
       "id": "atlas:vehicle:cadillac-cyclone",
       "name": "Cadillac Cyclone",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1483,6 +1640,7 @@
       "id": "atlas:vehicle:cadillac-model-k",
       "name": "Cadillac Model K",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1491,6 +1649,7 @@
       "id": "atlas:vehicle:cadillac-runabout-1903",
       "name": "Cadillac Runabout (1903)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1499,6 +1658,7 @@
       "id": "atlas:vehicle:chevrolet-corvair-monza-gt",
       "name": "Chevrolet Corvair Monza GT",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1507,6 +1667,7 @@
       "id": "atlas:vehicle:citroen-traction-avant",
       "name": "Citroën Traction Avant",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1515,6 +1676,7 @@
       "id": "atlas:vehicle:classic-mini",
       "name": "Classic Mini",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1523,6 +1685,7 @@
       "id": "atlas:vehicle:daimler-4-hp-truck-1896",
       "name": "Daimler 4 hp truck (1896)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1531,6 +1694,7 @@
       "id": "atlas:vehicle:daimler-marienfelde-dc-truck-bus-series",
       "name": "Daimler Marienfelde DC truck/bus series",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1539,6 +1703,7 @@
       "id": "atlas:vehicle:daimler-motorized-carriage-1886",
       "name": "Daimler Motorized Carriage (1886)",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1547,6 +1712,7 @@
       "id": "atlas:vehicle:fardier-a-vapeur-de-cugnot",
       "name": "Fardier à vapeur de Cugnot",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1555,6 +1721,7 @@
       "id": "atlas:vehicle:ferrari-125-s",
       "name": "Ferrari 125 S",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1563,6 +1730,7 @@
       "id": "atlas:vehicle:fiat-312-hp",
       "name": "FIAT 3½ HP",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1571,6 +1739,7 @@
       "id": "atlas:vehicle:ford-model-a-1903",
       "name": "Ford Model A (1903)",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1579,6 +1748,7 @@
       "id": "atlas:vehicle:ford-model-n",
       "name": "Ford Model N",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1587,6 +1757,7 @@
       "id": "atlas:vehicle:ford-mustang",
       "name": "Ford Mustang",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1595,6 +1766,7 @@
       "id": "atlas:vehicle:ford-quadricycle",
       "name": "Ford Quadricycle",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1603,6 +1775,7 @@
       "id": "atlas:vehicle:general-motors-firebird-i",
       "name": "General Motors Firebird I",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1611,6 +1784,7 @@
       "id": "atlas:vehicle:general-motors-firebird-ii",
       "name": "General Motors Firebird II",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1619,6 +1793,7 @@
       "id": "atlas:vehicle:general-motors-firebird-iii",
       "name": "General Motors Firebird III",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1627,6 +1802,7 @@
       "id": "atlas:vehicle:general-motors-le-sabre",
       "name": "General Motors Le Sabre",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1635,6 +1811,7 @@
       "id": "atlas:vehicle:gurgel-br-800",
       "name": "Gurgel BR-800",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1643,6 +1820,7 @@
       "id": "atlas:vehicle:hippomobile-de-lenoir",
       "name": "Hippomobile de Lenoir",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1651,6 +1829,7 @@
       "id": "atlas:vehicle:holden-48-215",
       "name": "Holden 48-215",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1659,6 +1838,7 @@
       "id": "atlas:vehicle:honda-n360",
       "name": "Honda N360",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1667,6 +1847,7 @@
       "id": "atlas:vehicle:honda-n360-at",
       "name": "Honda N360 AT",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1675,6 +1856,7 @@
       "id": "atlas:vehicle:hongqi-ca72",
       "name": "Hongqi CA72",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1683,6 +1865,7 @@
       "id": "atlas:vehicle:hyundai-pony",
       "name": "Hyundai Pony",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1691,6 +1874,7 @@
       "id": "atlas:vehicle:lamborghini-miura",
       "name": "Lamborghini Miura",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1699,6 +1883,7 @@
       "id": "atlas:vehicle:lancia-12-hp",
       "name": "Lancia 12 HP",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1707,6 +1892,7 @@
       "id": "atlas:vehicle:land-rover-series-i",
       "name": "Land Rover Series I",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1715,6 +1901,7 @@
       "id": "atlas:vehicle:lincoln-futura",
       "name": "Lincoln Futura",
       "nominalLocators": 5,
+      "statementCount": 5,
       "type": "Vehicle"
     },
     {
@@ -1723,6 +1910,7 @@
       "id": "atlas:vehicle:lobeissante",
       "name": "L’Obéissante",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1731,6 +1919,7 @@
       "id": "atlas:vehicle:london-steam-carriage",
       "name": "London Steam Carriage",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1739,6 +1928,7 @@
       "id": "atlas:vehicle:mazda-cosmo-sport-110s",
       "name": "Mazda Cosmo Sport / 110S",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1747,6 +1937,7 @@
       "id": "atlas:vehicle:mclaren-f1",
       "name": "McLaren F1",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1755,6 +1946,7 @@
       "id": "atlas:vehicle:mercedes-35-hp",
       "name": "Mercedes 35 hp",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1763,6 +1955,7 @@
       "id": "atlas:vehicle:nissan-leaf-first-generation",
       "name": "Nissan LEAF — First Generation",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1771,6 +1964,7 @@
       "id": "atlas:vehicle:oldsmobile-curved-dash",
       "name": "Oldsmobile Curved Dash",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1779,6 +1973,7 @@
       "id": "atlas:vehicle:peugeot-type-1",
       "name": "Peugeot Type 1",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1787,6 +1982,7 @@
       "id": "atlas:vehicle:peugeot-type-2",
       "name": "Peugeot Type 2",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1795,6 +1991,7 @@
       "id": "atlas:vehicle:porsche-911-g-series",
       "name": "Porsche 911 G-Series",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1803,6 +2000,7 @@
       "id": "atlas:vehicle:porsche-911-original",
       "name": "Porsche 911 Original",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1811,6 +2009,7 @@
       "id": "atlas:vehicle:porsche-911-targa-original-generation",
       "name": "Porsche 911 Targa (original generation)",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1819,6 +2018,7 @@
       "id": "atlas:vehicle:porsche-911-turbo-g-series-type-930",
       "name": "Porsche 911 Turbo (G-Series / Type 930)",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1827,6 +2027,7 @@
       "id": "atlas:vehicle:porsche-911-type-964",
       "name": "Porsche 911 Type 964",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1835,6 +2036,7 @@
       "id": "atlas:vehicle:porsche-911-type-991",
       "name": "Porsche 911 Type 991",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1843,6 +2045,7 @@
       "id": "atlas:vehicle:porsche-911-type-992",
       "name": "Porsche 911 Type 992",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1851,6 +2054,7 @@
       "id": "atlas:vehicle:porsche-911-type-993",
       "name": "Porsche 911 Type 993",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1859,6 +2063,7 @@
       "id": "atlas:vehicle:porsche-911-type-996",
       "name": "Porsche 911 Type 996",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1867,6 +2072,7 @@
       "id": "atlas:vehicle:porsche-911-type-997",
       "name": "Porsche 911 Type 997",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1875,6 +2081,7 @@
       "id": "atlas:vehicle:porsche-917",
       "name": "Porsche 917",
       "nominalLocators": 9,
+      "statementCount": 7,
       "type": "Vehicle"
     },
     {
@@ -1883,6 +2090,7 @@
       "id": "atlas:vehicle:porsche-917-10",
       "name": "Porsche 917/10",
       "nominalLocators": 2,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1891,6 +2099,7 @@
       "id": "atlas:vehicle:porsche-917-30",
       "name": "Porsche 917/30",
       "nominalLocators": 3,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1899,6 +2108,7 @@
       "id": "atlas:vehicle:porsche-917-k",
       "name": "Porsche 917 K",
       "nominalLocators": 1,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1907,6 +2117,7 @@
       "id": "atlas:vehicle:puffing-devil",
       "name": "Puffing Devil",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1915,6 +2126,7 @@
       "id": "atlas:vehicle:renault-espace-first-generation",
       "name": "Renault Espace — First Generation",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1923,6 +2135,7 @@
       "id": "atlas:vehicle:renault-type-a",
       "name": "Renault Type A",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1931,6 +2144,7 @@
       "id": "atlas:vehicle:renault-type-ag1-taxi",
       "name": "Renault Type AG1 taxi",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1939,6 +2153,7 @@
       "id": "atlas:vehicle:rolls-royce-10-h-p",
       "name": "Rolls-Royce 10 H.P.",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1947,6 +2162,7 @@
       "id": "atlas:vehicle:rolls-royce-40-50-h-p",
       "name": "Rolls-Royce 40/50 H.P.",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1955,6 +2171,7 @@
       "id": "atlas:vehicle:royce-10-h-p",
       "name": "Royce 10 H.P.",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -1963,6 +2180,7 @@
       "id": "atlas:vehicle:segundo-automovel-de-marcus",
       "name": "Segundo automóvel de Marcus",
       "nominalLocators": 3,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1971,6 +2189,7 @@
       "id": "atlas:vehicle:skoda-1000-mb",
       "name": "ŠKODA 1000 MB",
       "nominalLocators": 0,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -1979,6 +2198,7 @@
       "id": "atlas:vehicle:subaru-brz",
       "name": "Subaru BRZ",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -1987,6 +2207,7 @@
       "id": "atlas:vehicle:tata-nano",
       "name": "Tata Nano",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -1995,6 +2216,7 @@
       "id": "atlas:vehicle:tesla-roadster-first-generation",
       "name": "Tesla Roadster — First Generation",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -2003,6 +2225,7 @@
       "id": "atlas:vehicle:toyoda-model-aa",
       "name": "Toyoda Model AA",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -2011,6 +2234,7 @@
       "id": "atlas:vehicle:toyota-86",
       "name": "Toyota 86",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -2019,6 +2243,7 @@
       "id": "atlas:vehicle:toyota-jeep-bj-land-cruiser-bj",
       "name": "Toyota Jeep BJ / Land Cruiser BJ",
       "nominalLocators": 0,
+      "statementCount": 1,
       "type": "Vehicle"
     },
     {
@@ -2027,6 +2252,7 @@
       "id": "atlas:vehicle:toyota-mirai-first-generation",
       "name": "Toyota Mirai — First Generation",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -2035,6 +2261,7 @@
       "id": "atlas:vehicle:toyota-prius-first-generation",
       "name": "Toyota Prius — First Generation",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -2043,6 +2270,7 @@
       "id": "atlas:vehicle:veiculo-delamare-debouttevillemalandin",
       "name": "Veículo Delamare-Deboutteville–Malandin",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -2051,6 +2279,7 @@
       "id": "atlas:vehicle:veiculo-experimental-de-rivaz",
       "name": "Veículo experimental de Rivaz",
       "nominalLocators": 4,
+      "statementCount": 4,
       "type": "Vehicle"
     },
     {
@@ -2059,6 +2288,7 @@
       "id": "atlas:vehicle:volkswagen-beetle-type-1",
       "name": "Volkswagen Beetle / Type 1",
       "nominalLocators": 0,
+      "statementCount": 2,
       "type": "Vehicle"
     },
     {
@@ -2067,6 +2297,7 @@
       "id": "atlas:vehicle:volkswagen-golf-first-generation",
       "name": "Volkswagen Golf — First Generation",
       "nominalLocators": 0,
+      "statementCount": 3,
       "type": "Vehicle"
     }
   ],
@@ -2074,7 +2305,6 @@
     "Brand": 1,
     "CircuitLayout": 6,
     "Component": 4,
-    "Entry": 3,
     "Event": 134,
     "Facility": 2,
     "Organization": 4,
@@ -2084,16 +2314,16 @@
     "Vehicle": 84,
     "VehicleInstance": 5
   },
-  "reportSha256": "0349a8a0010e60a941ea908e11e72485fefb52495eaef5290245a454f11d5a10",
+  "reportSha256": "5cf10d9fa22ee79bc7ff9925e296da9671ce57fcac374af795983ff3a4518555",
   "status": "PASS",
   "summary": {
-    "deferredEvidence": 488,
-    "documentaryEvidence": 107,
+    "deferredEvidence": 472,
+    "documentaryEvidence": 132,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 43,
-    "entitiesWithoutDocumentaryEvidence": 258,
-    "evidenceRecords": 862,
-    "nominalEvidence": 267
+    "entitiesWithDocumentaryEvidence": 46,
+    "entitiesWithoutDocumentaryEvidence": 255,
+    "evidenceRecords": 860,
+    "nominalEvidence": 256
   },
   "version": "1.0.0"
 }

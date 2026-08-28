@@ -236,7 +236,7 @@
       "type": "Claim"
     }
   ],
-  "description": "1906 Grand Prix de l'A.C.F. #3A — Ferenc Szisz / Renault é registrado no Atlas como inscrição esportiva, dentro da história global do automóvel. A documentação registra condução por Ferenc Szisz. A documentação registra veículo inscrito Renault Type AK Grand Prix. A documentação registra inscrição por Renault — 1906 Grand Prix works entry. A documentação registra situação na prova classified. A documentação registra participação no evento 1906 Grand Prix de l'A.C.F.. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Inscrição de Ferenc Szisz no Grand Prix de l'A.C.F. de 27 de junho de 1906, com o Renault Type AK de 13 litros e 66 kW (90 cv). Szisz cruzou a linha de chegada com 32 minutos de vantagem sobre o segundo colocado, na primeira prova disputada sob o nome de Grande Prêmio.",
   "id": "atlas:entry:1906-grand-prix-de-l-a-c-f-3a-ferenc-szisz-renault",
   "legacy": {
     "id": "01a01031-ec56-7459-925c-fc864c0e340e",
@@ -251,6 +251,7 @@
       "01a01031-ec57-7e03-9139-dd7c85645ca9",
       "01a01031-ec57-7e1e-97ba-735512fda487"
     ],
+    "documentary_batch": "D02",
     "editorial_batch": "E21",
     "editorial_level": "editorial",
     "entry_type": "motorsport_entry"

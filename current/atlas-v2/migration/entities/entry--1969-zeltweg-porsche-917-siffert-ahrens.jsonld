@@ -27,28 +27,6 @@
     {
       "confidence": "high",
       "evidence": [
-        "atlas:evidence:legacy-01a01016ea567f1e82cd70f77d03d8ba"
-      ],
-      "id": "atlas:claim:legacy-01a01016ea5a7218a2cf68b70e4bf007",
-      "legacyId": "01a01016-ea5a-7218-a2cf-68b70e4bf007",
-      "object": {
-        "id": "atlas:person:jo-siffert",
-        "type": "EntityReference"
-      },
-      "predicate": "driven-by",
-      "resolutionStatus": "accepted",
-      "sources": [
-        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
-      ],
-      "stance": "supports",
-      "statementLegacyId": "01a01016-ea53-741e-8c44-fbdf237e2838",
-      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
-      "supportStrength": "explicit",
-      "type": "Claim"
-    },
-    {
-      "confidence": "high",
-      "evidence": [
         "atlas:evidence:legacy-01a01016ea567e20a03b901ae595139e"
       ],
       "id": "atlas:claim:legacy-01a01016ea5a738c8eb3a1ab9fda2211",
@@ -130,28 +108,6 @@
       ],
       "stance": "supports",
       "statementLegacyId": "01a01016-ea53-75f4-be05-99faccfd504e",
-      "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
-      "supportStrength": "explicit",
-      "type": "Claim"
-    },
-    {
-      "confidence": "high",
-      "evidence": [
-        "atlas:evidence:legacy-01a01016ea567748814ad13a7f35d1bb"
-      ],
-      "id": "atlas:claim:legacy-01a01016ea5a7a31909b12ad5da989b9",
-      "legacyId": "01a01016-ea5a-7a31-909b-12ad5da989b9",
-      "object": {
-        "id": "atlas:person:kurt-ahrens-jr",
-        "type": "EntityReference"
-      },
-      "predicate": "driven-by",
-      "resolutionStatus": "accepted",
-      "sources": [
-        "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917"
-      ],
-      "stance": "supports",
-      "statementLegacyId": "01a01016-ea53-7066-bcc1-aebba0c7ad19",
       "subject": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
       "supportStrength": "explicit",
       "type": "Claim"
@@ -242,7 +198,7 @@
       "type": "Claim"
     }
   ],
-  "description": "1969 Zeltweg — Porsche 917 — Siffert/Ahrens é registrado no Atlas como inscrição esportiva, dentro da história global do automóvel. A documentação registra condução por Kurt Ahrens Jr.. A documentação registra condução por Jo Siffert. A documentação registra inscrição por Karl Freiherr von Wendt. A documentação registra participação no evento 1969 1000 km Zeltweg. A documentação registra veículo inscrito Porsche 917. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Inscrição do Porsche 917 número 29, chassi 009, nos 1000 km de Zeltweg de 10 de agosto de 1969, conduzida por Jo Siffert e Kurt Ahrens Jr. para Karl Freiherr von Wendt. Foi a primeira vitória geral do 917, obtida ainda no ano de estreia do modelo em competição.",
   "id": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
   "legacy": {
     "id": "01a01016-ea4d-763b-928f-bb7bfad13e74",
@@ -257,6 +213,7 @@
       "01a01016-ea53-76bd-b32c-35299227c675",
       "01a01016-ea53-7839-8a43-3ff00ab1f0d3"
     ],
+    "documentary_batch": "D02",
     "editorial_batch": "E21",
     "editorial_level": "editorial",
     "entry_type": "motorsport_entry"

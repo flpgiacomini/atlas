@@ -56,6 +56,19 @@ def claim_years(entity: dict) -> list[int]:
     return sorted(set(values))
 
 
+def statement_count(entity: dict) -> int:
+    """Distinct assertions, not source attachments.
+
+    A Claim is one source's support for a Statement (D-004), so three sources
+    agreeing on one fact produce three claims. Publishing only claimCount made a
+    well-corroborated record look richer than one asserting more, and ranked
+    search results by how many sources were attached rather than by how much was
+    said. Claims authored outside the migration carry no statement id; each
+    stands as its own assertion.
+    """
+    return len({claim.get("statementLegacyId") or claim["id"] for claim in entity.get("claims", [])})
+
+
 def summary(entity: dict) -> dict:
     years = claim_years(entity)
     sources = sorted({source for claim in entity.get("claims", []) for source in claim.get("sources", [])})
@@ -64,7 +77,8 @@ def summary(entity: dict) -> dict:
         "id": entity["id"], "type": entity["type"], "name": entity["name"],
         "aliases": entity.get("aliases", []), "description": entity.get("description"),
         "yearStart": years[0] if years else None, "yearEnd": years[-1] if years else None,
-        "years": years, "claimCount": len(entity.get("claims", [])), "sourceCount": len(sources),
+        "years": years, "claimCount": len(entity.get("claims", [])),
+        "statementCount": statement_count(entity), "sourceCount": len(sources),
         "editorialLevel": metadata.get("editorial_level", "unknown"),
         "region": metadata.get("region_cluster", "Global / não classificado"),
     }

@@ -117,6 +117,9 @@ def audit() -> dict:
                 "name": document.get("name"),
                 "type": document.get("type"),
                 "claimCount": len(claims),
+                # The queue is a worklist, so it ranks by what an entity asserts,
+                # not by how many sources were attached to those assertions.
+                "statementCount": len({claim.get("statementLegacyId") or claim["id"] for claim in claims}),
                 "deferredLocators": counts["deferred"],
                 "nominalLocators": counts["nominal"],
             })

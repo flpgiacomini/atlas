@@ -39,6 +39,10 @@ export function evidenceState(item) {
   return isCatalogOnly(item) ? "catalog" : "unevidenced";
 }
 
+export function assertionCount(item) {
+  return item?.statementCount ?? item?.claimCount ?? 0;
+}
+
 export function matchEntities(items, query, year) {
   const needle = normalizeSearch(query);
   if (!needle) return [];
@@ -49,7 +53,9 @@ export function matchEntities(items, query, year) {
     const haystack = normalizeSearch([item.name, ...(item.aliases || []), item.type, item.description, item.region].join(" "));
     return temporal && haystack.includes(needle);
   }).sort((a, b) => Number(isCatalogOnly(a)) - Number(isCatalogOnly(b))
-    || (b.claimCount || 0) - (a.claimCount || 0)
+    // Rank by what an entity asserts, then by how well those assertions are
+    // corroborated. Ranking by claimCount alone rewarded attaching sources.
+    || assertionCount(b) - assertionCount(a)
     || (b.sourceCount || 0) - (a.sourceCount || 0)
     || String(a.name).localeCompare(String(b.name), "pt-BR"));
 }

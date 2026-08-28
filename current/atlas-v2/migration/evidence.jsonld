@@ -1322,20 +1322,30 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea5672c297610a01240f5e72",
       "legacyId": "01a01016-ea56-72c2-9761-0a01240f5e72",
-      "locator": {},
-      "notes": "Evidence supporting stm_000028; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea5672c5b759f1e4077247ff",
       "legacyId": "01a01016-ea56-72c5-b759-f1e4077247ff",
-      "locator": {},
-      "notes": "Evidence supporting stm_000026; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1349,11 +1359,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567307806fc1081c2a6aeb",
       "legacyId": "01a01016-ea56-7307-806f-c1081c2a6aeb",
-      "locator": {},
-      "notes": "Evidence supporting stm_000030; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1395,10 +1410,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "The car managed to secure an overall victory in its very first year of competing in the 1,000-kilometre race at Zeltweg, Austria in 1969.",
       "id": "atlas:evidence:legacy-01a01016ea5673bbbc0a4cfe9dd428aa",
       "legacyId": "01a01016-ea56-73bb-bc0a-4cfe9dd428aa",
-      "locator": {},
-      "notes": "Evidence supporting stm_000030; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Unparalleled dominance in motorsport and a trendsetter for turbo technology"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917",
       "type": "Evidence"
     },
@@ -1423,11 +1441,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea56741ba8554f82e7205b90",
       "legacyId": "01a01016-ea56-741b-a855-4f82e7205b90",
-      "locator": {},
-      "notes": "Evidence supporting stm_000031; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1566,15 +1589,6 @@
     },
     {
       "evidenceType": "explicit_statement",
-      "id": "atlas:evidence:legacy-01a01016ea567748814ad13a7f35d1bb",
-      "legacyId": "01a01016-ea56-7748-814a-d13a7f35d1bb",
-      "locator": {},
-      "notes": "Evidence supporting stm_000029; locator to be refined to paragraph/page during curation.",
-      "source": "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917",
-      "type": "Evidence"
-    },
-    {
-      "evidenceType": "explicit_statement",
       "id": "atlas:evidence:legacy-01a01016ea567782929bee7ecb39d061",
       "legacyId": "01a01016-ea56-7782-929b-ee7ecb39d061",
       "locator": {
@@ -1598,11 +1612,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea5677e4a076362cd4c00fbb",
       "legacyId": "01a01016-ea56-77e4-a076-362cd4c00fbb",
-      "locator": {},
-      "notes": "Evidence supporting stm_000025; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1701,19 +1720,27 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "The car managed to secure an overall victory in its very first year of competing in the 1,000-kilometre race at Zeltweg, Austria in 1969.",
       "id": "atlas:evidence:legacy-01a01016ea567a82832ad3208a202fc9",
       "legacyId": "01a01016-ea56-7a82-832a-d3208a202fc9",
-      "locator": {},
-      "notes": "Evidence supporting stm_000026; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "section": "Unparalleled dominance in motorsport and a trendsetter for turbo technology"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567ae989d2ec3459fb97cb",
       "legacyId": "01a01016-ea56-7ae9-89d2-ec3459fb97cb",
-      "locator": {},
-      "notes": "Evidence supporting stm_000027; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1889,11 +1916,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "results_table",
+      "excerpt": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
       "id": "atlas:evidence:legacy-01a01016ea567e20a03b901ae595139e",
       "legacyId": "01a01016-ea56-7e20-a03b-901ae595139e",
-      "locator": {},
-      "notes": "Evidence supporting stm_000029; locator to be refined to paragraph/page during curation.",
+      "locator": {
+        "row": "10.8.1969 | 1000 km Zeltweg | 29 | #009 | Siffert / Ahrens, Jr. | Karl Freiherr v. Wendt | 1st",
+        "section": "Year: 1969",
+        "table": "10.8.1969 — 1000 km Zeltweg"
+      },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:racing-sports-cars-porsche-917-all-results",
       "type": "Evidence"
     },
@@ -1926,15 +1958,6 @@
       "locator": {},
       "notes": "Evidence supporting stm_000019; locator to be refined to paragraph/page during curation.",
       "source": "atlas:source:porsche-ag-makers-day",
-      "type": "Evidence"
-    },
-    {
-      "evidenceType": "explicit_statement",
-      "id": "atlas:evidence:legacy-01a01016ea567f1e82cd70f77d03d8ba",
-      "legacyId": "01a01016-ea56-7f1e-82cd-70f77d03d8ba",
-      "locator": {},
-      "notes": "Evidence supporting stm_000028; locator to be refined to paragraph/page during curation.",
-      "source": "atlas:source:porsche-ag-porsche-celebrates-50-years-of-the-917",
       "type": "Evidence"
     },
     {
@@ -4327,12 +4350,15 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "This photo album documents the 1904 race, won by American driver George Heath in a French-built Panhard.",
       "id": "atlas:evidence:legacy-01a01031ec55708780043456108b8d95",
       "legacyId": "01a01031-ec55-7087-8004-3456108b8d95",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "inventory_number": "92.1.1774.336",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race",
       "type": "Evidence"
     },
@@ -4348,11 +4374,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "His French-built #7 Panhard finished in 5 hours, 26 minutes, 45 seconds, for an average race speed of 52.2 mph.",
       "id": "atlas:evidence:legacy-01a01031ec557252b8ec73aeddf01665",
       "legacyId": "01a01031-ec55-7252-b8ec-73aeddf01665",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Panhard Race Car Driven by George Heath Winning the First Vanderbilt Cup Race, Long Island, New York, October 8, 1904"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
       "type": "Evidence"
     },
@@ -4368,21 +4396,26 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "His French-built #7 Panhard finished in 5 hours, 26 minutes, 45 seconds, for an average race speed of 52.2 mph.",
       "id": "atlas:evidence:legacy-01a01031ec5575f68130f8ac8fc84504",
       "legacyId": "01a01031-ec55-75f6-8130-f8ac8fc84504",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Panhard Race Car Driven by George Heath Winning the First Vanderbilt Cup Race, Long Island, New York, October 8, 1904"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "This photo album documents the 1904 race, won by American driver George Heath in a French-built Panhard.",
       "id": "atlas:evidence:legacy-01a01031ec5577f698edd30fdcb6d7fc",
       "legacyId": "01a01031-ec55-77f6-98ed-d30fdcb6d7fc",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "inventory_number": "92.1.1774.336",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race",
       "type": "Evidence"
     },
@@ -4398,42 +4431,52 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "His French-built #7 Panhard finished in 5 hours, 26 minutes, 45 seconds, for an average race speed of 52.2 mph.",
       "id": "atlas:evidence:legacy-01a01031ec557b5fb0e9211a2be6e681",
       "legacyId": "01a01031-ec55-7b5f-b0e9-211a2be6e681",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Panhard Race Car Driven by George Heath Winning the First Vanderbilt Cup Race, Long Island, New York, October 8, 1904"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "This photo album documents the 1904 race, won by American driver George Heath in a French-built Panhard.",
       "id": "atlas:evidence:legacy-01a01031ec557cbd8dd621896d97cd56",
       "legacyId": "01a01031-ec55-7cbd-8dd6-21896d97cd56",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "inventory_number": "92.1.1774.336",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "This photo album documents the 1904 race, won by American driver George Heath in a French-built Panhard.",
       "id": "atlas:evidence:legacy-01a01031ec567189a9d2230ba2df37cb",
       "legacyId": "01a01031-ec56-7189-a9d2-230ba2df37cb",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "inventory_number": "92.1.1774.336",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "His French-built #7 Panhard finished in 5 hours, 26 minutes, 45 seconds, for an average race speed of 52.2 mph.",
       "id": "atlas:evidence:legacy-01a01031ec567381817f2ca3673083b1",
       "legacyId": "01a01031-ec56-7381-817f-2ca3673083b1",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Panhard Race Car Driven by George Heath Winning the First Vanderbilt Cup Race, Long Island, New York, October 8, 1904"
       },
-      "source": "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race",
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
+      "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
       "type": "Evidence"
     },
     {
@@ -4448,11 +4491,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "His French-built #7 Panhard finished in 5 hours, 26 minutes, 45 seconds, for an average race speed of 52.2 mph.",
       "id": "atlas:evidence:legacy-01a01031ec567a5f9b47001f87b1305e",
       "legacyId": "01a01031-ec56-7a5f-9b47-001f87b1305e",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Panhard Race Car Driven by George Heath Winning the First Vanderbilt Cup Race, Long Island, New York, October 8, 1904"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
       "type": "Evidence"
     },
@@ -4467,12 +4512,15 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "entailed_statement",
+      "excerpt": "This photo album documents the 1904 race, won by American driver George Heath in a French-built Panhard.",
       "id": "atlas:evidence:legacy-01a01031ec567de09a92cfaad0a50595",
       "legacyId": "01a01031-ec56-7de0-9a92-cfaad0a50595",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "inventory_number": "92.1.1774.336",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:the-henry-ford-photograph-album-1904-vanderbilt-cup-race",
       "type": "Evidence"
     },
@@ -4508,11 +4556,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Ferenc Szisz, pilote expérimenté, remporta ce triomphe spectaculaire",
       "id": "atlas:evidence:legacy-01a01031ec5772cf8b9509cdb19e794d",
       "legacyId": "01a01031-ec57-72cf-8b95-09cdb19e794d",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Il y a 110 ans, Renault gagne le premier Grand Prix de l'Histoire"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
       "type": "Evidence"
     },
@@ -4528,31 +4578,37 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Ferenc Szisz, pilote expérimenté, remporta ce triomphe spectaculaire",
       "id": "atlas:evidence:legacy-01a01031ec577762a56bda2318de6daf",
       "legacyId": "01a01031-ec57-7762-a56b-da2318de6daf",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Il y a 110 ans, Renault gagne le premier Grand Prix de l'Histoire"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "la deux places Type AK de 66 kW/90 ch d'une cylindrée de 13 litres",
       "id": "atlas:evidence:legacy-01a01031ec577846b9ba36cf8efa4306",
       "legacyId": "01a01031-ec57-7846-b9ba-36cf8efa4306",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Il y a 110 ans, Renault gagne le premier Grand Prix de l'Histoire"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
       "type": "Evidence"
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "il franchit la ligne d'arrivée loin devant ses concurrents, affichant une avance de 32 minutes sur le deuxième pilote",
       "id": "atlas:evidence:legacy-01a01031ec577af3b29559ab2735f801",
       "legacyId": "01a01031-ec57-7af3-b295-59ab2735f801",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Il y a 110 ans, Renault gagne le premier Grand Prix de l'Histoire"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
       "type": "Evidence"
     },
@@ -4568,11 +4624,13 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Le 27 juin 1906",
       "id": "atlas:evidence:legacy-01a01031ec577cee8f9ce2940648d5ef",
       "legacyId": "01a01031-ec57-7cee-8f9c-e2940648d5ef",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Il y a 110 ans, Renault gagne le premier Grand Prix de l'Histoire"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
       "type": "Evidence"
     },
@@ -4587,12 +4645,14 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "entailed_statement",
+      "excerpt": "il franchit la ligne d'arrivée loin devant ses concurrents",
       "id": "atlas:evidence:legacy-01a01031ec577e31848d4a6c9e97c27d",
       "legacyId": "01a01031-ec57-7e31-848d-4a6c9e97c27d",
       "locator": {
-        "note": "A5 B6/B8 source passage; exact locator to refine during deep curation."
+        "section": "Il y a 110 ans, Renault gagne le premier Grand Prix de l'Histoire"
       },
+      "notes": "Passagem documental D02; localizador e trecho conferidos na fonte em 2026-08-28.",
       "source": "atlas:source:renault-group-il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire",
       "type": "Evidence"
     },

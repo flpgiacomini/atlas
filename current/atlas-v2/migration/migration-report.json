@@ -1,9 +1,9 @@
 {
   "counts": {
-    "claims": 736,
+    "claims": 734,
     "entities": 920,
     "entityNames": 14,
-    "evidence": 737,
+    "evidence": 735,
     "externalIdentifiers": 525,
     "legacyIdentifiers": 648,
     "predicates": 56,
@@ -11,10 +11,10 @@
     "sources": 633,
     "statements": 610
   },
-  "databaseSha256": "6d3b17c351fdc69121901306fcd3deeff951be99a11be8f08605219eb70af109",
+  "databaseSha256": "1fc1b8f37d6f74c0938cdbf24c686090593e1e92b418c7541e2745aa4d632796",
   "documents": {
     "entityFiles": 920,
-    "evidenceItems": 737,
+    "evidenceItems": 735,
     "sourceItems": 633
   },
   "status": "migration-candidate",

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { editorialLevel, evidenceState, isCatalogOnly, matchEntities, normalizeSearch, periodForYear, publicUrl, searchEntities, storyForYear, yearUrl } from "../src/lib/atlas-data.js";
+import { assertionCount, editorialLevel, evidenceState, isCatalogOnly, matchEntities, normalizeSearch, periodForYear, publicUrl, searchEntities, storyForYear, yearUrl } from "../src/lib/atlas-data.js";
 
 test("normalizes accents and casing", () => {
   assert.equal(normalizeSearch("  Citroën DS  "), "citroen ds");
@@ -67,4 +67,18 @@ test("hides catalogued identities on request without dropping them from the acer
   assert.deepEqual(searchEntities(graded, "abarth", 2026, { includeCatalog: false }).map((item) => item.id), ["rich", "thin"]);
   assert.equal(searchEntities(graded, "abarth", 2026).length, 3);
   assert.equal(searchEntities(graded, "abarth", 2026, { limit: 1 }).length, 1);
+});
+
+test("counts assertions, not source attachments, and falls back when absent", () => {
+  assert.equal(assertionCount({ statementCount: 9, claimCount: 24 }), 9);
+  assert.equal(assertionCount({ claimCount: 5 }), 5);
+  assert.equal(assertionCount({}), 0);
+});
+
+test("ranks by what an entity asserts rather than by how many sources back it", () => {
+  const items = [
+    { id: "corroborated", name: "Le Mans", aliases: [], type: "Entry", region: "França", yearStart: 1970, claimCount: 24, statementCount: 9, sourceCount: 3, editorialLevel: "editorial" },
+    { id: "asserts-more", name: "Le Model", aliases: [], type: "Vehicle", region: "EUA", yearStart: 1908, claimCount: 11, statementCount: 11, sourceCount: 1, editorialLevel: "editorial" },
+  ];
+  assert.deepEqual(matchEntities(items, "le", 2026).map((item) => item.id), ["asserts-more", "corroborated"]);
 });

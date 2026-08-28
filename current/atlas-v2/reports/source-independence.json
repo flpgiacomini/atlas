@@ -8,7 +8,7 @@
     "government": 25,
     "industry_association": 1,
     "institutional": 85,
-    "manufacturer": 444,
+    "manufacturer": 442,
     "manufacturer_archive": 125,
     "manufacturer_regional": 3,
     "museum": 76,
@@ -208,11 +208,11 @@
     "atlas:vehicle:volvo-pv544"
   ],
   "errors": [],
-  "reportSha256": "94003f25e345dbb28f27c18be858a0cec0e2d34f514f7a548769496676f7ae59",
+  "reportSha256": "48fb43bf1c3111b9d0bcd96bb63ec2c31c194fdd6f5e0e89feb88853229a6660",
   "status": "PASS",
   "summary": {
-    "citations": 862,
-    "dependentCitations": 573,
+    "citations": 860,
+    "dependentCitations": 571,
     "dependentOnlyEntities": 186,
     "editorialEntitiesWithClaims": 301,
     "independentEntities": 115,
