@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 42,
-    "withoutDocumentaryCeiling": 259
+    "documentedFloor": 43,
+    "withoutDocumentaryCeiling": 258
   },
   "errors": [],
   "queue": [
@@ -115,14 +115,6 @@
       "id": "atlas:entry:1969-zeltweg-porsche-917-siffert-ahrens",
       "name": "1969 Zeltweg — Porsche 917 — Siffert/Ahrens",
       "nominalLocators": 11,
-      "type": "Entry"
-    },
-    {
-      "claimCount": 24,
-      "deferredLocators": 0,
-      "id": "atlas:entry:1970-le-mans-23-porsche-917-k-917-023-attwood-herrmann",
-      "name": "1970 Le Mans #23 — Porsche 917 K 917-023 — Attwood/Herrmann",
-      "nominalLocators": 24,
       "type": "Entry"
     },
     {
@@ -2082,7 +2074,7 @@
     "Brand": 1,
     "CircuitLayout": 6,
     "Component": 4,
-    "Entry": 4,
+    "Entry": 3,
     "Event": 134,
     "Facility": 2,
     "Organization": 4,
@@ -2092,16 +2084,16 @@
     "Vehicle": 84,
     "VehicleInstance": 5
   },
-  "reportSha256": "0cabe6ca62b08229e2e5817166f4049393070f2a8571717f2608a273c79eb115",
+  "reportSha256": "0349a8a0010e60a941ea908e11e72485fefb52495eaef5290245a454f11d5a10",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 488,
-    "documentaryEvidence": 83,
+    "documentaryEvidence": 107,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 42,
-    "entitiesWithoutDocumentaryEvidence": 259,
+    "entitiesWithDocumentaryEvidence": 43,
+    "entitiesWithoutDocumentaryEvidence": 258,
     "evidenceRecords": 862,
-    "nominalEvidence": 291
+    "nominalEvidence": 267
   },
   "version": "1.0.0"
 }
