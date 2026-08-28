@@ -19,4 +19,12 @@ expansão editorial sem reabrir silenciosamente os contratos aprovados.
 - Preservar conflitos documentais como conflitos.
 - Mudanças incompatíveis nos schemas exigem ADR e nova versão principal.
 
+## Estado do acervo
+
+Cobertura auditada e substância histórica são grandezas diferentes. O
+levantamento em `handoff/ATLAS_LEVANTAMENTO_DE_SUBSTANCIA.md` mede a segunda:
+origem e independência das fontes, distribuição de evidência por tipo, densidade
+real dos capítulos anuais e os pontos onde a interface afirma mais do que o
+acervo sustenta. Consultar antes de decidir escopo.
+
 URL pública: <https://flpgiacomini.github.io/atlas/>
