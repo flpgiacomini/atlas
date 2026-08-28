@@ -44,6 +44,7 @@ jobs:
       - run: python scripts/audit_source_independence.py --check
       - run: python scripts/audit_catalog_promotion.py --check
       - run: python scripts/audit_vehicle_temporal_anchor.py --check
+      - run: python scripts/audit_evidence_locators.py --check
       - run: python scripts/migrate_sqlite.py
       - run: python scripts/validate_migration.py
       - name: Assert deterministic migration
