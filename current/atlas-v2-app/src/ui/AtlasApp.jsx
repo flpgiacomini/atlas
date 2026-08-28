@@ -52,6 +52,7 @@ export default function AtlasApp({ initialYear }) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [includeCatalog, setIncludeCatalog] = useState(false);
+  const [catalogIndex, setCatalogIndex] = useState([]);
   const [searchIndex, setSearchIndex] = useState([]);
   const [selectedEntity, setSelectedEntity] = useState(null);
   const [entityLayer, setEntityLayer] = useState("Síntese");
@@ -60,9 +61,10 @@ export default function AtlasApp({ initialYear }) {
 
   const story = useMemo(() => annualChapters.length || journeys.length ? storyForYear(year, annualChapters, journeys) : FALLBACK, [year, annualChapters, journeys]);
   const mapMedia = story.media?.find((item) => item.mediaType === "map");
-  const matches = useMemo(() => matchEntities(searchIndex, query, year), [searchIndex, query, year]);
+  const corpus = useMemo(() => (includeCatalog ? [...searchIndex, ...catalogIndex] : searchIndex), [searchIndex, catalogIndex, includeCatalog]);
+  const matches = useMemo(() => matchEntities(corpus, query, year), [corpus, query, year]);
   const catalogMatches = useMemo(() => matches.filter(isCatalogOnly).length, [matches]);
-  const results = useMemo(() => (includeCatalog ? matches : matches.filter((item) => !isCatalogOnly(item))).slice(0, 18), [matches, includeCatalog]);
+  const results = useMemo(() => matches.slice(0, 18), [matches]);
 
   const setYear = (next, { history = "push" } = {}) => {
     const safe = Math.max(1769, Math.min(2026, Number(next)));
@@ -108,6 +110,13 @@ export default function AtlasApp({ initialYear }) {
   }, [searchOpen, searchIndex.length, annualChapters]);
 
   useEffect(() => {
+    // Catalogued identities left the public index; they stay reachable, but the
+    // reader has to ask for them.
+    if (!includeCatalog || catalogIndex.length) return;
+    loadBundle("catalog.json").then((doc) => setCatalogIndex(doc.items)).catch(() => setCatalogIndex([]));
+  }, [includeCatalog, catalogIndex.length]);
+
+  useEffect(() => {
     if (searchOpen) searchInput.current?.focus();
   }, [searchOpen]);
 
@@ -139,7 +148,7 @@ export default function AtlasApp({ initialYear }) {
       <article className="story-copy" aria-live="polite"><p className="story-year">{year}</p><div className="ornament" /><p className="eyebrow">{story.eyebrow}</p><h1>{story.title}</h1><p className="dek">{story.copy}</p><div className="story-actions"><button className="primary" onClick={() => { setLayer("Narrativa"); setChapterOpen(true); }}>ABRIR CAPÍTULO {year}</button><button className="secondary" onClick={() => setMode("Mapa/Globo")}>VER NO MAPA HISTÓRICO</button></div></article>
       <div className="map-switch" aria-label="Tipo de visualização geográfica">{["Mapa", "Globo"].map((item) => <button key={item} className={mapKind === item ? "active" : ""} onClick={() => { setMapKind(item); setMode("Mapa/Globo"); }}>{item.toUpperCase()}</button>)}</div>
       {mode !== "História" && <aside className="mode-context"><SpecializedView mode={mode} year={year} modeItems={modeItems} periodItems={periodItems} brandMilestones={brandMilestones} brandRelations={brandRelations} story={story} mapKind={mapKind} geographyFeatures={geographyFeatures} /></aside>}
-      <div className={`data-state ${loadState}`}>{loadState === "ready" ? `${manifest?.entityCount || 0} entidades · ${periodItems.length} no período` : loadState === "error" ? "Falha ao carregar o acervo" : "Carregando acervo"}</div>
+      <div className={`data-state ${loadState}`}>{loadState === "ready" ? `${manifest?.publishedCount || 0} entidades publicadas · ${periodItems.length} no período` : loadState === "error" ? "Falha ao carregar o acervo" : "Carregando acervo"}</div>
     </section>
 
     <section className="timeline-panel" aria-label="Linha do tempo de 1769 a 2026" style={{ "--progress": `${((year - 1769) / 257) * 100}%` }}><div className="century-scale" aria-hidden="true"><span>1769</span><span>1850</span><span>1900</span><span>1950</span><span>2000</span><span>2026</span></div><input aria-label="Selecionar ano" type="range" min="1769" max="2026" value={year} onChange={(event) => setYear(event.target.value, { history: "replace" })} /><output>{year}</output><div className="milestone-row">{milestones.map((item) => <button key={`${item.year}-${item.label}`} className={Math.abs(item.year - year) < 2 ? "active" : ""} onClick={() => setYear(item.year)}><strong>{item.year}</strong><span>{item.label}</span></button>)}</div></section>
@@ -148,7 +157,7 @@ export default function AtlasApp({ initialYear }) {
 
     {discoverOpen && <div className="modal-backdrop" role="presentation"><section className="discover-panel" role="dialog" aria-modal="true" aria-label="Central de descoberta"><button className="close" onClick={() => setDiscoverOpen(false)}>FECHAR</button><p className="modal-kicker">SEIS PERCURSOS CANÔNICOS</p><h2>Onde a história começa?</h2><div className="journey-list">{journeys.map((item) => <button key={item.entity} onClick={() => { setYear(item.year); setDiscoverOpen(false); }}><span>{item.year}</span><strong>{item.label}</strong><small>{item.eyebrow} · {item.record?.claimCount || 0} claims</small></button>)}</div></section></div>}
 
-    {searchOpen && <div className="modal-backdrop search-backdrop" role="presentation"><section className="search-panel" role="dialog" aria-modal="true" aria-label="Central de busca"><button className="close" onClick={() => setSearchOpen(false)}>FECHAR</button><p className="modal-kicker">DESCOBERTA GLOBAL · CONHECIMENTO ATÉ {year}</p><h2>O que você procura?</h2><input ref={searchInput} type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Marcas, veículos, lugares, tecnologias…" aria-label="Buscar no Atlas" /><div className="search-filter"><label><input type="checkbox" checked={includeCatalog} onChange={(event) => setIncludeCatalog(event.target.checked)} />Incluir identidades apenas catalogadas</label>{query && <span>{matches.length - catalogMatches} com trabalho editorial · {catalogMatches} apenas catalogadas</span>}</div><div className="search-results" aria-live="polite">{query && !results.length ? <p>{catalogMatches ? `Nenhuma entidade editorial corresponde neste recorte. ${catalogMatches} identidade(s) apenas catalogada(s) correspondem — marque a opção acima para vê-las.` : "Nenhum resultado neste recorte temporal."}</p> : results.map((item) => <button key={item.id} onClick={() => { setSelectedEntity(item); setEntityLayer("Síntese"); setSearchOpen(false); }}><span>{item.yearStart || "s/d"}</span><strong>{item.name}</strong><small><LevelTag item={item} />{item.type} · {assertionCount(item)} afirmações · {item.region}</small></button>)}</div></section></div>}
+    {searchOpen && <div className="modal-backdrop search-backdrop" role="presentation"><section className="search-panel" role="dialog" aria-modal="true" aria-label="Central de busca"><button className="close" onClick={() => setSearchOpen(false)}>FECHAR</button><p className="modal-kicker">DESCOBERTA GLOBAL · CONHECIMENTO ATÉ {year}</p><h2>O que você procura?</h2><input ref={searchInput} type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Marcas, veículos, lugares, tecnologias…" aria-label="Buscar no Atlas" /><div className="search-filter"><label><input type="checkbox" checked={includeCatalog} onChange={(event) => setIncludeCatalog(event.target.checked)} />Incluir as {manifest?.catalogCount || 0} identidades apenas catalogadas</label>{query && <span>{matches.length - catalogMatches} com trabalho editorial{includeCatalog ? ` · ${catalogMatches} apenas catalogadas` : ""}</span>}</div><div className="search-results" aria-live="polite">{query && !results.length ? <p>{includeCatalog ? "Nenhum resultado neste recorte temporal." : "Nenhuma entidade publicada corresponde neste recorte. Marque a opção acima para buscar também nas identidades apenas catalogadas."}</p> : results.map((item) => <button key={item.id} onClick={() => { setSelectedEntity(item); setEntityLayer("Síntese"); setSearchOpen(false); }}><span>{item.yearStart || "s/d"}</span><strong>{item.name}</strong><small><LevelTag item={item} />{item.type} · {assertionCount(item)} afirmações · {item.region}</small></button>)}</div></section></div>}
 
     {selectedEntity && <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setSelectedEntity(null)}><article className="entity-modal" role="dialog" aria-modal="true" aria-labelledby="entity-title"><button className="close" onClick={() => setSelectedEntity(null)} aria-label="Fechar entidade">FECHAR</button><p className="modal-kicker"><LevelTag item={selectedEntity} />{selectedEntity.type} · {selectedEntity.region}</p><h2 id="entity-title">{selectedEntity.name}</h2><div className="chapter-tabs">{["Síntese", "Cronologia", "Evidência"].map((item) => <button key={item} className={entityLayer === item ? "active" : ""} onClick={() => setEntityLayer(item)}>{item.toUpperCase()}</button>)}</div>{entityLayer === "Síntese" && <div className="chapter-body"><p>{selectedEntity.description || "Identidade preservada no catálogo; nenhuma síntese adicional foi publicada."}</p><blockquote>{selectedEntity.yearStart ? `Conhecida no Atlas desde ${selectedEntity.yearStart}.` : "Cronologia ainda não afirmada pelas fontes canônicas."}</blockquote></div>}{entityLayer === "Cronologia" && <div className="chapter-body"><p><strong>Início:</strong> {selectedEntity.yearStart || "não documentado"}<br /><strong>Fim:</strong> {selectedEntity.yearEnd || "não documentado"}</p><p>Datas ausentes não são inferidas a partir do nome, do catálogo ou de relações externas.</p></div>}{entityLayer === "Evidência" && <div className="chapter-body"><p><strong>{assertionCount(selectedEntity)} afirmações</strong><br /><strong>{selectedEntity.claimCount || 0} apoios de fonte</strong><br /><strong>{selectedEntity.sourceCount || 0} fontes conectadas</strong></p><p>{EVIDENCE_NOTE[evidenceState(selectedEntity)]}</p></div>}</article></div>}
   </main>;

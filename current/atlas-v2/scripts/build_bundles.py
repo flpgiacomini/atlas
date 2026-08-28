@@ -130,12 +130,18 @@ def build(output: Path) -> dict:
         for source in entity.get("sources", []):
             source_by_id.setdefault(source["id"], source)
 
+    # Decisão 2: uma identidade preservada pelo censo não é conhecimento
+    # publicado. O catálogo permanece no acervo, num bundle próprio carregado sob
+    # demanda, e volta ao índice quando alcançar a barra de promoção.
+    published = [item for item in summaries if item["editorialLevel"] != "catalog"]
+    catalogued = [item for item in summaries if item["editorialLevel"] == "catalog"]
+
     categories: dict[str, list[dict]] = defaultdict(list)
     periods: dict[str, list[dict]] = defaultdict(list)
     regions: dict[str, list[dict]] = defaultdict(list)
     for name, _, _ in PERIODS:
         periods[name] = []
-    for item in summaries:
+    for item in published:
         categories[slug(item["type"])].append(item)
         periods[period_for(item["yearStart"])].append(item)
         regions[slug(item["region"])].append(item)
@@ -215,12 +221,15 @@ def build(output: Path) -> dict:
     dump(temp / "geography.json", geography)
     files.append({"path": "geography.json", "kind": "geography", "key": "temporal-features", "count": len(geography_features)})
 
-    dump(temp / "index.json", {"version": "2.0.0", "count": len(summaries), "items": summaries})
-    files.append({"path": "index.json", "kind": "index", "key": "entities", "count": len(summaries)})
+    dump(temp / "index.json", {"version": "2.0.0", "count": len(published), "items": published})
+    files.append({"path": "index.json", "kind": "index", "key": "entities", "count": len(published)})
+    dump(temp / "catalog.json", {"version": "2.0.0", "count": len(catalogued), "items": catalogued})
+    files.append({"path": "catalog.json", "kind": "catalog", "key": "identities", "count": len(catalogued)})
     for item in files:
         item["sha256"] = hashlib.sha256((temp / item["path"]).read_bytes()).hexdigest()
     manifest = {
-        "version": "2.0.0", "entityCount": len(summaries), "files": files,
+        "version": "2.0.0", "entityCount": len(summaries),
+        "publishedCount": len(published), "catalogCount": len(catalogued), "files": files,
         "periods": [{"id": name, "from": start, "until": end} for name, start, end in PERIODS],
         "sourceMigrationSha256": hashlib.sha256((MIGRATION / "checksums.json").read_bytes()).hexdigest(),
     }
@@ -228,7 +237,8 @@ def build(output: Path) -> dict:
     if output.exists():
         shutil.rmtree(output)
     temp.replace(output)
-    return {"status": "PASS", "entities": len(summaries), "bundles": len(files), "journeys": len(journey_items)}
+    return {"status": "PASS", "entities": len(summaries), "published": len(published),
+            "catalog": len(catalogued), "bundles": len(files), "journeys": len(journey_items)}
 
 
 def main() -> None:

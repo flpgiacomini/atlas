@@ -22,9 +22,17 @@ def validate(root: Path) -> dict:
     journeys = load(root / "journeys.json")
     annual = load(root / "annual-chapters.json")
     geography = load(root / "geography.json")
-    if manifest["entityCount"] != index["count"] or index["count"] < 920:
-        raise ValueError("entity index does not cover the migrated corpus")
-    ids = [item["id"] for item in index["items"]]
+    catalog = load(root / "catalog.json")
+    # The public index carries editorial entities only; catalogued identities
+    # live beside it. Together they must still account for the whole corpus —
+    # the split may hide an identity from discovery, never lose it.
+    if manifest["entityCount"] != index["count"] + catalog["count"]:
+        raise ValueError("index and catalog do not add up to the entity count")
+    if index["count"] + catalog["count"] < 920:
+        raise ValueError("entity bundles do not cover the migrated corpus")
+    if any(item["editorialLevel"] == "catalog" for item in index["items"]):
+        raise ValueError("catalogued identity leaked into the public index")
+    ids = [item["id"] for item in index["items"] + catalog["items"]]
     if len(ids) != len(set(ids)):
         raise ValueError("duplicate entity in index")
     for item in manifest["files"]:
