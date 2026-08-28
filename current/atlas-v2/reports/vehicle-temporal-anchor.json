@@ -1,0 +1,821 @@
+{
+  "anchorHeldInDiscardedDocument": [
+    {
+      "id": "atlas:vehicle:benz-patent-motor-car",
+      "name": "Benz Patent Motor Car",
+      "yearsInDiscardedDocument": [
+        1885,
+        1886,
+        1888
+      ]
+    },
+    {
+      "id": "atlas:vehicle:porsche-911",
+      "name": "Porsche 911",
+      "yearsInDiscardedDocument": [
+        1963,
+        1964
+      ]
+    },
+    {
+      "id": "atlas:vehicle:porsche-917",
+      "name": "Porsche 917",
+      "yearsInDiscardedDocument": [
+        1969
+      ]
+    },
+    {
+      "id": "atlas:vehicle:volvo-pv544",
+      "name": "Volvo PV544",
+      "yearsInDiscardedDocument": [
+        1958,
+        1959,
+        1965
+      ]
+    }
+  ],
+  "baseline": {
+    "anchoredVehiclesFloor": 8
+  },
+  "errors": [],
+  "queue": [
+    {
+      "assertedYears": [],
+      "claimCount": 0,
+      "id": "atlas:vehicle:alfa-romeo-1900",
+      "name": "Alfa Romeo 1900",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:alfa-romeo-bat-5",
+      "name": "Alfa Romeo BAT 5",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:alfa-romeo-bat-7",
+      "name": "Alfa Romeo BAT 7",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:alfa-romeo-bat-9",
+      "name": "Alfa Romeo BAT 9",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:audi-quattro",
+      "name": "Audi quattro",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:benz-patent-motor-car",
+      "name": "Benz Patent Motor Car",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:benz-patent-motor-car-model-1",
+      "name": "Benz Patent Motor Car Model 1",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:benz-velo",
+      "name": "Benz Velo",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        2018
+      ],
+      "claimCount": 2,
+      "id": "atlas:vehicle:bmw-3-series",
+      "name": "BMW 3 Series",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:bugatti-eb110",
+      "name": "Bugatti EB110",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        2005
+      ],
+      "claimCount": 2,
+      "id": "atlas:vehicle:bugatti-veyron-16-4",
+      "name": "Bugatti Veyron 16.4",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:buick-y-job",
+      "name": "Buick Y-Job",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:byd-f3dm",
+      "name": "BYD F3DM",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:cadillac-cyclone",
+      "name": "Cadillac Cyclone",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:cadillac-model-k",
+      "name": "Cadillac Model K",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:cadillac-runabout-1903",
+      "name": "Cadillac Runabout (1903)",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:chevrolet-corvair-monza-gt",
+      "name": "Chevrolet Corvair Monza GT",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:citroen-traction-avant",
+      "name": "Citroën Traction Avant",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:classic-mini",
+      "name": "Classic Mini",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:daimler-4-hp-truck-1896",
+      "name": "Daimler 4 hp truck (1896)",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:daimler-marienfelde-dc-truck-bus-series",
+      "name": "Daimler Marienfelde DC truck/bus series",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:daimler-motorized-carriage-1886",
+      "name": "Daimler Motorized Carriage (1886)",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:ferrari-125-s",
+      "name": "Ferrari 125 S",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:fiat-312-hp",
+      "name": "FIAT 3½ HP",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:ford-model-a-1903",
+      "name": "Ford Model A (1903)",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:ford-model-n",
+      "name": "Ford Model N",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        1910
+      ],
+      "claimCount": 5,
+      "id": "atlas:vehicle:ford-model-t",
+      "name": "Ford Model T",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:ford-mustang",
+      "name": "Ford Mustang",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:ford-quadricycle",
+      "name": "Ford Quadricycle",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:general-motors-firebird-i",
+      "name": "General Motors Firebird I",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:general-motors-firebird-ii",
+      "name": "General Motors Firebird II",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:general-motors-firebird-iii",
+      "name": "General Motors Firebird III",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:general-motors-le-sabre",
+      "name": "General Motors Le Sabre",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 6,
+      "id": "atlas:vehicle:gurgel-br-800",
+      "name": "Gurgel BR-800",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:gurgel-supermini",
+      "name": "Gurgel Supermini",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:holden-48-215",
+      "name": "Holden 48-215",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 0,
+      "id": "atlas:vehicle:holden-48-215-prototype-programme",
+      "name": "Holden 48-215 prototype programme",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:honda-n360",
+      "name": "Honda N360",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:honda-n360-at",
+      "name": "Honda N360 AT",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:hongqi-ca72",
+      "name": "Hongqi CA72",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:hyundai-pony",
+      "name": "Hyundai Pony",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 5,
+      "id": "atlas:vehicle:lamborghini-miura",
+      "name": "Lamborghini Miura",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:lancia-12-hp",
+      "name": "Lancia 12 HP",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        1948
+      ],
+      "claimCount": 2,
+      "id": "atlas:vehicle:land-rover-series-i",
+      "name": "Land Rover Series I",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 5,
+      "id": "atlas:vehicle:lincoln-futura",
+      "name": "Lincoln Futura",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:mazda-cosmo-sport-110s",
+      "name": "Mazda Cosmo Sport / 110S",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:mclaren-f1",
+      "name": "McLaren F1",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:mercedes-28-95-hp",
+      "name": "Mercedes 28/95 hp",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:mercedes-35-hp",
+      "name": "Mercedes 35 hp",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:nissan-leaf-first-generation",
+      "name": "Nissan LEAF — First Generation",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:oldsmobile-curved-dash",
+      "name": "Oldsmobile Curved Dash",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:panhard-levassor-type-m2e",
+      "name": "Panhard-Levassor Type M2E",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
+      "name": "Panhard race car — 1904 Vanderbilt Cup",
+      "needsIndependentSource": false,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:peugeot-type-1",
+      "name": "Peugeot Type 1",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:peugeot-type-2",
+      "name": "Peugeot Type 2",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:peugeot-type-3",
+      "name": "Peugeot Type 3",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:porsche-356",
+      "name": "Porsche 356",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 7,
+      "id": "atlas:vehicle:porsche-911",
+      "name": "Porsche 911",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:porsche-911-g-series",
+      "name": "Porsche 911 G-Series",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:porsche-911-original",
+      "name": "Porsche 911 Original",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:porsche-911-targa-original-generation",
+      "name": "Porsche 911 Targa (original generation)",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:porsche-911-turbo-g-series-type-930",
+      "name": "Porsche 911 Turbo (G-Series / Type 930)",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:porsche-911-type-964",
+      "name": "Porsche 911 Type 964",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:porsche-911-type-991",
+      "name": "Porsche 911 Type 991",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:porsche-911-type-992",
+      "name": "Porsche 911 Type 992",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:porsche-911-type-993",
+      "name": "Porsche 911 Type 993",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 6,
+      "id": "atlas:vehicle:porsche-911-type-996",
+      "name": "Porsche 911 Type 996",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:porsche-911-type-997",
+      "name": "Porsche 911 Type 997",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 5,
+      "id": "atlas:vehicle:porsche-917",
+      "name": "Porsche 917",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:porsche-917-10",
+      "name": "Porsche 917/10",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:porsche-917-30",
+      "name": "Porsche 917/30",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:porsche-917-k",
+      "name": "Porsche 917 K",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:porsche-917-lh",
+      "name": "Porsche 917 LH",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:porsche-type-754-t7",
+      "name": "Porsche Type 754 T7",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 5,
+      "id": "atlas:vehicle:renault-espace-first-generation",
+      "name": "Renault Espace — First Generation",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:renault-type-a",
+      "name": "Renault Type A",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:renault-type-ag1-taxi",
+      "name": "Renault Type AG1 taxi",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:renault-type-ak-grand-prix",
+      "name": "Renault Type AK Grand Prix",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:rolls-royce-10-h-p",
+      "name": "Rolls-Royce 10 H.P.",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:rolls-royce-40-50-h-p",
+      "name": "Rolls-Royce 40/50 H.P.",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 1,
+      "id": "atlas:vehicle:royce-10-h-p",
+      "name": "Royce 10 H.P.",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 6,
+      "id": "atlas:vehicle:skoda-1000-mb",
+      "name": "ŠKODA 1000 MB",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 4,
+      "id": "atlas:vehicle:subaru-brz",
+      "name": "Subaru BRZ",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        2010
+      ],
+      "claimCount": 3,
+      "id": "atlas:vehicle:tata-nano",
+      "name": "Tata Nano",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:tesla-roadster-first-generation",
+      "name": "Tesla Roadster — First Generation",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:toyoda-model-aa",
+      "name": "Toyoda Model AA",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 5,
+      "id": "atlas:vehicle:toyota-86",
+      "name": "Toyota 86",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:toyota-jeep-bj-land-cruiser-bj",
+      "name": "Toyota Jeep BJ / Land Cruiser BJ",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 2,
+      "id": "atlas:vehicle:toyota-mirai-first-generation",
+      "name": "Toyota Mirai — First Generation",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 0,
+      "id": "atlas:vehicle:toyota-prius-concept-1995",
+      "name": "Toyota Prius Concept (1995)",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:toyota-prius-first-generation",
+      "name": "Toyota Prius — First Generation",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        1945
+      ],
+      "claimCount": 2,
+      "id": "atlas:vehicle:volkswagen-beetle-type-1",
+      "name": "Volkswagen Beetle / Type 1",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [
+        1974
+      ],
+      "claimCount": 5,
+      "id": "atlas:vehicle:volkswagen-golf-first-generation",
+      "name": "Volkswagen Golf — First Generation",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
+    },
+    {
+      "assertedYears": [],
+      "claimCount": 3,
+      "id": "atlas:vehicle:volvo-pv544",
+      "name": "Volvo PV544",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": true
+    }
+  ],
+  "reportSha256": "44737b8c932bd718d0da4bb835b8e0bd11a10bbdd9175f54bd3403d417ad7041",
+  "status": "PASS",
+  "summary": {
+    "anchorHeldInDiscardedDocument": 4,
+    "anchoredVehicles": 8,
+    "editorialVehicles": 102,
+    "needingBoth": 75,
+    "needingIndependentSource": 82,
+    "needingTemporalAnchor": 87,
+    "queuedVehicles": 94
+  },
+  "version": "1.0.0"
+}

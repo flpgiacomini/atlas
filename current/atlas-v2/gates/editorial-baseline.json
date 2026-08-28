@@ -1,0 +1,11 @@
+{
+  "maximums": {
+    "dependentOnlyEntities": 187,
+    "editorialBelowBar": 330
+  },
+  "minimums": {
+    "anchoredVehicles": 8,
+    "independentEntities": 114
+  },
+  "version": "1.0.0"
+}
