@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "sync:data": "node scripts/sync-content.mjs",
+    "gates:promote": "node scripts/validate-cp20.mjs --promote",
     "predev": "npm run sync:data",
     "dev": "astro dev",
     "prebuild": "npm run sync:data",

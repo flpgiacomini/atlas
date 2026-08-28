@@ -1,0 +1,23 @@
+{
+  "note": "Pisos do que já foi publicado. Os gates exigem >= estes valores, nunca igualdade: o Atlas está em manutenção editorial contínua, então crescer é esperado e encolher é o defeito. Promova conscientemente com `npm run gates:promote` depois de um build verde.",
+  "release": "2.0.0",
+  "recordedAt": "2026-08-25",
+  "minimums": {
+    "geographyFeatures": 97,
+    "c18AuditedDecisions": 522,
+    "journeys": 6,
+    "yearRoutes": 258
+  },
+  "budgets": {
+    "initialJsBytes": 400000
+  },
+  "anchorYears": [1769, 1886, 1908, 1955, 1958, 1963, 1969, 1997, 2026],
+  "specializedViewMarkers": [
+    "MAPA LOCAL",
+    "GLOBO LOCAL",
+    "RIO GENEALÓGICO",
+    "LINHAGENS DE VEÍCULOS",
+    "TEMPORADAS E SÉRIES",
+    "FLUXOS DE DIFUSÃO"
+  ]
+}
