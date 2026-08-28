@@ -221,6 +221,13 @@ def build(output: Path) -> dict:
     dump(temp / "geography.json", geography)
     files.append({"path": "geography.json", "kind": "geography", "key": "temporal-features", "count": len(geography_features)})
 
+    # Chão cartográfico local. O produto é static-first e não consulta serviço de
+    # tiles em runtime (D-020, D-028); sem um basemap empacotado, as geometrias
+    # temporais eram desenhadas sobre um retângulo colorido.
+    basemap = load(ROOT / "content/basemap/land-110m.geojson")
+    dump(temp / "basemap.json", basemap)
+    files.append({"path": "basemap.json", "kind": "basemap", "key": "land-110m", "count": basemap["count"]})
+
     dump(temp / "index.json", {"version": "2.0.0", "count": len(published), "items": published})
     files.append({"path": "index.json", "kind": "index", "key": "entities", "count": len(published)})
     dump(temp / "catalog.json", {"version": "2.0.0", "count": len(catalogued), "items": catalogued})

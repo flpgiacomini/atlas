@@ -69,7 +69,7 @@ a { color: #9b302b; }
 .geo-orbit span { position: absolute; right: 10px; bottom: 8px; font-size: 9px; letter-spacing: .16em; color: #ccc7ba; }
 .spatial-canvas { position: relative; height: 290px; margin-top: 14px; overflow: hidden; border: 1px solid #4d4a42; background: #101510; }
 .maplibre-canvas, .cesium-canvas { position: absolute; inset: 0; }
-.maplibre-canvas { background-color: #101510; background-image: linear-gradient(#d9a45f12 1px, transparent 1px), linear-gradient(90deg, #d9a45f12 1px, transparent 1px), radial-gradient(ellipse at 52% 48%, #314337 0 18%, transparent 19%), radial-gradient(ellipse at 28% 42%, #26372e 0 15%, transparent 16%); background-size: 40px 40px, 40px 40px, 100% 100%, 100% 100%; }
+.maplibre-canvas { background-color: #0d1b26; }
 .geographic-overlay { position: absolute; z-index: 2; inset: 14px; width: calc(100% - 28px); height: calc(100% - 28px); pointer-events: none; }
 .geographic-overlay polyline { fill: none; stroke: #d9a45f; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; filter: drop-shadow(0 0 5px #d9a45f88); }
 .geographic-overlay circle { fill: #d23630; stroke: #f4e5c8; stroke-width: 1.5; filter: drop-shadow(0 0 5px #d23630aa); }

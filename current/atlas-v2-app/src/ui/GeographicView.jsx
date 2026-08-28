@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { publicUrl } from "../lib/atlas-data.js";
+import { loadBundle, publicUrl } from "../lib/atlas-data.js";
 
 let cesiumPromise;
 function loadCesium() {
@@ -31,9 +31,12 @@ function yearOf(value, fallback) {
   return match ? Number(match[0]) : fallback;
 }
 
+// Cumulative, like every other projection in the Atlas: the map shows the
+// geography known up to the selected year. Filtering to geometries valid *in*
+// that exact year left 109 of the 258 years with nothing at all on screen, and
+// left almost nothing to connect in the years that had anything.
 function visibleAt(feature, year) {
-  const validity = feature.properties?.validity || {};
-  return yearOf(validity.from, 1769) <= year && year <= yearOf(validity.until, 2026);
+  return yearOf(feature.properties?.validity?.from, 1769) <= year;
 }
 
 function coordinatePairs(geometry) {
@@ -74,7 +77,7 @@ function MapCanvas({ collection }) {
   const [state, setState] = useState("loading");
   useEffect(() => {
     let cancelled = false;
-    import("maplibre-gl").then((module) => {
+    Promise.all([import("maplibre-gl"), loadBundle("basemap.json")]).then(([module, basemap]) => {
       const maplibregl = module.default || module;
       if (cancelled || !element.current) return;
       const instance = new maplibregl.Map({
@@ -85,6 +88,9 @@ function MapCanvas({ collection }) {
       map.current = instance;
       instance.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
       instance.on("load", () => {
+        instance.addSource("land", { type: "geojson", data: basemap });
+        instance.addLayer({ id: "land-fill", type: "fill", source: "land", paint: { "fill-color": "#243329", "fill-outline-color": "#41573f" } });
+        instance.addLayer({ id: "land-edge", type: "line", source: "land", paint: { "line-color": "#5d7a5c", "line-width": .7 } });
         instance.addSource("atlas", { type: "geojson", data: collection });
         instance.addLayer({ id: "atlas-lines", type: "line", source: "atlas", filter: ["==", "$type", "LineString"], paint: { "line-color": "#d9a45f", "line-width": 3, "line-opacity": .85 } });
         instance.addLayer({ id: "atlas-points", type: "circle", source: "atlas", filter: ["==", "$type", "Point"], paint: { "circle-radius": 6, "circle-color": "#d23630", "circle-stroke-color": "#f4e5c8", "circle-stroke-width": 1.5 } });
@@ -108,7 +114,7 @@ function GlobeCanvas({ collection }) {
   const [state, setState] = useState("loading");
   useEffect(() => {
     let cancelled = false;
-    loadCesium().then((Cesium) => {
+    Promise.all([loadCesium(), loadBundle("basemap.json")]).then(([Cesium, basemap]) => {
       if (cancelled || !element.current) return;
       const instance = new Cesium.Viewer(element.current, {
         animation: false, timeline: false, baseLayerPicker: false, geocoder: false,
@@ -118,7 +124,12 @@ function GlobeCanvas({ collection }) {
       });
       viewer.current = instance;
       instance.scene.backgroundColor = Cesium.Color.fromCssColorString("#080b08");
-      instance.scene.globe.baseColor = Cesium.Color.fromCssColorString("#1d2922");
+      instance.scene.globe.baseColor = Cesium.Color.fromCssColorString("#0d1b26");
+      Cesium.GeoJsonDataSource.load(basemap, {
+        fill: Cesium.Color.fromCssColorString("#243329"),
+        stroke: Cesium.Color.fromCssColorString("#5d7a5c"),
+        strokeWidth: 1,
+      }).then((land) => { if (!instance.isDestroyed()) instance.dataSources.add(land); });
       for (const feature of collection.features) {
         const pairs = coordinatePairs(feature.geometry);
         const label = feature.properties?.label || feature.properties?.purpose || "Registro espacial";
