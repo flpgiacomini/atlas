@@ -1,17 +1,17 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 187,
-    "independentFloor": 114
+    "dependentOnlyCeiling": 186,
+    "independentFloor": 115
   },
   "citationsBySourceType": {
     "archive": 12,
     "government": 25,
     "industry_association": 1,
     "institutional": 85,
-    "manufacturer": 420,
+    "manufacturer": 444,
     "manufacturer_archive": 125,
     "manufacturer_regional": 3,
-    "museum": 74,
+    "museum": 76,
     "museum_catalogue": 3,
     "museum_collection": 3,
     "organization": 37,
@@ -148,7 +148,6 @@
     "atlas:vehicle:daimler-motorized-carriage-1886",
     "atlas:vehicle:ferrari-125-s",
     "atlas:vehicle:fiat-312-hp",
-    "atlas:vehicle:ford-model-t",
     "atlas:vehicle:ford-mustang",
     "atlas:vehicle:general-motors-firebird-i",
     "atlas:vehicle:general-motors-firebird-ii",
@@ -209,14 +208,14 @@
     "atlas:vehicle:volvo-pv544"
   ],
   "errors": [],
-  "reportSha256": "267a2b5730accb7981a80ceb34c0e178c54c4da58ef4f5417432eed1dc458f8d",
+  "reportSha256": "94003f25e345dbb28f27c18be858a0cec0e2d34f514f7a548769496676f7ae59",
   "status": "PASS",
   "summary": {
-    "citations": 836,
-    "dependentCitations": 549,
-    "dependentOnlyEntities": 187,
+    "citations": 862,
+    "dependentCitations": 573,
+    "dependentOnlyEntities": 186,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 114,
+    "independentEntities": 115,
     "sourcesClassified": 735,
     "sourcesUnclassified": 0
   },

@@ -1,41 +1,7 @@
 {
-  "anchorHeldInDiscardedDocument": [
-    {
-      "id": "atlas:vehicle:benz-patent-motor-car",
-      "name": "Benz Patent Motor Car",
-      "yearsInDiscardedDocument": [
-        1885,
-        1886,
-        1888
-      ]
-    },
-    {
-      "id": "atlas:vehicle:porsche-911",
-      "name": "Porsche 911",
-      "yearsInDiscardedDocument": [
-        1963,
-        1964
-      ]
-    },
-    {
-      "id": "atlas:vehicle:porsche-917",
-      "name": "Porsche 917",
-      "yearsInDiscardedDocument": [
-        1969
-      ]
-    },
-    {
-      "id": "atlas:vehicle:volvo-pv544",
-      "name": "Volvo PV544",
-      "yearsInDiscardedDocument": [
-        1958,
-        1959,
-        1965
-      ]
-    }
-  ],
+  "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 8
+    "anchoredVehiclesFloor": 10
   },
   "errors": [],
   "queue": [
@@ -77,14 +43,6 @@
       "id": "atlas:vehicle:audi-quattro",
       "name": "Audi quattro",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 2,
-      "id": "atlas:vehicle:benz-patent-motor-car",
-      "name": "Benz Patent Motor Car",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -250,16 +208,6 @@
       "name": "Ford Model N",
       "needsIndependentSource": false,
       "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [
-        1910
-      ],
-      "claimCount": 5,
-      "id": "atlas:vehicle:ford-model-t",
-      "name": "Ford Model T",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": false
     },
     {
       "assertedYears": [],
@@ -504,12 +452,15 @@
       "needsTemporalAnchor": true
     },
     {
-      "assertedYears": [],
-      "claimCount": 7,
+      "assertedYears": [
+        1963,
+        1964
+      ],
+      "claimCount": 12,
       "id": "atlas:vehicle:porsche-911",
       "name": "Porsche 911",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
+      "needsTemporalAnchor": false
     },
     {
       "assertedYears": [],
@@ -592,12 +543,14 @@
       "needsTemporalAnchor": true
     },
     {
-      "assertedYears": [],
-      "claimCount": 5,
+      "assertedYears": [
+        1969
+      ],
+      "claimCount": 9,
       "id": "atlas:vehicle:porsche-917",
       "name": "Porsche 917",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
+      "needsTemporalAnchor": false
     },
     {
       "assertedYears": [],
@@ -798,24 +751,28 @@
       "needsTemporalAnchor": false
     },
     {
-      "assertedYears": [],
-      "claimCount": 3,
+      "assertedYears": [
+        1958,
+        1959,
+        1965
+      ],
+      "claimCount": 9,
       "id": "atlas:vehicle:volvo-pv544",
       "name": "Volvo PV544",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
+      "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "44737b8c932bd718d0da4bb835b8e0bd11a10bbdd9175f54bd3403d417ad7041",
+  "reportSha256": "b064e9a3b1ad6c60aa26fd774c2e9963e1965fbef9689df9646879b24ec02cbb",
   "status": "PASS",
   "summary": {
-    "anchorHeldInDiscardedDocument": 4,
-    "anchoredVehicles": 8,
+    "anchorHeldInDiscardedDocument": 0,
+    "anchoredVehicles": 10,
     "editorialVehicles": 102,
-    "needingBoth": 75,
-    "needingIndependentSource": 82,
-    "needingTemporalAnchor": 87,
-    "queuedVehicles": 94
+    "needingBoth": 72,
+    "needingIndependentSource": 81,
+    "needingTemporalAnchor": 83,
+    "queuedVehicles": 92
   },
   "version": "1.0.0"
 }

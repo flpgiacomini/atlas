@@ -78,6 +78,25 @@ def period_for(year: int | None) -> str:
     return "undated"
 
 
+
+def merge_entity(migrated: dict, authored: dict) -> dict:
+    """Union two documents describing the same identity.
+
+    Five identities exist in both corpora, and the two halves are complementary:
+    the migrated document carries the relational claims (who engineered it, which
+    component it uses, who manufactured it) while the authored document carries
+    the temporal ones and the per-document sources. Deferring to either side
+    discarded sourced facts — the Porsche 917 lost its engineer and its engine,
+    or else its 1969 dates — so the build keeps both. content/entities is the
+    authority for shared fields; migration-only claims are preserved.
+    """
+    merged = {**migrated, **authored}
+    authored_claims = authored.get("claims") or []
+    known = {claim["id"] for claim in authored_claims}
+    inherited = [claim for claim in migrated.get("claims") or [] if claim["id"] not in known]
+    merged["claims"] = sorted(authored_claims + inherited, key=lambda claim: claim["id"])
+    return merged
+
 def build(output: Path) -> dict:
     temp = output.with_name(output.name + ".tmp")
     if temp.exists():
@@ -87,7 +106,9 @@ def build(output: Path) -> dict:
     by_id = {entity["id"]: entity for entity in migrated}
     for path in sorted((ROOT / "content/entities").glob("*.jsonld")):
         entity = load(path)
-        by_id.setdefault(entity["id"], entity)
+        if existing := by_id.get(entity["id"]):
+            entity = merge_entity(existing, entity)
+        by_id[entity["id"]] = entity
     entities = list(by_id.values())
     summaries = sorted((summary(entity) for entity in entities), key=lambda item: item["id"])
     source_by_id = {source["id"]: source for source in load(MIGRATION / "sources.jsonld")["items"]}

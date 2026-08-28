@@ -48,11 +48,9 @@ def all_documents() -> list[dict]:
 def published_entities() -> list[dict]:
     """The entity set the bundles actually publish.
 
-    Five identities exist in both corpora. build_bundles.py resolves the
-    collision with setdefault over the migrated documents, so the migration
-    document wins and the enriched content document is discarded. The audit
-    mirrors that precedence deliberately: a gate has to measure what ships, not
-    what sits on disk.
+    Five identities exist in both corpora. content/entities is the authority and
+    wins, matching build_bundles.py and audit_c18_semantics.py: a gate has to
+    measure what ships, not what sits on disk.
     """
     by_id: dict[str, dict] = {}
     for path in sorted((ROOT / "migration/entities").glob("*.jsonld")):
@@ -60,7 +58,9 @@ def published_entities() -> list[dict]:
         by_id[document["id"]] = document
     for path in sorted((ROOT / "content/entities").glob("*.jsonld")):
         document = load(path)
-        by_id.setdefault(document["id"], document)
+        if existing := by_id.get(document["id"]):
+            document = merge_entity(existing, document)
+        by_id[document["id"]] = document
     return list(by_id.values())
 
 
@@ -90,6 +90,25 @@ def source_index(documents: list[dict], classification: dict) -> tuple[dict[str,
                 unclassified.append(f'{source["id"]}: publisher {source.get("publisher") or "(ausente)"}')
     return resolved, sorted(set(unclassified))
 
+
+
+def merge_entity(migrated: dict, authored: dict) -> dict:
+    """Union two documents describing the same identity.
+
+    Five identities exist in both corpora, and the two halves are complementary:
+    the migrated document carries the relational claims (who engineered it, which
+    component it uses, who manufactured it) while the authored document carries
+    the temporal ones and the per-document sources. Deferring to either side
+    discarded sourced facts — the Porsche 917 lost its engineer and its engine,
+    or else its 1969 dates — so the build keeps both. content/entities is the
+    authority for shared fields; migration-only claims are preserved.
+    """
+    merged = {**migrated, **authored}
+    authored_claims = authored.get("claims") or []
+    known = {claim["id"] for claim in authored_claims}
+    inherited = [claim for claim in migrated.get("claims") or [] if claim["id"] not in known]
+    merged["claims"] = sorted(authored_claims + inherited, key=lambda claim: claim["id"])
+    return merged
 
 def audit() -> dict:
     classification = load(CLASSIFICATION)

@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 330
+    "editorialBelowBarCeiling": 329
   },
   "belowBar": [
     {
@@ -2968,17 +2968,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 5,
-      "clearsBar": false,
-      "evidencedClaimCount": 5,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:ford-model-t",
-      "independentOnlyByReference": false,
-      "name": "Ford Model T",
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 1,
       "clearsBar": false,
       "evidencedClaimCount": 1,
@@ -3232,9 +3221,9 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 7,
+      "claimCount": 12,
       "clearsBar": false,
-      "evidencedClaimCount": 7,
+      "evidencedClaimCount": 12,
       "hasEvidencedClaim": true,
       "hasIndependentSource": false,
       "id": "atlas:vehicle:porsche-911",
@@ -3353,9 +3342,9 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 5,
+      "claimCount": 9,
       "clearsBar": false,
-      "evidencedClaimCount": 5,
+      "evidencedClaimCount": 9,
       "hasEvidencedClaim": true,
       "hasIndependentSource": false,
       "id": "atlas:vehicle:porsche-917",
@@ -3628,9 +3617,9 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 3,
+      "claimCount": 9,
       "clearsBar": false,
-      "evidencedClaimCount": 3,
+      "evidencedClaimCount": 9,
       "hasEvidencedClaim": true,
       "hasIndependentSource": false,
       "id": "atlas:vehicle:volvo-pv544",
@@ -3652,7 +3641,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 82,
+    "Vehicle": 81,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3691,12 +3680,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "72e978c0e7bf2b8d0da450e6e46606f172b28efef37a2e7af98f5037fb06849d",
+  "reportSha256": "861bd61893310eed0f9f36023c5541a13e7a1ff541795eeba1feb1f600435896",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 330,
+    "editorialBelowBar": 329,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

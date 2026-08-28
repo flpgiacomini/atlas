@@ -49,14 +49,16 @@ def dump(path: Path, value: object) -> None:
 
 
 def published_entities() -> list[dict]:
-    """Mirror build_bundles.py: the migrated document wins a collision."""
+    """Mirror build_bundles.py: content/entities is the authority and wins."""
     by_id: dict[str, dict] = {}
     for path in sorted((ROOT / "migration/entities").glob("*.jsonld")):
         document = load(path)
         by_id[document["id"]] = document
     for path in sorted((ROOT / "content/entities").glob("*.jsonld")):
         document = load(path)
-        by_id.setdefault(document["id"], document)
+        if existing := by_id.get(document["id"]):
+            document = merge_entity(existing, document)
+        by_id[document["id"]] = document
     return list(by_id.values())
 
 
@@ -93,6 +95,25 @@ def evaluate(document: dict, resolved: dict[str, str], dependent: set[str]) -> d
         "clearsBar": bool(evidenced) and bool(independent),
     }
 
+
+
+def merge_entity(migrated: dict, authored: dict) -> dict:
+    """Union two documents describing the same identity.
+
+    Five identities exist in both corpora, and the two halves are complementary:
+    the migrated document carries the relational claims (who engineered it, which
+    component it uses, who manufactured it) while the authored document carries
+    the temporal ones and the per-document sources. Deferring to either side
+    discarded sourced facts — the Porsche 917 lost its engineer and its engine,
+    or else its 1969 dates — so the build keeps both. content/entities is the
+    authority for shared fields; migration-only claims are preserved.
+    """
+    merged = {**migrated, **authored}
+    authored_claims = authored.get("claims") or []
+    known = {claim["id"] for claim in authored_claims}
+    inherited = [claim for claim in migrated.get("claims") or [] if claim["id"] not in known]
+    merged["claims"] = sorted(authored_claims + inherited, key=lambda claim: claim["id"])
+    return merged
 
 def audit() -> dict:
     classification = load(CLASSIFICATION)
