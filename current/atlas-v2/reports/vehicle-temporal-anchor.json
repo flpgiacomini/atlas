@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 13
+    "anchoredVehiclesFloor": 17
   },
   "errors": [],
   "queue": [
@@ -123,14 +123,6 @@
     },
     {
       "assertedYears": [],
-      "claimCount": 1,
-      "id": "atlas:vehicle:cadillac-runabout-1903",
-      "name": "Cadillac Runabout (1903)",
-      "needsIndependentSource": false,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
       "claimCount": 4,
       "id": "atlas:vehicle:chevrolet-corvair-monza-gt",
       "name": "Chevrolet Corvair Monza GT",
@@ -196,14 +188,6 @@
     {
       "assertedYears": [],
       "claimCount": 1,
-      "id": "atlas:vehicle:ford-model-a-1903",
-      "name": "Ford Model A (1903)",
-      "needsIndependentSource": false,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 1,
       "id": "atlas:vehicle:ford-model-n",
       "name": "Ford Model N",
       "needsIndependentSource": false,
@@ -215,14 +199,6 @@
       "id": "atlas:vehicle:ford-mustang",
       "name": "Ford Mustang",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 1,
-      "id": "atlas:vehicle:ford-quadricycle",
-      "name": "Ford Quadricycle",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -393,14 +369,6 @@
       "id": "atlas:vehicle:nissan-leaf-first-generation",
       "name": "Nissan LEAF — First Generation",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 2,
-      "id": "atlas:vehicle:oldsmobile-curved-dash",
-      "name": "Oldsmobile Curved Dash",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -730,16 +698,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "1928f2f2e8be4651ea8b273bf8b28fb6c15a812f6d52786edb34a6bc3e555535",
+  "reportSha256": "bbda8a058d103b59ee93d5f8e0aa2e25df9d9215334a3e87267fb6f7d4e62556",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 13,
+    "anchoredVehicles": 17,
     "editorialVehicles": 102,
     "needingBoth": 72,
     "needingIndependentSource": 78,
-    "needingTemporalAnchor": 83,
-    "queuedVehicles": 89
+    "needingTemporalAnchor": 79,
+    "queuedVehicles": 85
   },
   "version": "1.0.0"
 }

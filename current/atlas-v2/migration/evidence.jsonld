@@ -3530,12 +3530,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "1896 Ford Quadricycle Runabout, First Car Built by Henry Ford",
       "id": "atlas:evidence:legacy-01a0102a57eb7b9e9223ff29eae00e03",
       "legacyId": "01a0102a-57eb-7b9e-9223-ff29eae00e03",
       "locator": {
-        "note": "A5 Chapter I source passage; refine locator during deep research."
+        "inventory_number": "00.2.93",
+        "object_date": "1896",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D04; ficha de acervo conferida na fonte em 2026-08-31.",
       "source": "atlas:source:the-henry-ford-1896-ford-quadricycle-runabout",
       "type": "Evidence"
     },
@@ -3550,22 +3554,29 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "The new company's first product, the Model A, was conventional by the standards of the day",
       "id": "atlas:evidence:legacy-01a0102a57eb7dd4bdc5fd9ebef86668",
       "legacyId": "01a0102a-57eb-7dd4-bdc5-fd9ebef86668",
       "locator": {
-        "note": "A5 Chapter I source passage; refine locator during deep research."
+        "inventory_number": "00.136.137",
+        "object_date": "1903",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D04; ficha de acervo conferida na fonte em 2026-08-31.",
       "source": "atlas:source:the-henry-ford-1903-ford-model-a-runabout",
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "Oldsmobile built more than 19,000 Curved Dash models between 1901 and 1907",
       "id": "atlas:evidence:legacy-01a0102a57ec70eeb2a8f4c1b3c4df83",
       "legacyId": "01a0102a-57ec-70ee-b2a8-f4c1b3c4df83",
       "locator": {
-        "note": "A5 Chapter I source passage; refine locator during deep research."
+        "section": "Man and Woman in Curved-Dash Oldsmobile, 1901",
+        "set": "The Curved Dash Oldsmobile"
       },
+      "notes": "Passagem documental D04; ficha de acervo conferida na fonte em 2026-08-31.",
       "source": "atlas:source:the-henry-ford-the-curved-dash-oldsmobile",
       "type": "Evidence"
     },
@@ -3580,12 +3591,15 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "Oldsmobile built more than 19,000 Curved Dash models between 1901 and 1907",
       "id": "atlas:evidence:legacy-01a0102a57ec74b99981e068fa5d5544",
       "legacyId": "01a0102a-57ec-74b9-9981-e068fa5d5544",
       "locator": {
-        "note": "A5 Chapter I source passage; refine locator during deep research."
+        "section": "Toy Automobile, 1903-1905",
+        "set": "The Curved Dash Oldsmobile"
       },
+      "notes": "Passagem documental D04; ficha de acervo conferida na fonte em 2026-08-31.",
       "source": "atlas:source:the-henry-ford-the-curved-dash-oldsmobile",
       "type": "Evidence"
     },
@@ -3610,12 +3624,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "explicit_statement",
+      "evidenceType": "collection_record",
+      "excerpt": "Henry Leland formed Cadillac Motor Car Company in 1902 from the remains of the Henry Ford Company",
       "id": "atlas:evidence:legacy-01a0102a57ec7bac8ee40fa88a80fcd8",
       "legacyId": "01a0102a-57ec-7bac-8ee4-0fa88a80fcd8",
       "locator": {
-        "note": "A5 Chapter I source passage; refine locator during deep research."
+        "inventory_number": "29.509.1",
+        "object_date": "1903",
+        "section": "Overview"
       },
+      "notes": "Passagem documental D04; ficha de acervo conferida na fonte em 2026-08-31.",
       "source": "atlas:source:the-henry-ford-1903-cadillac-runabout",
       "type": "Evidence"
     },

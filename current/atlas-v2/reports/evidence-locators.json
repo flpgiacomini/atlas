@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 47,
-    "withoutDocumentaryCeiling": 254
+    "documentedFloor": 51,
+    "withoutDocumentaryCeiling": 250
   },
   "errors": [],
   "queue": [
@@ -1644,15 +1644,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 1,
-      "deferredLocators": 1,
-      "id": "atlas:vehicle:cadillac-runabout-1903",
-      "name": "Cadillac Runabout (1903)",
-      "nominalLocators": 0,
-      "statementCount": 1,
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 4,
       "deferredLocators": 0,
       "id": "atlas:vehicle:chevrolet-corvair-monza-gt",
@@ -1736,15 +1727,6 @@
     {
       "claimCount": 1,
       "deferredLocators": 1,
-      "id": "atlas:vehicle:ford-model-a-1903",
-      "name": "Ford Model A (1903)",
-      "nominalLocators": 0,
-      "statementCount": 1,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 1,
-      "deferredLocators": 1,
       "id": "atlas:vehicle:ford-model-n",
       "name": "Ford Model N",
       "nominalLocators": 0,
@@ -1756,15 +1738,6 @@
       "deferredLocators": 1,
       "id": "atlas:vehicle:ford-mustang",
       "name": "Ford Mustang",
-      "nominalLocators": 0,
-      "statementCount": 1,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 1,
-      "deferredLocators": 1,
-      "id": "atlas:vehicle:ford-quadricycle",
-      "name": "Ford Quadricycle",
       "nominalLocators": 0,
       "statementCount": 1,
       "type": "Vehicle"
@@ -1954,15 +1927,6 @@
       "deferredLocators": 3,
       "id": "atlas:vehicle:nissan-leaf-first-generation",
       "name": "Nissan LEAF — First Generation",
-      "nominalLocators": 0,
-      "statementCount": 2,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 2,
-      "deferredLocators": 2,
-      "id": "atlas:vehicle:oldsmobile-curved-dash",
-      "name": "Oldsmobile Curved Dash",
       "nominalLocators": 0,
       "statementCount": 2,
       "type": "Vehicle"
@@ -2302,17 +2266,17 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 83,
+    "Vehicle": 79,
     "VehicleInstance": 5
   },
-  "reportSha256": "4d4d89ccb70c4275454ff48857ff908db22d6e9b28e85a6797d490614c293a1e",
+  "reportSha256": "a2c2115b9869054b2dd4b82c0013ebbfcf5df779b5454961ec0b691f5887bb3b",
   "status": "PASS",
   "summary": {
-    "deferredEvidence": 472,
-    "documentaryEvidence": 137,
+    "deferredEvidence": 467,
+    "documentaryEvidence": 142,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 47,
-    "entitiesWithoutDocumentaryEvidence": 254,
+    "entitiesWithDocumentaryEvidence": 51,
+    "entitiesWithoutDocumentaryEvidence": 250,
     "evidenceRecords": 865,
     "nominalEvidence": 256
   },

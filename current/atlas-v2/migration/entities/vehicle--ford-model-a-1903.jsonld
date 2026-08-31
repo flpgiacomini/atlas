@@ -22,10 +22,15 @@
       "statementLegacyId": "01a0102a-57eb-795b-90f3-62257c0d7560",
       "subject": "atlas:vehicle:ford-model-a-1903",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1903",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Ford Model A (1903) é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de participação de associada a Ford Model A production introduction. A documentação registra fabricação por Ford Motor Company. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Primeiro produto da Ford Motor Company, fundada em 1903. O museu The Henry Ford descreve o Model A como convencional para os padrões da época e data em 1903 o exemplar de seu acervo, registrado sob o número de inventário 00.136.137. É por esse registro que a fabricação pela Ford fica situada no tempo.",
   "id": "atlas:vehicle:ford-model-a-1903",
   "legacy": {
     "id": "01a0102a-57eb-76a1-8320-8062f4f812e3",
@@ -37,6 +42,7 @@
       "01a0102a-57eb-7357-a48a-d762f91b2a2c",
       "01a0102a-57eb-795b-90f3-62257c0d7560"
     ],
+    "documentary_batch": "D04",
     "editorial_batch": "E09",
     "editorial_level": "editorial",
     "vehicle_kind": "production",
