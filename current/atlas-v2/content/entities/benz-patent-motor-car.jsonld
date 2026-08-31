@@ -17,8 +17,8 @@
       "id": "atlas:claim:benz-patent-drp-37435-1886-01-29", "type": "Claim",
       "subject": "atlas:vehicle:benz-patent-motor-car", "predicate": "patented-on",
       "object": {"type":"date","value":"1886-01-29","precision":"day"},
-      "sources": ["atlas:source:mercedes-benz-first-automobile-1885-1886"],
-      "evidence": ["atlas:evidence:benz-patent-drp-37435"], "confidence": "high"
+      "sources": ["atlas:source:mercedes-benz-first-automobile-1885-1886", "atlas:source:dpma-patent-37435"],
+      "evidence": ["atlas:evidence:benz-patent-drp-37435", "atlas:evidence:benz-patent-drp-37435-registry"], "confidence": "high"
     },
     {
       "id": "atlas:claim:benz-motorwagen-public-outing-1886-07", "type": "Claim",
@@ -46,14 +46,16 @@
   "sources": [
     {"id":"atlas:source:mercedes-benz-first-automobile-1885-1886","type":"Source","title":"Benz Patent Motor Car: The first automobile (1885–1886)","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/company/tradition/company-history/1885-1886.html","trust":"institutional","verifiedAt":"2026-08-24"},
     {"id":"atlas:source:mercedes-benz-forerunners-automobile","type":"Source","title":"Forerunners to the automobile","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/company/tradition/company-history/forerunners-to-the-automobile.html","trust":"institutional","verifiedAt":"2026-08-24"},
-    {"id":"atlas:source:mercedes-benz-beginnings-1886-1920","type":"Source","title":"Beginnings of the automobile: The predecessor companies (1886–1920)","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/company/tradition/company-history/1886-1920.html","trust":"institutional","verifiedAt":"2026-08-24"}
+    {"id":"atlas:source:mercedes-benz-beginnings-1886-1920","type":"Source","title":"Beginnings of the automobile: The predecessor companies (1886–1920)","publisher":"Mercedes-Benz Group","url":"https://group.mercedes-benz.com/company/tradition/company-history/1886-1920.html","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:dpma-patent-37435","type":"Source","title":"Fahrzeug mit Gasmotorenbetrieb — Deutsches Reichspatent 37435","author":"Benz & Co., Mannheim","publisher":"Deutsches Patent- und Markenamt","publishedAt":"1886-11-02","url":"https://patents.google.com/patent/DE37435C/en","trust":"primary","verifiedAt":"2026-08-31"}
   ],
   "evidence": [
     {"id":"atlas:evidence:benz-motorwagen-completed-1885","type":"Evidence","source":"atlas:source:mercedes-benz-first-automobile-1885-1886","evidenceType":"manufacturer-archive","locator":{"year":"1885"},"notes":"A fonte situa em 1885 a conclusão do veículo de dois lugares com motor monocilíndrico traseiro, quadro tubular e três rodas."},
     {"id":"atlas:evidence:benz-patent-drp-37435","type":"Evidence","source":"atlas:source:mercedes-benz-first-automobile-1885-1886","evidenceType":"manufacturer-archive","locator":{"date":"1886-01-29","patent":"DRP 37435"},"notes":"A Mercedes-Benz registra o pedido de patente do veículo movido por motor a gás em 29 de janeiro de 1886."},
     {"id":"atlas:evidence:benz-public-outing-july-1886","type":"Evidence","source":"atlas:source:mercedes-benz-first-automobile-1885-1886","evidenceType":"manufacturer-archive","locator":{"month":"1886-07"},"notes":"A fonte informa que jornais relataram a primeira saída pública do Patent-Motorwagen em julho de 1886."},
     {"id":"atlas:evidence:carl-benz-integrated-vehicle","type":"Evidence","source":"atlas:source:mercedes-benz-forerunners-automobile","evidenceType":"manufacturer-archive","locator":{"section":"Forerunners to the automobile"},"notes":"A fonte distingue a contribuição de Benz por projetar, construir, testar e levar ao mercado um veículo concebido como conjunto integrado."},
-    {"id":"atlas:evidence:bertha-benz-journey-1888","type":"Evidence","source":"atlas:source:mercedes-benz-first-automobile-1885-1886","evidenceType":"manufacturer-archive","locator":{"month":"1888-08","route":"Mannheim–Pforzheim"},"notes":"A fonte registra a viagem de Bertha Benz e seus filhos em agosto de 1888 como demonstração de uso prático em longa distância."}
+    {"id":"atlas:evidence:bertha-benz-journey-1888","type":"Evidence","source":"atlas:source:mercedes-benz-first-automobile-1885-1886","evidenceType":"manufacturer-archive","locator":{"month":"1888-08","route":"Mannheim–Pforzheim"},"notes":"A fonte registra a viagem de Bertha Benz e seus filhos em agosto de 1888 como demonstração de uso prático em longa distância."},
+    {"id":"atlas:evidence:benz-patent-drp-37435-registry","type":"Evidence","source":"atlas:source:dpma-patent-37435","evidenceType":"patent-record","locator":{"patent":"DE 37435 C","filed":"1886-01-29","published":"1886-11-02","section":"Beschreibung, parágrafo de abertura"},"excerpt":"The present construction aims to operate mainly light wagons and small ships, such as those used for the transport of 1 to 4 people.","notes":"Registro governamental: o depósito de 29 de janeiro de 1886 é ato de terceiro e fixa a data da patente sem depender do arquivo da Mercedes-Benz. O requerente consta como Benz & Co., de Mannheim; a atribuição pessoal a Carl Benz permanece sustentada pelo arquivo do fabricante."}
   ],
   "metadata": {"editorial_level":"editorial","editorial_batch":"CP16-03","region_cluster":"Europa 1769-1899"}
 }

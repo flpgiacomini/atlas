@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 59,
-    "withoutDocumentaryCeiling": 242
+    "documentedFloor": 60,
+    "withoutDocumentaryCeiling": 241
   },
   "errors": [],
   "queue": [
@@ -1709,15 +1709,6 @@
     {
       "claimCount": 1,
       "deferredLocators": 1,
-      "id": "atlas:vehicle:ford-model-n",
-      "name": "Ford Model N",
-      "nominalLocators": 0,
-      "statementCount": 1,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 1,
-      "deferredLocators": 1,
       "id": "atlas:vehicle:ford-mustang",
       "name": "Ford Mustang",
       "nominalLocators": 0,
@@ -2194,18 +2185,18 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 71,
+    "Vehicle": 70,
     "VehicleInstance": 5
   },
-  "reportSha256": "1b3bcf7711db7db69f59d56f413cdd0a139d1793366510c29b60ecc7324a53f4",
+  "reportSha256": "f5063508cd39aede6b91da9dff8a75f3481251695f09e2600c3ca619f17af580",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 465,
-    "documentaryEvidence": 153,
+    "documentaryEvidence": 156,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 59,
-    "entitiesWithoutDocumentaryEvidence": 242,
-    "evidenceRecords": 874,
+    "entitiesWithDocumentaryEvidence": 60,
+    "entitiesWithoutDocumentaryEvidence": 241,
+    "evidenceRecords": 877,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 27
+    "anchoredVehiclesFloor": 30
   },
   "errors": [],
   "queue": [
@@ -42,26 +42,6 @@
       "claimCount": 2,
       "id": "atlas:vehicle:audi-quattro",
       "name": "Audi quattro",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [
-        1885,
-        1886,
-        1888
-      ],
-      "claimCount": 7,
-      "id": "atlas:vehicle:benz-patent-motor-car",
-      "name": "Benz Patent-Motorwagen",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": false
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 3,
-      "id": "atlas:vehicle:benz-patent-motor-car-model-1",
-      "name": "Benz Patent Motor Car Model 1",
       "needsIndependentSource": true,
       "needsTemporalAnchor": true
     },
@@ -179,14 +159,6 @@
       "id": "atlas:vehicle:fiat-312-hp",
       "name": "FIAT 3½ HP",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 1,
-      "id": "atlas:vehicle:ford-model-n",
-      "name": "Ford Model N",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -620,16 +592,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "ad7c69a9556e23c1046897b4aebf864d82f74f2513290475d622735747553bc3",
+  "reportSha256": "5e4baeb1aa89f85b5ddf31d5186bb2a8dcbcd2148fd4945a4bcf0db57e83d026",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 27,
+    "anchoredVehicles": 30,
     "editorialVehicles": 102,
-    "needingBoth": 66,
-    "needingIndependentSource": 72,
-    "needingTemporalAnchor": 69,
-    "queuedVehicles": 75
+    "needingBoth": 65,
+    "needingIndependentSource": 70,
+    "needingTemporalAnchor": 67,
+    "queuedVehicles": 72
   },
   "version": "1.0.0"
 }

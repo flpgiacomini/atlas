@@ -1,17 +1,17 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 184,
-    "independentFloor": 117
+    "dependentOnlyCeiling": 182,
+    "independentFloor": 119
   },
   "citationsBySourceType": {
     "archive": 12,
-    "government": 26,
+    "government": 28,
     "industry_association": 1,
     "institutional": 66,
     "manufacturer": 483,
     "manufacturer_archive": 104,
     "manufacturer_regional": 3,
-    "museum": 82,
+    "museum": 83,
     "museum_catalogue": 3,
     "museum_collection": 3,
     "organization": 37,
@@ -140,8 +140,6 @@
     "atlas:vehicle:alfa-romeo-bat-7",
     "atlas:vehicle:alfa-romeo-bat-9",
     "atlas:vehicle:audi-quattro",
-    "atlas:vehicle:benz-patent-motor-car",
-    "atlas:vehicle:benz-patent-motor-car-model-1",
     "atlas:vehicle:benz-velo",
     "atlas:vehicle:bmw-3-series",
     "atlas:vehicle:bugatti-eb110",
@@ -207,15 +205,15 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "c0f1614684f8cac3a958d25dc690aea497d8792a3c85013b5c28850ee2e18def",
+  "reportSha256": "877a0211617f809f7f62e607598a9fb21a87a722d5e49df6846cba94d75dd4b5",
   "status": "PASS",
   "summary": {
-    "citations": 874,
+    "citations": 877,
     "dependentCitations": 591,
-    "dependentOnlyEntities": 184,
+    "dependentOnlyEntities": 182,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 117,
-    "sourcesClassified": 745,
+    "independentEntities": 119,
+    "sourcesClassified": 748,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

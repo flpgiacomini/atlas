@@ -22,10 +22,43 @@
       "statementLegacyId": "01a01030-331a-7c8c-8637-239db8a8409e",
       "subject": "atlas:vehicle:ford-model-n",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1906",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-d665efa838b9748ebddd624a380c1efe"
+      ],
+      "id": "atlas:claim:legacy-052b60b675a87b2bab8b0067e359e518",
+      "legacyId": "052b60b6-75a8-7b2b-ab8b-0067e359e518",
+      "note": "Confronto independente: a ficha de acervo data o objeto de 1906 e é do museu, não da Ford Motor Company.",
+      "object": {
+        "id": "atlas:organization:ford-motor-company",
+        "type": "EntityReference"
+      },
+      "predicate": "manufactured-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:the-henry-ford-1906-ford-model-n-runabout"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01030-331a-7c8c-8637-239db8a8409e",
+      "subject": "atlas:vehicle:ford-model-n",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1906",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Ford Model N é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Ford Motor Company. Também aparece na relação de participação de associada a Ford Model N reaches U.S. bestseller status. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Automóvel de dois lugares fabricado pela Ford a partir de 1906, antecessor direto do Model T. O museu The Henry Ford conserva um exemplar sob o número de inventário 85.115.1, datado de 1906, e registra que, a 500 dólares, o Model N tornou-se o automóvel mais vendido dos Estados Unidos.",
   "id": "atlas:vehicle:ford-model-n",
   "legacy": {
     "id": "01a01030-331a-705c-8d5c-39c13669049e",
@@ -37,6 +70,7 @@
       "01a01030-331a-7c8c-8637-239db8a8409e",
       "01a01030-331b-7a47-a19d-ad3274522922"
     ],
+    "documentary_batch": "D09",
     "documented_price_usd": 500,
     "editorial_batch": "E09",
     "editorial_level": "editorial",

@@ -49,6 +49,34 @@
     {
       "confidence": "high",
       "evidence": [
+        "atlas:evidence:legacy-559be9fcbd857ba0aed0c26b1946bc7b"
+      ],
+      "id": "atlas:claim:legacy-47b7346ae6317fb8a0af3617478bd149",
+      "legacyId": "47b7346a-e631-7fb8-a0af-3617478bd149",
+      "note": "Registro governamental: o depósito de 29 de janeiro de 1886 fixa a data por ato de terceiro, sem depender do arquivo da Mercedes-Benz. O requerente consta como Benz & Co., de Mannheim; a atribuição pessoal a Carl Benz permanece sustentada apenas pelo fabricante.",
+      "object": {
+        "id": "atlas:person:carl-benz",
+        "type": "EntityReference"
+      },
+      "predicate": "designed-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gasmotorenbetrieb-deutsches-reichspatent-37435"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "555c1cde-21cf-75fb-8c91-aa589a304555",
+      "subject": "atlas:vehicle:benz-patent-motor-car-model-1",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1886",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
         "atlas:evidence:legacy-c90af39b3f3a79778d86a173af6ef6ab"
       ],
       "id": "atlas:claim:legacy-de9bcc03457d77adba803749c7d1e196",
@@ -67,10 +95,15 @@
       "statementLegacyId": "555c1cde-21cf-75fb-8c91-aa589a304555",
       "subject": "atlas:vehicle:benz-patent-motor-car-model-1",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1886",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Benz Patent Motor Car Model 1 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra integração a Benz Patent Motor Car. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Primeira unidade do Patent-Motorwagen, o veículo que a Benz & Co. de Mannheim registrou no Deutsches Reichspatent 37435, depositado em 29 de janeiro de 1886. O texto da patente descreve uma construção destinada sobretudo a carros leves e pequenas embarcações para o transporte de uma a quatro pessoas. O arquivo da Mercedes-Benz atribui o projeto a Carl Benz.",
   "id": "atlas:vehicle:benz-patent-motor-car-model-1",
   "legacy": {
     "id": "01a01028-5441-7dba-8fc7-6006eb681a73",
@@ -81,6 +114,7 @@
     "description_basis_statement_ids": [
       "01a01028-5441-7a8f-9856-e5ada74b8e4f"
     ],
+    "documentary_batch": "D09",
     "editorial_batch": "E09",
     "editorial_level": "editorial",
     "vehicle_kind": "prototype",

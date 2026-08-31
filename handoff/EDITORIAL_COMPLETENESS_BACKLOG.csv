@@ -788,7 +788,7 @@ P4,catalog,0,dfad9bb8-6aea-7be1-82a4-90e5b2804e26,vehicle,BMW Turbo,30,0,4,0,edi
 P4,catalog,0,d230bf0c-6211-797a-aa5d-fae7302e398b,vehicle,BMW Vision EfficientDynamics,19,0,4,0,editorial_promotion_required
 P2,substantial,91.2,01a010d9-28ca-7fef-a797-10374d330ad8,vehicle,BYD F3DM,65,3,4,3,connected_statements<4
 P3,complete,100,01a01028-5441-7fa0-bb13-31fad66d99f1,vehicle,Benz Patent Motor Car,38,5,4,5,
-P2,substantial,82.5,01a01028-5441-7dba-8fc7-6006eb681a73,vehicle,Benz Patent Motor Car Model 1,47,2,4,2,connected_statements<4
+P2,substantial,82.5,01a01028-5441-7dba-8fc7-6006eb681a73,vehicle,Benz Patent Motor Car Model 1,58,2,4,2,connected_statements<4
 P2,substantial,82.5,01a0102f-074d-7152-b66e-6308e7fe61fb,vehicle,Benz Velo,56,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01028-5456-7347-bcb9-8a40ce99ef02,vehicle,Bugatti EB110,62,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5456-75fc-a071-4aa5efb7f81b,vehicle,Bugatti Veyron 16.4,49,2,4,2,connected_statements<4
@@ -810,7 +810,7 @@ P2,substantial,91.2,01a010d9-28c4-7947-bc7e-9a43358ea4dd,vehicle,Ferrari 125 S,6
 P4,catalog,0,277eece6-1f8d-7b45-9950-87d2dcc8418a,vehicle,Ferrari P4/5 by Pininfarina,49,1,4,1,editorial_promotion_required
 P4,catalog,0,d280f213-0081-71dd-9780-dcafd9f19ebd,vehicle,Ford GT90,24,0,4,0,editorial_promotion_required
 P2,substantial,82.5,01a0102a-57eb-76a1-8320-8062f4f812e3,vehicle,Ford Model A (1903),54,2,4,2,connected_statements<4
-P2,substantial,82.5,01a01030-331a-705c-8d5c-39c13669049e,vehicle,Ford Model N,59,2,4,2,connected_statements<4
+P2,substantial,82.5,01a01030-331a-705c-8d5c-39c13669049e,vehicle,Ford Model N,50,2,4,2,connected_statements<4
 P3,complete,100,01a01016-ea4d-7265-a55b-b35bdeb3909f,vehicle,Ford Model T,42,9,4,9,
 P2,substantial,82.5,01a010d9-28c6-79eb-9cc1-0f8d258b61d4,vehicle,Ford Mustang,60,2,4,2,connected_statements<4
 P4,catalog,0,473db619-2a88-7acf-9f6e-e21e0112bc94,vehicle,Ford Probe III,30,0,4,0,editorial_promotion_required

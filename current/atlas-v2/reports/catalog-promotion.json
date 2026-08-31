@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 327
+    "editorialBelowBarCeiling": 325
   },
   "belowBar": [
     {
@@ -2869,28 +2869,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 7,
-      "clearsBar": false,
-      "evidencedClaimCount": 7,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:benz-patent-motor-car",
-      "independentOnlyByReference": false,
-      "name": "Benz Patent-Motorwagen",
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 3,
-      "clearsBar": false,
-      "evidencedClaimCount": 3,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:benz-patent-motor-car-model-1",
-      "independentOnlyByReference": false,
-      "name": "Benz Patent Motor Car Model 1",
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 2,
       "clearsBar": false,
       "evidencedClaimCount": 2,
@@ -3619,7 +3597,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 72,
+    "Vehicle": 70,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3658,12 +3636,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "12d20844782dba8d84b8a55e6ea7b1dc79e724be793141fe9018615caac903ac",
+  "reportSha256": "db5c7095ef0861a2526bb1c81ecf5ecf524ff9ae09f3d6d9340783a431b8f589",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 327,
+    "editorialBelowBar": 325,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

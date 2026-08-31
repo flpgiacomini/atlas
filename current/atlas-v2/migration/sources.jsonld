@@ -3342,6 +3342,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:the-henry-ford-1906-ford-model-n-runabout",
+      "language": "en",
+      "legacyId": "3f7486aa-480a-717f-aaac-52a2933af098",
+      "notes": "Fonte independente introduzida na passagem D09.",
+      "publisher": "The Henry Ford",
+      "sourceType": "museum",
+      "title": "1906 Ford Model N Runabout",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://thehenryford.org/collections-and-research/digital-collections/artifact/50201",
+      "verifiedAt": "2026-09-01T01:00:00+00:00"
+    },
+    {
       "externalIds": {
         "wikidata": "Q16040456"
       },
@@ -5928,6 +5941,20 @@
       "type": "Source",
       "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1388558.json",
       "verifiedAt": "2026-08-18"
+    },
+    {
+      "author": "Benz & Co., Mannheim",
+      "id": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gasmotorenbetrieb-deutsches-reichspatent-37435",
+      "language": "de",
+      "legacyId": "8862422b-7ece-7ff0-8c97-6bcee7628fa9",
+      "notes": "Fonte independente introduzida na passagem D09.",
+      "publisher": "Deutsches Patent- und Markenamt",
+      "sourceType": "government",
+      "title": "Fahrzeug mit Gasmotorenbetrieb — Deutsches Reichspatent 37435",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://patents.google.com/patent/DE37435C/en",
+      "verifiedAt": "2026-09-01T01:00:00+00:00"
     },
     {
       "externalIds": {

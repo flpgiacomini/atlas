@@ -6564,6 +6564,21 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "patent_record",
+      "excerpt": "The present construction aims to operate mainly light wagons and small ships, such as those used for the transport of 1 to 4 people.",
+      "id": "atlas:evidence:legacy-559be9fcbd857ba0aed0c26b1946bc7b",
+      "legacyId": "559be9fc-bd85-7ba0-aed0-c26b1946bc7b",
+      "locator": {
+        "filed": "1886-01-29",
+        "patent": "DE 37435 C",
+        "published": "1886-11-02",
+        "section": "Beschreibung, parágrafo de abertura"
+      },
+      "notes": "Passagem documental D09; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gasmotorenbetrieb-deutsches-reichspatent-37435",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "collection_record",
       "id": "atlas:evidence:legacy-56f91ccabe1d7b858bb18bf0c233c477",
       "legacyId": "56f91cca-be1d-7b85-8bb1-8bf0c233c477",
@@ -7613,6 +7628,20 @@
       },
       "notes": "Verificação editorial do predicado born_on; sem reprodução de trecho protegido.",
       "source": "atlas:source:wikidata-wikidata-entity-q5546759",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "collection_record",
+      "excerpt": "At $500, it became the bestselling car in America",
+      "id": "atlas:evidence:legacy-d665efa838b9748ebddd624a380c1efe",
+      "legacyId": "d665efa8-38b9-748e-bddd-624a380c1efe",
+      "locator": {
+        "inventory_number": "85.115.1",
+        "object_date": "1906",
+        "section": "Overview"
+      },
+      "notes": "Passagem documental D09; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:the-henry-ford-1906-ford-model-n-runabout",
       "type": "Evidence"
     },
     {
