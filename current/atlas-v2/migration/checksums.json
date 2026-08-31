@@ -795,7 +795,7 @@
     "entities/vehicle--bugatti-veyron-16-4.jsonld": "16ba7f9312a39cc7bd6f72cc61dea87d7c28d354bcbe74dbab5f4280eb40ad31",
     "entities/vehicle--buick-y-job.jsonld": "67a0e7fc4c395d5c72b4c9508f1c160f4329e9b20f3e6b7cf5ce257e4945bc72",
     "entities/vehicle--byd-f3dm.jsonld": "00966b41409d923e9807db96ef8b5d80a8f282dccdb93ab3bc8e1d3983b48238",
-    "entities/vehicle--cadillac-cyclone.jsonld": "7893c565d27b1be04797f3692a6420977cebf13441f47ca05615e5be010fd5a7",
+    "entities/vehicle--cadillac-cyclone.jsonld": "e85bdd96ee8673212fb1e0c9463d4208221fe7b48c478f88dbe5d8538977ee9e",
     "entities/vehicle--cadillac-model-k.jsonld": "8dc585b8682b2e092826f86326c4511a58d1aadca846fb99a068821c36ee2789",
     "entities/vehicle--cadillac-runabout-1903.jsonld": "43e2daa5424d3f865b791e32e5656dead33892ed9f23343644c64e409d4cad47",
     "entities/vehicle--chevrolet-corvair-monza-gt.jsonld": "9f0c39092b9605e5f04ce0f66b7d029b287abc8dbf50c79df02e1092ef912b7d",
@@ -897,7 +897,7 @@
     "entities/vehicle--royce-10-h-p.jsonld": "19effccd40e44997b311d4d25a0f426531a213e26caac4b4beef0193ed65cc17",
     "entities/vehicle--schlorwagen.jsonld": "f9bd25de5ab5800ec201fe569183026d773cf9df1e1764a77834ec53abc17c74",
     "entities/vehicle--segundo-automovel-de-marcus.jsonld": "5e306a95ced1bed877562440a3afbb30a0e27c7cff84e83920a88fbd1cd3d80b",
-    "entities/vehicle--skoda-1000-mb.jsonld": "bc4c98a9c804d74bc13cbc836be27ac94d4c8757f25867d495006615a9bd0c98",
+    "entities/vehicle--skoda-1000-mb.jsonld": "05320094fc4a2f17f2f716583aebbcbe106656f3e8b1c6f6ffdb74efc726d137",
     "entities/vehicle--subaru-brz.jsonld": "267a85a5e1cae324f7936f544ea4bd9782c4b8aeb511a4c0fe5947e2dbcbdd0e",
     "entities/vehicle--tata-nano.jsonld": "53c06d9cd076117830043082d4a7974a3fbfce02717efe591c6da706a297369b",
     "entities/vehicle--tesla-roadster-first-generation.jsonld": "e410bcd3b203ad0e9ed6c351f2f22e2b5c247248df48fdefbe79bf0c71acd3ce",
@@ -921,10 +921,10 @@
     "entities/vehicle-instance--porsche-917-001.jsonld": "c6a930f54b3552a0b648135eb51ce935ca3c9f5f55793c88a73fe42026b36d11",
     "entities/vehicle-instance--porsche-917-023.jsonld": "09c978326694ee47778f25636acda9368fa351c8eef7e5b852975dd937121aba",
     "entities/vehicle-instance--rolls-royce-40-50-h-p-chassis-60551-silver-ghost.jsonld": "6c17d325a510f50c99cd304b7385316c4a4b59dcc5ceb27d56d4a72fedce111b",
-    "evidence.jsonld": "1a491cfd27c9ed96f9a3829fc93061f9391b06312585fc27cd2e89b5e210f0e7",
-    "identity-map.json": "fb8c1fdd5a9ac097021b90bb770946b9837a75c2edfea2d41a4990626a50d112",
-    "migration-report.json": "a62d4e7c09b04ebd74c37604d6b7ea130b46a158a6574035133482f5c412ff14",
+    "evidence.jsonld": "a6d0fe2f999133be8c1e5b953512f9c9f20f2e006724162e2d51f78e3b19ca0c",
+    "identity-map.json": "59da0b53b3dd22cb2342580b30a51b7b8ed6a13dd894842b92dfb67fe9fbddbb",
+    "migration-report.json": "79a7ea83fd266f1acbcb66f61461d451b537ff692e2861810ca4a79c49a4cb62",
     "predicates.jsonld": "fce8bb4b8bb7c8240d19dda5fda28d7e87da5528c00f6118081fac7e2a222bbf",
-    "sources.jsonld": "7e2f4a410de28d585a89730cd12c5d670a94e1218182700449c408334e7285e5"
+    "sources.jsonld": "5c2e82ffd6608ee825435b58d3cac23acf5c0f4757a3d90acc08098996dad91f"
   }
 }

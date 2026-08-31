@@ -5,6 +5,33 @@
     {
       "confidence": "high",
       "evidence": [
+        "atlas:evidence:legacy-3217e15b360a72c4905091e70516c4fa"
+      ],
+      "id": "atlas:claim:legacy-405734591d917b2aafa33f5363821b2c",
+      "legacyId": "40573459-1d91-7b2a-afa3-3f5363821b2c",
+      "note": "Confronto independente da tecnologia: o museu descreve os cones dianteiros como sensores de proximidade, sustentando a afirmação sem depender da Cadillac.",
+      "object": {
+        "id": "atlas:technology:alerta-automotivo-de-colisao-por-radar",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Cyclone radar"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audrain-auto-museum-1959-cadillac-cyclone"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "b7e36655-0933-7930-a173-ba333310671d",
+      "subject": "atlas:vehicle:cadillac-cyclone",
+      "supportStrength": "explicit",
+      "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
         "atlas:evidence:legacy-93bd8a3ef87a7f62b5c3c0abb2efb139"
       ],
       "id": "atlas:claim:legacy-81754007c1127f4fa2b80b6578f4ed19",
@@ -54,7 +81,12 @@
       "statementLegacyId": "74f6ade6-9d54-724a-95fd-572e7b785ba0",
       "subject": "atlas:vehicle:cadillac-cyclone",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1959",
+        "precision": "year",
+        "until": null
+      }
     },
     {
       "confidence": "high",
@@ -86,6 +118,38 @@
     {
       "confidence": "high",
       "evidence": [
+        "atlas:evidence:legacy-f340c48e5df57cb5a42cab77790853a9"
+      ],
+      "id": "atlas:claim:legacy-b44520a7e1bc7289bcc30e4a690f596d",
+      "legacyId": "b44520a7-e1bc-7289-bcc3-0e4a690f596d",
+      "note": "Confronto independente da data: o museu situa a apresentação do protótipo em 1959, fora do arquivo da General Motors.",
+      "object": {
+        "id": "atlas:brand:cadillac",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V05",
+        "source_record": "Cyclone"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audrain-auto-museum-1959-cadillac-cyclone"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "74f6ade6-9d54-724a-95fd-572e7b785ba0",
+      "subject": "atlas:vehicle:cadillac-cyclone",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1959",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
         "atlas:evidence:legacy-1d9a6f48502076ef8a0e7ca5419bb26a"
       ],
       "id": "atlas:claim:legacy-f3f05dba8b657f50b02affe743f6a781",
@@ -111,7 +175,7 @@
       "type": "Claim"
     }
   ],
-  "description": "Concept car de 1959 que encerrou a linhagem dos Motoramas sob forte inspiração aeroespacial. Seus cones dianteiros alojavam sensores de radar para advertência de proximidade, enquanto a capota transparente retrátil e as portas deslizantes dramatizavam um futuro automatizado; o projeto permaneceu experimental e integra a coleção histórica da General Motors.",
+  "description": "Protótipo apresentado pela Cadillac em 1959 e concebido como um laboratório sobre rodas. O Audrain Auto Museum registra os grandes cones pretos que se projetam à frente e funcionam como sensores de proximidade, a bolha única revestida internamente com prata vaporizada para proteger os ocupantes da radiação ultravioleta e as portas que, ao toque de um botão, abriam deslizando para trás.",
   "id": "atlas:vehicle:cadillac-cyclone",
   "legacy": {
     "id": "ba59c077-bd08-7bb2-90cc-7e1c383465f7",
@@ -125,6 +189,7 @@
       "b7e36655-0933-7930-a173-ba333310671d",
       "2210797f-abd2-7cac-a47a-8fd2b928ce7c"
     ],
+    "documentary_batch": "D07",
     "editorial_batch": "V05",
     "editorial_level": "editorial",
     "vehicle_kind": "concept",

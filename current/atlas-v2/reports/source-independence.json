@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 180,
-    "independentFloor": 121
+    "dependentOnlyCeiling": 179,
+    "independentFloor": 122
   },
   "citationsBySourceType": {
     "archive": 12,
@@ -11,10 +11,11 @@
     "manufacturer": 442,
     "manufacturer_archive": 125,
     "manufacturer_regional": 3,
-    "museum": 77,
+    "museum": 79,
     "museum_catalogue": 3,
     "museum_collection": 3,
     "organization": 37,
+    "public_broadcaster": 1,
     "specialized_database": 21,
     "specialized_journalism": 16,
     "structured_data": 16
@@ -189,7 +190,6 @@
     "atlas:vehicle:rolls-royce-10-h-p",
     "atlas:vehicle:rolls-royce-40-50-h-p",
     "atlas:vehicle:royce-10-h-p",
-    "atlas:vehicle:skoda-1000-mb",
     "atlas:vehicle:subaru-brz",
     "atlas:vehicle:tata-nano",
     "atlas:vehicle:tesla-roadster-first-generation",
@@ -202,15 +202,15 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "9474dc9cf1a98594e859720b71d4fdd34e9ce745a8942512b469cc0ddf8d3549",
+  "reportSha256": "f740277eccafb4e66fbcb408074c9f3837a0e8b2ad06d256637986adfad0749b",
   "status": "PASS",
   "summary": {
-    "citations": 868,
+    "citations": 871,
     "dependentCitations": 571,
-    "dependentOnlyEntities": 180,
+    "dependentOnlyEntities": 179,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 121,
-    "sourcesClassified": 741,
+    "independentEntities": 122,
+    "sourcesClassified": 743,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

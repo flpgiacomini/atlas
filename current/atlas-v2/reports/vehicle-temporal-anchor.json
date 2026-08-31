@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 23
+    "anchoredVehiclesFloor": 25
   },
   "errors": [],
   "queue": [
@@ -95,14 +95,6 @@
       "id": "atlas:vehicle:byd-f3dm",
       "name": "BYD F3DM",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 4,
-      "id": "atlas:vehicle:cadillac-cyclone",
-      "name": "Cadillac Cyclone",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -547,14 +539,6 @@
     },
     {
       "assertedYears": [],
-      "claimCount": 6,
-      "id": "atlas:vehicle:skoda-1000-mb",
-      "name": "ŠKODA 1000 MB",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
       "claimCount": 4,
       "id": "atlas:vehicle:subaru-brz",
       "name": "Subaru BRZ",
@@ -648,16 +632,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "ee8c767272e8dadb28b60fd56352539432b4a512481ba3542174fb831ba515cd",
+  "reportSha256": "6a8196e8c1b8e924b4d1cfaa473af651b4c81ff498d0f9e7428d63a6f0de0108",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 23,
+    "anchoredVehicles": 25,
     "editorialVehicles": 102,
-    "needingBoth": 70,
-    "needingIndependentSource": 75,
-    "needingTemporalAnchor": 74,
-    "queuedVehicles": 79
+    "needingBoth": 69,
+    "needingIndependentSource": 74,
+    "needingTemporalAnchor": 72,
+    "queuedVehicles": 77
   },
   "version": "1.0.0"
 }

@@ -5925,6 +5925,19 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "explicit_statement",
+      "excerpt": "představenou v roce 1964 pod názvem Škoda 1000 MB",
+      "id": "atlas:evidence:legacy-06402c2d15877e94921cf6017e27267f",
+      "legacyId": "06402c2d-1587-7e94-921c-f6017e27267f",
+      "locator": {
+        "article": "Rok 1964: Motor dáme dozadu. Škoda 1000 MB a její převratné novinky",
+        "section": "abertura"
+      },
+      "notes": "Passagem documental D07; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:cesky-rozhlas-plus-rok-1964-motor-dame-dozadu-skoda-1000-mb-a-jeji-prevratne-novinky",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "web_page",
       "id": "atlas:evidence:legacy-06d5205990897d73a96e1b240787ffcd",
       "legacyId": "06d52059-9089-7d73-a96e-1b240787ffcd",
@@ -6225,6 +6238,19 @@
       },
       "notes": "Fonte consultada como ponto de partida editorial; sem reprodução de texto protegido.",
       "source": "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "explicit_statement",
+      "excerpt": "The large black nose cones which project forward from the front of the car act as proximity sensors.",
+      "id": "atlas:evidence:legacy-3217e15b360a72c4905091e70516c4fa",
+      "legacyId": "3217e15b-360a-72c4-9050-91e70516c4fa",
+      "locator": {
+        "quote": "act as proximity sensors",
+        "section": "Styling the Future"
+      },
+      "notes": "Passagem documental D07; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:audrain-auto-museum-1959-cadillac-cyclone",
       "type": "Evidence"
     },
     {
@@ -7783,6 +7809,19 @@
       },
       "notes": "Registro institucional do veículo e de sua linhagem.",
       "source": "atlas:source:general-motors-firebird-i",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "explicit_statement",
+      "excerpt": "Introduced in 1959, the Cadillac Cyclone prototype was engineered to act as a 'laboratory on wheels.'",
+      "id": "atlas:evidence:legacy-f340c48e5df57cb5a42cab77790853a9",
+      "legacyId": "f340c48e-5df5-7cb5-a42c-ab77790853a9",
+      "locator": {
+        "quote": "Introduced in 1959",
+        "section": "Styling the Future"
+      },
+      "notes": "Passagem documental D07; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:audrain-auto-museum-1959-cadillac-cyclone",
       "type": "Evidence"
     },
     {

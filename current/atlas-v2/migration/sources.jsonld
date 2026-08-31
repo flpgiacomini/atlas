@@ -2353,6 +2353,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:audrain-auto-museum-1959-cadillac-cyclone",
+      "language": "en",
+      "legacyId": "1d83bf61-3a06-7690-8634-2c91b4c168b5",
+      "notes": "Fonte independente introduzida na passagem D07.",
+      "publisher": "Audrain Auto Museum",
+      "sourceType": "museum",
+      "title": "1959 Cadillac Cyclone",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://www.audrainautomuseum.org/styling-the-future/1959-cadillac-cyclone",
+      "verifiedAt": "2026-08-31T21:00:00+00:00"
+    },
+    {
       "externalIds": {
         "wikidata": "Q51130051"
       },
@@ -7081,6 +7094,19 @@
       "type": "Source",
       "url": "https://en.wikipedia.org/wiki/Laraki",
       "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:cesky-rozhlas-plus-rok-1964-motor-dame-dozadu-skoda-1000-mb-a-jeji-prevratne-novinky",
+      "language": "cs",
+      "legacyId": "b0e74db5-9bbb-74ff-bbac-0111fb2b65f1",
+      "notes": "Fonte independente introduzida na passagem D07.",
+      "publisher": "Český rozhlas Plus",
+      "sourceType": "public_broadcaster",
+      "title": "Rok 1964: Motor dáme dozadu. Škoda 1000 MB a její převratné novinky",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://plus.rozhlas.cz/rok-1964-motor-dame-dozadu-skoda-1000-mb-a-jeji-prevratne-novinky-7565255",
+      "verifiedAt": "2026-08-31T21:00:00+00:00"
     },
     {
       "externalIds": {

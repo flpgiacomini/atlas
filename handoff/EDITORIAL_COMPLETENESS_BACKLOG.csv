@@ -793,7 +793,7 @@ P2,substantial,82.5,01a0102f-074d-7152-b66e-6308e7fe61fb,vehicle,Benz Velo,56,2,
 P2,substantial,91.2,01a01028-5456-7347-bcb9-8a40ce99ef02,vehicle,Bugatti EB110,62,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5456-75fc-a071-4aa5efb7f81b,vehicle,Bugatti Veyron 16.4,49,2,4,2,connected_statements<4
 P3,complete,100,c3ccd397-03ed-78d9-960c-b5ed92b01a05,vehicle,Buick Y-Job,64,5,4,5,
-P3,complete,100.0,ba59c077-bd08-7bb2-90cc-7e1c383465f7,vehicle,Cadillac Cyclone,50,4,4,4,
+P3,complete,100.0,ba59c077-bd08-7bb2-90cc-7e1c383465f7,vehicle,Cadillac Cyclone,61,4,4,4,
 P2,substantial,91.2,01a01030-3319-775b-ac75-eef980d091b6,vehicle,Cadillac Model K,69,3,4,3,connected_statements<4
 P2,substantial,82.5,01a0102a-57ec-76b4-9b5e-c8a4af464dc8,vehicle,Cadillac Runabout (1903),55,2,4,2,connected_statements<4
 P3,complete,100.0,92914026-c495-72d7-bc02-cf726c98c9eb,vehicle,Chevrolet Corvair Monza GT,54,4,4,4,
@@ -913,7 +913,7 @@ P3,complete,100.0,01a010d9-28c8-750f-adf3-f48d344020e5,vehicle,Volkswagen Golf �
 P4,catalog,0,d66f8626-b077-7053-9745-53317cfa3b25,vehicle,Volkswagen W12,61,1,4,1,editorial_promotion_required
 P2,substantial,91.2,01a010f1-7e89-7097-811b-4535048cf1a3,vehicle,Volvo PV544,43,3,4,3,connected_statements<4
 P4,catalog,0,11566c17-4906-7451-8de7-2a2c53cad144,vehicle,Volvo VESC,27,0,4,0,editorial_promotion_required
-P3,complete,100,01a01028-5453-7900-8694-2766fd617abc,vehicle,ŠKODA 1000 MB,86,5,4,5,
+P3,complete,100,01a01028-5453-7900-8694-2766fd617abc,vehicle,ŠKODA 1000 MB,45,5,4,5,
 P2,substantial,82.5,01a01028-5455-70c8-9212-e958618f90e8,vehicle_instance,Holden Prototype No. 1,64,2,4,2,connected_statements<4
 P2,substantial,82.5,01a010d9-28c4-79e5-9539-a782d65f01ac,vehicle_instance,Land Rover pre-production HUE 166,49,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01016-ea4e-747b-9ba4-e560d648e4ef,vehicle_instance,Porsche 917-001,71,3,4,3,connected_statements<4

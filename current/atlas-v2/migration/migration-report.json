@@ -1,21 +1,21 @@
 {
   "counts": {
-    "claims": 737,
+    "claims": 740,
     "entities": 920,
     "entityNames": 14,
-    "evidence": 738,
+    "evidence": 741,
     "externalIdentifiers": 525,
     "legacyIdentifiers": 648,
     "predicates": 56,
     "redirects": 0,
-    "sources": 636,
+    "sources": 638,
     "statements": 610
   },
-  "databaseSha256": "6cbfac8a3381885ae74330ec8bf222b7e197ff6469feda7395448bd645c3ada9",
+  "databaseSha256": "949efa3533a2c81d2a5f2d851f2dd5067c4b8c68af0cfbb5f140abcc752e2fe6",
   "documents": {
     "entityFiles": 920,
-    "evidenceItems": 738,
-    "sourceItems": 636
+    "evidenceItems": 741,
+    "sourceItems": 638
   },
   "status": "migration-candidate",
   "version": "2.0.0"

@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 323
+    "editorialBelowBarCeiling": 322
   },
   "belowBar": [
     {
@@ -3430,17 +3430,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 6,
-      "clearsBar": false,
-      "evidencedClaimCount": 6,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:skoda-1000-mb",
-      "independentOnlyByReference": false,
-      "name": "ŠKODA 1000 MB",
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 4,
       "clearsBar": false,
       "evidencedClaimCount": 4,
@@ -3575,7 +3564,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 75,
+    "Vehicle": 74,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3614,12 +3603,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "b3cffac6a14b9b15a9ed95877eb5beeb115f69f975a80a73df947f67975ffa24",
+  "reportSha256": "c38947d2aa56035509934d289a3625c1148ceb5db1999c8bc9ca0143e020208b",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 323,
+    "editorialBelowBar": 322,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

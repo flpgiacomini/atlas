@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 55,
-    "withoutDocumentaryCeiling": 246
+    "documentedFloor": 57,
+    "withoutDocumentaryCeiling": 244
   },
   "errors": [],
   "queue": [
@@ -1617,15 +1617,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 4,
-      "deferredLocators": 0,
-      "id": "atlas:vehicle:cadillac-cyclone",
-      "name": "Cadillac Cyclone",
-      "nominalLocators": 4,
-      "statementCount": 4,
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 2,
       "deferredLocators": 2,
       "id": "atlas:vehicle:cadillac-model-k",
@@ -2103,15 +2094,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 6,
-      "deferredLocators": 6,
-      "id": "atlas:vehicle:skoda-1000-mb",
-      "name": "ŠKODA 1000 MB",
-      "nominalLocators": 0,
-      "statementCount": 4,
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 4,
       "deferredLocators": 4,
       "id": "atlas:vehicle:subaru-brz",
@@ -2230,18 +2212,18 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 75,
+    "Vehicle": 73,
     "VehicleInstance": 5
   },
-  "reportSha256": "4189164de21a9ae8a0a9b31268ea3a936abb36c698cdb9bcea753ce312ae1de8",
+  "reportSha256": "bf34a0322839ca30c2fd3e98efe8b61c635de72df4911ed7e4c412fab6c20228",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 465,
-    "documentaryEvidence": 147,
+    "documentaryEvidence": 150,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 55,
-    "entitiesWithoutDocumentaryEvidence": 246,
-    "evidenceRecords": 868,
+    "entitiesWithDocumentaryEvidence": 57,
+    "entitiesWithoutDocumentaryEvidence": 244,
+    "evidenceRecords": 871,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

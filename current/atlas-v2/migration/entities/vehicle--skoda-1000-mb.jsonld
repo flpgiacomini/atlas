@@ -44,7 +44,12 @@
       "statementLegacyId": "01a01028-5454-784c-8187-c0bf05c42624",
       "subject": "atlas:vehicle:skoda-1000-mb",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1964",
+        "precision": "year",
+        "until": null
+      }
     },
     {
       "confidence": "high",
@@ -133,9 +138,37 @@
       "subject": "atlas:vehicle:skoda-1000-mb",
       "supportStrength": "explicit",
       "type": "Claim"
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-06402c2d15877e94921cf6017e27267f"
+      ],
+      "id": "atlas:claim:legacy-fc7387202beb74fba300e57d839d6b53",
+      "legacyId": "fc738720-2beb-74fb-a300-e57d839d6b53",
+      "note": "Confronto independente da data: a rádio pública tcheca situa a apresentação do 1000 MB em 1964. A emissora não pertence à Škoda Auto nem ao grupo que a controla.",
+      "object": {
+        "id": "atlas:brand:skoda",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:cesky-rozhlas-plus-rok-1964-motor-dame-dozadu-skoda-1000-mb-a-jeji-prevratne-novinky"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a01028-5454-784c-8187-c0bf05c42624",
+      "subject": "atlas:vehicle:skoda-1000-mb",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1964",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "ŠKODA 1000 MB é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Pressure-cast aluminium engine housing process. A documentação registra produção em Mladá Boleslav main plant. A documentação registra comercialização sob ŠKODA. A documentação registra uso da tecnologia Self-supporting / monocoque body construction. Também aparece na relação de participação de associada a ŠKODA 1000 MB production start. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Automóvel apresentado em 1964 pela fábrica de Mladá Boleslav, segundo a rádio pública tcheca Český rozhlas. A mudança técnica central do projeto foi levar o motor para trás, com tração traseira, acompanhada de carroceria autoportante e de bloco de motor em alumínio fundido sob pressão.",
   "id": "atlas:vehicle:skoda-1000-mb",
   "legacy": {
     "id": "01a01028-5453-7900-8694-2766fd617abc",
@@ -150,6 +183,7 @@
       "01a01028-5454-7b5c-b29c-0105192b7a7e",
       "01a01028-5455-7e87-8b06-0aa5cbd36811"
     ],
+    "documentary_batch": "D07",
     "editorial_batch": "E12",
     "editorial_level": "editorial",
     "vehicle_kind": "production",
