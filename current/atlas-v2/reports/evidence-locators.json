@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 53,
-    "withoutDocumentaryCeiling": 248
+    "documentedFloor": 55,
+    "withoutDocumentaryCeiling": 246
   },
   "errors": [],
   "queue": [
@@ -1609,15 +1609,6 @@
     },
     {
       "claimCount": 4,
-      "deferredLocators": 0,
-      "id": "atlas:vehicle:buick-y-job",
-      "name": "Buick Y-Job",
-      "nominalLocators": 4,
-      "statementCount": 4,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 4,
       "deferredLocators": 4,
       "id": "atlas:vehicle:byd-f3dm",
       "name": "BYD F3DM",
@@ -1830,15 +1821,6 @@
       "name": "Hyundai Pony",
       "nominalLocators": 0,
       "statementCount": 2,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 5,
-      "deferredLocators": 5,
-      "id": "atlas:vehicle:lamborghini-miura",
-      "name": "Lamborghini Miura",
-      "nominalLocators": 0,
-      "statementCount": 3,
       "type": "Vehicle"
     },
     {
@@ -2248,18 +2230,18 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 77,
+    "Vehicle": 75,
     "VehicleInstance": 5
   },
-  "reportSha256": "0a64b4bb6617c5a1ad72247e2eab11c58bd81f6427a442ebdc2b8475adfe484d",
+  "reportSha256": "4189164de21a9ae8a0a9b31268ea3a936abb36c698cdb9bcea753ce312ae1de8",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 465,
-    "documentaryEvidence": 145,
+    "documentaryEvidence": 147,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 53,
-    "entitiesWithoutDocumentaryEvidence": 248,
-    "evidenceRecords": 866,
+    "entitiesWithDocumentaryEvidence": 55,
+    "entitiesWithoutDocumentaryEvidence": 246,
+    "evidenceRecords": 868,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

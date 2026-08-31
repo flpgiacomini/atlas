@@ -2867,6 +2867,19 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "id": "atlas:source:hagerty-drivers-foundation-1938-buick-y-job-national-historic-vehicle-register-no-14",
+      "language": "en",
+      "legacyId": "2e674a6d-002a-7514-86c7-0b133d14cab7",
+      "notes": "Fonte independente introduzida na passagem D06.",
+      "publisher": "Hagerty Drivers Foundation",
+      "sourceType": "institutional",
+      "title": "1938 Buick Y-Job — National Historic Vehicle Register No. 14",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://driversfoundation.org/register/16",
+      "verifiedAt": "2026-08-31T19:00:00+00:00"
+    },
+    {
       "externalIds": {
         "wikidata": "Q1206653"
       },
@@ -7443,6 +7456,19 @@
       "type": "Source",
       "url": "https://en.wikipedia.org/wiki/Anasagasti",
       "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:audrain-auto-museum-1968-lamborghini-miura",
+      "language": "en",
+      "legacyId": "be33b33d-eb2e-7219-94ad-578a1c08b71a",
+      "notes": "Fonte independente introduzida na passagem D06.",
+      "publisher": "Audrain Auto Museum",
+      "sourceType": "museum",
+      "title": "1968 Lamborghini Miura",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://www.audrainautomuseum.org/past-to-present-exhibit/1968%20Lamborghini%20Miura",
+      "verifiedAt": "2026-08-31T19:00:00+00:00"
     },
     {
       "id": "atlas:source:bmw-group-bmw-vision-efficientdynamics",

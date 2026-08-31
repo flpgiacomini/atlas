@@ -793,7 +793,7 @@
     "entities/vehicle--bmw-vision-efficientdynamics.jsonld": "052f71aad434fa903af7f298dc5ec23af02ee6a9961c8f97f6ba37e2b8754bbe",
     "entities/vehicle--bugatti-eb110.jsonld": "17c9654b1ebf70a21463dbc1ea4ad4d627569a16537fa9abc455d371a2831cbb",
     "entities/vehicle--bugatti-veyron-16-4.jsonld": "16ba7f9312a39cc7bd6f72cc61dea87d7c28d354bcbe74dbab5f4280eb40ad31",
-    "entities/vehicle--buick-y-job.jsonld": "85ae98cdd7941dc2baf5a77dccdf4c587172fef3d4fc28ed48e93eb74b36e0b3",
+    "entities/vehicle--buick-y-job.jsonld": "67a0e7fc4c395d5c72b4c9508f1c160f4329e9b20f3e6b7cf5ce257e4945bc72",
     "entities/vehicle--byd-f3dm.jsonld": "00966b41409d923e9807db96ef8b5d80a8f282dccdb93ab3bc8e1d3983b48238",
     "entities/vehicle--cadillac-cyclone.jsonld": "7893c565d27b1be04797f3692a6420977cebf13441f47ca05615e5be010fd5a7",
     "entities/vehicle--cadillac-model-k.jsonld": "8dc585b8682b2e092826f86326c4511a58d1aadca846fb99a068821c36ee2789",
@@ -836,7 +836,7 @@
     "entities/vehicle--hyundai-pony.jsonld": "c5a1bf26d8f8262dee50ecaf59228b1a0b6a9a7af75c286bcde68e60fec523e8",
     "entities/vehicle--italdesign-megagamma.jsonld": "20b0095e10bf8f216024ababb79a09f6138000985a017e1c394ee49477c3f8c0",
     "entities/vehicle--lamborghini-marzal.jsonld": "20a3049e2408c9f8fcaad20689224543ddff28260f498d84dc14c1ca2bdeb88f",
-    "entities/vehicle--lamborghini-miura.jsonld": "229a3d468793ca062db789ed76b5cd2bdb01b66bed52df6d18cfc29b1356cf9c",
+    "entities/vehicle--lamborghini-miura.jsonld": "7b7517b289ca10294a9d13526f5d4ed9fb7e851d796b741343580aeb581d7685",
     "entities/vehicle--lancia-12-hp.jsonld": "4fec0c291bc098ad580d753ac70596a99589be1eccf3d3fdb71b43a8349be240",
     "entities/vehicle--lancia-stratos-zero.jsonld": "6c6acc325dbdaba4b6f82d03f7c86a56a306d2995104e3ebfdc2582924c597fe",
     "entities/vehicle--land-rover-series-i.jsonld": "c52b4669acd1eb5d93c22b7a149fd8c44dbc345ac79528f66afc7603069dc067",
@@ -857,7 +857,7 @@
     "entities/vehicle--norman-timbs-special.jsonld": "a0b19f4fd79e2b33703cadb68e5f2ce85e226b3b678514000adf10456ad4c714",
     "entities/vehicle--oldsmobile-curved-dash.jsonld": "b8151e232c4d6a00f4bfeb3415a087dd8731871255b9ea206c76cd9a170bb9be",
     "entities/vehicle--panhard-levassor-type-m2e.jsonld": "deb1d45d89db56c1083620d743fbbbca11502805859f336cc320fff5858e60db",
-    "entities/vehicle--panhard-race-car-1904-vanderbilt-cup.jsonld": "c904afa5f9635a4e060ff2c0b66db73017caca83aaa43045ceb78d3107fca4fd",
+    "entities/vehicle--panhard-race-car-1904-vanderbilt-cup.jsonld": "6b1ce8e7ca5bf25a9508350fc74f8170ee9416a0c37130d23f1eae36c9b82531",
     "entities/vehicle--peugeot-oxia.jsonld": "b68eb9ad392a580d1c5562c9e6e69abe6e9fcdcef5bc34001e1b824185bf3dc0",
     "entities/vehicle--peugeot-proxima.jsonld": "2d69e458dcd7d2e6296eefe4ae9df73d469cc22b30bea07d2b4ed22616eb0391",
     "entities/vehicle--peugeot-quasar.jsonld": "f4f673f7993ab2c29fc08ffb9fd8541be9a27fc2a2343f079362c21b00f7b233",
@@ -921,10 +921,10 @@
     "entities/vehicle-instance--porsche-917-001.jsonld": "c6a930f54b3552a0b648135eb51ce935ca3c9f5f55793c88a73fe42026b36d11",
     "entities/vehicle-instance--porsche-917-023.jsonld": "09c978326694ee47778f25636acda9368fa351c8eef7e5b852975dd937121aba",
     "entities/vehicle-instance--rolls-royce-40-50-h-p-chassis-60551-silver-ghost.jsonld": "6c17d325a510f50c99cd304b7385316c4a4b59dcc5ceb27d56d4a72fedce111b",
-    "evidence.jsonld": "271069c34f806c93d9f5d4a37b01bb92cbf57a5e7ba88d0a7f074c4d617ea15a",
-    "identity-map.json": "1ea1b5a271299b89fa88144c9a2837d3da9796ca2ebb13d1132377faa8068424",
-    "migration-report.json": "34c66bd83cc232c60cfef57670731a09e6a9e5fdb443d888482f0c4388832229",
+    "evidence.jsonld": "1a491cfd27c9ed96f9a3829fc93061f9391b06312585fc27cd2e89b5e210f0e7",
+    "identity-map.json": "fb8c1fdd5a9ac097021b90bb770946b9837a75c2edfea2d41a4990626a50d112",
+    "migration-report.json": "a62d4e7c09b04ebd74c37604d6b7ea130b46a158a6574035133482f5c412ff14",
     "predicates.jsonld": "fce8bb4b8bb7c8240d19dda5fda28d7e87da5528c00f6118081fac7e2a222bbf",
-    "sources.jsonld": "ae5781dc7ffc454bc933b0233b253a38c4d4ee14dc39c8c08e69caa27b244861"
+    "sources.jsonld": "7e2f4a410de28d585a89730cd12c5d670a94e1218182700449c408334e7285e5"
   }
 }

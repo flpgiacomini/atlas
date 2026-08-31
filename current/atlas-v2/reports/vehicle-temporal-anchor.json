@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 20
+    "anchoredVehiclesFloor": 23
   },
   "errors": [],
   "queue": [
@@ -88,14 +88,6 @@
       "name": "Bugatti Veyron 16.4",
       "needsIndependentSource": true,
       "needsTemporalAnchor": false
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 4,
-      "id": "atlas:vehicle:buick-y-job",
-      "name": "Buick Y-Job",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
     },
     {
       "assertedYears": [],
@@ -291,14 +283,6 @@
     },
     {
       "assertedYears": [],
-      "claimCount": 5,
-      "id": "atlas:vehicle:lamborghini-miura",
-      "name": "Lamborghini Miura",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
       "claimCount": 3,
       "id": "atlas:vehicle:lancia-12-hp",
       "name": "Lancia 12 HP",
@@ -351,14 +335,6 @@
       "id": "atlas:vehicle:nissan-leaf-first-generation",
       "name": "Nissan LEAF — First Generation",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 1,
-      "id": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
-      "name": "Panhard race car — 1904 Vanderbilt Cup",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -672,16 +648,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "3779ba21589e5485dee640edfbe9053c51adab9808dadeada8fd9c7f3efb8456",
+  "reportSha256": "ee8c767272e8dadb28b60fd56352539432b4a512481ba3542174fb831ba515cd",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 20,
+    "anchoredVehicles": 23,
     "editorialVehicles": 102,
-    "needingBoth": 72,
-    "needingIndependentSource": 77,
-    "needingTemporalAnchor": 77,
-    "queuedVehicles": 82
+    "needingBoth": 70,
+    "needingIndependentSource": 75,
+    "needingTemporalAnchor": 74,
+    "queuedVehicles": 79
   },
   "version": "1.0.0"
 }

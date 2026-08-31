@@ -792,7 +792,7 @@ P2,substantial,82.5,01a01028-5441-7dba-8fc7-6006eb681a73,vehicle,Benz Patent Mot
 P2,substantial,82.5,01a0102f-074d-7152-b66e-6308e7fe61fb,vehicle,Benz Velo,56,2,4,2,connected_statements<4
 P2,substantial,91.2,01a01028-5456-7347-bcb9-8a40ce99ef02,vehicle,Bugatti EB110,62,3,4,3,connected_statements<4
 P2,substantial,82.5,01a01028-5456-75fc-a071-4aa5efb7f81b,vehicle,Bugatti Veyron 16.4,49,2,4,2,connected_statements<4
-P3,complete,100,c3ccd397-03ed-78d9-960c-b5ed92b01a05,vehicle,Buick Y-Job,49,5,4,5,
+P3,complete,100,c3ccd397-03ed-78d9-960c-b5ed92b01a05,vehicle,Buick Y-Job,64,5,4,5,
 P3,complete,100.0,ba59c077-bd08-7bb2-90cc-7e1c383465f7,vehicle,Cadillac Cyclone,50,4,4,4,
 P2,substantial,91.2,01a01030-3319-775b-ac75-eef980d091b6,vehicle,Cadillac Model K,69,3,4,3,connected_statements<4
 P2,substantial,82.5,01a0102a-57ec-76b4-9b5e-c8a4af464dc8,vehicle,Cadillac Runabout (1903),55,2,4,2,connected_statements<4
@@ -834,7 +834,7 @@ P2,substantial,91.2,01a01028-5445-78c3-bf00-45481baaba69,vehicle,Hyundai Pony,64
 P4,catalog,0,85caaf96-474a-7499-8490-87c4bc1af433,vehicle,Hyundai Pony Coupe Concept,32,0,4,0,editorial_promotion_required
 P4,catalog,0,b06fa63b-cfc8-7d31-95a3-dfd889f5b318,vehicle,Italdesign Megagamma,24,0,4,0,editorial_promotion_required
 P4,catalog,0,ace5fdfa-7c88-729f-b9a4-d5ba9aabc118,vehicle,Lamborghini Marzal,39,0,4,0,editorial_promotion_required
-P3,complete,100,01a010d9-28c6-72db-9da6-6b38a676cf71,vehicle,Lamborghini Miura,88,5,4,5,
+P3,complete,100,01a010d9-28c6-72db-9da6-6b38a676cf71,vehicle,Lamborghini Miura,53,5,4,5,
 P2,substantial,91.2,01a01030-3313-7bef-8e4d-63573101fdc7,vehicle,Lancia 12 HP,64,3,4,3,connected_statements<4
 P4,catalog,0,a7585a27-a886-7db7-a12a-57cb344873b2,vehicle,Lancia Stratos Zero,49,0,4,0,editorial_promotion_required
 P3,complete,100.0,01a010d9-28c4-7374-b925-54a7bfff62c8,vehicle,Land Rover Series I,51,4,4,4,
@@ -854,7 +854,7 @@ P3,complete,100.0,01a01028-544f-762b-99d2-dfb915467c7a,vehicle,Nissan LEAF — F
 P4,catalog,0,4f25d8e6-31a3-7095-a2fb-6a9d1a69a605,vehicle,Nissan MID4,31,0,4,0,editorial_promotion_required
 P4,catalog,0,c28a7c39-b7d9-7b55-95d0-eb3f015c694f,vehicle,Norman Timbs Special,52,0,4,0,editorial_promotion_required
 P3,complete,100.0,01a0102a-57ec-75f6-9e5f-339e8aeb29d7,vehicle,Oldsmobile Curved Dash,64,4,4,4,
-P2,substantial,82.5,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,57,2,4,2,connected_statements<4
+P2,substantial,82.5,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,59,2,4,2,connected_statements<4
 P3,complete,100.0,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,49,4,4,4,
 P4,catalog,0,4c65a7d8-a368-77e9-90b9-075622ae9ee2,vehicle,Peugeot Oxia,27,0,4,0,editorial_promotion_required
 P4,catalog,0,e0c957dc-5500-7899-adef-0fc0c0d8be1f,vehicle,Peugeot Proxima,29,0,4,0,editorial_promotion_required

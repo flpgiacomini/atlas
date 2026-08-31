@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 325
+    "editorialBelowBarCeiling": 323
   },
   "belowBar": [
     {
@@ -2852,17 +2852,6 @@
       "evidencedClaimCount": 4,
       "hasEvidencedClaim": true,
       "hasIndependentSource": false,
-      "id": "atlas:vehicle:buick-y-job",
-      "independentOnlyByReference": false,
-      "name": "Buick Y-Job",
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 4,
-      "clearsBar": false,
-      "evidencedClaimCount": 4,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
       "id": "atlas:vehicle:byd-f3dm",
       "independentOnlyByReference": false,
       "name": "BYD F3DM",
@@ -3075,17 +3064,6 @@
       "id": "atlas:vehicle:hyundai-pony",
       "independentOnlyByReference": false,
       "name": "Hyundai Pony",
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 5,
-      "clearsBar": false,
-      "evidencedClaimCount": 5,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:lamborghini-miura",
-      "independentOnlyByReference": false,
-      "name": "Lamborghini Miura",
       "type": "Vehicle"
     },
     {
@@ -3597,7 +3575,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 77,
+    "Vehicle": 75,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3636,12 +3614,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "d951a3d5f98d806f1b739575ad3db522f73baf8a016f3648de1069199354beee",
+  "reportSha256": "b3cffac6a14b9b15a9ed95877eb5beeb115f69f975a80a73df947f67975ffa24",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 325,
+    "editorialBelowBar": 323,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

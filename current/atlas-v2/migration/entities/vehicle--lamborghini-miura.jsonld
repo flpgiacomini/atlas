@@ -66,7 +66,12 @@
       "statementLegacyId": "01a010d9-28c7-7e55-87b1-e4855b5d4a8f",
       "subject": "atlas:vehicle:lamborghini-miura",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1966",
+        "precision": "year",
+        "until": null
+      }
     },
     {
       "confidence": "high",
@@ -110,10 +115,43 @@
       "statementLegacyId": "01a010d9-28c7-7e55-87b1-e4855b5d4a8f",
       "subject": "atlas:vehicle:lamborghini-miura",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1966",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-7cd9444f4a2d7d25bb80cce7572b4cc7"
+      ],
+      "id": "atlas:claim:legacy-a90799979d447e4bb2901d863d322248",
+      "legacyId": "a9079997-9d44-7e4b-b290-1d863d322248",
+      "note": "Confronto independente da estreia: o museu situa a apresentação no Salão de Genebra de 1966 e atribui a carroceria à Bertone. A atribuição do desenho a Marcello Gandini permanece sustentada apenas pela Lamborghini; o museu credita a casa, não o indivíduo.",
+      "object": {
+        "id": "atlas:brand:lamborghini",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audrain-auto-museum-1968-lamborghini-miura"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c7-7e55-87b1-e4855b5d4a8f",
+      "subject": "atlas:vehicle:lamborghini-miura",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1966",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Lamborghini Miura é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra uso da tecnologia Mid-engine road-car architecture. A documentação registra responsabilidade de projeto de Marcello Gandini. Também aparece na relação de participação de associada a First production Lamborghini Miura delivered. Também aparece na relação de participação de associada a Lamborghini Miura presentation at Geneva Motor Show. A documentação registra comercialização sob Lamborghini. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Automóvel esportivo de motor central apresentado pela Lamborghini no Salão de Genebra de 1966, segundo o Audrain Auto Museum, que atribui a carroceria à Bertone. A Lamborghini credita o desenho a Marcello Gandini, que trabalhava naquela casa. O modelo levou ao automóvel de rua a arquitetura de motor central então restrita à competição.",
   "id": "atlas:vehicle:lamborghini-miura",
   "legacy": {
     "id": "01a010d9-28c6-72db-9da6-6b38a676cf71",
@@ -128,6 +166,7 @@
       "01a010d9-28c7-7dbd-b7cb-82e7a266de70",
       "01a010d9-28c7-7e55-87b1-e4855b5d4a8f"
     ],
+    "documentary_batch": "D06",
     "editorial_batch": "E10",
     "editorial_level": "editorial",
     "vehicle_kind": "production",

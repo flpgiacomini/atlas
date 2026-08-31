@@ -1,17 +1,17 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 182,
-    "independentFloor": 119
+    "dependentOnlyCeiling": 180,
+    "independentFloor": 121
   },
   "citationsBySourceType": {
     "archive": 12,
     "government": 26,
     "industry_association": 1,
-    "institutional": 85,
+    "institutional": 86,
     "manufacturer": 442,
     "manufacturer_archive": 125,
     "manufacturer_regional": 3,
-    "museum": 76,
+    "museum": 77,
     "museum_catalogue": 3,
     "museum_collection": 3,
     "organization": 37,
@@ -137,7 +137,6 @@
     "atlas:vehicle:bmw-3-series",
     "atlas:vehicle:bugatti-eb110",
     "atlas:vehicle:bugatti-veyron-16-4",
-    "atlas:vehicle:buick-y-job",
     "atlas:vehicle:byd-f3dm",
     "atlas:vehicle:cadillac-model-k",
     "atlas:vehicle:chevrolet-corvair-monza-gt",
@@ -157,7 +156,6 @@
     "atlas:vehicle:honda-n360-at",
     "atlas:vehicle:hongqi-ca72",
     "atlas:vehicle:hyundai-pony",
-    "atlas:vehicle:lamborghini-miura",
     "atlas:vehicle:lancia-12-hp",
     "atlas:vehicle:lincoln-futura",
     "atlas:vehicle:mazda-cosmo-sport-110s",
@@ -204,15 +202,15 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "021a165faa7ff5f0b21e07f236a79a6b6ee085aa4af64c27f92d9d6c5b55780d",
+  "reportSha256": "9474dc9cf1a98594e859720b71d4fdd34e9ce745a8942512b469cc0ddf8d3549",
   "status": "PASS",
   "summary": {
-    "citations": 866,
+    "citations": 868,
     "dependentCitations": 571,
-    "dependentOnlyEntities": 182,
+    "dependentOnlyEntities": 180,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 119,
-    "sourcesClassified": 739,
+    "independentEntities": 121,
+    "sourcesClassified": 741,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

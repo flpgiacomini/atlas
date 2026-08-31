@@ -23,10 +23,15 @@
       "statementLegacyId": "1f60e590-b6fd-731c-8ec0-a2f7ad9d5059",
       "subject": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1904",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Panhard race car — 1904 Vanderbilt Cup é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de veículo inscrito associada a 1904 Vanderbilt Cup #7 — George Heath / Panhard. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Automóvel de competição da Panhard & Levassor que George Heath conduziu à vitória na primeira Vanderbilt Cup, em Long Island, Nova York, em 8 de outubro de 1904. O museu The Henry Ford registra que o Panhard número 7, de fabricação francesa, completou o percurso em 5 horas, 26 minutos e 45 segundos, a uma média de 52,2 mph.",
   "id": "atlas:vehicle:panhard-race-car-1904-vanderbilt-cup",
   "legacy": {
     "id": "01a01031-ec55-739b-abf7-ba1888203e8d",
@@ -37,6 +42,7 @@
     "description_basis_statement_ids": [
       "01a01031-ec55-7b69-97fe-96510370c2e0"
     ],
+    "documentary_batch": "D06",
     "editorial_batch": "E10",
     "editorial_level": "editorial",
     "vehicle_kind": "race_car",

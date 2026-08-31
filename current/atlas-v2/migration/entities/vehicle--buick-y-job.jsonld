@@ -26,7 +26,43 @@
       "statementLegacyId": "5d0194dd-31e8-7c9b-bba3-805973782aec",
       "subject": "atlas:vehicle:buick-y-job",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1938",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-dba408198e257b7f8dc1e860cc05c426"
+      ],
+      "id": "atlas:claim:legacy-3e3f1514b7eb797d8c284b950a318f38",
+      "legacyId": "3e3f1514-b7eb-797d-8c28-4b950a318f38",
+      "note": "Confronto independente: o registro nacional data o objeto de 1938 e o documenta junto à Library of Congress, fora do arquivo da General Motors. O registro não afirma que o Y-Job foi o primeiro concept car, apenas que inaugurou o concept car moderno.",
+      "object": {
+        "id": "atlas:brand:buick",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "qualifiers": {
+        "editorial_batch": "V02"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:hagerty-drivers-foundation-1938-buick-y-job-national-historic-vehicle-register-no-14"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "5d0194dd-31e8-7c9b-bba3-805973782aec",
+      "subject": "atlas:vehicle:buick-y-job",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1938",
+        "precision": "year",
+        "until": null
+      }
     },
     {
       "confidence": "high",
@@ -107,7 +143,7 @@
       "type": "Claim"
     }
   ],
-  "description": "Concept car construído em 1938 para explorar antecipadamente forma, equipamentos e reação pública, sem intenção imediata de produção. Concebido por Harley Earl e pela organização hoje conhecida como GM Design, usou chassi Buick de 1937 e antecipou faróis ocultos, maçanetas niveladas, capota recolhida sob cobertura metálica e vidros elétricos.",
+  "description": "Concept car construído em 1938 para explorar antecipadamente forma, equipamentos e reação pública, sem intenção imediata de produção. Concebido por Harley Earl na GM Design, está inscrito no National Historic Vehicle Register sob o número 14 e documentado no Historic American Engineering Record da Library of Congress sob HAER MI-417, registro que o descreve como o Buick experimental que inaugurou o concept car moderno.",
   "id": "atlas:vehicle:buick-y-job",
   "legacy": {
     "id": "c3ccd397-03ed-78d9-960c-b5ed92b01a05",
@@ -121,6 +157,7 @@
       "5d0194dd-31e8-7c9b-bba3-805973782aec",
       "4a527757-bb4e-7f08-9f5e-b368dade8348"
     ],
+    "documentary_batch": "D06",
     "editorial_batch": "V02",
     "editorial_level": "editorial",
     "vehicle_kind": "concept",

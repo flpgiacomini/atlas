@@ -6855,6 +6855,19 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "explicit_statement",
+      "excerpt": "At the 1966 Geneva Auto Show, Lamborghini unveiled the Miura, a sleek mid-engine supercar designed by Bertone.",
+      "id": "atlas:evidence:legacy-7cd9444f4a2d7d25bb80cce7572b4cc7",
+      "legacyId": "7cd9444f-4a2d-7d25-bb80-cce7572b4cc7",
+      "locator": {
+        "quote": "At the 1966 Geneva Auto Show",
+        "section": "Past to Present exhibit"
+      },
+      "notes": "Passagem documental D06; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:audrain-auto-museum-1968-lamborghini-miura",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "web_page",
       "id": "atlas:evidence:legacy-7d9d4d0cdb3d7c5c93ebbcd547848d53",
       "legacyId": "7d9d4d0c-db3d-7c5c-93eb-bcd547848d53",
@@ -7090,13 +7103,15 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "web_page",
+      "evidenceType": "collection_record",
+      "excerpt": "His French-built #7 Panhard finished in 5 hours, 26 minutes, 45 seconds, for an average race speed of 52.2 mph.",
       "id": "atlas:evidence:legacy-981b41be33367690860c7adeb2608ac1",
       "legacyId": "981b41be-3336-7690-860c-7adeb2608ac1",
       "locator": {
-        "section": "Panhard race car — 1904 Vanderbilt Cup"
+        "quote": "October 8, 1904",
+        "section": "Panhard Race Car Driven by George Heath Winning the First Vanderbilt Cup Race, Long Island, New York, October 8, 1904"
       },
-      "notes": "Verificação editorial do predicado manufactured_by; sem reprodução de trecho protegido.",
+      "notes": "Passagem documental D06; localizador e trecho conferidos na fonte em 2026-08-31.",
       "source": "atlas:source:the-henry-ford-the-vanderbilt-cup",
       "type": "Evidence"
     },
@@ -7568,6 +7583,20 @@
       },
       "notes": "Verificação editorial do predicado worked_at; sem reprodução de trecho protegido.",
       "source": "atlas:source:the-henry-ford-henry-ford-biography",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "register_record",
+      "excerpt": "This experimental Buick ushered in the modern 'concept car.'",
+      "id": "atlas:evidence:legacy-dba408198e257b7f8dc1e860cc05c426",
+      "legacyId": "dba40819-8e25-7b7f-8dc1-e860cc05c426",
+      "locator": {
+        "documentation": "HAER No. MI-417",
+        "register": "National Historic Vehicle Register No. 14",
+        "repository": "Library of Congress, Prints and Photographs Division"
+      },
+      "notes": "Passagem documental D06; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:hagerty-drivers-foundation-1938-buick-y-job-national-historic-vehicle-register-no-14",
       "type": "Evidence"
     },
     {
