@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 10
+    "anchoredVehiclesFloor": 13
   },
   "errors": [],
   "queue": [
@@ -452,17 +452,6 @@
       "needsTemporalAnchor": true
     },
     {
-      "assertedYears": [
-        1963,
-        1964
-      ],
-      "claimCount": 12,
-      "id": "atlas:vehicle:porsche-911",
-      "name": "Porsche 911",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": false
-    },
-    {
       "assertedYears": [],
       "claimCount": 4,
       "id": "atlas:vehicle:porsche-911-g-series",
@@ -541,16 +530,6 @@
       "name": "Porsche 911 Type 997",
       "needsIndependentSource": true,
       "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [
-        1969
-      ],
-      "claimCount": 9,
-      "id": "atlas:vehicle:porsche-917",
-      "name": "Porsche 917",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": false
     },
     {
       "assertedYears": [],
@@ -749,30 +728,18 @@
       "name": "Volkswagen Golf — First Generation",
       "needsIndependentSource": true,
       "needsTemporalAnchor": false
-    },
-    {
-      "assertedYears": [
-        1958,
-        1959,
-        1965
-      ],
-      "claimCount": 9,
-      "id": "atlas:vehicle:volvo-pv544",
-      "name": "Volvo PV544",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "b064e9a3b1ad6c60aa26fd774c2e9963e1965fbef9689df9646879b24ec02cbb",
+  "reportSha256": "1928f2f2e8be4651ea8b273bf8b28fb6c15a812f6d52786edb34a6bc3e555535",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 10,
+    "anchoredVehicles": 13,
     "editorialVehicles": 102,
     "needingBoth": 72,
-    "needingIndependentSource": 81,
+    "needingIndependentSource": 78,
     "needingTemporalAnchor": 83,
-    "queuedVehicles": 92
+    "queuedVehicles": 89
   },
   "version": "1.0.0"
 }

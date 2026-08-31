@@ -32,8 +32,8 @@
       "id": "atlas:claim:three-point-belt-designed-by-nils-bohlin", "type": "Claim",
       "subject": "atlas:vehicle:volvo-pv544", "predicate": "associated-with",
       "object": {"id":"atlas:person:nils-bohlin","type":"EntityReference"},
-      "sources": ["atlas:source:volvo-three-point-belt-fifty-years"],
-      "evidence": ["atlas:evidence:nils-bohlin-three-point-design"], "confidence": "high"
+      "sources": ["atlas:source:volvo-three-point-belt-fifty-years", "atlas:source:uspto-patent-3043625"],
+      "evidence": ["atlas:evidence:nils-bohlin-three-point-design", "atlas:evidence:nils-bohlin-patent-us3043625"], "confidence": "high"
     },
     {
       "id": "atlas:claim:first-standard-three-point-belt-pv544-delivery-1959-08-13", "type": "Claim",
@@ -54,7 +54,8 @@
     {"id":"atlas:source:volvo-1950-1959-review","type":"Source","title":"1950–1959: a historical review","publisher":"Volvo Cars Media UK","url":"https://www.volvocars.com/uk/media/press-releases/8AB0FB1CFAA609FE/","trust":"institutional","verifiedAt":"2026-08-24"},
     {"id":"atlas:source:volvo-three-point-belt-fifty-years","type":"Source","title":"3-point safety belt from Volvo — the most effective lifesaver in traffic for fifty years","publisher":"Volvo Cars Media","url":"https://www.media.volvocars.com/us/en-us/media/pressreleases/18405/","trust":"institutional","verifiedAt":"2026-08-24"},
     {"id":"atlas:source:volvo-three-point-belt-sixty-years","type":"Source","title":"Volvo Cars’ three-point safety belt turns 60","publisher":"Volvo Cars Media Norway","url":"https://www.volvocars.com/no/media/press-releases/6440B0F0A0207756/","trust":"institutional","verifiedAt":"2026-08-24"},
-    {"id":"atlas:source:volvo-safety-heritage","type":"Source","title":"Volvo Cars Safety Heritage","publisher":"Volvo Cars","url":"https://www.volvocars.com/tt/safety/legacy/","trust":"institutional","verifiedAt":"2026-08-24"}
+    {"id":"atlas:source:volvo-safety-heritage","type":"Source","title":"Volvo Cars Safety Heritage","publisher":"Volvo Cars","url":"https://www.volvocars.com/tt/safety/legacy/","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:uspto-patent-3043625","type":"Source","title":"Safety belt — United States Patent 3,043,625","author":"Nils Ivar Bohlin","publisher":"United States Patent and Trademark Office","publishedAt":"1962-07-10","url":"https://patents.google.com/patent/US3043625A/en","trust":"primary","verifiedAt":"2026-08-31"}
   ],
   "evidence": [
     {"id":"atlas:evidence:volvo-pv544-august-1958","type":"Evidence","source":"atlas:source:volvo-1950-1959-review","evidenceType":"manufacturer-archive","locator":{"month":"1958-08"},"notes":"A cronologia da Volvo registra a apresentação do PV544 em agosto de 1958."},
@@ -62,7 +63,8 @@
     {"id":"atlas:evidence:volvo-pv544-three-point-belt-1959","type":"Evidence","source":"atlas:source:volvo-three-point-belt-fifty-years","evidenceType":"manufacturer-archive","locator":{"year":"1959","markets":"Nordic"},"notes":"A Volvo registra a introdução do cinto de três pontos nos modelos Amazon e PV544 nos mercados nórdicos em 1959, como equipamento de série."},
     {"id":"atlas:evidence:nils-bohlin-three-point-design","type":"Evidence","source":"atlas:source:volvo-three-point-belt-fifty-years","evidenceType":"manufacturer-archive","locator":{"section":"From catapult seats to Volvo cars"},"notes":"A fonte atribui a Nils Bohlin a configuração em V do cinto moderno e explica seus pontos de ancoragem."},
     {"id":"atlas:evidence:first-pv544-three-point-delivery","type":"Evidence","source":"atlas:source:volvo-three-point-belt-sixty-years","evidenceType":"manufacturer-archive","locator":{"date":"1959-08-13","place":"Kristianstad"},"notes":"A Volvo situa em 13 de agosto de 1959 a entrega em Kristianstad de um PV544 equipado de série com o cinto de três pontos."},
-    {"id":"atlas:evidence:volvo-open-belt-patent","type":"Evidence","source":"atlas:source:volvo-three-point-belt-fifty-years","evidenceType":"manufacturer-archive","locator":{"section":"Volvo first with 3-point belt as standard"},"notes":"A fonte afirma que a Volvo disponibilizou a patente de Bohlin aos demais fabricantes, favorecendo a difusão da solução."}
+    {"id":"atlas:evidence:volvo-open-belt-patent","type":"Evidence","source":"atlas:source:volvo-three-point-belt-fifty-years","evidenceType":"manufacturer-archive","locator":{"section":"Volvo first with 3-point belt as standard"},"notes":"A fonte afirma que a Volvo disponibilizou a patente de Bohlin aos demais fabricantes, favorecendo a difusão da solução."},
+    {"id":"atlas:evidence:nils-bohlin-patent-us3043625","type":"Evidence","source":"atlas:source:uspto-patent-3043625","evidenceType":"patent-record","locator":{"patent":"US 3,043,625","section":"Description, parágrafo de abertura","filed":"1959-08-17","priority":"1958-08-29 (SE)","granted":"1962-07-10"},"excerpt":"Safety belts comprising a chest strap adapted to be strapped obliquely across the chest are frequently used in order to prevent a driver from being thrown against fore parts of the vehicle, such as a wind-shield or steering column, in case the vehicle is colliding or upon hard application of the brakes.","notes":"Registro governamental: o depósito nomeia Nils Ivar Bohlin, de Göteborg, como inventor, e a Aktiebolaget Volvo como cessionária. Fixa por ato de terceiro a data em que o desenho existia — prioridade sueca de 29 de agosto de 1958 e depósito nos EUA em 17 de agosto de 1959. Não atesta a montagem de série no PV544, que segue sustentada apenas pela Volvo."}
   ],
   "metadata": {"editorial_level":"editorial","editorial_batch":"CP16-05","region_cluster":"Europa 1946-1959"}
 }

@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 46,
-    "withoutDocumentaryCeiling": 255
+    "documentedFloor": 47,
+    "withoutDocumentaryCeiling": 254
   },
   "errors": [],
   "queue": [
@@ -2076,15 +2076,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 9,
-      "deferredLocators": 0,
-      "id": "atlas:vehicle:porsche-917",
-      "name": "Porsche 917",
-      "nominalLocators": 9,
-      "statementCount": 7,
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 2,
       "deferredLocators": 0,
       "id": "atlas:vehicle:porsche-917-10",
@@ -2311,18 +2302,18 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 84,
+    "Vehicle": 83,
     "VehicleInstance": 5
   },
-  "reportSha256": "5cf10d9fa22ee79bc7ff9925e296da9671ce57fcac374af795983ff3a4518555",
+  "reportSha256": "4d4d89ccb70c4275454ff48857ff908db22d6e9b28e85a6797d490614c293a1e",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 472,
-    "documentaryEvidence": 132,
+    "documentaryEvidence": 137,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 46,
-    "entitiesWithoutDocumentaryEvidence": 255,
-    "evidenceRecords": 860,
+    "entitiesWithDocumentaryEvidence": 47,
+    "entitiesWithoutDocumentaryEvidence": 254,
+    "evidenceRecords": 865,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

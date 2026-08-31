@@ -1,11 +1,11 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 186,
-    "independentFloor": 115
+    "dependentOnlyCeiling": 183,
+    "independentFloor": 118
   },
   "citationsBySourceType": {
     "archive": 12,
-    "government": 25,
+    "government": 26,
     "industry_association": 1,
     "institutional": 85,
     "manufacturer": 442,
@@ -16,7 +16,7 @@
     "museum_collection": 3,
     "organization": 37,
     "specialized_database": 21,
-    "specialized_journalism": 11,
+    "specialized_journalism": 15,
     "structured_data": 16
   },
   "debt": [
@@ -170,7 +170,6 @@
     "atlas:vehicle:peugeot-type-2",
     "atlas:vehicle:peugeot-type-3",
     "atlas:vehicle:porsche-356",
-    "atlas:vehicle:porsche-911",
     "atlas:vehicle:porsche-911-g-series",
     "atlas:vehicle:porsche-911-original",
     "atlas:vehicle:porsche-911-targa-original-generation",
@@ -181,7 +180,6 @@
     "atlas:vehicle:porsche-911-type-993",
     "atlas:vehicle:porsche-911-type-996",
     "atlas:vehicle:porsche-911-type-997",
-    "atlas:vehicle:porsche-917",
     "atlas:vehicle:porsche-917-10",
     "atlas:vehicle:porsche-917-30",
     "atlas:vehicle:porsche-917-k",
@@ -204,19 +202,18 @@
     "atlas:vehicle:toyota-mirai-first-generation",
     "atlas:vehicle:toyota-prius-first-generation",
     "atlas:vehicle:volkswagen-beetle-type-1",
-    "atlas:vehicle:volkswagen-golf-first-generation",
-    "atlas:vehicle:volvo-pv544"
+    "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "48fb43bf1c3111b9d0bcd96bb63ec2c31c194fdd6f5e0e89feb88853229a6660",
+  "reportSha256": "d187269d9718d57fe3c6e0b6deb87305d9bd8855411b899553d057abd142368b",
   "status": "PASS",
   "summary": {
-    "citations": 860,
+    "citations": 865,
     "dependentCitations": 571,
-    "dependentOnlyEntities": 186,
+    "dependentOnlyEntities": 183,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 115,
-    "sourcesClassified": 735,
+    "independentEntities": 118,
+    "sourcesClassified": 738,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 329
+    "editorialBelowBarCeiling": 326
   },
   "belowBar": [
     {
@@ -3221,17 +3221,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 12,
-      "clearsBar": false,
-      "evidencedClaimCount": 12,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:porsche-911",
-      "independentOnlyByReference": false,
-      "name": "Porsche 911",
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 4,
       "clearsBar": false,
       "evidencedClaimCount": 4,
@@ -3339,17 +3328,6 @@
       "id": "atlas:vehicle:porsche-911-type-997",
       "independentOnlyByReference": false,
       "name": "Porsche 911 Type 997",
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 9,
-      "clearsBar": false,
-      "evidencedClaimCount": 9,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:porsche-917",
-      "independentOnlyByReference": false,
-      "name": "Porsche 917",
       "type": "Vehicle"
     },
     {
@@ -3615,17 +3593,6 @@
       "independentOnlyByReference": false,
       "name": "Volkswagen Golf — First Generation",
       "type": "Vehicle"
-    },
-    {
-      "claimCount": 9,
-      "clearsBar": false,
-      "evidencedClaimCount": 9,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:volvo-pv544",
-      "independentOnlyByReference": false,
-      "name": "Volvo PV544",
-      "type": "Vehicle"
     }
   ],
   "belowBarByType": {
@@ -3641,7 +3608,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 81,
+    "Vehicle": 78,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3680,12 +3647,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "861bd61893310eed0f9f36023c5541a13e7a1ff541795eeba1feb1f600435896",
+  "reportSha256": "9fd0f53ab6a688f8f329a340b547970ba04cf157fbe1acba62edfe648a702307",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 329,
+    "editorialBelowBar": 326,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

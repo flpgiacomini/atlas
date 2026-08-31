@@ -10,8 +10,8 @@
       "id": "atlas:claim:porsche-901-presented-frankfurt-1963-09-12", "type": "Claim",
       "subject": "atlas:vehicle:porsche-911", "predicate": "introduced-on",
       "object": {"type":"date","value":"1963-09-12","precision":"day"},
-      "sources": ["atlas:source:porsche-original-911-masterpiece"],
-      "evidence": ["atlas:evidence:porsche-901-frankfurt-debut"], "confidence": "high"
+      "sources": ["atlas:source:porsche-original-911-masterpiece", "atlas:source:motor-sport-1983-porsche-911-birthday"],
+      "evidence": ["atlas:evidence:porsche-901-frankfurt-debut", "atlas:evidence:porsche-901-frankfurt-motor-sport"], "confidence": "high"
     },
     {
       "id": "atlas:claim:porsche-911-successor-of-356", "type": "Claim",
@@ -38,22 +38,25 @@
       "id": "atlas:claim:porsche-901-renamed-911-1964-10-22", "type": "Claim",
       "subject": "atlas:vehicle:porsche-911", "predicate": "renamed-on",
       "object": {"type":"date","value":"1964-10-22","precision":"day"},
-      "sources": ["atlas:source:porsche-754-901-911-evolution"],
-      "evidence": ["atlas:evidence:porsche-901-renamed-911"], "confidence": "high"
+      "sources": ["atlas:source:porsche-754-901-911-evolution", "atlas:source:motor-sport-1983-porsche-911-birthday"],
+      "evidence": ["atlas:evidence:porsche-901-renamed-911", "atlas:evidence:porsche-901-renamed-motor-sport"], "confidence": "high"
     }
   ],
   "sources": [
     {"id":"atlas:source:porsche-original-911-masterpiece","type":"Source","title":"The original 911: the masterpiece from Zuffenhausen","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/history/porsche-911-seven-generations-part-1-original-911-16452.html","trust":"institutional","verifiedAt":"2026-08-24"},
     {"id":"atlas:source:porsche-911-first-generation","type":"Source","title":"First generation Porsche 911 (original 911), 1963–1973","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/press-kits/60-Years-Porsche-911/1.-Generation-Porsche-911-%28Ur-Elfer%29%2C-1963-1973.html","trust":"institutional","verifiedAt":"2026-08-24"},
     {"id":"atlas:source:porsche-i-am-legend","type":"Source","title":"I am legend","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/history/porsche-911-construction-sketch-10955.html","trust":"institutional","verifiedAt":"2026-08-24"},
-    {"id":"atlas:source:porsche-754-901-911-evolution","type":"Source","title":"An evolutionary history: From the 754 via the 901 to the 911","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/history/porsche-911-evolutionary-history-754-901-ferry-porsche-14641.html","trust":"institutional","verifiedAt":"2026-08-24"}
+    {"id":"atlas:source:porsche-754-901-911-evolution","type":"Source","title":"An evolutionary history: From the 754 via the 901 to the 911","publisher":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/history/porsche-911-evolutionary-history-754-901-ferry-porsche-14641.html","trust":"institutional","verifiedAt":"2026-08-24"},
+    {"id":"atlas:source:motor-sport-1983-porsche-911-birthday","type":"Source","title":"Happy Birthday Porsche 911!","author":"Mike Cotton","publisher":"Motor Sport Magazine","publishedAt":"1983-10","url":"https://www.motorsportmagazine.com/archive/article/october-1983/86/happy-birthday-porsche-911/","trust":"specialist","verifiedAt":"2026-08-31"}
   ],
   "evidence": [
     {"id":"atlas:evidence:porsche-901-frankfurt-debut","type":"Evidence","source":"atlas:source:porsche-original-911-masterpiece","evidenceType":"manufacturer-archive","locator":{"date":"1963-09-12"},"notes":"A Porsche registra a apresentação do sucessor do 356, ainda denominado 901, no IAA de Frankfurt em 12 de setembro de 1963."},
     {"id":"atlas:evidence:porsche-911-successor-356","type":"Evidence","source":"atlas:source:porsche-911-first-generation","evidenceType":"manufacturer-archive","locator":{"section":"First generation"},"notes":"O press kit descreve o 901 como sucessor inteiramente novo do Porsche 356."},
     {"id":"atlas:evidence:porsche-901-design","type":"Evidence","source":"atlas:source:porsche-i-am-legend","evidenceType":"manufacturer-archive","locator":{"section":"Characteristics of the 901"},"notes":"A fonte atribui a silhueta do 901 a Ferdinand Alexander Porsche e descreve seus elementos técnicos principais."},
     {"id":"atlas:evidence:porsche-901-series-production","type":"Evidence","source":"atlas:source:porsche-754-901-911-evolution","evidenceType":"manufacturer-archive","locator":{"date":"1964-09-14"},"notes":"A Porsche registra o início da produção em série do 901 em 14 de setembro de 1964."},
-    {"id":"atlas:evidence:porsche-901-renamed-911","type":"Evidence","source":"atlas:source:porsche-754-901-911-evolution","evidenceType":"manufacturer-archive","locator":{"date":"1964-10-22"},"notes":"A fonte situa em 22 de outubro de 1964 a ordem de Ferry Porsche que alterou a denominação 901 para 911."}
+    {"id":"atlas:evidence:porsche-901-renamed-911","type":"Evidence","source":"atlas:source:porsche-754-901-911-evolution","evidenceType":"manufacturer-archive","locator":{"date":"1964-10-22"},"notes":"A fonte situa em 22 de outubro de 1964 a ordem de Ferry Porsche que alterou a denominação 901 para 911."},
+    {"id":"atlas:evidence:porsche-901-frankfurt-motor-sport","type":"Evidence","source":"atlas:source:motor-sport-1983-porsche-911-birthday","evidenceType":"partial-corroboration","locator":{"article":"Happy Birthday Porsche 911!","issue":"October 1983","page":"86"},"excerpt":"Twenty years ago, at the Frankfurt Auto Salon in 1963, Dr Ferry Porsche unveiled the Porsche 901 which, through an accident of fate, was renamed the 911 by the time it went into production 12 months later.","notes":"Confronto independente da estreia: a revista situa a apresentação por Ferry Porsche no Salão de Frankfurt de 1963. Corrobora o ano e o salão; não confirma o dia 12 de setembro, que segue sustentado apenas pela Porsche."},
+    {"id":"atlas:evidence:porsche-901-renamed-motor-sport","type":"Evidence","source":"atlas:source:motor-sport-1983-porsche-911-birthday","evidenceType":"partial-corroboration","locator":{"article":"Happy Birthday Porsche 911!","issue":"October 1983","page":"86"},"excerpt":"Twenty years ago, at the Frankfurt Auto Salon in 1963, Dr Ferry Porsche unveiled the Porsche 901 which, through an accident of fate, was renamed the 911 by the time it went into production 12 months later.","notes":"Confronto independente do renome: a revista registra que o 901 já se chamava 911 quando entrou em produção, cerca de doze meses após o salão. Corrobora que o renome precedeu a produção; não confirma a data de 22 de outubro de 1964."}
   ],
   "metadata": {"editorial_level":"editorial","editorial_batch":"CP16-02","region_cluster":"Europa 1960-1979"}
 }
