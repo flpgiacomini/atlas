@@ -1,11 +1,11 @@
 {
   "baseline": {
     "dependentOnlyCeiling": 182,
-    "independentFloor": 119
+    "independentFloor": 120
   },
   "citationsBySourceType": {
     "archive": 12,
-    "government": 28,
+    "government": 32,
     "industry_association": 1,
     "institutional": 66,
     "manufacturer": 483,
@@ -205,15 +205,15 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "877a0211617f809f7f62e607598a9fb21a87a722d5e49df6846cba94d75dd4b5",
+  "reportSha256": "0c8a4edf1a951849f92b0bab2bd0e5f53dac3f872fb0c2ee3ee4f7711a355cc2",
   "status": "PASS",
   "summary": {
-    "citations": 877,
+    "citations": 881,
     "dependentCitations": 591,
     "dependentOnlyEntities": 182,
-    "editorialEntitiesWithClaims": 301,
-    "independentEntities": 119,
-    "sourcesClassified": 748,
+    "editorialEntitiesWithClaims": 302,
+    "independentEntities": 120,
+    "sourcesClassified": 749,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

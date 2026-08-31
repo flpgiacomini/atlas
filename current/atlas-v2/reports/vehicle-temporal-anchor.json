@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 30
+    "anchoredVehiclesFloor": 31
   },
   "errors": [],
   "queue": [
@@ -592,12 +592,12 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "5e4baeb1aa89f85b5ddf31d5186bb2a8dcbcd2148fd4945a4bcf0db57e83d026",
+  "reportSha256": "2300eb9429ae7e6d53183f4eca971de8c6bea50e8a8a4ad539bdf930a845e15e",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 30,
-    "editorialVehicles": 102,
+    "anchoredVehicles": 31,
+    "editorialVehicles": 103,
     "needingBoth": 65,
     "needingIndependentSource": 70,
     "needingTemporalAnchor": 67,

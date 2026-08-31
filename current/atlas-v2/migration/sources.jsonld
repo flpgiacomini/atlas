@@ -8485,6 +8485,20 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "author": "G. Daimler, Kannstatt",
+      "id": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423",
+      "language": "de",
+      "legacyId": "df2752e5-17ee-7279-80f4-48259773e373",
+      "notes": "Fonte primária introduzida na passagem D10.",
+      "publisher": "Deutsches Patent- und Markenamt",
+      "sourceType": "government",
+      "title": "Fahrzeug mit Gas- oder Petroleumkraftmaschine — Deutsches Reichspatent 36423",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://patents.google.com/patent/DE36423C/en",
+      "verifiedAt": "2026-09-01T03:00:00+00:00"
+    },
+    {
       "externalIds": {
         "wikidata": "Q4862180"
       },

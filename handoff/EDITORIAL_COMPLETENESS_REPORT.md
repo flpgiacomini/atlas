@@ -6,8 +6,8 @@ Backlog: `handoff/EDITORIAL_COMPLETENESS_BACKLOG.csv`
 
 ## Resultado
 
-- Entidades auditadas: **920**
-- Completas: **146**
+- Entidades auditadas: **921**
+- Completas: **147**
 - Substanciais: **252**
 - Parciais: **0**
 - Stubs: **0**
@@ -34,7 +34,7 @@ Este resultado substitui qualquer interpretação anterior de que cobertura de r
 | place | 4 | 1 | 86.9 |
 | team | 3 | 0 | 76.7 |
 | technology | 37 | 8 | 83.0 |
-| vehicle | 142 | 45 | 66.5 |
+| vehicle | 143 | 46 | 66.8 |
 | vehicle_instance | 5 | 0 | 87.7 |
 
 ## Definição operacional

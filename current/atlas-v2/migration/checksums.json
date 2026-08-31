@@ -806,6 +806,7 @@
     "entities/vehicle--daimler-4-hp-truck-1896.jsonld": "d0843444b004396246cbdf2a135d089b0c7f417adf7ea6945cf849a1df2c6c45",
     "entities/vehicle--daimler-marienfelde-dc-truck-bus-series.jsonld": "f278873419efb0ca8cf76702d27046a78fe3d8980b28f64de463a7d1cf6b6a6e",
     "entities/vehicle--daimler-motorized-carriage-1886.jsonld": "c7717eaf2ea32947c85d624be1e0d46004676fb9557a13c1e98b2605774bb466",
+    "entities/vehicle--daimler-reitwagen-1885.jsonld": "b2e3d7919b3b6687aa011391fc64498a06b46f00df2c693cee964614831379f3",
     "entities/vehicle--fardier-a-vapeur-de-cugnot.jsonld": "cd710a35a7710294a7e6155330d1e3af9ad45bbd7e55aa3549921caf9a14b26d",
     "entities/vehicle--ferrari-125-s.jsonld": "120ee20dd2fb2bb6a2dd5fb4c5c177adac91a6013dbb40938f5766855a623fc9",
     "entities/vehicle--ferrari-p4-5-by-pininfarina.jsonld": "4e64bab894d620af6ada721fd896faa2a79352240ac5e687dfd090121b6137dc",
@@ -921,10 +922,10 @@
     "entities/vehicle-instance--porsche-917-001.jsonld": "c6a930f54b3552a0b648135eb51ce935ca3c9f5f55793c88a73fe42026b36d11",
     "entities/vehicle-instance--porsche-917-023.jsonld": "09c978326694ee47778f25636acda9368fa351c8eef7e5b852975dd937121aba",
     "entities/vehicle-instance--rolls-royce-40-50-h-p-chassis-60551-silver-ghost.jsonld": "6c17d325a510f50c99cd304b7385316c4a4b59dcc5ceb27d56d4a72fedce111b",
-    "evidence.jsonld": "0e6d82bea3ada75031694801f9308150caad79e7709f4185b28732d76d4c2611",
-    "identity-map.json": "618a20625c0302331b41654f9e53bf4fc98c57b21d484ba1ed235d840fd05081",
-    "migration-report.json": "829d9d8127ea2dd585afb46ef29e08ea7d6db03ae5399b0678de83509f9b5052",
+    "evidence.jsonld": "b0a814cd6e660258b6ff3df28947d534fbd1f9536d673be138825abc17667c3a",
+    "identity-map.json": "5ba029a85c9478c8c7381a89dd9571b0ce9d49196e2f40f199a93fcef3bee398",
+    "migration-report.json": "cde0151f43e43e3737df71483040ad97825a1f690e60b429eda1438bcdd03733",
     "predicates.jsonld": "fce8bb4b8bb7c8240d19dda5fda28d7e87da5528c00f6118081fac7e2a222bbf",
-    "sources.jsonld": "c65386a812630be2ba57b2b4e019d8006213e44bc9848b7c1cd0f0734cd91181"
+    "sources.jsonld": "199c555092ee1820258f2a651b4e41d3c6606d099a5c72f6fc0d58864c7ea580"
   }
 }

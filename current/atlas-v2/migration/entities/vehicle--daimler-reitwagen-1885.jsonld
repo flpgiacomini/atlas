@@ -1,0 +1,130 @@
+{
+  "@context": "https://flpgiacomini.github.io/atlas/context/v2.jsonld",
+  "aliases": [],
+  "claims": [
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e09e3ae6eb6a741fb0f0a251257928aa"
+      ],
+      "id": "atlas:claim:legacy-0d7e67c393b8726baac8c1fe2f275892",
+      "legacyId": "0d7e67c3-93b8-726b-aac8-c1fe2f275892",
+      "note": "A suspensão baixa e elástica do motor entre as rodas é afirmada na patente.",
+      "object": "Motor suspenso baixo e de forma elástica entre as rodas",
+      "predicate": "introduced-feature",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "51371be4-27e4-74a1-b558-24be96836a23",
+      "subject": "atlas:vehicle:daimler-reitwagen-1885",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1885",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-065a63852b6c71639a7bac2fb4f372ca"
+      ],
+      "id": "atlas:claim:legacy-addb373b78e57a799376a070b949b1b8",
+      "legacyId": "addb373b-78e5-7a79-9376-a070b949b1b8",
+      "note": "A configuração de trilha única é descrita na abertura da patente.",
+      "object": "Trilha única: roda diretriz e roda motriz alinhadas no mesmo eixo longitudinal",
+      "predicate": "configured-as",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "7f10cc67-d129-70df-96d7-e6d5d1fe7cc1",
+      "subject": "atlas:vehicle:daimler-reitwagen-1885",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1885",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-daef518f74547e359b81d579e668e0f2"
+      ],
+      "id": "atlas:claim:legacy-be4076a986797484b5c9777a329dd82a",
+      "legacyId": "be4076a9-8679-7484-b5c9-777a329dd82a",
+      "note": "O requerente impresso na patente é G. Daimler, de Kannstatt.",
+      "object": {
+        "id": "atlas:person:gottlieb-daimler",
+        "type": "EntityReference"
+      },
+      "predicate": "invented-by",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "fa6a4a25-e017-73b5-8752-0fe027c5e87c",
+      "subject": "atlas:vehicle:daimler-reitwagen-1885",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1885",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-cbb541747c8f78f7bad76952c8d0d4bd"
+      ],
+      "id": "atlas:claim:legacy-d2e0427e480e790db12d2cacea753e23",
+      "legacyId": "d2e0427e-480e-790d-b12d-2cacea753e23",
+      "note": "A patente descreve a força motriz como motor a gás ou petróleo com reservatório próprio.",
+      "object": {
+        "id": "atlas:technology:motor-de-combustao-interna",
+        "type": "EntityReference"
+      },
+      "predicate": "uses-technology",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "e7fef5f6-b200-72ca-a61e-601b11009222",
+      "subject": "atlas:vehicle:daimler-reitwagen-1885",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1885",
+        "precision": "year",
+        "until": null
+      }
+    }
+  ],
+  "description": "Veículo experimental de trilha única registrado por G. Daimler, de Kannstatt, no Deutsches Reichspatent 36423, patenteado no Império Alemão em 29 de agosto de 1885 sob o título “veículo com máquina motriz a gás ou petróleo”. O texto da patente descreve um chassi com assento, uma roda diretriz e uma roda motriz na mesma trilha, e um motor a gás ou petróleo com reservatório suspenso o mais baixo possível e de forma elástica entre as rodas. É o primeiro veículo rodoviário movido pelo motor rápido de Daimler.",
+  "id": "atlas:vehicle:daimler-reitwagen-1885",
+  "legacy": {
+    "id": "bf45bc2f-4a29-7f2f-922d-cb3733388785",
+    "slug": null,
+    "type": "vehicle"
+  },
+  "metadata": {
+    "documentary_batch": "D10",
+    "editorial_batch": "D10",
+    "editorial_level": "editorial",
+    "region_cluster": "Europa 1769-1899",
+    "vehicle_kind": "experimental",
+    "vehicle_level": "standalone"
+  },
+  "name": "Daimler Reitwagen (1885)",
+  "names": [],
+  "type": "Vehicle"
+}

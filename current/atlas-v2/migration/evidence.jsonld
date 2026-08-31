@@ -5938,6 +5938,19 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "patent_record",
+      "excerpt": "This vehicle essentially consists of the chassis 1 with seat 2 and a steering wheel 3 and a drive wheel 4 in the same track",
+      "id": "atlas:evidence:legacy-065a63852b6c71639a7bac2fb4f372ca",
+      "legacyId": "065a6385-2b6c-7163-9a7b-ac2fb4f372ca",
+      "locator": {
+        "patent": "DE 36423 C",
+        "section": "Beschreibung, parágrafo de abertura"
+      },
+      "notes": "Passagem documental D10; trecho conferido na patente em 2026-08-31.",
+      "source": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "web_page",
       "id": "atlas:evidence:legacy-06d5205990897d73a96e1b240787ffcd",
       "legacyId": "06d52059-9089-7d73-a96e-1b240787ffcd",
@@ -7585,6 +7598,20 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "patent_record",
+      "excerpt": "The driving force, the gas or Petroleum motor 5 with petroleum reservoir 6 is suspended as low as possible and resiliently between these wheels",
+      "id": "atlas:evidence:legacy-cbb541747c8f78f7bad76952c8d0d4bd",
+      "legacyId": "cbb54174-7c8f-78f7-bad7-6952c8d0d4bd",
+      "locator": {
+        "figure": "motor 5",
+        "patent": "DE 36423 C",
+        "section": "Beschreibung"
+      },
+      "notes": "Passagem documental D10; trecho conferido na patente em 2026-08-31.",
+      "source": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "web_page",
       "id": "atlas:evidence:legacy-cf0241b720cf7d988ebb8043c770f075",
       "legacyId": "cf0241b7-20cf-7d98-8ebb-8043c770f075",
@@ -7668,6 +7695,20 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "patent_record",
+      "excerpt": "G. DAIMLER in Kannstatt",
+      "id": "atlas:evidence:legacy-daef518f74547e359b81d579e668e0f2",
+      "legacyId": "daef518f-7454-7e35-9b81-d579e668e0f2",
+      "locator": {
+        "filed": "1885-08-29",
+        "patent": "DE 36423 C",
+        "section": "Anmelder"
+      },
+      "notes": "Passagem documental D10; trecho conferido na patente em 2026-08-31.",
+      "source": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "register_record",
       "excerpt": "This experimental Buick ushered in the modern 'concept car.'",
       "id": "atlas:evidence:legacy-dba408198e257b7f8dc1e860cc05c426",
@@ -7702,6 +7743,20 @@
       },
       "notes": "Verificação editorial do predicado died_on; sem reprodução de trecho protegido.",
       "source": "atlas:source:wikidata-wikidata-entity-q1388558",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "patent_record",
+      "excerpt": "The driving force, the gas or Petroleum motor 5 with petroleum reservoir 6 is suspended as low as possible and resiliently between these wheels",
+      "id": "atlas:evidence:legacy-e09e3ae6eb6a741fb0f0a251257928aa",
+      "legacyId": "e09e3ae6-eb6a-741f-b0f0-a251257928aa",
+      "locator": {
+        "figure": "motor 5, reservatório 6",
+        "patent": "DE 36423 C",
+        "section": "Beschreibung"
+      },
+      "notes": "Passagem documental D10; trecho conferido na patente em 2026-08-31.",
+      "source": "atlas:source:deutsches-patent-und-markenamt-fahrzeug-mit-gas-oder-petroleumkraftmaschine-deutsches-reichspatent-36423",
       "type": "Evidence"
     },
     {

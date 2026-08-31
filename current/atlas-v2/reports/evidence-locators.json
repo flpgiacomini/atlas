@@ -1,6 +1,6 @@
 {
   "baseline": {
-    "documentedFloor": 60,
+    "documentedFloor": 61,
     "withoutDocumentaryCeiling": 241
   },
   "errors": [],
@@ -2188,15 +2188,15 @@
     "Vehicle": 70,
     "VehicleInstance": 5
   },
-  "reportSha256": "f5063508cd39aede6b91da9dff8a75f3481251695f09e2600c3ca619f17af580",
+  "reportSha256": "2d4cffc3e595cd80215689a4fe3198685c023f653a15c94472b77180a119ee55",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 465,
-    "documentaryEvidence": 156,
-    "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 60,
+    "documentaryEvidence": 160,
+    "editorialEntitiesWithClaims": 302,
+    "entitiesWithDocumentaryEvidence": 61,
     "entitiesWithoutDocumentaryEvidence": 241,
-    "evidenceRecords": 877,
+    "evidenceRecords": 881,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

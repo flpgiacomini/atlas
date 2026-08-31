@@ -3636,13 +3636,13 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "db5c7095ef0861a2526bb1c81ecf5ecf524ff9ae09f3d6d9340783a431b8f589",
+  "reportSha256": "1d02269e6cea218a763991c29d78021c936758ede99c4f45be0344f16b577a1a",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
     "editorialBelowBar": 325,
-    "editorialEntities": 444,
+    "editorialEntities": 445,
     "promotableCatalogEntities": 3
   },
   "version": "1.0.0"

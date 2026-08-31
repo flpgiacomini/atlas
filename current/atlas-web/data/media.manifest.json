@@ -1394,6 +1394,22 @@
       "historical_evidence": false
     },
     {
+      "entity_id": "bf45bc2f-4a29-7f2f-922d-cb3733388785",
+      "entity_name": "Daimler Reitwagen (1885)",
+      "file": "media/editorial/vehicles.webp",
+      "thumbnail": "media/editorial/vehicles.webp",
+      "media_type": "image/webp",
+      "creator": "OpenAI image generation, directed and curated for Atlas",
+      "source_url": "https://github.com/flpgiacomini/atlas",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ilustração original do projeto Atlas; gerada com OpenAI e revisada editorialmente.",
+      "alt": "Ilustração editorial sobre a evolução dos automóveis; representação interpretativa associada a Daimler Reitwagen (1885).",
+      "verified_on": "2026-08-31",
+      "nature": "original_illustration",
+      "historical_evidence": false
+    },
+    {
       "entity_id": "01a0102f-074a-73ea-9009-a834a038c629",
       "entity_name": "Daimler grants French engine manufacturing rights to Panhard & Levassor",
       "file": "media/editorial/motorsport.webp",
