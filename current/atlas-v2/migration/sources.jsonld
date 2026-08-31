@@ -5526,6 +5526,19 @@
       "verifiedAt": "2026-08-18"
     },
     {
+      "id": "atlas:source:audrain-auto-museum-1951-le-sabre-concept",
+      "language": "en",
+      "legacyId": "7c18f678-86e8-7087-b5c1-f3eb514660bd",
+      "notes": "Fonte independente introduzida na passagem D08.",
+      "publisher": "Audrain Auto Museum",
+      "sourceType": "museum",
+      "title": "1951 Le Sabre Concept",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://www.audrainautomuseum.org/styling-the-future/1951-le-sabre-concept",
+      "verifiedAt": "2026-08-31T23:00:00+00:00"
+    },
+    {
       "externalIds": {
         "wikidata": "Q1157975"
       },
@@ -7652,6 +7665,19 @@
       "type": "Source",
       "url": "https://en.wikipedia.org/wiki/Mercury_%28automobile%29",
       "verifiedAt": "2026-08-25"
+    },
+    {
+      "id": "atlas:source:audrain-auto-museum-1958-firebird-iii",
+      "language": "en",
+      "legacyId": "c40d287f-e5aa-786b-9e4b-0c128cb9cff8",
+      "notes": "Fonte independente introduzida na passagem D08.",
+      "publisher": "Audrain Auto Museum",
+      "sourceType": "museum",
+      "title": "1958 Firebird III",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://www.audrainautomuseum.org/styling-the-future/1958-firebird-iii",
+      "verifiedAt": "2026-08-31T23:00:00+00:00"
     },
     {
       "externalIds": {

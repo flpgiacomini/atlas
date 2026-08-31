@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 322
+    "editorialBelowBarCeiling": 319
   },
   "belowBar": [
     {
@@ -2990,28 +2990,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 4,
-      "clearsBar": false,
-      "evidencedClaimCount": 4,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:general-motors-firebird-iii",
-      "independentOnlyByReference": false,
-      "name": "General Motors Firebird III",
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 4,
-      "clearsBar": false,
-      "evidencedClaimCount": 4,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:general-motors-le-sabre",
-      "independentOnlyByReference": false,
-      "name": "General Motors Le Sabre",
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 0,
       "clearsBar": false,
       "evidencedClaimCount": 0,
@@ -3163,17 +3141,6 @@
       "id": "atlas:vehicle:peugeot-type-2",
       "independentOnlyByReference": false,
       "name": "Peugeot Type 2",
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 2,
-      "clearsBar": false,
-      "evidencedClaimCount": 2,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:peugeot-type-3",
-      "independentOnlyByReference": false,
-      "name": "Peugeot Type 3",
       "type": "Vehicle"
     },
     {
@@ -3564,7 +3531,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 74,
+    "Vehicle": 71,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3603,12 +3570,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "c38947d2aa56035509934d289a3625c1148ceb5db1999c8bc9ca0143e020208b",
+  "reportSha256": "22917c1a636c8b5a13bbf6c071a92913a51a46c2c2f39394244a91a77fe110a4",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 322,
+    "editorialBelowBar": 319,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

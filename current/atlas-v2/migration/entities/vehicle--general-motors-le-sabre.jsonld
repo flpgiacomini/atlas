@@ -81,7 +81,44 @@
       "statementLegacyId": "838d32bd-740e-7b1d-abf2-98a9c8dfc922",
       "subject": "atlas:vehicle:general-motors-le-sabre",
       "supportStrength": "strong",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1951",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-e555b5a1c6727b3b8e0becd78572fdc1"
+      ],
+      "id": "atlas:claim:legacy-d5c1675fea4d793b8beb61e1107b88b4",
+      "legacyId": "d5c1675f-ea4d-793b-8beb-61e1107b88b4",
+      "note": "Confronto independente da data, em grau fraco: o museu data o objeto no título da exposição e nenhuma frase do corpo da página afirma o ano. Vale como fonte fora da General Motors, não como afirmação textual.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Le Sabre"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audrain-auto-museum-1951-le-sabre-concept"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "838d32bd-740e-7b1d-abf2-98a9c8dfc922",
+      "subject": "atlas:vehicle:general-motors-le-sabre",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1951",
+        "precision": "year",
+        "until": null
+      }
     },
     {
       "confidence": "high",
@@ -111,7 +148,7 @@
       "type": "Claim"
     }
   ],
-  "description": "Concept car apresentado em 1951 como continuação da pesquisa iniciada pelo Buick Y-Job. Sob a liderança de Harley Earl e da organização de design da General Motors, sua forma inspirada em aviões a jato ajudou a estabelecer o repertório aeroespacial que dominaria os dream cars norte-americanos da década seguinte.",
+  "description": "Concept car construído sob a liderança de Harley Earl para levar ao automóvel a linguagem da propulsão a jato então difundida na aviação. O Audrain Auto Museum, que o expõe como “1951 Le Sabre Concept”, descreve quatro macacos hidráulicos sob o carro para troca de pneu e serviço simples — recurso que, segundo o museu, a Fórmula 1 adotaria anos depois —, além de sensor automático de chuva para a capota, bancos aquecidos, faróis ocultos e carburação dupla a metanol.",
   "id": "atlas:vehicle:general-motors-le-sabre",
   "legacy": {
     "id": "1bbc16a8-8105-7a30-935d-f7de85c2a64d",
@@ -125,6 +162,7 @@
       "c9680f9b-3b77-7905-99a7-9dd4c6fff9c0",
       "b1297431-852a-77de-a68b-0e4db287e0a6"
     ],
+    "documentary_batch": "D08",
     "editorial_batch": "V03",
     "editorial_level": "editorial",
     "vehicle_kind": "concept",

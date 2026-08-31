@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 179,
-    "independentFloor": 122
+    "dependentOnlyCeiling": 176,
+    "independentFloor": 125
   },
   "citationsBySourceType": {
     "archive": 12,
@@ -11,7 +11,7 @@
     "manufacturer": 442,
     "manufacturer_archive": 125,
     "manufacturer_regional": 3,
-    "museum": 79,
+    "museum": 82,
     "museum_catalogue": 3,
     "museum_collection": 3,
     "organization": 37,
@@ -151,8 +151,6 @@
     "atlas:vehicle:ford-mustang",
     "atlas:vehicle:general-motors-firebird-i",
     "atlas:vehicle:general-motors-firebird-ii",
-    "atlas:vehicle:general-motors-firebird-iii",
-    "atlas:vehicle:general-motors-le-sabre",
     "atlas:vehicle:honda-n360",
     "atlas:vehicle:honda-n360-at",
     "atlas:vehicle:hongqi-ca72",
@@ -166,7 +164,6 @@
     "atlas:vehicle:nissan-leaf-first-generation",
     "atlas:vehicle:peugeot-type-1",
     "atlas:vehicle:peugeot-type-2",
-    "atlas:vehicle:peugeot-type-3",
     "atlas:vehicle:porsche-356",
     "atlas:vehicle:porsche-911-g-series",
     "atlas:vehicle:porsche-911-original",
@@ -202,15 +199,15 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "f740277eccafb4e66fbcb408074c9f3837a0e8b2ad06d256637986adfad0749b",
+  "reportSha256": "a95d361a6a08cf0658acf79e0546a3c0fe703bf0b187814f03f862bbed4baff2",
   "status": "PASS",
   "summary": {
-    "citations": 871,
+    "citations": 874,
     "dependentCitations": 571,
-    "dependentOnlyEntities": 179,
+    "dependentOnlyEntities": 176,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 122,
-    "sourcesClassified": 743,
+    "independentEntities": 125,
+    "sourcesClassified": 745,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

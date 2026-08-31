@@ -45,10 +45,43 @@
       "statementLegacyId": "0e245145-1f20-7f17-a72b-2f477399ca43",
       "subject": "atlas:vehicle:peugeot-type-3",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1892",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-23f315627e1c76e18678868d2d0304c4"
+      ],
+      "id": "atlas:claim:legacy-fae8999593e57070ad6e070692bf757f",
+      "legacyId": "fae89995-93e5-7070-ad6e-070692bf757f",
+      "note": "Confronto independente: a ficha do museu data a fabricação de 1892 sob o inventário 16593. Esta fonte já constava no registro do Atlas sem estar ligada a esta entidade, que citava apenas a Stellantis.",
+      "object": {
+        "id": "atlas:brand:peugeot",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:musee-des-arts-et-metiers-quadricycle-peugeot-type-3"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "0e245145-1f20-7f17-a72b-2f477399ca43",
+      "subject": "atlas:vehicle:peugeot-type-3",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1892",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Peugeot Type 3 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra sucessão de Peugeot Type 2. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Quadriciclo fabricado em 1892 e conservado pelo Musée des Arts et Métiers sob o número de inventário 16593. A ficha do museu situa o Type 3 na entrada da Peugeot na produção de veículos a gasolina, viabilizada pela parceria com a Panhard et Levassor, detentora dos direitos exclusivos de fabricação na França do motor a petróleo Daimler.",
   "id": "atlas:vehicle:peugeot-type-3",
   "legacy": {
     "id": "01a0102a-57e7-76fd-b8d0-8018ce990f8a",
@@ -59,6 +92,7 @@
     "description_basis_statement_ids": [
       "01a0102a-57e8-7133-8bf8-df96cf77852c"
     ],
+    "documentary_batch": "D08",
     "editorial_batch": "E11",
     "editorial_level": "editorial",
     "vehicle_kind": "production",

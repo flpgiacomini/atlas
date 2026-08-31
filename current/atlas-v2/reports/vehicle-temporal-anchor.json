@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 25
+    "anchoredVehiclesFloor": 28
   },
   "errors": [],
   "queue": [
@@ -203,22 +203,6 @@
     },
     {
       "assertedYears": [],
-      "claimCount": 4,
-      "id": "atlas:vehicle:general-motors-firebird-iii",
-      "name": "General Motors Firebird III",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 4,
-      "id": "atlas:vehicle:general-motors-le-sabre",
-      "name": "General Motors Le Sabre",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
       "claimCount": 2,
       "id": "atlas:vehicle:gurgel-supermini",
       "name": "Gurgel Supermini",
@@ -342,14 +326,6 @@
       "claimCount": 2,
       "id": "atlas:vehicle:peugeot-type-2",
       "name": "Peugeot Type 2",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 2,
-      "id": "atlas:vehicle:peugeot-type-3",
-      "name": "Peugeot Type 3",
       "needsIndependentSource": true,
       "needsTemporalAnchor": true
     },
@@ -632,16 +608,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "6a8196e8c1b8e924b4d1cfaa473af651b4c81ff498d0f9e7428d63a6f0de0108",
+  "reportSha256": "30b6d7448dff3b25266acb0a3a06f5c05b245b8393eaec641be5f5b1420638f1",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 25,
+    "anchoredVehicles": 28,
     "editorialVehicles": 102,
-    "needingBoth": 69,
-    "needingIndependentSource": 74,
-    "needingTemporalAnchor": 72,
-    "queuedVehicles": 77
+    "needingBoth": 66,
+    "needingIndependentSource": 71,
+    "needingTemporalAnchor": 69,
+    "queuedVehicles": 74
   },
   "version": "1.0.0"
 }

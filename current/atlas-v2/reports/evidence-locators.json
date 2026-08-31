@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 57,
-    "withoutDocumentaryCeiling": 244
+    "documentedFloor": 59,
+    "withoutDocumentaryCeiling": 242
   },
   "errors": [],
   "queue": [
@@ -1745,24 +1745,6 @@
     {
       "claimCount": 4,
       "deferredLocators": 0,
-      "id": "atlas:vehicle:general-motors-firebird-iii",
-      "name": "General Motors Firebird III",
-      "nominalLocators": 4,
-      "statementCount": 4,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 4,
-      "deferredLocators": 0,
-      "id": "atlas:vehicle:general-motors-le-sabre",
-      "name": "General Motors Le Sabre",
-      "nominalLocators": 4,
-      "statementCount": 4,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 4,
-      "deferredLocators": 0,
       "id": "atlas:vehicle:hippomobile-de-lenoir",
       "name": "Hippomobile de Lenoir",
       "nominalLocators": 4,
@@ -2212,18 +2194,18 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 73,
+    "Vehicle": 71,
     "VehicleInstance": 5
   },
-  "reportSha256": "bf34a0322839ca30c2fd3e98efe8b61c635de72df4911ed7e4c412fab6c20228",
+  "reportSha256": "1b3bcf7711db7db69f59d56f413cdd0a139d1793366510c29b60ecc7324a53f4",
   "status": "PASS",
   "summary": {
     "deferredEvidence": 465,
-    "documentaryEvidence": 150,
+    "documentaryEvidence": 153,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 57,
-    "entitiesWithoutDocumentaryEvidence": 244,
-    "evidenceRecords": 871,
+    "entitiesWithDocumentaryEvidence": 59,
+    "entitiesWithoutDocumentaryEvidence": 242,
+    "evidenceRecords": 874,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

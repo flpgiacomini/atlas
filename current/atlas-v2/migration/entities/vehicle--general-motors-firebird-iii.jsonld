@@ -5,6 +5,38 @@
     {
       "confidence": "high",
       "evidence": [
+        "atlas:evidence:legacy-77211867167173da91e0734c8fb5f71c"
+      ],
+      "id": "atlas:claim:legacy-2f83360a206071b5bde8eeafcf4d7c02",
+      "legacyId": "2f83360a-2060-71b5-bde8-eeafcf4d7c02",
+      "note": "Confronto independente da data: o museu afirma em texto que o Firebird III foi construído em 1958, fora do arquivo da General Motors.",
+      "object": {
+        "id": "atlas:organization:gm-design",
+        "type": "EntityReference"
+      },
+      "predicate": "developed-by",
+      "qualifiers": {
+        "editorial_batch": "V03",
+        "source_record": "Firebird III"
+      },
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:audrain-auto-museum-1958-firebird-iii"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "891e3eaf-d1c7-7a2d-9d5a-41ee2d0e64d5",
+      "subject": "atlas:vehicle:general-motors-firebird-iii",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1958",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
         "atlas:evidence:legacy-a76c74271c25714495aa50620416ff54"
       ],
       "id": "atlas:claim:legacy-62258308dbd1777e82fbafbdd142acfb",
@@ -108,10 +140,15 @@
       "statementLegacyId": "891e3eaf-d1c7-7a2d-9d5a-41ee2d0e64d5",
       "subject": "atlas:vehicle:general-motors-firebird-iii",
       "supportStrength": "strong",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1958",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Terceiro concept car da linhagem Firebird, construído em 1958. A GM o identifica como o membro mais influente da série no desenho de veículos de produção, com soluções formais posteriormente refletidas em Cadillac de 1959 e 1961 e uma ruptura deliberada com convenções anteriores.",
+  "description": "Terceiro concept car da linhagem Firebird, construído em 1958. O Audrain Auto Museum o identifica como o único dos três Firebird a influenciar diretamente o desenho dos automóveis de produção da General Motors, e aponta que o Cadillac de 1959 herdou parte de seu tratamento de superfície e o de 1961, as quilhas traseiras.",
   "id": "atlas:vehicle:general-motors-firebird-iii",
   "legacy": {
     "id": "c1838100-cf70-7b21-af9b-c7f3b4d0c87f",
@@ -125,6 +162,7 @@
       "084e92e5-4231-7a53-9c14-3fa7861a8cd7",
       "50f424c6-bd0a-7855-9617-3ad20a51f063"
     ],
+    "documentary_batch": "D08",
     "editorial_batch": "V03",
     "editorial_level": "editorial",
     "vehicle_kind": "concept",

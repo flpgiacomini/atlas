@@ -819,8 +819,8 @@
     "entities/vehicle--ford-quadricycle.jsonld": "8db186a3a48b3d34a1748d02239d3fbc546b541ce5827a5b510e6cbfa7120ffd",
     "entities/vehicle--general-motors-firebird-i.jsonld": "00929d526f8691a4342ed1a56e2c290e6a5a2ec2b840eb28aaee1c8e707393d0",
     "entities/vehicle--general-motors-firebird-ii.jsonld": "538f75893b773db43a01204e884faf4e13a8792387d126e3e57544c5e6673916",
-    "entities/vehicle--general-motors-firebird-iii.jsonld": "9d9c7fe87104c75556c8d0877f2529fc196735471028795eeacf12d3afd458df",
-    "entities/vehicle--general-motors-le-sabre.jsonld": "8f65ff5b29efcb6222a9dc436ad0a97c81f04d7ec9e0b981b1cb4058068609f2",
+    "entities/vehicle--general-motors-firebird-iii.jsonld": "9901a45e970c3b7dad9f416796a4a61375f16ae6ad759c8a760cb50500eaf3ab",
+    "entities/vehicle--general-motors-le-sabre.jsonld": "3985cc67be85dadf27f0c562648092a5b4326117917b62ec965fb638ad05e188",
     "entities/vehicle--gm-impact.jsonld": "d361d9e1b7ad683245c5852a377bde31d48cdad8c2af8ecba6b5dca979e4e17d",
     "entities/vehicle--golden-sahara-ii.jsonld": "7cd1d312d8fd268ae92f67541809b865f35b6465ff133ae9682d699f2be21f20",
     "entities/vehicle--gurgel-br-800.jsonld": "cf7c585e9fdcb870713ebd597018218f5d27ff3c3645fa86457355a1b7f69f02",
@@ -863,7 +863,7 @@
     "entities/vehicle--peugeot-quasar.jsonld": "f4f673f7993ab2c29fc08ffb9fd8541be9a27fc2a2343f079362c21b00f7b233",
     "entities/vehicle--peugeot-type-1.jsonld": "741476786995a254184c6aaa0ee5e760b7edcc62fede5a5156d31d7447d1d25d",
     "entities/vehicle--peugeot-type-2.jsonld": "f066742f6564d745a936ad3b9d1dd3bdae07ee5a67578681750ba3df3f3fb248",
-    "entities/vehicle--peugeot-type-3.jsonld": "65724935a5722ea9a9073e54792d633b11129953bf86e56f5554995e50f03096",
+    "entities/vehicle--peugeot-type-3.jsonld": "1baf29af79cacf2d3fcfa108862dbac2487d9e291463c1d77c1168e6dc7913f0",
     "entities/vehicle--phantom-corsair.jsonld": "bca9a519bb3f3026c7fe12d28d1cab0bdac8d78a1024b7dcfa69f27d0ba5a181",
     "entities/vehicle--porsche-356.jsonld": "63cc898d9e5b20883dfcf1a51d9488ae56e7def0f23f420330770eba6a60ca16",
     "entities/vehicle--porsche-911-g-series.jsonld": "63d0bfb8612154fa6f6147a63dc71bb7aa34677a7cab070b24081514cb87c5ca",
@@ -921,10 +921,10 @@
     "entities/vehicle-instance--porsche-917-001.jsonld": "c6a930f54b3552a0b648135eb51ce935ca3c9f5f55793c88a73fe42026b36d11",
     "entities/vehicle-instance--porsche-917-023.jsonld": "09c978326694ee47778f25636acda9368fa351c8eef7e5b852975dd937121aba",
     "entities/vehicle-instance--rolls-royce-40-50-h-p-chassis-60551-silver-ghost.jsonld": "6c17d325a510f50c99cd304b7385316c4a4b59dcc5ceb27d56d4a72fedce111b",
-    "evidence.jsonld": "a6d0fe2f999133be8c1e5b953512f9c9f20f2e006724162e2d51f78e3b19ca0c",
-    "identity-map.json": "59da0b53b3dd22cb2342580b30a51b7b8ed6a13dd894842b92dfb67fe9fbddbb",
-    "migration-report.json": "79a7ea83fd266f1acbcb66f61461d451b537ff692e2861810ca4a79c49a4cb62",
+    "evidence.jsonld": "32a24a39b870e9f7da66394a13708b23390e97efa5262365e93d3a6439d58d00",
+    "identity-map.json": "117244b0a73dee5f7d382176a7b09458e25ad131901e06ea676c64149ec82ba8",
+    "migration-report.json": "2b25be625165cba7944c322e3f3dca2b7125bbc1537c8b8f6aa9be7313f78123",
     "predicates.jsonld": "fce8bb4b8bb7c8240d19dda5fda28d7e87da5528c00f6118081fac7e2a222bbf",
-    "sources.jsonld": "5c2e82ffd6608ee825435b58d3cac23acf5c0f4757a3d90acc08098996dad91f"
+    "sources.jsonld": "4c1cf50281fad02df55155169da9aea0bb85e16fffcf5c0299bb16da17826b13"
   }
 }

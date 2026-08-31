@@ -6152,6 +6152,20 @@
       "type": "Evidence"
     },
     {
+      "evidenceType": "collection_record",
+      "excerpt": "Armand Peugeot can se lancer dans la production de véhicules à essence",
+      "id": "atlas:evidence:legacy-23f315627e1c76e18678868d2d0304c4",
+      "legacyId": "23f31562-7e1c-76e1-8678-868d2d0304c4",
+      "locator": {
+        "field": "Date de fabrication",
+        "inventory_number": "16593",
+        "section": "Notice de l'objet"
+      },
+      "notes": "Passagem documental D08; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:musee-des-arts-et-metiers-quadricycle-peugeot-type-3",
+      "type": "Evidence"
+    },
+    {
       "evidenceType": "web_page",
       "id": "atlas:evidence:legacy-24914941a0377bab8f53e0ddf3e1ef34",
       "legacyId": "24914941-a037-7bab-8f53-e0ddf3e1ef34",
@@ -6854,6 +6868,19 @@
       },
       "notes": "Fonte consultada como ponto de partida editorial; sem reprodução de texto protegido.",
       "source": "atlas:source:mercedes-benz-public-archive-benz-patent-motor-car-model-1-ab48d4f8",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "explicit_statement",
+      "excerpt": "Built in 1958, it was the only member of the Firebird trio to have any direct impact on the design of General Motors production vehicles.",
+      "id": "atlas:evidence:legacy-77211867167173da91e0734c8fb5f71c",
+      "legacyId": "77211867-1671-73da-91e0-734c8fb5f71c",
+      "locator": {
+        "exhibit": "Styling the Future",
+        "quote": "Built in 1958"
+      },
+      "notes": "Passagem documental D08; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:audrain-auto-museum-1958-firebird-iii",
       "type": "Evidence"
     },
     {
@@ -7669,6 +7696,19 @@
       },
       "notes": "Fonte consultada como ponto de partida editorial; sem reprodução de texto protegido.",
       "source": "atlas:source:institut-national-de-la-propriete-industrielle-le-moteur-a-combustion-francois-isaac-de-rivaz",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "exhibit_label",
+      "excerpt": "1951 Le Sabre Concept",
+      "id": "atlas:evidence:legacy-e555b5a1c6727b3b8e0becd78572fdc1",
+      "legacyId": "e555b5a1-c672-7b3b-8e0b-ecd78572fdc1",
+      "locator": {
+        "exhibit": "Styling the Future",
+        "heading": "1951 Le Sabre Concept"
+      },
+      "notes": "Passagem documental D08; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:audrain-auto-museum-1951-le-sabre-concept",
       "type": "Evidence"
     },
     {

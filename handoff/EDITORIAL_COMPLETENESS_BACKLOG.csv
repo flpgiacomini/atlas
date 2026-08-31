@@ -818,8 +818,8 @@ P2,substantial,82.5,01a0102a-57eb-757c-8088-4ed32c002ced,vehicle,Ford Quadricycl
 P4,catalog,0,81f8ef86-6423-771c-a53b-bcd2ce57f2ef,vehicle,GM Impact,18,0,4,0,editorial_promotion_required
 P3,complete,100,bb1d2bc3-35c8-72bf-9fea-2d4dbab26aff,vehicle,General Motors Firebird I,46,5,4,5,
 P3,complete,100,35068d25-95de-78fb-b9fc-d1fc330ae7de,vehicle,General Motors Firebird II,39,5,4,5,
-P3,complete,100.0,c1838100-cf70-7b21-af9b-c7f3b4d0c87f,vehicle,General Motors Firebird III,44,4,4,4,
-P3,complete,100,1bbc16a8-8105-7a30-935d-f7de85c2a64d,vehicle,General Motors Le Sabre,49,5,4,5,
+P3,complete,100.0,c1838100-cf70-7b21-af9b-c7f3b4d0c87f,vehicle,General Motors Firebird III,54,4,4,4,
+P3,complete,100,1bbc16a8-8105-7a30-935d-f7de85c2a64d,vehicle,General Motors Le Sabre,80,5,4,5,
 P4,catalog,0,89059f3f-ef61-7779-9a0c-fafd1348acde,vehicle,Golden Sahara II,46,0,4,0,editorial_promotion_required
 P3,complete,100,01a01016-ea4d-7042-b42b-c2bb234aaefa,vehicle,Gurgel BR-800,48,6,4,6,
 P2,substantial,82.5,01a01016-ea4d-7d20-929c-5ce568072960,vehicle,Gurgel Supermini,41,2,4,2,connected_statements<4
@@ -861,7 +861,7 @@ P4,catalog,0,e0c957dc-5500-7899-adef-0fc0c0d8be1f,vehicle,Peugeot Proxima,29,0,4
 P4,catalog,0,ad9b826c-e9fd-7eb2-a099-8e8c87161edf,vehicle,Peugeot Quasar,21,0,4,0,editorial_promotion_required
 P3,complete,100,01a0102a-57e7-7769-9156-f74a67742b6a,vehicle,Peugeot Type 1,86,5,4,5,
 P2,substantial,82.5,01a0102a-57e7-72af-aff7-faa78d8ea08c,vehicle,Peugeot Type 2,55,2,4,2,connected_statements<4
-P2,substantial,82.5,01a0102a-57e7-76fd-b8d0-8018ce990f8a,vehicle,Peugeot Type 3,43,2,4,2,connected_statements<4
+P2,substantial,82.5,01a0102a-57e7-76fd-b8d0-8018ce990f8a,vehicle,Peugeot Type 3,57,2,4,2,connected_statements<4
 P4,catalog,0,605dad95-756c-7a8a-ab23-6dca93e9fc1d,vehicle,Phantom Corsair,46,0,4,0,editorial_promotion_required
 P2,substantial,82.5,01a01016-ea4d-748e-b4e3-a3da0660676a,vehicle,Porsche 356,45,2,4,2,connected_statements<4
 P3,complete,100,01a01016-ea4d-7c5e-960d-4d958efad5e7,vehicle,Porsche 911,39,12,4,12,
