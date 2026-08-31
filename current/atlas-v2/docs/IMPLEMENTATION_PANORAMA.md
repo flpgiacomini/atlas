@@ -1,39 +1,57 @@
 # Panorama de implementação — Atlas v2
 
-Atualizado em: 2026-08-25
+Atualizado em: 2026-08-31
 
 ## Estado executivo
 
 O Atlas v2 possui uma cadeia reproduzível de documentos canônicos para bundles
-e aplicação Astro/React. São **966 entidades publicáveis**, **53 bundles**,
-**258 capítulos anuais** cobrindo 1769–2026, seis percursos editoriais, timeline
+e aplicação Astro/React. O acervo tem **966 identidades**, das quais **444 no
+índice público** e **522 no catálogo**, distribuídas em **51 bundles** e **258
+capítulos anuais** cobrindo 1769–2026, com seis percursos editoriais, timeline
 global, modal, busca e cinco visualizações especializadas. A migração preserva
-os 920 registros da v1; 47 entidades editoriais adicionais foram incorporadas,
-com uma sobreposição de identidade resolvida no índice final.
+os 920 registros da v1; 47 entidades editoriais adicionais foram incorporadas, e
+as cinco identidades presentes nos dois corpora são unidas, não escolhidas.
 
-A cobertura anual ainda não equivale a uma enciclopédia exaustiva, mas todos os
-gates definidos para o candidato estão fechados: 258 capítulos com suporte
-temporal, 258 decisões de mídia licenciada, 97 geometrias e zero pendências nos
-95 capítulos que exigem interação espacial. A v2 permanece paralela à v1 até o
-corte controlado do CP21.
+O corte do CP21 encerrou o caminho crítico de lançamento. O que veio depois não
+é manutenção: é uma fase editorial contínua com gates próprios, e esses gates
+medem substância em vez de presença. Distinguir as duas coisas é o ponto desta
+seção — os indicadores de cobertura abaixo estão fechados, e os de densidade,
+que vêm logo em seguida, não.
 
-## Indicadores verificáveis
+## Indicadores de cobertura — fechados
 
 - Anos com capítulo: 258/258.
-- Entidades no índice: 966 (444 editoriais e 522 catalográficas).
+- Acervo: 966 identidades — 444 no índice público, 522 no catálogo.
 - Entidades referenciadas pelos capítulos: 88.
 - Capítulos com claim no ano exato: 134/258.
 - Capítulos com continuidade entre marcos documentados: 80/258.
 - Capítulos com suporte temporal total: 258/258.
-- Capítulos a alinhar temporalmente: 0/258.
 - Capítulos com arquivo visual existente e licença: 258/258; itens de mídia: 38.
 - Geometrias temporais: 97; cobertura interativa: 95/95; pendências: 0.
 - Marcos de marcas: 78 em 61 marcas; relações corporativas temporais: 17.
 - Percursos editoriais obrigatórios: 6/6 estruturados.
 - Migração legada: 920/920 documentos rastreáveis.
 
-O relatório reproduzível está em `reports/editorial-coverage.json` e é validado
-no CI por `scripts/audit_editorial_coverage.py --check`.
+## Indicadores de densidade — abertos
+
+Estes números são o trabalho restante, e cada um tem catraca em
+`gates/editorial-baseline.json`: o núcleo documentado pode crescer e não
+encolher, a dívida pode encolher e não crescer.
+
+- Entidades editoriais com evidência documental: 53/301.
+- Evidências: 145 documentais, 256 nominais e 465 com localizador diferido, de 866.
+- Entidades com fonte fora da parte interessada: 119/301.
+- Citações vindas da parte interessada: 571/866.
+- Veículos editoriais ancorados no tempo: 20/102 — o veículo é o objeto central
+  por D-002 e é a classe menos documentada.
+- Entidades publicadas com data: 199/444. Como toda projeção filtra por ano, as
+  demais existem no acervo e não aparecem na navegação.
+- Identidades catalogadas que passam a barra de promoção: 3/522.
+- Densidade dos capítulos: mediana de 26 palavras, 6.763 no total para 258 anos,
+  servidos por 37 ativos visuais distintos.
+
+Os relatórios reproduzíveis estão em `reports/` e são validados no CI por
+`scripts/audit_*.py --check`.
 
 ## Fase 1 — Fundação e contratos
 
@@ -77,16 +95,25 @@ Restante: refinamento incremental após o lançamento; nenhum gate aberto.
 
 ## Fase 4 — Visualizações especializadas
 
-Estado: **cinco modos funcionais e aprovados no candidato**.
+Estado: **cinco modos construídos; dois ainda sem acervo que os sustente**.
 
 Entregue: projeções de marcas, veículos, competições, eventos e tecnologias,
 conectadas ao ano global e ao modal. O rio de marcas possui 46 marcos e 17
-relações temporais.
+relações temporais, e as projeções de marcas e veículos leem dados reais.
 
 Checkpoint de saída: cada modo com dados reais suficientes, estados
-vazio/carregando/erro e alternativa textual equivalente.
+vazio/carregando/erro e alternativa textual equivalente. **Este checkpoint não
+está fechado.** Competições e Tecnologias apoiam-se hoje em 4 Series, 3 Teams,
+4 Circuits e 38 Technologies, e as views compensam a falta de dado estruturado
+casando expressões regulares contra o *nome* das entidades — qualquer registro
+cujo nome contenha "prix", "rally" ou "le mans" é exibido como competição. Isso
+contraria a regra de não inferir fatos em runtime e é apresentação passando por
+recorte documental.
 
-Restante: completar linhagens, temporadas, agentes e fluxos; validar transições.
+Restante: acervo real de competições e tecnologias. Os dois modos permanecem por
+decisão editorial — tecnologia e motorsport evoluem junto com a indústria e essa
+evolução pertence ao Atlas —, mas os regexes saem quando houver o que consultar
+no lugar deles.
 
 ## Fase 5 — Cartografia histórica
 
@@ -99,6 +126,16 @@ MapLibre, Cesium local, carregamento progressivo e alternativa textual.
 Checkpoint de saída: inventário explícito de histórias espaciais e 100% desse
 subconjunto com geometria, validade, precisão, confiança e fonte; MapLibre,
 Cesium e fallback estático verificados sem geocoding em runtime.
+
+Correção posterior ao CP21: o inventário estava completo e **o mapa não existia**.
+O MapLibre declarava `sources: {}` com uma única camada de cor de fundo, o Cesium
+rodava com `baseLayer: false` sobre cor sólida e um gradiente CSS imitava textura
+cartográfica; as geometrias flutuavam sobre um campo abstrato. Além disso o filtro
+exigia validade no ano exato, deixando 109 dos 258 anos sem nenhuma geometria. O
+Natural Earth 1:110m passou a viajar como bundle local de 97 KB — massa continental
+sem fronteiras, para não desenhar limites de 2026 atrás de um evento de 1886 — e a
+geografia passou a ser acumulada como as demais projeções. A mediana de geometrias
+visíveis por ano foi de 1 para 15.
 
 Restante: refinamento cartográfico incremental; nenhum gate aberto.
 
@@ -256,3 +293,39 @@ O caminho crítico de lançamento está **encerrado**. Infraestrutura, seis
 percursos, cartografia, mídia e curadoria canônica estão congelados. A próxima
 fase pode enriquecer narrativas e visualizações, mas não pode converter
 identidade de catálogo em fato histórico sem nova evidência versionada.
+
+## Fase editorial contínua — depois do CP21
+
+O que veio depois do corte não é manutenção. Três decisões editoriais passaram a
+governar a publicação, cada uma com auditoria versionada e catraca no CI.
+
+**Gate de confronto.** Uma afirmação sustentada apenas pela parte interessada —
+o fabricante ou seu arquivo — não pode ser publicada como estabelecida. A
+política vive em `content/source-classification.json` e é medida por
+`audit_source_independence.py`.
+
+**Barra de promoção.** Uma identidade catalogada só entra no índice público com
+ao menos um claim com evidência e ao menos uma fonte não-fabricante. Até lá
+permanece no acervo, pesquisável, fora da vitrine. O índice foi separado do
+catálogo em `bundles/index.json` e `bundles/catalog.json`, e
+`validate_bundles.py` recusa qualquer vazamento de identidade catalogada para o
+índice.
+
+**Grau de localizador.** Toda claim do Atlas tem evidência e fonte, e nenhuma é
+órfã. A pergunta que `audit_evidence_locators.py` faz é outra: com a fonte em
+mãos, alguém encontra a afirmação dentro dela? Localizador documental, nominal e
+diferido são graus distintos, definidos em `content/evidence-policy.json`.
+
+As passagens documentais são numeradas e ficam em
+`current/atlas-web/scripts/enrich_documentary_dNN.py`, escritas sobre o SQLite
+porque `migration/` é regenerado a cada push e nada escrito lá sobrevive. Cada
+lote lê as fontes antes de escrever, e a leitura já derrubou atribuições que o
+acervo dava por boas: o artigo da Porsche sobre os "50 anos do 917" não nomeia
+Siffert nem Ahrens, e o registro do álbum do Henry Ford não menciona o número 7.
+Fonte que não pode ser lida não recebe localizador — o arquivo público da
+Mercedes-Benz, as duas páginas do Holden no National Museum of Australia, a
+Hagerty e o Autocar responderam 403, 402 ou bloqueio, e as entidades que
+dependiam delas seguem na fila.
+
+O ritmo realista é de três a cinco entidades por lote, limitado por leitura de
+fonte. Não é um gargalo a otimizar: é o preço do critério.
