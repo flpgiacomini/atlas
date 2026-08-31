@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 183,
-    "independentFloor": 118
+    "dependentOnlyCeiling": 182,
+    "independentFloor": 119
   },
   "citationsBySourceType": {
     "archive": 12,
@@ -16,7 +16,7 @@
     "museum_collection": 3,
     "organization": 37,
     "specialized_database": 21,
-    "specialized_journalism": 15,
+    "specialized_journalism": 16,
     "structured_data": 16
   },
   "debt": [
@@ -159,7 +159,6 @@
     "atlas:vehicle:hyundai-pony",
     "atlas:vehicle:lamborghini-miura",
     "atlas:vehicle:lancia-12-hp",
-    "atlas:vehicle:land-rover-series-i",
     "atlas:vehicle:lincoln-futura",
     "atlas:vehicle:mazda-cosmo-sport-110s",
     "atlas:vehicle:mclaren-f1",
@@ -205,15 +204,15 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "d187269d9718d57fe3c6e0b6deb87305d9bd8855411b899553d057abd142368b",
+  "reportSha256": "021a165faa7ff5f0b21e07f236a79a6b6ee085aa4af64c27f92d9d6c5b55780d",
   "status": "PASS",
   "summary": {
-    "citations": 865,
+    "citations": 866,
     "dependentCitations": 571,
-    "dependentOnlyEntities": 183,
+    "dependentOnlyEntities": 182,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 118,
-    "sourcesClassified": 738,
+    "independentEntities": 119,
+    "sourcesClassified": 739,
     "sourcesUnclassified": 0
   },
   "version": "1.0.0"

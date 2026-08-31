@@ -24,7 +24,12 @@
       "statementLegacyId": "01a0102f-074a-7851-a39d-75a0b25dc12b",
       "subject": "atlas:vehicle:panhard-levassor-type-m2e",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1896",
+        "precision": "year",
+        "until": null
+      }
     },
     {
       "confidence": "high",
@@ -112,7 +117,7 @@
       "type": "Claim"
     }
   ],
-  "description": "Automóvel Panhard-Levassor fabricado em 1896 e preservado pelo Musée des Arts et Métiers sob o inventário 16715. O registro museológico destaca sua condição de produto de luxo e a combinação de construção aparentemente simples com inovações importantes para a época.",
+  "description": "Automóvel fabricado pela Panhard & Levassor e conservado pelo Musée des Arts et Métiers sob o número de inventário 16715, cuja ficha data a fabricação de 1896. O catálogo do Conservatoire national des arts et métiers descreve seu motor de combustão interna, a transmissão e o sistema de refrigeração.",
   "externalIds": [
     {
       "id": "823192ea-1c1c-745b-b1f3-6d036b143372",
@@ -134,6 +139,7 @@
       "2a26c88a-19d0-777d-8e3d-d8dc80bfd24c",
       "dc1bc6c8-2e3d-7c62-bf21-dac899e42727"
     ],
+    "documentary_batch": "D05",
     "editorial_batch": "V01-M2E",
     "editorial_level": "editorial",
     "vehicle_kind": "production",

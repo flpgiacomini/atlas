@@ -821,7 +821,7 @@ P3,complete,100,35068d25-95de-78fb-b9fc-d1fc330ae7de,vehicle,General Motors Fire
 P3,complete,100.0,c1838100-cf70-7b21-af9b-c7f3b4d0c87f,vehicle,General Motors Firebird III,44,4,4,4,
 P3,complete,100,1bbc16a8-8105-7a30-935d-f7de85c2a64d,vehicle,General Motors Le Sabre,49,5,4,5,
 P4,catalog,0,89059f3f-ef61-7779-9a0c-fafd1348acde,vehicle,Golden Sahara II,46,0,4,0,editorial_promotion_required
-P3,complete,100,01a01016-ea4d-7042-b42b-c2bb234aaefa,vehicle,Gurgel BR-800,80,6,4,6,
+P3,complete,100,01a01016-ea4d-7042-b42b-c2bb234aaefa,vehicle,Gurgel BR-800,48,6,4,6,
 P2,substantial,82.5,01a01016-ea4d-7d20-929c-5ce568072960,vehicle,Gurgel Supermini,41,2,4,2,connected_statements<4
 P3,complete,100.0,06506223-7aac-7b53-927e-2834b286a38d,vehicle,Hippomobile de Lenoir,34,4,4,4,
 P2,substantial,91.2,01a01028-5455-759c-a6a7-06375500cf5d,vehicle,Holden 48-215,66,3,4,3,connected_statements<4
@@ -837,7 +837,7 @@ P4,catalog,0,ace5fdfa-7c88-729f-b9a4-d5ba9aabc118,vehicle,Lamborghini Marzal,39,
 P3,complete,100,01a010d9-28c6-72db-9da6-6b38a676cf71,vehicle,Lamborghini Miura,88,5,4,5,
 P2,substantial,91.2,01a01030-3313-7bef-8e4d-63573101fdc7,vehicle,Lancia 12 HP,64,3,4,3,connected_statements<4
 P4,catalog,0,a7585a27-a886-7db7-a12a-57cb344873b2,vehicle,Lancia Stratos Zero,49,0,4,0,editorial_promotion_required
-P3,complete,100.0,01a010d9-28c4-7374-b925-54a7bfff62c8,vehicle,Land Rover Series I,84,4,4,4,
+P3,complete,100.0,01a010d9-28c4-7374-b925-54a7bfff62c8,vehicle,Land Rover Series I,51,4,4,4,
 P3,complete,100,20efc162-ac4a-7f15-998e-a44a4d7019a2,vehicle,Lincoln Futura,56,5,4,5,
 P3,complete,100.0,52365406-b98c-703b-a0a3-1b23c6150823,vehicle,London Steam Carriage,39,4,4,4,
 P3,complete,100.0,dc714de0-9370-77b6-b99a-c30dac584f9d,vehicle,L’Obéissante,37,4,4,4,
@@ -855,7 +855,7 @@ P4,catalog,0,4f25d8e6-31a3-7095-a2fb-6a9d1a69a605,vehicle,Nissan MID4,31,0,4,0,e
 P4,catalog,0,c28a7c39-b7d9-7b55-95d0-eb3f015c694f,vehicle,Norman Timbs Special,52,0,4,0,editorial_promotion_required
 P3,complete,100.0,01a0102a-57ec-75f6-9e5f-339e8aeb29d7,vehicle,Oldsmobile Curved Dash,64,4,4,4,
 P2,substantial,82.5,01a01031-ec55-739b-abf7-ba1888203e8d,vehicle,Panhard race car — 1904 Vanderbilt Cup,57,2,4,2,connected_statements<4
-P3,complete,100.0,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,40,4,4,4,
+P3,complete,100.0,01a0102f-074a-78b2-97ba-8e8b1ea48500,vehicle,Panhard-Levassor Type M2E,49,4,4,4,
 P4,catalog,0,4c65a7d8-a368-77e9-90b9-075622ae9ee2,vehicle,Peugeot Oxia,27,0,4,0,editorial_promotion_required
 P4,catalog,0,e0c957dc-5500-7899-adef-0fc0c0d8be1f,vehicle,Peugeot Proxima,29,0,4,0,editorial_promotion_required
 P4,catalog,0,ad9b826c-e9fd-7eb2-a099-8e8c87161edf,vehicle,Peugeot Quasar,21,0,4,0,editorial_promotion_required

@@ -1,13 +1,13 @@
 {
   "maximums": {
-    "dependentOnlyEntities": 183,
-    "editorialBelowBar": 326,
-    "entitiesWithoutDocumentaryEvidence": 250
+    "dependentOnlyEntities": 182,
+    "editorialBelowBar": 325,
+    "entitiesWithoutDocumentaryEvidence": 248
   },
   "minimums": {
-    "anchoredVehicles": 17,
-    "entitiesWithDocumentaryEvidence": 51,
-    "independentEntities": 118
+    "anchoredVehicles": 20,
+    "entitiesWithDocumentaryEvidence": 53,
+    "independentEntities": 119
   },
   "version": "1.0.0"
 }

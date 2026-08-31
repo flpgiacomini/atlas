@@ -205,11 +205,14 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Criou o Gurgel BR-800, primeiro automóvel 100% desenvolvido e fabricado no Brasil, que foi produzido entre 1988 e 1991.",
       "id": "atlas:evidence:legacy-01a01016ea547c4488fdc1612d64bb3e",
       "legacyId": "01a01016-ea54-7c44-88fd-c1612d64bb3e",
       "locator": {
-        "note": "Exact section/paragraph locator to be refined during curation."
+        "quote": "produzido entre 1988 e 1991",
+        "section": "Amaral Gurgel e a Gurgel Motores"
       },
+      "notes": "Passagem documental D05; localizador e trecho conferidos na fonte em 2026-08-31.",
       "source": "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel",
       "type": "Evidence"
     },
@@ -235,11 +238,14 @@
     },
     {
       "evidenceType": "explicit_statement",
+      "excerpt": "Criou o Gurgel BR-800, primeiro automóvel 100% desenvolvido e fabricado no Brasil, que foi produzido entre 1988 e 1991.",
       "id": "atlas:evidence:legacy-01a01016ea547cb28aa06b1094d7391f",
       "legacyId": "01a01016-ea54-7cb2-8aa0-6b1094d7391f",
       "locator": {
-        "note": "Exact section/paragraph locator to be refined during curation."
+        "quote": "produzido entre 1988 e 1991",
+        "section": "Amaral Gurgel e a Gurgel Motores"
       },
+      "notes": "Passagem documental D05; localizador e trecho conferidos na fonte em 2026-08-31.",
       "source": "atlas:source:prefeitura-municipal-de-rio-claro-rio-claro-celebra-centenario-de-amaral-gurgel",
       "type": "Evidence"
     },
@@ -6292,14 +6298,16 @@
       "type": "Evidence"
     },
     {
-      "evidenceType": "museum_record",
+      "evidenceType": "collection_record",
+      "excerpt": "Date de fabrication: 1896",
       "id": "atlas:evidence:legacy-3ec611a24e9578c98e992a714db47b89",
       "legacyId": "3ec611a2-4e95-78c9-8e99-2a714db47b89",
       "locator": {
-        "inventory_number": "16715",
-        "manufacture_date": "1896"
+        "field": "Date de fabrication",
+        "inventory_number": "Inv. 16715",
+        "section": "Notice de l'objet"
       },
-      "notes": "Registro museológico individual; sem reprodução de trecho protegido.",
+      "notes": "Passagem documental D05; localizador e trecho conferidos na fonte em 2026-08-31.",
       "source": "atlas:source:musee-des-arts-et-metiers-automobile-panhard-levassor-type-m2e",
       "type": "Evidence"
     },
@@ -6690,6 +6698,19 @@
       },
       "notes": "Verificação editorial do predicado marketed_under; sem reprodução de trecho protegido.",
       "source": "atlas:source:stellantis-peugeot-peugeot-210-years-of-history-and-13-films-to-relive-it-all",
+      "type": "Evidence"
+    },
+    {
+      "evidenceType": "explicit_statement",
+      "excerpt": "It was a similar story with its reveal at the Amsterdam motor show, on 30 April 1948.",
+      "id": "atlas:evidence:legacy-67e10e7a74057055a52e7faf7a409bba",
+      "legacyId": "67e10e7a-7405-7055-a52e-7faf7a409bba",
+      "locator": {
+        "article": "1948's game changers: Land-Rover",
+        "section": "Amsterdam reveal"
+      },
+      "notes": "Passagem documental D05; trecho conferido na fonte em 2026-08-31.",
+      "source": "atlas:source:classic-sports-car-1948-s-game-changers-land-rover",
       "type": "Evidence"
     },
     {

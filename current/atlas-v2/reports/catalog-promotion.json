@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 326
+    "editorialBelowBarCeiling": 325
   },
   "belowBar": [
     {
@@ -3100,17 +3100,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 2,
-      "clearsBar": false,
-      "evidencedClaimCount": 2,
-      "hasEvidencedClaim": true,
-      "hasIndependentSource": false,
-      "id": "atlas:vehicle:land-rover-series-i",
-      "independentOnlyByReference": false,
-      "name": "Land Rover Series I",
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 5,
       "clearsBar": false,
       "evidencedClaimCount": 5,
@@ -3608,7 +3597,7 @@
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 78,
+    "Vehicle": 77,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3647,12 +3636,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "9fd0f53ab6a688f8f329a340b547970ba04cf157fbe1acba62edfe648a702307",
+  "reportSha256": "d951a3d5f98d806f1b739575ad3db522f73baf8a016f3648de1069199354beee",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 326,
+    "editorialBelowBar": 325,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

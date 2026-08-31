@@ -22,7 +22,12 @@
       "statementLegacyId": "01a01016-ea4f-7a20-86ec-800f37ad0b7f",
       "subject": "atlas:vehicle:gurgel-br-800",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1988",
+        "precision": "year",
+        "until": "1991"
+      }
     },
     {
       "confidence": "high",
@@ -88,7 +93,12 @@
       "statementLegacyId": "01a01016-ea4f-7e41-8279-7ed9503ce5fa",
       "subject": "atlas:vehicle:gurgel-br-800",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1988",
+        "precision": "year",
+        "until": "1991"
+      }
     },
     {
       "confidence": "high",
@@ -110,7 +120,12 @@
       "statementLegacyId": "01a01016-ea4f-7a20-86ec-800f37ad0b7f",
       "subject": "atlas:vehicle:gurgel-br-800",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1988",
+        "precision": "year",
+        "until": "1991"
+      }
     },
     {
       "confidence": "high",
@@ -132,10 +147,15 @@
       "statementLegacyId": "01a01016-ea4f-7e41-8279-7ed9503ce5fa",
       "subject": "atlas:vehicle:gurgel-br-800",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1988",
+        "precision": "year",
+        "until": "1991"
+      }
     }
   ],
-  "description": "Gurgel BR-800 é registrado no Atlas como veículo, dentro da história global do automóvel. A documentação registra fabricação por Gurgel Motores S/A. A documentação registra comercialização sob Gurgel. Também aparece na relação de participação de associada a Start of BR-800 production. Também aparece na relação de sucessão de associada a Gurgel Supermini. A documentação registra uso do componente Gurgel Enertron. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Automóvel compacto produzido pela Gurgel Motores entre 1988 e 1991. A Prefeitura de Rio Claro, cidade para onde a fábrica se transferiu em 1975, registra o BR-800 como o primeiro automóvel integralmente desenvolvido e fabricado no Brasil, criação de Amaral Gurgel. A empresa encerrou as atividades em 1996.",
   "id": "atlas:vehicle:gurgel-br-800",
   "legacy": {
     "id": "01a01016-ea4d-7042-b42b-c2bb234aaefa",
@@ -150,6 +170,7 @@
       "01a01016-ea50-7211-b83b-2cbe30a4ff28",
       "01a01016-ea50-73e6-893e-8bd7a9940f39"
     ],
+    "documentary_batch": "D05",
     "editorial_batch": "E10",
     "editorial_level": "editorial",
     "vehicle_kind": "production",

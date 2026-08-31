@@ -1,7 +1,7 @@
 {
   "baseline": {
-    "documentedFloor": 51,
-    "withoutDocumentaryCeiling": 250
+    "documentedFloor": 53,
+    "withoutDocumentaryCeiling": 248
   },
   "errors": [],
   "queue": [
@@ -1779,15 +1779,6 @@
       "type": "Vehicle"
     },
     {
-      "claimCount": 6,
-      "deferredLocators": 6,
-      "id": "atlas:vehicle:gurgel-br-800",
-      "name": "Gurgel BR-800",
-      "nominalLocators": 0,
-      "statementCount": 3,
-      "type": "Vehicle"
-    },
-    {
       "claimCount": 4,
       "deferredLocators": 0,
       "id": "atlas:vehicle:hippomobile-de-lenoir",
@@ -1855,15 +1846,6 @@
       "deferredLocators": 3,
       "id": "atlas:vehicle:lancia-12-hp",
       "name": "Lancia 12 HP",
-      "nominalLocators": 0,
-      "statementCount": 2,
-      "type": "Vehicle"
-    },
-    {
-      "claimCount": 2,
-      "deferredLocators": 2,
-      "id": "atlas:vehicle:land-rover-series-i",
-      "name": "Land Rover Series I",
       "nominalLocators": 0,
       "statementCount": 2,
       "type": "Vehicle"
@@ -2266,18 +2248,18 @@
     "Person": 12,
     "Place": 1,
     "Technology": 2,
-    "Vehicle": 79,
+    "Vehicle": 77,
     "VehicleInstance": 5
   },
-  "reportSha256": "a2c2115b9869054b2dd4b82c0013ebbfcf5df779b5454961ec0b691f5887bb3b",
+  "reportSha256": "0a64b4bb6617c5a1ad72247e2eab11c58bd81f6427a442ebdc2b8475adfe484d",
   "status": "PASS",
   "summary": {
-    "deferredEvidence": 467,
-    "documentaryEvidence": 142,
+    "deferredEvidence": 465,
+    "documentaryEvidence": 145,
     "editorialEntitiesWithClaims": 301,
-    "entitiesWithDocumentaryEvidence": 51,
-    "entitiesWithoutDocumentaryEvidence": 250,
-    "evidenceRecords": 865,
+    "entitiesWithDocumentaryEvidence": 53,
+    "entitiesWithoutDocumentaryEvidence": 248,
+    "evidenceRecords": 866,
     "nominalEvidence": 256
   },
   "version": "1.0.0"

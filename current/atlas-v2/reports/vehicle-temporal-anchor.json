@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 17
+    "anchoredVehiclesFloor": 20
   },
   "errors": [],
   "queue": [
@@ -235,14 +235,6 @@
     },
     {
       "assertedYears": [],
-      "claimCount": 6,
-      "id": "atlas:vehicle:gurgel-br-800",
-      "name": "Gurgel BR-800",
-      "needsIndependentSource": false,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
       "claimCount": 2,
       "id": "atlas:vehicle:gurgel-supermini",
       "name": "Gurgel Supermini",
@@ -314,16 +306,6 @@
       "needsTemporalAnchor": true
     },
     {
-      "assertedYears": [
-        1948
-      ],
-      "claimCount": 2,
-      "id": "atlas:vehicle:land-rover-series-i",
-      "name": "Land Rover Series I",
-      "needsIndependentSource": true,
-      "needsTemporalAnchor": false
-    },
-    {
       "assertedYears": [],
       "claimCount": 5,
       "id": "atlas:vehicle:lincoln-futura",
@@ -369,14 +351,6 @@
       "id": "atlas:vehicle:nissan-leaf-first-generation",
       "name": "Nissan LEAF — First Generation",
       "needsIndependentSource": true,
-      "needsTemporalAnchor": true
-    },
-    {
-      "assertedYears": [],
-      "claimCount": 4,
-      "id": "atlas:vehicle:panhard-levassor-type-m2e",
-      "name": "Panhard-Levassor Type M2E",
-      "needsIndependentSource": false,
       "needsTemporalAnchor": true
     },
     {
@@ -698,16 +672,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "bbda8a058d103b59ee93d5f8e0aa2e25df9d9215334a3e87267fb6f7d4e62556",
+  "reportSha256": "3779ba21589e5485dee640edfbe9053c51adab9808dadeada8fd9c7f3efb8456",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 17,
+    "anchoredVehicles": 20,
     "editorialVehicles": 102,
     "needingBoth": 72,
-    "needingIndependentSource": 78,
-    "needingTemporalAnchor": 79,
-    "queuedVehicles": 85
+    "needingIndependentSource": 77,
+    "needingTemporalAnchor": 77,
+    "queuedVehicles": 82
   },
   "version": "1.0.0"
 }

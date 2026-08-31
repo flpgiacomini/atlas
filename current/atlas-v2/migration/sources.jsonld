@@ -2047,6 +2047,20 @@
       "verifiedAt": "2026-08-25"
     },
     {
+      "author": "Aaron McKay",
+      "id": "atlas:source:classic-sports-car-1948-s-game-changers-land-rover",
+      "language": "en",
+      "legacyId": "1314429d-d42c-7c5a-bded-bf5ecdbaf02e",
+      "notes": "Fonte independente introduzida na passagem D05.",
+      "publisher": "Classic & Sports Car",
+      "sourceType": "specialized_journalism",
+      "title": "1948's game changers: Land-Rover",
+      "trust": "context",
+      "type": "Source",
+      "url": "https://www.classicandsportscar.com/features/1948s-game-changers-land-rover",
+      "verifiedAt": "2026-08-31T17:00:00+00:00"
+    },
+    {
       "externalIds": {
         "wikidata": "Q25226889"
       },

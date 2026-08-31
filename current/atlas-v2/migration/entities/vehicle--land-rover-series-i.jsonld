@@ -49,10 +49,43 @@
       "statementLegacyId": "01a010d9-28c5-798b-ac6d-18202fc22b63",
       "subject": "atlas:vehicle:land-rover-series-i",
       "supportStrength": "explicit",
-      "type": "Claim"
+      "type": "Claim",
+      "validity": {
+        "from": "1948",
+        "precision": "year",
+        "until": null
+      }
+    },
+    {
+      "confidence": "high",
+      "evidence": [
+        "atlas:evidence:legacy-67e10e7a74057055a52e7faf7a409bba"
+      ],
+      "id": "atlas:claim:legacy-80b48916e9d87f9ead9646f713a2325b",
+      "legacyId": "80b48916-e9d8-7f9e-ad96-46f713a2325b",
+      "note": "Confronto independente da estreia: a revista situa a apresentação no Salão de Amsterdã em 30 de abril de 1948. A instalação da produção em Solihull permanece sustentada apenas pela Land Rover.",
+      "object": {
+        "id": "atlas:brand:land-rover",
+        "type": "EntityReference"
+      },
+      "predicate": "marketed-under",
+      "resolutionStatus": "accepted",
+      "sources": [
+        "atlas:source:classic-sports-car-1948-s-game-changers-land-rover"
+      ],
+      "stance": "supports",
+      "statementLegacyId": "01a010d9-28c5-798b-ac6d-18202fc22b63",
+      "subject": "atlas:vehicle:land-rover-series-i",
+      "supportStrength": "explicit",
+      "type": "Claim",
+      "validity": {
+        "from": "1948",
+        "precision": "year",
+        "until": null
+      }
     }
   ],
-  "description": "Land Rover Series I é registrado no Atlas como veículo, dentro da história global do automóvel. Também aparece na relação de instância de associada a Land Rover pre-production HUE 166. A documentação registra comercialização sob Land Rover. A documentação registra produção em Land Rover Solihull Plant. Também aparece na relação de participação de associada a Land Rover Series I launch at Amsterdam Motor Show. O verbete reúne essas conexões como projeções do banco canônico, com proveniência e evidências consultáveis para cada afirmação histórica estruturada.",
+  "description": "Veículo utilitário apresentado pela Rover no Salão de Amsterdã em 30 de abril de 1948, segundo a revista Classic & Sports Car. A produção foi instalada na fábrica de Solihull e a marca Land Rover nasceu com este modelo, que deu origem a toda a linhagem posterior de utilitários da empresa.",
   "id": "atlas:vehicle:land-rover-series-i",
   "legacy": {
     "id": "01a010d9-28c4-7374-b925-54a7bfff62c8",
@@ -66,6 +99,7 @@
       "01a010d9-28c5-7efd-b894-037575df84ee",
       "01a010d9-28c5-7feb-b96e-dd6045aeef66"
     ],
+    "documentary_batch": "D05",
     "editorial_batch": "E10",
     "editorial_level": "editorial",
     "vehicle_kind": "production",
