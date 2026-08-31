@@ -23,6 +23,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from source_resolution import resolve as resolve_source_types
+
 ROOT = Path(__file__).resolve().parents[1]
 CLASSIFICATION = ROOT / "content/source-classification.json"
 REGISTRY = ROOT / "migration/sources.jsonld"
@@ -60,21 +62,6 @@ def published_entities() -> list[dict]:
             document = merge_entity(existing, document)
         by_id[document["id"]] = document
     return list(by_id.values())
-
-
-def source_types(classification: dict) -> dict[str, str]:
-    publishers = classification["publisherSourceTypes"]
-    resolved = {
-        item["id"]: item["sourceType"]
-        for item in load(REGISTRY)["items"]
-        if item.get("sourceType")
-    }
-    for path in list((ROOT / "migration/entities").glob("*.jsonld")) + list((ROOT / "content/entities").glob("*.jsonld")):
-        for source in load(path).get("sources") or []:
-            if isinstance(source, dict) and source["id"] not in resolved:
-                if source_type := source.get("sourceType") or publishers.get(source.get("publisher", "")):
-                    resolved[source["id"]] = source_type
-    return resolved
 
 
 def evaluate(document: dict, resolved: dict[str, str], dependent: set[str]) -> dict:
@@ -118,7 +105,10 @@ def merge_entity(migrated: dict, authored: dict) -> dict:
 def audit() -> dict:
     classification = load(CLASSIFICATION)
     dependent = set(classification["dependentSourceTypes"])
-    resolved = source_types(classification)
+    documents = [load(path) for path in
+                 list((ROOT / "migration/entities").glob("*.jsonld"))
+                 + list((ROOT / "content/entities").glob("*.jsonld"))]
+    resolved, _ = resolve_source_types(classification, documents)
 
     promotable: list[dict] = []
     below_bar: list[dict] = []

@@ -33,6 +33,7 @@
     "Ford Media Center": "manufacturer",
     "Ford Motor Company": "manufacturer",
     "General Motors": "manufacturer",
+    "Hispano Suiza Cars": "manufacturer",
     "Honda Motor Co.": "manufacturer",
     "Institut national de la propriété industrielle": "government",
     "International Energy Agency": "organization",
@@ -51,6 +52,9 @@
     "Science Museum Group": "museum",
     "Science Museum Group Collection": "museum",
     "Stellantis": "manufacturer",
+    "Stellantis / Opel": "manufacturer",
+    "Stellantis / Vauxhall": "manufacturer",
+    "Tatra Trucks": "manufacturer",
     "Tesla Motors": "manufacturer",
     "Tesla, Inc.": "manufacturer",
     "The Henry Ford": "museum",
@@ -66,6 +70,8 @@
     "Volvo Cars": "manufacturer",
     "Volvo Cars Media": "manufacturer",
     "Volvo Cars Media Norway": "manufacturer",
-    "Volvo Cars Media UK": "manufacturer"
+    "Volvo Cars Media UK": "manufacturer",
+    "ŠKODA AUTO": "manufacturer",
+    "Škoda Auto": "manufacturer"
   }
 }

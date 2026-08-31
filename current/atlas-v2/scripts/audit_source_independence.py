@@ -19,6 +19,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from source_resolution import resolve as resolve_source_types
+
 ROOT = Path(__file__).resolve().parents[1]
 CLASSIFICATION = ROOT / "content/source-classification.json"
 REGISTRY = ROOT / "migration/sources.jsonld"
@@ -64,34 +66,6 @@ def published_entities() -> list[dict]:
     return list(by_id.values())
 
 
-def source_index(documents: list[dict], classification: dict) -> tuple[dict[str, str], list[str]]:
-    """Resolve every source to a sourceType.
-
-    The migration registry declares the field; the 103 sources written inline in
-    content/entities/ do not, so they are classified by publisher through the
-    versioned map. A source that resolves to neither is an error: the gate must
-    not silently treat an unclassified source as independent.
-    """
-    publishers = classification["publisherSourceTypes"]
-    resolved: dict[str, str] = {
-        item["id"]: item["sourceType"]
-        for item in load(REGISTRY)["items"]
-        if item.get("sourceType")
-    }
-    unclassified: list[str] = []
-    for document in documents:
-        for source in document.get("sources") or []:
-            if not isinstance(source, dict) or source["id"] in resolved:
-                continue
-            source_type = source.get("sourceType") or publishers.get(source.get("publisher", ""))
-            if source_type:
-                resolved[source["id"]] = source_type
-            else:
-                unclassified.append(f'{source["id"]}: publisher {source.get("publisher") or "(ausente)"}')
-    return resolved, sorted(set(unclassified))
-
-
-
 def merge_entity(migrated: dict, authored: dict) -> dict:
     """Union two documents describing the same identity.
 
@@ -116,7 +90,7 @@ def audit() -> dict:
     # Sources are resolved from every file so that an unclassified source is
     # caught even in a document the build discards; the audit itself only judges
     # what is published.
-    resolved, unclassified = source_index(all_documents(), classification)
+    resolved, unclassified = resolve_source_types(classification, all_documents())
     documents = published_entities()
 
     errors = list(unclassified)

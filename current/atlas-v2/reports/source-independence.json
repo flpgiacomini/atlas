@@ -1,15 +1,15 @@
 {
   "baseline": {
-    "dependentOnlyCeiling": 176,
-    "independentFloor": 125
+    "dependentOnlyCeiling": 184,
+    "independentFloor": 117
   },
   "citationsBySourceType": {
     "archive": 12,
     "government": 26,
     "industry_association": 1,
-    "institutional": 86,
-    "manufacturer": 442,
-    "manufacturer_archive": 125,
+    "institutional": 66,
+    "manufacturer": 483,
+    "manufacturer_archive": 104,
     "manufacturer_regional": 3,
     "museum": 82,
     "museum_catalogue": 3,
@@ -53,6 +53,7 @@
     "atlas:event:electric-scale-and-modular-industry-2010-2014",
     "atlas:event:emissions-energy-and-compact-cars-1971-1976",
     "atlas:event:end-of-ford-model-t-production",
+    "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
     "atlas:event:ferrari-125-s-debut-1947",
     "atlas:event:ferrari-125-s-debut-year",
     "atlas:event:fiat-founded-in-turin",
@@ -125,6 +126,12 @@
     "atlas:organization:hyundai-motor-company",
     "atlas:organization:lancia-c",
     "atlas:organization:renault-freres",
+    "atlas:person:carl-benz",
+    "atlas:person:ferdinand-alexander-porsche",
+    "atlas:person:ferdinand-piech",
+    "atlas:person:gottlieb-daimler",
+    "atlas:person:nils-bohlin",
+    "atlas:person:richard-attwood",
     "atlas:technology:modern-three-point-safety-belt",
     "atlas:vehicle-instance:land-rover-pre-production-hue-166",
     "atlas:vehicle-instance:porsche-917-001",
@@ -133,6 +140,7 @@
     "atlas:vehicle:alfa-romeo-bat-7",
     "atlas:vehicle:alfa-romeo-bat-9",
     "atlas:vehicle:audi-quattro",
+    "atlas:vehicle:benz-patent-motor-car",
     "atlas:vehicle:benz-patent-motor-car-model-1",
     "atlas:vehicle:benz-velo",
     "atlas:vehicle:bmw-3-series",
@@ -199,14 +207,14 @@
     "atlas:vehicle:volkswagen-golf-first-generation"
   ],
   "errors": [],
-  "reportSha256": "a95d361a6a08cf0658acf79e0546a3c0fe703bf0b187814f03f862bbed4baff2",
+  "reportSha256": "c0f1614684f8cac3a958d25dc690aea497d8792a3c85013b5c28850ee2e18def",
   "status": "PASS",
   "summary": {
     "citations": 874,
-    "dependentCitations": 571,
-    "dependentOnlyEntities": 176,
+    "dependentCitations": 591,
+    "dependentOnlyEntities": 184,
     "editorialEntitiesWithClaims": 301,
-    "independentEntities": 125,
+    "independentEntities": 117,
     "sourcesClassified": 745,
     "sourcesUnclassified": 0
   },

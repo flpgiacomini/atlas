@@ -5,7 +5,7 @@
     "note": "Promoção exige ao menos um claim com evidência e ao menos uma fonte fora da parte interessada."
   },
   "baseline": {
-    "editorialBelowBarCeiling": 319
+    "editorialBelowBarCeiling": 327
   },
   "belowBar": [
     {
@@ -743,6 +743,17 @@
       "id": "atlas:event:end-of-ford-model-t-production",
       "independentOnlyByReference": false,
       "name": "End of Ford Model T production",
+      "type": "Event"
+    },
+    {
+      "claimCount": 3,
+      "clearsBar": false,
+      "evidencedClaimCount": 3,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:event:ensaios-do-benz-patent-motorwagen-em-1885",
+      "independentOnlyByReference": false,
+      "name": "Ensaios do Benz Patent-Motorwagen em 1885",
       "type": "Event"
     },
     {
@@ -1989,6 +2000,39 @@
       "type": "Organization"
     },
     {
+      "claimCount": 4,
+      "clearsBar": false,
+      "evidencedClaimCount": 4,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:person:carl-benz",
+      "independentOnlyByReference": false,
+      "name": "Carl Benz",
+      "type": "Person"
+    },
+    {
+      "claimCount": 3,
+      "clearsBar": false,
+      "evidencedClaimCount": 3,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:person:ferdinand-alexander-porsche",
+      "independentOnlyByReference": false,
+      "name": "Ferdinand Alexander Porsche",
+      "type": "Person"
+    },
+    {
+      "claimCount": 3,
+      "clearsBar": false,
+      "evidencedClaimCount": 3,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:person:ferdinand-piech",
+      "independentOnlyByReference": false,
+      "name": "Ferdinand Piëch",
+      "type": "Person"
+    },
+    {
       "claimCount": 0,
       "clearsBar": false,
       "evidencedClaimCount": 0,
@@ -2030,6 +2074,17 @@
       "id": "atlas:person:giorgetto-giugiaro",
       "independentOnlyByReference": false,
       "name": "Giorgetto Giugiaro",
+      "type": "Person"
+    },
+    {
+      "claimCount": 1,
+      "clearsBar": false,
+      "evidencedClaimCount": 1,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:person:gottlieb-daimler",
+      "independentOnlyByReference": false,
+      "name": "Gottlieb Daimler",
       "type": "Person"
     },
     {
@@ -2187,6 +2242,17 @@
       "type": "Person"
     },
     {
+      "claimCount": 2,
+      "clearsBar": false,
+      "evidencedClaimCount": 2,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:person:nils-bohlin",
+      "independentOnlyByReference": false,
+      "name": "Nils Bohlin",
+      "type": "Person"
+    },
+    {
       "claimCount": 0,
       "clearsBar": false,
       "evidencedClaimCount": 0,
@@ -2195,6 +2261,17 @@
       "id": "atlas:person:ransom-e-olds",
       "independentOnlyByReference": false,
       "name": "Ransom E. Olds",
+      "type": "Person"
+    },
+    {
+      "claimCount": 3,
+      "clearsBar": false,
+      "evidencedClaimCount": 3,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:person:richard-attwood",
+      "independentOnlyByReference": false,
+      "name": "Richard Attwood",
       "type": "Person"
     },
     {
@@ -2789,6 +2866,17 @@
       "id": "atlas:vehicle:audi-quattro",
       "independentOnlyByReference": false,
       "name": "Audi quattro",
+      "type": "Vehicle"
+    },
+    {
+      "claimCount": 7,
+      "clearsBar": false,
+      "evidencedClaimCount": 7,
+      "hasEvidencedClaim": true,
+      "hasIndependentSource": false,
+      "id": "atlas:vehicle:benz-patent-motor-car",
+      "independentOnlyByReference": false,
+      "name": "Benz Patent-Motorwagen",
       "type": "Vehicle"
     },
     {
@@ -3523,15 +3611,15 @@
     "Circuit": 4,
     "Component": 8,
     "Entry": 1,
-    "Event": 93,
+    "Event": 94,
     "Facility": 10,
     "Organization": 36,
-    "Person": 24,
+    "Person": 30,
     "Place": 3,
     "Series": 4,
     "Team": 3,
     "Technology": 35,
-    "Vehicle": 71,
+    "Vehicle": 72,
     "VehicleInstance": 3
   },
   "errors": [],
@@ -3570,12 +3658,12 @@
       "type": "Vehicle"
     }
   ],
-  "reportSha256": "22917c1a636c8b5a13bbf6c071a92913a51a46c2c2f39394244a91a77fe110a4",
+  "reportSha256": "12d20844782dba8d84b8a55e6ea7b1dc79e724be793141fe9018615caac903ac",
   "status": "PASS",
   "summary": {
     "catalogEntities": 522,
     "clearingBarOnlyByReference": 8,
-    "editorialBelowBar": 319,
+    "editorialBelowBar": 327,
     "editorialEntities": 444,
     "promotableCatalogEntities": 3
   },

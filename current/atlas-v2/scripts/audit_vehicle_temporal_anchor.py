@@ -19,6 +19,8 @@ import json
 import re
 from pathlib import Path
 
+from source_resolution import resolve as resolve_source_types
+
 ROOT = Path(__file__).resolve().parents[1]
 CLASSIFICATION = ROOT / "content/source-classification.json"
 REGISTRY = ROOT / "migration/sources.jsonld"
@@ -74,22 +76,6 @@ def corpora() -> tuple[dict[str, dict], dict[str, dict], dict[str, dict]]:
     return migrated, authored, published
 
 
-def source_types(classification: dict, documents: list[dict]) -> dict[str, str]:
-    publishers = classification["publisherSourceTypes"]
-    resolved = {
-        item["id"]: item["sourceType"]
-        for item in load(REGISTRY)["items"]
-        if item.get("sourceType")
-    }
-    for document in documents:
-        for source in document.get("sources") or []:
-            if isinstance(source, dict) and source["id"] not in resolved:
-                if source_type := source.get("sourceType") or publishers.get(source.get("publisher", "")):
-                    resolved[source["id"]] = source_type
-    return resolved
-
-
-
 def merge_entity(migrated: dict, authored: dict) -> dict:
     """Union two documents describing the same identity.
 
@@ -112,7 +98,7 @@ def audit() -> dict:
     classification = load(CLASSIFICATION)
     dependent = set(classification["dependentSourceTypes"])
     migrated, authored, published = corpora()
-    resolved = source_types(classification, list(migrated.values()) + list(authored.values()))
+    resolved, _ = resolve_source_types(classification, list(migrated.values()) + list(authored.values()))
 
     queue: list[dict] = []
     anchored: list[str] = []

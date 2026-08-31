@@ -1,13 +1,14 @@
 {
+  "version": "1.0.0",
+  "note": "Os pisos de independência e a barra de promoção foram reduzidos em 2026-08-31 por correção de medida, não por regressão do acervo. Até então três auditorias liam o sourceType declarado no registro e nove páginas de fabricante estavam tipadas como institutional, tipo que não consta em dependentSourceTypes; a parte interessada contava como o próprio confronto. Com a correção, entidades confrontáveis caem de 125 para 117 e as oito que perdem o confronto falso são Carl Benz, Gottlieb Daimler, Ferdinand Piëch, Ferdinand Alexander Porsche, Nils Bohlin, Richard Attwood, os ensaios de 1885 e o Benz Patent-Motorwagen. Ver scripts/source_resolution.py.",
   "maximums": {
-    "dependentOnlyEntities": 176,
-    "editorialBelowBar": 319,
+    "dependentOnlyEntities": 184,
+    "editorialBelowBar": 327,
     "entitiesWithoutDocumentaryEvidence": 242
   },
   "minimums": {
-    "anchoredVehicles": 28,
+    "anchoredVehicles": 27,
     "entitiesWithDocumentaryEvidence": 59,
-    "independentEntities": 125
-  },
-  "version": "1.0.0"
+    "independentEntities": 117
+  }
 }

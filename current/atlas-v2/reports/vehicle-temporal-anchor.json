@@ -1,7 +1,7 @@
 {
   "anchorHeldInDiscardedDocument": [],
   "baseline": {
-    "anchoredVehiclesFloor": 28
+    "anchoredVehiclesFloor": 27
   },
   "errors": [],
   "queue": [
@@ -44,6 +44,18 @@
       "name": "Audi quattro",
       "needsIndependentSource": true,
       "needsTemporalAnchor": true
+    },
+    {
+      "assertedYears": [
+        1885,
+        1886,
+        1888
+      ],
+      "claimCount": 7,
+      "id": "atlas:vehicle:benz-patent-motor-car",
+      "name": "Benz Patent-Motorwagen",
+      "needsIndependentSource": true,
+      "needsTemporalAnchor": false
     },
     {
       "assertedYears": [],
@@ -608,16 +620,16 @@
       "needsTemporalAnchor": false
     }
   ],
-  "reportSha256": "30b6d7448dff3b25266acb0a3a06f5c05b245b8393eaec641be5f5b1420638f1",
+  "reportSha256": "ad7c69a9556e23c1046897b4aebf864d82f74f2513290475d622735747553bc3",
   "status": "PASS",
   "summary": {
     "anchorHeldInDiscardedDocument": 0,
-    "anchoredVehicles": 28,
+    "anchoredVehicles": 27,
     "editorialVehicles": 102,
     "needingBoth": 66,
-    "needingIndependentSource": 71,
+    "needingIndependentSource": 72,
     "needingTemporalAnchor": 69,
-    "queuedVehicles": 74
+    "queuedVehicles": 75
   },
   "version": "1.0.0"
 }
